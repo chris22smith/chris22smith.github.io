@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Chris Smith</title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link href="http://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
+    <link rel="canonical" href="http://chrissmith.xyz/">
+    <link rel="alternate" type="application/rss+xml" title="Chris Smith" href="http://chrissmith.xyz/feed.xml" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <style>
+        html,
+        body {
+            height:100%;
+            margin:0;
+            padding:0;
+        }
+        html {
+            font-size:17px;
+        }
+        body {
+            background-color:#000;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-size:100%;
+            overflow:hidden;
+        }
+        .top-border {
+            background-color:#f09;
+            height:5px;
+            left:0;
+            position:fixed;
+            right:0;
+            top:0;
+            z-index:2;
+        }
+        .bottom-border {
+            background-color:#f09;
+            bottom:0;
+            height:5px;
+            left:0;
+            position:fixed;
+            right:0;
+            z-index:2;
+        }
+            
+        
+        body:before {
+            content: "";
+            position: fixed;
+            width: 300%;
+            height: 300%;
+            top: -100%;
+            left: -100%;
+            z-index: -1;
+            background-image:url(img/moon1.jpg);
+            background-size:cover;
+            -moz-animation: spin-cw 60s linear infinite;
+            -o-animation: spin-cw 60s linear infinite;
+            -webkit-animation: spin-cw 60s linear infinite;
+            animation: spin-cw 60s linear infinite;
+        }
+        @-moz-keyframes spin-cw {
+            from {
+                -moz-transform:rotate(0deg);
+                -moz-transform-origin:center;
+                transform:rotate(0deg);
+                transform-origin: center;
+            }
+            to {
+                -moz-transform: rotate(360deg);
+                -moz-transform-origin: center;
+                transform: rotate(360deg);
+                transform-origin: center;
+            }
+        }
+        @-webkit-keyframes spin-cw {
+            from {
+                -webkit-transform:rotate(0deg);
+                -webkit-transform-origin: center;
+                transform:rotate(0deg);
+                transform-origin: center;
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+                -webkit-transform-origin: center;
+                transform: rotate(360deg);
+                transform-origin: center;
+            }
+        }
+        @keyframes spin-cw {
+            from {
+                -ms-transform:rotate(0deg);
+                -ms-transform-origin: center;
+                -o-transform-origin: center;
+                -o-transform:rotate(0deg);
+                transform:rotate(0deg);
+                transform-origin: center;
+            }
+            to {
+                -ms-transform: rotate(360deg);
+                -ms-transform-origin: center;
+                -o-transform: rotate(360deg);
+                -o-transform-origin: center;
+                transform: rotate(360deg);
+                transform-origin: center;
+            }
+        }
+        h1 {
+            color:#fff;
+            float:left;
+            font-family: 'Anton', sans-serif;
+            font-size:5em;
+            line-height: .9;
+            padding:1em;
+            position: relative;
+            text-shadow: 0 1px 1px #000;
+            z-index:2;
+        }
+        a,
+        a:link,
+        a:visited {
+            color:#fff;
+            text-decoration: none;
+            -webkit-transition:color 1s;
+            -moz-transition:color 1s;
+            transition:color 1s;
+        }
+        a:hover,
+        a:active,
+        a:focus {
+            color:#09f;
+        }
+        nav ul {
+            bottom:1em;            
+            font-size:2em;
+            list-style: none;
+            position: absolute;
+            right:1em;
+            z-index:2;
+        }
+        nav ul li {
+            display:inline-block;
+            font-family: sans-serif;
+            padding:0 .5em;
+        }
+        
+        @-webkit-keyframes grain {
+          0%, 100% {
+            -moz-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+              opacity:1;
+          }
+          10% {
+            -moz-transform: translate(-5%, -10%);
+            -ms-transform: translate(-5%, -10%);
+            -webkit-transform: translate(-5%, -10%);
+            transform: translate(-5%, -10%);
+          }
+          20% {
+            -moz-transform: translate(-15%, 5%);
+            -ms-transform: translate(-15%, 5%);
+            -webkit-transform: translate(-15%, 5%);
+            transform: translate(-15%, 5%);
+          }
+          30% {
+            -moz-transform: translate(7%, -25%);
+            -ms-transform: translate(7%, -25%);
+            -webkit-transform: translate(7%, -25%);
+            transform: translate(7%, -25%);
+          }
+          40% {
+            -moz-transform: translate(-5%, 25%);
+            -ms-transform: translate(-5%, 25%);
+            -webkit-transform: translate(-5%, 25%);
+            transform: translate(-5%, 25%);
+          }
+          50% {
+            -moz-transform: translate(-15%, 10%);
+            -ms-transform: translate(-15%, 10%);
+            -webkit-transform: translate(-15%, 10%);
+            transform: translate(-15%, 10%);
+              opacity:0;
+          }
+          60% {
+            -moz-transform: translate(15%, 0%);
+            -ms-transform: translate(15%, 0%);
+            -webkit-transform: translate(15%, 0%);
+            transform: translate(15%, 0%);
+          }
+          70% {
+            -moz-transform: translate(0%, 15%);
+            -ms-transform: translate(0%, 15%);
+            -webkit-transform: translate(0%, 15%);
+            transform: translate(0%, 15%);
+          }
+          80% {
+            -moz-transform: translate(3%, 35%);
+            -ms-transform: translate(3%, 35%);
+            -webkit-transform: translate(3%, 35%);
+            transform: translate(3%, 35%);
+          }
+          90% {
+            -moz-transform: translate(-10%, 10%);
+            -ms-transform: translate(-10%, 10%);
+            -webkit-transform: translate(-10%, 10%);
+            transform: translate(-10%, 10%);
+          }
+        }
+        @-moz-keyframes grain {
+          0%, 100% {
+            -moz-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+              opacity:1;
+          }
+          10% {
+            -moz-transform: translate(-5%, -10%);
+            -ms-transform: translate(-5%, -10%);
+            -webkit-transform: translate(-5%, -10%);
+            transform: translate(-5%, -10%);
+          }
+          20% {
+            -moz-transform: translate(-15%, 5%);
+            -ms-transform: translate(-15%, 5%);
+            -webkit-transform: translate(-15%, 5%);
+            transform: translate(-15%, 5%);
+          }
+          30% {
+            -moz-transform: translate(7%, -25%);
+            -ms-transform: translate(7%, -25%);
+            -webkit-transform: translate(7%, -25%);
+            transform: translate(7%, -25%);
+          }
+          40% {
+            -moz-transform: translate(-5%, 25%);
+            -ms-transform: translate(-5%, 25%);
+            -webkit-transform: translate(-5%, 25%);
+            transform: translate(-5%, 25%);
+          }
+          50% {
+            -moz-transform: translate(-15%, 10%);
+            -ms-transform: translate(-15%, 10%);
+            -webkit-transform: translate(-15%, 10%);
+            transform: translate(-15%, 10%);
+              opacity:0;
+          }
+          60% {
+            -moz-transform: translate(15%, 0%);
+            -ms-transform: translate(15%, 0%);
+            -webkit-transform: translate(15%, 0%);
+            transform: translate(15%, 0%);
+          }
+          70% {
+            -moz-transform: translate(0%, 15%);
+            -ms-transform: translate(0%, 15%);
+            -webkit-transform: translate(0%, 15%);
+            transform: translate(0%, 15%);
+          }
+          80% {
+            -moz-transform: translate(3%, 35%);
+            -ms-transform: translate(3%, 35%);
+            -webkit-transform: translate(3%, 35%);
+            transform: translate(3%, 35%);
+          }
+          90% {
+            -moz-transform: translate(-10%, 10%);
+            -ms-transform: translate(-10%, 10%);
+            -webkit-transform: translate(-10%, 10%);
+            transform: translate(-10%, 10%);
+          }
+        }
+        @-ms-keyframes grain {
+          0%, 100% {
+            -moz-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+              opacity:1;
+          }
+          10% {
+            -moz-transform: translate(-5%, -10%);
+            -ms-transform: translate(-5%, -10%);
+            -webkit-transform: translate(-5%, -10%);
+            transform: translate(-5%, -10%);
+          }
+          20% {
+            -moz-transform: translate(-15%, 5%);
+            -ms-transform: translate(-15%, 5%);
+            -webkit-transform: translate(-15%, 5%);
+            transform: translate(-15%, 5%);
+          }
+          30% {
+            -moz-transform: translate(7%, -25%);
+            -ms-transform: translate(7%, -25%);
+            -webkit-transform: translate(7%, -25%);
+            transform: translate(7%, -25%);
+          }
+          40% {
+            -moz-transform: translate(-5%, 25%);
+            -ms-transform: translate(-5%, 25%);
+            -webkit-transform: translate(-5%, 25%);
+            transform: translate(-5%, 25%);
+          }
+          50% {
+            -moz-transform: translate(-15%, 10%);
+            -ms-transform: translate(-15%, 10%);
+            -webkit-transform: translate(-15%, 10%);
+            transform: translate(-15%, 10%);
+              opacity:0;
+          }
+          60% {
+            -moz-transform: translate(15%, 0%);
+            -ms-transform: translate(15%, 0%);
+            -webkit-transform: translate(15%, 0%);
+            transform: translate(15%, 0%);
+          }
+          70% {
+            -moz-transform: translate(0%, 15%);
+            -ms-transform: translate(0%, 15%);
+            -webkit-transform: translate(0%, 15%);
+            transform: translate(0%, 15%);
+          }
+          80% {
+            -moz-transform: translate(3%, 35%);
+            -ms-transform: translate(3%, 35%);
+            -webkit-transform: translate(3%, 35%);
+            transform: translate(3%, 35%);
+          }
+          90% {
+            -moz-transform: translate(-10%, 10%);
+            -ms-transform: translate(-10%, 10%);
+            -webkit-transform: translate(-10%, 10%);
+            transform: translate(-10%, 10%);
+          }
+        }
+        @keyframes grain {
+          0%, 100% {
+            -moz-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+              opacity:1;
+          }
+          10% {
+            -moz-transform: translate(-5%, -10%);
+            -ms-transform: translate(-5%, -10%);
+            -webkit-transform: translate(-5%, -10%);
+            transform: translate(-5%, -10%);
+          }
+          20% {
+            -moz-transform: translate(-15%, 5%);
+            -ms-transform: translate(-15%, 5%);
+            -webkit-transform: translate(-15%, 5%);
+            transform: translate(-15%, 5%);
+          }
+          30% {
+            -moz-transform: translate(7%, -25%);
+            -ms-transform: translate(7%, -25%);
+            -webkit-transform: translate(7%, -25%);
+            transform: translate(7%, -25%);
+          }
+          40% {
+            -moz-transform: translate(-5%, 25%);
+            -ms-transform: translate(-5%, 25%);
+            -webkit-transform: translate(-5%, 25%);
+            transform: translate(-5%, 25%);
+          }
+          50% {
+            -moz-transform: translate(-15%, 10%);
+            -ms-transform: translate(-15%, 10%);
+            -webkit-transform: translate(-15%, 10%);
+            transform: translate(-15%, 10%);
+              opacity:0;
+          }
+          60% {
+            -moz-transform: translate(15%, 0%);
+            -ms-transform: translate(15%, 0%);
+            -webkit-transform: translate(15%, 0%);
+            transform: translate(15%, 0%);
+          }
+          70% {
+            -moz-transform: translate(0%, 15%);
+            -ms-transform: translate(0%, 15%);
+            -webkit-transform: translate(0%, 15%);
+            transform: translate(0%, 15%);
+          }
+          80% {
+            -moz-transform: translate(3%, 35%);
+            -ms-transform: translate(3%, 35%);
+            -webkit-transform: translate(3%, 35%);
+            transform: translate(3%, 35%);
+          }
+          90% {
+            -moz-transform: translate(-10%, 10%);
+            -ms-transform: translate(-10%, 10%);
+            -webkit-transform: translate(-10%, 10%);
+            transform: translate(-10%, 10%);
+              
+          }
+        }
+        body:after {
+          -webkit-animation: grain 5s steps(10) infinite;
+          -moz-animation: grain 5s steps(10) infinite;
+          -ms-animation: grain 5s steps(10) infinite;
+          animation: grain 5s steps(10) infinite;
+          background: url(img/noise1.png) repeat;
+          content: "";
+          display: block;
+          height: 300%;
+          left: -100%;
+          position: absolute;
+          top: -100%;
+          width: 300%;
+          z-index: 1;
+        }
+        
+        @media (max-width:62em) {
+            html {
+                font-size:15px;
+            }
+        }
+        @media (max-width:43.75em) {
+            html {
+                font-size:13px;
+            }
+        }
+    </style>
+</head>
+
+
+  <body>
+    <div class="top-border"></div>
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <h1>
+      <a class="site-title" href="/">Chris Smith</a>
+    </h1>
+
+    <nav class="site-nav">
+      <div class="trigger">
+        <ul>
+        
+          
+            <li>
+                <a class="page-link" href="/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+                <a class="page-link" href="/blog/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+                <a class="page-link" href="/contact/">Contact</a>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <!--<h1>Chris Smith</h1>-->
+
+<!--<article>
+    <h2>Hey!</h2>
+    <p>Welcome to my site.</p>
+    <p>No real theme or purpose to anything here, just bits and pieces, as and when.</p>
+    <p>If you want to know more about this site you can read my <a href="/web/2014/09/07/my-new-website.html">My New Website</a> blog post.</p>
+    <p>For more about me see my <a href="/about">About</a> page.</p>
+    <p>Enjoy.</p>
+</article>-->
+      <div class="bottom-border"></div>
+  </body>
+
+</html>
