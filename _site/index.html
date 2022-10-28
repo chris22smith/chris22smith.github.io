@@ -1,9 +1,24 @@
----
-layout: layouts/blog.njk
-title: My Rad Nunjucks Blog Post
-css: ../css/blog.css
----
 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Rad Nunjucks Blog Post</title>
+    <link rel="stylesheet" href="../css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    
 <article>
   <img
     src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
@@ -35,3 +50,6 @@ css: ../css/blog.css
     soon...</p
   >
 </article>
+
+  </body>
+</html>

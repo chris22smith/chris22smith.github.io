@@ -1,0 +1,31 @@
+body {
+  font-family: monospace;
+  font-size: clamp(12px, 0.5rem + 1vw, 24px);
+  padding: 5vmin;
+}
+
+article {
+  background-color: #fff;
+  border: solid 0.25em currentColor;
+  border-radius: 5vmin;
+  max-width: 64rem;
+  padding: 5vmin;
+}
+
+img {
+  float: right;
+  border-radius: 50%;
+  border: solid 0.25em currentColor;
+  height: 20vmin;
+  margin: 0 0 1rem 1rem;
+  width: 20vmin;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0 0 1rem 0;
+}
+
+p:last-child {
+  margin: 3rem 0 0 0;
+}
