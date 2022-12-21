@@ -19,5 +19,8 @@
   "homepage": "https://github.com/chris22smith/chrissmith.xyz#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
   }
 }
