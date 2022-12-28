@@ -4,12 +4,24 @@ body {
   padding: 5vmin;
 }
 
+header > p {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000;
+}
+
 article {
   background-color: #fff;
-  border: solid 0.25em currentColor;
-  border-radius: 5vmin;
+  border: solid 1px currentColor;
+  border-radius: 2vmin;
   max-width: 64rem;
   padding: 5vmin;
+}
+
+header,
+footer {
+  padding: 0 5vmin;
 }
 
 img {
@@ -26,6 +38,20 @@ h1 {
   margin: 0 0 1rem 0;
 }
 
-p:last-child {
-  margin: 3rem 0 0 0;
+h1:after {
+  animation: blink 1s linear alternate infinite;
+  content: "_";
+}
+
+p {
+  line-height: 1.5;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

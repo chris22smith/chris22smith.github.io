@@ -9,7 +9,7 @@ title: My Rad Blog
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ css }}">
+    <link rel="stylesheet" href="/css/blog.css">
     <style>
       * {
         box-sizing: border-box;
@@ -22,6 +22,8 @@ title: My Rad Blog
     </style>
   </head>
   <body>
+    {% include 'header.html' %}
     {{ content | safe }}
+    {% include 'footer.html' %}
   </body>
 </html>
