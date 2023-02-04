@@ -4,54 +4,78 @@ body {
   padding: 5vmin;
 }
 
-header > p {
-  color: #fff;
-  font-size: 2rem;
-  margin: 0 0 1rem 0;
-  text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000;
-}
-
-article {
-  background-color: #fff;
-  border: solid 1px currentColor;
-  border-radius: 2vmin;
-  max-width: 60rem;
-  padding: 5vmin;
-}
-
 header,
 footer {
   padding: 0 5vmin;
 }
 
-img {
-  float: right;
+header {
+  max-width: 60rem;
+  position: relative;
+}
+
+header > p,
+footer > p {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  text-shadow: 0.125rem 0.125rem rgb(255 255 255 / 25%);
+  transform: rotate(-3deg);
+}
+
+header > p > .ext {
+  color: #f09;
+  font-size: small;
+}
+
+footer > p > a {
+  color: #09f;
+}
+
+article {
+  background-color: #fff;
+  border-radius: 1vmin;
+  max-width: 60rem;
+  padding: 5vmin;
+}
+
+header > img {
   border-radius: 50%;
-  border: solid 0.25em currentColor;
-  height: 20vmin;
-  margin: 0 0 1rem 1rem;
-  width: 20vmin;
+  height: 15vmin;
+  position: absolute;
+  right: 5vmin;
+  top: 0;
+  transform: rotate(-3deg);
+  width: 15vmin;
 }
 
 h1 {
+  display: inline-block;
   font-size: 3em;
   margin: 0 0 1rem 0;
+  position: relative;
 }
 
-h1:after {
-  animation: blink 1s linear alternate infinite;
-  content: "_";
+h1:before {
+  animation: underline 1s linear;
+  border-bottom: solid 0.125rem currentColor;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform-origin: bottom left;
 }
 
 p {
   line-height: 1.5;
 }
 
-@keyframes blink {
+@keyframes underline {
   0% {
-    opacity: 0;
+    transform: scaleX(0);
   }
   100% {
-    opacity: 1;
+    transform: scaleX(1);
   }
 }
