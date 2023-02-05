@@ -70,6 +70,12 @@ h1:before {
 p {
   background-color: #f3f3f6;
   line-height: 1.5;
+  padding: 0 0.25rem;
+}
+
+.details {
+  color: #666;
+  text-align: end;
 }
 
 @keyframes underline {
