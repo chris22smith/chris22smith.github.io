@@ -1,0 +1,165 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning Fast Filtering in JavaScript</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <img
+    src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+    alt="Chris Smith"
+  />
+  <p>Chris Smith <span class="ext">.xyz</span></p>
+</header>
+
+    
+<article>
+  <h1>Lightning Fast Filtering in JavaScript</h1>
+  <p
+    >I thought I'd share a technique for filtering large sets of data quickly in
+    a web page. The scenario is a biggish set of data, 100,000 records, with
+    each record having 3 properties, and we want to filter them using text
+    matching.</p
+  >
+  <p
+    >Here is the finished article with dummy generated data. Give it a try. Just
+    type any 3 or 4 characters and watch it do its thing.</p
+  >
+  <p
+    class="codepen"
+    data-height="600"
+    data-default-tab="result"
+    data-slug-hash="mXeMGL"
+    data-user="chris22smith"
+    style="
+      height: 300px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid;
+      margin: 1em 0;
+      padding: 1em;
+    "
+  >
+    <span
+      >See the Pen
+      <a href="https://codepen.io/chris22smith/pen/mXeMGL">
+        Fast Filtering with JavaScript</a
+      >
+      by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a
+      >) on <a href="https://codepen.io">CodePen</a>.</span
+    >
+  </p>
+  <script
+    async
+    src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+  ></script>
+  <p
+    >Fast, isn't it? You can go into the JavaScript tab and see how it all works
+    but I'll explain some of the main parts.</p
+  >
+  <p
+    >When trying to make it fast the most important thing to be aware of is that
+    changing JavaScript objects is fast, changing the DOM is slow. So, we do as
+    much as we can in JavaScript and then just update the DOM at the end. If you
+    try to create 100,000 &lt;li&gt; tags it will be very slow and will probably
+    die on you.</p
+  >
+  <p
+    >The first step is to set up a function to convert the data array into a
+    HTML list. We keep this fast by setting a limit on how many items we will
+    show. In this demo I've set it to 10 but even increasing it to 100 makes
+    little difference to the speed. They key thing is not to get into big
+    numbers which put a strain on the DOM. So we don't loop through all the
+    items, only the first few. A nice small loop, which runs quickly.</p
+  >
+  <p
+    >The building is all done in JavaScript, with nothing touching the DOM until
+    we have a complete Document Fragment with all the list items ready to append
+    to our list. I've separated out the building of each list item into its own
+    function to hopefully make this even faster. Whenever iterating through
+    large numbers of records the more variables and functions we can take out of
+    the loop and pre-define the better.</p
+  >
+  <p
+    >The next step is to get the data array with the full data and filter it
+    down into a smaller array using the native JavaScript filter() method. This
+    method is incredibly fast, much quicker than using a for loop to iterate
+    through each item. You can read more about
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+      target="_blank"
+      rel="noopener"
+      >filter() on MDN</a
+    >. If you use a predefined function with it rather than an anonymous
+    function it's faster still.</p
+  >
+  <p
+    >Once we have the filtered down array we can call our function to rebuild
+    the list in HTML. It all happens in the blink of an eye.</p
+  >
+  <p
+    >As a final touch I've added a count message function which gets called each
+    time we filter. This just helps to see what's going on - how many records
+    are being shown and the size of the reduced data set.</p
+  >
+</article>
+
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+  </p>
+  <p>&copy; Chris Smith, 2008-2023.</p>
+</footer>
+
+  </body>
+</html>
