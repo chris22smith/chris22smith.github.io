@@ -52,25 +52,19 @@ header > img {
 }
 
 h1 {
-  display: inline-block;
   font-size: 3em;
   margin: 0 0 1rem 0;
-  position: relative;
+  text-shadow: 1px 1px #f09, 2px 2px #f09, 3px 3px currentColor;
 }
 
-h1:before {
-  animation: underline 1s linear;
-  border-bottom: solid 0.125rem currentColor;
-  content: "";
-  inset: 0;
-  position: absolute;
-  transform-origin: bottom left;
+h2 {
+  text-shadow: 1px 1px #f09;
 }
 
-p {
-  background-color: #f3f3f6;
+p,
+ul {
+  font-family: sans-serif;
   line-height: 1.5;
-  padding: 0 0.25rem;
 }
 
 .details {
@@ -78,11 +72,8 @@ p {
   text-align: end;
 }
 
-@keyframes underline {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(1);
-  }
+.notice {
+  border: solid 2px #fc0;
+  border-radius: 1vmin;
+  padding: 1rem;
 }

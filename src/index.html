@@ -8,7 +8,7 @@ description: Intro page about Chris Smith, front-end web developer, and his pers
   <h1>Hello World</h1>
   <p
     >Hello. I'm Chris, a front-end web developer from the UK. I blog about web
-    development and other nerdery.</p
+    development and whatever else is on my mind.</p
   >
   <p
     >You can find me on
@@ -33,8 +33,10 @@ description: Intro page about Chris Smith, front-end web developer, and his pers
       >the elephant site</a
     >. Come and say hello.</p
   >
-  <p
-    >This site is currently being redeveloped behind closed doors, converting
-    from WordPress to Eleventy, back soon...</p
+  <p class="notice"
+    >This site is currently being redeveloped. I'm converting it from WordPress
+    to Eleventy. Historic blog posts will reappear as I can add them.</p
   >
+  <h2>Blog posts</h2>
+  {{ collections.blog | eleventyNavigation | eleventyNavigationToHtml }}
 </article>

@@ -1,0 +1,12 @@
+---
+layout: layouts/blog.njk
+title: List of Chris Smith's web development blog posts
+description: List of blog posts and articles about web development.
+eleventyNavigation:
+  key: Blog
+---
+
+<article>
+  <h1>Blog posts</h1>
+  {{ collections.blog | eleventyNavigation | eleventyNavigationToHtml }}
+</article>
