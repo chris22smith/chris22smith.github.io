@@ -20,6 +20,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "debug": "^4.3.4"
+    "debug": "^4.3.4",
+    "json-to-frontmatter-markdown": "^1.0.0",
+    "slugify": "^1.6.5"
   }
 }

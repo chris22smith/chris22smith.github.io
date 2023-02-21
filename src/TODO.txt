@@ -1,0 +1,9 @@
+Been through /posts
+  junk (drafts, image refs, etc.) moved to /junk
+  posts that have imported moved to /blog
+  posts that created an empty file moved to /empty-posts
+
+Make copy of json
+Go through json, removing junk and imported posts to leave those that failed to imported
+Examine json looking for reasons for import failure and fix issues
+Retry import to /posts

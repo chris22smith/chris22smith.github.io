@@ -1,0 +1,25 @@
+---
+layout: "layouts/blog.njk"
+title: "Cut the Crap!"
+date: "2017-01-13 14:14:22"
+description: "We all write loads of crap"
+tags: ["blog", "archive"]
+eleventyNavigation:
+  key: "Cut the Crap!"
+wpid: "390"
+---
+
+We all write loads of crap. All of us. Every day. It's time to stop. Think it through and cut it out.
+
+I'm not so much talking about what we say but more the way we say it. We use stupidly over-complicated, flowery, pompous language to express very simple ideas. We should all just keep it clear and simple. The <a href="http://www.plainenglish.co.uk/" target="_blank">Campaign for Plain English</a> has loads of great examples of ways we can replace the fancy words with simple ones. A few examples:
+
+<ul>
+ 	<li>adjacent &rarr; next to</li>
+ 	<li>amendment &rarr; change</li>
+ 	<li>comprises &rarr; includes</li>
+ 	<li>demonstrate &rarr; show</li>
+ 	<li>discontinue &rarr; stop</li>
+</ul>
+Avoiding pretentious vocabulary also makes our writing much easier to understand for people who don't have English as their first language. It's all positive with no negatives.
+
+Let's just keep it simple and cut the crap.
