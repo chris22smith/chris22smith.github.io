@@ -7,3 +7,9 @@ Make copy of json
 Go through json, removing junk and imported posts to leave those that failed to imported
 Examine json looking for reasons for import failure and fix issues
 Retry import to /posts
+
+suspect it's revisions causing issues
+split json into wp-posts and wp-revisions
+removing all but most recent revision (last item)
+
+problem not with revisions but maybe post content
