@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Ordering CSS Properties A-Z"
-date: "2016-04-20 15:19:53"
+date: "2016-04-20 21:32:39"
 description: "How do you order your CSS properties? There are a few different possible ways that spring to mind:
 <ol>
  	<li>Sort all properties alphabetically, listing them A-Z</li>
@@ -9,7 +9,7 @@ description: "How do you order your CSS properties? There are a few different p
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Ordering CSS Properties A-Z"
-wpid: "216"
+wpid: "208"
 ---
 How do you order your CSS properties? There are a few different possible ways that spring to mind:
 <ol>

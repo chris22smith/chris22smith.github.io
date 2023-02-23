@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Boosting Web Performance"
-date: "2016-02-10 12:55:46"
+date: "2016-02-10 17:40:42"
 description: "One of the areas of front end development I've really got into in the last year or so is performance"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Boosting Web Performance"
-wpid: "142"
+wpid: "130"
 ---
 One of the areas of front end development I've really got into in the last year or so is performance. It's always been there in the background (along with SEO and accessibility) but it seems to have a lot more focus in the web community lately.
 

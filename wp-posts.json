@@ -165,50 +165,6 @@
     "post_type": "page"
   },
   {
-    "ID": "55",
-    "post_content": "",
-    "post_date": "2015-11-25 21:41:12",
-    "post_mime_type": "",
-    "post_name": "blog",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "Blog",
-    "post_type": "page"
-  },
-  {
-    "ID": "60",
-    "post_content": "",
-    "post_date": "2015-11-25 21:50:20",
-    "post_mime_type": "",
-    "post_name": "60",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "Home",
-    "post_type": "nav_menu_item"
-  },
-  {
-    "ID": "61",
-    "post_content": " ",
-    "post_date": "2015-11-25 21:50:20",
-    "post_mime_type": "",
-    "post_name": "61",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "",
-    "post_type": "nav_menu_item"
-  },
-  {
-    "ID": "62",
-    "post_content": " ",
-    "post_date": "2015-11-25 21:50:20",
-    "post_mime_type": "",
-    "post_name": "62",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "",
-    "post_type": "nav_menu_item"
-  },
-  {
     "ID": "64",
     "post_content": "When you <a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">design</a> for print media you work with graphics and text and arrange them in a way that is both pleasing to the eye and conveys your message. With the web you have to do the same but there's a whole lot more to it.\r\n\r\nWith print, the publication has a fixed size. With <a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">web design</a>, the size of the page can vary. Imagine trying to paint a picture when your canvas keeps changing size. Users view web pages through different devices and different software with different screen resolutions. Most web pages are still viewed on a computer screen but these days can equally be viewed on mobile phones, PDAs, web books, even games consoles. In terms of software, the main web browsers are <a href=\"http://www.microsoft.com/windows/products/winfamily/ie/default.mspx\" target=\"_blank\">Microsoft Internet Explorer</a> and <a href=\"http://www.mozilla.com/firefox/\" target=\"_blank\">Mozilla Firefox</a> but there is a whole host of others. You may have heard of <a href=\"http://www.chris-smith-web.com/wp/?p=41\" target=\"_self\">Chrome</a>, <a href=\"http://www.apple.com/safari/\" target=\"_blank\">Safari</a>, <a href=\"http://www.opera.com/\" target=\"_blank\">Opera</a> and beyond that mobile devices use their own. Each web browser is a program designed to interpret and display web page code (<a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">HTML</a>) but they all interpret it slightly differently so when writing the code you have to be sure it will display as you want it to. As well as conventional web browsers there are also specialised screen readers which read the text on a web page aloud for those with visual impairments. This is where <a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">accessible design</a> comes into play. As if that wasn't enough to contend with, individual users also have different screen resolutions, some viewing the same content on a screen resolution 4 times larger than others.\r\n\r\nAreas of the screen can be stretched or squashed to fit with the screen size and, rather than being given fixed heights and widths, are given maximum and minimum dimensions within which they can move.\r\n\r\nSo, when you look at a web page, you need to realise that what you see will probably not be exactly the same as what others see. The content should be the same but the layout will vary.\r\n\r\nAs people buy newer computers with larger monitors and higher resolutions <a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">websites</a> need to be <a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">redesigned</a>. The majority of users in the UK use a Windows PC with Internet Explorer 7 and a screen resolution of 1024x768 pixels. Three years ago the typical UK user would have been using Internet Explorer version 6 with a screen resolution of only 800x600 pixels. If you haven't <a href=\"http://www.chris-smith-web.com/wp\" target=\"_self\">redesigned your website</a> in the last 3 years it's time it was optimised for the new generation of visitors.",
     "post_date": "2008-09-30 15:01:48",
@@ -832,7 +788,7 @@
     "post_name": "the-cheap-web-design-market",
     "post_parent": "0",
     "post_status": "publish",
-    "post_title": "The \"Cheap Web Design\" Market",
+    "post_title": "The Cheap Web Design Market",
     "post_type": "post"
   },
   {
@@ -1164,28 +1120,6 @@
     "post_status": "publish",
     "post_title": "General Nerdery",
     "post_type": "page"
-  },
-  {
-    "ID": "520",
-    "post_content": " ",
-    "post_date": "2017-02-03 17:10:34",
-    "post_mime_type": "",
-    "post_name": "520",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "",
-    "post_type": "nav_menu_item"
-  },
-  {
-    "ID": "521",
-    "post_content": "",
-    "post_date": "2017-02-03 17:10:31",
-    "post_mime_type": "",
-    "post_name": "web-posts",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "Web Posts",
-    "post_type": "nav_menu_item"
   },
   {
     "ID": "524",
@@ -1582,17 +1516,6 @@
     "post_status": "publish",
     "post_title": "A New Found Appreciation for Images on the Web",
     "post_type": "post"
-  },
-  {
-    "ID": "766",
-    "post_content": "Coming soon...",
-    "post_date": "2018-05-11 17:46:28",
-    "post_mime_type": "",
-    "post_name": "privacy-policy",
-    "post_parent": "0",
-    "post_status": "publish",
-    "post_title": "Privacy Policy",
-    "post_type": "page"
   },
   {
     "ID": "773",

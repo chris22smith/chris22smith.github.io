@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Mother Nature in Web Design"
-date: "2016-04-20 17:22:53"
+date: "2016-04-23 10:16:16"
 description: "How can we make designs feel more like the natural world and less like something created on a machine? Here are a few ideas"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Mother Nature in Web Design"
-wpid: "218"
+wpid: "187"
 ---
 How can we make designs feel more like the natural world and less like something created on a machine? Here are a few ideas...
 <h3>Randomness</h3>

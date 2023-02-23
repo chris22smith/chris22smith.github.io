@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Let Off the IE9 Leash"
-date: "2016-11-18 16:15:00"
+date: "2016-11-18 18:03:38"
 description: "I recently got the news at work that as of midnight on 31st December 2016 we no longer officially have to support IE9"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Let Off the IE9 Leash"
-wpid: "294"
+wpid: "287"
 ---
 I recently got the news at work that as of midnight on 31st December 2016 we no longer officially have to support IE9. It's a sorry state of affairs but come midnight on New Year's Eve I'm sure this will be in the back of my mind and make me celebrate just that little bit more.
 

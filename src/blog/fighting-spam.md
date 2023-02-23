@@ -8,8 +8,7 @@ eleventyNavigation:
   key: "Fighting Spam"
 wpid: "108"
 ---
-
-Junk email and blog posts are a constant problem. Here are a few ways to help spoil the spammers' fun.
+<img class="alignright" style="float: right;border: 0;margin-top: 0px;margin-bottom: 0px;margin-left: 10px;margin-right: 10px" src="http://www.chris-smith-web.com/wp-content/uploads/2009/09/no-spam.jpg" alt="No Spam" width="300" height="295" />Junk email and blog posts are a constant problem. Here are a few ways to help spoil the spammers' fun.
 
 <strong>Email Spam</strong>
 
@@ -65,7 +64,6 @@ If you're having problems with spam coming from your website ask your <a title="
 
 <strong>6 Quick Tips
 </strong>
-
 1. Never open spam emails - if in doubt, delete it
 2. Never reply to spam emails - you're just confirming delivery
 3. Never forward suspicious emails - don't spread the problem

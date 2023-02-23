@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Easier Colours in Web Design"
-date: "2016-01-12 10:38:32"
+date: "2015-12-24 16:30:21"
 description: "In the last couple of years I've changed the way I work with colours in websites"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Easier Colours in Web Design"
-wpid: "115"
+wpid: "78"
 ---
 In the last couple of years I've changed the way I work with colours in websites. I've realised that the number of colours available to us as designers or developers is actually kind of ridiculous and that we're making life harder than it needs to be.
 
@@ -27,19 +27,5 @@ I would argue that the colour specified and the colour actually seen are never a
 
 I wouldn't say there are major gains to be had by shortening the Hex codes but any removal of unnecessary complexity has to be a good thing, right? It's less characters to type - hardly a major victory - but, more importantly, quite a lot easier to remember each colour, which means that we type the right thing from memory more often and don't have to spend so much time referring back to style guides for commonly used colours.
 
-So, which is it, #5ba546 or #6a4?
-<div style="display: inline-block; width: 30%; background-color: #6a4; color: #fff; padding: .5em; margin-bottom: 1em;">#?</div>s, e.g. for active, focus or hover states.
-
-Taking a base colour, of say #f09, we can switch the order or the characters to create #f90, #90f, #9f0, #0f9 and #09f. All of these colours have the same amounts of lightness but move around the colour spectrum so complement each other and could be used for something like category colours.
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #f09; padding:.5em;">#f09</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #f90; padding:.5em;">#f90</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #90f; padding:.5em;">#90f</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #9f0; padding:.5em;">#9f0</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #0f9; padding:.5em;">#0f9</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #09f; padding:.5em; margin-bottom: 1em;">#09f</div>
-It's easy to make subtle variants by simply increasing or decreasing all of the values by 1, admittedly harder when they're already at 0 or f.
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #f09; padding:.5em;">#f09</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #f1a; padding:.5em;">#f1a</div>
-<div style="display: inline-block; width: 12%; height: 10%; margin-right: .5em; background-color: #e08; padding:.5em; margin-bottom: 1em;">#e08</div>
 So, which is it, #5ba546 or #6a4?
 <div style="display: inline-block; width: 30%; background-color: #6a4; color: #fff; padding: .5em; margin-bottom: 1em;">#?</div>

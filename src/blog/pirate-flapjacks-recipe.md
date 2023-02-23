@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Pirate Flapjacks Recipe"
-date: "2017-01-06 23:06:32"
+date: "2016-03-07 21:12:04"
 description: "Here's my own twist on the classic flapjack"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Pirate Flapjacks Recipe"
-wpid: "374"
+wpid: "189"
 ---
 Here's my own twist on the classic flapjack. In a nutshell, add sultanas and rum. Pirates love sultanas, right? I would add a photo but it would just look like a pile of flapjacks on a plate so I won't bother.
 <h3>Ingredients</h3>

@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Developing in Codepen"
-date: "2015-12-11 23:04:18"
+date: "2015-12-13 22:09:41"
 description: "A look at why and how I use Codepen for front end development work"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Developing in Codepen"
-wpid: "75"
+wpid: "35"
 ---
 A look at why and how I use Codepen for front end development work.
 <h3>Background</h3>
@@ -34,4 +34,4 @@ One of the massive advantages of <a href="https://codepen.io" target="_blank">Co
 
 As each pen is available on a public URL it's easy to share designs with colleagues or clients and they can see a working prototype - much better than a static screenshot. It also means that links can be embedded in documentation. Personally, I feel that now web animation has become mainstream, it's important to be able to show how screen elements transition between states, how things appear/disappear and demonstrate where the user's attention is drawn through processes. Static screenshots just don't cut it any more.
 
-Final point. Designing in the browser with work stored in the cloud is awesome for design. I could be out and about and suddenly see some inspiration for something I'm working on or get a new idea. Rather than hope I'll remember it, I can quickly create a new pen or fork an existing one and add some code or notes there and then from a phone or tablet. I don't have to hope I'll remember or wait until I'm back at my desktop. It's exactly what the web should be.ctly what the web should be.
+Final point. Designing in the browser with work stored in the cloud is awesome for design. I could be out and about and suddenly see some inspiration for something I'm working on or get a new idea. Rather than hope I'll remember it, I can quickly create a new pen or fork an existing one and add some code or notes there and then from a phone or tablet. I don't have to hope I'll remember or wait until I'm back at my desktop. It's exactly what the web should be.

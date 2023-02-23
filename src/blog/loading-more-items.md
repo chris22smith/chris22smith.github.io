@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Loading More Items"
-date: "2016-03-03 12:24:16"
+date: "2016-03-03 18:03:38"
 description: "What's the best way of loading more items on screen in terms of user experience and performance - "infinite" scroll, pagination or a simple "load more" option? Here's a quick look and pros and cons of each"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Loading More Items"
-wpid: "167"
+wpid: "119"
 ---
 What's the best way of loading more items on screen in terms of user experience and performance - "infinite" scroll, pagination or a simple "load more" option? Here's a quick look and pros and cons of each.
 <h3>Infinite Scroll</h3>

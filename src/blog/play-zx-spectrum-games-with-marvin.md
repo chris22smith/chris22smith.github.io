@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Play ZX Spectrum Games with Marvin"
-date: "2017-01-13 14:19:02"
+date: "2017-01-13 18:20:50"
 description: "I recently got an Android TV box, which enables you to get Android apps and put them on your TV"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Play ZX Spectrum Games with Marvin"
-wpid: "392"
+wpid: "381"
 ---
 I recently got an Android TV box, which enables you to get Android apps and put them on your TV. I decided to look into ZX Spectrum emulators and after trying 2 or 3 soon settled on <a href="https://play.google.com/store/apps/details?id=cz.dejvice.rc.Marvin&amp;hl=en_GB" target="_blank">Marvin</a>, presumably named after the paranoid android in the Hitchhiker's Guide to the Galaxy, as my choice.
 

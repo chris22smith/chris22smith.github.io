@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "What to Look For in a Web Designer or Design Agency"
-date: "2016-04-06 14:04:58"
+date: "2016-04-06 17:45:23"
 description: "Imagine you're a business owner or marketing bod and you need to get either a new website or you want a redesign of your current, slightly tired looking site"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "What to Look For in a Web Designer or Design Agency"
-wpid: "210"
+wpid: "206"
 ---
 Imagine you're a business owner or marketing bod and you need to get either a new website or you want a redesign of your current, slightly tired looking site. You need to hire a web designer or design agency. How do you tell the good from the bad?
 

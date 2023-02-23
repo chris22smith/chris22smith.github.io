@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Star Wars Mini Projects in Codepen"
-date: "2016-05-18 14:54:23"
+date: "2016-05-18 18:47:28"
 description: "The Star Wars universe seems to be a bit of a recurring theme for me when experimenting with 3D modelling and animation in Codepen"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Star Wars Mini Projects in Codepen"
-wpid: "238"
+wpid: "226"
 ---
 The Star Wars universe seems to be a bit of a recurring theme for me when experimenting with 3D modelling and animation in Codepen. Here are some pens and a bit of explanation of how they were made. Naturally the code is available by switching the view.
 <h3>CSS 3D Tie Fighter Wireframe</h3>

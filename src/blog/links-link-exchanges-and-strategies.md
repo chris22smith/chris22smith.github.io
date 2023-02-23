@@ -3,12 +3,11 @@ layout: "layouts/blog.njk"
 title: "Links, link exchanges and strategies"
 date: "2008-09-29 13:45:46"
 description: "There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there"
-tags: ["blog", "archive"]
+tags: ["blog","archive"]
 eleventyNavigation:
   key: "Links, link exchanges and strategies"
 wpid: "400"
 ---
-
 There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there. How do you know who or what to believe?
 
 Well, it's actually quite simple. Don't listen to anyone, not even me. When it comes to links and what you should do let's see what <a href="http://www.google.co.uk" target="_blank">Google</a> has to say. <a href="http://www.google.co.uk" target="_blank">Google</a> has a <a href="http://www.google.com/webmasters/" target="_blank">Webmasters</a> section of their site which gives clear guidelines of what you should and shouldn't do. Read it. Do it.
@@ -27,4 +26,4 @@ Give it a little push. Here are 3 great ways to get going:
 
 2. Get involved in forums or online communities. Find sites relevant to your site where you are allowed to contribute and join in. Don't be obvious and steam in advertising your site but get involved in discussions, try to help people out and, soon enough, if they're interested in what you've got to say they'll look at your site.
 
-3. Blog. Write articles or posts, just like this one, and post it on your own site or submit it to a blogging or article site. Be sure to include an interesting headline and some links back to your site. Submit this to the right blog search engines (e.g. <a href="http://www.technorati.com" target="_blank">Technorati</a>, <a href="http://www.digg.com" target="_blank">Digg</a>) and it will be read and passed around gaining you not only links but visitors in the process. Pssst - I know a very good blog designer.
+3. Blog. Write articles or posts, just like this one, and post it on your own site or submit it to a blogging or article site. Be sure to include an interesting headline and some links back to your site. Submit this to the right blog search engines (e.g. <a href="http://www.technorati.com" target="_blank">Technorati</a>, <a href="http://www.digg.com" target="_blank">Digg</a>) and it will be read and passed around gaining you not only links but visitors in the process. Pssst - I know a very good <a href="http://www.chris-smith-web.com/wp" target="_self">blog designer</a>.

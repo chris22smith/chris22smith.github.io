@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Shorts Men"
-date: "2016-11-18 16:31:42"
+date: "2016-11-19 16:16:15"
 description: "Have you noticed that there's a certain type of man who seems to be in shorts all year round? It doesn't matter what season, time of day or outside temperature"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Shorts Men"
-wpid: "295"
+wpid: "289"
 ---
 Have you noticed that there's a certain type of man who seems to be in shorts all year round? It doesn't matter what season, time of day or outside temperature. Shorts.
 

@@ -6,7 +6,7 @@ description: "I thought I'd do another quick run-through of what I've picked up 
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "What I Learned in 2015"
-wpid: "85"
+wpid: "37"
 ---
 I thought I'd do another quick run-through of what I've picked up this year. It feels good to show myself that I'm still learning at a healthy pace.
 <h3>SVG</h3>

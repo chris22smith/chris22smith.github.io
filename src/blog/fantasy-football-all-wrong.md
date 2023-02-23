@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Fantasy Football - All Wrong"
-date: "2016-03-03 17:05:00"
+date: "2016-03-03 21:31:51"
 description: "I'm a big fan of playing fantasy football, in particular the official <a href="http://fantasy"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Fantasy Football - All Wrong"
-wpid: "175"
+wpid: "39"
 ---
 I'm a big fan of playing fantasy football, in particular the official <a href="http://fantasy.premierleague.com/" target="_blank">Fantasy Premier League</a>, which is focused on the highest level of football or soccer in England. For many of us it's the closest thing we get to being a football manager - analysing the game and picking our teams each week.
 

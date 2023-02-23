@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Emotional Response"
-date: "2016-11-18 17:10:50"
+date: "2016-11-22 18:52:52"
 description: "I've read some sales and marketing articles about techniques for trying to elicit an emotional response from your audience"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Emotional Response"
-wpid: "298"
+wpid: "291"
 ---
 I've read some sales and marketing articles about techniques for trying to elicit an emotional response from your audience. The broad idea is that if you can get your audience to bond with you or your idea on an emotional level then this is very strong. The heart is stronger than the head, if you like.
 

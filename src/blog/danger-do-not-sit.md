@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Danger. Do Not Sit."
-date: "2016-01-17 15:50:49"
+date: "2015-11-26 23:15:58"
 description: "This isn't some strange health message, warning against being a couch potato, but the warning sign that appears on baggage carousels at airports"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Danger. Do Not Sit."
-wpid: "123"
+wpid: "68"
 ---
 This isn't some strange health message, warning against being a couch potato, but the warning sign that appears on baggage carousels at airports.
 

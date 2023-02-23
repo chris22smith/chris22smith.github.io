@@ -1,18 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "Getting Feedback on Codepen Demos"
-date: "2016-05-27 16:55:27"
-description: "At the software company where I work, we've started using CodePen as a way of producing interactive demos or prototype pages"
-tags: ["blog", "archive"]
+date: "2016-05-28 09:00:45"
+description: "At the software company where I work, we've started using <a href="http://codepen"
+tags: ["blog","archive"]
 eleventyNavigation:
   key: "Getting Feedback on Codepen Demos"
-wpid: "249"
+wpid: "246"
 ---
-
 At the software company where I work, we've started using <a href="http://codepen.io" target="_blank">Codepen</a> as a way of producing interactive demos or prototype pages. It's slowly replacing the use of static images or mock-ups. We've started sharing the URLs for these with customers to get their feedback on new features.
 
 This could be done by sending them 2 URLs, one for the pen and one for the feedback form, but it's not as good as being able to complete the form whilst viewing the demo content at the same time. I came up with a way of requesting feedback within the pen.
-
 <h3>SurveyMonkey</h3>
 I embedded a <a href="https://www.surveymonkey.com/" target="_blank">SurveyMonkey</a> survey tracking script within the pen. I amended the pen design slightly to add a sidebar div and then added the SurveyMonkey embed JavaScript block within this, in the HTML pane of the pen. The script had to be here so that it rendered in the right place. I gave this sidebar a fixed width so that we could control how the survey contents appeared. We then had to write the survey in such a way that it didn't require much screen width and that all questions would fit into a sensible minimum screen height. In short, we kept questions short, no lists of 10 radio buttons.
 <h3>CrazyEgg</h3>

@@ -2,14 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Basic Website Integration"
 date: "2008-10-14 13:16:38"
-description: ""
-tags: ["blog", "archive"]
+description: "<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www"
+tags: ["blog","archive"]
 eleventyNavigation:
   key: "Basic Website Integration"
 wpid: "403"
 ---
-
-Integration is, in simple terms, making your website fit in with the rest of your business. At a basic level it's about making everything consistent and not leaving any holes.
+<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2008/10/phone.jpg" alt="Offline communication" width="250" height="312" />Integration is, in simple terms, making your website fit in with the rest of your business. At a basic level it's about making everything consistent and not leaving any holes.
 
 <strong>Consistent Information</strong>
 
@@ -21,4 +20,6 @@ Unlike a physical business your website is accessible 24 hours a day. Therefore,
 
 As well as phone contact you need to deal with form submisisons or emails in an appropriate way. Autoresponders are good. When the visitor sends you an email or submits a form they get an email just confirming that it has been received and will be dealth with. Set a realistic timescale for this, or better, set a timescale and then respond much quicker - exceed the customer's expectations.
 
-A good web developer will not design your website as a stand alone unit but will look at how it integrates with your business needs.
+<strong><a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">Integrated Web Design</a></strong>
+
+A <a href="http://www.chris-smith-web.com/wp" target="_self">good web developer</a> will not <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">design your website</a> as a stand alone unit but will look at how it integrates with your business needs.

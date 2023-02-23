@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Google Maps - The Bits They Don't Tell You"
-date: "2016-03-04 15:18:57"
+date: "2016-03-09 18:06:04"
 description: "I've done quite a lot of work with the Google Maps JavaScript API in the last year or so"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Google Maps - The Bits They Don't Tell You"
-wpid: "182"
+wpid: "140"
 ---
 I've done quite a lot of work with the Google Maps JavaScript API in the last year or so. I think I've picked up quite a bit along the way, which you won't find in the official reference guide.
 

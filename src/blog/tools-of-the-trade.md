@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Tools of the Trade"
-date: "2016-03-03 13:38:40"
+date: "2016-03-06 12:52:30"
 description: "I thought I'd list some of the web development tools I use"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Tools of the Trade"
-wpid: "170"
+wpid: "155"
 ---
 I thought I'd list some of the web development tools I use. Not the cool stuff I've recently found or wish I understood but the actual things I go to or reach for when I need to get a job done.
 

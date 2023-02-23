@@ -2,16 +2,15 @@
 layout: "layouts/blog.njk"
 title: "The Information Hungry Search Box"
 date: "2008-10-27 13:04:32"
-description: "We're all used to the idea of search boxes on websites"
-tags: ["blog", "archive"]
+description: "<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www"
+tags: ["blog","archive"]
 eleventyNavigation:
   key: "The Information Hungry Search Box"
 wpid: "84"
 ---
+<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2008/10/lion.jpg" alt="lion" width="150" height="225" />We're all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It's a quick and easy way of finding something without having to drill down through endless options.
 
-We're all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It's a quick and easy way of finding something without having to drill down through endless options.
-
-From the web developer's point of view it's a great tool which increases a website's usability. From the web marketer's point of view it can do more.
+From the <a href="http://www.chris-smith-web.com/wp" target="_self">web developer</a>'s point of view it's a great tool which increases a website's usability. From the <a href="http://www.chris-smith-web.com/wp" target="_self">web marketer</a>'s point of view it can do more.
 
 By capturing the text typed into the search box the website owner can see what his/her visitors are searching for. This may be for existing products or it could be that they are searching for something not offered. Capturing and analysing this information can help have several benefits.
 

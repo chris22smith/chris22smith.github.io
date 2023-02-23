@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Forgotten Passwords"
-date: "2015-11-19 16:20:41"
+date: "2015-04-10 16:18:48"
 description: "Forgotten Your Password? Yes"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Forgotten Passwords"
-wpid: "31"
+wpid: "30"
 ---
 Forgotten Your Password? Yes. Yes, I have forgotten my password. Yes, again.
 

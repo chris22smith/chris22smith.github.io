@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2016 (Part 3)"
-date: "2017-01-08 20:45:46"
+date: "2017-01-08 13:00:27"
 description: "This is the third part of a three part blog post on the things I've learned over the last year"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "What I Learned in 2016 (Part 3)"
-wpid: "378"
+wpid: "349"
 ---
 This is the third part of a three part blog post on the things I've learned over the last year. So far I've covered HTML, CSS and a rare (for me) bit of databasey stuff. And now the final part, the JavaScript...
 <h3>Node.js</h3>

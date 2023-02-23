@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Code Neat Freak"
-date: "2016-12-16 17:05:20"
+date: "2016-12-16 17:06:42"
 description: "With front-end developers we all care what our UI design looks like in the browser"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Code Neat Freak"
-wpid: "332"
+wpid: "326"
 ---
 With front-end developers we all care what our UI design looks like in the browser. I've started to notice that there are 2 distinct types of developer though - those who are solely focused on the outcome and those who care about the code itself.
 

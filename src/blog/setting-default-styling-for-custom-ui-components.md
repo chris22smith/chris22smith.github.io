@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "Setting Default Styling for Custom UI Components"
-date: "2016-01-10 21:57:27"
+date: "2016-01-10 22:24:32"
 description: "I thought I'd share a challenge I'm facing at the moment"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "Setting Default Styling for Custom UI Components"
-wpid: "106"
+wpid: "97"
 ---
 I thought I'd share a challenge I'm facing at the moment. A lot of modern JavaScript frameworks like React and Angular encourage building reusable UI components. Using JavaScript and HTML templates seems like an excellent approach to development on larger sites but styling these components can bring a few issues.
 
@@ -38,4 +38,4 @@ The problem with this approach is that the style is declared in the &lt;body&gt;
 <h3>Setting the style with JavaScript</h3>
 The final option is to set styling using JavaScript, which effectively just inserts style attributes into the component's HTML elements like in approach 2.</li>
 </ol>
-I'm wondering if there may be a solution where we have a default styles object which defines style properties in our existing component JavaScript file. We then check to see what styling is applied using the browser's getComputedStyle() function. For each of the properties we check if a rule is already set, presumably by CSS that is in the &lt;head&gt;, and if not we apply the style from the object. It's almost like required validation for styling. I don't imagine it's going to be very efficient but it may be a way of ensuring a minimum level of styling. Assuming that our script file is at the end of the &lt;body&gt;, by using only the existing resources we could save an additional HTTP request.urces we could save an additional HTTP request.
+I'm wondering if there may be a solution where we have a default styles object which defines style properties in our existing component JavaScript file. We then check to see what styling is applied using the browser's getComputedStyle() function. For each of the properties we check if a rule is already set, presumably by CSS that is in the &lt;head&gt;, and if not we apply the style from the object. It's almost like required validation for styling. I don't imagine it's going to be very efficient but it may be a way of ensuring a minimum level of styling without restricting additional styling via CSS. Assuming that our script file is at the end of the &lt;body&gt;, by using only the existing resources we could save an additional HTTP request.

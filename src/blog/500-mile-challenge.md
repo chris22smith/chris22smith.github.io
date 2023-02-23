@@ -1,12 +1,12 @@
 ---
 layout: "layouts/blog.njk"
 title: "500 Mile Challenge"
-date: "2017-01-06 13:02:41"
+date: "2017-01-06 21:00:33"
 description: "I've set myself a challenge this year"
 tags: ["blog","archive"]
 eleventyNavigation:
   key: "500 Mile Challenge"
-wpid: "362"
+wpid: "340"
 ---
 I've set myself a challenge this year. In 2017 I'm going to run (a minimum of) 500 miles.
 
@@ -16,4 +16,4 @@ So, how does 500 miles break down? Well, 52 weeks a year, it's roughly 10 miles 
 
 I'm using a free online database tool called Airtable to record my progress against my target. Here's the embed which will update with my progress as I record it. Good luck me!
 
-<iframe class="airtable-embed" style="background: transparent; border: 1px solid #ccc;" src="https://airtable.com/embed/shrd9TDROW2ikMPQH?backgroundColor=green" width="100%" height="600" frameborder="0"></iframe>
+<iframe class="airtable-embed" style="background: transparent; border: 1px solid #ccc;" src="https://airtable.com/embed/shrd9TDROW2ikMPQH?backgroundColor=green" width="100%" height="640" frameborder="0"></iframe>
