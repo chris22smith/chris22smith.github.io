@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Fantasy Football - All Wrong"
 date: "2016-03-03 21:31:51"
 description: "I'm a big fan of playing fantasy football, in particular the official <a href="http://fantasy"
-tags: ["blog","archive"]
+tags: ["blog","archive", "misc"]
 eleventyNavigation:
   key: "Fantasy Football - All Wrong"
 wpid: "39"
 ---
+
 I'm a big fan of playing fantasy football, in particular the official <a href="http://fantasy.premierleague.com/" target="_blank">Fantasy Premier League</a>, which is focused on the highest level of football or soccer in England. For many of us it's the closest thing we get to being a football manager - analysing the game and picking our teams each week.
 
 Generally speaking I feel I'm pretty good at it too. Not brilliant, certainly nowhere near winning anything but consistently respectable. I generally finish around the 100,000 mark which doesn't sound like much of an achievement but out of 3.5 million that's pretty good going.
@@ -15,6 +16,7 @@ Generally speaking I feel I'm pretty good at it too. Not brilliant, certainly no
 This season. Disaster. With 10 games to go I'm still outside the top million. It's been the worst season I've ever had, and by some way. There is light at the end of the tunnel though. I think I'm realising where I've gone wrong and am starting to put it right. I've now done well for 3 weeks in a row and have been on the rise.
 
 Here's where I've been going wrong...
+
 <h3>Stats</h3>
 This season I've spent more time than ever analysing the stats - looking at which players are having shots, shots in the box, shots on target, etc. I've used this as a basis for my team selection. This seems quite reasonable but stats can be deceptive. A player can have lots of shots appear to be a real threat whereas if you actually watch a game you can see that the player in question was never any real threat whatsoever - the centre half marked him out of the game and blocked every attempted shot with ease.
 <h3>Listening to Others</h3>

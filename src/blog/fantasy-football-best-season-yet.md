@@ -2,12 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Fantasy Football - Best Season Yet :)"
 date: "2017-05-22 18:00:06"
-description: "The 2016/2017 Premier League season has just finished and so has my season of <a href="https://fantasy"
-tags: ["blog","archive"]
+description: "The 2016/2017 Premier League season has just finished and so has my season of Fantasy Premier League"
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Fantasy Football - Best Season Yet :)"
 wpid: "632"
 ---
+
 The 2016/2017 Premier League season has just finished and so has my season of <a href="https://fantasy.premierleague.com" target="_blank" rel="noopener noreferrer">Fantasy Premier League</a>. After last year being my all time low, with a finishing position of 785,943, this year I've finished 16,876 out of over 4.5 million players. That's in the top 0.4%, which really isn't bad going. I've also won the various mini leagues in which I compete and even won a bit of money. Ker-ching!
 
 So, what's been different this year? What have a I learned to propel me up the rankings?

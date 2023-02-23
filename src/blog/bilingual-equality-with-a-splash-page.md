@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Bilingual Equality with a Splash Page"
 date: "2016-01-18 23:14:08"
 description: "I've worked on a few education sites in Wales and bilingualism is one of the major challenges for any public sector site"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Bilingual Equality with a Splash Page"
 wpid: "124"
 ---
+
 I've worked on a few education sites in Wales and bilingualism is one of the major challenges for any public sector site.
 
 A multilingual site isn't so hard. Most content management systems offer language switching - being on a page in one language and hopping across to view the equivalent piece of content in another. The difficulty comes with entering the site or managing the landing page experience.

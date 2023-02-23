@@ -2,13 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Learning to Write Code that is Good Enough"
 date: "2020-08-03 17:27:12"
-description: "<!-- wp:paragraph -->
-<p>When you go through school you're always taught to do your best, to try to make the thing you're working on the best it can possibly be"
-tags: ["blog","archive"]
+description: "When you go through school you're always taught to do your best, to try to make the thing you're working on the best it can possibly be"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Learning to Write Code that is Good Enough"
 wpid: "958"
 ---
+
 <!-- wp:paragraph -->
 <p>When you go through school you're always taught to do your best, to try to make the thing you're working on the best it can possibly be. When it comes to software we naturally want the same - we dream of something that's fast, accessible, responsive and free from any bugs. It's just not realistic.</p>
 <!-- /wp:paragraph -->

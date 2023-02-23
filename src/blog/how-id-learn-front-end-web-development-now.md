@@ -2,13 +2,13 @@
 layout: "layouts/blog.njk"
 title: "How I'd Learn Front End Web Development Now"
 date: "2022-05-27 16:30:00"
-description: "<!-- wp:paragraph -->
-<p>When I started out with doing web stuff in 1999, things were very different, much simpler in some ways but much harder in others"
-tags: ["blog","archive"]
+description: "When I started out with doing web stuff in 1999, things were very different, much simpler in some ways but much harder in others"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "How I'd Learn Front End Web Development Now"
 wpid: "974"
 ---
+
 <!-- wp:paragraph -->
 <p>When I started out with doing web stuff in 1999, things were very different, much simpler in some ways but much harder in others. So, the way I gradually learnt was quite different from how somebody would learn now.</p>
 <!-- /wp:paragraph -->

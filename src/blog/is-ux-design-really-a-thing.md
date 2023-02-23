@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Is UX Design Really a Thing?"
 date: "2016-11-30 18:30:58"
 description: "This might seem an odd question as user experience (UX for short) obviously has become a thing in the last few years"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Is UX Design Really a Thing?"
 wpid: "221"
 ---
+
 This might seem an odd question as user experience (UX for short) obviously has become a thing in the last few years. I think the question I'm really asking is this - isn't UX design just design? The whole UX thing is kind of meaningless. I know, can of worms...
 
 In any other industry things get designed but they don't have special titles for designing for the people using the product - that's obvious. I can't imagine that a car designer would be called a driver experience designer. The driver having a positive experience is an inherent part of the design process.

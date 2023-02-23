@@ -2,13 +2,13 @@
 layout: "layouts/blog.njk"
 title: "CARPET - A Front End Checklist"
 date: "2022-07-08 08:28:07"
-description: "<!-- wp:paragraph -->
-<p>The 6 areas to consider spell out <strong>CARPET</strong>, hopefully making it easier to remember"
-tags: ["blog","archive"]
+description: "The 6 areas to consider spell out CARPET, hopefully making it easier to remember"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "CARPET - A Front End Checklist"
 wpid: "981"
 ---
+
 <!-- wp:paragraph -->
 <p>The 6 areas to consider spell out <strong>CARPET</strong>, hopefully making it easier to remember.</p>
 <!-- /wp:paragraph -->

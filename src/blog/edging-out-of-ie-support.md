@@ -2,13 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Edging Out of IE Support"
 date: "2019-08-04 10:00:51"
-description: "<!-- wp:paragraph -->
-<p>Having to support a minority of users on IE11 is painful"
-tags: ["blog","archive"]
+description: "Having to support a minority of users on IE11 is painful"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Edging Out of IE Support"
 wpid: "879"
 ---
+
 <!-- wp:paragraph -->
 <p>Having to support a minority of users on IE11 is painful. It's a browser that is still officially supported by Microsoft, until 2025, but active development has stopped, or at least slowed right down, so the gap between it and other browsers is growing wider with every update.</p>
 <!-- /wp:paragraph -->

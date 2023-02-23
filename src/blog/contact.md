@@ -4,11 +4,12 @@ title: "Contact"
 date: "2015-11-18 19:17:02"
 description: "<ul class="social">
  	<li class="twitter"><a href="https://twitter"
-tags: ["blog","archive"]
+tags: ["archive"]
 eleventyNavigation:
   key: "Contact"
 wpid: "10"
 ---
+
 <ul class="social">
  	<li class="twitter"><a href="https://twitter.com/chris22smith/">
 <i class="fa fa-twitter"></i>

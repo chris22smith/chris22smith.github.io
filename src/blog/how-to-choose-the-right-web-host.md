@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "How to choose the right web host"
 date: "2011-01-19 17:32:31"
-description: "<img class="alignright size-full wp-image-259" style="margin: 20px;border: black 1px solid" title="web hosting servers" src="http://www"
-tags: ["blog","archive"]
+description: "If you're starting a new site, it's very hard to know how to pick the right web host"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "How to choose the right web host"
 wpid: "430"
 ---
-<img class="alignright size-full wp-image-259" style="margin: 20px;border: black 1px solid" title="web hosting servers" src="http://www.chris-smith-web.com/wp-content/uploads/2011/01/servers.jpg" alt="web hosting servers" width="400" height="300" />If you're starting a new site, it's very hard to know how to pick the right web host. Which company should you host your site with? How much should you be spending?
+
+If you're starting a new site, it's very hard to know how to pick the right web host. Which company should you host your site with? How much should you be spending?
 
 There are a number of factors to consider.
 

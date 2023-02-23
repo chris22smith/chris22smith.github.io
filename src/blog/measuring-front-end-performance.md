@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Measuring Front End Performance"
 date: "2017-05-03 18:00:53"
 description: "My last post was about <a href="/front-end-performance-enhancements" target="_blank" rel="noopener noreferrer">Front End Performance Enhancements</a> and how I've managed to improve page load times on a site"
-tags: ["blog","archive"]
+tags: ["blog","archive", "tech"]
 eleventyNavigation:
   key: "Measuring Front End Performance"
 wpid: "610"
 ---
+
 My last post was about <a href="/front-end-performance-enhancements" target="_blank" rel="noopener noreferrer">Front End Performance Enhancements</a> and how I've managed to improve page load times on a site. I've recently done some work in this area and, whilst I'm satisfied that my changes have improved performance, I can't really be sure to what extent.
 
 With any kind of improvement work it's always nice to have a before and after and be able to show the difference. If this can be hard numbers, like in sales, then even better. With web performance can we ever really rely on any numbers?

@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Bear-faced Ham"
 date: "2017-02-08 18:00:53"
 description: "When you're looking at the cooked meats in a supermarket, have you seen the strange kiddy-friendly <em>thing</em> with the bear's face? There are a few incarnations - Billy Bear, Bertie Bear - all equally gruesome"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Bear-faced Ham"
 wpid: "524"
 ---
+
 When you're looking at the cooked meats in a supermarket, have you seen the strange kiddy-friendly <em>thing</em> with the bear's face? There are a few incarnations - Billy Bear, Bertie Bear - all equally gruesome.
 
 I don't understand the thinking behind it. They want to make meal times more fun for kids. Here you are, kids, here's a nice friendly teddy bear for you to play with. He's going to be your new best friend. Aww. Now, eat his face.

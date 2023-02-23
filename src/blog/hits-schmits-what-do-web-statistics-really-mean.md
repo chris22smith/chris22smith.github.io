@@ -2,19 +2,21 @@
 layout: "layouts/blog.njk"
 title: "Hits schmits! What do Web Statistics really mean?"
 date: "2009-06-04 15:50:45"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+description: "With web technologies it's very easy to quote and manipulate the statistics to make things sound better or worse than they actually are"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Hits schmits! What do Web Statistics really mean?"
 wpid: "422"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/06/pie-chart.jpg" alt="Pie Chart" width="300" height="224" />With web technologies it's very easy to quote and manipulate the statistics to make things sound better or worse than they actually are. There are some grey areas in the terminology used and it's very easy to get lost and not understand precisely what you're being told. Here is a guide to help explain some of the more commonly used terms.
+
+With web technologies it's very easy to quote and manipulate the statistics to make things sound better or worse than they actually are. There are some grey areas in the terminology used and it's very easy to get lost and not understand precisely what you're being told. Here is a guide to help explain some of the more commonly used terms.
 
 Back in the nineties everyone would talk about <strong>hits</strong>, how many hits they were getting, hit counts, they'd even have a little hit counter on their home page.
 
 So, what is a hit? A hit means a file that is retrieved from the web server. The key thing to note here is that it's a file, not a page but a file. Therefore, if someone visits a page with 3 image files that's 4 hits, the HTML file plus the 3 image files. A photo gallery page might have 60 thumbnail images in it - that's 61 hits. It's very easy to rack up huge numbers of hits and make it sound like you're getting far more traffic than you are. This is because a lot of people misunderstand hits to mean visits.
 
 A <strong>visit</strong>, sometimes called a <strong>page impression</strong> or <strong>page view</strong>, means one retrieval of a web page from the web server. This term is, at least, what it sounds like. Measuring visits does not take into account the same person visiting multiple times. This is an area to be wary of when paying for advertising on a per thousand impressions or CPM basis. You may get 1,000 impressions, views or visits in a month but it could be only 100 real people who access your page 10 times each. Do not mistake visits for visitors.
+
 <div style="border:solid 1px #CCCCCC;padding:25px;margin:20px;float:right">"88.2% of statistics are made up on the spot."
 - Vic Reeves</div>
 A <strong>visitor</strong> is a real person, most of the time. As well as people your site may be visited by search engine spiders or robots performing information retrieval tasks. These will all count so you need to be aware that what you see is not 100% what you get.

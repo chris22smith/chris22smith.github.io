@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Danger. Do Not Sit."
 date: "2015-11-26 23:15:58"
 description: "This isn't some strange health message, warning against being a couch potato, but the warning sign that appears on baggage carousels at airports"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Danger. Do Not Sit."
 wpid: "68"
 ---
+
 This isn't some strange health message, warning against being a couch potato, but the warning sign that appears on baggage carousels at airports.
 
 It is repeated at regular intervals all the way around, both above and below the belt, in a variety of languages and icons. So, pretty clear. What's the first thing that people do? Yes, they ignore the signs and sit on them. Every single time I fly, without exception, I've witnessed this. And I'm not talking about young children who sit down and are immediately called back by their families. It's either children who are allowed or even encouraged to sit on them, or adults who consider the rule unworthy of their respect.

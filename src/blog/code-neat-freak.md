@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Code Neat Freak"
 date: "2016-12-16 17:06:42"
 description: "With front-end developers we all care what our UI design looks like in the browser"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Code Neat Freak"
 wpid: "326"
 ---
+
 With front-end developers we all care what our UI design looks like in the browser. I've started to notice that there are 2 distinct types of developer though - those who are solely focused on the outcome and those who care about the code itself.
 
 If what appears on the screen looks good and a function does what it's supposed to do then does the code really matter? I'm not sure.

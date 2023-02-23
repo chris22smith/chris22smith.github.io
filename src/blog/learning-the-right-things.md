@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Learning the Right Things"
 date: "2017-02-09 18:30:00"
 description: "With so much happening so fast knowing what new tech to learn next can be difficult"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Learning the Right Things"
 wpid: "491"
 ---
+
 With so much happening so fast knowing what new tech to learn next can be difficult. Where should you invest your time and energy? What if you spend ages learning the shiny new framework and it's gone within 2 years?
 
 There are a lot of trends and a lot of new-fangled things do come and go. How do you spot the ones that are going to stick around. It's not easy - you kind of have to go with the flow, not swim against the tide (2 water based metaphors in one sentence, tut).

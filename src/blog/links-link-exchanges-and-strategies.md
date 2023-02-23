@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Links, link exchanges and strategies"
 date: "2008-09-29 13:45:46"
 description: "There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Links, link exchanges and strategies"
 wpid: "400"
 ---
+
 There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there. How do you know who or what to believe?
 
 Well, it's actually quite simple. Don't listen to anyone, not even me. When it comes to links and what you should do let's see what <a href="http://www.google.co.uk" target="_blank">Google</a> has to say. <a href="http://www.google.co.uk" target="_blank">Google</a> has a <a href="http://www.google.com/webmasters/" target="_blank">Webmasters</a> section of their site which gives clear guidelines of what you should and shouldn't do. Read it. Do it.

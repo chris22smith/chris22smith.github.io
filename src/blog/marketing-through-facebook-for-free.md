@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "Marketing through Facebook, for free"
 date: "2009-01-26 15:08:46"
-description: "<a href="http://www"
-tags: ["blog","archive"]
+description: "Facebook is the fastest growing, most popular networking tool in the UK today"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Marketing through Facebook, for free"
 wpid: "414"
 ---
-<a href="http://www.facebook.com" target="_blank"><img class="alignright" style="float: right;border: 0;margin: 20px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/01/facebook.gif" alt="Facebook" width="150" height="170" />Facebook</a> is the fastest growing, most popular networking tool in the UK today. For many users it has made personal emails a thing of the past. How can this be turned into an opportunity for businesses?
+
+Facebook is the fastest growing, most popular networking tool in the UK today. For many users it has made personal emails a thing of the past. How can this be turned into an opportunity for businesses?
 
 <a href="http://www.facebook.com" target="_blank">Facebook</a> is about people, real individuals. If you want to promote a company's goods or services on <a href="http://www.facebook.com" target="_blank">Facebook</a> you can't just set up a business account - you have to do so from an individual's perspective. So, what can you do?
 

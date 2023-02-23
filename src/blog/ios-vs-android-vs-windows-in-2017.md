@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "iOS vs Android vs Windows in 2017"
 date: "2017-01-29 15:00:57"
 description: "Everyone has their favourite big web company and associated operating system (OS)"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "iOS vs Android vs Windows in 2017"
 wpid: "472"
 ---
+
 Everyone has their favourite big web company and associated operating system (OS). We're all either Apple, Google or Microsoft. Maybe not quite all of us. There's always one weirdo who finds something "better".
 
 I'd say that for office desk based work most people are either on Apple or Windows (Mac or PC). I'm not sure if any significant numbers use a Chromebook and Chrome as their serious OS. I may be wrong. For phones it's iOS, Android or, to a lesser extent, Windows. Do people still use Blackberry in big numbers? I'm assuming not.
@@ -15,6 +16,7 @@ I'd say that for office desk based work most people are either on Apple or Windo
 People who use Windows for work might have any kind of phone. It's actually pretty unlikely that they'd have a Windows phone as it's smaller in the phone market. On the other hand, I bet almost everyone who uses a Mac has an iPhone. And without even considering any of the other options.
 
 I'm in quite a lucky position where I work on a Windows laptop, use an Android TV box and an iPad at home so have access to all 3 operating systems. I thought I'd do a quick comparison, nothing scientific, or even particularly fair, just my own impressions. I should also point ut that this isn't about bashing anything. I think all 3 are great. More or less they all do the same things. It's the little differences and the UX of them that becomes interesting. Here are some pros and cons for each.
+
 <ul>
  	<li>iOS and Android are miles ahead of Windows in terms of apps available.</li>
  	<li>iOS is on Apple hardware only whereas you have more choice with Android and Windows.</li>

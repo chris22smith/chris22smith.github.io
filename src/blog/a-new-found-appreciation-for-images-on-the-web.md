@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "A New Found Appreciation for Images on the Web"
 date: "2018-05-09 17:17:46"
 description: "I've been putting images in web pages for years"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "A New Found Appreciation for Images on the Web"
 wpid: "760"
 ---
+
 I've been putting images in web pages for years. Nearly 2 decades now. For most of that time it has been quite easy. Add your source and the dimensions and BOOM, there you go. There was always some work around optimising images outside of your page but once in there, easy.
 
 Then, with higher pixel densities it started getting a bit harder and we had to work it out with media queries and srcset. Now SVG is widely supported, all this fussing around with different versions for different resolutions has gone away, at least for simple graphics.

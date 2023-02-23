@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "Basic Website Integration"
 date: "2008-10-14 13:16:38"
-description: "<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www"
-tags: ["blog","archive"]
+description: "Integration is, in simple terms, making your website fit in with the rest of your business"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Basic Website Integration"
 wpid: "403"
 ---
-<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2008/10/phone.jpg" alt="Offline communication" width="250" height="312" />Integration is, in simple terms, making your website fit in with the rest of your business. At a basic level it's about making everything consistent and not leaving any holes.
+
+Integration is, in simple terms, making your website fit in with the rest of your business. At a basic level it's about making everything consistent and not leaving any holes.
 
 <strong>Consistent Information</strong>
 

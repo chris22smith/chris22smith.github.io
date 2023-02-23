@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Accessible Colour Contrast"
 date: "2018-01-10 19:00:40"
 description: "When I started looking at accessibility and using the <a href="https://www"
-tags: ["blog","archive"]
+tags: ["blog","archive", "tech"]
 eleventyNavigation:
   key: "Accessible Colour Contrast"
 wpid: "713"
 ---
+
 When I started looking at accessibility and using the <a href="https://www.deque.com/products/axe/" target="_blank" rel="noopener">aXe</a> accessibility testing tool, one of the first things that it reported was insufficient colour contrast. So, I started looking into it. The page I tested had quite a few different shades of grey (not 50, before anyone else says it) so this seemed like a good place to start.
 
 How light can grey text be against a white background, or flipped around, how dark does a grey background need to be for white text to be clear?

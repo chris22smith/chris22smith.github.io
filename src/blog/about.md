@@ -3,16 +3,19 @@ layout: "layouts/blog.njk"
 title: "About"
 date: "2015-11-18 19:14:23"
 description: "It’s actually quite hard writing about yourself"
-tags: ["blog","archive"]
+tags: ["archive"]
 eleventyNavigation:
   key: "About"
 wpid: "7"
 ---
+
 It’s actually quite hard writing about yourself. Here goes…
+
 <h3>Professional</h3>
 I work as a front-end developer, designing user interfaces and doing UX work for a rapidly growing software company.
 
 I started working on the web in 1999, back when it was still largely tables, frames and footers crammed with long lists of keywords. I started with a book on HTML and got a copy of Microsoft FrontPage coding up web pages for IE5. Ooh yeah. I got a book on JavaScript but never really clicked with the whole IE vs Netscape business so moved on to CSS. Knowing some CSS made jQuery selectors easy to learn and it wasn't long before I could do DOM stuff and then Ajax. Since then I've learnt vanilla JavaScript, well, always still learning, and worked with a few frameworks - Knockout.js, Angular.js and have more recently dabbled with React and TypeScript.
+
 <h3>Personal</h3>
 <a href="/img/2015/11/mid-wales.jpg" rel="attachment wp-att-134"><img class="circle alignright wp-image-134 size-medium" src="/img/2015/11/mid-wales-300x300.jpg" alt="Mid Wales hill scene" width="150" height="150" style="border-radius:.25em;" /></a>I live in a small town in beautiful green Mid Wales with my wife and 2 sons. There are more sheep than people around here. True.
 

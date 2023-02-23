@@ -3,16 +3,18 @@ layout: "layouts/blog.njk"
 title: "Learning Flexbox"
 date: "2016-03-04 21:28:10"
 description: "I've just, finally, learned how to use the flexible box layout, more commonly known as Flexbox"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Learning Flexbox"
 wpid: "168"
 ---
+
 I've just, finally, learned how to use the flexible box layout, more commonly known as Flexbox. I'm not going to explain it as there are other sites that can do a far better job of that but just wanted to share some excellent resources for learning it as painlessly as possible.
 
 I've delayed on learning it for what feels like years as I've had to support older browsers and trying to provide alternative layouts for old and new was just too much of a maintenance headache. Now I've learned it there's no looking back.
 
 Here are 3 excellent resources to help learn it. They're all quite different but used together cover everything you could need.
+
 <ol>
 	<li>
 <h3><a href="http://flexbox.io/" target="_blank">Flexbox.io</a></h3>

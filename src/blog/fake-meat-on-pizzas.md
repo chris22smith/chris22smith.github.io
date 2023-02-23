@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Fake Meat on Pizzas"
 date: "2017-02-11 08:00:45"
 description: "Last night I had a "meat feast" pizza"
-tags: ["blog","archive"]
+tags: ["blog","archive", "misc"]
 eleventyNavigation:
   key: "Fake Meat on Pizzas"
 wpid: "501"
 ---
+
 Last night I had a "meat feast" pizza. It wasn't actually called meat feast this time but you know the kind of thing. Unsurprisingly, it was disgusting. That's it, I'm officially done with meaty pizzas. Well, until I forget in a few months, anyway. Embarrassingly, I've been here before.
 
 Its toppings <em>theoretically</em> included chicken, ham, pepperoni, sausage and sausage meat. They <em>actually</em> included horrible cubes (yes, cubes) of reconstituted chicken, horrible cubes of reconstituted ham, incredibly thin and tasteless pepperoni, little grey cylinders of watery sausage and strange balls of what I'm generously presuming was sausage meat, though it could have been anything really.

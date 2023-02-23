@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Good web design – following conventions"
 date: "2009-09-16 14:25:03"
 description: "When designing a website an important consideration is its usability and, in particular, the site's visitors being able to understand how to use the site instantly without having to think about it"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Good web design – following conventions"
 wpid: "427"
 ---
+
 When designing a website an important consideration is its usability and, in particular, the site's visitors being able to understand how to use the site instantly without having to think about it. It should be obvious where to find the login link, the search box, know which text is hyperlinked without having to hover over it, etc.
 
 The easiest way to design for people is to give them more of what they already know and understand. Let's take a look at the most popular sites in the UK and see how they do things. We'll look at where various page elements are positioned and how links are styled. This list comes from <a title="alexa.com" href="http://www.alexa.com/topsites/countries/GB" target="_blank">Alexa's Top Sites in the United Kingdom</a>.
@@ -33,7 +34,7 @@ login/logout position - top right
 search position - top right
 options position - top
 feed filters position - left column
-ads position  - right column
+ads position - right column
 corporate info position - footer
 post box position - central, top
 links - dark blue, not underlined

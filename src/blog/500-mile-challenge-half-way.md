@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "500 Mile Challenge - Half Way"
 date: "2017-07-03 18:00:03"
 description: "This year I set myself a challenge, to run 500 miles within the calendar year, 2017"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "500 Mile Challenge - Half Way"
 wpid: "657"
 ---
+
 This year I set myself a challenge, to run 500 miles within the calendar year, 2017. I'm now about half way through the year so thought it was time for a quick update and review.
 
 When exactly is the half way point of the year? With February being short it's probably around the second of July. Near enough for this post anyway.

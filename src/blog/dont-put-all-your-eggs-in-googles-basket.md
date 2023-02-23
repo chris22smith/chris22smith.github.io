@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "Don't put all your eggs in Google's basket"
 date: "2009-06-05 16:03:12"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+description: "Working on your website's search engine optimisation (SEO) is all well and good but it's a dangerous strategy to use this one source of web traffic in isolation"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Don't put all your eggs in Google's basket"
 wpid: "420"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/06/basket.jpg" alt="Google" width="243" height="300" />Working on your website's <a title="Search Engine Optimisation" href="http://www.chris-smith-web.com/wp/?page_id=11" target="_self">search engine optimisation</a> (<a title="SEO" href="http://www.chris-smith-web.com/wp/?page_id=11" target="_self">SEO</a>) is all well and good but it's a dangerous strategy to use this one source of <a title="Web Traffic" href="http://www.chris-smith-web.com/wp/?page_id=11" target="_self">web traffic</a> in isolation. I've found this out the hard way.
+
+Working on your website's <a title="Search Engine Optimisation" href="http://www.chris-smith-web.com/wp/?page_id=11" target="_self">search engine optimisation</a> (<a title="SEO" href="http://www.chris-smith-web.com/wp/?page_id=11" target="_self">SEO</a>) is all well and good but it's a dangerous strategy to use this one source of <a title="Web Traffic" href="http://www.chris-smith-web.com/wp/?page_id=11" target="_self">web traffic</a> in isolation. I've found this out the hard way.
 
 Yes, there's no disputing that appearing at the top of the <a title="Google UK" href="http://www.google.co.uk" target="_blank">Google</a> search results for the right phrases will bring in visitors but using this as your sole strategy could be very risky. You shouldn't be too dependent on <a title="Google UK" href="http://www.google.co.uk" target="_blank">Google</a> as things can change very quickly.
 

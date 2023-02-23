@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "How to Be a Good Designer"
 date: "2018-04-13 18:32:26"
 description: "I've been designing web sites and user interfaces for quite a long time now and thought I'd try to pass on what I think it takes to be a good designer"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "How to Be a Good Designer"
 wpid: "753"
 ---
+
 I've been designing web sites and user interfaces for quite a long time now and thought I'd try to pass on what I think it takes to be a good designer. This isn't about design techniques or theory, just how to interact with other people.
 
 <strong>Rule 1. Don't be a dick.</strong>

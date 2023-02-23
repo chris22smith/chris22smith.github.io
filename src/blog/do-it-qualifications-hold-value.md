@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Do IT Qualifications Hold Value?"
 date: "2017-10-25 18:30:16"
 description: "I work in tech, software development"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Do IT Qualifications Hold Value?"
 wpid: "702"
 ---
+
 I work in tech, software development. I'd say that of the developers I have worked with, some have clear IT backgrounds, e.g. Computer Science degrees, others are entirely self-taught. As far as I can tell, as long as they have enough experience, it doesn't seem to make a lot of difference. Controversial?
 
 Being self-taught myself, I'm not actually sure what is taught in school and universities but, from my limited experience of working in a college and from knowing what my kids learn, it feels like it's always well being the curve, at least 2 or 3 years behind what's being used in the industry. This is both in terms of tooling and approach.

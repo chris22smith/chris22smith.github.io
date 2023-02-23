@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "A/A Testing"
 date: "2016-11-17 18:00:22"
 description: "I'm guessing most people know what A/B Testing is"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "A/A Testing"
 wpid: "276"
 ---
+
 I'm guessing most people know what A/B Testing is. It's publishing 2 variations and monitoring the responses. A typical example might be a web page with a sign up call to action. There would be 2 versions of the page and visitors would be directed to one or the other. After a certain number of page views the number of sign-ups would be counted for each version. Version A might have had 4% sign ups whereas version B might have had 7%. Typically, the best performing page is then either used or put up against another version for another iteration of improvements.
 
 A/A Testing is the control. Visitors are again directed to one of two pages only this time both versions are exactly the same. Let's call them A1 and A2. Suppose A1 comes in with 5% sign-ups but A2 comes in with only 1%. What does that tell us? It basically tells us not to read too much into the A/B Testing as the differing results were probably just random chance.

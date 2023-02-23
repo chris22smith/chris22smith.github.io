@@ -2,17 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Bad Web Dev"
 date: "2016-11-04 08:55:06"
-description: "<!-- wp:paragraph -->
-<p>Sometimes I see stuff on web pages and wonder how the developers ever thought that was OK…</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><strong>"Please make sure you click on this button only once or you may be charged twice"
-tags: ["blog","archive"]
+description: "Sometimes I see stuff on web pages and wonder how the developers ever thought that was OK"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Bad Web Dev"
 wpid: "261"
 ---
+
 <!-- wp:paragraph -->
 <p>Sometimes I see stuff on web pages and wonder how the developers ever thought that was OK…</p>
 <!-- /wp:paragraph -->

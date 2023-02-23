@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Google Maps - The Bits They Don't Tell You"
 date: "2016-03-09 18:06:04"
 description: "I've done quite a lot of work with the Google Maps JavaScript API in the last year or so"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Google Maps - The Bits They Don't Tell You"
 wpid: "140"
 ---
+
 I've done quite a lot of work with the Google Maps JavaScript API in the last year or so. I think I've picked up quite a bit along the way, which you won't find in the official reference guide.
 
 When I first started working with it, one of my favourite things was the excellent documentation that came with it. Sadly, since the shift to Material Design, it's now very difficult to navigate and find anything. In fact, I've pretty much given up on it. It's a lot easier to just use Stack Overflow.

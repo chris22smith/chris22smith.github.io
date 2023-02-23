@@ -3,12 +3,14 @@ layout: "layouts/blog.njk"
 title: "FPL Player Value, Expected Returns and Targets"
 date: "2018-02-28 17:23:03"
 description: "FPL players range in cost starting from 4 up to 13 so how do you compare them fairly across such a broad spectrum? What sort of returns should you expect from each price bracket? I've tried to apply some (very rough) maths to it to find out who's justifying their price tag"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "FPL Player Value, Expected Returns and Targets"
 wpid: "748"
 ---
+
 FPL players range in cost starting from 4 up to 13 so how do you compare them fairly across such a broad spectrum? What sort of returns should you expect from each price bracket? I've tried to apply some (very rough) maths to it to find out who's justifying their price tag.
+
 <h3>Season Target</h3>
 Firstly, we need to set a points target for the season to get our weekly target. I'm going to base mine on equalling my best ever season, 2016/2017, where I scored 2281 points, with a rank of 16,876. So, for this, I'm using a season target of 2280 points, which as you'll see further down makes the maths easier.
 <h3>Scope and Disclaimers</h3>
@@ -19,6 +21,7 @@ So, breaking things down, we all start with a team value of 100. This means each
 Only 11 of our 15 score each week so we need to focus on the team rather than the squad. I've assumed that our first 11 have a cumulative cost of 82. That's assuming a typical value of 18 on bench, something like 4.0, 4.5, 4.5, 5.0.
 
 Using that total playing cost of 82, each player now has an average value of 7.45 (82/11).
+
 <h3>Weekly Target</h3>
 Going back to my season target of 2280 points. Over 38 game weeks this (conveniently) breaks down to 60 points per week. So, I have a weekly target of 60 points.
 <h3>Player Target</h3>
@@ -29,6 +32,7 @@ If I'm expecting an average of 5 points from an average player cost of 7.45 that
 We can then take this expected return number and divide by 0.67 to give a value index based on 1, where 1 is the expected value, above 1 is better, below 1 is poorer.
 
 We can estimate the value over the season so far by looking at the Points per Match and comparing that with the cost. If PPM divided by cost is less than 0.67 the player's returning lower than expected, if higher it's better. This index makes it easy to see how much better or worse as a percentage. 1.14 = 14% better, 0.92 = 8% worse.
+
 <h3>Real Examples</h3>
 Here are some examples using stats from mid game week 28, 2017/2018 season.
 <h4>Defenders</h4>

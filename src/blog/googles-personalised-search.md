@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "Google's Personalised Search"
 date: "2009-01-06 11:42:21"
-description: "<img class="alignright" style="float: right;border: 0;margin: 30px" src="http://www"
-tags: ["blog","archive"]
+description: "Search on the internet is changing"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Google's Personalised Search"
 wpid: "410"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 30px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/01/poweredbygoogle.gif" alt="Google" width="56" height="20" />Search on the internet is changing. We all know how <a href="http://www.google.co.uk" target="_blank">Google</a> works - you type in your search term, hit the "search button", <a href="http://www.google.co.uk" target="_blank">Google</a> beavers away in the background trying to match what you typed with the most likely matches and you're presented with a list of results, all within a split second.
+
+Search on the internet is changing. We all know how <a href="http://www.google.co.uk" target="_blank">Google</a> works - you type in your search term, hit the "search button", <a href="http://www.google.co.uk" target="_blank">Google</a> beavers away in the background trying to match what you typed with the most likely matches and you're presented with a list of results, all within a split second.
 
 If you are logged into <a href="http://www.google.co.uk" target="_blank">Google</a> when you do the same search things are now slightly different. Once the results come back you are given further options. You can "promote" a site by clicking on the little up arrow next to it. This is your way of saying that this is the site you wanted and it will push it to the top of the list for next time you do that search. You also have the option of clicking "remove", the cross. This means that the result is not relevant to you and won't be shown next time around. Finally, you can "comment" by clicking on the speech bubble. This allows you to make notes as you go.
 

@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Dishwasher Nazi"
 date: "2016-11-20 16:36:57"
 description: "When did I change and become so opinionated on how the dishwasher should be filled? Why do I even think about it? It just doesn't matter"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Dishwasher Nazi"
 wpid: "283"
 ---
+
 When did I change and become so opinionated on how the dishwasher should be filled? Why do I even think about it? It just doesn't matter. I know that. But I'm terrible for it. I'll come home to a part-filled dishwasher and I'll start rearranging things so that it gets filled my way.
 
 I'm a cutlery and crockery control freak, a dishwasher Nazi. Bowls go there, cups go there, knives, forks, big spoons, little spoons. It's ridiculous.

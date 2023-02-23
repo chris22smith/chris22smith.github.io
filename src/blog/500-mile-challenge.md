@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "500 Mile Challenge"
 date: "2017-01-06 21:00:33"
 description: "I've set myself a challenge this year"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "500 Mile Challenge"
 wpid: "340"
 ---
+
 I've set myself a challenge this year. In 2017 I'm going to run (a minimum of) 500 miles.
 
 I generally do go out running quite regularly and even do the odd event but I tend to go through phases of not going out for 3 weeks then going out lots. I thought that if I set a total to aim for then I can see how I'm doing against where I should be if runs were evenly distributed - if I'm ahead of schedule or falling behind.

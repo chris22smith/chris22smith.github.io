@@ -3,14 +3,16 @@ layout: "layouts/blog.njk"
 title: "Can I Track It?"
 date: "2016-03-11 20:19:26"
 description: "I'm not sure what proportion of websites include Google Analytics tracking scripts"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Can I Track It?"
 wpid: "177"
 ---
+
 I'm not sure what proportion of websites include Google Analytics tracking scripts. I'd be guessing. What I do know is that every site I've worked on in the last decade or so has made use of it.
 
 The part I feel more confident about guessing is that only a very small minority use anything beyond the most basic out of the box usage. This was true of me until only a few months ago when I was asked if we could track something other than a simple page load.
+
 <h3>Tracking Events</h3>
 It seems like a big thing initially but is actually quite straightforward. You just use any JavaScript event, like a click or change, and send some details to identify it off to Google, all asynchronously. Then it shows up in your reporting. <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/events" target="_blank">Analytics for Web Event Tracking</a>
 

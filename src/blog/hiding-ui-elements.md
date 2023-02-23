@@ -2,13 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Hiding UI Elements"
 date: "2019-03-29 18:00:17"
-description: "<!-- wp:paragraph -->
-<p>At the start of March 2019 I ran a poll on Twitter to see how devs hide UI elements"
-tags: ["blog","archive"]
+description: "At the start of March 2019 I ran a poll on Twitter to see how devs hide UI elements"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Hiding UI Elements"
 wpid: "861"
 ---
+
 <!-- wp:paragraph -->
 <p>At the start of March 2019 I ran a poll on Twitter to see how devs hide UI elements. Here's the tweet and results.</p>
 <!-- /wp:paragraph -->

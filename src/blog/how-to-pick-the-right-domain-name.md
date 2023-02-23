@@ -2,21 +2,20 @@
 layout: "layouts/blog.njk"
 title: "How to pick the right domain name"
 date: "2010-06-22 16:30:45"
-description: "How should you go about selecting the right domain name for your business?
-
-Firstly, you need to find the <a href="http://www"
-tags: ["blog","archive"]
+description: "How should you go about selecting the right domain name for your business?"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "How to pick the right domain name"
 wpid: "429"
 ---
+
 How should you go about selecting the right domain name for your business?
 
 Firstly, you need to find the <a href="http://www.hostingobserver.com/free-domain-names.php" target="_blank">free domain names</a> available on the web. For this, you can take help of your web host. Some <a href="http://www.hostingobserver.com/" target="_blank">web hosting plans</a> include a free domain name with their hosting plan.
 
 So, once you know where to actually register a name, how do you pick the right one?
 
-To help demonstrate some different selection methods I'll use the ficticious example of P J Morris, a long established bookshop based in Ashford, Kent.*
+To help demonstrate some different selection methods I'll use the ficticious example of P J Morris, a long established bookshop based in Ashford, Kent.\*
 
 In an ideal world where all possible domain names are available here are a few different ways of approaching it.
 
@@ -57,6 +56,7 @@ Using the business location may help match local searches but may also limit you
 In the real world, a new site for a book shop would have an enormous amount of competition so combining the name or activity with a geographical reference to successfully match more specific searches is probably a good strategy.
 
 Some general tips:
+
 <ul>
 	<li>It's better to avoid using hyphens (-) if possible as people don't remember them.</li>
 </ul>

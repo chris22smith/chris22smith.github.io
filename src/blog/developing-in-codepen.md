@@ -3,12 +3,14 @@ layout: "layouts/blog.njk"
 title: "Developing in Codepen"
 date: "2015-12-13 22:09:41"
 description: "A look at why and how I use Codepen for front end development work"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Developing in Codepen"
 wpid: "35"
 ---
+
 A look at why and how I use Codepen for front end development work.
+
 <h3>Background</h3>
 I work on a web app with a development team. We use <a href="https://angularjs.org" target="_blank">AngularJS</a> with a RESTful API. My role is looking at the design and UX side of things and scoping out how a new feature will look and behave in a web browser, or, I should say, in various browsers at different screen sizes.
 
@@ -17,6 +19,7 @@ I generally do my work up front. I've always been a design in HTML and CSS kind 
 Until recently, I've been using static HTML and then another developer has added the binding and data. Where the feature is on a new screen I can go a step further and create a dummy data object, to represent the data returned from the API, and actually do the binding as well as create any custom behaviour.
 
 Working on existing screens has been much more difficult. It's almost impossible to add new data, binding and behaviours without breaking the existing code. To use a dummy data object I need to intercept the real data retrieval and replace the object, which stops the page working when wired up again. However I work things, I'm having to check in code which is not releasable.
+
 <h3>A new way of working</h3>
 I've started using <a href="https://codepen.io" target="_blank">Codepen</a> to abstract away the new feature. I set up a new pen, import any existing dependencies and then create the HTML, CSS and JavaScript for the new feature in isolation.
 

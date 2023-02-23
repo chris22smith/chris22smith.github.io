@@ -8,11 +8,12 @@ description: "Web Design, Development and UX
 
 <h2>HTML5</h2>
 I pride myself on writing clean, semantic and accessible HTML including ARIA attributes"
-tags: ["blog","archive"]
+tags: ["archive"]
 eleventyNavigation:
   key: "My CV"
 wpid: "43"
 ---
+
 Web Design, Development and UX
 
 <hr />
@@ -30,6 +31,7 @@ I tend to write <strong>vanilla JavaScript</strong> whenever possible as it's co
 &nbsp;
 
 &nbsp;
+
 <h3>JavaScript Frameworks and Tools</h3>
 The list of frameworks, libraries and tools gets longer all the time. Day to day I work with <strong>Angular</strong> (1). I've known <strong>jQuery</strong> for a long time including the <strong>jQuery UI</strong> front end framework for things like datepickers, autocomplete, sortable lists, drag and drop. I've done projects using <strong>Knockout</strong> and <strong>React</strong>.
 
@@ -59,6 +61,7 @@ I've learned <strong>SVG</strong> and use it wherever possible to give sharp loo
 <hr />
 
 &nbsp;
+
 <h2>Code Editors</h2>
 My main tool is <strong>Visual Studio</strong> in conjunction with <strong>Team Foundation Server</strong> and I use both <strong>Source Control</strong> and <strong>Git</strong>. I tend to do a lot of front end work in <strong>CodePen</strong> as it allows for quick editing, forking and sharing of front end code.
 
@@ -70,6 +73,7 @@ I've done a limited amount of <strong>unit testing</strong> using <strong>Jasmin
 <hr />
 
 &nbsp;
+
 <h2>Languages</h2>
 French
 

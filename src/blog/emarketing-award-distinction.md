@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "eMarketing Award Distinction :)"
 date: "2008-12-05 14:37:23"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+description: "This summer I studied the Chartered Institute of Marketing (CIM)'s eMarketing Award"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "eMarketing Award Distinction :)"
 wpid: "409"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.cim.co.uk/images/logo.gif" alt="Chartered Institute of marketing" width="175" height="42" />This summer I studied the <a title="CIM" rel="nofollow" href="http://www.cim.co.uk" target="_blank">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" rel="nofollow" href="http://www.marketingtom.com/emarketing_award.html" target="_blank">eMarketing Award</a>. Last night I got my results in the post...
+
+This summer I studied the <a title="CIM" rel="nofollow" href="http://www.cim.co.uk" target="_blank">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" rel="nofollow" href="http://www.marketingtom.com/emarketing_award.html" target="_blank">eMarketing Award</a>. Last night I got my results in the post...
 
 I'm proud to say that I achieved <strong>grade A distinctions</strong> in both my online examination and 4,000 word eMarketing report.
 

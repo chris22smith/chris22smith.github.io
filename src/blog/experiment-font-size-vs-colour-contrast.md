@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Experiment: Font Size vs Colour Contrast"
 date: "2018-07-13 19:13:37"
 description: "One of the things I've learned early on in web accessibility is the importance of colour contrast to make things easy to read on screen"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Experiment: Font Size vs Colour Contrast"
 wpid: "797"
 ---
+
 One of the things I've learned early on in web accessibility is the importance of colour contrast to make things easy to read on screen. High contrast is good but the size of text is also a factor. If it's larger it's easier to read even if the contrast drops.
 
 At the same time, having very large text with high contrast is quite "full on". It can feel a bit like you're being shouted at. <em>Oppressive</em> is the word I'd use.

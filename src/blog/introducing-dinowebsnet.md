@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "Introducing... Dinowebs.net"
 date: "2009-06-21 22:21:47"
-description: "<img class="alignright" style="border: 0;float: right;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+description: "As a web developer and programmer I'm always on the look out for solutions to little problems"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Introducing... Dinowebs.net"
 wpid: "424"
 ---
-<img class="alignright" style="border: 0;float: right;margin: 10px" src="http://www.chris-smith-web.com/wp-content/uploads/2009/06/stegosaurus-180x180.png" alt="Dinowebs" width="180" height="180" />As a <a title="web developer" href="http://www.chris-smith-web.com" target="_self">web developer</a> and <a title="programmer" href="http://www.chris-smith-web.com" target="_self">programmer</a> I'm always on the look out for solutions to little problems. How do I do that? How can I make that do this without X, Y and Z happening? You get the idea.
+
+As a <a title="web developer" href="http://www.chris-smith-web.com" target="_self">web developer</a> and <a title="programmer" href="http://www.chris-smith-web.com" target="_self">programmer</a> I'm always on the look out for solutions to little problems. How do I do that? How can I make that do this without X, Y and Z happening? You get the idea.
 
 My first port of call is always <a title="Google" href="http://www.google.co.uk" target="_blank">Google</a>. The way I see it is that I'm unikely to ever have a technical requirement that somebody else hasn't had before. In fact, it's highly likely that hundreds, even thousands of people have faced the same challenges. By using the right search terms on <a title="Google" href="http://www.google.co.uk" target="_blank">Google</a> I can usually find the answers to my problems. This inspired me to build a <a title="technical blog" href="http://dinowebs.net" target="_self">technical blog</a>. It's my way of sharing what I've learnt and, hopefully, helping someone else out.
 

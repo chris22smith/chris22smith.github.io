@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Displaying Options in a UI"
 date: "2016-11-23 18:30:26"
 description: "One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Displaying Options in a UI"
 wpid: "302"
 ---
+
 One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it. As a user you have to click it to see the other available options only to find that there are none. This is a clear example of developer convenience being put before user experience.
 
 I'm sure it seems obvious now I've highlighted it but if there's only one option then there isn't a choice to be made at all and we don't need a form input. The code should conditionally show the drop down list only when there is a selection to be made, more than one item.

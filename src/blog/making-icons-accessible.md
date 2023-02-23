@@ -3,11 +3,12 @@ layout: "layouts/blog.njk"
 title: "Making Icons Accessible"
 date: "2018-05-16 17:42:34"
 description: "I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Making Icons Accessible"
 wpid: "773"
 ---
+
 I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do. For a long time I've just slapped my icon down on the page, styled it and added a click event where needed. Job done.
 
 Having spent some time looking a bit more deeply into accessibility, I can now see that this is not a great approach. There's more to consider. If you can't see it what is it actually doing?

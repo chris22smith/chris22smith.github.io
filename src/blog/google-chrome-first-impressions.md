@@ -2,12 +2,13 @@
 layout: "layouts/blog.njk"
 title: "Google Chrome - first impressions"
 date: "2008-09-15 12:43:31"
-description: "I thought I'd just give my tuppence worth on <a href="http://www"
-tags: ["blog","archive"]
+description: "I thought I'd just give my tuppence worth on Google's new BETA browser, Chrome"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Google Chrome - first impressions"
 wpid: "398"
 ---
+
 I thought I'd just give my tuppence worth on <a href="http://www.google.co.uk" target="_blank">Google</a>'s new BETA browser, <a href="http://www.google.com/chrome" target="_blank">Chrome</a>.
 
 When I first heard about <a href="http://www.google.com/chrome" target="_blank">Google's new browser</a> it was with dread. As a <a href="http://www.chris-smith-web.com/wp/" target="_self">web developer</a> an important part of developing any web page or application is testing that it works in the major browsers. Having another browser on the scene, and with a big name like <a href="http://www.google.co.uk" target="_blank">Google</a> behind it you know it's going to have a lot of users, means more testing and increases my chances of having to recode.

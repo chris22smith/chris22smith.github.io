@@ -4,11 +4,12 @@ title: "Hello World"
 date: "2015-11-25 17:53:45"
 description: "<!-- wp:html -->
 <div class="wp-block-image"><figure class="alignleft"><img src="/wp-content/uploads/2020/03/CS2020-dark-pink"
-tags: ["blog","archive"]
+tags: ["archive"]
 eleventyNavigation:
   key: "Hello World"
 wpid: "49"
 ---
+
 <!-- wp:html -->
 <div class="wp-block-image"><figure class="alignleft"><img src="/wp-content/uploads/2020/03/CS2020-dark-pink.png" alt="Chris Smith photo" width="150" height="150" style="border-radius:1em" class="wp-image-851"></figure></div>
 <!-- /wp:html -->
@@ -25,7 +26,9 @@ wpid: "49"
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
+
 [catlist name=web numberposts=7 pagination=no instance=1 date=yes dateformat="d M Y" excerpt=yes excerpt_size=30 excerpt_strip=no]
+
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph -->
@@ -37,7 +40,9 @@ wpid: "49"
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
+
 [catlist name=nerdery numberposts=3 pagination=no instance=2 date=yes dateformat="d M Y" excerpt=yes excerpt_size=30 excerpt_strip=no]
+
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph -->

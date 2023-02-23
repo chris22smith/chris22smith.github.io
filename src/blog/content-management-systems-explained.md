@@ -2,13 +2,14 @@
 layout: "layouts/blog.njk"
 title: "Content Management Systems explained"
 date: "2008-10-07 14:02:52"
-description: "<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www"
-tags: ["blog","archive"]
+description: "You've probably heard the phrase CMS or Content Management System. I'll explain what it is and some of the benefits"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Content Management Systems explained"
 wpid: "401"
 ---
-<img class="alignright" style="float: right;border: 0;margin-left: 20px;margin-right: 20px;margin-top: 10px;margin-bottom: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2008/10/can.jpg" alt="A different type of content management" width="140" height="390" />You've probably heard the phrase <abbr title="Content Management System">CMS</abbr> or <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">Content Management System</a>. I'll explain what it is and some of the benefits.
+
+You've probably heard the phrase <abbr title="Content Management System">CMS</abbr> or <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">Content Management System</a>. I'll explain what it is and some of the benefits.
 
 A <abbr title="Content Management System">CMS</abbr> is a system which sits behind a website and allows you to edit a website easily. It's called a <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_blank">content management system</a> because it specifically allows changes to the content of the website - the text, images and links on pages - but not the layout or <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_blank">design</a>, which stays fixed.
 

@@ -29,3 +29,7 @@ problems were with punctuation in title
 used post.post_name instead of slugifying post.post_title
 
 
+sort out tags on on blog posts, tech or misc, maybe best
+got as far as measuring-readership (todo)
+look into ordering collections by date and multiple tags
+
