@@ -9,7 +9,7 @@ eleventyNavigation:
 wpid: "397"
 ---
 
-The days of having your website managed by a <a href="https://www.chris-smith-web.com/wp" target="_blank">web designer</a> or design company are now on their way out.
+The days of having your website managed by a web designer or design company are now on their way out.
 
 In the past websites were a one-way read only process, an online brochure which people visited to get information. Now, with the whole concept of Web 2.0, it's all a two-way interactive process with customers or fans playing an active part in a website.
 
@@ -19,7 +19,7 @@ This two-way interaction not only improves communications with customers or fans
 
 With Web 2.0 your web presence goes way beyond what you put on your site. You now need to look at review sites, forums, online communities, social networking communities - in short, anywhere where people can make reference to you.
 
-When you're looking to launch a <a href="https://www.chris-smith-web.com/wp" target="_blank">new web project</a> make sure it fits into the world of Web 2.0 or risk being left behind.
+When you're looking to launch a new web project make sure it fits into the world of Web 2.0 or risk being left behind.
 
 <strong>Want to know more?</strong>
 

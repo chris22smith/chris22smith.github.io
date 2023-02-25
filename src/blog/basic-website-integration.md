@@ -21,6 +21,6 @@ Unlike a physical business your website is accessible 24 hours a day. Therefore,
 
 As well as phone contact you need to deal with form submisisons or emails in an appropriate way. Autoresponders are good. When the visitor sends you an email or submits a form they get an email just confirming that it has been received and will be dealth with. Set a realistic timescale for this, or better, set a timescale and then respond much quicker - exceed the customer's expectations.
 
-<strong><a href="https://www.chris-smith-web.com/wp/?page_id=9" target="_self">Integrated Web Design</a></strong>
+<strong>Integrated Web Design</strong>
 
-A <a href="https://www.chris-smith-web.com/wp" target="_self">good web developer</a> will not <a href="https://www.chris-smith-web.com/wp/?page_id=9" target="_self">design your website</a> as a stand alone unit but will look at how it integrates with your business needs.
+A good web developer will not design your website as a stand alone unit but will look at how it integrates with your business needs.

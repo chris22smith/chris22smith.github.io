@@ -9,9 +9,9 @@ eleventyNavigation:
 wpid: "401"
 ---
 
-You've probably heard the phrase <abbr title="Content Management System">CMS</abbr> or <a href="https://www.chris-smith-web.com/wp/?page_id=9" target="_self">Content Management System</a>. I'll explain what it is and some of the benefits.
+You've probably heard the phrase <abbr title="Content Management System">CMS</abbr> or Content Management System. I'll explain what it is and some of the benefits.
 
-A <abbr title="Content Management System">CMS</abbr> is a system which sits behind a website and allows you to edit a website easily. It's called a <a href="https://www.chris-smith-web.com/wp/?page_id=9" target="_blank">content management system</a> because it specifically allows changes to the content of the website - the text, images and links on pages - but not the layout or <a href="https://www.chris-smith-web.com/wp/?page_id=9" target="_blank">design</a>, which stays fixed.
+A <abbr title="Content Management System">CMS</abbr> is a system which sits behind a website and allows you to edit a website easily. It's called a content management system because it specifically allows changes to the content of the website - the text, images and links on pages - but not the layout or design, which stays fixed.
 
 The usual method of changing web content is by logging in and gaining access to an admin or control panel. This gives options of creating, editing or deleting pages as well as setting up page order and hierarchy (which pages are sub-options of others).
 
@@ -19,6 +19,6 @@ When it comes to editing pages this is normally done through a visual or <abbr t
 
 As well as working with text you can insert various media - images, video clips, audio files, Flash.
 
-So, what are the benefits? Well, the main benefit is that anyone can use it which means that your site can be managed by anyone. In a medium or large company that means anyone in a team, not just the IT person or contracted <a href="https://www.chris-smith-web.com/wp" target="_self">web design company</a>. For a small private site it gives you full freedom to control your content and changes happen instantly - no more waiting for the <a href="https://www.chris-smith-web.com/wp" target="_self">web designer</a> to make your changes.
+So, what are the benefits? Well, the main benefit is that anyone can use it which means that your site can be managed by anyone. In a medium or large company that means anyone in a team, not just the IT person or contracted web design company. For a small private site it gives you full freedom to control your content and changes happen instantly - no more waiting for the web designer to make your changes.
 
 If you're still using a static website and relying on someone else to update it, it's time to take control and manage your own content.

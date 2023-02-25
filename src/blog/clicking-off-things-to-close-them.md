@@ -9,23 +9,14 @@ eleventyNavigation:
 wpid: "759"
 ---
 
-<!-- wp:paragraph -->
 <p>There's a common design pattern these days where a bit of content is shown over the main screen. It might be a modal window or maybe a fly-in menu or sidebar. It's also common, especially in native apps, that we can just click or tap in the space not used by these elements to close them. So, how can we do this?</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>I think there are 2 approaches, one which is pure JavaScript and another which involves an overlay element. Let's look at both.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
 <h3>JavaScript Document Click Event Method</h3>
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
 <p>We can detect that a click is not on the content element using JavaScript. As all click events bubble up or propagate through the DOM tree they eventually reach the top document level. We can listen for a click on the document and then use the event target to check what was clicked. For this example let's assume our content element has a class of 'modal', like &lt;div class="modal">&lt;/div>.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:code -->
 <pre class="wp-block-code"><code>// JavaScript
 
 function handleClick(event) {
@@ -37,27 +28,16 @@ function handleClick(event) {
 document.addEventListener('click', handleClick);</code></pre>
 <!-- /wp:code -->
 
-<!-- wp:paragraph -->
 <p>event.target gets the element that was clicked. This could be the modal element itself, another element inside it or another element outside of it. event.target.closest('.modal') checks if the element clicked is the modal or is an antecedent of the modal element, an element within it. If the element clicked is not (!) in the modal we can close it.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>It's maybe worth noting that .closest() doesn't work in IE11 if you need to support this but there is a polyfill available.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
 <h3>Using an Overlay Element</h3>
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
 <p>The other approach, and the one I tend to use, is to use an overlay element. This means adding an element that covers the whole screen area, slipped in between the modal and the main screen content. The idea is that this overlay will appear and disappear along with the modal and will pick up any click events which are not on the modal. It's a bit like a safety net that will catch any stray clicks.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>The CSS for the overlay would typically look something like this:</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:code -->
 <pre class="wp-block-code"><code>/* CSS */
 
 .overlay {
@@ -77,26 +57,14 @@ document.addEventListener('click', handleClick);</code></pre>
 }</code></pre>
 <!-- /wp:code -->
 
-<!-- wp:paragraph -->
 <p>The overlay has fixed display and goes to each edge so it fills the screen.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>The overlay has z-index set to 1 so it's over the main screen content, and the modal has it set to 2 so it's over the overlay. These can increase as needed but the modal always needs to be higher.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>I've given the overlay a background colour and 50% (.5) opacity so that it veils the main screen content underneath giving the modal a "lightbox" effect but these are not needed and our overlay can be effectively invisible.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>You then just add a click event to the overlay which will close the modal and hide the overlay.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>The reason I like this approach is that by covering the main screen we prevent any interactions with it. If the user tries to click on a button under the overlay their first click will just close the modal. We don't need to worry about any other interactions - while the modal is showing it becomes the sole focus.</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>Extra tip. If you use a visible overlay it's nicer not to show and hide it immediately but fade it in and out with a transition on the opacity, taking it between 0 and .5. This feels much smoother and less jerky.</p>
-<!-- /wp:paragraph -->

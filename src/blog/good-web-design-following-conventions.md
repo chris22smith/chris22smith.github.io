@@ -13,7 +13,7 @@ When designing a website an important consideration is its usability and, in par
 
 The easiest way to design for people is to give them more of what they already know and understand. Let's take a look at the most popular sites in the UK and see how they do things. We'll look at where various page elements are positioned and how links are styled. This list comes from <a title="alexa.com" href="https://www.alexa.com/topsites/countries/GB" target="_blank">Alexa's Top Sites in the United Kingdom</a>.
 
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="https://www.chris-smith-web.com/wp-content/uploads/2009/09/wooden-blocks.jpg" alt="unconventional construction" width="300" height="260" /><strong>Google (UK/Global)</strong>
+<strong>Google (UK/Global)</strong>
 <a title="google.co.uk" href="https://google.co.uk" target="_blank"> google.co.uk</a>/<a title="google.com" href="https://google.com" target="_blank">google.com</a>
 
 logo position - centered, top

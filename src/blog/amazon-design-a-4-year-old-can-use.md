@@ -13,7 +13,7 @@ I was recently using <a href="https://www.amazon.co.uk" target="_blank">Amazon</
 
 I found it fascinating to observe how he managed to use the site easily despite not being able to read.
 
-<img class="alignright" style="float: right;border: 0;margin: 20px" src="https://www.chris-smith-web.com/wp/wp-content/uploads/2009/01/addtobasket.gif" alt="Add to Shopping Basket" width="166" height="27" />He clicked the logo taking him back to the home page. On there he saw a product image he liked (Star Wars video game), clicked it. On this page he clicked a play icon to watch a video preview of the game. When that ended he clicked the yellow button with a shopping basket icon to buy it. He then looked further down the screen where Amazon displays other related products - items other customers bought or viewed - and found some Star Wars toys. By following this process of clicking on related products and adding them to the basket he soon had over £300 of toys and video games in the basket. He even seemed to understand the product star rating system.
+He clicked the logo taking him back to the home page. On there he saw a product image he liked (Star Wars video game), clicked it. On this page he clicked a play icon to watch a video preview of the game. When that ended he clicked the yellow button with a shopping basket icon to buy it. He then looked further down the screen where Amazon displays other related products - items other customers bought or viewed - and found some Star Wars toys. By following this process of clicking on related products and adding them to the basket he soon had over £300 of toys and video games in the basket. He even seemed to understand the product star rating system.
 
 This speaks volumes about how good the design of this site is.
 

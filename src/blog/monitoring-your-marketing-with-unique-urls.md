@@ -11,7 +11,7 @@ wpid: "421"
 
 Using <a title="Google Analytics" href="https://www.google.com/analytics" target="_blank">Google Analytics</a> or a similar web stats package you can see how many people are visiting a particular page or downloading a particular document on your website.
 
-When you're creating a new <a title="Online Marketing Campaign" href="https://www.chris-smith-web.com/?page_id=11" target="_self">online marketing campaign</a> it's useful for you to be clear on what <a title="Web Traffic" href="https://www.chris-smith-web.com/?page_id=11" target="_self">web traffic</a> has been generated from a specific activity rather than just look at your overall traffic.
+When you're creating a new online marketing campaign it's useful for you to be clear on what web traffic has been generated from a specific activity rather than just look at your overall traffic.
 
 For example, if you were promoting a particular event you might place a link on your website's home page, run an ad on <a title="Facebook" href="https://www.facebook.com" target="_blank">Facebook</a> and do an email to your contacts. It would be very useful to know the effectiveness of each of these activities.
 
@@ -32,4 +32,4 @@ By adding further sets of parameters and values to the URL you can get more deta
 <span style="color: #800000">https://www.yourwebsite.com/event.htm?src=email&amp;sex=male
 https://www.yourwebsite.com/event.htm?src=email&amp;sex=female</span>
 
-You can use this URL monitoring to see which activities are working for you and which are providing the <a title="Best value for money" href="https://www.chris-smith-web.com" target="_self">best value for money</a> and <a title="Return on investment" href="https://www.chris-smith-web.com" target="_self">return on investment</a>.
+You can use this URL monitoring to see which activities are working for you and which are providing the best value for money and return on investment.

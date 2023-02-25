@@ -61,7 +61,7 @@ Spam robots can easily be fooled by using fake fields in a form. Include a field
 
 You've probably come across <a title="captcha" href="https://www.recaptcha.net" target="_blank">CAPTCHA</a> controls but may not know them by this name. You're shown a fuzzy image containing a word or letters and numbers and then asked to type the characters into a text field. Spam robots can't do this.
 
-If you're having problems with spam coming from your website ask your <a title="web developer" href="https://www.chris-smith-web.com" target="_self">web developer</a> to use some of these measures and you should see a difference within a short time.
+If you're having problems with spam coming from your website ask your web developer to use some of these measures and you should see a difference within a short time.
 
 <strong>6 Quick Tips
 </strong>

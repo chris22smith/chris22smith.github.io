@@ -27,7 +27,7 @@ This displays a summary of actions performed by a user's friends. The more you c
 
 <strong>Import your Existing Content</strong>
 
-If you have a website using an RSS Feed then <a href="https://www.facebook.com" target="_blank">Facebook</a> allows you to import this into your profile or page, writing content to the news feed with each update. Here's my own <a href="https://www.facebook.com/home.php?src=fftb#/pages/Chris-Smith-Web-Development/6761319987" target="_blank">web development Facebook Page</a> which imports the content from my <a href="https://www.chris-smith-web.com/wp/?feed=rss2" target="_blank">web development RSS feed</a>.<a href="https://www.facebook.com/home.php?src=fftb#/pages/Chris-Smith-Web-Development/6761319987" target="_blank"></a>
+If you have a website using an RSS Feed then <a href="https://www.facebook.com" target="_blank">Facebook</a> allows you to import this into your profile or page, writing content to the news feed with each update. Here's my own <a href="https://www.facebook.com/home.php?src=fftb#/pages/Chris-Smith-Web-Development/6761319987" target="_blank">web development Facebook Page</a> which imports the content from my web development RSS feed.<a href="https://www.facebook.com/home.php?src=fftb#/pages/Chris-Smith-Web-Development/6761319987" target="_blank"></a>
 
 <strong>And finally, a couple of don'ts...</strong>
 

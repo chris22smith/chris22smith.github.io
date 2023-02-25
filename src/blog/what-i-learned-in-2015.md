@@ -35,4 +35,4 @@ A colleague reintroduced me to it and I was delighted to find that it's now poss
 I've started using it as its grid layout makes responsive design so much easier than handling each page element and I know that the ready made components and UI elements are accessible where my own might not be.
 
 <h3>Codepen</h3>
-And finally, <a href="https://codepen.io" target="_blank">Codepen</a>. I've covered this in another post, <a href="https://chrissmith.xyz/developing-in-codepen/" target="_blank">Developing in Codepen</a>. In short, I use it every day, it's awesome.
+And finally, <a href="https://codepen.io" target="_blank">Codepen</a>. I've covered this in another post, <a href="/blog/developing-in-codepen/" target="_blank">Developing in Codepen</a>. In short, I use it every day, it's awesome.

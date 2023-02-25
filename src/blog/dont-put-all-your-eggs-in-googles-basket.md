@@ -9,7 +9,7 @@ eleventyNavigation:
 wpid: "420"
 ---
 
-Working on your website's <a title="Search Engine Optimisation" href="https://www.chris-smith-web.com/wp/?page_id=11" target="_self">search engine optimisation</a> (<a title="SEO" href="https://www.chris-smith-web.com/wp/?page_id=11" target="_self">SEO</a>) is all well and good but it's a dangerous strategy to use this one source of <a title="Web Traffic" href="https://www.chris-smith-web.com/wp/?page_id=11" target="_self">web traffic</a> in isolation. I've found this out the hard way.
+Working on your website's search engine optimisation (SEO) is all well and good but it's a dangerous strategy to use this one source of web traffic in isolation. I've found this out the hard way.
 
 Yes, there's no disputing that appearing at the top of the <a title="Google UK" href="https://www.google.co.uk" target="_blank">Google</a> search results for the right phrases will bring in visitors but using this as your sole strategy could be very risky. You shouldn't be too dependent on <a title="Google UK" href="https://www.google.co.uk" target="_blank">Google</a> as things can change very quickly.
 
@@ -19,6 +19,6 @@ I've experienced it myself a number of times. I've had my site sitting pretty in
 
 <a title="Google UK" href="https://www.google.co.uk" target="_blank">Google</a> indexes websites by periodically visiting them with it's search robot, <a title="Googlebot" href="https://www.google.com/support/webmasters/bin/answer.py?answer=70897" target="_blank">Googlebot</a>. The frequency of these visits depends on the frequency of your site updates. If you're unlucky enough for your website to be down at the time when <a title="Googlebot" href="https://www.google.com/support/webmasters/bin/answer.py?answer=70897" target="_blank">Googlebot</a> visits you'll drop out of the index and have to wait until it drops by again before reappearing.
 
-The other big factor is competition. In competitive markets your competitors will be working tirelessly to try to <a title="Grab the top spot!" href="https://www.chris-smith-web.com/wp/?page_id=11" target="_self">grab the top spot</a>. Changes they make to their sites or <a title="Search Engine Marketing" href="https://www.chris-smith-web.com/wp/?page_id=11" target="_self">search engine marketing activity</a> can easily leave you playing catch up.
+The other big factor is competition. In competitive markets your competitors will be working tirelessly to try to grab the top spot. Changes they make to their sites or search engine marketing activity can easily leave you playing catch up.
 
-I'm not suggesting for a second that you should stop pushing for a <a title="High Ranking" href="https://www.chris-smith-web.com/wp/?page_id=11" target="_self">high ranking</a> on <a title="Google UK" href="https://www.google.co.uk" target="_blank">Google</a> but you should be doing other things too so that should anything change your site doesn't grind to a halt.
+I'm not suggesting for a second that you should stop pushing for a high ranking on <a title="Google UK" href="https://www.google.co.uk" target="_blank">Google</a> but you should be doing other things too so that should anything change your site doesn't grind to a halt.
