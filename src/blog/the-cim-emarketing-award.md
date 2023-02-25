@@ -9,9 +9,9 @@ eleventyNavigation:
 wpid: "396"
 ---
 
-I'm currently studying towards the <a title="CIM" href="http://www.cim.co.uk" target="_blank" rel="nofollow">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" href="http://www.marketingtom.com/emarketing_award.html" target="_blank" rel="nofollow">eMarketing Award</a>.
+I'm currently studying towards the <a title="CIM" href="https://www.cim.co.uk" target="_blank" rel="nofollow">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" href="https://www.marketingtom.com/emarketing_award.html" target="_blank" rel="nofollow">eMarketing Award</a>.
 
-I did a 4 day intensive course through <a title="Marketing Tom" href="http://www.marketingtom.com" target="_blank" rel="nofollow">Marketing Tom Media</a> based near Cardiff. The Award is assessed by an online test and a 4,000 word eMarketing report.
+I did a 4 day intensive course through <a title="Marketing Tom" href="https://www.marketingtom.com" target="_blank" rel="nofollow">Marketing Tom Media</a> based near Cardiff. The Award is assessed by an online test and a 4,000 word eMarketing report.
 
 EMarketing encompasses not only marketing through the web but all forms of electronic marketing so looks at things like email, interactive digital TV, mobile phones, CD-ROMs, etc. The web side looks at not only how to develop a successful website but all the other tools and tricks available to anyone looking to promote their business. It was a real eye opener for me. I now feel that I properly understand the meaning of Web 2.0 - blogging, RSS, social networking. Things have really moved on in the last few years and static brochure type websites are quickly being left behind by the new web 2.0 interactive sites which actively involve the customers in the whole web experience.
 

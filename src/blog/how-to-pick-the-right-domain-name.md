@@ -11,7 +11,7 @@ wpid: "429"
 
 How should you go about selecting the right domain name for your business?
 
-Firstly, you need to find the <a href="http://www.hostingobserver.com/free-domain-names.php" target="_blank">free domain names</a> available on the web. For this, you can take help of your web host. Some <a href="http://www.hostingobserver.com/" target="_blank">web hosting plans</a> include a free domain name with their hosting plan.
+Firstly, you need to find the <a href="https://www.hostingobserver.com/free-domain-names.php" target="_blank">free domain names</a> available on the web. For this, you can take help of your web host. Some <a href="https://www.hostingobserver.com/" target="_blank">web hosting plans</a> include a free domain name with their hosting plan.
 
 So, once you know where to actually register a name, how do you pick the right one?
 

@@ -25,4 +25,4 @@ Another term that is used is <strong>unique visits</strong> and <strong>unique v
 
 Before buying a website, domain name, advertising space or anything else where stats are quoted at you, be sure to nail down exactly what you're talking about.
 
-On the flip side, when trying to sell advertising space, a good solution to overcome any misunderstandings is to use <a title="Google Analytics" href="http://www.google.com/analytics/" target="_blank">Google Analytics</a> on your website. This presents visitor data under clear headings in a way which many webmasters or website owners will understand.
+On the flip side, when trying to sell advertising space, a good solution to overcome any misunderstandings is to use <a title="Google Analytics" href="https://www.google.com/analytics/" target="_blank">Google Analytics</a> on your website. This presents visitor data under clear headings in a way which many webmasters or website owners will understand.

@@ -9,11 +9,11 @@ eleventyNavigation:
 wpid: "409"
 ---
 
-This summer I studied the <a title="CIM" rel="nofollow" href="http://www.cim.co.uk" target="_blank">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" rel="nofollow" href="http://www.marketingtom.com/emarketing_award.html" target="_blank">eMarketing Award</a>. Last night I got my results in the post...
+This summer I studied the <a title="CIM" rel="nofollow" href="https://www.cim.co.uk" target="_blank">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" rel="nofollow" href="https://www.marketingtom.com/emarketing_award.html" target="_blank">eMarketing Award</a>. Last night I got my results in the post...
 
 I'm proud to say that I achieved <strong>grade A distinctions</strong> in both my online examination and 4,000 word eMarketing report.
 
-The course covers all aspects of <strong>electronic marketing</strong>.  I studied with <a title="Marketing Tom" rel="nofollow" href="http://www.marketingtom.com" target="_blank">Marketing Tom Media</a>, a CIM approved centre based near Cardiff, and would certainly recommend both course and <a href="http://www.marketingtom.com" target="_blank">training provider</a> to anyone interested in growing their business online.
+The course covers all aspects of <strong>electronic marketing</strong>.  I studied with <a title="Marketing Tom" rel="nofollow" href="https://www.marketingtom.com" target="_blank">Marketing Tom Media</a>, a CIM approved centre based near Cardiff, and would certainly recommend both course and <a href="https://www.marketingtom.com" target="_blank">training provider</a> to anyone interested in growing their business online.
 
 Perhaps what is most satisfying is that the report which I wrote is not simply being filed away as an academic exercise but is actually being used as a <strong>strategy</strong> for a major organisation's <strong>electronic marketing activities</strong>.
 

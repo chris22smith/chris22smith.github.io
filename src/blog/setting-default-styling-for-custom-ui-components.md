@@ -38,8 +38,8 @@ We could place a block of HTML with &lt;style&gt; tags directly before or after 
 
 The problem with this approach is that the style is declared in the &lt;body&gt; whereas the overwriting CSS is probably declared in the &lt;head&gt; and so will not overwrite it without upping the specificity.
 
-<a href="http://www.w3.org/TR/REC-html40/present/styles.html" target="_blank">W3C Recommendation - Stylesheets
-</a><a href="http://www.w3.org/TR/html-markup/style.html#style.attrs.scoped" target="_blank">W3C Recommendation - Style Scoped</a></li>
+<a href="https://www.w3.org/TR/REC-html40/present/styles.html" target="_blank">W3C Recommendation - Stylesheets
+</a><a href="https://www.w3.org/TR/html-markup/style.html#style.attrs.scoped" target="_blank">W3C Recommendation - Style Scoped</a></li>
 
 <li>
 

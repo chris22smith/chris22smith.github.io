@@ -9,7 +9,7 @@ eleventyNavigation:
 wpid: "415"
 ---
 
-As a linguist I find the evolution of language fascinating. The concept of <a href="http://www.chris-smith-web.com/wp/?p=27" target="_self">Web 2.0</a> seems to have brought with it a whole new vocabulary, some new words and some new meanings for existing words. I’ve listed a few here. If you can think of any more I’ve missed please feel free to comment and add to it.
+As a linguist I find the evolution of language fascinating. The concept of <a href="https://www.chris-smith-web.com/wp/?p=27" target="_self">Web 2.0</a> seems to have brought with it a whole new vocabulary, some new words and some new meanings for existing words. I’ve listed a few here. If you can think of any more I’ve missed please feel free to comment and add to it.
 
 <strong>Application</strong>
 An application is a program which runs on a social network. Applications can easily be shared and published.
@@ -36,7 +36,7 @@ This is often used with feeds. Feeds can be consumed. This means that the feed c
 Becoming a fan of another user or a page means you receive notifications of their activity.
 
 <strong>Feed</strong>
-A feed, also called a newsfeed or RSS feed, is a small portable file which shares a summary list of a website’s content. For example, a news site might make its headlines available for sharing. Feeds are often denoted by an orange button with white markings like this: <img style="border: 0" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/02/rss.gif" alt="RSS Feed" width="16" height="16" />
+A feed, also called a newsfeed or RSS feed, is a small portable file which shares a summary list of a website’s content. For example, a news site might make its headlines available for sharing. Feeds are often denoted by an orange button with white markings like this: <img style="border: 0" src="https://www.chris-smith-web.com/wp/wp-content/uploads/2009/02/rss.gif" alt="RSS Feed" width="16" height="16" />
 
 <strong>Feed Reader</strong>
 A feed reader is a piece of software which consumes a feed, interprets the data contained in the feed and makes it available to read in a user friendly form.
@@ -69,7 +69,7 @@ A page about a person or organisation featuring information, photos, video and a
 Wherever users are allowed to publish content there is potential for it to be abused. Many sites now offer an option to report inappropriate or abusive content.
 
 <strong>Re-tweet </strong>(sometimes written "retweet")
-To re-tweet is to reply to a post on social media site <a href="http://www.twitter.com" target="_blank">Twitter</a>.
+To re-tweet is to reply to a post on social media site <a href="https://www.twitter.com" target="_blank">Twitter</a>.
 
 <strong>RSS Feed</strong>
 See feed.
@@ -93,7 +93,7 @@ Tagging a document means labelling it or assigning keywords to it. By tagging an
 A trackback is a link that lets an author know who is linking to their article. It’s really just a reference which the author can see.
 
 <strong>Tweet</strong>
-Tweeting simply means posting content on the social networking site <a href="http://www.twitter.com" target="_blank">Twitter</a>.
+Tweeting simply means posting content on the social networking site <a href="https://www.twitter.com" target="_blank">Twitter</a>.
 
 <strong>Unlike</strong>
 Where there are options to say that you like something, there is also the option to “unlike” something. This is different from saying you dislike it, it is merely revoking your “like”.
@@ -117,4 +117,4 @@ An area on a page or profile where people can post. The owner has editorial cont
 A widget is a small program which usually sits in a sidebar.
 
 <strong>Wiki</strong>
-A wiki is a website where the content is created by its users. The biggest and most famous example is <a href="http://www.wikipedia.org" target="_blank">Wikipedia</a>.
+A wiki is a website where the content is created by its users. The biggest and most famous example is <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>.

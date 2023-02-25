@@ -11,10 +11,10 @@ wpid: "427"
 
 When designing a website an important consideration is its usability and, in particular, the site's visitors being able to understand how to use the site instantly without having to think about it. It should be obvious where to find the login link, the search box, know which text is hyperlinked without having to hover over it, etc.
 
-The easiest way to design for people is to give them more of what they already know and understand. Let's take a look at the most popular sites in the UK and see how they do things. We'll look at where various page elements are positioned and how links are styled. This list comes from <a title="alexa.com" href="http://www.alexa.com/topsites/countries/GB" target="_blank">Alexa's Top Sites in the United Kingdom</a>.
+The easiest way to design for people is to give them more of what they already know and understand. Let's take a look at the most popular sites in the UK and see how they do things. We'll look at where various page elements are positioned and how links are styled. This list comes from <a title="alexa.com" href="https://www.alexa.com/topsites/countries/GB" target="_blank">Alexa's Top Sites in the United Kingdom</a>.
 
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp-content/uploads/2009/09/wooden-blocks.jpg" alt="unconventional construction" width="300" height="260" /><strong>Google (UK/Global)</strong>
-<a title="google.co.uk" href="http://google.co.uk" target="_blank"> google.co.uk</a>/<a title="google.com" href="http://google.com" target="_blank">google.com</a>
+<img class="alignright" style="float: right;border: 0;margin: 10px" src="https://www.chris-smith-web.com/wp-content/uploads/2009/09/wooden-blocks.jpg" alt="unconventional construction" width="300" height="260" /><strong>Google (UK/Global)</strong>
+<a title="google.co.uk" href="https://google.co.uk" target="_blank"> google.co.uk</a>/<a title="google.com" href="https://google.com" target="_blank">google.com</a>
 
 logo position - centered, top
 login position - top right
@@ -27,7 +27,7 @@ links - blue, underlined
 unlinked URLs - green
 
 <strong>Facebook</strong>
-<a title="facebook.com" href="http://facebook.com" target="_blank"> facebook.com</a>
+<a title="facebook.com" href="https://facebook.com" target="_blank"> facebook.com</a>
 
 logo position - top left
 login/logout position - top right
@@ -40,7 +40,7 @@ post box position - central, top
 links - dark blue, not underlined
 
 <strong>YouTube</strong>
-<a title="youtube.com" href="http://youtube.com" target="_blank"> youtube.com</a>
+<a title="youtube.com" href="https://youtube.com" target="_blank"> youtube.com</a>
 
 logo position - top left
 login position - top right
@@ -49,7 +49,7 @@ corporate info position - footer
 links - blue, not underlined
 
 <strong>Yahoo!</strong>
-<a title="yahoo.com" href="http://yahoo.com" target="_blank"> yahoo.com</a>
+<a title="yahoo.com" href="https://yahoo.com" target="_blank"> yahoo.com</a>
 
 logo position - top left
 login position - top right
@@ -61,7 +61,7 @@ links - dark blue, not underlined
 links - black, not underlined (in menu box)
 
 <strong>Bing</strong>
-<a title="bing.com" href="http://bing.com" target="_blank">bing.com</a>
+<a title="bing.com" href="https://bing.com" target="_blank">bing.com</a>
 
 logo position - top left
 login position - top right
@@ -73,7 +73,7 @@ links - blue, not underlined (in menu box)
 unlinked URLs - green
 
 <strong>BBC</strong>
-<a title="bbc.co.uk" href="http://bbc.co.uk" target="_blank"> bbc.co.uk</a>
+<a title="bbc.co.uk" href="https://bbc.co.uk" target="_blank"> bbc.co.uk</a>
 
 accessibility info position - top left
 logo position - top left
@@ -82,7 +82,7 @@ corporate info position - footer
 links - green, not underlined
 
 <strong>eBay UK</strong>
-<a title="ebay.co.uk" href="http://ebay.co.uk" target="_blank"> ebay.co.uk</a>
+<a title="ebay.co.uk" href="https://ebay.co.uk" target="_blank"> ebay.co.uk</a>
 
 logo position - top left
 login position - top

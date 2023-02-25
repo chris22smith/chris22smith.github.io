@@ -26,7 +26,7 @@ First up, try to filter out any bots, spiders or non human visitors. When you se
 
 The next step is to break the visits down into the levels described above by looking at the length of time on the page. It's not quite a simple as setting fixed ranges as blog posts will vary in length, so what might be a full read for a short piece could be a scan for a longer one. So, we need to use the word count and the time on page to calculate the level. This means we need 3 ranges of reading speeds which reflect our 3 levels.
 
-Setting the reading speed levels is largely guess work but I've tried to apply some logic to it. Some <a href="http://www.staples.com/sbd/cre/marketing/technology-research-centers/ereaders/speed-reader/" target="_blank">reading speed research</a> shows that the average reading speed for an adult is around 300 words per minute. That's five words per second. So, if we get the word count and divide by 5 we've got the rough amount of time in seconds that an adult should need to be on the page to read the whole article.
+Setting the reading speed levels is largely guess work but I've tried to apply some logic to it. Some <a href="https://www.staples.com/sbd/cre/marketing/technology-research-centers/ereaders/speed-reader/" target="_blank">reading speed research</a> shows that the average reading speed for an adult is around 300 words per minute. That's five words per second. So, if we get the word count and divide by 5 we've got the rough amount of time in seconds that an adult should need to be on the page to read the whole article.
 
 So, if the seconds spent on the page is greater than or equal to a fifth of the word count then we have level 3, the full read.
 

@@ -21,4 +21,4 @@ I started working on the web in 1999, back when it was still largely tables, fra
 
 At different times I've lived, studied and worked in rural Herefordshire, Birmingham, Siena (Italy), Swansea and London.
 
-When not working I like playing around with other little web projects like this site, <a href="https://codepen.io/chris22smith">Codepen</a> and <a href="http://dinowebs.net">dinowebs.net</a> (so, still kind of working), playing football (soccer to some people), going running, playing guitars (when I find the time) and then a load more pretty average stuff that everybody does.
+When not working I like playing around with other little web projects like this site, <a href="https://codepen.io/chris22smith">Codepen</a> and <a href="https://dinowebs.net">dinowebs.net</a> (so, still kind of working), playing football (soccer to some people), going running, playing guitars (when I find the time) and then a load more pretty average stuff that everybody does.

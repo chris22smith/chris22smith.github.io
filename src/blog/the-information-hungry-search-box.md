@@ -11,7 +11,7 @@ wpid: "84"
 
 We're all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It's a quick and easy way of finding something without having to drill down through endless options.
 
-From the <a href="http://www.chris-smith-web.com/wp" target="_self">web developer</a>'s point of view it's a great tool which increases a website's usability. From the <a href="http://www.chris-smith-web.com/wp" target="_self">web marketer</a>'s point of view it can do more.
+From the <a href="https://www.chris-smith-web.com/wp" target="_self">web developer</a>'s point of view it's a great tool which increases a website's usability. From the <a href="https://www.chris-smith-web.com/wp" target="_self">web marketer</a>'s point of view it can do more.
 
 By capturing the text typed into the search box the website owner can see what his/her visitors are searching for. This may be for existing products or it could be that they are searching for something not offered. Capturing and analysing this information can help have several benefits.
 

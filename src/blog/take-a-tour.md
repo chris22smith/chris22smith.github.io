@@ -17,11 +17,11 @@ The other great benefit is that you don't have to just show the tooltips as hint
 
 If implemented well this could mean the end of lengthy, hard to maintain documentation, training materials, videos, etc.
 
-There are a few libraries out there for this but, of the ones I've looked at, the best for my needs was <a href="http://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">Hopscotch</a> by LinkedIn. It's vanilla JavaScript, very simple to implement and has some nice added features like support for other languages.
+There are a few libraries out there for this but, of the ones I've looked at, the best for my needs was <a href="https://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">Hopscotch</a> by LinkedIn. It's vanilla JavaScript, very simple to implement and has some nice added features like support for other languages.
 
 You define a tour object with an array of steps. Each step then has an element selector, the bubble content and the position where you want it to appear - top, bottom, left, right. That's it.
 
 You can also do some pretty clever stuff where your tour goes across multiple pages. This just needs you to pass the tour ID and step index so it knows where to pick up from.
 
 The Hopscotch demo page explains it all very nicely:
-<a href="http://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">http://linkedin.github.io/hopscotch/</a>
+<a href="https://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">https://linkedin.github.io/hopscotch/</a>

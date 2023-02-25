@@ -53,15 +53,15 @@ Contact forms, blogs and other Web 2.0 applications invite visitors to a webpage
 
 Comments can often be set so that they have to be moderated and manually approved by the owner before being published but even then huge amounts of spam can become a problem with moderation becoming unmanageable.
 
-There are two answers to this - use clever scripting to fool spam robots or use a <a title="captcha" href="http://www.recaptcha.net" target="_blank">CAPTCHA</a> control in your page.
+There are two answers to this - use clever scripting to fool spam robots or use a <a title="captcha" href="https://www.recaptcha.net" target="_blank">CAPTCHA</a> control in your page.
 
 Spam robots visit pages and look for opportunities to enter content. They cannot do things that a human user can do such as answer questions or interpret images. By forcing the page visitor to act like a human in order to leave a message we can reduce spam to only that manually left by real people.
 
 Spam robots can easily be fooled by using fake fields in a form. Include a field for some bit of information you don't actually need and hide it using CSS. Only allow the message to be left if the field is blank. The spam robot will complete it.
 
-You've probably come across <a title="captcha" href="http://www.recaptcha.net" target="_blank">CAPTCHA</a> controls but may not know them by this name. You're shown a fuzzy image containing a word or letters and numbers and then asked to type the characters into a text field. Spam robots can't do this.
+You've probably come across <a title="captcha" href="https://www.recaptcha.net" target="_blank">CAPTCHA</a> controls but may not know them by this name. You're shown a fuzzy image containing a word or letters and numbers and then asked to type the characters into a text field. Spam robots can't do this.
 
-If you're having problems with spam coming from your website ask your <a title="web developer" href="http://www.chris-smith-web.com" target="_self">web developer</a> to use some of these measures and you should see a difference within a short time.
+If you're having problems with spam coming from your website ask your <a title="web developer" href="https://www.chris-smith-web.com" target="_self">web developer</a> to use some of these measures and you should see a difference within a short time.
 
 <strong>6 Quick Tips
 </strong>

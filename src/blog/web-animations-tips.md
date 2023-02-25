@@ -16,7 +16,7 @@ By zooming all I really mean is moving things nearer or further by animating the
 
 I like to set the opacity at 1 when elements are close up and fade them down to a lower opacity as they're further away. This gives a very natural feeling of coming into focus or if exaggerated can give the impression of something emerging from a fog.
 
-Example: <a href="http://codepen.io/chris22smith/pen/BKaWBd" target="_blank">Tie Fighter Waves</a>
+Example: <a href="https://codepen.io/chris22smith/pen/BKaWBd" target="_blank">Tie Fighter Waves</a>
 
 <h3>Rotation</h3>
 I quite often use rotation to make 3D objects spin on screen. It would be a shame to go to the trouble of making a 3D object with detail on all sides only to see part of it. Turning it round slowly is an easy way showing it off. Use a keyframe animation for this rotating the object around the Y axis.

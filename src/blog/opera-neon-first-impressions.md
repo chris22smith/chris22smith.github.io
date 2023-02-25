@@ -9,7 +9,7 @@ eleventyNavigation:
 wpid: "474"
 ---
 
-<a href="http://www.opera.com/computer/neon" target="_blank">Opera Neon</a> is the new concept browser from Opera. What's a "concept browser"? I've no idea but I like new shiny things to play with so have been playing. The <a href="http://www.opera.com/computer/neon" target="_blank">Opera Neon webpage</a> will explain it much better than I can but here are a few first impressions.
+<a href="https://www.opera.com/computer/neon" target="_blank">Opera Neon</a> is the new concept browser from Opera. What's a "concept browser"? I've no idea but I like new shiny things to play with so have been playing. The <a href="https://www.opera.com/computer/neon" target="_blank">Opera Neon webpage</a> will explain it much better than I can but here are a few first impressions.
 
 <a href="/img/2017/01/opera-neon.png"><img class="alignleft size-large wp-image-494" src="/img/2017/01/opera-neon-1024x576.png" alt="Opera Neon screenshot" width="660" height="371" /></a>
 

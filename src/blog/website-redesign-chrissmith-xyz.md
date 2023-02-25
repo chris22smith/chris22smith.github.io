@@ -15,7 +15,7 @@ The site was built using <a href="https://jekyllrb.com/" target="_blank">Jekyll<
 
 My biggest issue with having my own site is giving it the love it deserves. Making time to write content is definitely the number one blocker for me. If I could make it as easy as possible to write content from multiple devices that would go a long way to making it work for me. I decided to go back to good old <a href="https://en-gb.wordpress.org/" target="_blank">WordPress</a>.
 
-I now publish from my laptop as before but, as it's all web based, I can just log on anywhere and write a draft. The <a href="http://www.amazon.co.uk/Fire-Display-Wi-Fi-GB-Includes/dp/B00Y3TM6CO" target="_blank">Amazon Fire tablet</a> (forked Android) has a WordPress app which allows me to write locally and sync at my convenience. I don't think I'd really choose to write blog posts from my phone but if I ever needed to make a change, e.g. spotted an embarrassing typo, I could.
+I now publish from my laptop as before but, as it's all web based, I can just log on anywhere and write a draft. The <a href="https://www.amazon.co.uk/Fire-Display-Wi-Fi-GB-Includes/dp/B00Y3TM6CO" target="_blank">Amazon Fire tablet</a> (forked Android) has a WordPress app which allows me to write locally and sync at my convenience. I don't think I'd really choose to write blog posts from my phone but if I ever needed to make a change, e.g. spotted an embarrassing typo, I could.
 
 As a developer using something built on PHP and MySql is nowhere near as cool as Ruby and no database but who actually cares. Loads of great sites I use day-to-day are built on WordPress, like <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>. If it's good enough for them, it's good enough for me.
 

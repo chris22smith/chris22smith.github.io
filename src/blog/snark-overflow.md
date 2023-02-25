@@ -9,7 +9,7 @@ eleventyNavigation:
 wpid: "352"
 ---
 
-<a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a> is both brilliant and terrible. As a web developer it's one of those sites that you just have to use, like Can I Use, MDN or CSS Tricks. You can Google any coding issue and the question will pop up in the first few results, you click through, scroll down to the accepted answer or the one with all the upvotes and 8 times out of 10 problem solved. Brilliant.
+<a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a> is both brilliant and terrible. As a web developer it's one of those sites that you just have to use, like Can I Use, MDN or CSS Tricks. You can Google any coding issue and the question will pop up in the first few results, you click through, scroll down to the accepted answer or the one with all the upvotes and 8 times out of 10 problem solved. Brilliant.
 
 There's another side to it. The accepted answer is selected by the user who asked the question (the OP), someone who isn't an expert in this area. The solution works, they mark it as the accepted answer and get on with their lives. Meanwhile, others are providing different, possibly better, answers. These better answers may get some upvotes but a lot of visitors are just looking for a quick fix and won't read every answer and so won't upvote alternatives in any great numbers. So, the best answer can easily be overlooked.
 

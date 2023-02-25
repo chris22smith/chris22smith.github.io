@@ -63,8 +63,8 @@ We could add style attributes directly into the HTML tags. The problem here is o
 <h3>Setting the style in a HTML &lt;style&gt; tag</h3>
 We could place a block of HTML with &lt;style&gt; tags directly before or after the component HTML so that it effectively ships together. Placing &lt;style&gt; tags in the &lt;body&gt; was invalid in HTML4 but, if I've understood it correctly, can be used in HTML5 by using the scoped attribute, e.g. &lt;style type="text/css" scoped&gt;&lt;/style&gt;. Browser support for this to be properly valid is not great at the time of writing (early 2016) - we get warning messages in consoles or code editors - but it seems to display as intended.
 <p>The problem with this approach is that the style is declared in the &lt;body&gt; whereas the overwriting CSS is probably declared in the &lt;head&gt; and so will not overwrite it without upping the specificity.</p>
-<p><a href="http://www.w3.org/TR/REC-html40/present/styles.html" target="_blank">W3C Recommendation - Stylesheets
-</a><a href="http://www.w3.org/TR/html-markup/style.html#style.attrs.scoped" target="_blank">W3C Recommendation - Style Scoped</a></li></p>
+<p><a href="https://www.w3.org/TR/REC-html40/present/styles.html" target="_blank">W3C Recommendation - Stylesheets
+</a><a href="https://www.w3.org/TR/html-markup/style.html#style.attrs.scoped" target="_blank">W3C Recommendation - Style Scoped</a></li></p>
 <li>
 <h3>Setting the style with JavaScript</h3>
 The final option is to set styling using JavaScript, which effectively just inserts style attributes into the component's HTML elements like in approach 2.</li>

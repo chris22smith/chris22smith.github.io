@@ -12,7 +12,7 @@ wpid: "223"
 The various types of form inputs can look very different in different browsers. When it comes to styling them there's only so much we can control. Here are all the form elements (at the time of writing) in one pen. Try viewing it in different browsers to see how they appear.
 
 [codepen_embed height=500 theme_id=1 slug_hash='pymBWL' user='chris22smith' default_tab='result' animations='run']
-See the Pen &lt;a href='http://codepen.io/chris22smith/pen/pymBWL'&gt;All Form Elements&lt;/a&gt;.
+See the Pen &lt;a href='https://codepen.io/chris22smith/pen/pymBWL'&gt;All Form Elements&lt;/a&gt;.
 [/codepen_embed]
 
 It bugs me that the width and height of these elements seem inconsistent, as do text sizes, shading, etc. It makes it hard to create attractive forms and have everything align nicely.
@@ -21,7 +21,7 @@ It bugs me that the width and height of these elements seem inconsistent, as do
 It's not too difficult to try to bring some control to the styling. Textareas, inputs which accept text and buttons are basically boxes and we can style them just like div elements. Other inputs can have special features but we can still change the basics - height, width, font-family, font-size, margin, padding, color, border, border-radius.
 
 [codepen_embed height=500 theme_id=1 slug_hash='PNvvXd' user='chris22smith' default_tab='result' animations='run']
-See the Pen &lt;a href='http://codepen.io/chris22smith/pen/PNvvXd'&gt;All Form Elements - Style Base&lt;/a&gt;.
+See the Pen &lt;a href='https://codepen.io/chris22smith/pen/PNvvXd'&gt;All Form Elements - Style Base&lt;/a&gt;.
 [/codepen_embed]
 
 This light scattering of CSS seems to bring it under control and "flexbox" is a nice way of making everything align and behave responsively.

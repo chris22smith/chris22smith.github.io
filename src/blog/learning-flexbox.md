@@ -17,10 +17,10 @@ Here are 3 excellent resources to help learn it. They're all quite different but
 
 <ol>
 	<li>
-<h3><a href="http://flexbox.io/" target="_blank">Flexbox.io</a></h3>
+<h3><a href="https://flexbox.io/" target="_blank">Flexbox.io</a></h3>
 This is a series of free video tutorials by <a href="https://twitter.com/wesbos" target="_blank">Wes Bos</a>. Each video is short and focuses on one step, which makes it easy to digest. It's very well explained, gives real examples and even details setting up AutoPrefixer to make it more cross browser compatible. I'd say this is the best place to start.</li>
 	<li>
-<h3><a href="http://www.flexboxdefense.com/" target="_blank">FlexboxDefense.com</a></h3>
+<h3><a href="https://www.flexboxdefense.com/" target="_blank">FlexboxDefense.com</a></h3>
 This site by <a href="https://twitter.com/ChanningAllen" target="_blank">Channing Allen</a> is a game that gets you to use your flexbox knowledge to position towers to defend against attackers. It's got 10 levels which increase in difficulty. It's fun and gives some good practice of actually using the code and seeing the results.</li>
 	<li>
 <h3><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks Complete Guide to Flexbox</a></h3>

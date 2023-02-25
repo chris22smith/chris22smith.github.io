@@ -18,28 +18,28 @@ You've guessed where this is going. I recently had the idea of closing down the
 <h3>When I Were a Lad</h3>
 I've found it fascinating looking back at some of the things I wrote about in the early days. Cue harp music and wobbly faces. It goes to show how fast things move. Here are some of the topics I covered:
 
-<a href="http://chrissmith.xyz/the-web-20-concept-the-basics/" target="_blank">Web 2.0</a> - what version are we on now? (Aug 2008)
+<a href="https://chrissmith.xyz/the-web-20-concept-the-basics/" target="_blank">Web 2.0</a> - what version are we on now? (Aug 2008)
 
 <blockquote>In the past websites were a one-way read only process, an online brochure which people visited to get information. Now, with the whole concept of Web 2.0, it’s all a two-way interactive process with customers or fans playing an active part in a website.</blockquote>
 Gold.
 
 <hr />
 
-<a href="http://chrissmith.xyz/google-chrome-first-impressions/" target="_blank">Chrome</a>, when it was Google Chrome and still in BETA (Sep 2008)
+<a href="https://chrissmith.xyz/google-chrome-first-impressions/" target="_blank">Chrome</a>, when it was Google Chrome and still in BETA (Sep 2008)
 
-<blockquote>Having another browser on the scene, and with a big name like <a href="http://www.google.co.uk/" target="_blank">Google</a> behind it you know it’s going to have a lot of users, means more testing and increases my chances of having to recode.</blockquote>
+<blockquote>Having another browser on the scene, and with a big name like <a href="https://www.google.co.uk/" target="_blank">Google</a> behind it you know it’s going to have a lot of users, means more testing and increases my chances of having to recode.</blockquote>
 Hmm. Didn't imagine it would be quite so good.
 
 <hr />
 
-<a href="http://chrissmith.xyz/links-link-exchanges-and-strategies/" target="_blank">Link exchanges</a>, when that was a thing (Sep 2008)
+<a href="https://chrissmith.xyz/links-link-exchanges-and-strategies/" target="_blank">Link exchanges</a>, when that was a thing (Sep 2008)
 
 <blockquote>Don’t listen to anyone, not even me.</blockquote>
 Excellent advice.
 
 <hr />
 
-<a href="http://chrissmith.xyz/web-design-for-different-screen-sizes/" target="_blank">Responsive design</a>, kind of, whatever, I'm claiming it (Sep 2008)
+<a href="https://chrissmith.xyz/web-design-for-different-screen-sizes/" target="_blank">Responsive design</a>, kind of, whatever, I'm claiming it (Sep 2008)
 
 <blockquote>The majority of users in the UK use a Windows PC with Internet Explorer 7 and a screen resolution of 1024×768 pixels.</blockquote>
 Ouch.

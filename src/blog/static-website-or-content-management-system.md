@@ -23,7 +23,7 @@ If you've decided you want a website, the next decision to be made is which kind
 	<li>If you want to update it you have to contact the web developer and wait for him/her to update the content for you.</li>
 	<li>If you want to use an XML sitemap you have to have it updated manually each time you change your content.</li>
 </ul>
-<img class="aligncenter size-full wp-image-224" title="Static Website" src="http://www.chris-smith-web.com/wp-content/uploads/2010/06/static.png" alt="Static Website" width="450" height="100" />
+<img class="aligncenter size-full wp-image-224" title="Static Website" src="https://www.chris-smith-web.com/wp-content/uploads/2010/06/static.png" alt="Static Website" width="450" height="100" />
 <h2>Content Management System</h2>
 <strong>Pros</strong>
 <ul>
@@ -37,7 +37,7 @@ If you've decided you want a website, the next decision to be made is which kind
 	<li>It's more expensive. The set up takes longer and the web hosting costs more.</li>
 	<li>The web designer doesn't have quite as much creative freedom as he'she has to fit in with the CMS framework.</li>
 </ul>
-<img class="aligncenter size-full wp-image-225" title="Content Management System" src="http://www.chris-smith-web.com/wp-content/uploads/2010/06/cms.png" alt="Content Management System" width="330" height="200" />
+<img class="aligncenter size-full wp-image-225" title="Content Management System" src="https://www.chris-smith-web.com/wp-content/uploads/2010/06/cms.png" alt="Content Management System" width="330" height="200" />
 
 <strong>Conclusion</strong>
 
