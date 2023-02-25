@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Fantasy Football - Best Season Yet :)"
-date: "2017-05-22 18:00:06"
+date: 2017-05-22 18:00:06
 description: "The 2016/2017 Premier League season has just finished and so has my season of Fantasy Premier League"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Basic Website Integration"
-date: "2008-10-14 13:16:38"
+date: 2008-10-14 13:16:38
 description: "Integration is, in simple terms, making your website fit in with the rest of your business"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

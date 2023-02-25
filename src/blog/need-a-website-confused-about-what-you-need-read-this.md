@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Need a website? Confused about what you need? Read this."
-date: "2009-05-12 12:31:43"
+date: 2009-05-12 12:31:43
 description: "Here are the real basics of starting a website in simple, jargon-free, easy to understand English"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Need a website? Confused about what you need? Read this."
 wpid: "419"
 ---
+
 Here are the real basics of starting a website in simple, jargon-free, easy to understand English.
 
 <img class="alignright" style="float: right;border: 0;margin: 0px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/05/www.jpg" alt="Web Services" width="300" height="224" /><strong>How a website works</strong>
@@ -17,9 +18,10 @@ A website is a collection of files (text, images, video, etc.) on a computer mad
 <strong>What do you need?</strong>
 
 To run a website you need three things:
-1) someone to create the files for you,
-2) somewhere to make them available and
-3) a nice name to make it easy to find.
+
+1. someone to create the files for you,
+2. somewhere to make them available and
+3. a nice name to make it easy to find.
 
 The process of creating these files is known as <a title="web development" href="http://www.chris-smith-web.com" target="_self">web development</a>.
 The service of making them available is known as <a title="web services" href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">web hosting</a>.

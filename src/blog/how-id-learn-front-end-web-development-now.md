@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "How I'd Learn Front End Web Development Now"
-date: "2022-05-27 16:30:00"
+date: 2022-05-27 16:30:00
 description: "When I started out with doing web stuff in 1999, things were very different, much simpler in some ways but much harder in others"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

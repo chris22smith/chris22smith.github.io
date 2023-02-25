@@ -1,17 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "Ordering CSS Properties A-Z"
-date: "2016-04-20 21:32:39"
-description: "How do you order your CSS properties? There are a few different possible ways that spring to mind:
-<ol>
- 	<li>Sort all properties alphabetically, listing them A-Z</li>
- 	<li>Group properties by their meanings, e"
-tags: ["blog","archive"]
+date: 2016-04-20 21:32:39
+description: "How do you order your CSS properties? There are a few different possible ways that spring to mind"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Ordering CSS Properties A-Z"
 wpid: "208"
 ---
+
 How do you order your CSS properties? There are a few different possible ways that spring to mind:
+
 <ol>
  	<li>Sort all properties alphabetically, listing them A-Z</li>
  	<li>Group properties by their meanings, e.g. typographical properties first, then sizing, then shadows, then animations, etc.</li>

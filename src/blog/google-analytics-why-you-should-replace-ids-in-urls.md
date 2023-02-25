@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Google Analytics - Why You Should Replace IDs in URLs"
-date: "2018-08-01 16:53:19"
+date: 2018-08-01 16:53:19
 description: "Google Analytics is brilliant at tracking things like Page Views for a website"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

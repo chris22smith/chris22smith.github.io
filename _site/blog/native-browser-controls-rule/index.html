@@ -1,0 +1,95 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Browser Controls Rule</title>
+    <meta name="description" content="It&#39;s become very common for designers to replace the standard native browser controls with their own custom controls">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Native Browser Controls Rule</h1>
+    <p>It's become very common for designers to replace the standard native browser controls with their own custom controls. There are good reasons for this, consistent appearance across browsers and devices being the main one. However, there's a lot more to consider than just how it looks.</p>
+<h3>Form Controls</h3>
+Let's think about something like a slider switch in place of a good old fashioned checkbox. It looks cool but...
+<p>Is it accessible?
+How does it appear to a non screen user?</p>
+<p>Does it have a disabled state?
+And a read-only state?
+And a focus state?
+Do these states all also work for non visual users?</p>
+<p>Can you tab to it?</p>
+<p>Does it go back to its initial state using a form reset?</p>
+<p>Does it work with touch gestures, e.g. swipe left to right?</p>
+<h3>Links</h3>
+Now let's think about a simple link. It's pretty common to see icons used with an onclick event instead of links. But its not the same.
+<p>How would a user know that it's an interactive control? Maybe it has a hover state style change but this would not help a non screen user.</p>
+<p>A link (a tag with href attribute) does other things. You can tab to it. On Windows, you can use Ctrl + click to open in a new tab, Shift + click to open in a new window, right click and &quot;Save link as...&quot; (or equivalent) to download the target file. Wrapping the icon in an <a> tag opens up a lot more possibilities.</a></p>
+<p>I'm not saying don't use your own controls but before replacing native controls think about what you might be sacrificing and make sure you've got it all covered.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

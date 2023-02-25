@@ -1,15 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "Amazon - design a 4 year old can use"
-date: "2009-01-08 11:17:17"
-description: "<img class="alignright" style="border: 0;float: right;margin: 20px" src="http://www"
-tags: ["blog","archive", "tech"]
+date: 2009-01-08 11:17:17
+description: "I was recently using Amazon at home and my 4 year old son joined me"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Amazon - design a 4 year old can use"
 wpid: "411"
 ---
 
-<img class="alignright" style="border: 0;float: right;margin: 20px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/01/amazon.gif" alt="amazon.co.uk" width="133" height="28" />I was recently using <a href="http://www.amazon.co.uk" target="_blank">Amazon</a> at home and my 4 year old son joined me. After I'd completed my ordering he asked me if he could have a go. To put this in context he's at the stage where he can recognise brands (e.g. Tesco, M&amp;S, etc.), his own name and a few letters but can't actually read other words.
+I was recently using <a href="http://www.amazon.co.uk" target="_blank">Amazon</a> at home and my 4 year old son joined me. After I'd completed my ordering he asked me if he could have a go. To put this in context he's at the stage where he can recognise brands (e.g. Tesco, M&amp;S, etc.), his own name and a few letters but can't actually read other words.
 
 I found it fascinating to observe how he managed to use the site easily despite not being able to read.
 

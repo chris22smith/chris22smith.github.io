@@ -1,16 +1,18 @@
 ---
 layout: "layouts/blog.njk"
 title: "Premier League - Position Relative to Wage Bill"
-date: "2017-03-08 21:36:21"
+date: 2017-03-08 21:36:21
 description: "It's quite an established fact in football that, generally speaking, teams league position follows the clubs' wage bills"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Premier League - Position Relative to Wage Bill"
 wpid: "553"
 ---
+
 It's quite an established fact in football that, generally speaking, teams league position follows the clubs' wage bills. The clubs with more resources win more games, get more points and finish higher in the league. There are always exceptions but they are exceptions and the general rule is this alignment between player wages and league position.
 
 Here is the Premier League ranked by clubs' wage bills for the 2016/2017 season, updated mid January, during transfer window. So, not 100% accurate but certainly indicative.
+
 <table>
 <thead>
 <tr>

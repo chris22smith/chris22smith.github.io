@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "The Web 2.0 concept - the basics"
-date: "2008-08-11 12:14:30"
-description: "The days of having your website managed by a <a href="http://www"
-tags: ["blog","archive"]
+date: 2008-08-11 12:14:30
+description: "The days of having your website managed by a web designer or design company are now on their way out"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The Web 2.0 concept - the basics"
 wpid: "397"
 ---
+
 The days of having your website managed by a <a href="http://www.chris-smith-web.com/wp" target="_blank">web designer</a> or design company are now on their way out.
 
 In the past websites were a one-way read only process, an online brochure which people visited to get information. Now, with the whole concept of Web 2.0, it's all a two-way interactive process with customers or fans playing an active part in a website.

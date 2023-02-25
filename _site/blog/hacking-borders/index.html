@@ -1,0 +1,99 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Borders</title>
+    <meta name="description" content="Have you ever been in a situation where your borders aren&#39;t rendering as expected? Hopefully not">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Hacking Borders</h1>
+    <p>Have you ever been in a situation where your borders aren't rendering as expected? Hopefully not.</p>
+<p>I've hit this issue recently using PhantomJS to turn HTML content into a PDF. It generally works pretty well but when you get into tables with collapsed borders and use rowspan and colspan things start getting a bit hairy and some of your borders just don't get rendered. Sad face.</p>
+<p>No amount of messing with border-collapse, display or border properties seems to have any affect. So, what can we do? Time to get dirty and hack our way out of it. Surgical gloves on.</p>
+<p>We can't change the borders so we create pseudo borders. We use CSS pseudo elements to create lines within the cells. Here's the CSS for a top-border:</p>
+<pre>.hacked-border-top {
+  position:relative;
+}
+
+.hacked-border-top:before {
+  background-color:currentColor; /* or whatever */
+  height:1px;
+  left:0;
+  position:absolute;
+  top:-1px;
+  width:100%;
+}
+</pre>
+<p>The pseudo border is absolutely positioned within the cell, thickness (height) 1px, full width. The top:-1px moves it outside the box model to where the border would be.</p>
+<p>Change the height, width and bottom, left, right and top values as need be for the different sides.</p>
+<p>Please only use this as a last resort when all else fails.</p>
+<div style="border: solid .5em #c00; border-radius: 1em; color: #c00; display: inline-block; font-family: sans-serif; font-weight: bold; margin: 1em; padding: 1em; text-transform: uppercase;">In case of emergency break glass</div>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

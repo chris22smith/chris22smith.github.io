@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "When to Reach for a Framework (and When Not To)"
-date: "2019-04-13 08:58:13"
-description: "<!-- wp:paragraph -->
-<p>First off, when I say "framework" in this post's title I just mean any big chunk of stuff that you load up and it does stuff for you"
-tags: ["blog","archive"]
+date: 2019-04-13 08:58:13
+description: "First off, when I say 'framework' in this post's title I just mean any big chunk of stuff that you load up and it does stuff for you"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "When to Reach for a Framework (and When Not To)"
 wpid: "870"
 ---
+
 <!-- wp:paragraph -->
 <p>First off, when I say "framework" in this post's title I just mean any big chunk of stuff that you load up and it does stuff for you. So, could be React, jQuery, Bootstrap, etc.</p>
 <!-- /wp:paragraph -->

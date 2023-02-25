@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dangers of Logic in CSS</title>
+    <meta name="description" content="We can do a lot of logic in CSS. I&#39;m thinking specifically of scenarios which take the form &#39;if this, then that&#39;">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>The Dangers of Logic in CSS</h1>
+    <!-- wp:paragraph -->
+<p>We can do a lot of logic in CSS. I'm thinking specifically of scenarios which take the form "if this, then that".</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>There are media queries which will let us control the appearance of elements based on a variety of factors. Probably the most common is screen width, so we get things like "if the width is 1024px or higher, then show an extra element".</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>There are pseudo selectors like :empty, :checked, :valid, :disabled which let us control appearance based on state, giving us, for example, "if the parent element has no children (:empty), then change its opacity".</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>We can also do logic based on combinations of elements or selectors, like li + li, for example, "if the list item follows another list item, then give it a top border."</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>I'm sure there are plenty more ways of applying logic but you get the idea. Each of these is equivalent to writing a conditional statement in a programming language - if this, then that.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>The big question is, should we be doing this in CSS, and is there a point at which it becomes too difficult to manage in CSS and we need to defer to another technology, like JavaScript?</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3>My Experience</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>I started thinking about this when I was designing a UI with a lot of logic going on. We had a busy table where we show some additional columns at wider screen resolutions. At smaller widths the user would be able to toggle between different groups of columns and save a preference. But then these additional columns are only offered if they contain data. So, we had logic around the screen width, user preference and presence of data, which, multiplied out, meant 8 permutations.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>I initially tried to do it all with CSS. I set up media queries for the narrower and wider screen widths. Within each of these I then read a class for the user preference and then I used :empty to see if table cells contained any data. I managed it and it worked. Just.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>However, I realised that it was really not scalable. Every time I added a new condition it doubled the amount of CSS I was having to write. If we wanted to add more logic in future it would create more and more work and be harder and harder to maintain.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>By moving all the logic into JavaScript we can set simpler classes, one for each type of display we need rather than every permutation of logic. So now we just have 3 classes: 1) show the first set of columns, 2) show the second set or 3) show all columns.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>We still have lots of branches in our JavaScript but the big difference is that it's easy to read and follow. It's also easy to edit or extend if we ever need to.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>I think doing some logic with CSS is fine but as soon as you're starting to layer it on and find yourself multiplying out the selectors you're writing it's probably time to move it over to JavaScript.</p>
+<!-- /wp:paragraph -->
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

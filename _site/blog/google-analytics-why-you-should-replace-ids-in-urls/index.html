@@ -1,0 +1,97 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Analytics - Why You Should Replace IDs in URLs</title>
+    <meta name="description" content="Google Analytics is brilliant at tracking things like Page Views for a website">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Google Analytics - Why You Should Replace IDs in URLs</h1>
+    <p>Google Analytics is brilliant at tracking things like Page Views for a website. It logs the URL and then keeps a count of how may times that URL is requested. Great, right? Not always.</p>
+<p>There's a problem. Dynamic sites that use IDs in their URLs generate a lot of different URLs. A typical example might be a site being made up of list and details screens, so the URL for a list screen might end in <code>/List/</code>. For a details page there's probably one template with the data changing dynamically and the ID for that item is probably in the URL, something like <code>/Details/123</code> or <code>/Details?id=123</code>.</p>
+<p>This means that Google Analytics sees every visit to a different item's details as a different screen. This is ideal for some data analysis, like seeing which item is viewed most but not so great when you want to look at something like the performance of that template. Having hundreds of different URLs makes it impossible to analyse the template as a single screen.</p>
+<p>Good news. It's quite easy to set up another view to show the aggregated data using filters.</p>
+<ol>
+ 	<li>Go to the Admin area and create a new view.</li>
+ 	<li>Find Filters and add a new filter.</li>
+ 	<li>Add a Filter Name.</li>
+ 	<li>Select a Filter Type of Custom.</li>
+ 	<li>Use the Search and Replace option.</li>
+ 	<li>Select a Filter Field of Request URI.</li>
+ 	<li>The Search String needs to match the ID. You can use regex to match any patterns so if you know your ID is 3-5 digits long you can use <code>[0-9]{3,5}</code>. If it varies you could use a wildcard, like <code>id=*</code>.</li>
+ 	<li>Add a Replace String. I use something to represent what's being replaced, like ID. This gives me a URL like <code>/Details/ID</code> or <code>/Details?id=ID</code>. If you've used a wildcard in the Search String with part of the URL you can replace this too, like <code>id=ID</code>.</li>
+</ol>
+Here's an example of replacing a GUID in the URL:
+<p><img class="aligncenter wp-image-806" title="Google Analytics Filtering screenshot" src="/img/2018/08/replace-guid-filter.png" alt="Google Analytics Filtering screenshot" width="320" height="456" />The full regex needed is:</p>
+<p style="text-align: center;"><code>[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}</code></p>
+An added bonus. When you look at your reports in Google Analytics you'll no longer see URLs like <code>/Details/aace7226-0576-4a0f-9b39-bb549a53ee11</code> but just <code>/Details/GUID</code>. Much easier to understand, especially if your URL contains several IDs or GUIDs.
+<p>Hope this helps you analyse your screens, templates or UIs rather than just the data requested.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

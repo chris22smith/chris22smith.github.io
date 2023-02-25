@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Clicking Off Things to Close Them"
-date: "2020-03-25 18:00:53"
+date: 2020-03-25 18:00:53
 description: "There's a common design pattern these days where a bit of content is shown over the main screen"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "My website is 5 today!"
-date: "2009-06-15 09:42:36"
-description: "<img class="alignright" style="float: right;border: 0;margin: 0px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-06-15 09:42:36
+description: "My website, www.chris-smith-web.com, is 5 years old today"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "My website is 5 today!"
 wpid: "423"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 0px" src="http://www.chris-smith-web.com/wp-content/uploads/2009/06/green-balloon.jpg" alt="Happy 5th Birthday!" width="200" height="250" />My website, <a title="Chris Smith Web Development" href="http://www.chris-smith-web.com" target="_self">www.chris-smith-web.com</a>, is 5 years old today.
+
+My website, <a title="Chris Smith Web Development" href="http://www.chris-smith-web.com" target="_self">www.chris-smith-web.com</a>, is 5 years old today.
 
 I registered the domain name and started building the site on 15th June 2004. This has made me all nostalgic so I thought I'd take a quick look back over the last 5 years and how the site and business has changed in that time.
 

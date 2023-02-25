@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "The Dangers of Logic in CSS"
-date: "2020-03-26 18:00:00"
-description: "<!-- wp:paragraph -->
-<p>We can do a lot of logic in CSS"
-tags: ["blog","archive"]
+date: 2020-03-26 18:00:00
+description: "We can do a lot of logic in CSS. I'm thinking specifically of scenarios which take the form 'if this, then that'"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The Dangers of Logic in CSS"
 wpid: "929"
 ---
+
 <!-- wp:paragraph -->
 <p>We can do a lot of logic in CSS. I'm thinking specifically of scenarios which take the form "if this, then that".</p>
 <!-- /wp:paragraph -->

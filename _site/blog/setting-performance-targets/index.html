@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Performance Targets</title>
+    <meta name="description" content="I sometimes read things like &#39;A user will abandon a page if it doesn&#39;t load within 2 seconds&#39;">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Setting Performance Targets</h1>
+    <p>I sometimes read things like &quot;A user will abandon a page if it doesn't load within 2 seconds&quot;. I really don't think these kinds of generalisations are very helpful.</p>
+<p>Users' expectations vary. They take account of network connectivity and the nature of the information they're accessing. If I abandoned any requests that were not fulfilled within 2 seconds I don't think I'd ever see any web pages on my phone. My expectations aren't that high. I know it's going to take longer and that's fine, up to a point.</p>
+<p>So, are there benchmarks that we can aim for realistically? We can't just say &quot;page&quot; and &quot;2 seconds&quot;. It needs to also specify the network connection type - wired, WiFi, 3G, 4G, and the page weight in bytes.</p>
+<p>There's a danger that we strive to keep everything small and light and then give poor experiences on wired desktops with super fast connection speeds. We need to deliver the appropriate experiences.</p>
+<p>What's our definition of &quot;loaded&quot;? Is it when everything is there and available to use? As soon as there's something to interact with? A sign that something's happening? A use doesn't necessarily need it all. They just need to know that it's coming within a reasonable time frame. There are lots of tactics for keeping a user on side while content is loading too - an entertaining loading animation, flashing up a quote, animating in the various screen elements. As long as there's something to keep the mind from wandering onto something else it's generally fine. Does this distraction tactic feel great the first time but really irritate by the tenth time?</p>
+<p>How do you benchmark all of that? It's hard, very hard. Maybe that why all we've got is empty generalisations?</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Good web design – following conventions"
-date: "2009-09-16 14:25:03"
+date: 2009-09-16 14:25:03
 description: "When designing a website an important consideration is its usability and, in particular, the site's visitors being able to understand how to use the site instantly without having to think about it"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

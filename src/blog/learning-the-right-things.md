@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Learning the Right Things"
-date: "2017-02-09 18:30:00"
+date: 2017-02-09 18:30:00
 description: "With so much happening so fast knowing what new tech to learn next can be difficult"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

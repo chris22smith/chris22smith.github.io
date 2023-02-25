@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Flavoured Coffee"
-date: "2017-02-12 18:00:28"
+date: 2017-02-12 18:00:28
 description: "For Christmas I received a selection pack of syrups for coffee"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

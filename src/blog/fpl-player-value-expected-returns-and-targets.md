@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "FPL Player Value, Expected Returns and Targets"
-date: "2018-02-28 17:23:03"
+date: 2018-02-28 17:23:03
 description: "FPL players range in cost starting from 4 up to 13 so how do you compare them fairly across such a broad spectrum? What sort of returns should you expect from each price bracket? I've tried to apply some (very rough) maths to it to find out who's justifying their price tag"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

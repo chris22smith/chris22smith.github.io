@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Different Conditional Syntaxes in JavaScript"
-date: "2017-06-22 18:00:19"
+date: 2017-06-22 18:00:19
 description: "There are a few ways of using conditionals in JavaScript"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

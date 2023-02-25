@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "My CV"
-date: "2017-12-14 21:20:06"
+date: 2017-12-14 21:20:06
 description: "Web Design, Development and UX
 
 <hr />

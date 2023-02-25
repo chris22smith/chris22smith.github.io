@@ -1,14 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2015"
-date: "2016-01-02 12:09:59"
+date: 2016-01-02 12:09:59
 description: "I thought I'd do another quick run-through of what I've picked up this year"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "What I Learned in 2015"
 wpid: "37"
 ---
+
 I thought I'd do another quick run-through of what I've picked up this year. It feels good to show myself that I'm still learning at a healthy pace.
+
 <h3>SVG</h3>
 I've started using SVG more, creating some simple charts and building dynamic graphics for use with Google Maps. I made markers or pins, which have colours and characters set dynamically according to data. I think I've finally got my head around the whole viewBox, which took me a while. <a href="https://css-tricks.com/search-results/?q=svg" target="_blank">CSS Tricks</a> provided me with some <a href="https://css-tricks.com/search-results/?q=svg" target="_blank">very useful SVG tutorials</a> and introduced me to the work of <a href="https://sarasoueidan.com/" target="_blank">Sara Soueidan</a>.
 <h3>Angular.js</h3>
@@ -31,5 +33,6 @@ I've actively avoided <a href="http://getbootstrap.com/" target="_blank">Bootstr
 A colleague reintroduced me to it and I was delighted to find that it's now possible to <a href="http://getbootstrap.com/customize/" target="_blank">create customised builds</a> so you can choose the parts you want to include (no waste) and even set colour schemes, default padding, etc. in the build, replacing the defaults, so there's less needed to overwrite in a custom theme.
 
 I've started using it as its grid layout makes responsive design so much easier than handling each page element and I know that the ready made components and UI elements are accessible where my own might not be.
+
 <h3>Codepen</h3>
 And finally, <a href="https://codepen.io" target="_blank">Codepen</a>. I've covered this in another post, <a href="http://chrissmith.xyz/developing-in-codepen/" target="_blank">Developing in Codepen</a>. In short, I use it every day, it's awesome.

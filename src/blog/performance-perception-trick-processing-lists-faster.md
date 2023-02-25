@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Performance Perception Trick: Processing Lists Faster"
-date: "2019-08-03 08:00:23"
-description: "<!-- wp:paragraph -->
-<p>I've got a little trick to make the processing of lists appear to go faster than it actually does"
-tags: ["blog","archive"]
+date: 2019-08-03 08:00:23
+description: "I've got a little trick to make the processing of lists appear to go faster than it actually does"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Performance Perception Trick: Processing Lists Faster"
 wpid: "903"
 ---
+
 <!-- wp:paragraph -->
 <p>I've got a little trick to make the processing of lists appear to go faster than it actually does.</p>
 <!-- /wp:paragraph -->

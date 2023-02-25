@@ -1,14 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "Why It's Still Worth Learning Bootstrap"
-date: "2017-05-19 18:00:29"
+date: 2017-05-19 18:00:29
 description: "Until fairly recently I didn't like UI frameworks"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Why It's Still Worth Learning Bootstrap"
 wpid: "627"
 ---
+
 Until fairly recently I didn't like UI frameworks. I always felt that they would only ever handle half of what the developer actually needed and added a lot of extra unused bulk to the load. Whilst that it still true, to a degree, I now think that there are enough reasons to use a framework which outweigh this concern.
+
 <h3>Maintainability</h3>
 Adopting a framework isn't just about the code and the styling. It's about using a well established pattern and way of doing things. The big win for me is that the documentation is all out there. I don't have to write it. So, if I come back to a page in a year's time I'll understand how I've structured the layout. This is also a massive benefit when working with other developers. Having a common standard and style makes it easier for anyone to pick up anyone else's code.
 <h3>Consistency</h3>

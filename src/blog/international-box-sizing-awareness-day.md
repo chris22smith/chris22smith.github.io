@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "International box-sizing Awareness Day"
-date: "2017-02-01 08:00:41"
+date: 2017-02-01 08:00:41
 description: "Today, 1st Feb, is International box-sizing Awareness Day, apparently"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

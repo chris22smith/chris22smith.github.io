@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "HTML Semantics - Header or Sidebar?"
-date: "2017-03-09 19:10:24"
+date: 2017-03-09 19:10:24
 description: "Here's a question on HTML semantics"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

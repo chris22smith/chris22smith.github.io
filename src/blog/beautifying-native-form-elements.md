@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Beautifying Native Form Elements"
-date: "2016-05-27 17:20:20"
+date: 2016-05-27 17:20:20
 description: "The various types of form inputs can look very different in different browsers"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

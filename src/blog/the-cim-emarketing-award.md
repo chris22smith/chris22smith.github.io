@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "The CIM eMarketing Award"
-date: "2008-08-07 11:30:29"
-description: "<a title="CIM" href="http://www"
-tags: ["blog","archive"]
+date: 2008-08-07 11:30:29
+description: "I'm currently studying towards the Chartered Institute of Marketing (CIM)'s eMarketing Award"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The CIM eMarketing Award"
 wpid: "396"
 ---
-<a title="CIM" href="http://www.cim.co.uk" target="_blank" rel="nofollow"><img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.cim.co.uk/images/logo.gif" alt="Chartered Institute of marketing" width="175" height="42" /></a>I'm currently studying towards the <a title="CIM" href="http://www.cim.co.uk" target="_blank" rel="nofollow">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" href="http://www.marketingtom.com/emarketing_award.html" target="_blank" rel="nofollow">eMarketing Award</a>.
+
+I'm currently studying towards the <a title="CIM" href="http://www.cim.co.uk" target="_blank" rel="nofollow">Chartered Institute of Marketing</a> (CIM)'s <a title="eMarketing Award" href="http://www.marketingtom.com/emarketing_award.html" target="_blank" rel="nofollow">eMarketing Award</a>.
 
 I did a 4 day intensive course through <a title="Marketing Tom" href="http://www.marketingtom.com" target="_blank" rel="nofollow">Marketing Tom Media</a> based near Cardiff. The Award is assessed by an online test and a 4,000 word eMarketing report.
 

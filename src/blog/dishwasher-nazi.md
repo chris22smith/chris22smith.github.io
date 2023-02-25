@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Dishwasher Nazi"
-date: "2016-11-20 16:36:57"
+date: 2016-11-20 16:36:57
 description: "When did I change and become so opinionated on how the dishwasher should be filled? Why do I even think about it? It just doesn't matter"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

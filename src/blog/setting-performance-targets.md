@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Setting Performance Targets"
-date: "2017-10-20 17:30:27"
-description: "I sometimes read things like "A user will abandon a page if it doesn't load within 2 seconds""
-tags: ["blog","archive"]
+date: 2017-10-20 17:30:27
+description: "I sometimes read things like 'A user will abandon a page if it doesn't load within 2 seconds'"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Setting Performance Targets"
 wpid: "623"
 ---
+
 I sometimes read things like "A user will abandon a page if it doesn't load within 2 seconds". I really don't think these kinds of generalisations are very helpful.
 
 Users' expectations vary. They take account of network connectivity and the nature of the information they're accessing. If I abandoned any requests that were not fulfilled within 2 seconds I don't think I'd ever see any web pages on my phone. My expectations aren't that high. I know it's going to take longer and that's fine, up to a point.

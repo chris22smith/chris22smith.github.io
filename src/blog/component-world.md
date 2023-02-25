@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Component World"
-date: "2017-09-09 18:08:39"
+date: 2017-09-09 18:08:39
 description: "Whatever stack of framework you use, everything in web development seems to be going modular"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

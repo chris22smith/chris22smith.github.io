@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "500 Mile Challenge - Half Way"
-date: "2017-07-03 18:00:03"
+date: 2017-07-03 18:00:03
 description: "This year I set myself a challenge, to run 500 miles within the calendar year, 2017"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

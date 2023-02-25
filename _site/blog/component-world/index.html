@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component World</title>
+    <meta name="description" content="Whatever stack of framework you use, everything in web development seems to be going modular">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Component World</h1>
+    <p>Whatever stack of framework you use, everything in web development seems to be going modular. We're no longer building pages of screens but components and component systems. This is changing the way I work with files. Where once I would have combined my script and styles into a single resource to reduce requests, I now actively look to break everything down into tiny pieces. For example, I have loads of Sass files. These get compiled into CSS before being concatenated and minified - turned back into the single big file. Working this way has several advantages. It's easier to work in smaller files - easy to find the line you need with minimal scrolling. It paves the way for using web components of a component system where styles of scripts can be embedded within the component, making it a true standalone piece of the document. Finally, it makes it easy to build dependency free components in a tool like CodePen. You can just write the HTML, Sass and JavaScript and save it as an isolated component with its own demo.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

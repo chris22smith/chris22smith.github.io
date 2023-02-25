@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Can I Track It?"
-date: "2016-03-11 20:19:26"
+date: 2016-03-11 20:19:26
 description: "I'm not sure what proportion of websites include Google Analytics tracking scripts"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

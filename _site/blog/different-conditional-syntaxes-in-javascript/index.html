@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Conditional Syntaxes in JavaScript</title>
+    <meta name="description" content="There are a few ways of using conditionals in JavaScript">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Different Conditional Syntaxes in JavaScript</h1>
+    <p>There are a few ways of using conditionals in JavaScript. I've started thinking about it again as I've just discovered another new way.</p>
+<p>Lets start off with some basic set up stuff for our examples - a variable, which can be true or false and functions to use in either case:</p>
+<pre>var isAllowed = false;
+
+function admit() {
+  console.log("admitted");
+}
+
+function reject() {
+  console.log("rejected");
+}
+</pre>
+<p>The first way I learned to write a conditional, which I consider the classic way, is with if and else clauses like this:</p>
+<pre>if (isAllowed) {
+  admit();
+} else {
+  reject();
+}
+</pre>
+<p>If you don't need the else part, you can do it in one line, leaving out the curly braces like this:</p>
+<pre>if (isAllowed) admit();
+</pre>
+<p>Another way of writing it is to use a ternary operator. The first part before the question mark is evaluated. If it's true the next part between the question mark and colon is used; if false the last part after the colon is used:</p>
+<pre>isAllowed ? admit() : reject();
+</pre>
+<p>If you want this style of expression, without actually writing &quot;if&quot; but you don't want the else part there is yet another way.</p>
+<p>Look at this:</p>
+<pre>!isAllowed || admit();
+</pre>
+<p>Weird, eh? With an OR expression using ||, the first part is evaluated or run if a function. If true it stops there. If false it evaluates or runs the second part. In case you're new to this, the ! means NOT or inverts the meaning. So, we're saying if isAllowed is false, stop; otherwise run the admit() function.</p>
+<p>It's the same technique often used to set default values, just turned around:</p>
+<pre>var carModel = getCarModel() || 'unknown';
+</pre>
+<p>If you're free to use any of these I'd probably advise sticking to the classic if (else) with the braces. It's so much more readable and can be understood by a developer at any level. I like the last technique but I'd only use it in solo projects or where I can't use anything else.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

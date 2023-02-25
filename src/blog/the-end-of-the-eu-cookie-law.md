@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "The End of the EU Cookie Law"
-date: "2017-01-15 13:11:14"
+date: 2017-01-15 13:11:14
 description: "I don't want to mislead anyone - I don't think the law itself is going anywhere but Britain leaving the EU means that the day when I don't have to worry about it is getting closer"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The End of the EU Cookie Law"
 wpid: "388"
 ---
+
 I don't want to mislead anyone - I don't think the law itself is going anywhere but Britain leaving the EU means that the day when I don't have to worry about it is getting closer.
 
 There. An actual upside to Brexit.

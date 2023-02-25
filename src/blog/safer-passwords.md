@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Safer Passwords"
-date: "2019-10-11 13:30:48"
-description: "<!-- wp:paragraph -->
-<p>Just thought I'd pass on a few tips that I've been given for setting a password that won't get hacked"
-tags: ["blog","archive"]
+date: 2019-10-11 13:30:48
+description: "Just thought I'd pass on a few tips that I've been given for setting a password that won't get hacked"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Safer Passwords"
 wpid: "915"
 ---
+
 <!-- wp:paragraph -->
 <p>Just thought I'd pass on a few tips that I've been given for setting a password that won't get hacked.</p>
 <!-- /wp:paragraph -->

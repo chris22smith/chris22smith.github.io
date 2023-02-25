@@ -1,11 +1,12 @@
 body {
-  font-family: monospace;
+  font-family: sans-serif;
   font-size: clamp(12px, 0.5rem + 1vw, 24px);
   padding: 5vmin;
 }
 
 header,
 footer {
+  font-family: monospace;
   padding: 0 5vmin;
 }
 
@@ -14,8 +15,8 @@ header {
   position: relative;
 }
 
-header > p,
-footer > p {
+header p,
+footer p {
   background-color: #000;
   color: #fff;
   display: inline-block;
@@ -25,13 +26,14 @@ footer > p {
   transform: rotate(-3deg);
 }
 
-header > p > .ext {
-  color: #f09;
+header p .ext {
+  color: #f09 !important;
   font-size: small;
 }
 
-footer > p > a {
+footer p a {
   color: #09f;
+  text-decoration: none;
 }
 
 article {
@@ -41,7 +43,7 @@ article {
   padding: 5vmin;
 }
 
-header > img {
+header img {
   border-radius: 50%;
   height: 15vmin;
   position: absolute;
@@ -51,9 +53,14 @@ header > img {
   width: 15vmin;
 }
 
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 3em;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1em 0;
   text-shadow: 1px 1px #f09, 2px 2px #f09, 3px 3px currentColor;
 }
 
@@ -72,8 +79,6 @@ ul {
   text-align: end;
 }
 
-.notice {
-  border: solid 2px #fc0;
-  border-radius: 1vmin;
-  padding: 1rem;
+.post-list > li {
+  margin-bottom: 1rem;
 }

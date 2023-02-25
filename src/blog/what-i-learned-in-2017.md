@@ -1,20 +1,23 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2017"
-date: "2018-01-10 17:17:09"
+date: 2018-01-10 17:17:09
 description: "A bit late but I still feel it's worth keeping track"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "What I Learned in 2017"
 wpid: "726"
 ---
+
 A bit late but I still feel it's worth keeping track...
 
 2017 has been different to previous years. It wasn't so much about learning new tech and tools as just getting back to basics and doing things better.
+
 <h3>Simplifying Things</h3>
 I've learned to keep things simple and not make them more complicated than they need to be. I actively try to write less JavaScript, doing more with HTML and CSS, and trusting native form controls instead of trying to re-invent them.
 
 A good example might be something like a list of text items where we want the currently selected item to be bold. We could use JavaScript to set the style of the selected item and add click events to change the state of each item but we don't need to. When we just look at the requirement and what is actually happening, it can be done with a radio button list. Just add radio buttons each with a unique  ID but the same name attribute. Put a label after each referring to it with the for attribute. Finally use CSS to hide the input and apply a style to :checked + label. Done. It's a radio button list in disguise. Not only is it much simpler code but it's accessible as a non screen user just sees a standard radio button list.
+
 <h3>Components</h3>
 In the world of Angular, and starting to explore the more recent versions, I've got used to using components. As a front end developer/designer it's been great to be able to build a small standalone snippet of HTML/CSS in CodePen. By having it small and isolated it makes it easy to test in browsers, linting tools, accessibility tools, etc. It's like unit testing for functions.
 <h3>Sass (SCSS)</h3>

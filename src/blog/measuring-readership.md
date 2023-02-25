@@ -1,16 +1,18 @@
 ---
 layout: "layouts/blog.njk"
 title: "Measuring Readership"
-date: "2017-03-05 11:15:12"
+date: 2017-03-05 11:15:12
 description: "I've been thinking about how we might more accurately determine how many times a blog post is read"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Measuring Readership"
 wpid: "533"
 ---
+
 I've been thinking about how we might more accurately determine how many times a blog post is read. Not just loaded in a browser but actually read.
 
 Firstly, there are different levels of reading.
+
 <h3>Level 1: Evaluate Source</h3>
 This is just a quick look to see if the post looks worth spending time on. If the page is full of click bait junk then a discerning user might just back out here. If it looks like a decent quality site then the user will hopefully progress to a...
 <h3>Level 2: Quick Scan</h3>
@@ -31,6 +33,7 @@ So, if the seconds spent on the page is greater than or equal to a fifth of the 
 At the other end of the spectrum, what can we discount as an evaluation or bounce? How long can you be on a page before it's considered that you might be scanning its content? I feel this can be a fixed value rather than relative to the word count as our initial evaluation is done very quickly. Unscientifically, this part is really just plucking a number out of the air but my gut feel is for something like 10 seconds. That's taking in 50 words. Below that I find it hard to consider that any content has really been processed. I can't think of a good way to test this out but I may canvas opinion to refine the figure.
 
 So, we have a page visit time of less than 10 seconds as our level 1 evaluation. That leaves anything in between as level 2, the scan.
+
 <h3>Fine Tuning</h3>
 Of course users could spend time on the page without necessarily reading anything. We can add some other details to increase the accuracy. Using JavaScript we can listen for a scroll event or better see if the end of the post is shown in the viewport and then send this as a dimension. A lack of scrolling or content visibility would certainly help to qualify the evaluation visits.
 <h3>Ideas?</h3>

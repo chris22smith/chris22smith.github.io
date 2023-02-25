@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Marketing through Facebook, for free"
-date: "2009-01-26 15:08:46"
+date: 2009-01-26 15:08:46
 description: "Facebook is the fastest growing, most popular networking tool in the UK today"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

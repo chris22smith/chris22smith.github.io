@@ -1,9 +1,9 @@
 ---
 layout: "layouts/blog.njk"
 title: "Fantasy Football - All Wrong"
-date: "2016-03-03 21:31:51"
-description: "I'm a big fan of playing fantasy football, in particular the official <a href="http://fantasy"
-tags: ["blog","archive", "misc"]
+date: 2016-03-03 21:31:51
+description: "I'm a big fan of playing fantasy football, in particular the official Fantasy Premier League"
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Fantasy Football - All Wrong"
 wpid: "39"

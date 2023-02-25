@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Fighting Spam"
-date: "2009-09-14 12:36:03"
+date: 2009-09-14 12:36:03
 description: "Junk email and blog posts are a constant problem. Here are a few ways to help spoil the spammers' fun"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

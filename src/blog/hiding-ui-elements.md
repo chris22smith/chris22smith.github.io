@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Hiding UI Elements"
-date: "2019-03-29 18:00:17"
+date: 2019-03-29 18:00:17
 description: "At the start of March 2019 I ran a poll on Twitter to see how devs hide UI elements"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

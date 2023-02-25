@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "When to Hide and When to Disable"
-date: "2016-09-30 08:24:39"
+date: 2016-09-30 08:24:39
 description: "I've noticed a bit of a recurring theme in UX work with people asking me whether a page element should be hidden from the user or just disabled"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "When to Hide and When to Disable"
 wpid: "254"
 ---
+
 I've noticed a bit of a recurring theme in UX work with people asking me whether a page element should be hidden from the user or just disabled.
 
 To me, it seems quite clear cut. If the user isn't going to use the element, hide it. If they can't use it now but may do when conditions are right, disable it.
@@ -19,6 +20,7 @@ I'd argue that we disable the Save button. We don't want it to be used now but w
 If we hide the button instead of disabling it then the user is confronted with a form and no obvious action. If they think there's no way of progressing they may be reluctant to spend their time filling out the form.
 
 Another example might be a Delete button where only certain user roles have permission to delete records. In this case it makes sense to hide the button from users without delete permissions. They will never use it, at least not with their current role on this page load, so showing it as disabled would give the wrong suggestion that they may be able to delete at some point.
+
 <h3>Just Hidden or Never There</h3>
 If we decide that an element will never be used by the current user, maybe due to permissions, then we hide it. However, there's a difference between adding the element into the DOM and hiding it with CSS, like display:none or visibility:hidden and simply not adding it into the DOM. It's better both for security and from a page performance point of view to not add it into the DOM. Conditionally add the element using server side code or, in a front-end framework, use the option which does not add it. For example, in AngularJS this would mean using ngIf rather than ngShow.
 <h3>Disabling Links</h3>

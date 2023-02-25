@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Hits schmits! What do Web Statistics really mean?"
-date: "2009-06-04 15:50:45"
+date: 2009-06-04 15:50:45
 description: "With web technologies it's very easy to quote and manipulate the statistics to make things sound better or worse than they actually are"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

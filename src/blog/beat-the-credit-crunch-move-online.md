@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Beat the Credit Crunch - Move Online"
-date: "2008-10-14 11:27:52"
+date: 2008-10-14 11:27:52
 description: "With all this financial doom and gloom in the media it's perfectly understandable that many businesses are looking to cut back on spending and play it safe until the economy is more stable"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

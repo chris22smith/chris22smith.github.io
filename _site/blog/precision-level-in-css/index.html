@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Level in CSS</title>
+    <meta name="description" content="When we&#39;re using relative sizing in CSS, percentages or ems, how precise do we need to be with our fractions? Is there an optimum level?">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Precision Level in CSS</h1>
+    <p>When we're using relative sizing in CSS, percentages or ems, how precise do we need to be with our fractions? Is there an optimum level?</p>
+<p>If we have a font size of 18px (or anything, it's relative after all) and we want some smaller text at two thirds of its size (12px) then we can express this as .6666666667em or 66.6666666667%. Here I've used 10 decimal places to give a very precise fraction but this feels like overkill to me. If I used just 2 decimal places, .67em or 66.67%, is this accurate enough to consistently calculate the desired pixel value. Or should I not worry? It'll be near enough.</p>
+<p>Looking at other developers' CSS, mainly in tutorials, the general pattern seems to be to use between 4 and 6 decimal places. Looking back through my own code, my preference seems to be to use 6 but I couldn't tell you why. I'd imagine I've just adopted someone else's coding style. I definitely feel that going beyond 6 seems unnecessary but am not sure how little I can get away with.</p>
+<p>Sass is able to perform calculations using fractions. Here's an example:</p>
+<p><code></code></p>
+<pre>$two_thirds: 2/3 * 1em;
+
+.smaller {
+  font-size: $two_thirds;
+}
+</pre>
+<p>This resolves to .66667em, 5 decimal places. Is this a set precision or did Sass actually calculate it from the root size and decide what precision was needed for it to resolve to an integer? Hmm (rubs chin). I guess that most people let Sass handle this for them and don't even look at the compiled CSS.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

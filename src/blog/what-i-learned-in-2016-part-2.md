@@ -1,16 +1,18 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2016 (Part 2)"
-date: "2017-01-07 13:00:16"
+date: 2017-01-07 13:00:16
 description: "This is the second part of a three-part post about the new things that I picked up through the course of 2016"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "What I Learned in 2016 (Part 2)"
 wpid: "345"
 ---
+
 This is the second part of a three-part post about the new things that I picked up through the course of 2016.
 
 I (finally) took some big steps in CSS this year, picking up some of the things I'd been putting off for a while.
+
 <h3>Flexbox</h3>
 I'd heard a lot of good things about Flexbox but having to support older browsers I'd never really bothered with it. Finally, this year, with support for older IE getting dropped I decided to dive in. It's amazing. It can handle just about anything you would need for layouts. I'm sure there are now loads of great resources for learning it but the two I used were Wes Bos's <a href="https://flexbox.io/" target="_blank">Flexbox.io</a> videos and Chris Coyier's <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a>.
 <h3>Sass</h3>
@@ -25,6 +27,7 @@ I didn't go deep into this, just had a bit of a play. <a href="https://material.
 And now for something completely different...
 
 Being a front-end guy I rarely (never) touch the database world. Writing a request to an API is about as close as I get but recently I've poked about with a couple of things.
+
 <h3>MongoDB</h3>
 I liked the name. I got curious. I've done some stuff with SQL many moons ago so I was interested to see how a database could work without it. If you're used to JavaScript objects and JSON it's actually really nice to use. You just push and pull objects, query by properties, that kind of thing. I didn't go deep into it but was very impressed. It's very much sticking with JavaScript thinking. I think it's got a bit of a bad reputation but I'm inclined to think that was some early teething trouble and mud sticking rather than a serious issue. Glass half full. I might be wrong.
 <h3>Airtable</h3>

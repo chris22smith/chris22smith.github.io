@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Presenting Multiple Layouts"
-date: "2017-05-05 18:00:02"
+date: 2017-05-05 18:00:02
 description: "I'm sure everyone has seen web apps where the user is given a choice of layouts for their data"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Presenting Multiple Layouts"
 wpid: "613"
 ---
+
 I'm sure everyone has seen web apps where the user is given a choice of layouts for their data. Sometimes you can view items as a list or as cards and there's a mechanism of flipping between them. Gmail has options of Comfortable, Cosy or Compact.
 
 From the developer's point of view, it seems like a nice little extra. It's fairly easy to do in CSS - just toggle a root class on the module and set your styles for each layout.

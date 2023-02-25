@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "Web Development - it's not like building a shed"
-date: "2009-02-23 17:24:19"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-02-23 17:24:19
+description: "I recently read a great blog post on sub-standard web developers and how to avoid them"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Web Development - it's not like building a shed"
 wpid: "416"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/02/nails.jpg" alt="Web development - it's not like building a shed" width="300" height="150" />I recently read a great blog post on sub-standard web developers and how to avoid them. If you're looking to get a website developed I'd suggest you have a quick read of this: <a href="http://www.marketingtom.com/2009/02/beware-web-developers-who-know-nada.html" target="_blank">Beware Web Developers Who Know Nada!</a>
+
+I recently read a great blog post on sub-standard web developers and how to avoid them. If you're looking to get a website developed I'd suggest you have a quick read of this: <a href="http://www.marketingtom.com/2009/02/beware-web-developers-who-know-nada.html" target="_blank">Beware Web Developers Who Know Nada!</a>
 
 As a <a href="http://www.chris-smith-web.com" target="_self">web developer</a> myself I find it incredibly frustrating that I'm constantly losing <a href="http://www.chris-smith-web.com" target="_self">web development</a> work to graphic designers who know nothing about marketing on the web. Does your business really need a piece of online art or does it actually want to see some return? As I see it there are only two things that matter - 1) are people finding the site and 2) is it giving them what they came for?
 

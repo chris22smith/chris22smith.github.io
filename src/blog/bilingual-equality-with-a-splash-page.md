@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Bilingual Equality with a Splash Page"
-date: "2016-01-18 23:14:08"
+date: 2016-01-18 23:14:08
 description: "I've worked on a few education sites in Wales and bilingualism is one of the major challenges for any public sector site"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

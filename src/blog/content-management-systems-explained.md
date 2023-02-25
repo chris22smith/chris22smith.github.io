@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Content Management Systems explained"
-date: "2008-10-07 14:02:52"
+date: 2008-10-07 14:02:52
 description: "You've probably heard the phrase CMS or Content Management System. I'll explain what it is and some of the benefits"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

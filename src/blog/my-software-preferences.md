@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "My Software Preferences"
-date: "2009-01-13 14:43:24"
+date: 2009-01-13 14:43:24
 description: "I just bought a new laptop and have spent a couple of long evenings setting it up"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "My Software Preferences"
 wpid: "413"
 ---
+
 I just bought a new laptop and have spent a couple of long evenings setting it up. After babysitting it through the initial tedium of installing, connecting, updating, registering - lots of watching progress bars and restarting the machine every few minutes, I realised that I have my own strong ideas about which software I'm going to use for various tasks.
 
 <a href="http://free.avg.com/" target="_blank"><img class="alignright" style="float: right;border: 0;margin-left: 10px;margin-right: 10px;margin-top: 20px;margin-bottom: 20px" src="http://free.avg.com/stc/tpl/crp/img/frt/avg_logo_en.gif" alt="AVG Free" width="240" height="67" /></a><strong>Security</strong>

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Hacking Borders"
-date: "2017-06-21 18:00:52"
+date: 2017-06-21 18:00:52
 description: "Have you ever been in a situation where your borders aren't rendering as expected? Hopefully not"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

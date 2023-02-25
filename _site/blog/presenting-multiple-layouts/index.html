@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presenting Multiple Layouts</title>
+    <meta name="description" content="I&#39;m sure everyone has seen web apps where the user is given a choice of layouts for their data">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Presenting Multiple Layouts</h1>
+    <p>I'm sure everyone has seen web apps where the user is given a choice of layouts for their data. Sometimes you can view items as a list or as cards and there's a mechanism of flipping between them. Gmail has options of Comfortable, Cosy or Compact.</p>
+<p>From the developer's point of view, it seems like a nice little extra. It's fairly easy to do in CSS - just toggle a root class on the module and set your styles for each layout.</p>
+<p>Having done this a few times now, my advice would be a pretty emphatic <strong>don't!</strong> It starts off as a simple variation but it means that every time you make a small change to the content or layout in one layout you have to do this development for each, and then test in each. In short it multiplies out the work.</p>
+<p>Imagine offering the user a choice of 3 layouts and 3 colour themes. That's 9 scenarios for the poor tester to check every time you make even the slightest tweak.</p>
+<p>There's nothing wrong with putting work into a UI but in this case the benefit to the end user is negligible for a lot of additional effort. It would be far better to spend the time just doing one layout really well.</p>
+<p>I think there can be occasions where it can work, like just toggling a module font size or line-height but getting into different sets of styling rules is a big no-no for me.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

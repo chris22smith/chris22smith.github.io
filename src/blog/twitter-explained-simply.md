@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "Twitter explained simply"
-date: "2009-07-03 11:37:27"
-description: "<img class="alignright" style="float: right;border: 0;margin: 20px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-07-03 11:37:27
+description: "Twitter keeps hitting the headlines at the moment but a lot of people don't seem to understand what it really is and how it differs from other Social Networks"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Twitter explained simply"
 wpid: "426"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 20px" src="http://www.chris-smith-web.com/wp-content/uploads/2009/06/twitter_logo.png" alt="twitter" width="155" height="36" /><a title="Twitter" href="http://twitter.com" target="_blank">Twitter</a> keeps hitting the headlines at the moment but a lot of people don't seem to understand what it really is and how it differs from other Social Networks. I'll try to explain it in terms more people can understand.
+
+<a title="Twitter" href="http://twitter.com" target="_blank">Twitter</a> keeps hitting the headlines at the moment but a lot of people don't seem to understand what it really is and how it differs from other Social Networks. I'll try to explain it in terms more people can understand.
 
 <a title="Twitter" href="http://twitter.com" target="_blank">Twitter</a> is basically about posting short messages, much like SMS texting on mobiles. Each post is called a "tweet" and is limited to 140 characters. It can't include other media as such but it can include hyperlinks so anything you wish to share is only a click away.
 

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Forgotten Passwords"
-date: "2015-04-10 16:18:48"
+date: 2015-04-10 16:18:48
 description: "Forgotten Your Password? Yes"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

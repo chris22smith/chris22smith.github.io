@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measuring Front End Performance</title>
+    <meta name="description" content="My last post was about Front End Performance Enhancements and how I&#39;ve managed to improve page load times on a site">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Measuring Front End Performance</h1>
+    <p>My last post was about <a href="/front-end-performance-enhancements" target="_blank" rel="noopener noreferrer">Front End Performance Enhancements</a> and how I've managed to improve page load times on a site. I've recently done some work in this area and, whilst I'm satisfied that my changes have improved performance, I can't really be sure to what extent.</p>
+<p>With any kind of improvement work it's always nice to have a before and after and be able to show the difference. If this can be hard numbers, like in sales, then even better. With web performance can we ever really rely on any numbers?</p>
+<p>I've been using Google Analytics Page Timing reports, specifically the Page Speed Suggestions report, which gives the most popular pages (sorted by page views) and the load time in seconds. I've tried comparing a week before my changes with a week after them. The page load times are different and generally better but it's hard to know if I'm really comparing like with like.</p>
+<p>There are so many random factors. The number of page views is different for the two different periods. We don't know who the users are, and therefore how much data they're loading. We don't know their locations or devices or their network connection speed. We can find most of this out but then we'd have to find a way of putting it back together in a fair and meaningful way whilst probably still having some unknowns.</p>
+<p>The other issue is that the page load times in Google Analytics are (mean) averages. This means that one extremely slow load can make the average rocket upwards. Conversely, one user hammering the refresh button and getting lots of page views from the cache will make it drop.</p>
+<p>I think that there are 2 ways we can help to measure performance more accurately.</p>
+<p>The first is just to look at page load times in these reports but wait until we have a larger sample size. As the sample size grows the anomalies are more likely to be diluted and have less of a sway on the overall result. If possible, try to isolate the extreme results, like the fastest and slowest 5%, and remove these from the averages.</p>
+<p>The second is to use automated load testing so that we're using very similar conditions for each test. Even in this case we'd have to load the page a few thousand times to get a meaningful average result.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

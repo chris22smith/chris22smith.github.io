@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "Moving from Print to Web in Stages"
-date: "2009-01-09 17:23:16"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-01-09 17:23:16
+description: "There are many good reasons for moving from producing printed publications such as leaflets, brochures or catalogues to putting all information onto a website - better for the environment, wider reaching, faster and cheaper"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Moving from Print to Web in Stages"
 wpid: "412"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/01/rgb.jpg" alt="RGB" width="125" height="100" /><img class="alignleft" style="float: left;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/01/cmyk.jpg" alt="CMYK" width="150" height="100" />There are many good reasons for moving from producing printed publications such as leaflets, brochures or catalogues to putting all information onto a website - better for the environment, wider reaching, faster and cheaper. Even though we know this taking the plunge and stopping print media suddenly is scary.
+
+There are many good reasons for moving from producing printed publications such as leaflets, brochures or catalogues to putting all information onto a website - better for the environment, wider reaching, faster and cheaper. Even though we know this taking the plunge and stopping print media suddenly is scary.
 
 It doesn't have to be so sudden and drastic. It is possible to use a more gentle phased approach.
 

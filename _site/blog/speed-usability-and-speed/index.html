@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed, Usability and Speed</title>
+    <meta name="description" content="When looking at making UX improvements to web apps, I tend to obsess about speed and performance">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Speed, Usability and Speed</h1>
+    <p>When looking at making UX improvements to web apps, I tend to obsess about speed and performance. For me a fast experience is a good experience.</p>
+<p>I really think that speed outweighs all other factors. If you can keep all loading and waiting times very short, ideally under a second, it keeps the user engaged and efficient in what they're trying to achieve. As soon as anything takes longer than a couple of seconds it's easy to let your mind wander, switch context and then take longer to get back into what you were doing. If this is happening lots of times across a lengthy session it really adds up, not to mention the frustration it causes.</p>
+<p>Usability is obviously important too. It needs to be obvious what screen elements you can interact with - is that an underlined heading or a link? It needs to be clear what an interaction with that element will do. Unexpected behaviour makes people feel uneasy and suspicious about other potential interactions. And it's always good if the user can see how the whole piece fits together, how you get from A to B, B to C, etc.</p>
+<p>The usual causes of things being slow are not network issues but bad design. The most common problem is simply trying to send too much too soon. Requirements often ask for a high number of items to be displayed with a high level of detail against each. It's always worth asking if this can be broken down to show fewer items or less detail with more being available on demand.</p>
+<p>If a screen lists 20 items with all their details and it's taking 5 seconds to load we still don't have to load it all at once. Rather than the user waiting for 5 seconds, why not just load the first 3 items quickly, so the user has something to see within a more acceptable time frame (before the mind wanders), and then load the other 17 in the background while the first 3 are keeping them occupied.</p>
+<p>Even if your app is working at acceptable speeds if you haven't already done so you should still try to make it faster. Use a strategy for how you're going to load new data and use the usual performance tricks - caching, bundling, minification, pre-fetching - to really give the UX a boost.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

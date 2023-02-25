@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A New Found Appreciation for Images on the Web</title>
+    <meta name="description" content="I&#39;ve been putting images in web pages for years">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>A New Found Appreciation for Images on the Web</h1>
+    <p>I've been putting images in web pages for years. Nearly 2 decades now. For most of that time it has been quite easy. Add your source and the dimensions and BOOM, there you go. There was always some work around optimising images outside of your page but once in there, easy.</p>
+<p>Then, with higher pixel densities it started getting a bit harder and we had to work it out with media queries and srcset. Now SVG is widely supported, all this fussing around with different versions for different resolutions has gone away, at least for simple graphics.</p>
+<p>I've recently been doing some design work on an Android app and it's a very different way of doing things with images. For example, I've created a splash screen for while the app is loading. It's a full page, wide logo in the centre, coloured background.</p>
+<p>On the web, I'd just set the background colour and then centre the SVG logo, probably with flexbox, and use a flex-basis of 80% or some margin to give it a flexible width.</p>
+<p>On Android, I've had to provide the splash screen image as a series of PNG files. 5 different resolutions, varying from 480x320 up to 1920x1280, and then in both orientations, 10 files in all. The clever part is that at the point of installing the app the Android device will only get the files appropriate for its size and pixel density but it means a lot of messing around with assets.</p>
+<p>It's been a similar story for icons too. Multiple resolutions. You want a different colour? That's a separate PNG.</p>
+<p>I'm making it sound worse than it actually is. Luckily there are great tools that let you import a single image and export all the variations you could need.</p>
+<p>But it does make you think about the differences between platforms. To me, the web browser, with it's ability to resize on the fly, use SVG, recolour, apply filters, transform and animate in CSS makes Android image support feel very primitive.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/A Testing</title>
+    <meta name="description" content="I&#39;m guessing most people know what A/B Testing is">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>A/A Testing</h1>
+    <p>I'm guessing most people know what A/B Testing is. It's publishing 2 variations and monitoring the responses. A typical example might be a web page with a sign up call to action. There would be 2 versions of the page and visitors would be directed to one or the other. After a certain number of page views the number of sign-ups would be counted for each version. Version A might have had 4% sign ups whereas version B might have had 7%. Typically, the best performing page is then either used or put up against another version for another iteration of improvements.</p>
+<p>A/A Testing is the control. Visitors are again directed to one of two pages only this time both versions are exactly the same. Let's call them A1 and A2. Suppose A1 comes in with 5% sign-ups but A2 comes in with only 1%. What does that tell us? It basically tells us not to read too much into the A/B Testing as the differing results were probably just random chance.</p>
+<p>With A/A Testing, as you monitor more and more users the split should get closer to 50/50. It's a good way of discovering what is a suitably large sample size for your A/B Tests.</p>
+<p>The other problem with A/B Testing is its format. It's often set up to work like a knockout, winner stays on tournament - A vs. B, B vs. C, C vs. D, etc. This is flawed. If B beats A, then C beats B, C is the winner. But what if A would beat C? It's quite possible. For it to work all variations need to put pushed out at once so we're now doing A/B/C/D Testing and this will require a larger sample size.</p>
+<p>Personally, I'm not convinced it's very scientific in most cases. I think it can work well if you're Amazon or Google and have the traffic to get meaningful results but most companies using A/B Testing probably fall way short and are more or less flipping a coin to make their UX decisions.</p>
+<p>A/A Testing is a great way of debunking small scale A/B Testing as it proves that random chance plays a significant part in the outcome.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

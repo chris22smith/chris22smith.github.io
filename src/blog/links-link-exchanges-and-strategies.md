@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Links, link exchanges and strategies"
-date: "2008-09-29 13:45:46"
+date: 2008-09-29 13:45:46
 description: "There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

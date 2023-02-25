@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Boosting Web Performance"
-date: "2016-02-10 17:40:42"
+date: 2016-02-10 17:40:42
 description: "One of the areas of front end development I've really got into in the last year or so is performance"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

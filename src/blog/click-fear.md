@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Click Fear"
-date: "2016-11-16 18:00:45"
+date: 2016-11-16 18:00:45
 description: "I recently read this excellent article by Jakob Nielsen: The Distribution of Users' Computer Skills: Worse Than You Think"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Google's Personalised Search"
-date: "2009-01-06 11:42:21"
+date: 2009-01-06 11:42:21
 description: "Search on the internet is changing"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

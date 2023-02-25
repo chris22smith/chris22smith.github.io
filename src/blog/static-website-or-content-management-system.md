@@ -1,14 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "Static Website or Content Management System?"
-date: "2010-06-02 16:52:29"
+date: 2010-06-02 16:52:29
 description: "If you've decided you want a website, the next decision to be made is which kind - a simple, static website or a Content Management System (CMS)? Let's have a look at the pros and cons of each kind"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Static Website or Content Management System?"
 wpid: "428"
 ---
+
 If you've decided you want a website, the next decision to be made is which kind - a simple, static website or a Content Management System (CMS)? Let's have a look at the pros and cons of each kind.
+
 <h2>Static website</h2>
 <strong>Pros</strong>
 <ul>

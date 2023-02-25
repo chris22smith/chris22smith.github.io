@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Displaying Options in a UI</title>
+    <meta name="description" content="One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Displaying Options in a UI</h1>
+    <p>One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it. As a user you have to click it to see the other available options only to find that there are none. This is a clear example of developer convenience being put before user experience.</p>
+<p>I'm sure it seems obvious now I've highlighted it but if there's only one option then there isn't a choice to be made at all and we don't need a form input. The code should conditionally show the drop down list only when there is a selection to be made, more than one item.</p>
+<p>Depending on the UI design, we could even take this a step further. Maybe a drop down list isn't the best choice for selecting between 2 items? A radio button list is probably better as it enables the user to see all of the available options at a glance and make a selection with a single click/touch. We can test the number of options and if it's below 5 show the options in a radio button list. &lt;ol&gt; might be a better choice than &lt;ul&gt; for the list if the items are in a specific order, e.g. years.</p>
+<p>Another example I see is displaying disabled form controls where the control is never enabled, e.g. a checkbox which is disabled because the user doesn't have permissions to change it. If it's not an option, don't show it. Disabling it is the lazy option, easy for the developer. Hiding it is much better but may involve a change to layout. The UX should always be put first. It's usually no more difficult, it's just not considered.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

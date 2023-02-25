@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "What Techies Tweet"
-date: "2019-05-03 18:00:36"
-description: "<p>I was curious as to what value I was getting out of following people in the tech industry on Twitter"
-tags: ["blog","archive"]
+date: 2019-05-03 18:00:36
+description: "I was curious as to what value I was getting out of following people in the tech industry on Twitter"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "What Techies Tweet"
 wpid: "872"
 ---
+
 <p>I was curious as to what value I was getting out of following people in the tech industry on Twitter. Are they sharing useful information or just sharing pictures of their pets? Is it jokes and memes, self-promotion, sharing useful resources, praise, criticism, politics? I studied <strong>100</strong> consecutive tweets to get an idea.</p>
 <p>This is by knows means scientific but still quite interesting. There are a few important parameters for how I use Twitter, which may explain differences from what you see. Firstly, I don't exclusively follow people in tech. I follow real world friends, football journalists, comedians, celebrities - a pretty broad spectrum of people. Here I've limited the tweets analysed to just those from people in tech. I've got to admit there were one or two where I wasn't sure so had to check their bios. Secondly, I try to follow real people, not faceless organisations. My rationale is that organisations' tweets are 99% self-promotion. If their content is good enough I'll get to hear about it via others retweeting. I'm trusting the people I follow to filter the organisational information I receive. Final point is I have a couple of words muted - "Trump" and "Brexit". This will obviously impact on the amount of political tweets I see.</p>
 

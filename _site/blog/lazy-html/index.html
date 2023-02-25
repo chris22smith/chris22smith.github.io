@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy HTML :(</title>
+    <meta name="description" content="Poking through other developers&#39; HTML pages I sometimes come across markup like this">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Lazy HTML :(</h1>
+    <p>Poking through other developers' HTML pages I sometimes come across markup like this:</p>
+<p>&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;</p>
+<p>It's generally used to just add some space between block elements. My instinctive reaction is a mixture of horror and disbelief. I can't remove it quick enough and get some CSS to control it instead.</p>
+<p>Thinking about it a little deeper, this tag gets misused a lot. There's a big difference between a semantic break between 2 bits of content and just shifting something down a line because it looks better at the time. The example above using several line breaks consecutively is, to my mind, just plain wrong. A break is used to separate content and its semantic meaning here is trying to separate other breaks.</p>
+<p>To be fair to the other developers there's a good chance it's some visual editor doing a bad job rather than it being hand coded this way but the result is the same.</p>
+<p>HTML should be about conveying the meaning of the content, not just a way of putting text on screen. Adding gaps or breaks between bits of content needs to be considered too.</p>
+<h3>Margin vs Padding</h3>
+We get a similar situation with margin and padding. Some developers just use these interchangeably to put a gap between elements but this feels wrong to me. Even though this is purely styling rather than content and doesn't need to worry about semantics in the same way, it's still a matter of how you view a particular element. If it appeared in another context, would it always have this margin or padding? I think we should be designing chunks of content as independent elements, which can be dropped into a page ready to go without the need for excessive styling for their context.
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

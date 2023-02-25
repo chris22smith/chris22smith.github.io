@@ -1,16 +1,18 @@
 ---
 layout: "layouts/blog.njk"
 title: "My New Website"
-date: "2014-09-07 07:34:05"
+date: 2014-09-07 07:34:05
 description: "After years of working on all sorts of websites I thought I’d create my own personal site"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "My New Website"
 wpid: "13"
 ---
+
 After years of working on all sorts of websites I thought I’d create my own personal site. I’ve created quite a few sites for myself before but they have always been about my web design and development work or (failed) entrepreneurial attemps to generate a bit of money. This is different. I’m not looking to gain any money, work or reputation, just giving myself a platform to publish, well, whatever the hell I feel like.
 
 I’m not sure what will go on it yet, maybe a bit of a blog, maybe some articles, photos, video, music. Or I might just fill pages with adverts and animated GIFs. Seems to work for some people.
+
 <h3>The Design</h3>
 I thought I’d just share some of the thinking and technical approach behind the design. As a web designer/developer I don’t want the site to be just about its content, I see it as a bit of a playground for trying out new design ideas.
 

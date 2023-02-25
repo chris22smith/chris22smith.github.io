@@ -1,9 +1,9 @@
 ---
 layout: "layouts/blog.njk"
 title: "Getting Feedback on Codepen Demos"
-date: "2016-05-28 09:00:45"
-description: "At the software company where I work, we've started using <a href="http://codepen"
-tags: ["blog","archive", "tech"]
+date: 2016-05-28 09:00:45
+description: "At the software company where I work, we've started using Codepen as a way of producing interactive demos or prototype pages"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Getting Feedback on Codepen Demos"
 wpid: "246"

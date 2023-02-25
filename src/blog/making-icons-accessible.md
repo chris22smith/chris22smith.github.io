@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Making Icons Accessible"
-date: "2018-05-16 17:42:34"
+date: 2018-05-16 17:42:34
 description: "I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

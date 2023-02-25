@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Reasons for Developers to Have a Blog"
-date: "2020-07-26 16:01:11"
-description: "<!-- wp:paragraph -->
-<p>One thing I'd definitely recommend to any new developers is to have your own blog"
-tags: ["blog","archive"]
+date: 2020-07-26 16:01:11
+description: "One thing I'd definitely recommend to any new developers is to have your own blog"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Reasons for Developers to Have a Blog"
 wpid: "946"
 ---
+
 <!-- wp:paragraph -->
 <p>One thing I'd definitely recommend to any new developers is to have your own blog. It's also a view I've seen shared by a lot of experienced developers. But why?</p>
 <!-- /wp:paragraph -->

@@ -1,14 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2016 (Part 1)"
-date: "2017-01-06 20:00:13"
+date: 2017-01-06 20:00:13
 description: "I've done this quick run-through of things I've learned in the last 12 months for a few years now"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "What I Learned in 2016 (Part 1)"
 wpid: "335"
 ---
+
 I've done this quick run-through of things I've learned in the last 12 months for a few years now. It's great to reassure myself that I'm still learning and every time it surprises me how much new stuff I've picked up in a short space of time.
+
 <h3>HTML Email</h3>
 For a while I've known that you have to use tables and inline styles rather than CSS. Actually there's a lot more to it and you can use CSS and even media queries. You just have to be prepared for when they're not supported with nice fallbacks. There's an excellent course on <a href="https://www.codeschool.com" target="_blank">CodeSchool</a> called <a href="https://www.codeschool.com/courses/unmasking-html-emails" target="_blank">Unmasking HTML Emails</a>.
 <h3>SVG</h3>

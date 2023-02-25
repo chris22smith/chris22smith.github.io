@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2018"
-date: "2018-12-27 19:00:57"
+date: 2018-12-27 19:00:57
 description: "<!-- wp:paragraph -->
 <p>I write a post like this every year and it feels like it gets harder each time"
-tags: ["blog","archive"]
+tags: ["blog","archive", "tech"]
 eleventyNavigation:
   key: "What I Learned in 2018"
 wpid: "855"
 ---
+
 <!-- wp:paragraph -->
 <p>I write a post like this every year and it feels like it gets harder each time. There was a time when I could rattle through a list of new tech, tools or libraries that I'd been using. It feels like I'm much more focused on soft skills these days or firming up what I already know.</p>
 <!-- /wp:paragraph -->

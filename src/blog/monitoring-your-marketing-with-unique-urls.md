@@ -1,14 +1,13 @@
 ---
 layout: "layouts/blog.njk"
 title: "Monitoring your Marketing with Unique URLs"
-date: "2009-06-09 12:17:25"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-06-09 12:17:25
+description: "Using Google Analytics or a similar web stats package you can see how many people are visiting a particular page or downloading a particular document on your website"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Monitoring your Marketing with Unique URLs"
 wpid: "421"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp-content/uploads/2009/06/failure.jpg" alt="Failure" width="300" height="298" />
 
 Using <a title="Google Analytics" href="http://www.google.com/analytics" target="_blank">Google Analytics</a> or a similar web stats package you can see how many people are visiting a particular page or downloading a particular document on your website.
 

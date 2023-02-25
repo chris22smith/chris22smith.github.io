@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Speed, Usability and Speed"
-date: "2017-10-14 11:22:28"
+date: 2017-10-14 11:22:28
 description: "When looking at making UX improvements to web apps, I tend to obsess about speed and performance"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Speed, Usability and Speed"
 wpid: "667"
 ---
+
 When looking at making UX improvements to web apps, I tend to obsess about speed and performance. For me a fast experience is a good experience.
 
 I really think that speed outweighs all other factors. If you can keep all loading and waiting times very short, ideally under a second, it keeps the user engaged and efficient in what they're trying to achieve. As soon as anything takes longer than a couple of seconds it's easy to let your mind wander, switch context and then take longer to get back into what you were doing. If this is happening lots of times across a lengthy session it really adds up, not to mention the frustration it causes.

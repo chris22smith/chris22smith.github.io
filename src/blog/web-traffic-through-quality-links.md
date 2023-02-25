@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Web traffic through quality links"
-date: "2009-06-21 22:41:53"
-description: "I've recently started a new <a title="web development blog" href="http://dinowebs"
-tags: ["blog","archive"]
+date: 2009-06-21 22:41:53
+description: "I've recently started a new web development blog and have been pleasantly surprised at the high levels of traffic (relative to anything I've done before) it's receiving after such a short space of time"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Web traffic through quality links"
 wpid: "425"
 ---
+
 I've recently started a new <a title="web development blog" href="http://dinowebs.net" target="_self">web development blog</a> and have been pleasantly surprised at the high levels of traffic (relative to anything I've done before) it's receiving after such a short space of time. I'll share with you how I've achieved this.
 
 My <a title="traffic building strategy" href="http://www.chrissmithmarketing.com" target="_self">traffic building strategy</a> was to target a few carefully chosen high quality links. My plan was to try to create a small number of links to my site, quality not quatity, coming from web pages highly ranked by <a title="Google" href="http://www.google.co.uk" target="_blank">Google</a> and with a subject matching the page on my site. I also decided to use deep linking rather than just point everything at my home page.

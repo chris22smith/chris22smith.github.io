@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Emotional Response"
-date: "2016-11-22 18:52:52"
+date: 2016-11-22 18:52:52
 description: "I've read some sales and marketing articles about techniques for trying to elicit an emotional response from your audience"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

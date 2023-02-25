@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "The new language of Social Media"
-date: "2009-02-18 13:59:35"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-02-18 13:59:35
+description: "As a linguist I find the evolution of language fascinating"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The new language of Social Media"
 wpid: "415"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/02/speak.jpg" alt="Social Media Speak" width="180" height="180" />As a linguist I find the evolution of language fascinating. The concept of <a href="http://www.chris-smith-web.com/wp/?p=27" target="_self">Web 2.0</a> seems to have brought with it a whole new vocabulary, some new words and some new meanings for existing words. I’ve listed a few here. If you can think of any more I’ve missed please feel free to comment and add to it.
+
+As a linguist I find the evolution of language fascinating. The concept of <a href="http://www.chris-smith-web.com/wp/?p=27" target="_self">Web 2.0</a> seems to have brought with it a whole new vocabulary, some new words and some new meanings for existing words. I’ve listed a few here. If you can think of any more I’ve missed please feel free to comment and add to it.
 
 <strong>Application</strong>
 An application is a program which runs on a social network. Applications can easily be shared and published.

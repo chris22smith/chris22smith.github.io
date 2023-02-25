@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Learning to Write Code that is Good Enough"
-date: "2020-08-03 17:27:12"
+date: 2020-08-03 17:27:12
 description: "When you go through school you're always taught to do your best, to try to make the thing you're working on the best it can possibly be"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

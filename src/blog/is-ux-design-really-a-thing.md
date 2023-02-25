@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Is UX Design Really a Thing?"
-date: "2016-11-30 18:30:58"
+date: 2016-11-30 18:30:58
 description: "This might seem an odd question as user experience (UX for short) obviously has become a thing in the last few years"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

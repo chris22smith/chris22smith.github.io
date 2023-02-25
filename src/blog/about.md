@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "About"
-date: "2015-11-18 19:14:23"
+date: 2015-11-18 19:14:23
 description: "It’s actually quite hard writing about yourself"
 tags: ["archive"]
 eleventyNavigation:

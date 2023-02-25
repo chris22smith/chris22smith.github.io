@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "My Firefox Add-ons"
-date: "2009-05-01 11:28:35"
-description: "I use <a title="Mozilla Firefox" href="http://www"
-tags: ["blog","archive"]
+date: 2009-05-01 11:28:35
+description: "I use Mozilla Firefox as my prefered web browser"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "My Firefox Add-ons"
 wpid: "418"
 ---
+
 I use <a title="Mozilla Firefox" href="http://www.mozilla-europe.org/en/firefox/" target="_blank">Mozilla Firefox</a> as my prefered web browser. <a title="Firefox" href="http://www.mozilla-europe.org/en/firefox/" target="_blank">Firefox</a> allows you to expand its functionality by adding on mini programs. These are called add-ons. I thought I'd share some of my favourite add-ons.
 
 <img class="alignleft" style="border: 0;float: left;margin-left: 10px;margin-right: 10px;margin-top: 0px;margin-bottom: 0px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/05/adblockplus_icon.png" alt="AdBlock Plus" width="32" height="32" /><strong>AdBlock Plus</strong>
@@ -29,7 +30,7 @@ This makes it quick and easy to share the content of the page you are browsing o
 Like <a title="Digg" href="http://digg.com" target="_blank">Digg</a> this allows you to add and share online bookmarks to <a title="Delicious" href="http://delicious.com" target="_blank">Delicious</a> with a single click.
 
 <img class="alignleft" style="border: 0;margin-top: 0px;margin-bottom: 0px;margin-left: 10px;margin-right: 10px;float: left" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/05/colorzilla_icon.png" alt="Colorzilla" width="32" height="32" /><strong>Colorzilla</strong>
-For <a title="Web designer" href="http://www.chris-smith-web.com" target="_self">web designers</a>, <a title="Web developers" href="http://www.chris-smith-web.com" target="_self">developers</a> or anyone working with graphics this is an eyedropper tool for picking colours. By clicking the tiny icon in the status bar you geta  crosshair which when clicked on any pixel on screen gives the colour references in both Hexadecimal and RGB 0-255 values. This is incredibly useful if you see a colour you want to use. It also has the option to copy the various colour values straight to the clipboard.
+For <a title="Web designer" href="http://www.chris-smith-web.com" target="_self">web designers</a>, <a title="Web developers" href="http://www.chris-smith-web.com" target="_self">developers</a> or anyone working with graphics this is an eyedropper tool for picking colours. By clicking the tiny icon in the status bar you geta crosshair which when clicked on any pixel on screen gives the colour references in both Hexadecimal and RGB 0-255 values. This is incredibly useful if you see a colour you want to use. It also has the option to copy the various colour values straight to the clipboard.
 
 <img class="alignleft" style="float: left;border: 0;margin-top: 0px;margin-bottom: 0px;margin-left: 10px;margin-right: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/05/webdev_icon.png" alt="Web Developer" width="32" height="32" /><strong>Web Developer Toolbar</strong>
 Quite specifically for the <a title="web designer" href="http://www.chris-smith-web.com" target="_self">web designer</a> or <a title="web developer" href="http://www.chris-smith-web.com" target="_self">web developer</a> this toolbar has buttons which strip down the web page in the browser window to its various elements. You can view just CSS (styling), just images, identitfy different layers (div tags) - just about anyhting you might want to know about a page is there.

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Lazy HTML :("
-date: "2016-04-21 19:15:08"
+date: 2016-04-21 19:15:08
 description: "Poking through other developers' HTML pages I sometimes come across markup like this"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

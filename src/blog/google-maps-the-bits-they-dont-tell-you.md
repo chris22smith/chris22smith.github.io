@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Google Maps - The Bits They Don't Tell You"
-date: "2016-03-09 18:06:04"
+date: 2016-03-09 18:06:04
 description: "I've done quite a lot of work with the Google Maps JavaScript API in the last year or so"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

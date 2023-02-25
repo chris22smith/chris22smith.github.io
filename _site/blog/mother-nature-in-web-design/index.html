@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother Nature in Web Design</title>
+    <meta name="description" content="How can we make designs feel more like the natural world and less like something created on a machine? Here are a few ideas">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Mother Nature in Web Design</h1>
+    <p>How can we make designs feel more like the natural world and less like something created on a machine? Here are a few ideas...</p>
+<h3>Randomness</h3>
+I've created a few pens on <a href="http://codepen.io" target="_blank">Codepen</a> recently which involve JavaScript generating random elements in the DOM. Add a new element and assign it random position, dimensions or scale.
+<p><a href="http://codepen.io/chris22smith/pen/GoVVPY" target="_blank">Furball</a>
+<a href="http://codepen.io/chris22smith/pen/BKaWBd" target="_blank">Tie Fighter Waves</a>
+<a href="http://codepen.io/chris22smith/pen/WrzVxw" target="_blank">Random Circles</a></p>
+<p>Whilst these were just playing around, I am interested by the idea of bringing an element of randomness into designs. There's a real feeling of the natural world or at least being outside in allowing things to be created and move around of their own accord or, at least, appear to.</p>
+<h3>Position</h3>
+To do this we can use JavaScript to assign elements a random position. Set position:absolute and then generate random numbers for left and top values within the confines of the viewport width and height.
+<h3>Movement</h3>
+In nature things don't generally move in a linear way. They accelerate, reach their desired speed and then decelerate again before stopping - its not sudden. Similarly, things don't just appear or disappear but gradually fade in or out of view or move in gradually from outside the range of vision. Things don't always stay upright. They turn and sway. They're affected by wind outside.
+<p>Keyframe animation with transforms, especially translate and rotate, can help make things move quite subtly giving a very natural feel.</p>
+<h3>Lighting</h3>
+Light is not a constant in nature, except maybe in the dessert. It is affected by cloud cover and so the lightness/darkness of things will vary. Shadows don't stay fixed for long but may change direction and intensity outside.
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

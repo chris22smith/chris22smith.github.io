@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Front End Performance Enhancements"
-date: "2017-05-01 13:00:40"
+date: 2017-05-01 13:00:40
 description: "I've recently made a load of changes to a site to improve the page loading times"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

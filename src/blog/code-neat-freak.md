@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Code Neat Freak"
-date: "2016-12-16 17:06:42"
+date: 2016-12-16 17:06:42
 description: "With front-end developers we all care what our UI design looks like in the browser"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

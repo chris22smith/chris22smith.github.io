@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Introducing... Dinowebs.net"
-date: "2009-06-21 22:21:47"
+date: 2009-06-21 22:21:47
 description: "As a web developer and programmer I'm always on the look out for solutions to little problems"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Saving the FA Cup"
-date: "2016-03-07 15:25:10"
+date: 2016-03-07 15:25:10
 description: "The FA Cup is dying"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Saving the FA Cup"
 wpid: "171"
 ---
+
 The FA Cup is dying. How can it be restored to its former glory?
 
 There's no doubt that the FA Cup is struggling. It's been in decline for a number of years with big clubs and their fans looking on it very much as a lower priority after the Premier League and UEFA Champions League. I'd even go as far as saying that it's not third after those 2 tournaments. Finishing in the top 4 and qualifying for next season's Champions League is valued above it. There's currently talk of getting rid of FA Cup replays due to fixture congestion, which shows that it's clearly seen as an inconvenience rather than an opportunity to some clubs.

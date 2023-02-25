@@ -1,14 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "What I Learned in 2014: Part 2 - Javascript and Google Maps"
-date: "2014-12-30 16:08:26"
+date: 2014-12-30 16:08:26
 description: "This is the second part of a three-part article looking back at what new web things I’ve learned in 2014"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "What I Learned in 2014: Part 2 - Javascript and Google Maps"
 wpid: "26"
 ---
+
 This is the second part of a three-part article looking back at what new web things I’ve learned in 2014. This part focuses on JavaScript.
+
 <h3>JavaScript and jQuery</h3>
 This is a big area, probably the area where I have made the most progress in the last year. The main shift for me has been from doing everything in jQuery, which I learned first, to using native JavaScript. Hopefully by learning to do more with native Javascript I can cut down on the jQuery bloat, especially in mobile friendly pages.
 
@@ -28,6 +30,7 @@ Thanks to a very patient colleague I’ve now got a much better grip on Angular.
 As part of the Angular work I’ve also learned how to do Unit Testing using the Jasmine framework. Unit testing always felt like a lot of extra work to me but now I see that having a long list of small tests that run is invaluable. It gives you the freedom to write new code knowing that any knock-on effects you create in the process will be picked up. It makes for far more robust and less buggy code.
 
 Recently, I’ve implemented 2 jQuery plugins into a project, tablesorter for automatically sorting the rows of a table by clicking on a column heading, and elevateZoom for adding the capability of zooming in on a thumbnail image, like we often see on clothing details pages. Both are very well written with a lot of options available. Using these has made me realise that I can now go into the code of the plugins and actually follow (more or less) what is going on. I hope to be able to write and share some of my own in the next couple of years.
+
 <h3>Google Maps API v.3</h3>
 I’ve now spent a few months working with this API and have got a good understanding of how it works and how it can be used and extended to do more. I created my own utility library of functions for all the things I need to do regularly - draw markers and polygons with info windows which appear on click, calculating areas, converting area units, adding data layers and heatmaps, encoding/decoding polygon paths, adding new map controls, etc. There was also some more advanced functionality in there too which goes beyond what’s included in the API - calculating the optimal bounds (map viewport) to show a number of polygons, determining the direction or winding (clockwise or anti/counter-clockwise) of a polygon, calculating the centroid (centre from the average coordinates of points) of a polygon.
 

@@ -1,14 +1,16 @@
 ---
 layout: "layouts/blog.njk"
 title: "Pirate Flapjacks Recipe"
-date: "2016-03-07 21:12:04"
+date: 2016-03-07 21:12:04
 description: "Here's my own twist on the classic flapjack"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Pirate Flapjacks Recipe"
 wpid: "189"
 ---
+
 Here's my own twist on the classic flapjack. In a nutshell, add sultanas and rum. Pirates love sultanas, right? I would add a photo but it would just look like a pile of flapjacks on a plate so I won't bother.
+
 <h3>Ingredients</h3>
 200g Butter (plus a bit more for greasing the tin)
 225g Brown Sugar

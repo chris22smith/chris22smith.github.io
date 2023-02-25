@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Easier Colours in Web Design"
-date: "2015-12-24 16:30:21"
+date: 2015-12-24 16:30:21
 description: "In the last couple of years I've changed the way I work with colours in websites"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

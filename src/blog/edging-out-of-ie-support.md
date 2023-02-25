@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Edging Out of IE Support"
-date: "2019-08-04 10:00:51"
+date: 2019-08-04 10:00:51
 description: "Having to support a minority of users on IE11 is painful"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

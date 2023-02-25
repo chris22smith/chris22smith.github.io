@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Website Redesign - chrissmith.xyz"
-date: "2016-01-13 18:00:29"
+date: 2016-01-13 18:00:29
 description: "Over the last couple of months of 2015 and the start of 2016 I decided to redesign this site"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Website Redesign - chrissmith.xyz"
 wpid: "117"
 ---
+
 Over the last couple of months of 2015 and the start of 2016 I decided to redesign this site. There wasn't anything particularly wrong with it before from a user's point of view but from an author's point of view I felt I could do better.
 
 The site was built using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, which is a static site generator. You make changes on your local machine and everything gets rebuilt as static files. This is great for performance as static pages are much faster. The downside for me was that it meant only being able to publish blog posts or pages from that one machine. #firstworldproblems :)

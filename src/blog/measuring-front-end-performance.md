@@ -1,9 +1,9 @@
 ---
 layout: "layouts/blog.njk"
 title: "Measuring Front End Performance"
-date: "2017-05-03 18:00:53"
-description: "My last post was about <a href="/front-end-performance-enhancements" target="_blank" rel="noopener noreferrer">Front End Performance Enhancements</a> and how I've managed to improve page load times on a site"
-tags: ["blog","archive", "tech"]
+date: 2017-05-03 18:00:53
+description: "My last post was about Front End Performance Enhancements and how I've managed to improve page load times on a site"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Measuring Front End Performance"
 wpid: "610"

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Cut the Crap!"
-date: "2017-01-13 18:21:58"
+date: 2017-01-13 18:21:58
 description: "We all write loads of crap"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Do IT Qualifications Hold Value?"
-date: "2017-10-25 18:30:16"
+date: 2017-10-25 18:30:16
 description: "I work in tech, software development"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

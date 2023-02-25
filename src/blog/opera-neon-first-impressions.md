@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Opera Neon - First Impressions"
-date: "2017-01-28 10:00:33"
-description: "<a href="http://www"
-tags: ["blog","archive"]
+date: 2017-01-28 10:00:33
+description: "Opera Neon is the new concept browser from Opera"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Opera Neon - First Impressions"
 wpid: "474"
 ---
+
 <a href="http://www.opera.com/computer/neon" target="_blank">Opera Neon</a> is the new concept browser from Opera. What's a "concept browser"? I've no idea but I like new shiny things to play with so have been playing. The <a href="http://www.opera.com/computer/neon" target="_blank">Opera Neon webpage</a> will explain it much better than I can but here are a few first impressions.
 
 <a href="/img/2017/01/opera-neon.png"><img class="alignleft size-large wp-image-494" src="/img/2017/01/opera-neon-1024x576.png" alt="Opera Neon screenshot" width="660" height="371" /></a>

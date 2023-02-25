@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Learning Flexbox"
-date: "2016-03-04 21:28:10"
+date: 2016-03-04 21:28:10
 description: "I've just, finally, learned how to use the flexible box layout, more commonly known as Flexbox"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

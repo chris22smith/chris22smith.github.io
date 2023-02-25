@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Displaying Options in a UI"
-date: "2016-11-23 18:30:26"
+date: 2016-11-23 18:30:26
 description: "One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

@@ -24,7 +24,10 @@ title: Chris Smith
   </head>
   <body>
     {% include 'header.html' %}
+    <article>
+      <h1>{{ title }}</h1>
     {{ content | safe }}
+    </article>
     {% include 'footer.html' %}
   </body>
 </html>

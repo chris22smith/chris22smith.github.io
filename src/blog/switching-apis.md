@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Switching APIs"
-date: "2019-10-17 18:00:59"
-description: "<!-- wp:paragraph -->
-<p>It's completely normal now for web apps to work with external third party JavaScript APIs"
-tags: ["blog","archive"]
+date: 2019-10-17 18:00:59
+description: "It's completely normal now for web apps to work with external third party JavaScript APIs"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Switching APIs"
 wpid: "922"
 ---
+
 <!-- wp:paragraph -->
 <p>It's completely normal now for web apps to work with external third party JavaScript APIs. The good ones give you lots of documentation making them pretty straightforward to implement and use. You load a script from a URL or local resource, use their methods and properties in your code and away you go.</p>
 <!-- /wp:paragraph -->

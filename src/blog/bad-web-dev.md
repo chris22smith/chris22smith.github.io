@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Bad Web Dev"
-date: "2016-11-04 08:55:06"
+date: 2016-11-04 08:55:06
 description: "Sometimes I see stuff on web pages and wonder how the developers ever thought that was OK"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

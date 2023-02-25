@@ -1,16 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Stop Linking to Nowhere"
-date: "2018-08-01 17:26:36"
-description: "Do you find yourself writing this kind of thing in your HTML?
-<code>&lt;a href="#" onclick="doSomething()"&gt;Some action&lt;/a&gt;</code>
-
-Does that <code>href="#"</code> make you feel slightly uncomfortable? Like it's not really doing anything, a bit of a hack? You'd be dead right to think that"
-tags: ["blog","archive"]
+date: 2018-08-01 17:26:36
+description: "Do you find yourself writing this kind of thing in your HTML?"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Stop Linking to Nowhere"
 wpid: "802"
 ---
+
 Do you find yourself writing this kind of thing in your HTML?
 <code>&lt;a href="#" onclick="doSomething()"&gt;Some action&lt;/a&gt;</code>
 

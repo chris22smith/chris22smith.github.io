@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Feedback on Codepen Demos</title>
+    <meta name="description" content="At the software company where I work, we&#39;ve started using Codepen as a way of producing interactive demos or prototype pages">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Getting Feedback on Codepen Demos</h1>
+    <p>At the software company where I work, we've started using <a href="http://codepen.io" target="_blank">Codepen</a> as a way of producing interactive demos or prototype pages. It's slowly replacing the use of static images or mock-ups. We've started sharing the URLs for these with customers to get their feedback on new features.</p>
+<p>This could be done by sending them 2 URLs, one for the pen and one for the feedback form, but it's not as good as being able to complete the form whilst viewing the demo content at the same time. I came up with a way of requesting feedback within the pen.</p>
+<h3>SurveyMonkey</h3>
+I embedded a <a href="https://www.surveymonkey.com/" target="_blank">SurveyMonkey</a> survey tracking script within the pen. I amended the pen design slightly to add a sidebar div and then added the SurveyMonkey embed JavaScript block within this, in the HTML pane of the pen. The script had to be here so that it rendered in the right place. I gave this sidebar a fixed width so that we could control how the survey contents appeared. We then had to write the survey in such a way that it didn't require much screen width and that all questions would fit into a sensible minimum screen height. In short, we kept questions short, no lists of 10 radio buttons.
+<h3>CrazyEgg</h3>
+I decided to also embed <a href="http://www.crazyegg.com/" target="_blank">CrazyEgg</a>. If you don't know it, it's a tool that allows you to track mouse clicks. It's a very useful way of knowing which parts of your screen get the most interaction. We added this script into the head content, within the HTML settings. This is a paid service but you can get a free trial for a short time.
+<h3>Debug Mode</h3>
+The 2 scripts seemed to get blocked when we tried using the pen in Editor or Full Screen modes but Debug mode, which runs the code as it is without any header or validation, worked like a dream. You need a PRO account to use this mode. Well worth it anyway in my view.
+<h3>Feedback Ready</h3>
+I'm now looking at building this out as a template ready for future feedback gathering.
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

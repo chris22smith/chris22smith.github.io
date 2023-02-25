@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "If Facebook had a Yawn Button"
-date: "2014-09-28 15:57:25"
+date: 2014-09-28 15:57:25
 description: "At the moment Facebook has 3 ways you can interact with posts: Like, Comment and Share"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

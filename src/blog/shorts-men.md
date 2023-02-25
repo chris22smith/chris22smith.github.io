@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Shorts Men"
-date: "2016-11-19 16:16:15"
+date: 2016-11-19 16:16:15
 description: "Have you noticed that there's a certain type of man who seems to be in shorts all year round? It doesn't matter what season, time of day or outside temperature"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Shorts Men"
 wpid: "289"
 ---
+
 Have you noticed that there's a certain type of man who seems to be in shorts all year round? It doesn't matter what season, time of day or outside temperature. Shorts.
 
 Why? Don't they feel the cold? Do they have some objection to the longer trouser? Do their legs overheat easily? Maybe they don't own any trousers or just deny their existence? Maybe their just perpetually over-optimistic about the weather? Whatever the reason, in my book, it's odd.

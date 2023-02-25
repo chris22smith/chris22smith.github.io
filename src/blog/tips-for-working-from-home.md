@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Tips for Working from Home"
-date: "2020-03-15 08:31:56"
-description: "<!-- wp:paragraph -->
-<p>I've been working from home 2 days a week for a few years so thought I'd share a few tips"
-tags: ["blog","archive"]
+date: 2020-03-15 08:31:56
+description: "I've been working from home 2 days a week for a few years so thought I'd share a few tips"
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Tips for Working from Home"
 wpid: "927"
 ---
+
 <!-- wp:paragraph -->
 <p>I've been working from home 2 days a week for a few years so thought I'd share a few tips. These are little things that work for me - they may not be for everyone.</p>
 <!-- /wp:paragraph -->

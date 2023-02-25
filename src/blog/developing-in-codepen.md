@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Developing in Codepen"
-date: "2015-12-13 22:09:41"
+date: 2015-12-13 22:09:41
 description: "A look at why and how I use Codepen for front end development work"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

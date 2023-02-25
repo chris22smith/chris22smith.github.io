@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "Website Design - the Finishing Touches"
-date: "2008-10-15 13:37:40"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2008-10-15 13:37:40
+description: "What separates a good website design from a great website design?"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Website Design - the Finishing Touches"
 wpid: "405"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2008/10/cupcake.jpg" alt="The finishing touches" width="200" height="300" />What separates a <a href="http://www.chris-smith-web.com/wp" target="_self">good website design</a> from a <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">great website design</a>? On the surface they may both look the same but with <a href="http://www.chris-smith-web.com/wp" target="_self">great design</a> come all the finishing touches, all those little details which make your site look that little bit more professional and, more importantly, perform better.
+
+What separates a <a href="http://www.chris-smith-web.com/wp" target="_self">good website design</a> from a <a href="http://www.chris-smith-web.com/wp/?page_id=9" target="_self">great website design</a>? On the surface they may both look the same but with <a href="http://www.chris-smith-web.com/wp" target="_self">great design</a> come all the finishing touches, all those little details which make your site look that little bit more professional and, more importantly, perform better.
 
 If you've got a website already has your designer provided all of these?
 

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Google Chrome - first impressions"
-date: "2008-09-15 12:43:31"
+date: 2008-09-15 12:43:31
 description: "I thought I'd just give my tuppence worth on Google's new BETA browser, Chrome"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

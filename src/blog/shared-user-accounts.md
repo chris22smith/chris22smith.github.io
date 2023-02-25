@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Shared User Accounts"
-date: "2017-10-22 14:00:47"
+date: 2017-10-22 14:00:47
 description: "I live with my wife and two boys and as you'd expect we have lots of accounts for lots of different services"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Shared User Accounts"
 wpid: "690"
 ---
+
 I live with my wife and two boys and as you'd expect we have lots of accounts for lots of different services. What's odd is that the models for the accounts vary quite considerably.
 
 For banking, gas, electricity and water my wife and I have joint accounts - we are jointly responsible and either of us can make changes. Where they offer online services, we each have our own login but are presented with exactly the same data. It's quite a standard user setup from a system point of view.

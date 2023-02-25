@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Take a Tour"
-date: "2017-05-24 18:00:48"
+date: 2017-05-24 18:00:48
 description: "When working with web apps or more complex sites where the user has to work through a process a product tour can be a very useful addition"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Take a Tour"
 wpid: "637"
 ---
+
 When working with web apps or more complex sites where the user has to work through a process a product tour can be a very useful addition. In case it's not clear from the name (I'm not sure I'd have known) a product tour is basically a series of tooltips which appear and guide the user through using the page/app in steps.
 
 Having the help or guidance right there in the page is much neater than providing a separate help page or subsite. It's not always easy flicking back and forth between the screen your working on and the documentation.

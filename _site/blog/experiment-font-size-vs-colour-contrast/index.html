@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment: Font Size vs Colour Contrast</title>
+    <meta name="description" content="One of the things I&#39;ve learned early on in web accessibility is the importance of colour contrast to make things easy to read on screen">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Experiment: Font Size vs Colour Contrast</h1>
+    <p>One of the things I've learned early on in web accessibility is the importance of colour contrast to make things easy to read on screen. High contrast is good but the size of text is also a factor. If it's larger it's easier to read even if the contrast drops.</p>
+<p>At the same time, having very large text with high contrast is quite &quot;full on&quot;. It can feel a bit like you're being shouted at. <em>Oppressive</em> is the word I'd use.</p>
+<p>This got me thinking. I wonder if we can scale colour contrast with font size so that it always feels good. It's really an extension of responsive design.</p>
+<p>So, I tried it in CodePen.</p>
+<p>[codepen_embed height=&quot;600&quot; theme_id=&quot;1248&quot; slug_hash=&quot;ajvVPL&quot; default_tab=&quot;result&quot; user=&quot;chris22smith&quot; editable=&quot;true&quot; data-editable=&quot;true&quot;]See the Pen <a href="https://codepen.io/chris22smith/pen/ajvVPL/">Font Size vs Color Contrast</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>) on <a href="https://codepen.io">CodePen</a>.[/codepen_embed]</p>
+<p>I've just done some very crude maths to make the RGB colour proportional to the font-size. As the font gets larger so do the RGB values, and vice versa.</p>
+<p>I'm sure there's probably some beautiful golden formula for getting the optimum contrast at every size but I wouldn't really know how to go about finding these optimum settings. This experiment seems to prove that the general idea is sound though.</p>
+<p>Please feel free to play around with it, take it further and let me know how you get on.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

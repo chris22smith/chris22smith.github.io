@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "Online ways to launch a website"
-date: "2009-03-30 14:27:49"
-description: "<img class="alignright" style="float: right;border: 1px solid black;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2009-03-30 14:27:49
+description: "In the offline world when you create a new publication, like a brochure or catalog, you need to plan its distribution"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Online ways to launch a website"
 wpid: "417"
 ---
-<img class="alignright" style="float: right;border: 1px solid black;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2009/03/rocket.jpg" alt="3... 2... 1... lift off!" width="200" height="240" />In the offline world when you create a new publication, like a brochure or catalog, you need to plan its distribution. You need to get it in front of your potential customers. Online is no different.
+
+In the offline world when you create a new publication, like a brochure or catalog, you need to plan its distribution. You need to get it in front of your potential customers. Online is no different.
 
 Too many people out there still seem to think that <a href="http://www.chris-smith-web.com" target="_self">having a website built</a> is the job done. Get a website and then sit back and wait for people to visit it. Wrong. The offline equivalent is having your brochures printed and then leaving them in their boxes. Just <a href="http://www.chris-smith-web.com" target="_self">building a website</a> is not enough.
 

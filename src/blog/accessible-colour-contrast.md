@@ -1,9 +1,9 @@
 ---
 layout: "layouts/blog.njk"
 title: "Accessible Colour Contrast"
-date: "2018-01-10 19:00:40"
-description: "When I started looking at accessibility and using the <a href="https://www"
-tags: ["blog","archive", "tech"]
+date: 2018-01-10 19:00:40
+description: "When I started looking at accessibility and using the aXe accessibility testing tool, one of the first things that it reported was insufficient colour contrast"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Accessible Colour Contrast"
 wpid: "713"

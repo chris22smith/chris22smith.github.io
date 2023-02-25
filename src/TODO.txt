@@ -33,3 +33,7 @@ sort out tags on on blog posts, tech or misc, maybe best
 got as far as measuring-readership (todo)
 look into ordering collections by date and multiple tags
 
+import gotchas
+date must be in text, not a quoted string
+wp post_name can be used as the file name
+to create a description, use post_extract if this is defined or use the start of the content but strip out any tags or quotes

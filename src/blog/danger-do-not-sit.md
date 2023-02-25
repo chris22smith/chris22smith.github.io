@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Danger. Do Not Sit."
-date: "2015-11-26 23:15:58"
+date: 2015-11-26 23:15:58
 description: "This isn't some strange health message, warning against being a couch potato, but the warning sign that appears on baggage carousels at airports"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

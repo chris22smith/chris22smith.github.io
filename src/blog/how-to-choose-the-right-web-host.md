@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "How to choose the right web host"
-date: "2011-01-19 17:32:31"
+date: 2011-01-19 17:32:31
 description: "If you're starting a new site, it's very hard to know how to pick the right web host"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

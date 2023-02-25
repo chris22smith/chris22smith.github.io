@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Learning Experiences as a Freelancer"
-date: "2018-10-06 18:01:30"
+date: 2018-10-06 18:01:30
 description: "I thought it might be useful to share some of my not-so-great experiences as a freelance web designer so that others can learn from my mistakes"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

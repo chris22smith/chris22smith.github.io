@@ -1,25 +1,29 @@
 ---
 layout: "layouts/blog.njk"
 title: "To DOM or Not to DOM?"
-date: "2017-10-15 12:00:11"
+date: 2017-10-15 12:00:11
 description: "I'm trying to work out when it's best to put attributes in the DOM and when it's best to just leave them in JavaScript objects"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "To DOM or Not to DOM?"
 wpid: "670"
 ---
+
 I'm trying to work out when it's best to put attributes in the DOM and when it's best to just leave them in JavaScript objects. This is going to be hard to explain so bear with me.
 
 Let's suppose we have a list of users on a page. Each user has a number of properties, not things we'd display like name, age and gender but hidden things like permissions, e.g. isAdmin, canComment, isManager, etc. These properties are going to be used in logic to determine how things are displayed on screen - maybe an extra bit of detail or an icon. Just as an example, if canComment is true then a speech bubble icon will appear.
 
 The basic HTML might look something like this:
+
 <pre>&lt;ul&gt;
   &lt;li id="001" class="user"&gt;John&lt;/li&gt;
   &lt;li id="002" class="user"&gt;Paul&lt;/li&gt;
   &lt;li id="003" class="user"&gt;George&lt;/li&gt;
 &lt;/ul&gt;
 </pre>
+
 Behind this is a JavaScript object, like this:
+
 <pre>var users = [
   {
     id: '001',
@@ -38,7 +42,9 @@ Behind this is a JavaScript object, like this:
   }
 ];
 </pre>
+
 So, user John is allowed to comment and we want to show an icon. There are 2 approaches:
+
 <ol>
  	<li>
 <h3>Use the DOM</h3>

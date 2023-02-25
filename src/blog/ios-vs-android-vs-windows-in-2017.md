@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "iOS vs Android vs Windows in 2017"
-date: "2017-01-29 15:00:57"
+date: 2017-01-29 15:00:57
 description: "Everyone has their favourite big web company and associated operating system (OS)"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

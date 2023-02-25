@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "A/A Testing"
-date: "2016-11-17 18:00:22"
+date: 2016-11-17 18:00:22
 description: "I'm guessing most people know what A/B Testing is"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

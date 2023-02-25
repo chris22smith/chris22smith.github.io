@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Fast Tree View in JavaScript</title>
+    <meta name="description" content="I thought I&#39;d share a way of writing your JavaScript that will make a tree view hierarchy render and respond very quickly">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Super Fast Tree View in JavaScript</h1>
+    <p>I thought I'd share a way of writing your JavaScript that will make a tree view hierarchy render and respond very quickly.</p>
+<p>Firstly, the demo. I've got 100,000 items, quite a hefty data set, which is randomly generated in a function. You can change the number of items easily in the JS area. Click on the + or - icons to expand or collapse nodes.</p>
+<p>[codepen_embed height=&quot;520&quot; theme_id=&quot;dark&quot; slug_hash=&quot;WawYKX&quot; default_tab=&quot;result&quot; user=&quot;chris22smith&quot; editable=&quot;true&quot; data-editable=&quot;true&quot;]See the Pen <a href="https://codepen.io/chris22smith/pen/WawYKX/">Super Fast JavaScript Data Tree</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>) on <a href="https://codepen.io">CodePen</a>.[/codepen_embed]</p>
+<p>It's still quick, like instant, with 100,000 items. It can start to slow a little at a million but I'd say it's still acceptable given that kind of data.</p>
+<h3>One Long List</h3>
+The trick is in how the data is structured. It's one big array, not hierarchical data with objects inside other objects. The reason for this is pretty simple, it's all about iterations or looping. If you have a single array you can run through the whole list of items once. If it's nested you have to get into loops inside other loops and it gets more complicated and takes longer. In fact, you'd be lucky for it to work at all without getting stack overflow errors.
+<h3>JavaScript Magic</h3>
+With a single array you can use the built in JavaScript Array methods, which are very fast - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" rel="noopener">map()</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="noopener">filter()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a>. I'd definitely recommend reading up on these. All three work in IE9+ so hopefully you shouldn't have to worry too much about browser support.
+<p>I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" rel="noopener">map()</a> to convert each data item into a HTML list item which I can insert into the DOM. I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="noopener">filter()</a> to quickly find the children items of any item by returning a subset, and I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a> to see if an item has children. The beauty of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a> is that once its found it child it stops iterating, saving time.</p>
+<h3>Easy on the DOM</h3>
+The other part of this is keeping DOM manipulation to a minimum. Playing around with data in memory trivial for a browser but making changes to the DOM and rendering things on screen takes time. So, only the nodes that are needed right now exist in the DOM - there are not hidden items waiting on the sidelines. So, a new &lt;ul&gt; is added when you expand a node and the &lt;ul&gt; is removed when you collapse. A + icon is shown if the item has children of its own but we don't know anything about how many it has or what they contain until it's expanded.
+<h3>More...</h3>
+If you found this useful it might be worth looking at my older post <a href="https://chrissmith.xyz/lightning-fast-filtering-in-javascript/" target="_blank" rel="noopener">Lightning Fast Filtering in JavaScript</a>, which uses a lot of the same principles.
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

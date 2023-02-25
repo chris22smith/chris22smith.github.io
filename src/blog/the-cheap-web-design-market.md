@@ -1,14 +1,15 @@
 ---
 layout: "layouts/blog.njk"
 title: "The Cheap Web Design Market"
-date: "2008-10-28 15:39:38"
-description: "<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www"
-tags: ["blog","archive"]
+date: 2008-10-28 15:39:38
+description: "A look at what awaits cheap web design seekers"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The Cheap Web Design Market"
 wpid: "408"
 ---
-<img class="alignright" style="float: right;border: 0;margin: 10px" src="http://www.chris-smith-web.com/wp/wp-content/uploads/2008/10/maze.jpg" alt="cheap web design" width="200" height="271" />A look at what awaits "<a href="http://www.chris-smith-web.com/wp" target="_self">cheap web design</a>" seekers.
+
+A look at what awaits "<a href="http://www.chris-smith-web.com/wp" target="_self">cheap web design</a>" seekers.
 
 I've been running my own <a href="http://www.chris-smith-web.com/wp" target="_self">web development</a> business since 2004 and in that time I have noticed a few changes to this market. There's far more competition now than there was a few years ago. If you do a Google search for "<a href="http://www.chris-smith-web.com/wp" target="_self">cheap web design</a>", "<a href="http://www.chris-smith-web.com/wp" target="_self">budget web design</a>" or "<a href="http://www.chris-smith-web.com/wp" target="_self">affordable web design</a>" then there are a lot of web pages out there with those page titles.
 

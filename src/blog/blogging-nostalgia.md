@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Blogging Nostalgia"
-date: "2017-01-18 18:00:37"
+date: 2017-01-18 18:00:37
 description: "I started blogging on WordPress back in the summer of 2008"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

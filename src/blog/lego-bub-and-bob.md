@@ -1,8 +1,8 @@
 ---
 layout: "layouts/blog.njk"
 title: "LEGO Bub and Bob"
-date: "2014-09-09 15:14:29"
-description: "I like Lego"
+date: 2014-09-09 15:14:29
+description: "I like Lego. I like retro video games. Both contain things made of blocks. That gives me an idea"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "LEGO Bub and Bob"

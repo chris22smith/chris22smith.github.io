@@ -1,14 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Progress Indicators"
-date: "2021-05-23 20:05:25"
-description: "<!-- wp:paragraph -->
-<p>I've been working on a questionnaire with a requirement to show progress through the questions"
-tags: ["blog","archive"]
+date: 2021-05-23 20:05:25
+description: "I've been working on a questionnaire with a requirement to show progress through the questions"
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Progress Indicators"
 wpid: "967"
 ---
+
 <!-- wp:paragraph -->
 <p>I've been working on a questionnaire with a requirement to show progress through the questions. It has thrown up some interesting challenges which I felt were worth sharing.</p>
 <!-- /wp:paragraph -->

@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Stepping Away from Facebook"
-date: "2017-10-21 10:00:01"
+date: 2017-10-21 10:00:01
 description: "I've made a conscious decision to spend less time on Facebook"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Stepping Away from Facebook"
 wpid: "695"
 ---
+
 I've made a conscious decision to spend less time on Facebook. I was going to start this post by saying "with regret" but actually that's not it at all. I couldn't really care less and I don't think anyone else could either, which is kind of the whole point.
 
 I'm not leaving it or deleting my account, just breaking the cycle of checking it twice a day or more and posting just to perpetuate others' habits.

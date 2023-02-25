@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Don't put all your eggs in Google's basket"
-date: "2009-06-05 16:03:12"
+date: 2009-06-05 16:03:12
 description: "Working on your website's search engine optimisation (SEO) is all well and good but it's a dangerous strategy to use this one source of web traffic in isolation"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

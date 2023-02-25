@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "eMarketing Award Distinction :)"
-date: "2008-12-05 14:37:23"
+date: 2008-12-05 14:37:23
 description: "This summer I studied the Chartered Institute of Marketing (CIM)'s eMarketing Award"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

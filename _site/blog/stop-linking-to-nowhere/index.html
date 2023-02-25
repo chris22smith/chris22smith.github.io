@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Linking to Nowhere</title>
+    <meta name="description" content="Do you find yourself writing this kind of thing in your HTML?">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Stop Linking to Nowhere</h1>
+    <p>Do you find yourself writing this kind of thing in your HTML?
+<code>&lt;a href=&quot;#&quot; onclick=&quot;doSomething()&quot;&gt;Some action&lt;/a&gt;</code></p>
+<p>Does that <code>href=&quot;#&quot;</code> make you feel slightly uncomfortable? Like it's not really doing anything, a bit of a hack? You'd be dead right to think that.</p>
+<p>Links are used like this all the time and there's really no need. The intended purpose of links is to point to another location and provide navigation. That's why the href is there. It's pointing to another place but it's often left pointing nowhere.</p>
+<p>It's probably worth pointing out that using <code>href=&quot;#&quot;</code> doesn't actually do nothing. It adds a # onto your current location, changing the URL, so when you then click the back button it appears to do nothing but is actually going back to the last location, the URL without the #. If you do use <code>href=&quot;#&quot;</code> and an onclick event be sure to use <code>event.preventDefault()</code> with it to prevent this location change.</p>
+<p>Links get used in this way mainly because we want the styling and the interactivity. Hovering a link gives visual cues - underline changes, cursor changes so it's easy for a user to see it's something they can interact with.</p>
+<p>So, what's the alternative? If you're just performing an action, use a button. It has the visual cues. It doesn't have any hacky <code>href=&quot;#&quot;</code> nonsense. It can be styled however you wish if the default styling is too full-on. It can even be styled to look exactly like a link, though personally I think there's value in differentiating between navigation and actions.</p>
+<p>And there's more... You get some more benefits for free with a button.</p>
+<p>You have a disabled property. You can easily make your action unavailable. Not so easy with a link.</p>
+<p>It's more touch friendly. This depends on styling but out-of-the-box it's a larger touch target.</p>
+<p>It has an autofocus property so it can be in focus on page load without needing any JavaScript. Ready to go at the tap of the Enter key.</p>
+<p>If you use links for navigation and buttons for actions you get every tool doing what it's best at. You could cut your food with the side of your fork and raise it to your mouth on the side of your knife but why would you? This isn't really so different.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "500 Mile Challenge"
-date: "2017-01-06 21:00:33"
+date: 2017-01-06 21:00:33
 description: "I've set myself a challenge this year"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

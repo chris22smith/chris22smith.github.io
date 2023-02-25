@@ -1,9 +1,9 @@
 ---
 layout: "layouts/blog.njk"
 title: "Fake Meat on Pizzas"
-date: "2017-02-11 08:00:45"
-description: "Last night I had a "meat feast" pizza"
-tags: ["blog","archive", "misc"]
+date: 2017-02-11 08:00:45
+description: "Last night I had a 'meat feast' pizza"
+tags: ["blog", "archive", "misc"]
 eleventyNavigation:
   key: "Fake Meat on Pizzas"
 wpid: "501"

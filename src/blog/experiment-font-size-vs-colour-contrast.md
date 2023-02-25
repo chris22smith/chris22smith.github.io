@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Experiment: Font Size vs Colour Contrast"
-date: "2018-07-13 19:13:37"
+date: 2018-07-13 19:13:37
 description: "One of the things I've learned early on in web accessibility is the importance of colour contrast to make things easy to read on screen"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

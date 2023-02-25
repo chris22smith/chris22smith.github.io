@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "I want an ecommerce site. Maybe you don't?"
-date: "2008-12-08 14:07:34"
+date: 2008-12-08 14:07:34
 description: "I often get invited to quote for designing ecommerce sites or online stores and more often than not I actually decline the invitation"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

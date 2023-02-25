@@ -1,24 +1,27 @@
 ---
 layout: "layouts/blog.njk"
 title: "The DOM Diet and Year Pickers"
-date: "2018-11-15 16:43:21"
+date: 2018-11-15 16:43:21
 description: "I think we all know that having a smaller DOM is good for performance but I was never sure what's considered big or small, or at what points performance is affected"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "The DOM Diet and Year Pickers"
 wpid: "835"
 ---
+
 I think we all know that having a smaller DOM is good for performance but I was never sure what's considered big or small, or at what points performance is affected. Knowing a little more can change how you approach things.
 
 I was recently doing a performance analysis on some pages and the tool I chose to use was the Chrome Performance Audit. If you open Dev Tools (F12) and go to the Audits tab you'll see a range of available audits which includes Performance. This uses a tool called Lighthouse and gives estimates for various performance metrics as well as Opportunities and Diagnostics.
 
 One of the diagnostics which came up for me was "<a href="https://developers.google.com/web/tools/lighthouse/audits/dom-size" target="_blank" rel="noopener">Uses an excessive DOM size</a>" and the detail gives us this:
+
 <blockquote>Browser engineers recommend pages contain fewer than ~1,500 DOM nodes. The sweet spot is a tree depth &lt; 32 elements and fewer than 60 children/parent element. A large DOM can increase memory usage, cause longer <a href="https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations" target="_blank" rel="noopener">style calculations</a>, and produce costly <a href="https://developers.google.com/speed/articles/reflow" target="_blank" rel="noopener">layout reflows</a>.</blockquote>
 The item that triggered this diagnostic for me was a year picker, a select element with 150 options. Whilst I don't think it's really causing any major performance issues it did strike me that 1 parent element and 150 children does seem excessive for just picking out one number from a consecutive range so I started looking at alternative ways we could do this. I wanted to put my year picker on a  "DOM Diet". I created this pen:
 
 [codepen_embed height="520" theme_id="dark" slug_hash="MzJrjL" default_tab="result" user="chris22smith" editable="true" data-editable="true"]See the Pen <a href="https://codepen.io/chris22smith/pen/MzJrjL/" target="_blank" rel="noopener">Year Pickers</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.[/codepen_embed]
 
 Here's a quick comparison of 4 possible ways of selecting a year from a consecutive range. It's important to not only look at possible DOM performance but also the user experience side - ease of understanding and ease of use. No point making it faster if it's confusing or hard work.
+
 <h3>Select/Dropdown</h3>
 This is the standard method. It can have a default value or a blank value as the first option. It's very familiar, ease to understand and use. It's probably better to start with a blank value so that we know a user has actually made a selection rather than just left the default. It supports arrow keys and mousewheel. It's easy to validate using just the required property as the available options are set. It can look untidy in some browsers when long option lists run off the bottom of the screen and it does use a lot of DOM nodes.
 <h3>Range Input</h3>

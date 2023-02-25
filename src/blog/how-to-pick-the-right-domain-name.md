@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "How to pick the right domain name"
-date: "2010-06-22 16:30:45"
+date: 2010-06-22 16:30:45
 description: "How should you go about selecting the right domain name for your business?"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:

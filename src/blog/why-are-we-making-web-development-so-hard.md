@@ -1,13 +1,14 @@
 ---
 layout: "layouts/blog.njk"
 title: "Why Are We Making Web Development So Hard?"
-date: "2018-10-24 17:47:09"
+date: 2018-10-24 17:47:09
 description: "I don't think I'm the first person to think this by any stretch"
-tags: ["blog","archive"]
+tags: ["blog", "archive", "tech"]
 eleventyNavigation:
   key: "Why Are We Making Web Development So Hard?"
 wpid: "830"
 ---
+
 I don't think I'm the first person to think this by any stretch. There are lots of infographics around showing the difference between web tooling now and 10 years ago and it's clearly ballooned at an extraordinary rate.
 
 In the last year or so I've started working with Angular (as opposed to Angular.js a.k.a. Angular 1) and have also dabbled in Vue and React. All of these frameworks seem to share the same basic ideas - build everything as a component and push and pull them from the <abbr title="Document Object Model">DOM</abbr> as needed. Each component is made up of a HTML template, embedded CSS styles and a JavaScript controller.

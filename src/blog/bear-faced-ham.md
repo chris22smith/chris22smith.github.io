@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "Bear-faced Ham"
-date: "2017-02-08 18:00:53"
+date: 2017-02-08 18:00:53
 description: "When you're looking at the cooked meats in a supermarket, have you seen the strange kiddy-friendly <em>thing</em> with the bear's face? There are a few incarnations - Billy Bear, Bertie Bear - all equally gruesome"
 tags: ["blog", "archive", "misc"]
 eleventyNavigation:

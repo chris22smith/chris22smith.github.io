@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blog.njk"
 title: "A New Found Appreciation for Images on the Web"
-date: "2018-05-09 17:17:46"
+date: 2018-05-09 17:17:46
 description: "I've been putting images in web pages for years"
 tags: ["blog", "archive", "tech"]
 eleventyNavigation:
