@@ -1,0 +1,128 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Image Formats - WebP and AVIF</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>New Image Formats - WebP and AVIF</h1>
+    <p>Performance tools like Lighthouse now suggest using newer formats for images in place of the traditional JPG, PNG and GIF. Smaller file sizes mean faster load times for users and less storage space on servers.</p>
+<h3>Image Compression</h3>
+<p>Lossy compression means that as the image is reduced in size info is thrown away giving big savings on file size. If we take a 400x400 image and save it as 100x100, then resizing back up leads to pixilation.</p>
+<p>Lossless compression is the opposite, it retains the original info so we can resize back up.</p>
+<h2>WebP</h2>
+<p>This format was created by Google when they acquired a company specialising in this technology. WebP supports an alpha channel (transparency).</p>
+<h3>File Size Comparison</h3>
+<p>On average, Google estimates that WebP lossy compression results in files that are between 25% and 34% smaller than JPGs of the same quality.</p>
+<p>On average, Google estimates that WebP lossless compression results in files that are roughly 26% smaller than PNGs of the same quality.</p>
+<p>Google estimates the average reduction to be about 64% of the original size of a GIF when using lossy compression and 19% when using lossless.</p>
+<p>| | WebP (lossless) | WebP (lossy) |
+| JPG | - | 25-34% smaller |
+| PNG | 26% smaller | - |
+| GIF | 19% smaller | 64% smaller |</p>
+<h3>Browser Support</h3>
+<p>Support is good, pretty much all but IE. Safari is limited to macOS 11 Big Sur and later.</p>
+<p><a href="https://caniuse.com/?search=webp">https://caniuse.com/?search=webp</a></p>
+<p>We could offer users WebP with a JPG fallback using the <code>&lt;picture&gt;</code> element but this means hosting 2 file formats.</p>
+<h3>Conversion</h3>
+<p>There are lots of options to convert JPG to WebP. We can do it server side with a NuGet package or client side in Node or using gulp or webpack. It can also be done via command line or an image editor. The [Squoosh app(https://squoosh.app/)] is excellent for any image conversion.</p>
+<h2>AVIF</h2>
+<p>This format is based on the .avi video format. It supports an alpha channel (transparency).</p>
+<h3>File Size Comparison</h3>
+<p>| | AVIF |
+| JPG | 76% smaller* |
+| PNG | 47% smaller* |
+| WebP | 58% smaller* |</p>
+<ul>
+<li>These figures are arrived at by manually editing images, finding acceptable quality and manually reducing palette sizes. As a bulk automated process there would be less of a saving, probably much closer to using WebP.</li>
+</ul>
+<h3>Browser Support</h3>
+<p>This is pretty much just Chrome for now but coming to Firefox and Edge soon. Something to monitor.</p>
+<p><a href="https://caniuse.com/?search=avif">https://caniuse.com/?search=avif</a></p>
+<p>We could offer users AVIF with WebP and JPG as fallback options using the <code>&lt;picture&gt;</code> element but this means hosting multiple file formats.</p>
+<h3>Conversion</h3>
+<p>As with WebP there are tools to convert server side or client side.</p>
+<p>Encoding a JPG to AVIF is still quite slow compared with other image format conversions, taking a few seconds, so it's preferable to do as a background task rather than asking a user to wait for a response.</p>
+<h2>User Experience</h2>
+<p>The way the various image formats render differs. JPG appears quickly and renders in multiple passes. WebP renders from top to bottom. AVIF is all or nothing.</p>
+<p><a href="https://jakearchibald.com/2020/avif-has-landed/#progressive-rendering">https://jakearchibald.com/2020/avif-has-landed/#progressive-rendering</a></p>
+<p>SVG can have smaller file size but if it is made up of a lot of elements can use a lot more CPU to render.</p>
+<h2>Conclusion</h2>
+<p>Our largest use of images is in checks (QC) and inspections (GM) which use JPG photos. Once IE11 is out of support (17th August 2021) the WebP format will have full browser support and could offer us consistent file size reductions of around 30%. AVIF does not yet have the support but has potential to push this further in the future.</p>
+<p>WebP is probably a good option for our online Marketing content (e.g. website) where images are selected and optimised manually.</p>
+<h2>Articles</h2>
+<p><a href="https://www.smashingmagazine.com/2019/10/speed-up-your-website-webp/">https://www.smashingmagazine.com/2019/10/speed-up-your-website-webp/</a></p>
+<p><a href="https://www.smashingmagazine.com/2018/07/converting-images-to-webp/">https://www.smashingmagazine.com/2018/07/converting-images-to-webp/</a></p>
+<p><a href="https://jakearchibald.com/2020/avif-has-landed/">https://jakearchibald.com/2020/avif-has-landed/</a></p>
+<h2>Tools</h2>
+<p><a href="https://squoosh.app/">https://squoosh.app/</a></p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

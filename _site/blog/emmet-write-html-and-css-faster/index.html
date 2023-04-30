@@ -1,0 +1,95 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet - Write HTML and CSS Faster</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Emmet - Write HTML and CSS Faster</h1>
+    <h2>What is Emmet?</h2>
+<p>Emmet is a productivity tool for HTML and CSS editors. It enables the author to type a shortcut and hit the TAB key to replace it with a predefined chunk of code called a &quot;snippet&quot;. It is already included in Visual Studio and VS Code by default, no extensions or packages needed. It does require knowledge of HTML tags and CSS selectors.</p>
+<p>In HTML, typing <code>a</code> then hitting TAB gives <code>&lt;a href=&quot;&quot;&gt;&lt;/a&gt;</code> with the cursor placed ready between the href quotes.</p>
+<p>In CSS, typing <code>bgc</code> then hitting TAB expands out to <code>background-color: #fff</code> with the colour highlighted to be overwritten.</p>
+<h2>Default Snippets</h2>
+<p>Most of the shortcuts and snippets can be found on the official cheat sheet.</p>
+<p><a href="https://docs.emmet.io/cheat-sheet/">Cheat Sheet (emmet.io)</a></p>
+<p>The full list of default shortcuts and snippets in JSON format can be found on the Emmet GitHub repo:</p>
+<p><a href="https://github.com/emmetio/snippets/blob/master/html.json">Default HTML Snippets (GitHub)</a></p>
+<p><a href="https://github.com/emmetio/snippets/blob/master/css.json">Default CSS Snippets (GitHub)</a></p>
+<h2>Custom Snippets</h2>
+<p>You can also extend this tool and create your own. This works differently in Visual Studio and VS Code but essentially you define your shortcut and snippet to output in either XML or JSON.</p>
+<p>In Visual Studio 2019, the option is under Tools &gt; Code Snippets Manager. Each snippet is defined as a new XML file with extension .snippet. The easiest way to set this up is to copy one of the default files to get the XML structure, change it to what you need and then add/import it. This functionality can actually be used for any language.</p>
+<p>It’s a similar idea in VS Code but all of the snippets are stored in a single JSON file. This article explains it clearly. <a href="https://www.smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/">Creating Custom Emmet Snippets In VS Code — Smashing Magazine</a></p>
+<h2>More</h2>
+<p>Emmet can also do larger scale boilerplates. Try typing <code>html:5</code> then TAB in a new blank .html file. It creates a whole skeleton document structure.</p>
+<p>It also does Lorem Ipsum placeholder text. Type <code>lorem50</code> then TAB and you get 50 words of Lorem Ipsum. This can be combined with tags, e.g. <code>p*4&gt;lorem</code>, to give quick placeholder content.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

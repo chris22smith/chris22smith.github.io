@@ -1,0 +1,139 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Performance - Critical Rendering Path Optimisation</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>UI Performance - Critical Rendering Path Optimisation</h1>
+    <p>A quick guide to how a web page renders and how we can ensure it stays fast. We tend to focus on load times and how quickly our requests receive responses. This focuses on what happens after that and how we keep the experience smooth for users.</p>
+<h2>How a page renders</h2>
+<h3>HTML and CSS</h3>
+<p>HTML is parsed to create the DOM (Document Object Model, a tree structure).</p>
+<p>CSS is parsed and all of the cascade, custom properties and calculations are done to arrive at final values. This creates the CSSOM (Cascading Stylesheet Object Model, another tree structure).</p>
+<p>The DOM and CSSOM are combined into the Render Tree. This decides what is rendered and how it is styled, e.g. an element with display: none will not be rendered.</p>
+<p>Next comes Layout. The browser has to calculate the exact size and position of every rendered element, and then which fit into the viewport.</p>
+<p>Now Paint. Now that the browser knows the exact size, position and styling of every element they're created as layers of rasterised images. As HTML and CSS are needed to reach this point these are always render blocking resources.</p>
+<p>Finally, there's a Composite step where these paint layers are brought together and this gives the rendered page.</p>
+<p>So, in terms of work for the browser, we've got these 6 steps:</p>
+<ol>
+<li>HTML &gt; DOM</li>
+<li>CSS calculations &gt; CSSOM</li>
+<li>Render tree (DOM + CSSOM)</li>
+<li>Layout calculations</li>
+<li>Paint layers</li>
+<li>Composite</li>
+</ol>
+<p>This process of getting to the first render is called the Critical Rendering Path.</p>
+<h3>Fonts</h3>
+<p>Fonts are requested after the Render Tree, once the browser knows which font characters are needed. This can block rendering or, at least, the rendering of text until the font has loaded. By preloading the font in the <code>&lt;head&gt;</code> we can load it instantly from the cache when the time comes to use it.</p>
+<h3>JavaScript</h3>
+<p>When the browser hits a <code>&lt;script&gt;</code> tag it stops the rendering process until the script has finished executing. As JavaScript can alter the DOM or CSSOM the browser pauses building, known as &quot;render blocking&quot;.</p>
+<p>JavaScript cannot run until the CSSOM is built so will wait for it before executing.</p>
+<p>Adding the async property to a <code>&lt;script&gt;</code> tag means it will download in parallel with the document and execute as soon as it is available.</p>
+<p>Adding the defer property to a <code>&lt;script&gt;</code> tag means it will download in parallel with the document but only execute once the DOM and CSSOM have been created. It executes before the DOMContentLoaded event is fired. JavaScript modules are deferred automatically.</p>
+<p>If JavaScript alters the DOM or CSSOM then the browser has to go through some of the rendering steps again.</p>
+<h2>Problems</h2>
+<p>Any render blocking slows things down. This can be HTML or CSS that is not needed for the initial page load or JavaScript that causes rendering to wait.</p>
+<p>JavaScript that uses an internet connection, e.g. a fetch(), slows things down much more as the page has to wait for the response and the script execution to finish before rendering can continue.</p>
+<p>Trying to run scripts before all CSS has loaded and created the CSSOM results in scripts having to wait. Having large or multiple stylesheets increases this delay.</p>
+<p>If JavaScript loads CSS (common in packages) then the render has to wait for the JavaScript to finish executing, which in turn has to wait for the CSSOM to update. It's starting to queue up.</p>
+<p>The most common issue (in my opinion) is trying to load everything up front rather than using a well thought-out strategy to load content progressively as it is needed - designing for performance.</p>
+<h2>Critical Rendering Path (CRP) Optimisation</h2>
+<p>A Critical Rendering Path optimisation strategy enables a page to load as quickly as possible by prioritising resources and the order in which they are loaded.</p>
+<h2>Animation</h2>
+<p>A user's perception of an element moving is based on the speed at which the screen re-renders, the frame rate, measured in frames per second (fps). If an element jerks from one position to the next the illusion is broken, so it's important we can always re-render fast enough to avoid this.</p>
+<h2>User Interactions</h2>
+<p>When a user interacts with the UI, e.g. pressing a button or typing in a search box, then the UI needs to respond quickly so that the user does not feel a disconnect and that the UI is unresponsive. Ideally we should always acknowledge their interaction within 50ms. This does not have the be the completion of the action but we do need to confirm their interaction visually so that they don't question it, e.g. did they definitely press the button?</p>
+<h2>Tips</h2>
+<ul>
+<li>Work out what is critical for the initial page load, load just that, and defer everything else. It does not have to be interactive. Sometimes just showing the user something is enough.</li>
+<li>Use preloading to get critical resources higher up the priority list, e.g. <code>&lt;link rel=&quot;preload&quot; as=&quot;script&quot; href=&quot;critical.js&quot;&gt;</code>.</li>
+<li>Newer versions of webpack support preloading modules with &quot;magic comments&quot; in the import() statement, e.g. <code>import(_/* webpackPreload: true */_ &quot;CriticalChunk&quot;)</code>.</li>
+<li>Good caching reduces response times and allows the various steps of rendering to start earlier.</li>
+<li>If you can, do any data binding needed for the initial page load server side then subsequent updates client side.</li>
+<li>Use the async or defer properties to execute scripts at the appropriate time.</li>
+<li>The HTML attribute <code>loading=&quot;lazy&quot;</code> can be used with media (images, video, etc.) to tell the browser to only load the element when it enters the viewport.</li>
+<li>If you need to load data with JavaScript, e.g. a fetch(), do the initial page load so the user sees something, then get the data.</li>
+<li>Minimise changes to the DOM and CSSOM in scripts as it will mean the browser having to go through its steps again, a &quot;reflow&quot;.</li>
+<li>Avoid anything that changes layout (showing, hiding, resizing or repositioning) in scripts as layout is one of the slowest steps.</li>
+<li>Changes to colours, shadows and filters happen in the Paint step so are much faster. Only the last 2 steps have to be repeated.</li>
+<li>Changes using transform or opacity happen in the Composite step and only affect a single paint layer so mean minimal reflow.</li>
+<li>Animation should always try to avoid layout changes so use transform to move things, not width, left, margin, etc.</li>
+<li>The CSS will-change property tells the browser that an element is liable to change its appearance and to give it its own paint layer, so it can be redrawn in isolation without redrawing everything else. This is only needed if it's not already obvious from other rules like animation or transform.</li>
+<li>The CSS content-visibility: auto rule tells the browser to only render the element if it is near the viewport, so in a long page it can skip later content, e.g. a footer, to render the page faster.</li>
+</ul>
+<h3>Useful Links</h3>
+<p><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path">Critical Rendering Path | Web Fundamentals | Google Developers</a></p>
+<p><a href="https://web.dev/preload-critical-assets/">Preload critical assets to improve loading speed (web.dev)</a></p>
+<p><a href="https://web.dev/optimize-webfont-loading/">Optimize WebFont loading and rendering</a></p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>

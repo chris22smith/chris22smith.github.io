@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitioning to Modern JavaScript</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/css/blog.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+        margin: 0;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+  <a href="/"
+    ><img
+      src="https://www.gravatar.com/avatar/fecd44782ec83fea70323e2f5034ff1b?s=200"
+      alt="Chris Smith"
+  /></a>
+  <p
+    ><a href="/">Chris Smith <span class="ext">.xyz</span></a></p
+  >
+</header>
+
+    <article>
+      <h1>Transitioning to Modern JavaScript</h1>
+    <p>This is the title of a video from the December 2020 Chrome Dev Summit.
+<a href="https://www.youtube.com/watch?v=cLxNdLK--yI">https://www.youtube.com/watch?v=cLxNdLK--yI</a></p>
+<p>Below is a summary of the main points from the video.</p>
+<p>&quot;Modern&quot; JavaScript is defined as JavaScript supported in modern browsers. Basically all but IE11.</p>
+<h2>Problems</h2>
+<p>On average, 95% of users use a modern browser, so we should ship modern code, not legacy just because we have to support the 5%.</p>
+<p>Most JavaScript code is transpiled so the code we write is not the same as the code we ship.</p>
+<p>On average, the code we ship is 6x slower and 7x larger than the code we write. This is down to longer syntax and polyfills. This inefficiency means we create a much greater carbon footprint.</p>
+<p>Most websites ship around 89% third party code, mainly NPM packages.</p>
+<p>Examining the top 1000 modules on npm, the median version is ES5 (legacy, pre 2015).
+Some packages offer modern and legacy versions but less than 25% offer anything above ES5.</p>
+<p>So, we're working to the lowest common denominator and degrading performance for the majority.</p>
+<h2>Solutions</h2>
+<p>ES2019 introduced the &quot;exports&quot; property in packages so we can use this for modern code and the traditional &quot;main&quot; property for legacy code, like this:</p>
+<pre><code>// package.json
+{
+  &quot;name&quot;: &quot;amaze-js&quot;,
+  &quot;exports&quot;: &quot;./modern.js&quot;,
+  &quot;main&quot;: &quot;./legacy.js&quot;
+}
+</code></pre>
+<p>ES2017 added modules so we can use this to separate modern and legacy scripts.</p>
+<pre><code>&lt;!-- ES2017 (95% support) --&gt;
+&lt;script type=&quot;module&quot; src=&quot;modern.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- ES5 (+5% remaining) --&gt;
+&lt;script nomodule src=&quot;legacy.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>Of the versions since ES5, ES2017 gives the best compromise between modern features and compatibility, giving us 95% support. Therefore, the advice of the Chrome team is to transpile twice, creating separate bundles for ES2017 and ES5.</p>
+
+    </article>
+    <footer>
+  <p>
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CodePen</a
+    >
+    |
+    <a
+      href="https://home.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Mastodon</a
+    >
+    |
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Twitter</a
+    >
+  </p>
+  <p>&copy; Chris Smith 2008-2023.</p>
+</footer>
+
+  </body>
+</html>
