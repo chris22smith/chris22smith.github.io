@@ -1,5 +1,5 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/home.njk
 title: Blog posts
 description: List of blog posts and articles about web development.
 eleventyNavigation:
@@ -10,8 +10,8 @@ eleventyNavigation:
   <!-- blog posts with tag 'tech' sorted by date, most recent first -->
   {%- for blog in collections.tech reversed -%}
   <li>
-    <a href="{{ blog.url }}">{{ blog.data.title }}</a><br />
-    <small>{{ blog.date | date: "%d %b %Y" }}</small>
+    <a href="{{ blog.url }}">{{ blog.data.title }}</a> | {{ blog.date | date:
+    "%d %b %Y" }}
   </li>
   {%- endfor -%}
 </ul>

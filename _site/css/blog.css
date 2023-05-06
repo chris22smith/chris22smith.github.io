@@ -92,6 +92,12 @@ ul {
   text-align: end;
 }
 
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .post-list > li {
   margin-bottom: 1rem;
 }
