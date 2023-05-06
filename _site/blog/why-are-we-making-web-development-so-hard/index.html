@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Why Are We Making Web Development So Hard?</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-10-24T17:47:09.000Z">24 October 2018</time>
+      </div>      
     <p>I don't think I'm the first person to think this by any stretch. There are lots of infographics around showing the difference between web tooling now and 10 years ago and it's clearly ballooned at an extraordinary rate.</p>
 <p>In the last year or so I've started working with Angular (as opposed to Angular.js a.k.a. Angular 1) and have also dabbled in Vue and React. All of these frameworks seem to share the same basic ideas - build everything as a component and push and pull them from the <abbr title="Document Object Model">DOM</abbr> as needed. Each component is made up of a HTML template, embedded CSS styles and a JavaScript controller.</p>
 <p>This feels like an efficient way of working, very <abbr title="Don't Repeat Yourself">DRY</abbr>. But is it? You create a component, let's say a time picker. One it's developed you can put it into multiple views or uses relatively quickly. However, if you later modify it to work slightly differently, using adding complexity, you have to test it in each use case and make sure it still works with no detrimental effects.</p>
@@ -83,5 +89,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

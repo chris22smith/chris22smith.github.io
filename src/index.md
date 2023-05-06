@@ -1,7 +1,7 @@
 ---
-layout: layouts/blog.njk
-title: Chris Smith
-description: Intro page about Chris Smith, front-end web developer, and his personal website.
+layout: "layouts/home.njk"
+title: "Chris Smith"
+description: "Intro page about Chris Smith, front-end web developer, and his personal website."
 ---
 
 <h2>Hello World</h2>

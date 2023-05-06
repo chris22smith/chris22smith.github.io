@@ -2,7 +2,7 @@
 layout: "layouts/blog.njk"
 title: "New Image Formats - WebP and AVIF"
 date: 2021-01-27 17:30:00
-description: ""
+description: "Performance tools like Lighthouse now suggest using newer formats for images in place of the traditional JPG, PNG and GIF"
 tags: ["blog", "tech"]
 eleventyNavigation:
   key: "New Image Formats - WebP and AVIF"

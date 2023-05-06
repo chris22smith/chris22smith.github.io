@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Hiding UI Elements</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2019-03-29T18:00:17.000Z">29 March 2019</time>
+      </div>      
     <p>At the start of March 2019 I ran a poll on Twitter to see how devs hide UI elements. Here's the tweet and results.</p>
 <p>Admittedly, not a very scientific sample size but it was enough to confirm my suspicion that very few people use the "hidden" attribute. I should probably call it a property rather than an attribute as it's a Boolean and acts in a similar way to "disabled" or "required" which we often use on form elements. And, by contrast, the most common method seems to be to use the CSS "display:none". Probably no great surprise to anyone.</p>
 <p>I think it's interesting to think about what we're really doing when we hide an element. Is the visibility of the element just for screen users or for all users? Do we still want the element available for non visual media? Or is the content going to be used by another part of the page in some way? Does it need to be in the DOM at all or are we just keeping it there because it's easier?</p>
@@ -96,5 +102,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

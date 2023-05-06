@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Presenting Multiple Layouts</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-05-05T18:00:02.000Z">5 May 2017</time>
+      </div>      
     <p>I'm sure everyone has seen web apps where the user is given a choice of layouts for their data. Sometimes you can view items as a list or as cards and there's a mechanism of flipping between them. Gmail has options of Comfortable, Cosy or Compact.</p>
 <p>From the developer's point of view, it seems like a nice little extra. It's fairly easy to do in CSS - just toggle a root class on the module and set your styles for each layout.</p>
 <p>Having done this a few times now, my advice would be a pretty emphatic <strong>don't!</strong> It starts off as a simple variation but it means that every time you make a small change to the content or layout in one layout you have to do this development for each, and then test in each. In short it multiplies out the work.</p>
@@ -80,5 +86,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

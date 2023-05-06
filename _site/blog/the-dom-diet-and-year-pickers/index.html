@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>The DOM Diet and Year Pickers</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-11-15T16:43:21.000Z">15 November 2018</time>
+      </div>      
     <p>I think we all know that having a smaller DOM is good for performance but I was never sure what's considered big or small, or at what points performance is affected. Knowing a little more can change how you approach things.</p>
 <p>I was recently doing a performance analysis on some pages and the tool I chose to use was the Chrome Performance Audit. If you open Dev Tools (F12) and go to the Audits tab you'll see a range of available audits which includes Performance. This uses a tool called Lighthouse and gives estimates for various performance metrics as well as Opportunities and Diagnostics.</p>
 <p>One of the diagnostics which came up for me was &quot;<a href="https://developers.google.com/web/tools/lighthouse/audits/dom-size" target="_blank" rel="noopener">Uses an excessive DOM size</a>&quot; and the detail gives us this:</p>
@@ -90,5 +96,6 @@ This final method is just a bit of a "left field" design. The advantage of it is
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

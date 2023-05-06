@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>International box-sizing Awareness Day</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-02-01T08:00:41.000Z">1 February 2017</time>
+      </div>      
     <p>Today, 1st Feb, is International box-sizing Awareness Day, apparently. Add it to your calendar now! :) I'm not sure how official that is, or who decided it but it's good to have an annual reminder on some things.</p>
 <p>The general consensus in early 2017 seems to be that the boffins got the spec wrong on this one and border-box should have been the default, so the first line in a lot of stylesheets or pre-processor files is * { box-sizing: border-box; }. The spec can't change as it would break legacy pages' layout so we're stuck with this fix.</p>
 <p>That's fine, and I don't believe that using the universal selector * causes any real performance issues. Browsers are fast enough and smart enough to take it in their stride. However, I do hit problems with this reset approach. Frameworks.</p>
@@ -82,5 +88,6 @@ It's worth noting how table cells behave. They basically have box-sizing border-
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

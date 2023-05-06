@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Hacking Borders</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-06-21T18:00:52.000Z">21 June 2017</time>
+      </div>      
     <p>Have you ever been in a situation where your borders aren't rendering as expected? Hopefully not.</p>
 <p>I've hit this issue recently using PhantomJS to turn HTML content into a PDF. It generally works pretty well but when you get into tables with collapsed borders and use rowspan and colspan things start getting a bit hairy and some of your borders just don't get rendered. Sad face.</p>
 <p>No amount of messing with border-collapse, display or border properties seems to have any affect. So, what can we do? Time to get dirty and hack our way out of it. Surgical gloves on.</p>
@@ -95,5 +101,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

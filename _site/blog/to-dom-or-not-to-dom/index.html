@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>To DOM or Not to DOM?</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-10-15T12:00:11.000Z">15 October 2017</time>
+      </div>      
     <p>I'm trying to work out when it's best to put attributes in the DOM and when it's best to just leave them in JavaScript objects. This is going to be hard to explain so bear with me.</p>
 <p>Let's suppose we have a list of users on a page. Each user has a number of properties, not things we'd display like name, age and gender but hidden things like permissions, e.g. isAdmin, canComment, isManager, etc. These properties are going to be used in logic to determine how things are displayed on screen - maybe an extra bit of detail or an icon. Just as an example, if canComment is true then a speech bubble icon will appear.</p>
 <p>The basic HTML might look something like this:</p>
@@ -115,5 +121,6 @@ The first approach puts the property into the DOM, puts the icon into the DOM an
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

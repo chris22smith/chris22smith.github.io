@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Progress Indicators</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2021-05-23T20:05:25.000Z">23 May 2021</time>
+      </div>      
     <p>I've been working on a questionnaire with a requirement to show progress through the questions. It has thrown up some interesting challenges which I felt were worth sharing.</p>
 <p>When I first saw the requirement I thought it would be simple - progress is just number of questions divided by number of answers, easy maths, right? Well, it could be in a very simple questionnaire but ours threw up a few more curved balls. Here are some additional considerations:</p>
 <p>Some questions are mandatory, others are optional, so are we counting all questions or only the mandatory ones?</p>
@@ -107,5 +113,6 @@ const numberOfAnswers = questionsAnswered.length;</code></pre>
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Switching APIs</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2019-10-17T18:00:59.000Z">17 October 2019</time>
+      </div>      
     <p>It's completely normal now for web apps to work with external third party JavaScript APIs. The good ones give you lots of documentation making them pretty straightforward to implement and use. You load a script from a URL or local resource, use their methods and properties in your code and away you go.</p>
 <p>But what if you then want to switch to another API provider? Maybe the one you were using isn't accessible, doesn't support the older browsers you need? Maybe they put their prices up? Whatever the reason you may need to switch at some point.</p>
 <p>This change means rewriting your app's JavaScript to work with the new API. You'll have to find every point it touches and update it. What if it works differently? What if this one takes an object parameter rather than an array? You'll have to completely rewrite the data parts too.</p>
@@ -82,5 +88,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

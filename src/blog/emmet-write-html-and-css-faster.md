@@ -2,7 +2,7 @@
 layout: "layouts/blog.njk"
 title: "Emmet - Write HTML and CSS Faster"
 date: 2021-12-10 17:15:00
-description: ""
+description: "Emmet is a productivity tool for HTML and CSS editors"
 tags: ["blog", "tech"]
 eleventyNavigation:
   key: "Emmet - Write HTML and CSS Faster"

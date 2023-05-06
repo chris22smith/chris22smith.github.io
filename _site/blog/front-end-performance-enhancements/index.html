@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Front End Performance Enhancements</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-05-01T13:00:40.000Z">1 May 2017</time>
+      </div>      
     <p>I've recently made a load of changes to a site to improve the page loading times. Now that I'm happy it's worked I thought I'd share some of the moves. Broadly, we're looking to load up fewer files and to make each file as small as possible.</p>
 <h3>Remove Inline Content</h3>
 My first step was to get rid of any inline styling or scripting, moving as much as possible into .css or .js files so they are recognised as static resources and cached. Moving &lt;style&gt; blocks out into new CSS files or &lt;script&gt; to JavaScript files is pretty straightforward.
@@ -108,5 +114,6 @@ Looking at the Page Timings in Google Analytics almost all pages have reduced lo
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

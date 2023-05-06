@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Google Analytics - Why You Should Replace IDs in URLs</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-08-01T16:53:19.000Z">1 August 2018</time>
+      </div>      
     <p>Google Analytics is brilliant at tracking things like Page Views for a website. It logs the URL and then keeps a count of how may times that URL is requested. Great, right? Not always.</p>
 <p>There's a problem. Dynamic sites that use IDs in their URLs generate a lot of different URLs. A typical example might be a site being made up of list and details screens, so the URL for a list screen might end in <code>/List/</code>. For a details page there's probably one template with the data changing dynamically and the ID for that item is probably in the URL, something like <code>/Details/123</code> or <code>/Details?id=123</code>.</p>
 <p>This means that Google Analytics sees every visit to a different item's details as a different screen. This is ideal for some data analysis, like seeing which item is viewed most but not so great when you want to look at something like the performance of that template. Having hundreds of different URLs makes it impossible to analyse the template as a single screen.</p>
@@ -93,5 +99,6 @@ An added bonus. When you look at your reports in Google Analytics you'll no long
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

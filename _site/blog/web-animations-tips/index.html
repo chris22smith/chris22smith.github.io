@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Web Animation Tips</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-04-25T17:54:22.000Z">25 April 2016</time>
+      </div>      
     <p>Here are a few techniques I use in making web animations in <a href="https://codepen.io/chris22smith" target="_blank">Codepen</a>.</p>
 <h3>Zooming</h3>
 By zooming all I really mean is moving things nearer or further by animating them along the Z axis with transform:translateZ(). This needs to be used in conjunction with the perspective and perspective-origin rules on a parent element. I tend to put this on the html element.
@@ -93,5 +99,6 @@ Making an object shake is a great way of drawing attention to it or giving the i
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

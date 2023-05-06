@@ -4,6 +4,11 @@ body {
   padding: 5vmin;
 }
 
+.page {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
 header,
 footer {
   font-family: monospace;
@@ -11,7 +16,6 @@ footer {
 }
 
 header {
-  max-width: 60rem;
   position: relative;
 }
 
@@ -39,18 +43,17 @@ footer p a {
 article {
   background-color: #fff;
   border-radius: 1vmin;
-  max-width: 60rem;
   padding: 5vmin;
 }
 
 header img {
   border-radius: 50%;
-  height: 15vmin;
+  height: 13vmin;
   position: absolute;
   right: 5vmin;
-  top: 0;
+  top: -4vmin;
   transform: rotate(-3deg);
-  width: 15vmin;
+  width: 13vmin;
 }
 
 header a {
@@ -60,8 +63,18 @@ header a {
 
 h1 {
   font-size: 3em;
-  margin: 0 0 1em 0;
+  margin: 0 0 1rem 0;
   text-shadow: 1px 1px #f09, 2px 2px #f09, 3px 3px currentColor;
+}
+
+.subhead {
+  color: #757575;
+  margin-bottom: 2rem;
+  text-align: end;
+}
+
+address {
+  display: inline;
 }
 
 h2 {
@@ -88,4 +101,9 @@ code {
   border-radius: 0.25em;
   display: inline-block;
   padding: 0 0.25em;
+}
+
+pre > code {
+  display: block;
+  padding: 1rem;
 }

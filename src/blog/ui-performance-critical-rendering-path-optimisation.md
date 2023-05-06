@@ -2,7 +2,7 @@
 layout: "layouts/blog.njk"
 title: "UI Performance - Critical Rendering Path Optimisation"
 date: 2023-04-30 16:30:00
-description: ""
+description: "A quick guide to how a web page renders and how we can ensure it stays fast"
 tags: ["blog", "tech"]
 eleventyNavigation:
   key: "UI Performance - Critical Rendering Path Optimisation"

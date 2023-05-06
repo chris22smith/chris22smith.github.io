@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Performance Perception Trick: Processing Lists Faster</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2019-08-03T08:00:23.000Z">3 August 2019</time>
+      </div>      
     <p>I've got a little trick to make the processing of lists appear to go faster than it actually does.</p>
 <p>Let's suppose we have a list of 10 items and there's some kind of processing to be done on them, maybe sending them off to a service which returns a Boolean true/false response for each. In reality we post a single request with the data of the 10 items and we get a single response back after 3 seconds.</p>
 <p>In the UI we can use animation to make it look as if each item is being sent one at a time by adding a 100 millisecond delay between each state change. This means that the user thinks the last item of the 10 is sent after 1 second but in reality it's already gone a second  ago buying us extra time.</p>
@@ -84,5 +90,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

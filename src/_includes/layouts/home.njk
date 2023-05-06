@@ -27,11 +27,6 @@ title: Chris Smith
     {% include 'header.html' %}
     <article>
       <h1>{{ title }}</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' }) }}</time>
-      </div>      
     {{ content | safe }}
     </article>
     {% include 'footer.html' %}

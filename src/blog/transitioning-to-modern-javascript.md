@@ -2,7 +2,7 @@
 layout: "layouts/blog.njk"
 title: "Transitioning to Modern JavaScript"
 date: 2021-01-05 17:00:00
-description: ""
+description: "On average, 95% of users use a modern browser, so we should ship modern code, not legacy just because we have to support the 5%."
 tags: ["blog", "tech"]
 eleventyNavigation:
   key: "Transitioning to Modern JavaScript"

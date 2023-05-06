@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Displaying Options in a UI</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-11-23T18:30:26.000Z">23 November 2016</time>
+      </div>      
     <p>One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it. As a user you have to click it to see the other available options only to find that there are none. This is a clear example of developer convenience being put before user experience.</p>
 <p>I'm sure it seems obvious now I've highlighted it but if there's only one option then there isn't a choice to be made at all and we don't need a form input. The code should conditionally show the drop down list only when there is a selection to be made, more than one item.</p>
 <p>Depending on the UI design, we could even take this a step further. Maybe a drop down list isn't the best choice for selecting between 2 items? A radio button list is probably better as it enables the user to see all of the available options at a glance and make a selection with a single click/touch. We can test the number of options and if it's below 5 show the options in a radio button list. &lt;ol&gt; might be a better choice than &lt;ul&gt; for the list if the items are in a specific order, e.g. years.</p>
@@ -78,5 +84,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

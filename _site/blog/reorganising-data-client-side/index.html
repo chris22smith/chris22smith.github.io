@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Reorganising Data Client Side</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-03-08T17:50:17.000Z">8 March 2017</time>
+      </div>      
     <p>I just discovered how easy it can be to reorganise data in JavaScript before trying to use it.</p>
 <p>I've been working with a third party API so there's no option to change the structure of the JSON which we receive. The data I had was organised by date, an object with object properties giving a new object for each new date. Something like:</p>
 <pre>{
@@ -123,5 +129,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

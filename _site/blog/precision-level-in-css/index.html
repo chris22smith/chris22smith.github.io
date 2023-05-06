@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>Precision Level in CSS</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-04-28T18:00:52.000Z">28 April 2017</time>
+      </div>      
     <p>When we're using relative sizing in CSS, percentages or ems, how precise do we need to be with our fractions? Is there an optimum level?</p>
 <p>If we have a font size of 18px (or anything, it's relative after all) and we want some smaller text at two thirds of its size (12px) then we can express this as .6666666667em or 66.6666666667%. Here I've used 10 decimal places to give a very precise fraction but this feels like overkill to me. If I used just 2 decimal places, .67em or 66.67%, is this accurate enough to consistently calculate the desired pixel value. Or should I not worry? It'll be near enough.</p>
 <p>Looking at other developers' CSS, mainly in tutorials, the general pattern seems to be to use between 4 and 6 decimal places. Looking back through my own code, my preference seems to be to use 6 but I couldn't tell you why. I'd imagine I've just adopted someone else's coding style. I definitely feel that going beyond 6 seems unnecessary but am not sure how little I can get away with.</p>
@@ -86,5 +92,6 @@
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>

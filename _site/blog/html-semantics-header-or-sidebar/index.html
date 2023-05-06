@@ -33,6 +33,7 @@
     </style>
   </head>
   <body>
+    <div class="page">
     <header>
   <a href="/"
     ><img
@@ -46,6 +47,11 @@
 
     <article>
       <h1>HTML Semantics - Header or Sidebar?</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-03-09T19:10:24.000Z">9 March 2017</time>
+      </div>      
     <p>Here's a question on HTML semantics. We now have the not-so-new HTML5 semantic sectioning elements which define areas of the page and try to bring more meaning to it. This is generally seen as a step forward from using &lt;div&gt; which has no particular meaning. Does it always work?</p>
 <p>There's quite a common design pattern where a wider screen will show the logo and navigation in a sidebar on the left and then in a narrower screen will show it at the top. I've used this myself a few times. Here's a quick illustration of what I mean:</p>
 <div style="clear: both;">
@@ -90,5 +96,6 @@ We could even switch out the element using JavaScript. Add the other element, ap
   <p>&copy; Chris Smith 2008-2023.</p>
 </footer>
 
+    </div>
   </body>
 </html>
