@@ -4,6 +4,12 @@ body {
   padding: 5vmin;
 }
 
+a,
+a:link,
+a:visited {
+  color: #07d;
+}
+
 .page {
   margin: 0 auto;
   max-width: 60rem;
@@ -31,7 +37,7 @@ footer p {
 }
 
 header p .ext {
-  color: #f09 !important;
+  color: #d07 !important;
   font-size: small;
 }
 
@@ -57,14 +63,14 @@ header img {
 }
 
 header a {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
 h1 {
   font-size: 3em;
   margin: 0 0 1rem 0;
-  text-shadow: 1px 1px #f09, 2px 2px #f09, 3px 3px currentColor;
+  text-shadow: 1px 1px #d07, 2px 2px #d07, 3px 3px currentColor;
 }
 
 .subhead {
@@ -78,7 +84,7 @@ address {
 }
 
 h2 {
-  text-shadow: 1px 1px #f09;
+  text-shadow: 1px 1px #d07;
 }
 
 p,
@@ -112,4 +118,27 @@ code {
 pre > code {
   display: block;
   padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: solid 1px #d07;
+  padding: 0.5rem 1rem;
+}
+
+th:first-child {
+  border-top-left-radius: 0.25rem;
+}
+th:last-child {
+  border-top-right-radius: 0.25rem;
+}
+td:first-child {
+  border-bottom-left-radius: 0.25rem;
+}
+td:last-child {
+  border-bottom-right-radius: 0.25rem;
 }

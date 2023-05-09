@@ -62,10 +62,32 @@
 <p>On average, Google estimates that WebP lossy compression results in files that are between 25% and 34% smaller than JPGs of the same quality.</p>
 <p>On average, Google estimates that WebP lossless compression results in files that are roughly 26% smaller than PNGs of the same quality.</p>
 <p>Google estimates the average reduction to be about 64% of the original size of a GIF when using lossy compression and 19% when using lossless.</p>
-<p>| | WebP (lossless) | WebP (lossy) |
-| JPG | - | 25-34% smaller |
-| PNG | 26% smaller | - |
-| GIF | 19% smaller | 64% smaller |</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>WebP (lossless)</th>
+<th>WebP (lossy)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JPG</td>
+<td>-</td>
+<td>25-34% smaller</td>
+</tr>
+<tr>
+<td>PNG</td>
+<td>26% smaller</td>
+<td>-</td>
+</tr>
+<tr>
+<td>GIF</td>
+<td>19% smaller</td>
+<td>64% smaller</td>
+</tr>
+</tbody>
+</table>
 <h3>Browser Support</h3>
 <p>Support is good, pretty much all but IE. Safari is limited to macOS 11 Big Sur and later.</p>
 <p><a href="https://caniuse.com/?search=webp">https://caniuse.com/?search=webp</a></p>
@@ -75,13 +97,29 @@
 <h2>AVIF</h2>
 <p>This format is based on the .avi video format. It supports an alpha channel (transparency).</p>
 <h3>File Size Comparison</h3>
-<p>| | AVIF |
-| JPG | 76% smaller* |
-| PNG | 47% smaller* |
-| WebP | 58% smaller* |</p>
-<ul>
-<li>These figures are arrived at by manually editing images, finding acceptable quality and manually reducing palette sizes. As a bulk automated process there would be less of a saving, probably much closer to using WebP.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>AVIF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JPG</td>
+<td>76% smaller*</td>
+</tr>
+<tr>
+<td>PNG</td>
+<td>47% smaller*</td>
+</tr>
+<tr>
+<td>WebP</td>
+<td>58% smaller*</td>
+</tr>
+</tbody>
+</table>
+<p>* These figures are arrived at by manually editing images, finding acceptable quality and manually reducing palette sizes. As a bulk automated process there would be less of a saving, probably much closer to using WebP.</p>
 <h3>Browser Support</h3>
 <p>This is pretty much just Chrome for now but coming to Firefox and Edge soon. Something to monitor.</p>
 <p><a href="https://caniuse.com/?search=avif">https://caniuse.com/?search=avif</a></p>

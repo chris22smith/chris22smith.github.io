@@ -28,10 +28,11 @@ On average, Google estimates that WebP lossless compression results in files tha
 
 Google estimates the average reduction to be about 64% of the original size of a GIF when using lossy compression and 19% when using lossless.
 
-| | WebP (lossless) | WebP (lossy) |
-| JPG | - | 25-34% smaller |
-| PNG | 26% smaller | - |
-| GIF | 19% smaller | 64% smaller |
+|     | WebP (lossless) | WebP (lossy)   |
+| --- | --------------- | -------------- |
+| JPG | -               | 25-34% smaller |
+| PNG | 26% smaller     | -              |
+| GIF | 19% smaller     | 64% smaller    |
 
 ### Browser Support
 
@@ -51,12 +52,13 @@ This format is based on the .avi video format. It supports an alpha channel (tra
 
 ### File Size Comparison
 
-| | AVIF |
-| JPG | 76% smaller* |
-| PNG | 47% smaller* |
+|      | AVIF          |
+| ---- | ------------- |
+| JPG  | 76% smaller\* |
+| PNG  | 47% smaller\* |
 | WebP | 58% smaller\* |
 
-- These figures are arrived at by manually editing images, finding acceptable quality and manually reducing palette sizes. As a bulk automated process there would be less of a saving, probably much closer to using WebP.
+\* These figures are arrived at by manually editing images, finding acceptable quality and manually reducing palette sizes. As a bulk automated process there would be less of a saving, probably much closer to using WebP.
 
 ### Browser Support
 
