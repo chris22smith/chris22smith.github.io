@@ -16,5 +16,4 @@ All {{ collections.tech.length }} of my blog posts, most recent first...
     <time>{{ blog.date | date: "%d %b %Y" }}</time>
   </li>
   {%- endfor -%}
-  <li style="border:none"></li>
 </ul>
