@@ -15,9 +15,10 @@ You can find me on [CodePen](https://codepen.io/chris22smith/) and [Mastodon](ht
 <ul class="post-list">
   <!-- 10 most recent blog posts with tag 'tech' -->
   {% assign techs = collections.tech | sort: 'date' | reverse %} {%- for blog in
-  techs limit:10 -%}
+  techs limit:12 -%}
   <li>
-    <a href="{{ blog.url }}">{{ blog.data.title }}</a> | {{ blog.date | date: "%d %b %Y" }}
+    <a href="{{ blog.url }}">{{ blog.data.title }}</a>
+    <time>{{ blog.date | date: "%d %b %Y" }}</time>
   </li>
   {%- endfor -%}
 </ul>
