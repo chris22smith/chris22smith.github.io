@@ -8,7 +8,7 @@ body {
   font-size: clamp(12px, 0.5rem + 1vw, 20px);
   margin: 0;
   min-height: 100vh;
-  padding: 5vmin;
+  padding: 10vmin 5vw;
 }
 
 a,
@@ -191,37 +191,43 @@ td:last-child {
   z-index: -1;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .cloud-animation {
+    display: none;
+  }
+}
+
 @keyframes animateCloud {
   0% {
     margin-left: -1000px;
   }
   100% {
-    margin-left: 100%;
+    margin-left: 110%;
   }
 }
 
 .x1 {
-  animation: animateCloud 70s linear infinite;
+  animation: animateCloud 65s linear infinite;
   transform: scale(0.65);
 }
 
 .x2 {
-  animation: animateCloud 40s linear infinite;
+  animation: animateCloud 30s linear infinite;
   transform: scale(0.3);
 }
 
 .x3 {
-  animation: animateCloud 60s linear infinite;
+  animation: animateCloud 50s linear infinite;
   transform: scale(0.5);
 }
 
 .x4 {
-  animation: animateCloud 36s linear infinite;
+  animation: animateCloud 40s linear infinite;
   transform: scale(0.4);
 }
 
 .x5 {
-  animation: animateCloud 50s linear infinite;
+  animation: animateCloud 55s linear infinite;
   transform: scale(0.55);
 }
 
@@ -233,6 +239,7 @@ td:last-child {
   height: 120px;
   opacity: 0.8;
   position: relative;
+  /* transform: scale(1.5, 1); */
   width: 350px;
 }
 
