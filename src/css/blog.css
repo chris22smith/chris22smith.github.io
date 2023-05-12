@@ -80,9 +80,9 @@ header a {
 }
 
 h1 {
+  color: #d07;
   font-size: 3em;
   margin: 0 0 1rem 0;
-  text-shadow: 1px 1px #d07, 2px 2px #d07, 3px 3px currentColor;
 }
 
 .subhead {
@@ -96,7 +96,7 @@ address {
 }
 
 h2 {
-  text-shadow: 1px 1px #d07;
+  color: #d07;
 }
 
 p,
@@ -111,10 +111,7 @@ ul {
 }
 
 .post-list {
-  /* display: flex;
-  flex-wrap: wrap; */
   display: grid;
-
   gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
   list-style: none;
@@ -126,7 +123,6 @@ ul {
   border: solid 1px #d07;
   border-radius: 0.25rem;
   display: flex;
-  /* flex: 1 1 12rem; */
   flex-direction: column;
   gap: 1rem;
   justify-content: space-between;
@@ -137,7 +133,12 @@ ul {
 }
 
 .post-list > li:hover {
-  background-color: #dd0;
+  background-color: #d07;
+  color: #fff;
+}
+
+.post-list > li:hover > a {
+  color: #fff;
 }
 
 .post-list > li > a::after {
@@ -179,6 +180,20 @@ td:first-child {
 }
 td:last-child {
   border-bottom-right-radius: 0.25rem;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+section:nth-child(odd) {
+  background-color: #eee;
+  margin: 1rem -5vmin;
+  padding: 1rem 5vmin;
+}
+
+hr {
+  border-top: solid 1px #d07;
 }
 
 /* cloud animation based on https://codepen.io/Mark_Bowley/pen/LYZEBq */

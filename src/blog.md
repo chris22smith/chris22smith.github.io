@@ -8,12 +8,29 @@ eleventyNavigation:
 
 All {{ collections.tech.length }} of my blog posts, most recent first...
 
-<ul class="post-list">
+<ul class="post-list" id="paginated-list">
   <!-- blog posts with tag 'tech' sorted by date, most recent first -->
   {%- for blog in collections.tech reversed -%}
   <li>
     <a href="{{ blog.url }}">{{ blog.data.title }}</a>
-    <time>{{ blog.date | date: "%d %b %Y" }}</time>
+    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}">{{ blog.date | date: "%d %b %Y" }}</time>
   </li>
   {%- endfor -%}
 </ul>
+
+<link rel="stylesheet" href="/css/pagination.css">
+
+<nav class="pagination-container">
+  <button class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
+    &lt;
+  </button>
+  
+  <div id="pagination-numbers">
+  </div>
+  
+  <button class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
+    &gt;
+  </button>
+</nav>
+
+<script src="/js/pagination.js"></script>

@@ -13,12 +13,12 @@ You can find me on [CodePen](https://codepen.io/chris22smith/) and [Mastodon](ht
 ## Latest blog posts
 
 <ul class="post-list">
-  <!-- 10 most recent blog posts with tag 'tech' -->
-  {% assign techs = collections.tech | sort: 'date' | reverse %} {%- for blog in
-  techs limit:12 -%}
+  <!-- 12 most recent blog posts with tag 'tech' -->
+  {% assign techs = collections.tech | sort: 'date' | reverse %}
+  {%- for blog in techs limit:12 -%}
   <li>
     <a href="{{ blog.url }}">{{ blog.data.title }}</a>
-    <time>{{ blog.date | date: "%d %b %Y" }}</time>
+    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}">{{ blog.date | date: "%d %b %Y" }}</time>
   </li>
   {%- endfor -%}
 </ul>

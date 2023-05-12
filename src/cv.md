@@ -12,15 +12,16 @@ chris22smith@gmail.com
 
 he/him/his
 
----
+<section>
 
 ## Summary
 
 I've been making websites and applications since 1999, always pushing to make them accessible, fast and easy to use. I'm experienced in designing and building complex components, user interfaces and design systems. I also have experience of design and user experience. In recent years I've moved into a team lead role, helping developers and testers to improve themselves and working processes.
 
----
+</section>
+<section>
 
-## Skills
+## Technical Skills
 
 | Area            | Details                                                                                   |
 | --------------- | ----------------------------------------------------------------------------------------- |
@@ -36,7 +37,8 @@ I've been making websites and applications since 1999, always pushing to make th
 | **Libraries**   | Google Maps, Google Charts, Chartist.js, moment.js                                        |
 | **Languages**   | French, Italian                                                                           |
 
----
+</section>
+<section>
 
 ## Senior Developer Skills
 
@@ -51,7 +53,8 @@ I've been making websites and applications since 1999, always pushing to make th
 - Writing technical documentation
 - Managing technical debt
 
----
+</section>
+<section>
 
 ## Education & Training
 
@@ -67,7 +70,8 @@ University of Birmingham
 **3 A levels, 2 AO levels, 11 GCSEs** | 1986 - 1993  
 Monmouth School
 
----
+</section>
+<section>
 
 ## Experience
 
@@ -111,7 +115,8 @@ Viskase (UK) Ltd
 
 Processing telephone orders in a busy sales office. Built a sample requesting service for sales reps in Lotus Notes. Company made sausage casings and packaging for meat and cheese products. "The film industry" ;)
 
----
+</section>
+<section>
 
 ## Community
 
@@ -131,8 +136,11 @@ Healthy web dev following but used less in recent times.
 **Mastodon** | [https://home.social/@chris22smith](https://home.social/@chris22smith)  
 This is where I now follow influential web devs.
 
----
+</section>
+<section>
 
 ## Interests
 
 Outside of work, I'm a keen football fan. I like playing 5-a-side and fantasy games. I go running, just for fitness now but have done several half-marathons in the past. I play guitar and bass, learning drums.
+
+</section>
