@@ -14,7 +14,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #07d;
+  color: #06c;
 }
 
 a:hover,
@@ -49,12 +49,14 @@ footer p {
 }
 
 header p .ext {
-  color: #d07 !important;
+  color: #dd0 !important;
   font-size: small;
 }
 
-footer p a {
-  color: #09f;
+footer p a,
+footer a:link,
+footer a:visited {
+  color: #dd0;
   text-decoration: none;
 }
 
@@ -214,45 +216,46 @@ hr {
 
 @keyframes animateCloud {
   0% {
-    margin-left: -1000px;
+    translate: -60vw;
   }
   100% {
-    margin-left: 110%;
+    translate: 110vw;
   }
 }
 
-.x1 {
-  animation: animateCloud 65s linear infinite;
-  transform: scale(0.65);
+.cloud:nth-child(1) {
+  animation: animateCloud 45s linear infinite;
+  scale: 0.45;
 }
 
-.x2 {
+.cloud:nth-child(2) {
   animation: animateCloud 30s linear infinite;
-  transform: scale(0.3);
+  scale: 0.3;
 }
 
-.x3 {
+.cloud:nth-child(3) {
   animation: animateCloud 50s linear infinite;
-  transform: scale(0.5);
+  scale: 0.5;
 }
 
-.x4 {
+.cloud:nth-child(4) {
   animation: animateCloud 40s linear infinite;
-  transform: scale(0.4);
+  scale: 0.4;
 }
 
-.x5 {
+.cloud:nth-child(5) {
   animation: animateCloud 55s linear infinite;
-  transform: scale(0.55);
+  scale: 0.55;
 }
 
 .cloud {
-  background: #fff;
-  background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: #eef;
+  /* background-image: linear-gradient(#fff 5%, #f1f1f1 100%); */
   border-radius: 100px;
   /* box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1); */
+  /* filter: blur(8px); */
   height: 120px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   position: relative;
   /* transform: scale(1.5, 1); */
   width: 350px;
@@ -260,7 +263,7 @@ hr {
 
 .cloud:after,
 .cloud:before {
-  background: #fff;
+  background: #eef;
   content: "";
   position: absolute;
   z-index: -1;

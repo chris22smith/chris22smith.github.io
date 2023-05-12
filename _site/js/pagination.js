@@ -1,3 +1,6 @@
+// https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896
+// https://codepen.io/tutsplus/pen/poaQEeq
+
 const paginationNumbers = document.getElementById("pagination-numbers");
 const paginatedList = document.getElementById("paginated-list");
 const listItems = paginatedList.querySelectorAll("li");
@@ -44,11 +47,11 @@ const handleActivePageNumber = () => {
 
 const appendPageNumber = (index) => {
   const pageNumber = document.createElement("button");
+  pageNumber.setAttribute("type", "button");
   pageNumber.className = "pagination-number";
   pageNumber.innerHTML = index;
   pageNumber.setAttribute("page-index", index);
   pageNumber.setAttribute("aria-label", "Page " + index);
-
   paginationNumbers.appendChild(pageNumber);
 };
 
@@ -66,7 +69,6 @@ const setCurrentPage = (pageNum) => {
 
   const prevRange = (pageNum - 1) * paginationLimit;
   const currRange = pageNum * paginationLimit;
-
   listItems.forEach((item, index) => {
     item.classList.add("hidden");
     if (index >= prevRange && index < currRange) {

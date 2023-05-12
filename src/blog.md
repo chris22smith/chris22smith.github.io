@@ -21,14 +21,14 @@ All {{ collections.tech.length }} of my blog posts, most recent first...
 <link rel="stylesheet" href="/css/pagination.css">
 
 <nav class="pagination-container">
-  <button class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
+  <button type="button" class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
     &lt;
   </button>
   
   <div id="pagination-numbers">
   </div>
   
-  <button class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
+  <button type="button" class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
     &gt;
   </button>
 </nav>
