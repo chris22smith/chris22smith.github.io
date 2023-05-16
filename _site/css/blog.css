@@ -169,6 +169,13 @@ th,
 td {
   border: solid 1px #d07;
   padding: 0.5rem 1rem;
+  text-align: start;
+  vertical-align: top;
+}
+
+th {
+  background-color: #d07;
+  color: #fff;
 }
 
 th:first-child {
