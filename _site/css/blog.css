@@ -245,10 +245,10 @@ hr {
 
 @keyframes animateCloud {
   0% {
-    translate: -60vw;
+    translate: -100vw 0;
   }
   100% {
-    translate: 110vw;
+    translate: calc(100vw + 350px) 50vh;
   }
 }
 
