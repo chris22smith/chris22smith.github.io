@@ -160,7 +160,7 @@ ul {
 }
 
 .post-list > li:nth-child(5n + 1) {
-  background-color: #eff;
+  background-color: #def;
 }
 
 .post-list > li:nth-child(5n + 2) {
@@ -172,7 +172,7 @@ ul {
 }
 
 .post-list > li:nth-child(5n + 4) {
-  background-color: #eef;
+  background-color: #fed;
 }
 
 .post-list > li:hover {
