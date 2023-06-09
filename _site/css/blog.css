@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   font-size: clamp(12px, 0.5rem + 1vw, 20px);
   margin: 0;
-  min-height: 100vh;
+  min-block-size: 100vh;
   padding: 10vmin 5vw;
   position: relative;
 }
@@ -18,12 +18,12 @@ body:before {
   background-image: linear-gradient(115deg, #07d, #07d, #dd0, #d07, #d07);
   border-radius: 50%;
   content: "";
-  height: 200vmax;
-  left: 50%;
+  block-size: 200vmax;
+  inset-inline-start: 50%;
   position: fixed;
-  top: 50%;
+  inset-block-start: 50%;
   translate: -50% -50%;
-  width: 200vmax;
+  inline-size: 200vmax;
   z-index: -1;
 }
 
@@ -46,7 +46,7 @@ a:active {
 
 .page {
   margin: 0 auto;
-  max-width: 60rem;
+  max-inline-size: 60rem;
 }
 
 header,
@@ -90,12 +90,12 @@ article {
 
 header img {
   border-radius: 50%;
-  height: 13vmin;
+  block-size: 13vmin;
   position: absolute;
-  right: 5vmin;
-  top: -4vmin;
+  inset-inline-end: 5vmin;
+  inset-block-start: -4vmin;
   transform: rotate(-3deg);
-  width: 13vmin;
+  inline-size: 13vmin;
 }
 
 header a {
@@ -112,7 +112,7 @@ h1 {
 
 .subhead {
   color: #757575;
-  margin-bottom: 2rem;
+  margin-block-end: 2rem;
   text-align: end;
 }
 
@@ -220,16 +220,16 @@ th {
 }
 
 th:first-child {
-  border-top-left-radius: 0.25rem;
+  border-start-start-radius: 0.25rem;
 }
 th:last-child {
-  border-top-right-radius: 0.25rem;
+  border-end-start-radius: 0.25rem;
 }
 td:first-child {
-  border-bottom-left-radius: 0.25rem;
+  border-start-end-radius: 0.25rem;
 }
 td:last-child {
-  border-bottom-right-radius: 0.25rem;
+  border-end-end-radius: 0.25rem;
 }
 
 section {
@@ -243,7 +243,7 @@ section:nth-child(odd) {
 }
 
 hr {
-  border-top: solid 1px #d07;
+  border-block-start: solid 1px #d07;
 }
 
 /* cloud animation based on https://codepen.io/Mark_Bowley/pen/LYZEBq */
@@ -251,7 +251,7 @@ hr {
 .cloud-animation {
   inset: 0;
   overflow: hidden;
-  padding-top: 50px;
+  padding-block-start: 50px;
   position: absolute;
   z-index: -1;
 }
@@ -303,11 +303,11 @@ hr {
   border-radius: 100px;
   /* box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1); */
   /* filter: blur(8px); */
-  height: 120px;
+  block-size: 120px;
   /* opacity: 0.8; */
   position: relative;
   /* transform: scale(1.5, 1); */
-  width: 350px;
+  inline-size: 350px;
 }
 
 .cloud:after,
@@ -320,16 +320,16 @@ hr {
 
 .cloud:after {
   border-radius: 100px;
-  height: 100px;
-  left: 50px;
-  top: -50px;
-  width: 100px;
+  block-size: 100px;
+  inset-inline-start: 50px;
+  inset-block-start: -50px;
+  inline-size: 100px;
 }
 
 .cloud:before {
   border-radius: 200px;
-  height: 180px;
-  right: 50px;
-  top: -90px;
-  width: 180px;
+  block-size: 180px;
+  inset-inline-end: 50px;
+  inset-block-start: -90px;
+  inline-size: 180px;
 }
