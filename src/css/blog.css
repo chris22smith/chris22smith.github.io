@@ -88,16 +88,6 @@ article {
   padding: 5vmin;
 }
 
-header img {
-  border-radius: 50%;
-  block-size: 13vmin;
-  position: absolute;
-  inset-inline-end: 5vmin;
-  inset-block-start: -4vmin;
-  transform: rotate(-3deg);
-  inline-size: 13vmin;
-}
-
 header a {
   color: #fff !important;
   text-decoration: none;
@@ -332,4 +322,17 @@ hr {
   inset-inline-end: 50px;
   inset-block-start: -90px;
   inline-size: 180px;
+}
+
+#cs-portrait {
+  border-radius: 50%;
+  block-size: 200px;
+  inline-size: 200px;
+}
+
+@media (width >= 560px) {
+  .home-intro-layout {
+    display: flex;
+    gap: 2rem;
+  }
 }

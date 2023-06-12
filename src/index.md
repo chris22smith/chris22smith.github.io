@@ -4,11 +4,16 @@ title: "Chris Smith"
 description: "Intro page about Chris Smith, front-end web developer, and his personal website."
 ---
 
-## Hello World
-
-Hello. I'm Chris, a front-end web developer from the UK. I blog about web development and whatever else is on my mind.
-
-You can find me on [CodePen](https://codepen.io/chris22smith/) and [Mastodon](https://home.social/@chris22smith) and occasionally [Twitter](https://twitter.com/chris22smith/). Come and say hello.
+<div class="home-intro-layout">
+  <div>
+    <img id="cs-portrait" src="./img/cs2023.webp" alt="Chris Smith in summer 2023">
+  </div>
+  <div>
+    <h2>Hello World</h2>
+    <p>Hello. I'm Chris, a front-end web developer from the UK. I blog about front end web development and the tech industry generally. I've been making web pages since 1999 and this blog dates back to 2008.</p>
+    <p>You can find me on <a href="https://codepen.io/chris22smith/" target="_blank" rel="nofollow">CodePen</a>, <a href="https://mastodon.social/@chris22smith" target="_blank" rel="nofollow">Mastodon</a> and <a href="https://twitter.com/chris22smith/" target="_blank" rel="nofollow">Twitter</a>. Come and say hello.</p>
+  </div>
+</div>
 
 ## Latest blog posts
 
