@@ -325,8 +325,9 @@ hr {
 }
 
 #cs-portrait {
-  border-radius: 50%;
-  block-size: 200px;
+  border: solid 2px #d07;
+  border-radius: 0.25rem;
+  block-size: 267px;
   inline-size: 200px;
 }
 
