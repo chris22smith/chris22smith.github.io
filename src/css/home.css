@@ -1,0 +1,28 @@
+/* mobile first */
+
+#cs-portrait {
+  aspect-ratio: 3 / 4;
+  border: solid 2px #d07;
+  border-radius: 0.25rem;
+  inline-size: 100%;
+}
+
+.post-list > li:nth-child(n + 4) {
+  display: none;
+}
+
+/* larger */
+
+@media (width >= 560px) {
+  .home-intro-layout {
+    display: flex;
+    gap: 2rem;
+  }
+  #cs-portrait {
+    block-size: 267px;
+    inline-size: 200px;
+  }
+  .post-list > li {
+    display: block !important;
+  }
+}

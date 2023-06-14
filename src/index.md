@@ -4,6 +4,8 @@ title: "Chris Smith"
 description: "Intro page about Chris Smith, front-end web developer, and his personal website."
 ---
 
+<link rel="stylesheet" href="css/home.css">
+
 <div class="home-intro-layout">
   <div>
     <img id="cs-portrait" src="./img/chris-smith-2023.webp" alt="Chris Smith in summer 2023">

@@ -246,7 +246,7 @@ hr {
   z-index: -1;
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce), (width <= 559px) {
   .cloud-animation,
   body:before {
     display: none;
@@ -322,18 +322,4 @@ hr {
   inset-inline-end: 50px;
   inset-block-start: -90px;
   inline-size: 180px;
-}
-
-#cs-portrait {
-  border: solid 2px #d07;
-  border-radius: 0.25rem;
-  block-size: 267px;
-  inline-size: 200px;
-}
-
-@media (width >= 560px) {
-  .home-intro-layout {
-    display: flex;
-    gap: 2rem;
-  }
 }
