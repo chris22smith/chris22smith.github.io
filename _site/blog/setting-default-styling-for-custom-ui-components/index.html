@@ -65,6 +65,47 @@ The final option is to set styling using JavaScript, which effectively just inse
 </ol>
 I'm wondering if there may be a solution where we have a default styles object which defines style properties in our existing component JavaScript file. We then check to see what styling is applied using the browser's getComputedStyle() function. For each of the properties we check if a rule is already set, presumably by CSS that is in the &lt;head&gt;, and if not we apply the style from the object. It's almost like required validation for styling. I don't imagine it's going to be very efficient but it may be a way of ensuring a minimum level of styling without restricting additional styling via CSS. Assuming that our script file is at the end of the &lt;body&gt;, by using only the existing resources we could save an additional HTTP request.
 
+    <aside class="about-the-author">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../img/chris-smith-2023.webp"
+        alt="Chris Smith in summer 2023"
+      />
+    </div>
+    <div>
+      <h3>About the author</h3>
+      <p
+        >Chris is a senior front-end developer and team lead from the UK, making
+        web pages easy to use, fast and accessible since 1999.</p
+      >
+      <p
+        >Reach out on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="nofollow"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="nofollow"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://twitter.com/chris22smith/"
+          target="_blank"
+          rel="nofollow"
+          >Twitter</a
+        >.</p
+      >
+    </div>
+  </div>
+</aside>
+
     </article>
     <footer>
   <p>

@@ -2,9 +2,9 @@
 
 #cs-portrait {
   aspect-ratio: 3 / 4;
-  border: solid 2px #d07;
   border-radius: 0.25rem;
   inline-size: 100%;
+  rotate: 3deg;
 }
 
 .post-list > li:nth-child(n + 4) {

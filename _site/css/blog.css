@@ -85,6 +85,7 @@ footer a:visited {
 article {
   background-color: #fff;
   border-radius: 1vmin;
+  overflow: hidden;
   padding: 5vmin;
 }
 
@@ -98,6 +99,7 @@ h1 {
   font-family: "Shantell Sans", cursive;
   font-size: 3em;
   margin: 0 0 1rem 0;
+  text-wrap: balance;
 }
 
 .subhead {
@@ -234,6 +236,32 @@ section:nth-child(odd) {
 
 hr {
   border-block-start: solid 1px #d07;
+}
+
+.about-the-author {
+  background-color: #eee;
+  margin: 5vmin -5vmin -5vmin -5vmin;
+  padding: 5vmin;
+}
+
+.about-the-author .about-layout {
+  display: flex;
+  gap: 5vmin;
+}
+
+.about-the-author #cs-portrait {
+  aspect-ratio: 3 / 4;
+  border-radius: 0.25rem;
+  inline-size: clamp(100px, 15vw, 150px);
+  rotate: 3deg;
+}
+
+.about-the-author h3 {
+  margin-block-start: 0;
+}
+
+.about-the-author p:last-child {
+  margin-block-end: 0;
 }
 
 /* cloud animation based on https://codepen.io/Mark_Bowley/pen/LYZEBq */

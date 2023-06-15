@@ -57,6 +57,47 @@ This method is very simple. You just let the user type in the date they want. It
 This final method is just a bit of a "left field" design. The advantage of it is that it's very easy to update using the tab key and arrow keys. By having the digits separated the range for each is only ever 10 so in theory it should mean less to change. If left blank it could be set to automatically shift the focus to the next input when a value is added. This makes it as fast to type the 4 digits as a single number input. The min, max and step attributes can limit the range for each digit. It's light on the DOM too with only 5 nodes. The disadvantage with this method is the validation - it's going to be a bit more involved, parsing the 4 digits as a single value to be checked and then highlighting the invalid digit(s) could be difficult. On a mobile device with a number pad it also means the pad flashing in and out quickly, which is not a great experience so it's only really suitable for desktop use.
 <p>I'm not sure I'd necessarily go running from the standard dropdown but some of the other methods are certainly possibilities and help keep the DOM smaller.</p>
 
+    <aside class="about-the-author">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../img/chris-smith-2023.webp"
+        alt="Chris Smith in summer 2023"
+      />
+    </div>
+    <div>
+      <h3>About the author</h3>
+      <p
+        >Chris is a senior front-end developer and team lead from the UK, making
+        web pages easy to use, fast and accessible since 1999.</p
+      >
+      <p
+        >Reach out on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="nofollow"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="nofollow"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://twitter.com/chris22smith/"
+          target="_blank"
+          rel="nofollow"
+          >Twitter</a
+        >.</p
+      >
+    </div>
+  </div>
+</aside>
+
     </article>
     <footer>
   <p>
