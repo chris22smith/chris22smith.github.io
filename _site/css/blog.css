@@ -37,6 +37,7 @@ a,
 a:link,
 a:visited {
   color: #06c;
+  text-underline-offset: 0.125em;
 }
 
 a:hover,
@@ -85,6 +86,7 @@ footer a:visited {
 article {
   background-color: #fff;
   border-radius: 1vmin;
+  color: #222;
   overflow: hidden;
   padding: 5vmin;
 }
@@ -240,6 +242,7 @@ hr {
 
 .about-the-author {
   background-color: #eee;
+  color: #000;
   margin: 5vmin -5vmin -5vmin -5vmin;
   padding: 5vmin;
 }
@@ -350,4 +353,53 @@ hr {
   inset-inline-end: 50px;
   inset-block-start: -90px;
   inline-size: 180px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #017;
+    background-image: linear-gradient(115deg, #017, #770, #701);
+  }
+  body:before {
+    background-image: linear-gradient(115deg, #017, #017, #770, #701, #701);
+  }
+  article {
+    background-color: #222;
+    color: #ddd;
+  }
+  .subhead {
+    color: #999;
+  }
+  .about-the-author {
+    background-color: #333;
+    color: #eee;
+  }
+  a,
+  a:link,
+  a:visited {
+    color: #6cf;
+  }
+  .cloud,
+  .cloud:after,
+  .cloud:before {
+    background: #889;
+  }
+  .post-list > li {
+    background-color: #323;
+  }
+  .post-list > li:nth-child(5n + 1) {
+    background-color: #234;
+  }
+
+  .post-list > li:nth-child(5n + 2) {
+    background-color: #332;
+  }
+
+  .post-list > li:nth-child(5n + 3) {
+    background-color: #232;
+  }
+
+  .post-list > li:nth-child(5n + 4) {
+    background-color: #432;
+  }
 }
