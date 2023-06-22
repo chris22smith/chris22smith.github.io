@@ -33,6 +33,13 @@ body:before {
   }
 }
 
+.icon {
+  block-size: 1em;
+  inline-size: 1em;
+  margin: 0 0.125em;
+  vertical-align: -0.125em;
+}
+
 a,
 a:link,
 a:visited {
@@ -60,8 +67,7 @@ header {
   position: relative;
 }
 
-header p,
-footer p {
+header p {
   background-color: #000;
   color: #fff;
   display: inline-block;
@@ -76,11 +82,25 @@ header p .ext {
   font-size: small;
 }
 
-footer p a,
+footer p {
+  background-color: #000;
+  color: #fff;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.25rem 1rem;
+  text-shadow: 0.125rem 0.125rem rgb(255 255 255 / 25%);
+  transform: rotate(-3deg);
+}
+
+footer a,
 footer a:link,
 footer a:visited {
   color: #dd0;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 article {
