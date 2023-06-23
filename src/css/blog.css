@@ -314,7 +314,7 @@ hr {
 }
 
 .cloud:nth-child(1) {
-  animation: animateCloud 45s linear infinite;
+  animation: animateCloud 30s linear infinite;
   scale: 0.45;
 }
 
@@ -324,17 +324,17 @@ hr {
 }
 
 .cloud:nth-child(3) {
-  animation: animateCloud 50s linear infinite;
+  animation: animateCloud 30s linear infinite;
   scale: 0.5;
 }
 
 .cloud:nth-child(4) {
-  animation: animateCloud 40s linear infinite;
+  animation: animateCloud 30s linear infinite;
   scale: 0.4;
 }
 
 .cloud:nth-child(5) {
-  animation: animateCloud 55s linear infinite;
+  animation: animateCloud 30s linear infinite;
   scale: 0.55;
 }
 
