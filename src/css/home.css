@@ -1,8 +1,10 @@
 /* mobile first */
 
 #cs-portrait {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1;
+  border: solid 0.25rem #d07;
   border-radius: 0.25rem;
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   inline-size: 100%;
   rotate: 3deg;
 }
@@ -19,7 +21,7 @@
     gap: 2rem;
   }
   #cs-portrait {
-    block-size: 267px;
+    block-size: 200px;
     inline-size: 200px;
   }
   .post-list > li {

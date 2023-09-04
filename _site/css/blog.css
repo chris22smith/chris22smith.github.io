@@ -4,27 +4,28 @@
 
 body {
   background-color: #07d;
-  background-image: linear-gradient(115deg, #07d, #dd0, #d07);
+  /* background-image: linear-gradient(115deg, #07d, #dd0, #d07); */
+  background-image: linear-gradient(
+    45deg,
+    #dd0077 30%,
+    #777777 30%,
+    #777777 40%,
+    #dddd00 40%,
+    #dddd00 50%,
+    #dd0077 50%,
+    #dd0077 80%,
+    #777777 80%,
+    #777777 90%,
+    #dddd00 90%,
+    #dddd00 100%
+  );
+  background-size: 70.71px 70.71px;
   font-family: sans-serif;
   font-size: clamp(12px, 0.5rem + 1vw, 20px);
   margin: 0;
   min-block-size: 100vh;
   padding: 10vmin 5vw;
   position: relative;
-}
-
-body:before {
-  animation: move 30s linear infinite;
-  background-image: linear-gradient(115deg, #07d, #07d, #dd0, #d07, #d07);
-  border-radius: 50%;
-  content: "";
-  block-size: 200vmax;
-  inset-inline-start: 50%;
-  position: fixed;
-  inset-block-start: 50%;
-  translate: -50% -50%;
-  inline-size: 200vmax;
-  z-index: -1;
 }
 
 @keyframes move {
@@ -107,6 +108,7 @@ article {
   background-color: #fff;
   border-radius: 1vmin;
   color: #222;
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   overflow: hidden;
   padding: 5vmin;
 }
@@ -118,7 +120,7 @@ header a {
 
 h1 {
   color: #d07;
-  font-family: "Shantell Sans", cursive;
+  font-family: "Russo One", sans-serif;
   font-size: 3em;
   margin: 0 0 1rem 0;
   text-wrap: balance;
@@ -136,7 +138,7 @@ address {
 
 h2 {
   color: #d07;
-  font-family: "Shantell Sans", cursive;
+  font-family: "Russo One", sans-serif;
 }
 
 p,
@@ -171,22 +173,6 @@ ul {
   padding: 1rem;
   position: relative;
   transition: background-color 0.2s ease-in-out;
-}
-
-.post-list > li:nth-child(5n + 1) {
-  background-color: #def;
-}
-
-.post-list > li:nth-child(5n + 2) {
-  background-color: #ffe;
-}
-
-.post-list > li:nth-child(5n + 3) {
-  background-color: #efe;
-}
-
-.post-list > li:nth-child(5n + 4) {
-  background-color: #fed;
 }
 
 .post-list > li:hover {
@@ -273,106 +259,21 @@ hr {
 }
 
 .about-the-author #cs-portrait {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1;
+  border: solid 0.25rem #d07;
   border-radius: 0.25rem;
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   inline-size: clamp(100px, 15vw, 150px);
   rotate: 3deg;
 }
 
 .about-the-author h3 {
+  font-family: "Russo One", sans-serif;
   margin-block-start: 0;
 }
 
 .about-the-author p:last-child {
   margin-block-end: 0;
-}
-
-/* cloud animation based on https://codepen.io/Mark_Bowley/pen/LYZEBq */
-
-.cloud-animation {
-  inset: 0;
-  overflow: hidden;
-  padding-block-start: 50px;
-  position: absolute;
-  z-index: -1;
-}
-
-@media (prefers-reduced-motion: reduce), (width <= 559px) {
-  .cloud-animation,
-  body:before {
-    display: none;
-  }
-}
-
-@keyframes animateCloud {
-  0% {
-    translate: -100vw 0;
-  }
-  100% {
-    translate: calc(100vw + 350px) 50vh;
-  }
-}
-
-.cloud:nth-child(1) {
-  animation: animateCloud 30s linear infinite;
-  scale: 0.45;
-}
-
-.cloud:nth-child(2) {
-  animation: animateCloud 30s linear infinite;
-  scale: 0.3;
-}
-
-.cloud:nth-child(3) {
-  animation: animateCloud 30s linear infinite;
-  scale: 0.5;
-}
-
-.cloud:nth-child(4) {
-  animation: animateCloud 30s linear infinite;
-  scale: 0.4;
-}
-
-.cloud:nth-child(5) {
-  animation: animateCloud 30s linear infinite;
-  scale: 0.55;
-}
-
-.cloud {
-  background: #eef;
-  /* background-image: linear-gradient(#fff 5%, #f1f1f1 100%); */
-  border-radius: 100px;
-  /* box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1); */
-  /* filter: blur(8px); */
-  block-size: 120px;
-  /* opacity: 0.8; */
-  position: relative;
-  /* transform: scale(1.5, 1); */
-  inline-size: 350px;
-}
-
-.cloud:after,
-.cloud:before {
-  background: #eef;
-  content: "";
-  position: absolute;
-  z-index: -1;
-}
-
-.cloud:after {
-  border-radius: 100px;
-  block-size: 100px;
-  inset-inline-start: 50px;
-  inset-block-start: -50px;
-  inline-size: 100px;
-}
-
-.cloud:before {
-  border-radius: 200px;
-  block-size: 180px;
-  inset-inline-end: 50px;
-  inset-block-start: -90px;
-  inline-size: 180px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -399,27 +300,7 @@ hr {
   a:visited {
     color: #6cf;
   }
-  .cloud,
-  .cloud:after,
-  .cloud:before {
-    background: #889;
-  }
   .post-list > li {
     background-color: #323;
-  }
-  .post-list > li:nth-child(5n + 1) {
-    background-color: #234;
-  }
-
-  .post-list > li:nth-child(5n + 2) {
-    background-color: #332;
-  }
-
-  .post-list > li:nth-child(5n + 3) {
-    background-color: #232;
-  }
-
-  .post-list > li:nth-child(5n + 4) {
-    background-color: #432;
   }
 }
