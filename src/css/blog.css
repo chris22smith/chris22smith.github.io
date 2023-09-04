@@ -277,13 +277,6 @@ hr {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #017;
-    background-image: linear-gradient(115deg, #017, #770, #701);
-  }
-  body:before {
-    background-image: linear-gradient(115deg, #017, #017, #770, #701, #701);
-  }
   article {
     background-color: #222;
     color: #ddd;
