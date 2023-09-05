@@ -44,7 +44,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #06c;
+  color: #6cf;
   text-underline-offset: 0.125em;
 }
 
@@ -105,9 +105,9 @@ footer a:visited {
 }
 
 article {
-  background-color: #fff;
+  background-color: #222;
   border-radius: 1vmin;
-  color: #222;
+  color: #ddd;
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   overflow: hidden;
   padding: 5vmin;
@@ -127,7 +127,7 @@ h1 {
 }
 
 .subhead {
-  color: #757575;
+  color: #999;
   margin-block-end: 2rem;
   text-align: end;
 }
@@ -162,7 +162,7 @@ ul {
 }
 
 .post-list > li {
-  background-color: #fef;
+  background-color: #444;
   border: solid 1px #d07;
   border-radius: 0.25rem;
   display: flex;
@@ -247,8 +247,8 @@ hr {
 }
 
 .about-the-author {
-  background-color: #eee;
-  color: #000;
+  background-color: #333;
+  color: #eee;
   margin: 5vmin -5vmin -5vmin -5vmin;
   padding: 5vmin;
 }
@@ -276,24 +276,24 @@ hr {
   margin-block-end: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   article {
-    background-color: #222;
-    color: #ddd;
+    background-color: #fff;
+    color: #222;
   }
   .subhead {
-    color: #999;
+    color: #757575;
   }
   .about-the-author {
-    background-color: #333;
-    color: #eee;
+    background-color: #eee;
+    color: #000;
   }
   a,
   a:link,
   a:visited {
-    color: #6cf;
+    color: #06c;
   }
   .post-list > li {
-    background-color: #323;
+    background-color: #fef;
   }
 }
