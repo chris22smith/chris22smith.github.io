@@ -74,7 +74,8 @@ footer {
 }
 
 header div {
-  background-color: #444;
+  align-items: center;
+  background-color: #333;
   border-radius: 1vmin 1vmin 0 0;
   color: #fff;
   display: flex;
@@ -89,7 +90,7 @@ header div .ext {
 }
 
 footer div {
-  background-color: #222;
+  background-color: #333;
   border-radius: 0 0 1vmin 1vmin;
   color: #fff;
   display: flex;
