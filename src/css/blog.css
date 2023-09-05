@@ -60,48 +60,44 @@ a:active {
 
 header,
 footer {
-  font-family: monospace;
-  padding: 0 5vmin;
-}
-
-header {
+  display: flex;
+  padding: 0 2vmin;
   position: relative;
 }
 
-header p {
-  background-color: #000;
-  color: #fff;
-  display: inline-block;
-  margin: 0;
-  padding: 0.25rem 0.75rem;
-  text-shadow: 0.125rem 0.125rem rgb(255 255 255 / 25%);
-  transform: rotate(-3deg);
+header {
+  justify-content: space-between;
 }
 
-header p .ext {
-  color: #dd0 !important;
+footer {
+  justify-content: flex-end;
+}
+
+header div {
+  background-color: #444;
+  border-radius: 1vmin 1vmin 0 0;
+  color: #fff;
+  display: flex;
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
+  gap: 1rem;
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+}
+
+header div .ext {
   font-size: small;
 }
 
-footer p {
-  background-color: #000;
+footer div {
+  background-color: #222;
+  border-radius: 0 0 1vmin 1vmin;
   color: #fff;
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 1rem;
-  justify-content: space-between;
+  display: flex;
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
+  gap: 1rem;
+  justify-content: flex-end;
   margin: 0;
-  padding: 0.25rem 1rem;
-  text-shadow: 0.125rem 0.125rem rgb(255 255 255 / 25%);
-  transform: rotate(-3deg);
-}
-
-footer a,
-footer a:link,
-footer a:visited {
-  color: #dd0;
-  text-decoration: none;
-  white-space: nowrap;
+  padding: 0.25rem 0.75rem;
 }
 
 article {
@@ -111,10 +107,12 @@ article {
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   overflow: hidden;
   padding: 5vmin;
+  position: relative;
+  z-index: 1;
 }
 
 header a {
-  color: #fff !important;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -163,9 +161,10 @@ ul {
 
 .post-list > li {
   background-color: #444;
-  border: solid 1px #d07;
+  border: solid 2px #d07;
   border-radius: 0.25rem;
   display: flex;
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   flex-direction: column;
   gap: 1rem;
   justify-content: space-between;
@@ -277,9 +276,15 @@ hr {
 }
 
 @media (prefers-color-scheme: light) {
-  article {
+  article,
+  header div,
+  footer div {
     background-color: #fff;
     color: #222;
+  }
+  header div,
+  footer div {
+    background-color: #eee;
   }
   .subhead {
     color: #757575;
@@ -294,6 +299,16 @@ hr {
     color: #06c;
   }
   .post-list > li {
-    background-color: #fef;
+    background-color: #eee;
   }
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  block-size: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  inline-size: 1px;
 }
