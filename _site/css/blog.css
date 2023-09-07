@@ -78,7 +78,6 @@ footer {
 header div {
   align-items: center;
   border-radius: 1vmin 1vmin 0 0;
-  color: #fff;
   display: flex;
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   gap: 1rem;
@@ -114,6 +113,7 @@ header a {
   block-size: 2.5rem;
   border: solid 0.25rem #222;
   border-radius: 50%;
+  color: #fff !important;
   display: flex;
   inline-size: 2.5rem;
   justify-content: center;
@@ -139,29 +139,18 @@ header a:hover {
 
 .codepen {
   background-color: #000;
-  color: #fff !important;
 }
 
 .mastodon {
-  background-color: #fff;
-  color: #6364ff !important;
-}
-
-.mastodon .icon {
-  block-size: 1.5em;
-  inline-size: 1.5em;
-  margin: 0 0.125em;
-  vertical-align: -0.125em;
+  background-color: #6364ff;
 }
 
 .x-twitter {
   background-color: #000;
-  color: #fff !important;
 }
 
 .feed {
   background-color: #f82;
-  color: #fff !important;
 }
 
 h1 {
