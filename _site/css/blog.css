@@ -66,7 +66,9 @@ footer {
 }
 
 header {
+  inset-block-start: 1rem;
   justify-content: space-between;
+  z-index: 2;
 }
 
 footer {
@@ -75,7 +77,6 @@ footer {
 
 header div {
   align-items: center;
-  background-color: #333;
   border-radius: 1vmin 1vmin 0 0;
   color: #fff;
   display: flex;
@@ -83,10 +84,6 @@ header div {
   gap: 1rem;
   margin: 0;
   padding: 0.25rem 0.75rem;
-}
-
-header div .ext {
-  font-size: small;
 }
 
 footer div {
@@ -113,8 +110,53 @@ article {
 }
 
 header a {
-  color: #fff;
+  block-size: 2.5rem;
+  border: solid 0.25rem #222;
+  border-radius: 50%;
+  inline-size: 2.5rem;
   text-decoration: none;
+}
+
+.home {
+  background-color: #d07;
+  block-size: 2rem;
+  border-radius: 50%;
+  color: #fff !important;
+  display: inline-block;
+  font-family: "Russo One", sans-serif;
+  inline-size: 2rem;
+  padding: 4px 3px;
+}
+
+.codepen {
+  background-color: #000;
+  color: #fff !important;
+  padding: 6px 4px;
+}
+
+.mastodon {
+  background-color: #fff;
+  color: #6364ff !important;
+  padding: 2px 0;
+}
+
+.mastodon .icon {
+  block-size: 1.5em;
+  inline-size: 1.5em;
+  margin: 0 0.125em;
+  vertical-align: -0.125em;
+}
+
+.x-twitter {
+  background-color: #000;
+  color: #fff !important;
+  padding: 6px 6px;
+}
+
+.feed {
+  background-color: #f82;
+  color: #fff !important;
+  padding: 6px 4px;
 }
 
 h1 {
@@ -278,14 +320,15 @@ hr {
 
 @media (prefers-color-scheme: light) {
   article,
-  header div,
   footer div {
     background-color: #fff;
     color: #222;
   }
-  header div,
   footer div {
     background-color: #eee;
+  }
+  header a {
+    border-color: #fff;
   }
   .subhead {
     color: #757575;
