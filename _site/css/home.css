@@ -25,6 +25,6 @@
     inline-size: 200px;
   }
   .post-list > li {
-    display: block !important;
+    display: flex !important;
   }
 }
