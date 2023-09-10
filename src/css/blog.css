@@ -118,7 +118,7 @@ header a {
   inline-size: 2.5rem;
   justify-content: center;
   text-decoration: none;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 header a:hover {
@@ -127,7 +127,6 @@ header a:hover {
 
 .home {
   background-color: #d07;
-  color: #fff !important;
 }
 
 .home span:first-child {

@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/icon-192.png");
   eleventyConfig.addPassthroughCopy("src/icon-512.png");
   eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
+  eleventyConfig.addPassthroughCopy("src/sw.js");
   eleventyConfig.addPassthroughCopy("src/_redirects");
   return {
     dir: {
