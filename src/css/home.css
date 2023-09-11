@@ -21,8 +21,8 @@
     gap: 2rem;
   }
   #cs-portrait {
-    block-size: 200px;
-    inline-size: 200px;
+    block-size: 240px;
+    inline-size: 240px;
   }
   .post-list > li {
     display: flex !important;
