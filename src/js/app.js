@@ -4,14 +4,14 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-window.addEventListener("beforeinstallprompt", (event) => {
-  console.log("beforeinstallprompt fired");
-  event.preventDefault();
-  deferredPrompt = event;
-  return false;
-});
-
 // run this to trigger the prompt when required
+// window.addEventListener("beforeinstallprompt", (event) => {
+//   console.log("beforeinstallprompt fired");
+//   event.preventDefault();
+//   deferredPrompt = event;
+//   return false;
+// });
+
 // if (deferredPrompt) {
 //   deferredPrompt.prompt();
 //   deferredPrompt.userChoice.then((choiceResult) => {
