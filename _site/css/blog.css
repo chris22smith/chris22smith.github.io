@@ -114,6 +114,7 @@ header a {
   border-radius: 50%;
   color: #fff !important;
   display: flex;
+  font-size: 20px;
   inline-size: 2.5rem;
   justify-content: center;
   text-decoration: none;
