@@ -8,7 +8,7 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
 
 <div class="home-intro-layout">
   <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023">
+    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
   </div>
   <div>
     <h2>Hello World</h2>
