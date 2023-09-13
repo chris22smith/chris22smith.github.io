@@ -1,4 +1,4 @@
-const cacheStaticName = "static-v1";
+const cacheStaticName = "static-v2";
 const cacheDynamicName = "dynamic-v1";
 
 self.addEventListener("install", (event) => {
@@ -9,6 +9,8 @@ self.addEventListener("install", (event) => {
       cache.addAll([
         "/",
         "index.html",
+        "offline.html",
+        "img/offline-dino.webp",
         "/css/blog.css",
         "/css/home.css",
         "/img/chris-smith-cartoon-2023.webp",

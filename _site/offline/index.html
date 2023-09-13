@@ -20,13 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
-    <title>The Information Hungry Search Box</title>
+    <title>Offline :(</title>
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="We&#39;re all used to the idea of search boxes on websites">
+    <meta name="description" content="You&#39;re offline but don&#39;t worry, you can still use this site.">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,41 +125,39 @@
 </header>
 
     <article>
-      <h1>The Information Hungry Search Box</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-10-27T13:04:32.000Z">27 October 2008</time>
-      </div>      
-    <p>We're all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It's a quick and easy way of finding something without having to drill down through endless options.</p>
-<p>From the web developer's point of view it's a great tool which increases a website's usability. From the web marketer's point of view it can do more.</p>
-<p>By capturing the text typed into the search box the website owner can see what his/her visitors are searching for. This may be for existing products or it could be that they are searching for something not offered. Capturing and analysing this information can help have several benefits.</p>
-<p>It can show where perhaps the wrong keywords are being used. It's unwise to advertise the services of a &quot;Heating Engineer&quot; when everybody is searching for a &quot;plumber&quot;. Finding the right keywords allows you to change your text and tags and bring you closer to your potential customers.</p>
-<p>It can help to shape a website's navigation. If a particular area is of far greater interest than others it can be made more prominent on the site. You may even notice seasonal trends.</p>
-<p>Where the search text is for products or services not offered by the website it brings the opportunity of developing the product/service range or working with partners to deliver these to the website visitor.</p>
-<p>To effectively capture this kind of data you need to not only log the text eneterd into the search box but also the time, date and the user's IP address. This additional information allows you to spot any duplicate results - there's a big difference between one person searching for something ten times and ten people searching for something once. The date and time data allows you to see any seasonal trends or possible responses to any other marketing campaigns.</p>
-<p>Even on a small website, which wouldn't normally merit a search box, using this tool can provide you quickly and easily with details of what your website visitors want.</p>
+      <h1>Offline :(</h1>
+    <p>You're offline right now but don't worry, any pages you've visted before will be cached so you can still access them.</p>
+<div class="dino-container">
+    <img src="../img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
+</div>
+<style>
+    .dino-container {
 
-    <aside class="about-the-author">
-  <div class="about-layout">
-    <div>
-      <img id="cs-portrait" src="../../img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" />
-    </div>
-    <div>
-      <h3>About the author</h3>
-      <p>
-        Chris is a senior front-end developer and team lead from the UK, making web pages easy to use, fast and
-        accessible since 1999.
-      </p>
-      <p>
-        Reach out on <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
-        <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
-        and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (Twitter)</a>.
-      </p>
-    </div>
-  </div>
-</aside>
+    }
+    .dino {
+        animation: run 5s infinite 2s;
+        block-size: 10vw;
+        inline-size: 10vw;
+    }
+
+    @keyframes run {
+        0% {
+
+        }
+        40% {
+            transform: translateX(min(80vw,45rem));
+        }
+        50% {
+            transform: rotateY(180deg);
+        }
+        60% {
+            transform: translateX(max(-80vw,-45rem));
+        }
+        90% {
+            transform: rotateY(180deg);
+        }
+    }
+</style>
 
     </article>
     <footer>
