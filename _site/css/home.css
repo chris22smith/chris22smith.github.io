@@ -2,11 +2,12 @@
 
 #cs-portrait {
   aspect-ratio: 1;
+  block-size: 100%;
   border: solid 0.25rem #d07;
   border-radius: 0.25rem;
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   inline-size: 100%;
-  rotate: 3deg;
+  transform: rotate(3deg);
 }
 
 .post-list > li:nth-child(n + 4) {
