@@ -1,5 +1,5 @@
-const cacheStaticName = "static-v6";
-const cacheDynamicName = "dynamic-v3";
+const cacheStaticName = "static-v8";
+const cacheDynamicName = "dynamic-v5";
 
 self.addEventListener("install", (event) => {
   console.log("[Service Worker] Installing service worker...", event);
@@ -8,13 +8,12 @@ self.addEventListener("install", (event) => {
       console.log("[Service Worker] Precaching app shell...");
       cache.addAll([
         "/",
-        "index.html",
-        "offline.html",
-        "img/offline-dino.webp",
+        "/offline",
+        "/img/offline-dino.webp",
         "/css/blog.css",
         "/css/home.css",
         "/img/chris-smith-cartoon-2023.webp",
-        "favicon.ico",
+        "/favicon.ico",
         "https://fonts.googleapis.com",
         "https://fonts.gstatic.com",
         "https://fonts.googleapis.com/css2?family=Russo+One&display=swap",
@@ -60,7 +59,11 @@ self.addEventListener("fetch", (event) => {
               return res;
             });
           })
-          .catch((error) => {});
+          .catch((error) => {
+            return caches.open(cacheStaticName).then((cache) => {
+              return cache.match("/offline");
+            });
+          });
       }
     })
   );
