@@ -1,4 +1,4 @@
-const cacheStaticName = "static-v8";
+const cacheStaticName = "static-v10";
 const cacheDynamicName = "dynamic-v5";
 
 self.addEventListener("install", (event) => {
@@ -8,7 +8,7 @@ self.addEventListener("install", (event) => {
       console.log("[Service Worker] Precaching app shell...");
       cache.addAll([
         "/",
-        "/offline",
+        "/offline/",
         "/img/offline-dino.webp",
         "/css/blog.css",
         "/css/home.css",
@@ -61,7 +61,7 @@ self.addEventListener("fetch", (event) => {
           })
           .catch((error) => {
             return caches.open(cacheStaticName).then((cache) => {
-              return cache.match("/offline");
+              return cache.match("/offline/");
             });
           });
       }
