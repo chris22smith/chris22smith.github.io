@@ -1,4 +1,4 @@
-const cacheStaticName = "static-v10";
+const cacheStaticName = "static-v11";
 const cacheDynamicName = "dynamic-v5";
 
 self.addEventListener("install", (event) => {
@@ -14,8 +14,8 @@ self.addEventListener("install", (event) => {
         "/css/home.css",
         "/img/chris-smith-cartoon-2023.webp",
         "/favicon.ico",
-        "https://fonts.googleapis.com",
-        "https://fonts.gstatic.com",
+        // "https://fonts.googleapis.com",
+        // "https://fonts.gstatic.com",
         "https://fonts.googleapis.com/css2?family=Russo+One&display=swap",
       ]);
     })
