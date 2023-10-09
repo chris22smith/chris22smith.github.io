@@ -8,6 +8,28 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>How Widespread is Ad Blocking?</title>
+      <link>https://chrissmith.xyz/blog/how-widespread-is-ad-blocking/</link>
+      <description>&lt;p&gt;Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It&#39;s too much.&lt;/p&gt;
+&lt;p&gt;After not using them for over a decade, I&#39;ve now gone back to installing an ad blocker browser extension. And it mostly makes my experience of browsing the internet better. I can focus on the content I want without all the noise.&lt;/p&gt;
+&lt;p&gt;Now, whether or not we should use ad blockers, and deny sites this revenue stream, possibly their only revenue stream, is a whole debate in itself. I won&#39;t get into all that here. I&#39;m more interested in some other side effects I&#39;ve discovered from starting to use one again.&lt;/p&gt;
+&lt;h2&gt;Different Services&lt;/h2&gt;
+&lt;p&gt;As well as ad blocking browser extensions there are also VPN services that offer to block ads, internet or broadband providers who offer this as an extra, mobile network providers. When you start adding all of those up it could be quite a proportion of users.&lt;/p&gt;
+&lt;h2&gt;Tracking and Analytics&lt;/h2&gt;
+&lt;p&gt;From using my browser&#39;s console and network tabs I noticed that some content on my own sites is now being blocked. Tracking software, like Google Analytics, gets blocked. So, in theory, when I visit a page now, the owner will not know. This got me thinking. How many people are using ad blockers and how does this affect the numbers we see in tools like Google Analytics?&lt;/p&gt;
+&lt;h2&gt;Numbers&lt;/h2&gt;
+&lt;p&gt;After some research, reading a few posts from the last couple of years, I got some percentages. The numbers being from different sources varied but they all seemed to agree on certain factors. The likelihood of using ad blocking varies by geography, age and device type. Younger people block more, mobile devices block more and the UK and US don&#39;t block as much as other nations. Maybe that&#39;s a capitalist, pro advertising thing? Who knows? Of all the big numbers quoted, the percentage estimated to be blocked ranged from about 30 to 40 percent. Not that much variation. It seems that most sources agree it&#39;s broadly in that range.&lt;/p&gt;
+&lt;p&gt;So, if we take a conservative estimate from this and work on the assumption it&#39;s roughly a third of users, what does that mean for our analytics data? Well it means that we might only be seeing two thirds of our actual traffic. So, maybe we should be estimating actual traffic at 1.5 times what is recorded.&lt;/p&gt;
+&lt;p&gt;If our site serves ads, maybe the numbers recorded in analytics tracking are an accurate reflection of how many visitors will see our ads.&lt;/p&gt;
+&lt;h2&gt;Handling Blockers&lt;/h2&gt;
+&lt;p&gt;If we know that a high proportion of visitors are blocking our ads, how does our page handle this content being blocked? Do we test this scenario, viewing the page with an ad blocker on? Can we serve alternate content (probably not more ads) if this fails to load? Maybe a message asking users for their support and requesting that they disable the ad blocker for this site?&lt;/p&gt;
+&lt;p&gt;Or we could even play hard ball and make loading content conditional on ads loading. I probably wouldn&#39;t recommend this route as you&#39;re putting your whole site at the mercy of another service&#39;s availability.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 09 Oct 2023 18:10:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/how-widespread-is-ad-blocking/</guid>
+    </item>
+    <item>
       <title>Practical Tips to Reduce your Carbon Footprint</title>
       <link>https://chrissmith.xyz/blog/practical-tips-to-reduce-your-carbon-footprint/</link>
       <description>&lt;p&gt;If you&#39;re a developer, like me, or someone who works on a computer all day, here are some ways you can reduce your carbon footprint. Essentially it&#39;s all about saving energy and reducing any wasted energy from our daily routine. If you work from home it can help reduce your energy bills too.&lt;/p&gt;
