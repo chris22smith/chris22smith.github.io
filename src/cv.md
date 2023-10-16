@@ -5,20 +5,26 @@ date: 2023-05-12 08:50:00
 description: "Curriculum Vitae for Chris Smith including all relevant skills and experience"
 ---
 
-### Senior Front End Developer and Team Lead
-
-chris22smith@gmail.com
-07526 110676
-
-he/him/his
+<link rel="stylesheet" href="../css/home.css">
 
 <section>
 
-## Summary
+## Senior Front End Developer and Team Lead
 
-I've been making websites and applications since 1999, always pushing to make them accessible, fast and easy to use. I'm experienced in designing and building complex components, user interfaces and design systems. I also have experience of design and user experience. In recent years I've moved into a team lead role, helping developers and testers to improve themselves and working processes.
+chris22smith@gmail.com | 07526 110676 | he/him/his
 
 </section>
+
+<div class="home-intro-layout">
+  <div>
+    <img id="cs-portrait" src="../img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
+  </div>
+  <div>
+    <h2>Summary</h2>
+    <p>Senior front end developer with 20+ years of experience designing and building websites, complex components, user interfaces and design systems. Passionate about UI design, user experience and accessibility. A team lead, helping developers and testers to improve themselves and engineering working processes. Always learning, always teaching.</p>
+  </div>
+</div>
+
 <section>
 
 ## Technical Skills
@@ -76,21 +82,23 @@ Monmouth School
 ## Experience
 
 **Development Team Lead** | 2012 - present  
-TELUS Agriculture & Consumer Goods (UK) Ltd (formerly Muddy Boots Software Ltd)
+[TELUS Agriculture & Consumer Goods (UK) Ltd](https://www.telus.com/agcg) <small class="subtle">(formerly Muddy Boots Software Ltd)</small>
 
-This role has evolved over the years from being a Front End Developer, designing and developing UIs, through to a Development Team Lead working on design systems, components and applications. The company makes software for the food and agriculture industries, making food safe and sustainable. Lots of big name customers including Unilever, Morrisons, Waitrose, Aldi, M&S, graze and Cargill.
+Designing and building design systems, components and applications. Notable achievements include implementing a set of technical standards for front end development and rebranding multiple applications.
+
+The company makes software for the food and agriculture industries, making food safe and sustainable. Lots of big name customers including Unilever, Morrisons, Waitrose, Aldi and M&S.
 
 ---
 
 **Web Developer** | 2019 - 2020  
-Fantasy Football Scout Ltd
+[Fantasy Football Scout Ltd](https://www.fantasyfootballscout.co.uk/)
 
-Helped design and build some new features and improve some older parts of the site in my spare time. This was quite data heavy, displaying stats for fantasy football games.
+Helped design and build some new features and improve some older parts of the site in my spare time. I leant my front end and design skills to this site which has articles and stats for fantasy football games.
 
 ---
 
 **Website Development Officer** | 2005 - 2012  
-Coleg Powys (now part of Neath Port Talbot Group of Colleges)
+Coleg Powys <small class="subtle">(now part of Neath Port Talbot Group of Colleges)</small>
 
 Created and maintained a bilingual website (WordPress), online course catalogue (custom .NET app) and intranet (SharePoint) for this further education college. Managed digital marketing campaigns. In 2008 I achieved a distinction in the Chartered Institute of Marketing's eMarketing Award.
 
@@ -104,7 +112,7 @@ Worked freelance for a while, making websites for small businesses and hobbyists
 ---
 
 **Sales & Marketing Support** | 1999 - 2004  
-Cavendish Hospitality (now AOK Cavendish)
+Cavendish Hospitality <small class="subtle">(now AOK Cavendish)</small>
 
 Designed and maintained marketing assets and sales material including the company website for this corporate hospitality company. Projects included 2 Rugby World Cups, the Commonwealth Games as well as a full calendar of national sporting and cultural events.
 
@@ -113,7 +121,7 @@ Designed and maintained marketing assets and sales material including the compan
 **Customer Service** | 1998 - 1999  
 Viskase (UK) Ltd
 
-Processing telephone orders in a busy sales office. Built a sample requesting service for sales reps in Lotus Notes. Company made sausage casings and packaging for meat and cheese products. "The film industry" ;)
+Processing telephone orders in a busy international sales office using my language skills. Built a sample requesting service for sales reps in Lotus Notes. Company made sausage casings and packaging for meat and cheese products.
 
 </section>
 <section>
@@ -122,25 +130,31 @@ Processing telephone orders in a busy sales office. Built a sample requesting se
 
 I play an active role in the web dev community, experimenting and sharing ideas and opinions.
 
-**Website** | [https://chrissmith.xyz](https://chrissmith.xyz)  
-My personal website, a blog about web development.
+**Website**  
+[https://chrissmith.xyz](https://chrissmith.xyz)  
+My own personal blog about web development, which has posts dating back to 2008, originally self-hosted on WordPress, now built with Eleventy and Markdown.
 
-**CodePen** | [https://codepen.io/chris22smith](https://codepen.io/chris22smith)  
-Experimenting and shamelessly showing off my front end skills.
+**CodePen**  
+[https://codepen.io/chris22smith](https://codepen.io/chris22smith)  
+I’ve been using this front end playground for experimenting and showcasing my front end skills since 2013. In 2022 I chatted to co-founder Chris Coyier on the podcast.  
+[https://blog.codepen.io/2022/05/25/369-with-chris-smith/](https://blog.codepen.io/2022/05/25/369-with-chris-smith/)
 
-In 2022 I was invited onto the CodePen podcast. | [https://blog.codepen.io/2022/05/25/369-with-chris-smith/](https://blog.codepen.io/2022/05/25/369-with-chris-smith/)
-
-**Twitter** | [https://twitter.com/chris22smith](https://twitter.com/chris22smith)  
-Healthy web dev following but used less in recent times.
-
-**Mastodon** | [https://home.social/@chris22smith](https://home.social/@chris22smith)  
-This is where I now follow influential web devs.
+**Social Media**  
+[https://twitter.com/chris22smith](https://twitter.com/chris22smith) | [https://home.social/@chris22smith](https://home.social/@chris22smith)  
+Joined X (formerly twitter) in 2009, mostly talking about web dev. At its height I had 3,000 followers. Most high profile devs have now migrated to Mastodon so I’ve joined them.
 
 </section>
 <section>
 
 ## Interests
 
-Outside of work, I'm a keen football fan. I like playing 5-a-side and fantasy games. I go running, just for fitness now but have done several half-marathons in the past. I play guitar and bass, learning drums.
+**Football**  
+I’m a big football fan. I like watching games and playing fantasy football. I also play 5-a-side every week.
+
+**Running**  
+I go running, just for fitness now but have done several half-marathons in the past.
+
+**Music**  
+I play guitar and bass, learning drums.
 
 </section>
