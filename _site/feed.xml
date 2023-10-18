@@ -8,6 +8,25 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Pronunciation of Terms in Web Development</title>
+      <link>https://chrissmith.xyz/blog/pronunciation-of-terms-in-web-development/</link>
+      <description>&lt;p&gt;Yesterday I was on a call and mentioned that I&#39;d done some pattern matching using regex and as I said it I suddenly felt very self-conscious about how I&#39;d pronounced it.&lt;/p&gt;
+&lt;h2&gt;Regex&lt;/h2&gt;
+&lt;p&gt;Is it &amp;quot;reggex&amp;quot; with a hard G like &amp;quot;egg&amp;quot;, or &amp;quot;redgex&amp;quot; with a soft G like in &amp;quot;agenda&amp;quot;? I think we have probably all heard both at some point and so it&#39;s an unresolved question with no definitive right or wrong. What&#39;s interesting to me is where people land and why.&lt;/p&gt;
+&lt;p&gt;The word regex is a contracted form of &amp;quot;regular expression&amp;quot; so the original G is hard. Some people see this logic and want to preserve the original G sound. This preference is based in logic and showing you understand the origin.&lt;/p&gt;
+&lt;p&gt;Others worry less about the original sound and view it as a new independent word, approaching it as they would expect it to be pronounced. The EGE pattern is usually pronounced with a soft G sound, e.g. regenerate, egestion.&lt;/p&gt;
+&lt;p&gt;Some people may approach this from a natural language point of view but, if English is not their first language and they are more used to a hard G in this pattern, then they may swing this way.&lt;/p&gt;
+&lt;h2&gt;GIF&lt;/h2&gt;
+&lt;p&gt;The conversation that everybody hates. Is it pronounced like &amp;quot;gift&amp;quot; or &amp;quot;jiffy&amp;quot;? The origin is Graphical Interface Format with a hard G but English has words &amp;quot;git&amp;quot;, &amp;quot;gibbon&amp;quot; (hard G) and &amp;quot;ginger&amp;quot;, &amp;quot;gist&amp;quot; (soft G) as well as names &amp;quot;Gideon&amp;quot;, &amp;quot;Gillian&amp;quot;, so it&#39;s anyone&#39;s guess.&lt;/p&gt;
+&lt;p&gt;Git doesn&#39;t seem to have this debate and we&#39;re not starting it here. Maybe they learnt from GIF and went out of their way to make it definitive early?&lt;/p&gt;
+&lt;h2&gt;Whatever&lt;/h2&gt;
+&lt;p&gt;My inconclusive conclusion is that either is fine and we just shouldn&#39;t worry about it, no more than we worry about US vs UK English. They&#39;re different because we&#39;re from different backgrounds or wired differently, and that keeps things interesting.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 18 Oct 2023 18:10:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/pronunciation-of-terms-in-web-development/</guid>
+    </item>
+    <item>
       <title>How Widespread is Ad Blocking?</title>
       <link>https://chrissmith.xyz/blog/how-widespread-is-ad-blocking/</link>
       <description>&lt;p&gt;Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It&#39;s too much.&lt;/p&gt;

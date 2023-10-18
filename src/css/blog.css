@@ -276,7 +276,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #eee;
+  background-color: #333;
   margin: 1rem -5vmin;
   padding: 1rem 5vmin;
 }
@@ -340,6 +340,9 @@ hr {
     color: #06c;
   }
   .post-list > li {
+    background-color: #eee;
+  }
+  section:nth-child(odd) {
     background-color: #eee;
   }
 }
