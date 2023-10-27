@@ -230,7 +230,7 @@ ul {
 }
 
 code {
-  background-color: #eee;
+  background-color: #333;
   border-radius: 0.25em;
   display: inline-block;
   padding: 0 0.25em;
@@ -329,6 +329,9 @@ hr {
   }
   .subhead {
     color: #757575;
+  }
+  code {
+    background-color: #eee;
   }
   .about-the-author {
     background-color: #eee;
