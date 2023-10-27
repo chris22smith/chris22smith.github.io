@@ -1,5 +1,5 @@
-const cacheStaticName = "static-v14";
-const cacheDynamicName = "dynamic-v7";
+const cacheStaticName = "static-v15";
+const cacheDynamicName = "dynamic-v8";
 
 self.addEventListener("install", (event) => {
   console.log("[Service Worker] Installing service worker...", event);
@@ -8,7 +8,8 @@ self.addEventListener("install", (event) => {
       console.log("[Service Worker] Precaching app shell...");
       cache.addAll([
         "/",
-        "/offline/",
+        "/blog",
+        "/offline",
         "/img/offline-dino.webp",
         "/css/blog.css",
         "/css/home.css",

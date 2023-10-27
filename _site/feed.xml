@@ -8,6 +8,46 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>What to Validate on a Form</title>
+      <link>https://chrissmith.xyz/blog/what-to-validate-on-a-form/</link>
+      <description>&lt;p&gt;We all know that validating user input is a good idea but how do you decide on what rules to apply?&lt;/p&gt;
+&lt;h2&gt;What are the aims of validation?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Protecting us against any malicious input.&lt;/li&gt;
+&lt;li&gt;Protecting the system&#39;s data integrity.&lt;/li&gt;
+&lt;li&gt;Protecting the user against data entry mistakes.&lt;/li&gt;
+&lt;li&gt;Protecting our UI against things we&#39;re not able to output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What can we do?&lt;/h2&gt;
+&lt;p&gt;We can limit the data type by applying the appropriate input type attribute - number, date, email, url, etc. That will constrain the data to only the type expected. It may also help with input by bringing up the appropriate on screen keyboard.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;email&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We can constrain length or range with attributes like min, max, maxlength, minlength.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;number&amp;quot; min=&amp;quot;0&amp;quot; max=&amp;quot;100&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;We can do pattern matching, using regex to only accept certain string formats.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;text&amp;quot; pattern=&amp;quot;^[a-zA-Z0-9]$&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;What should we do?&lt;/h2&gt;
+&lt;p&gt;This is the harder question.&lt;/p&gt;
+&lt;h3&gt;Security&lt;/h3&gt;
+&lt;p&gt;Firstly, let&#39;s think about security and protecting against malicious intentions. We can use pattern matching to restrict the characters entered to only those that are needed. For example, a phone number field can be restricted to numbers and, if you&#39;re feeling generous, spaces, brackets and dashes. We should work out what characters are needed and use regex to only allow those.&lt;/p&gt;
+&lt;p&gt;The main thing to remember from a security point of view is to do this validation on the server as the front end can be bypassed. It&#39;s here for convenience, not security. It&#39;s the smiley person opening the door for guests, not the mean looking security guard.&lt;/p&gt;
+&lt;h3&gt;Constraints&lt;/h3&gt;
+&lt;p&gt;Thinking about the other considerations, let&#39;s set sensible minimum and maximum sizes on things.&lt;/p&gt;
+&lt;p&gt;How long or short can a phone number really be? If they&#39;re putting in something that&#39;s 30 digits long then chances are they&#39;ve accidentally pasted it twice, or are copying the wrong number from something else.&lt;/p&gt;
+&lt;p&gt;What&#39;s a reasonable length for a first name? Surely there comes a point, when it gets really long, when they have a shorter form they can use?&lt;/p&gt;
+&lt;p&gt;How far into the future can a date be set? Is there ever any point in setting something more than 30 years ahead? What are the chances of this system being around then and this data still being relevant?&lt;/p&gt;
+&lt;p&gt;There&#39;s a skill to making sure things aren&#39;t too open but not so closed as to cause a problem with genuine data.&lt;/p&gt;
+&lt;h3&gt;Ask for the right things&lt;/h3&gt;
+&lt;p&gt;Also, think about the tone and how the data will be used. If you put &amp;quot;First name&amp;quot; as your label you might get a different, more formal value than if you use &amp;quot;What shall we call you?&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Another option is to use warning prompts rather than an absolute pass or fail. If a name is long, you can prompt &amp;quot;That&#39;s a long name. Is there a shorter version you prefer to use?&amp;quot;. Or you could reveal a second input for a nickname or short name. That way you can accept the long form if they prefer but you&#39;re reducing the risk of handling something you might have to output ungracefully with ellipsis later.&lt;/p&gt;
+&lt;p&gt;We can use JavaScript to listen for the invalid event and reveal an alternative input.&lt;/p&gt;
+&lt;h3&gt;Tell them what you expect&lt;/h3&gt;
+&lt;p&gt;Asking someone to input some data without any instructions and then telling them off for doing it wrong is just rude. Give them hints with placeholders or some help text. As well as not annoying users it makes data entry much quicker.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 27 Oct 2023 15:30:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/what-to-validate-on-a-form/</guid>
+    </item>
+    <item>
       <title>Pronunciation of Terms in Web Development</title>
       <link>https://chrissmith.xyz/blog/pronunciation-of-terms-in-web-development/</link>
       <description>&lt;p&gt;Yesterday I was on a call and mentioned that I&#39;d done some pattern matching using regex and as I said it I suddenly felt very self-conscious about how I&#39;d pronounced it.&lt;/p&gt;
