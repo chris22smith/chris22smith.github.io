@@ -34,4 +34,4 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
   {%- endfor -%}
 </ul>
 
-[Big list of all posts](/blog)
+[Big list of all posts](/blog/)
