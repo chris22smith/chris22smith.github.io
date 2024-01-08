@@ -8,6 +8,133 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Rebranding Tips - Part 4 - Typography</title>
+      <link>https://chrissmith.xyz/blog/rebranding-tips-part-4-typography/</link>
+      <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Typography&lt;/h2&gt;
+&lt;p&gt;Typography is not just the font-family but also font weight, font size, the relative sizes and weights of different text elements and even what fallbacks are used.&lt;/p&gt;
+&lt;h2&gt;Consistency first&lt;/h2&gt;
+&lt;p&gt;Generally speaking most sites or apps don&#39;t use too many fonts, usually just one for headings or notable elements and one for the body text. With a site or app that isn&#39;t strictly organised it&#39;s well worth trying to align everything in the existing typography before starting. Make sure that headings are the right font, size and weight so that everything is consistent.&lt;/p&gt;
+&lt;p&gt;Theoretically, if everything is well organised then swapping out font families should be easy.&lt;/p&gt;
+&lt;h2&gt;Sizes and weights&lt;/h2&gt;
+&lt;p&gt;If one set of guidelines uses more or fewer styles than another it can harder to align everything. The focus should always be on the best result using the new system rather than simply finding the closest match. Look at how the new system wants sizes and weights to be used and try to work towards this. It can be phased, matching first and refining later if there&#39;s a tight timeline. Minor differences in size and weight usually go unnoticed.&lt;/p&gt;
+&lt;h2&gt;Accessibility&lt;/h2&gt;
+&lt;p&gt;It&#39;s important to make sure that your headings are used in a logical hierarchy as this can be used for screen reader navigation.&lt;/p&gt;
+&lt;p&gt;If a font has a particular character, for example, an art deco 1930s feel or a spiky horror film feel, then this should also be described to non screen users via aria attributes.&lt;/p&gt;
+&lt;p&gt;If a font is very ornate and not necessarily easy for everyone to read, for example in a title, it may be worth repeating its content in a title attribute so that it can be read on hover. This is almost treating it as if it were an image.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In this Rebranding Tips series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-1-logos&quot;&gt;Rebranding Tips - Part 1 - Logos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names&quot;&gt;Rebranding Tips - Part 2 - Brand Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-3-colours&quot;&gt;Rebranding Tips - Part 3 - Colours&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rebranding Tips - Part 4 - Typography&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Mon, 08 Jan 2024 16:33:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-4-typography/</guid>
+    </item>
+    <item>
+      <title>Rebranding Tips - Part 3 - Colours</title>
+      <link>https://chrissmith.xyz/blog/rebranding-tips-part-3-colours/</link>
+      <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Colours&lt;/h2&gt;
+&lt;p&gt;I&#39;ll start with an oddity. In a big codebase that had evolved over a long time with lots of different parts, I once counted 15 different versions of what was supposedly the same green. Some were a HTML colour name, some hex, some RGB.&lt;/p&gt;
+&lt;h2&gt;Consistency first&lt;/h2&gt;
+&lt;p&gt;This widespread variation of colours taught me something valuable. You can&#39;t just get into a replace operation. You need to get your old colours lined up first. If you can reach a point where each colour is defined once, with a single source of truth then it makes changing it much easier.&lt;/p&gt;
+&lt;p&gt;It&#39;s important to document your colour scheme somewhere where all designers and developers can get it easily so they use the right values. This is fairly standard practice these days but wasn&#39;t in the past and still might not be for smaller projects.&lt;/p&gt;
+&lt;p&gt;Once you have your well defined colours it&#39;s now relatively easy to switch out the old for the new but there can still be some hiccups.&lt;/p&gt;
+&lt;h2&gt;Colour frameworks&lt;/h2&gt;
+&lt;p&gt;Some colour schemes will have a primary colour and then neutrals - black white and various shades of grey. Others will have a primary and a secondary as well as neutrals. Moving from one colour list to another can be hard if they don&#39;t naturally align.&lt;/p&gt;
+&lt;h2&gt;Neutrals&lt;/h2&gt;
+&lt;p&gt;It&#39;s probably easiest to tackle the neutrals first. How many shades does each scheme contain? Your focus should not be on finding the nearest match for each but on how the new branding would want the various shades to be used. Is a light grey only intended to be used as an alternative background colour to white? Maybe it&#39;s not suitable for text as it doesn&#39;t have sufficient contrast against white. It&#39;s important to know what combinations of shades can be used together to provide enough contrast to be accessible.&lt;/p&gt;
+&lt;p&gt;If you&#39;re moving from a scheme which has 3 greys to one which has 10, rather than match 3 look at the branding guidelines or existing uses to see whcih is best for each use case. This is a lengthy process to do right but you do have the option of a phased approach, matching the closest shade initially and then taking a more refined approach later. In my experience people don&#39;t generally get offended by a shade of grey being suboptimal like they might with primary brand colours.&lt;/p&gt;
+&lt;h2&gt;Status colours&lt;/h2&gt;
+&lt;p&gt;Colours that are used exclusively to communicate statuses, such as success, errors, warnings, or information are usually quite straightforward to adapt. A well designed colour scheme should have these clearly defined.&lt;/p&gt;
+&lt;p&gt;I&#39;ve come across a situation where the old colour scheme had additional statuses that the new scheme did not consider. For example, we had &amp;quot;expired&amp;quot; (red/error), &amp;quot;expiring&amp;quot; (amber/warning), &amp;quot;valid&amp;quot; (green/success), &amp;quot;new&amp;quot; (blue/info) but also &amp;quot;pending&amp;quot;. In this case I chose to use a neutral grey so as not to introduce anything new from outside the overall colour scheme.&lt;/p&gt;
+&lt;h2&gt;Brand colours&lt;/h2&gt;
+&lt;p&gt;The use of the primary brand colour is usually the most contentious issue. Hopefully it&#39;s a like for like swap but it can be harder. I&#39;ve encounterted the situation where the old scheme had a single primary brand colour but the new scheme has 2 main colours. You need to work out what to use where and think about the balance.&lt;/p&gt;
+&lt;p&gt;Imagine a website for a coffee shop with an Italian theme, where the design is to use lots of green and red on white, like the Italian flag. I don&#39;t know if anything this corny really exists anywhere but it illustrates the point. It would need to use both colours for the idea to work so it can&#39;t just swap the old colour, say brown, to just red. This becomes quite a manual, design driven process so takes longer than a simple code change.&lt;/p&gt;
+&lt;p&gt;Of course, you may get the opposite where more colours become fewer, but that&#39;s much easier.&lt;/p&gt;
+&lt;h2&gt;Semantics&lt;/h2&gt;
+&lt;p&gt;To throw in a general bit of design theory, it&#39;s important for any interactive elements such as buttons or links to be obvious. Ideally you&#39;d use unique colours for links, not the same colour as headings, so that it&#39;s immediately obvious to a user what can be clicked and what can&#39;t.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In this Rebranding Tips series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-1-logos&quot;&gt;Rebranding Tips - Part 1 - Logos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names&quot;&gt;Rebranding Tips - Part 2 - Brand Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rebranding Tips - Part 3 - Colours&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-4-typography&quot;&gt;Rebranding Tips - Part 4 - Typography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Mon, 08 Jan 2024 16:32:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-3-colours/</guid>
+    </item>
+    <item>
+      <title>Rebranding Tips - Part 2 - Brand Names</title>
+      <link>https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names/</link>
+      <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Brand names&lt;/h2&gt;
+&lt;p&gt;You might think that updating brand names is as simple as a text find and replace but there can be more to it. Text can be hidden away in templates, config files and databases.&lt;/p&gt;
+&lt;h2&gt;Casing&lt;/h2&gt;
+&lt;p&gt;How a brand name appears in text can be important. Some names are always used in lowercase, some always uppercase, some title case and some sentence case. You have to be careful that this casing is how the text naturally appears is not set by CSS or JavaScript or somehow manipulated in the backend. It&#39;s probably a good idea to remove anything that sets this and make the natural text appear as expected.&lt;/p&gt;
+&lt;h2&gt;Context&lt;/h2&gt;
+&lt;p&gt;Another oddity I&#39;ve come across is that some names can contain a certain word or meaning that no longer fits the context. For example, if the old company name was &amp;quot;Oldco&amp;quot; and we had something that said &amp;quot;OldCo services&amp;quot; but the new company name is &amp;quot;NewCo Services&amp;quot; then &amp;quot;NewCo Services services&amp;quot; feels weird. You may need to manually check for how the name is used if it contains real words and rewrite some text.&lt;/p&gt;
+&lt;h2&gt;Email addresses&lt;/h2&gt;
+&lt;p&gt;If a domain is changing or we at least want to stop using the old name in any display text then there&#39;s a way of doing this. Suppose our page says &amp;quot;For help please email support@oldco.com&amp;quot;. It&#39;s mentioning OldCo, which we want to avoid. Instead of just substituting the new name email address (if there is one) it&#39;s better to change the link so that we get something like &amp;quot;For help please &amp;lt;email our support team&amp;gt;&amp;quot; with the text in angled brackets linked to the email address. This not only conceals the old domain name but now uses meaningful hyperlink text, which is better for user experience and accessibility.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In this Rebranding Tips series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-1-logos&quot;&gt;Rebranding Tips - Part 1 - Logos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rebranding Tips - Part 2 - Brand Names&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-3-colours&quot;&gt;Rebranding Tips - Part 3 - Colours&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-4-typography&quot;&gt;Rebranding Tips - Part 4 - Typography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Mon, 08 Jan 2024 16:31:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names/</guid>
+    </item>
+    <item>
+      <title>Rebranding Tips - Part 1 - Logos</title>
+      <link>https://chrissmith.xyz/blog/rebranding-tips-part-1-logos/</link>
+      <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Logos&lt;/h2&gt;
+&lt;p&gt;At the face of it, switching out an old logo for a new one seems pretty straightforward and it kind of is, but rather than just switch can we take the opportunity to improve the implementation?&lt;/p&gt;
+&lt;h2&gt;Performance and optimisation&lt;/h2&gt;
+&lt;p&gt;When we add the new logo, we probably have the opportunity to use a newer image format, SVG, WebP or AVIF. SVG&#39;s vector format will improve sharpness and the others will reduce file size. For the non vector formats I&#39;d suggest serving an image that is 2 to 2.5 times the size displayed on screen so the pixel density is high and it looks crisp on high quality displays. So, if it shows at 200px wide by 100px high, use a 500x250 original.&lt;/p&gt;
+&lt;h2&gt;Accessibility&lt;/h2&gt;
+&lt;p&gt;It&#39;s also worth ensuring that it&#39;s accessible. If it&#39;s an image tag put text in the alt attribute to describe it. If it&#39;s an SVG tag, add an accessible title.&lt;/p&gt;
+&lt;p&gt;Consider dark mode. Does the image contain dark colours that would not show up on a darker background. It may be worth serving an alternative version, maybe an all white version.&lt;/p&gt;
+&lt;h2&gt;Branding&lt;/h2&gt;
+&lt;p&gt;One oddity that I&#39;ve come across is moving to a set of branding guidelines that were very strict about the usage of a logo, that it must not be used below a certain size, that it must have a certain margin around it, etc. This can be tricky if it does not fit the page layout. You may be forced to redesign it slightly. Just something worth bearing in mind when planning the work.&lt;/p&gt;
+&lt;h2&gt;Come out, logos, wherever you are&lt;/h2&gt;
+&lt;p&gt;You might assume that it&#39;s easy to find the logos - just a quick code search, and if the site is not too complex or too old it might be that simple. For me, working with an old complex codebase that has been worked on by a lot of people over a lot of years it was much harder.&lt;/p&gt;
+&lt;p&gt;Doing the search was a good starting point and found most of the pages or templates where logos were used but there were others hiding. Some were hiding away in base64 strings.&lt;/p&gt;
+&lt;p&gt;Some were in CSS, being used a background images, which was probably a bad idea anyway so better not to just replace that. A logo should be considered content and appear in the HTML for accessibility reasons.&lt;/p&gt;
+&lt;p&gt;Some were defined in XML or JSON files and then used as image src.&lt;/p&gt;
+&lt;p&gt;And finally, some were coming from a database so did not appear in the code but were bound as image sources at run time.&lt;/p&gt;
+&lt;p&gt;If you have any files in other formats such as PDFs it&#39;s worth checking these as they may contain hard coded images. I&#39;d suggest trying to move away from serving files to publishing HTML wherever possible. It&#39;s better for accessibility and search engine discoverability, not to mention easier to maintain.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In this Rebranding Tips series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rebranding Tips - Part 1 - Logos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names&quot;&gt;Rebranding Tips - Part 2 - Brand Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-3-colours&quot;&gt;Rebranding Tips - Part 3 - Colours&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/rebranding-tips-part-4-typography&quot;&gt;Rebranding Tips - Part 4 - Typography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Mon, 08 Jan 2024 16:30:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-1-logos/</guid>
+    </item>
+    <item>
       <title>What to Validate on a Form</title>
       <link>https://chrissmith.xyz/blog/what-to-validate-on-a-form/</link>
       <description>&lt;p&gt;We all know that validating user input is a good idea but how do you decide on what rules to apply?&lt;/p&gt;
