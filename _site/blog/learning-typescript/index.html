@@ -20,13 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
-    <title>Chris Smith</title>
+    <title>Learning TypeScript</title>
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="Intro page about Chris Smith, front-end web developer, and his personal website.">
+    <meta name="description" content="I&#39;ve started learning TypeScript properly. After a few years of knowing bits and mostly just writing JavaScript in .ts files I decided to make the effort to understand it.">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,63 +125,39 @@
 </header>
 
     <article>
-      <h1>Chris Smith</h1>
-    <link rel="stylesheet" href="css/home.css">
-<div class="home-intro-layout">
-  <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
-  </div>
-  <div>
-    <h2>Hello World</h2>
-    <p>Hello. I'm Chris, a front-end web developer from the UK. I blog about front end web development and the tech industry generally. I've been making web pages since 1999 and this blog dates back to 2008.</p>
-    <p>You can find me on
-        <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
+      <h1>Learning TypeScript</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2024-01-20T11:05:00.000Z">20 January 2024</time>
+      </div>      
+    <p>I've started learning TypeScript properly. After a few years of knowing bits and mostly just writing JavaScript in .ts files I decided to make the effort to understand it.</p>
+<p>A bit like a linting tool, the whole point is that it warns you when you do things wrong or expose yourself to potential problems. When you don't understand why you're being told off, it can get frustrating, and I'd reached a point where it felt like more of a hindrance than a help.</p>
+<p>I think I had made some assumptions about type checking, thinking it was mostly knowing if things were a string, number or boolean, and I couldn't really see how this would be that much of an issue. In truth, that part is quite straightforward.</p>
+<p>The real value comes from picking up when things can be null or undefined. For example, if you use <code>document.querySelector()</code> you will get a HTML element or, if it does not match anything in the DOM, null. It's very easy to overlook this null and not handle it appropriately. TypeScript has you covered.</p>
+<p>It's very useful when working with objects or arrays, making sure that all types, structures and properties are present and correct. Imagine you're building up an object to post to an API. If one of the properties you send is undefined, maybe because it has not yet been set, then it may fail. TypeScript will alert you to the possibility of this being undefined so you can prevent the problem.</p>
+<p>In short, it makes your JavaScript more secure and helps you pick up issues much earlier in the development cycle so they don't become bugs.</p>
+
+    <aside class="about-the-author">
+  <div class="about-layout">
+    <div>
+      <img id="cs-portrait" src="../../img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" />
+    </div>
+    <div>
+      <h3>About the author</h3>
+      <p>
+        Chris is a senior front-end developer and team lead from the UK, making web pages easy to use, fast and
+        accessible since 1999.
+      </p>
+      <p>
+        Reach out on <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
+        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (Twitter)</a>.
+      </p>
+    </div>
   </div>
-</div>
-<h2>Latest blog posts</h2>
-<ul class="post-list">
-  <!-- 12 most recent blog posts with tag 'tech' -->
-  <li>
-    <a href="/blog/learning-typescript/">Learning TypeScript</a>
-    <time datetime="2024-01-20">20 Jan 2024</time>
-  </li><li>
-    <a href="/blog/rebranding-tips-part-4-typography/">Rebranding Tips - Part 4 - Typography</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/rebranding-tips-part-3-colours/">Rebranding Tips - Part 3 - Colours</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/rebranding-tips-part-2-brand-names/">Rebranding Tips - Part 2 - Brand Names</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/rebranding-tips-part-1-logos/">Rebranding Tips - Part 1 - Logos</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/what-to-validate-on-a-form/">What to Validate on a Form</a>
-    <time datetime="2023-10-27">27 Oct 2023</time>
-  </li><li>
-    <a href="/blog/pronunciation-of-terms-in-web-development/">Pronunciation of Terms in Web Development</a>
-    <time datetime="2023-10-18">18 Oct 2023</time>
-  </li><li>
-    <a href="/blog/how-widespread-is-ad-blocking/">How Widespread is Ad Blocking?</a>
-    <time datetime="2023-10-09">09 Oct 2023</time>
-  </li><li>
-    <a href="/blog/practical-tips-to-reduce-your-carbon-footprint/">Practical Tips to Reduce your Carbon Footprint</a>
-    <time datetime="2023-09-13">13 Sep 2023</time>
-  </li><li>
-    <a href="/blog/wordpress-to-eleventy-part-2-the-how/">WordPress to Eleventy - Part 2, The How</a>
-    <time datetime="2023-06-18">18 Jun 2023</time>
-  </li><li>
-    <a href="/blog/wordpress-to-eleventy-part-1-the-why/">WordPress to Eleventy - Part 1, The Why</a>
-    <time datetime="2023-06-18">18 Jun 2023</time>
-  </li><li>
-    <a href="/blog/whod-be-a-front-end-developer/">Who'd be a front end developer?</a>
-    <time datetime="2023-06-15">15 Jun 2023</time>
-  </li></ul>
-<p><a href="/blog/">Big list of all posts</a></p>
+</aside>
 
     </article>
     <footer>

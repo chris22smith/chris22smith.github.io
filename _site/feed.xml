@@ -8,6 +8,20 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Learning TypeScript</title>
+      <link>https://chrissmith.xyz/blog/learning-typescript/</link>
+      <description>&lt;p&gt;I&#39;ve started learning TypeScript properly. After a few years of knowing bits and mostly just writing JavaScript in .ts files I decided to make the effort to understand it.&lt;/p&gt;
+&lt;p&gt;A bit like a linting tool, the whole point is that it warns you when you do things wrong or expose yourself to potential problems. When you don&#39;t understand why you&#39;re being told off, it can get frustrating, and I&#39;d reached a point where it felt like more of a hindrance than a help.&lt;/p&gt;
+&lt;p&gt;I think I had made some assumptions about type checking, thinking it was mostly knowing if things were a string, number or boolean, and I couldn&#39;t really see how this would be that much of an issue. In truth, that part is quite straightforward.&lt;/p&gt;
+&lt;p&gt;The real value comes from picking up when things can be null or undefined. For example, if you use &lt;code&gt;document.querySelector()&lt;/code&gt; you will get a HTML element or, if it does not match anything in the DOM, null. It&#39;s very easy to overlook this null and not handle it appropriately. TypeScript has you covered.&lt;/p&gt;
+&lt;p&gt;It&#39;s very useful when working with objects or arrays, making sure that all types, structures and properties are present and correct. Imagine you&#39;re building up an object to post to an API. If one of the properties you send is undefined, maybe because it has not yet been set, then it may fail. TypeScript will alert you to the possibility of this being undefined so you can prevent the problem.&lt;/p&gt;
+&lt;p&gt;In short, it makes your JavaScript more secure and helps you pick up issues much earlier in the development cycle so they don&#39;t become bugs.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 20 Jan 2024 11:05:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/learning-typescript/</guid>
+    </item>
+    <item>
       <title>Rebranding Tips - Part 4 - Typography</title>
       <link>https://chrissmith.xyz/blog/rebranding-tips-part-4-typography/</link>
       <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
