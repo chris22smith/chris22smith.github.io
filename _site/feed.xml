@@ -8,6 +8,41 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Why should we care about Web Accessibility?</title>
+      <link>https://chrissmith.xyz/blog/why-should-we-care-about-web-accessibility/</link>
+      <description>&lt;p&gt;In a nutshell, taking care of web accessibility makes our apps...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;available to everybody&lt;/li&gt;
+&lt;li&gt;easier to use&lt;/li&gt;
+&lt;li&gt;easier to test&lt;/li&gt;
+&lt;li&gt;easier to sell&lt;/li&gt;
+&lt;li&gt;safe from negative publicity and lawsuits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Available to everybody&lt;/h2&gt;
+&lt;p&gt;There is a proportion of the population who have disabilities or impairments that mean they cannot use the web in the same way as most people.&lt;/p&gt;
+&lt;p&gt;There is a wide range of visual impairments that can affect users, including things like sensitivity to motion, colour blindness or blurred vision.&lt;/p&gt;
+&lt;p&gt;Some users cannot see at all. Does not being able to see the screen mean you can&#39;t access its content or interact with it? It shouldn&#39;t. Assistive technology, in particular screen reader software can read aloud the contents of a page, reading text and annoucing interactive features. It can also handle advanced navigation, describing images or diagrams and keeping up with live changes.&lt;/p&gt;
+&lt;p&gt;Some users have difficulty with fine motor skills, making it difficult for them to use a pointing device like a mouse. They rely on using a keyboard or other form of input.&lt;/p&gt;
+&lt;p&gt;If we&#39;ve done our job properly and built things in an accessible way then all of these problems are mitigated and our products can be used by everyone.&lt;/p&gt;
+&lt;p&gt;It&#39;s obvious that from a moral perspective this is the right thing to do and something that we would all want to do and be proud that we do. However, in the day to day reality of business, with lots of conflicting priorities, this area can&#39;t always compete with the bigger earners so here are some other reasons to care.&lt;/p&gt;
+&lt;h2&gt;Easier to use&lt;/h2&gt;
+&lt;p&gt;There&#39;s a reason I didn&#39;t quote numbers at you for people with disabilities or impairments. That&#39;s because these things actually affect all of us to some degree. Small print is hard to read. So is pale grey text on a white background. That&#39;s not an impairment, that&#39;s a poor design choice. If you find yourself leaning in to your screen to read something or having to use your little finger to touch something, that&#39;s a web accessibility failure, and a usability failure, which means a poor user experience. If we want our users to love our products and recommend them to others we need to get this stuff right.&lt;/p&gt;
+&lt;h2&gt;Easier to test&lt;/h2&gt;
+&lt;p&gt;This point is rarely spoken about but having accessible content can make automated testing much easier. If you think about it, supporting screen reader software and running automated tests are both about a machine being able to read your page and then take actions or provide feedback. It&#39;s about the page elements being described in a way that does not solely rely on them being seen. As an example, if a chart has values in text, a screen reader can read them and an automated test can check them, whereas if they&#39;re part of a generated image then they&#39;re only available to those who can see them.&lt;/p&gt;
+&lt;h2&gt;Easier to sell&lt;/h2&gt;
+&lt;p&gt;I very much doubt that web accessibility is at the forefront of anyone&#39;s mind when deciding whether or not to buy software but it can certainly be a factor.&lt;/p&gt;
+&lt;p&gt;For any publicly funded project it will be a clear selling point, as it&#39;s a non-negotiable requirement.&lt;/p&gt;
+&lt;p&gt;For private companies, it often comes up as something that is required when getting into the finer details of contract agreements, usually in the form of proving how web accessibility standards are being met. If you have not been giving this area due attention, this can be very difficult to find a way around. Auditing software makes it very easy to expose a product that is not sufficiently accessible.&lt;/p&gt;
+&lt;h2&gt;Safe from negative publicity and lawsuits&lt;/h2&gt;
+&lt;p&gt;I suppose that after all the carrots, this is the stick. If we don&#39;t make an effort in this area then we&#39;re exposed to negative comments, bad PR, boycotts and even legal action.&lt;/p&gt;
+&lt;p&gt;It is still relatively rare but there have been anti-discrimination cases brought against websites for failing to serve disabled users and the amounts of money involved are frightening.&lt;/p&gt;
+&lt;p&gt;Even if things are not fully accessible it&#39;s defintely worth having a plan in place to demonstrate positive intent and a pathway to making it accessible in the near future.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 26 Jan 2024 16:45:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/why-should-we-care-about-web-accessibility/</guid>
+    </item>
+    <item>
       <title>Learning TypeScript</title>
       <link>https://chrissmith.xyz/blog/learning-typescript/</link>
       <description>&lt;p&gt;I&#39;ve started learning TypeScript properly. After a few years of knowing bits and mostly just writing JavaScript in .ts files I decided to make the effort to understand it.&lt;/p&gt;
