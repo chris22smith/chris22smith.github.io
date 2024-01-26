@@ -14,6 +14,15 @@
   display: none;
 }
 
+.post-list > li.featured {
+  flex: 0 0 100%;
+}
+
+.post-list > li.featured .description {
+  display: none;
+  font-size: max(0.75em, 14px);
+}
+
 small.subtle {
   color: #757575;
   font-size: 1em;
@@ -32,5 +41,8 @@ small.subtle {
   }
   .post-list > li {
     display: flex !important;
+  }
+  .post-list > li.featured .description {
+    display: block;
   }
 }

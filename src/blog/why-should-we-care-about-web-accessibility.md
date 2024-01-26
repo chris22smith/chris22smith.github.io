@@ -2,7 +2,7 @@
 layout: "layouts/blog.njk"
 title: "Why should we care about Web Accessibility?"
 date: 2024-01-26 16:45:00
-description: "In a nutshell, taking care of web accessibility makes our apps available to everybody, easier to use, easier to test, easier to sell and safe from negative publicity and lawsuits"
+description: "In a nutshell, taking care of web accessibility makes our apps available to everybody, easier to use, easier to test, easier to sell and safe from negative publicity and lawsuits."
 tags: ["blog", "tech"]
 eleventyNavigation:
   key: "Why should we care about Web Accessibility?"
