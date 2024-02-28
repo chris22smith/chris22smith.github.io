@@ -154,6 +154,9 @@ header a:hover {
 }
 
 h1 {
+  background: linear-gradient(to right, #d07, #07d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   color: #d07;
   font-family: "Russo One", sans-serif;
   font-size: 3em;
@@ -172,6 +175,9 @@ address {
 }
 
 h2 {
+  background: linear-gradient(to right, #d07, #07d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   color: #d07;
   font-family: "Russo One", sans-serif;
 }
@@ -198,7 +204,6 @@ ul {
 
 .post-list > li {
   background-color: #444;
-  border: solid 2px #d07;
   border-radius: 0.25rem;
   display: flex;
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
@@ -209,7 +214,7 @@ ul {
   overflow: hidden;
   padding: 1rem;
   position: relative;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.6s ease-in-out;
 }
 
 .post-list > li:hover {
