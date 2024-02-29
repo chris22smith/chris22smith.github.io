@@ -852,6 +852,36 @@ document.addEventListener(&#39;click&#39;, handleClick);&lt;/code&gt;&lt;/pre&gt
       <guid>https://chrissmith.xyz/blog/2020/clicking-off-things-to-close-them/</guid>
     </item>
     <item>
+      <title>Tips for Working from Home</title>
+      <link>https://chrissmith.xyz/blog/2020/tips-for-working-from-home/</link>
+      <description>&lt;p&gt;I&#39;ve been working from home 2 days a week for a few years so thought I&#39;d share a few tips. These are little things that work for me - they may not be for everyone.&lt;/p&gt;
+&lt;h3&gt;Get Showered and Dressed&lt;/h3&gt;
+&lt;p&gt;It sounds obvious but don&#39;t slouch around in your pyjamas. You need to make a work day different from the weekend and any little things you can do to create this clear separation will help your work-life balance and ensure you&#39;re in the right mindset, both ways.&lt;/p&gt;
+&lt;h3&gt;Set Start and End Times&lt;/h3&gt;
+&lt;p&gt;Don&#39;t try to be too flexible with your hours. Stick to a normal working day. Don&#39;t slack off and think you can catch up later in your own time, and don&#39;t do extra to overcompensate for being at home. You need clear times when work stops and home life starts. It&#39;s very easy to get sucked in to &quot;just finishing off this bit&quot; and still be working hours later.&lt;/p&gt;
+&lt;h3&gt;Find Multiple Locations to Work&lt;/h3&gt;
+&lt;p&gt;If you&#39;re working from home for several consecutive days it can help to vary where you work. I wouldn&#39;t keep moving in one day but maybe start every third day in a new spot. For some people having a fixed work space within their home helps the separation so if this works for you, great.&lt;/p&gt;
+&lt;h3&gt;Finding a Good Work Space&lt;/h3&gt;
+&lt;p&gt;For me it&#39;s important to be near a window. I actually work sitting in a bay window looking out onto my street. This naturally makes me look up from my screen from time to time as people pass by. My sleepy town isn&#39;t interesting enough for this to become a distraction but I appreciate this may not work somewhere busier. I would avoid spaces with no natural light, like lofts or basements. They&#39;re just not good for your state of mind.&lt;/p&gt;
+&lt;h3&gt;Lunch&lt;/h3&gt;
+&lt;p&gt;Set a start and end time for lunch as you would in an office environment. If you don&#39;t, you risk not finding time at all, not taking a break or the day becomes one continuous snack-fest, which is not going to end well over a sustained period of time.&lt;/p&gt;
+&lt;h3&gt;Managing Costs&lt;/h3&gt;
+&lt;p&gt;If you&#39;re home alone, do you really want to be heating your whole house? Or, if you&#39;re lucky enough to be somewhere warmer, using air-con? I try to stick to being in one room, close the door and use a portable heater. This saves a small fortune on my heating bill.&lt;/p&gt;
+&lt;p&gt;Think about the money you&#39;re saving on travel and put it aside for something which improves your home working lifestyle - a comfy office chair, a desk fan, a fancy microphone, a coffee machine.&lt;/p&gt;
+&lt;h3&gt;Balancing Non-work Activity&lt;/h3&gt;
+&lt;p&gt;Working from home does bring some advantages. You can have goods delivered. You can have the washing machine or dishwasher going. My tip would be to not worry about the small things like answering the door, putting a load of washing on - things that take a trivial amount of time. You should avoid the tasks that take longer and can be left until after work - online shopping, folding washing, cooking.&lt;/p&gt;
+&lt;h3&gt;Distractions&lt;/h3&gt;
+&lt;p&gt;You&#39;re at work. You can ignore the door. You can ignore your phone. Don&#39;t use social media, unless it&#39;s work related.&lt;/p&gt;
+&lt;h3&gt;Don&#39;t Get Isolated&lt;/h3&gt;
+&lt;p&gt;If you&#39;re alone for a period of time it&#39;s easy to start to feel isolated. When working from home you need to make extra effort to communicate with colleagues. Try to make the effort to actually talk to people rather than just using email or messaging services like Slack. You won&#39;t run into colleagues in communal areas, like the office water cooler or kitchen, so, if a few of you are working remotely you may need to create your own virtual spaces where non work related chat can happen to stay connected on a human level.&lt;/p&gt;
+&lt;h3&gt;What Works for You?&lt;/h3&gt;
+&lt;p&gt;Everyone&#39;s different so do what works for you and if you have any good tips of your own please share.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 15 Mar 2020 08:31:56 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2020/tips-for-working-from-home/</guid>
+    </item>
+    <item>
       <title>Print CSS Tips</title>
       <link>https://chrissmith.xyz/blog/2020/print-css-tips/</link>
       <description>&lt;p&gt;A collection of Print CSS problems and tips, learned the hard way...&lt;/p&gt;
@@ -1830,7 +1860,7 @@ We could even switch out the element using JavaScript. Add the other element, ap
     </item>
     <item>
       <title>Measuring Readership</title>
-      <link>https://chrissmith.xyz/blog/measuring-readership/</link>
+      <link>https://chrissmith.xyz/blog/2017/measuring-readership/</link>
       <description>&lt;p&gt;I&#39;ve been thinking about how we might more accurately determine how many times a blog post is read. Not just loaded in a browser but actually read.&lt;/p&gt;
 &lt;p&gt;Firstly, there are different levels of reading.&lt;/p&gt;
 &lt;h3&gt;Level 1: Evaluate Source&lt;/h3&gt;
@@ -1854,11 +1884,11 @@ Please comment if you think of any further refinements or see any flaws in the l
 </description>
       <pubDate>Sun, 05 Mar 2017 11:15:12 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/measuring-readership/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/measuring-readership/</guid>
     </item>
     <item>
       <title>Talking to Machines</title>
-      <link>https://chrissmith.xyz/blog/talking-to-machines/</link>
+      <link>https://chrissmith.xyz/blog/2017/talking-to-machines/</link>
       <description>&lt;p&gt;&amp;quot;Hey Siri&amp;quot;, &amp;quot;OK Google&amp;quot;, &amp;quot;Hey Cortana&amp;quot;. It still feels weird to me.&lt;/p&gt;
 &lt;p&gt;As I&#39;m a Windows user Cortana is my &amp;quot;virtual assistant&amp;quot; of choice. It&#39;s an incredibly useful service and getting better all the time so I wonder why I don&#39;t use it more. I&#39;m learning slowly. For example, I just wanted to work out 500 divided by 52. In the past I would have opened the calculator programme or app, typed in my request and got my answer. Today, however, I just said this: &amp;quot;Hey Cortana, what&#39;s five hundred divided by fifty-two.&amp;quot; And, about a second later I had my answer. Much faster.&lt;/p&gt;
 &lt;p&gt;I caught myself saying, &amp;quot;thank you&amp;quot;, and immediately felt like an idiot. But actually, that&#39;s not shameful at all, just polite. So what if it was redundant. I&#39;m still human.&lt;/p&gt;
@@ -1870,11 +1900,11 @@ Please comment if you think of any further refinements or see any flaws in the l
 </description>
       <pubDate>Fri, 10 Feb 2017 18:00:39 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/talking-to-machines/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/talking-to-machines/</guid>
     </item>
     <item>
       <title>Learning the Right Things</title>
-      <link>https://chrissmith.xyz/blog/learning-the-right-things/</link>
+      <link>https://chrissmith.xyz/blog/2017/learning-the-right-things/</link>
       <description>&lt;p&gt;With so much happening so fast knowing what new tech to learn next can be difficult. Where should you invest your time and energy? What if you spend ages learning the shiny new framework and it&#39;s gone within 2 years?&lt;/p&gt;
 &lt;p&gt;There are a lot of trends and a lot of new-fangled things do come and go. How do you spot the ones that are going to stick around. It&#39;s not easy - you kind of have to go with the flow, not swim against the tide (2 water based metaphors in one sentence, tut).&lt;/p&gt;
 &lt;p&gt;In front end development there are currently a few big JavaScript frameworks - Angular, React and Vue. It seems obvious to me that none of these are going away any time soon. Which do you choose? It really doesn&#39;t matter. Learning one in depth, finding its powers and limitations, will help you learn the others or other future technologies.&lt;/p&gt;
@@ -1884,11 +1914,11 @@ Please comment if you think of any further refinements or see any flaws in the l
 </description>
       <pubDate>Thu, 09 Feb 2017 18:30:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/learning-the-right-things/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/learning-the-right-things/</guid>
     </item>
     <item>
       <title>International box-sizing Awareness Day</title>
-      <link>https://chrissmith.xyz/blog/international-box-sizing-awareness-day/</link>
+      <link>https://chrissmith.xyz/blog/2017/international-box-sizing-awareness-day/</link>
       <description>&lt;p&gt;Today, 1st Feb, is International box-sizing Awareness Day, apparently. Add it to your calendar now! :) I&#39;m not sure how official that is, or who decided it but it&#39;s good to have an annual reminder on some things.&lt;/p&gt;
 &lt;p&gt;The general consensus in early 2017 seems to be that the boffins got the spec wrong on this one and border-box should have been the default, so the first line in a lot of stylesheets or pre-processor files is * { box-sizing: border-box; }. The spec can&#39;t change as it would break legacy pages&#39; layout so we&#39;re stuck with this fix.&lt;/p&gt;
 &lt;p&gt;That&#39;s fine, and I don&#39;t believe that using the universal selector * causes any real performance issues. Browsers are fast enough and smart enough to take it in their stride. However, I do hit problems with this reset approach. Frameworks.&lt;/p&gt;
@@ -1900,11 +1930,11 @@ It&#39;s worth noting how table cells behave. They basically have box-sizing bor
 </description>
       <pubDate>Wed, 01 Feb 2017 08:00:41 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/international-box-sizing-awareness-day/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/international-box-sizing-awareness-day/</guid>
     </item>
     <item>
       <title>iOS vs Android vs Windows in 2017</title>
-      <link>https://chrissmith.xyz/blog/ios-vs-android-vs-windows-in-2017/</link>
+      <link>https://chrissmith.xyz/blog/2017/ios-vs-android-vs-windows-in-2017/</link>
       <description>&lt;p&gt;Everyone has their favourite big web company and associated operating system (OS). We&#39;re all either Apple, Google or Microsoft. Maybe not quite all of us. There&#39;s always one weirdo who finds something &amp;quot;better&amp;quot;.&lt;/p&gt;
 &lt;p&gt;I&#39;d say that for office desk based work most people are either on Apple or Windows (Mac or PC). I&#39;m not sure if any significant numbers use a Chromebook and Chrome as their serious OS. I may be wrong. For phones it&#39;s iOS, Android or, to a lesser extent, Windows. Do people still use Blackberry in big numbers? I&#39;m assuming not.&lt;/p&gt;
 &lt;p&gt;People who use Windows for work might have any kind of phone. It&#39;s actually pretty unlikely that they&#39;d have a Windows phone as it&#39;s smaller in the phone market. On the other hand, I bet almost everyone who uses a Mac has an iPhone. And without even considering any of the other options.&lt;/p&gt;
@@ -1921,11 +1951,11 @@ For what it&#39;s worth, I have a Windows 10 phone (Microsoft Lumia 550) and I a
 </description>
       <pubDate>Sun, 29 Jan 2017 15:00:57 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/ios-vs-android-vs-windows-in-2017/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/ios-vs-android-vs-windows-in-2017/</guid>
     </item>
     <item>
       <title>Opera Neon - First Impressions</title>
-      <link>https://chrissmith.xyz/blog/opera-neon-first-impressions/</link>
+      <link>https://chrissmith.xyz/blog/2017/opera-neon-first-impressions/</link>
       <description>&lt;p&gt;&lt;a href=&quot;https://www.opera.com/computer/neon&quot; target=&quot;_blank&quot;&gt;Opera Neon&lt;/a&gt; is the new concept browser from Opera. What&#39;s a &amp;quot;concept browser&amp;quot;? I&#39;ve no idea but I like new shiny things to play with so have been playing. The &lt;a href=&quot;https://www.opera.com/computer/neon&quot; target=&quot;_blank&quot;&gt;Opera Neon webpage&lt;/a&gt; will explain it much better than I can but here are a few first impressions.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://chrissmith.xyz/img/2017/01/opera-neon.png&quot;&gt;&lt;img class=&quot;alignleft size-large wp-image-494&quot; src=&quot;https://chrissmith.xyz/img/2017/01/opera-neon-1024x576.png&quot; alt=&quot;Opera Neon screenshot&quot; width=&quot;660&quot; height=&quot;371&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It uses your desktop background as its background. Very clever. All it&#39;s really doing is copying an image but it changes the whole feel. Rather than looking at a start screen with a white background you&#39;re in a familiar environment of your own choosing.&lt;/p&gt;
@@ -1941,11 +1971,11 @@ For what it&#39;s worth, I have a Windows 10 phone (Microsoft Lumia 550) and I a
 </description>
       <pubDate>Sat, 28 Jan 2017 10:00:33 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/opera-neon-first-impressions/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/opera-neon-first-impressions/</guid>
     </item>
     <item>
       <title>Snark Overflow</title>
-      <link>https://chrissmith.xyz/blog/snark-overflow/</link>
+      <link>https://chrissmith.xyz/blog/2017/snark-overflow/</link>
       <description>&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/&quot; target=&quot;_blank&quot;&gt;Stack Overflow&lt;/a&gt; is both brilliant and terrible. As a web developer it&#39;s one of those sites that you just have to use, like Can I Use, MDN or CSS Tricks. You can Google any coding issue and the question will pop up in the first few results, you click through, scroll down to the accepted answer or the one with all the upvotes and 8 times out of 10 problem solved. Brilliant.&lt;/p&gt;
 &lt;p&gt;There&#39;s another side to it. The accepted answer is selected by the user who asked the question (the OP), someone who isn&#39;t an expert in this area. The solution works, they mark it as the accepted answer and get on with their lives. Meanwhile, others are providing different, possibly better, answers. These better answers may get some upvotes but a lot of visitors are just looking for a quick fix and won&#39;t read every answer and so won&#39;t upvote alternatives in any great numbers. So, the best answer can easily be overlooked.&lt;/p&gt;
 &lt;p&gt;There&#39;s also a bandwagon or snowball effect. As more people come past and use the &amp;quot;top&amp;quot; answer it gets more love, pushing other answers further into obscurity.&lt;/p&gt;
@@ -1957,11 +1987,11 @@ For what it&#39;s worth, I have a Windows 10 phone (Microsoft Lumia 550) and I a
 </description>
       <pubDate>Fri, 27 Jan 2017 18:20:49 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/snark-overflow/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/snark-overflow/</guid>
     </item>
     <item>
       <title>Blogging Nostalgia</title>
-      <link>https://chrissmith.xyz/blog/blogging-nostalgia/</link>
+      <link>https://chrissmith.xyz/blog/2017/blogging-nostalgia/</link>
       <description>&lt;p&gt;I started blogging on WordPress back in the summer of 2008. I managed to keep it going through until January 2011, which is quite an achievement in itself. Then, for whatever reason (laziness) it just kind of fizzled out. This was all on my previous site, chris-smith-web.com. I was struggling for a domain name. Can you tell? Don&#39;t bother visiting - it just redirects back here these days.&lt;/p&gt;
 &lt;p&gt;I started up again on this site, chrissmith.xyz, in late 2014 and am still going in January 2017. Go me!&lt;/p&gt;
 &lt;h3&gt;When 2 Become 1&lt;/h3&gt;
@@ -1988,11 +2018,11 @@ Ouch.
 </description>
       <pubDate>Wed, 18 Jan 2017 18:00:37 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/blogging-nostalgia/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/blogging-nostalgia/</guid>
     </item>
     <item>
       <title>The End of the EU Cookie Law</title>
-      <link>https://chrissmith.xyz/blog/the-end-of-the-eu-cookie-law/</link>
+      <link>https://chrissmith.xyz/blog/2017/the-end-of-the-eu-cookie-law/</link>
       <description>&lt;p&gt;I don&#39;t want to mislead anyone - I don&#39;t think the law itself is going anywhere but Britain leaving the EU means that the day when I don&#39;t have to worry about it is getting closer.&lt;/p&gt;
 &lt;p&gt;There. An actual upside to Brexit.&lt;/p&gt;
 &lt;p&gt;I&#39;ve found the whole cookie law to be ridiculous from day one. The US hasn&#39;t felt the need for it. In fact, nowhere else in the world has felt the need for it.&lt;/p&gt;
@@ -2003,11 +2033,11 @@ Ouch.
 </description>
       <pubDate>Sun, 15 Jan 2017 13:11:14 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-end-of-the-eu-cookie-law/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/the-end-of-the-eu-cookie-law/</guid>
     </item>
     <item>
       <title>Cut the Crap!</title>
-      <link>https://chrissmith.xyz/blog/cut-the-crap/</link>
+      <link>https://chrissmith.xyz/blog/2017/cut-the-crap/</link>
       <description>&lt;p&gt;We all write loads of crap. All of us. Every day. It&#39;s time to stop. Think it through and cut it out.&lt;/p&gt;
 &lt;p&gt;I&#39;m not so much talking about what we say but more the way we say it. We use stupidly over-complicated, flowery, pompous language to express very simple ideas. We should all just keep it clear and simple. The &lt;a href=&quot;https://www.plainenglish.co.uk/&quot; target=&quot;_blank&quot;&gt;Campaign for Plain English&lt;/a&gt; has loads of great examples of ways we can replace the fancy words with simple ones. A few examples:&lt;/p&gt;
 &lt;ul&gt;
@@ -2022,11 +2052,11 @@ Removing the pretentious vocabulary also makes our writing much easier to unders
 </description>
       <pubDate>Fri, 13 Jan 2017 18:21:58 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/cut-the-crap/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/cut-the-crap/</guid>
     </item>
     <item>
       <title>What I Learned in 2016 (Part 3)</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2016-part-3/</link>
+      <link>https://chrissmith.xyz/blog/2017/what-i-learned-in-2016-part-3/</link>
       <description>&lt;p&gt;This is the third part of a three part blog post on the things I&#39;ve learned over the last year. So far I&#39;ve covered HTML, CSS and a rare (for me) bit of databasey stuff. And now the final part, the JavaScript...&lt;/p&gt;
 &lt;h3&gt;Node.js&lt;/h3&gt;
 I haven&#39;t gone into this in depth but was curious about how JavaScript might look on the server. There are lots of in-built functions for working with files and requests but otherwise it really is just JavaScript - objects, functions, if statements, for loops, etc. I think it would take a bit of getting used to but having a JavaScript background it&#39;s probably much easier than learning something else like Ruby or PHP. I learned this from CodeSchool, &lt;a href=&quot;https://www.codeschool.com/courses/real-time-web-with-node-js&quot; target=&quot;_blank&quot;&gt;Real-time Web with Node.js&lt;/a&gt;.
@@ -2046,11 +2076,11 @@ This is a library for using drag and drop functionality. I&#39;ve always used &l
 </description>
       <pubDate>Sun, 08 Jan 2017 13:00:27 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2016-part-3/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/what-i-learned-in-2016-part-3/</guid>
     </item>
     <item>
       <title>What I Learned in 2016 (Part 2)</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2016-part-2/</link>
+      <link>https://chrissmith.xyz/blog/2017/what-i-learned-in-2016-part-2/</link>
       <description>&lt;p&gt;This is the second part of a three-part post about the new things that I picked up through the course of 2016.&lt;/p&gt;
 &lt;p&gt;I (finally) took some big steps in CSS this year, picking up some of the things I&#39;d been putting off for a while.&lt;/p&gt;
 &lt;h3&gt;Flexbox&lt;/h3&gt;
@@ -2074,11 +2104,11 @@ Another play thing. &lt;a href=&quot;https://airtable.com/&quot; target=&quot;_b
 </description>
       <pubDate>Sat, 07 Jan 2017 13:00:16 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2016-part-2/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/what-i-learned-in-2016-part-2/</guid>
     </item>
     <item>
       <title>What I Learned in 2016 (Part 1)</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2016-part-1/</link>
+      <link>https://chrissmith.xyz/blog/2017/what-i-learned-in-2016-part-1/</link>
       <description>&lt;p&gt;I&#39;ve done this quick run-through of things I&#39;ve learned in the last 12 months for a few years now. It&#39;s great to reassure myself that I&#39;m still learning and every time it surprises me how much new stuff I&#39;ve picked up in a short space of time.&lt;/p&gt;
 &lt;h3&gt;HTML Email&lt;/h3&gt;
 For a while I&#39;ve known that you have to use tables and inline styles rather than CSS. Actually there&#39;s a lot more to it and you can use CSS and even media queries. You just have to be prepared for when they&#39;re not supported with nice fallbacks. There&#39;s an excellent course on &lt;a href=&quot;https://www.codeschool.com/&quot; target=&quot;_blank&quot;&gt;CodeSchool&lt;/a&gt; called &lt;a href=&quot;https://www.codeschool.com/courses/unmasking-html-emails&quot; target=&quot;_blank&quot;&gt;Unmasking HTML Emails&lt;/a&gt;.
@@ -2096,11 +2126,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Fri, 06 Jan 2017 20:00:13 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2016-part-1/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/what-i-learned-in-2016-part-1/</guid>
     </item>
     <item>
       <title>Code Neat Freak</title>
-      <link>https://chrissmith.xyz/blog/code-neat-freak/</link>
+      <link>https://chrissmith.xyz/blog/2016/code-neat-freak/</link>
       <description>&lt;p&gt;With front-end developers we all care what our UI design looks like in the browser. I&#39;ve started to notice that there are 2 distinct types of developer though - those who are solely focused on the outcome and those who care about the code itself.&lt;/p&gt;
 &lt;p&gt;If what appears on the screen looks good and a function does what it&#39;s supposed to do then does the code really matter? I&#39;m not sure.&lt;/p&gt;
 &lt;p&gt;Personally, I&#39;m a bit OCD about the code. I arrange all of my CSS rules in alphabetical order and set each new JavaScript block apart with line breaks and add lots of comments.&lt;/p&gt;
@@ -2108,11 +2138,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Fri, 16 Dec 2016 17:06:42 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/code-neat-freak/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/code-neat-freak/</guid>
     </item>
     <item>
       <title>Is UX Design Really a Thing?</title>
-      <link>https://chrissmith.xyz/blog/is-ux-design-really-a-thing/</link>
+      <link>https://chrissmith.xyz/blog/2016/is-ux-design-really-a-thing/</link>
       <description>&lt;p&gt;This might seem an odd question as user experience (UX for short) obviously has become a thing in the last few years. I think the question I&#39;m really asking is this - isn&#39;t UX design just design? The whole UX thing is kind of meaningless. I know, can of worms...&lt;/p&gt;
 &lt;p&gt;In any other industry things get designed but they don&#39;t have special titles for designing for the people using the product - that&#39;s obvious. I can&#39;t imagine that a car designer would be called a driver experience designer. The driver having a positive experience is an inherent part of the design process.&lt;/p&gt;
 &lt;p&gt;I guess that the area of UX exists to give some separation from purely aesthetic design. It&#39;s about making things easier to use rather than just pretty. I&#39;ve always seen design as being both. You can&#39;t really have one without the other.&lt;/p&gt;
@@ -2122,11 +2152,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Wed, 30 Nov 2016 18:30:58 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/is-ux-design-really-a-thing/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/is-ux-design-really-a-thing/</guid>
     </item>
     <item>
       <title>Displaying Options in a UI</title>
-      <link>https://chrissmith.xyz/blog/displaying-options-in-a-ui/</link>
+      <link>https://chrissmith.xyz/blog/2016/displaying-options-in-a-ui/</link>
       <description>&lt;p&gt;One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it. As a user you have to click it to see the other available options only to find that there are none. This is a clear example of developer convenience being put before user experience.&lt;/p&gt;
 &lt;p&gt;I&#39;m sure it seems obvious now I&#39;ve highlighted it but if there&#39;s only one option then there isn&#39;t a choice to be made at all and we don&#39;t need a form input. The code should conditionally show the drop down list only when there is a selection to be made, more than one item.&lt;/p&gt;
 &lt;p&gt;Depending on the UI design, we could even take this a step further. Maybe a drop down list isn&#39;t the best choice for selecting between 2 items? A radio button list is probably better as it enables the user to see all of the available options at a glance and make a selection with a single click/touch. We can test the number of options and if it&#39;s below 5 show the options in a radio button list. &amp;lt;ol&amp;gt; might be a better choice than &amp;lt;ul&amp;gt; for the list if the items are in a specific order, e.g. years.&lt;/p&gt;
@@ -2134,11 +2164,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Wed, 23 Nov 2016 18:30:26 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/displaying-options-in-a-ui/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/displaying-options-in-a-ui/</guid>
     </item>
     <item>
       <title>Emotional Response</title>
-      <link>https://chrissmith.xyz/blog/emotional-response/</link>
+      <link>https://chrissmith.xyz/blog/2016/emotional-response/</link>
       <description>&lt;p&gt;I&#39;ve read some sales and marketing articles about techniques for trying to elicit an emotional response from your audience. The broad idea is that if you can get your audience to bond with you or your idea on an emotional level then this is very strong. The heart is stronger than the head, if you like.&lt;/p&gt;
 &lt;p&gt;I hadn&#39;t taken too much notice but after recent world events it strikes me now that maybe there&#39;s something in it. I&#39;m thinking in particular about the &amp;quot;Brexit&amp;quot; referendum and Donald Trump&#39;s election campaign. In both cases the winning parties made very strong statements, probably much stronger than their actual beliefs or intentions. This strength of message created an emotional response in people, either one way or another - love or hate - there&#39;s no doubt it was divisive. Whilst this approach will undoubtedly lose some supporters the division it creates will harden the resolve of those who do follow. They start to feel like a minority being ridiculed by the opposition and it only makes their belief stronger.&lt;/p&gt;
 &lt;p&gt;This is also connected with the idea that all press is good press. Trump must have had far more press column inches than Clinton. Maybe as the negative press coverage gets whipped up into a frenzy people start to feel sorry for the &amp;quot;victim&amp;quot;?&lt;/p&gt;
@@ -2147,11 +2177,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Tue, 22 Nov 2016 18:52:52 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/emotional-response/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/emotional-response/</guid>
     </item>
     <item>
       <title>Let Off the IE9 Leash</title>
-      <link>https://chrissmith.xyz/blog/let-off-the-ie9-leash/</link>
+      <link>https://chrissmith.xyz/blog/2016/let-off-the-ie9-leash/</link>
       <description>&lt;p&gt;I recently got the news at work that as of midnight on 31st December 2016 we no longer officially have to support IE9. It&#39;s a sorry state of affairs but come midnight on New Year&#39;s Eve I&#39;m sure this will be in the back of my mind and make me celebrate just that little bit more.&lt;/p&gt;
 &lt;p&gt;For the last few years I&#39;ve tended to shy away from using any newer browser features in production as trying to polyfill everything for old IE is either impossible, more trouble than it&#39;s worth or hurts performance. Suddenly, it&#39;s like I&#39;ve been let off the leash. I can use it all.&lt;/p&gt;
 &lt;p&gt;It&#39;s a strange feeling. I&#39;m a bit overwhelmed by the possibilities. We can use transforms, transitions, animation, the file API, geolocation - the list goes on, and goes on quite long. The difference between IE9 and IE10 is huge. When IE10 came out Microsoft really caught up and, despite everyone making jokes about IE, there really isn&#39;t much to complain about since version 10.&lt;/p&gt;
@@ -2159,11 +2189,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Fri, 18 Nov 2016 18:03:38 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/let-off-the-ie9-leash/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/let-off-the-ie9-leash/</guid>
     </item>
     <item>
       <title>A/A Testing</title>
-      <link>https://chrissmith.xyz/blog/aa-testing/</link>
+      <link>https://chrissmith.xyz/blog/2016/aa-testing/</link>
       <description>&lt;p&gt;I&#39;m guessing most people know what A/B Testing is. It&#39;s publishing 2 variations and monitoring the responses. A typical example might be a web page with a sign up call to action. There would be 2 versions of the page and visitors would be directed to one or the other. After a certain number of page views the number of sign-ups would be counted for each version. Version A might have had 4% sign ups whereas version B might have had 7%. Typically, the best performing page is then either used or put up against another version for another iteration of improvements.&lt;/p&gt;
 &lt;p&gt;A/A Testing is the control. Visitors are again directed to one of two pages only this time both versions are exactly the same. Let&#39;s call them A1 and A2. Suppose A1 comes in with 5% sign-ups but A2 comes in with only 1%. What does that tell us? It basically tells us not to read too much into the A/B Testing as the differing results were probably just random chance.&lt;/p&gt;
 &lt;p&gt;With A/A Testing, as you monitor more and more users the split should get closer to 50/50. It&#39;s a good way of discovering what is a suitably large sample size for your A/B Tests.&lt;/p&gt;
@@ -2173,11 +2203,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Thu, 17 Nov 2016 18:00:22 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/aa-testing/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/aa-testing/</guid>
     </item>
     <item>
       <title>Click Fear</title>
-      <link>https://chrissmith.xyz/blog/click-fear/</link>
+      <link>https://chrissmith.xyz/blog/2016/click-fear/</link>
       <description>&lt;p&gt;I recently read this excellent article by Jakob Nielsen:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.nngroup.com/articles/computer-skill-levels/&quot; target=&quot;_blank&quot;&gt;The Distribution of Users&#39; Computer Skills: Worse Than You Think&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It highlights just how bad most people are with using software and websites and how we should not judge our users by our own standards and preferences. As I read it I thought to myself that I don&#39;t really know anyone with poor skills - everyone I know is pretty good at this kind of stuff. Later the same day I was proved wrong.&lt;/p&gt;
@@ -2189,11 +2219,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Wed, 16 Nov 2016 18:00:45 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/click-fear/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/click-fear/</guid>
     </item>
     <item>
       <title>Bad Web Dev</title>
-      <link>https://chrissmith.xyz/blog/bad-web-dev/</link>
+      <link>https://chrissmith.xyz/blog/2016/bad-web-dev/</link>
       <description>&lt;p&gt;Sometimes I see stuff on web pages and wonder how the developers ever thought that was OK…&lt;/p&gt;
 &lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;&lt;strong&gt;&quot;Please make sure you click on this button only once or you may be charged twice.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;We&#39;re server side guys. We don&#39;t really do front end. We don&#39;t know how to disable the button when it&#39;s clicked to prevent this so we&#39;ll just warn you not to click it. Yeah, that&#39;ll be fine.&lt;/p&gt;
@@ -2202,11 +2232,11 @@ I&#39;m not sure if this is the right name for them but basically being able to 
 </description>
       <pubDate>Fri, 04 Nov 2016 08:55:06 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/bad-web-dev/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/bad-web-dev/</guid>
     </item>
     <item>
       <title>When to Hide and When to Disable</title>
-      <link>https://chrissmith.xyz/blog/when-to-hide-and-when-to-disable/</link>
+      <link>https://chrissmith.xyz/blog/2016/when-to-hide-and-when-to-disable/</link>
       <description>&lt;p&gt;I&#39;ve noticed a bit of a recurring theme in UX work with people asking me whether a page element should be hidden from the user or just disabled.&lt;/p&gt;
 &lt;p&gt;To me, it seems quite clear cut. If the user isn&#39;t going to use the element, hide it. If they can&#39;t use it now but may do when conditions are right, disable it.&lt;/p&gt;
 &lt;p&gt;A typical example is a form with a Save button. We don&#39;t want users to be able to save until the form is valid, completed as we&#39;ve specified. We could just show and enable the button and then throw validation errors. However, it seems more appropriate to me to simply not make the save option available until it can actually perform its function and save the data. In this case do we hide the button or disable it?&lt;/p&gt;
@@ -2223,11 +2253,11 @@ Another issue that comes up is people wanting to disable links. So, there&#39;s 
 </description>
       <pubDate>Fri, 30 Sep 2016 09:24:39 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/when-to-hide-and-when-to-disable/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/when-to-hide-and-when-to-disable/</guid>
     </item>
     <item>
       <title>Getting Feedback on Codepen Demos</title>
-      <link>https://chrissmith.xyz/blog/getting-feedback-on-codepen-demos/</link>
+      <link>https://chrissmith.xyz/blog/2016/getting-feedback-on-codepen-demos/</link>
       <description>&lt;p&gt;At the software company where I work, we&#39;ve started using &lt;a href=&quot;https://codepen.io/&quot; target=&quot;_blank&quot;&gt;Codepen&lt;/a&gt; as a way of producing interactive demos or prototype pages. It&#39;s slowly replacing the use of static images or mock-ups. We&#39;ve started sharing the URLs for these with customers to get their feedback on new features.&lt;/p&gt;
 &lt;p&gt;This could be done by sending them 2 URLs, one for the pen and one for the feedback form, but it&#39;s not as good as being able to complete the form whilst viewing the demo content at the same time. I came up with a way of requesting feedback within the pen.&lt;/p&gt;
 &lt;h3&gt;SurveyMonkey&lt;/h3&gt;
@@ -2241,11 +2271,11 @@ I&#39;m now looking at building this out as a template ready for future feedback
 </description>
       <pubDate>Sat, 28 May 2016 10:00:45 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/getting-feedback-on-codepen-demos/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/getting-feedback-on-codepen-demos/</guid>
     </item>
     <item>
       <title>Beautifying Native Form Elements</title>
-      <link>https://chrissmith.xyz/blog/beautifying-native-form-elements/</link>
+      <link>https://chrissmith.xyz/blog/2016/beautifying-native-form-elements/</link>
       <description>&lt;p&gt;The various types of form inputs can look very different in different browsers. When it comes to styling them there&#39;s only so much we can control. Here are all the form elements (at the time of writing) in one pen. Try viewing it in different browsers to see how they appear.&lt;/p&gt;
 &lt;p&gt;[codepen_embed height=500 theme_id=1 slug_hash=&#39;pymBWL&#39; user=&#39;chris22smith&#39; default_tab=&#39;result&#39; animations=&#39;run&#39;]
 See the Pen &amp;lt;a href=&#39;https://codepen.io/chris22smith/pen/pymBWL&#39;&amp;gt;All Form Elements&amp;lt;/a&amp;gt;.
@@ -2262,11 +2292,11 @@ See the Pen &amp;lt;a href=&#39;https://codepen.io/chris22smith/pen/PNvvXd&#39;&
 </description>
       <pubDate>Fri, 27 May 2016 18:20:20 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/beautifying-native-form-elements/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/beautifying-native-form-elements/</guid>
     </item>
     <item>
       <title>Star Wars Mini Projects in Codepen</title>
-      <link>https://chrissmith.xyz/blog/star-wars-mini-projects-in-codepen/</link>
+      <link>https://chrissmith.xyz/blog/2016/star-wars-mini-projects-in-codepen/</link>
       <description>&lt;p&gt;The Star Wars universe seems to be a bit of a recurring theme for me when experimenting with 3D modelling and animation in Codepen. Here are some pens and a bit of explanation of how they were made. Naturally the code is available by switching the view.&lt;/p&gt;
 &lt;h3&gt;CSS 3D Tie Fighter Wireframe&lt;/h3&gt;
 [codepen_embed height=500 theme_id=1 slug_hash=&#39;wMYaBL&#39; user=&#39;chris22smith&#39; default_tab=&#39;result&#39; animations=&#39;run&#39;]
@@ -2288,11 +2318,11 @@ See the Pen &amp;lt;a href=&#39;https://codepen.io/chris22smith/pen/QNYOQQ&#39;&
 </description>
       <pubDate>Wed, 18 May 2016 19:47:28 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/star-wars-mini-projects-in-codepen/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/star-wars-mini-projects-in-codepen/</guid>
     </item>
     <item>
       <title>Web Animation Tips</title>
-      <link>https://chrissmith.xyz/blog/web-animations-tips/</link>
+      <link>https://chrissmith.xyz/blog/2016/web-animations-tips/</link>
       <description>&lt;p&gt;Here are a few techniques I use in making web animations in &lt;a href=&quot;https://codepen.io/chris22smith&quot; target=&quot;_blank&quot;&gt;Codepen&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Zooming&lt;/h3&gt;
 By zooming all I really mean is moving things nearer or further by animating them along the Z axis with transform:translateZ(). This needs to be used in conjunction with the perspective and perspective-origin rules on a parent element. I tend to put this on the html element.
@@ -2315,11 +2345,11 @@ Making an object shake is a great way of drawing attention to it or giving the i
 </description>
       <pubDate>Mon, 25 Apr 2016 18:54:22 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/web-animations-tips/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/web-animations-tips/</guid>
     </item>
     <item>
       <title>Mother Nature in Web Design</title>
-      <link>https://chrissmith.xyz/blog/mother-nature-in-web-design/</link>
+      <link>https://chrissmith.xyz/blog/2016/mother-nature-in-web-design/</link>
       <description>&lt;p&gt;How can we make designs feel more like the natural world and less like something created on a machine? Here are a few ideas...&lt;/p&gt;
 &lt;h3&gt;Randomness&lt;/h3&gt;
 I&#39;ve created a few pens on &lt;a href=&quot;https://codepen.io/&quot; target=&quot;_blank&quot;&gt;Codepen&lt;/a&gt; recently which involve JavaScript generating random elements in the DOM. Add a new element and assign it random position, dimensions or scale.
@@ -2337,11 +2367,11 @@ Light is not a constant in nature, except maybe in the dessert. It is affected b
 </description>
       <pubDate>Sat, 23 Apr 2016 11:16:16 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/mother-nature-in-web-design/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/mother-nature-in-web-design/</guid>
     </item>
     <item>
       <title>Lazy HTML :(</title>
-      <link>https://chrissmith.xyz/blog/lazy-html/</link>
+      <link>https://chrissmith.xyz/blog/2016/lazy-html/</link>
       <description>&lt;p&gt;Poking through other developers&#39; HTML pages I sometimes come across markup like this:&lt;/p&gt;
 &lt;p&gt;&amp;lt;br&amp;gt;
 &amp;lt;br&amp;gt;
@@ -2355,11 +2385,11 @@ We get a similar situation with margin and padding. Some developers just use the
 </description>
       <pubDate>Thu, 21 Apr 2016 20:15:08 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/lazy-html/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/lazy-html/</guid>
     </item>
     <item>
       <title>Ordering CSS Properties A-Z</title>
-      <link>https://chrissmith.xyz/blog/ordering-css-properties-a-z/</link>
+      <link>https://chrissmith.xyz/blog/2016/ordering-css-properties-a-z/</link>
       <description>&lt;p&gt;How do you order your CSS properties? There are a few different possible ways that spring to mind:&lt;/p&gt;
 &lt;ol&gt;
  	&lt;li&gt;Sort all properties alphabetically, listing them A-Z&lt;/li&gt;
@@ -2376,11 +2406,11 @@ I use different code editors for different projects but my main day-to-day one i
 </description>
       <pubDate>Wed, 20 Apr 2016 22:32:39 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/ordering-css-properties-a-z/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/ordering-css-properties-a-z/</guid>
     </item>
     <item>
       <title>What to Look For in a Web Designer or Design Agency</title>
-      <link>https://chrissmith.xyz/blog/what-to-look-for-in-a-web-designer-or-design-agency/</link>
+      <link>https://chrissmith.xyz/blog/2016/what-to-look-for-in-a-web-designer-or-design-agency/</link>
       <description>&lt;p&gt;Imagine you&#39;re a business owner or marketing bod and you need to get either a new website or you want a redesign of your current, slightly tired looking site. You need to hire a web designer or design agency. How do you tell the good from the bad?&lt;/p&gt;
 &lt;p&gt;Web designers range from the top end agencies who have major international corporations in their portfolios down to someone&#39;s neighbour&#39;s kid who made a website for someone once. Chances are you want something in between - not paying over the odds and not getting something held together by sticky tape.&lt;/p&gt;
 &lt;h3&gt;Agency or Freelance Designer&lt;/h3&gt;
@@ -2407,11 +2437,11 @@ To bring that all together in a nice to do list, ask about the following:
 </description>
       <pubDate>Wed, 06 Apr 2016 18:45:23 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-to-look-for-in-a-web-designer-or-design-agency/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/what-to-look-for-in-a-web-designer-or-design-agency/</guid>
     </item>
     <item>
       <title>Can I Track It?</title>
-      <link>https://chrissmith.xyz/blog/can-i-track-it/</link>
+      <link>https://chrissmith.xyz/blog/2016/can-i-track-it/</link>
       <description>&lt;p&gt;I&#39;m not sure what proportion of websites include Google Analytics tracking scripts. I&#39;d be guessing. What I do know is that every site I&#39;ve worked on in the last decade or so has made use of it.&lt;/p&gt;
 &lt;p&gt;The part I feel more confident about guessing is that only a very small minority use anything beyond the most basic out of the box usage. This was true of me until only a few months ago when I was asked if we could track something other than a simple page load.&lt;/p&gt;
 &lt;h3&gt;Tracking Events&lt;/h3&gt;
@@ -2420,11 +2450,11 @@ It seems like a big thing initially but is actually quite straightforward. You j
 </description>
       <pubDate>Fri, 11 Mar 2016 20:19:26 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/can-i-track-it/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/can-i-track-it/</guid>
     </item>
     <item>
       <title>Google Maps - The Bits They Don&#39;t Tell You</title>
-      <link>https://chrissmith.xyz/blog/google-maps-the-bits-they-dont-tell-you/</link>
+      <link>https://chrissmith.xyz/blog/2016/google-maps-the-bits-they-dont-tell-you/</link>
       <description>&lt;p&gt;I&#39;ve done quite a lot of work with the Google Maps JavaScript API in the last year or so. I think I&#39;ve picked up quite a bit along the way, which you won&#39;t find in the official reference guide.&lt;/p&gt;
 &lt;p&gt;When I first started working with it, one of my favourite things was the excellent documentation that came with it. Sadly, since the shift to Material Design, it&#39;s now very difficult to navigate and find anything. In fact, I&#39;ve pretty much given up on it. It&#39;s a lot easier to just use Stack Overflow.&lt;/p&gt;
 &lt;p&gt;Here are some fairly basic things I found, which, depending on your project, might make life easier.&lt;/p&gt;
@@ -2443,11 +2473,11 @@ When you create a map, also create a bounds object. This holds location data fo
 </description>
       <pubDate>Wed, 09 Mar 2016 18:06:04 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/google-maps-the-bits-they-dont-tell-you/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/google-maps-the-bits-they-dont-tell-you/</guid>
     </item>
     <item>
       <title>Tools of the Trade</title>
-      <link>https://chrissmith.xyz/blog/tools-of-the-trade/</link>
+      <link>https://chrissmith.xyz/blog/2016/tools-of-the-trade/</link>
       <description>&lt;p&gt;I thought I&#39;d list some of the web development tools I use. Not the cool stuff I&#39;ve recently found or wish I understood but the actual things I go to or reach for when I need to get a job done.&lt;/p&gt;
 &lt;p&gt;Everyone has their own preferred code editor, which does the bulk of the work. And I&#39;m pretty sure everyone uses their browser developer tools too. This is more the little tools for very specific jobs.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://compressor.io/compress&quot; target=&quot;_blank&quot;&gt;Compressor.io&lt;/a&gt;
@@ -2476,11 +2506,11 @@ Get Google suggestions for improving your page load times. Useful for both perfo
 </description>
       <pubDate>Sun, 06 Mar 2016 12:52:30 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/tools-of-the-trade/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/tools-of-the-trade/</guid>
     </item>
     <item>
       <title>Learning Flexbox</title>
-      <link>https://chrissmith.xyz/blog/learning-flexbox/</link>
+      <link>https://chrissmith.xyz/blog/2016/learning-flexbox/</link>
       <description>&lt;p&gt;I&#39;ve just, finally, learned how to use the flexible box layout, more commonly known as Flexbox. I&#39;m not going to explain it as there are other sites that can do a far better job of that but just wanted to share some excellent resources for learning it as painlessly as possible.&lt;/p&gt;
 &lt;p&gt;I&#39;ve delayed on learning it for what feels like years as I&#39;ve had to support older browsers and trying to provide alternative layouts for old and new was just too much of a maintenance headache. Now I&#39;ve learned it there&#39;s no looking back.&lt;/p&gt;
 &lt;p&gt;Here are 3 excellent resources to help learn it. They&#39;re all quite different but used together cover everything you could need.&lt;/p&gt;
@@ -2498,11 +2528,11 @@ This is a great resource for reference as it lists everything you might want to 
 </description>
       <pubDate>Fri, 04 Mar 2016 21:28:10 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/learning-flexbox/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/learning-flexbox/</guid>
     </item>
     <item>
       <title>Loading More Items</title>
-      <link>https://chrissmith.xyz/blog/loading-more-items/</link>
+      <link>https://chrissmith.xyz/blog/2016/loading-more-items/</link>
       <description>&lt;p&gt;What&#39;s the best way of loading more items on screen in terms of user experience and performance - &amp;quot;infinite&amp;quot; scroll, pagination or a simple &amp;quot;load more&amp;quot; option? Here&#39;s a quick look and pros and cons of each.&lt;/p&gt;
 &lt;h3&gt;Infinite Scroll&lt;/h3&gt;
 Infinite scroll is the name given to a web design pattern where scrolling to the bottom of the screen loads more records. It&#39;s most common in streams like on Facebook and Twitter.
@@ -2525,11 +2555,11 @@ Sometimes not having a sense of the number of records can be a bad thing. As wi
 </description>
       <pubDate>Thu, 03 Mar 2016 18:03:38 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/loading-more-items/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/loading-more-items/</guid>
     </item>
     <item>
       <title>Boosting Web Performance</title>
-      <link>https://chrissmith.xyz/blog/boosting-web-performance/</link>
+      <link>https://chrissmith.xyz/blog/2016/boosting-web-performance/</link>
       <description>&lt;p&gt;One of the areas of front end development I&#39;ve really got into in the last year or so is performance. It&#39;s always been there in the background (along with SEO and accessibility) but it seems to have a lot more focus in the web community lately.&lt;/p&gt;
 &lt;p&gt;For a while I&#39;ve been looking at different ways to speed up various sites I work on. This site has given me a perfect guinea pig for trying out some different techniques. Let&#39;s give it a boost! Oooosh!&lt;/p&gt;
 &lt;h3&gt;Static&lt;/h3&gt;
@@ -2545,11 +2575,11 @@ I&#39;ve routed my site through &lt;a href=&quot;https://www.cloudflare.com/&quo
 </description>
       <pubDate>Wed, 10 Feb 2016 17:40:42 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/boosting-web-performance/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/boosting-web-performance/</guid>
     </item>
     <item>
       <title>Bilingual Equality with a Splash Page</title>
-      <link>https://chrissmith.xyz/blog/bilingual-equality-with-a-splash-page/</link>
+      <link>https://chrissmith.xyz/blog/2016/bilingual-equality-with-a-splash-page/</link>
       <description>&lt;p&gt;I&#39;ve worked on a few education sites in Wales and bilingualism is one of the major challenges for any public sector site.&lt;/p&gt;
 &lt;p&gt;A multilingual site isn&#39;t so hard. Most content management systems offer language switching - being on a page in one language and hopping across to view the equivalent piece of content in another. The difficulty comes with entering the site or managing the landing page experience.&lt;/p&gt;
 &lt;p&gt;So, on your bilingual site, what do you put on your home page? Most content management systems are set up to use a default or primary language with others as secondary options. They&#39;re not treated equally. In Wales we&#39;re supposed to give both Welsh and English equal status.&lt;/p&gt;
@@ -2559,11 +2589,11 @@ I&#39;ve routed my site through &lt;a href=&quot;https://www.cloudflare.com/&quo
 </description>
       <pubDate>Mon, 18 Jan 2016 23:14:08 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/bilingual-equality-with-a-splash-page/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/bilingual-equality-with-a-splash-page/</guid>
     </item>
     <item>
       <title>Website Redesign - chrissmith.xyz</title>
-      <link>https://chrissmith.xyz/blog/website-redesign-chrissmith-xyz/</link>
+      <link>https://chrissmith.xyz/blog/2016/website-redesign-chrissmith-xyz/</link>
       <description>&lt;p&gt;Over the last couple of months of 2015 and the start of 2016 I decided to redesign this site. There wasn&#39;t anything particularly wrong with it before from a user&#39;s point of view but from an author&#39;s point of view I felt I could do better.&lt;/p&gt;
 &lt;p&gt;The site was built using &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, which is a static site generator. You make changes on your local machine and everything gets rebuilt as static files. This is great for performance as static pages are much faster. The downside for me was that it meant only being able to publish blog posts or pages from that one machine. #firstworldproblems :)&lt;/p&gt;
 &lt;p&gt;My biggest issue with having my own site is giving it the love it deserves. Making time to write content is definitely the number one blocker for me. If I could make it as easy as possible to write content from multiple devices that would go a long way to making it work for me. I decided to go back to good old &lt;a href=&quot;https://en-gb.wordpress.org/&quot; target=&quot;_blank&quot;&gt;WordPress&lt;/a&gt;.&lt;/p&gt;
@@ -2574,11 +2604,11 @@ I&#39;ve routed my site through &lt;a href=&quot;https://www.cloudflare.com/&quo
 </description>
       <pubDate>Wed, 13 Jan 2016 18:00:29 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/website-redesign-chrissmith-xyz/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/website-redesign-chrissmith-xyz/</guid>
     </item>
     <item>
       <title>Setting Default Styling for Custom UI Components</title>
-      <link>https://chrissmith.xyz/blog/setting-default-styling-for-custom-ui-components/</link>
+      <link>https://chrissmith.xyz/blog/2016/setting-default-styling-for-custom-ui-components/</link>
       <description>&lt;p&gt;I thought I&#39;d share a challenge I&#39;m facing at the moment. A lot of modern JavaScript frameworks like React and Angular encourage building reusable UI components. Using JavaScript and HTML templates seems like an excellent approach to development on larger sites but styling these components can bring a few issues.&lt;/p&gt;
 &lt;p&gt;Browsers can handle styling standard HTML web components, like &amp;lt;select&amp;gt; or &amp;lt;button&amp;gt;. They may vary in how they display these but they all have a default way which can then be overwritten with CSS. This is stored as a kind of internal CSS class in the browser and is easy to overwrite as it has almost zero specificity. Adding an element selector &#39;select&#39;, a class &#39;.picker&#39; or an id &#39;#picker&#39; will easily take control over the styling.&lt;/p&gt;
 &lt;p&gt;The problem arises when we create custom components that don&#39;t have any default, zero specificity styling. Any styling that we do add when we design components has specificity so we immediately have a fight on our hands for which styling declaration gets control. We need some level of default styling, usually for layout as much as anything, to ensure that the browser cannot just show a mess of HTML elements.&lt;/p&gt;
@@ -2606,11 +2636,11 @@ I&#39;m wondering if there may be a solution where we have a default styles obje
 </description>
       <pubDate>Sun, 10 Jan 2016 22:24:32 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/setting-default-styling-for-custom-ui-components/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/setting-default-styling-for-custom-ui-components/</guid>
     </item>
     <item>
       <title>What I Learned in 2015</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2015/</link>
+      <link>https://chrissmith.xyz/blog/2016/what-i-learned-in-2015/</link>
       <description>&lt;p&gt;I thought I&#39;d do another quick run-through of what I&#39;ve picked up this year. It feels good to show myself that I&#39;m still learning at a healthy pace.&lt;/p&gt;
 &lt;h3&gt;SVG&lt;/h3&gt;
 I&#39;ve started using SVG more, creating some simple charts and building dynamic graphics for use with Google Maps. I made markers or pins, which have colours and characters set dynamically according to data. I think I&#39;ve finally got my head around the whole viewBox, which took me a while. &lt;a href=&quot;https://css-tricks.com/search-results/?q=svg&quot; target=&quot;_blank&quot;&gt;CSS Tricks&lt;/a&gt; provided me with some &lt;a href=&quot;https://css-tricks.com/search-results/?q=svg&quot; target=&quot;_blank&quot;&gt;very useful SVG tutorials&lt;/a&gt; and introduced me to the work of &lt;a href=&quot;https://sarasoueidan.com/&quot; target=&quot;_blank&quot;&gt;Sara Soueidan&lt;/a&gt;.
@@ -2637,11 +2667,11 @@ And finally, &lt;a href=&quot;https://codepen.io/&quot; target=&quot;_blank&quot
 </description>
       <pubDate>Sat, 02 Jan 2016 12:09:59 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2015/</guid>
+      <guid>https://chrissmith.xyz/blog/2016/what-i-learned-in-2015/</guid>
     </item>
     <item>
       <title>Easier Colours in Web Design</title>
-      <link>https://chrissmith.xyz/blog/easier-colours-in-web-design/</link>
+      <link>https://chrissmith.xyz/blog/2015/easier-colours-in-web-design/</link>
       <description>&lt;p&gt;In the last couple of years I&#39;ve changed the way I work with colours in websites. I&#39;ve realised that the number of colours available to us as designers or developers is actually kind of ridiculous and that we&#39;re making life harder than it needs to be.&lt;/p&gt;
 &lt;p&gt;Whether you use RGB(A) or Hexidecimal notation the number of colours available, if I&#39;ve worked it out correctly, is:&lt;/p&gt;
 &lt;blockquote&gt;256 * 256 * 256 = 16,777,216 colours&lt;/blockquote&gt;
@@ -2650,21 +2680,21 @@ That&#39;s a lot of colours.
 &lt;p&gt;I&#39;ve moved to using short form Hex codes, e.g. #fff, for everything. It&#39;s not like this leaves you short of choice. In fact, there are still a cool 4,096 colours to pick from, which is more than enough to make my brain hurt.&lt;/p&gt;
 &lt;blockquote&gt;16 x 16 x 16 = 4,096 colours&lt;/blockquote&gt;
 I&#39;ve even gone a stage further and replaced old long form Hex colours with the my new found short form. It&#39;s just a case of rounding the values up or down to their nearest whole increment. Values 0-7 are rounded down, 8-f are rounded up. So, #5ba546 becomes #6a4. Can you tell the difference?
-&lt;div style=&quot;display: inline-block; width: 30%; background-color: #5ba546; color: #fff; margin-right: .5em; padding: .5em;&quot;&gt;#5ba546&lt;/div&gt;
-&lt;div style=&quot;display: inline-block; width: 30%; background-color: #6a4; color: #fff; padding: .5em; margin-bottom: 1em;&quot;&gt;#6a4&lt;/div&gt;
+&lt;div style=&quot;display: inline-block; inline-size: 30%; background-color: #5ba546; color: #fff; margin-inline-end: .5em; padding: .5em;&quot;&gt;#5ba546&lt;/div&gt;
+&lt;div style=&quot;display: inline-block; inline-size: 30%; background-color: #6a4; color: #fff; padding: .5em; margin-block-end: 1em;&quot;&gt;#6a4&lt;/div&gt;
 Maybe you can tell the difference seeing them side by side. Would you feel confident you could tell me which one it was if I only showed you the one? Does it matter anyway?
 &lt;p&gt;I would argue that the colour specified and the colour actually seen are never an exact match. A device&#39;s display settings - brightness, number of colours, saturation, warmth, etc. can vary so much that is a true colour even really a thing any more? It&#39;s more the relationship to other colours that matters than the representation of a single colour on its own.&lt;/p&gt;
 &lt;p&gt;I wouldn&#39;t say there are major gains to be had by shortening the Hex codes but any removal of unnecessary complexity has to be a good thing, right? It&#39;s less characters to type - hardly a major victory - but, more importantly, quite a lot easier to remember each colour, which means that we type the right thing from memory more often and don&#39;t have to spend so much time referring back to style guides for commonly used colours.&lt;/p&gt;
 &lt;p&gt;So, which is it, #5ba546 or #6a4?&lt;/p&gt;
-&lt;div style=&quot;display: inline-block; width: 30%; background-color: #6a4; color: #fff; padding: .5em; margin-bottom: 1em;&quot;&gt;#?&lt;/div&gt;
+&lt;div style=&quot;display: inline-block; inline-size: 30%; background-color: #6a4; color: #fff; padding: .5em; margin-block-end: 1em;&quot;&gt;#?&lt;/div&gt;
 </description>
       <pubDate>Thu, 24 Dec 2015 16:30:21 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/easier-colours-in-web-design/</guid>
+      <guid>https://chrissmith.xyz/blog/2015/easier-colours-in-web-design/</guid>
     </item>
     <item>
       <title>Developing in Codepen</title>
-      <link>https://chrissmith.xyz/blog/developing-in-codepen/</link>
+      <link>https://chrissmith.xyz/blog/2015/developing-in-codepen/</link>
       <description>&lt;p&gt;A look at why and how I use Codepen for front end development work.&lt;/p&gt;
 &lt;h3&gt;Background&lt;/h3&gt;
 I work on a web app with a development team. We use &lt;a href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot;&gt;AngularJS&lt;/a&gt; with a RESTful API. My role is looking at the design and UX side of things and scoping out how a new feature will look and behave in a web browser, or, I should say, in various browsers at different screen sizes.
@@ -2684,11 +2714,11 @@ I&#39;ve started using &lt;a href=&quot;https://codepen.io/&quot; target=&quot;_
 </description>
       <pubDate>Sun, 13 Dec 2015 22:09:41 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/developing-in-codepen/</guid>
+      <guid>https://chrissmith.xyz/blog/2015/developing-in-codepen/</guid>
     </item>
     <item>
       <title>Questioning the UX of an App I&#39;ve Never Seen</title>
-      <link>https://chrissmith.xyz/blog/questioning-the-ux-of-an-app-ive-never-seen/</link>
+      <link>https://chrissmith.xyz/blog/2015/questioning-the-ux-of-an-app-ive-never-seen/</link>
       <description>&lt;p&gt;This is an odd one. There&#39;s an App out there called Tinder. I&#39;ve never seen it but have heard a few people talking about it on the radio and on podcasts. Without even seeing it for myself I&#39;m questioning its usability. Is that normal?&lt;/p&gt;
 &lt;p&gt;From what I understand it&#39;s kind of a dating service where the user is shown photos of other users in his/her vicinity. The idea is you then basically accept or reject each and if 2 users accept each other something happens - I don&#39;t know what - they didn&#39;t talk about that bit. I&#39;d guess some kind of notification or they go through to the next round or, at least, some kind of progress. Anyway, the point here, and the bit these conversations have focused on, is the design of the basic accept or reject user actions. Apparently you swipe left for one and right for the other and users are getting confused. They either forget which is which (I&#39;m sure there are some visual cues so assume they must be going very fast), or they try to go back to a previous one and reject them (I guess that swipe left is probably reject then?).&lt;/p&gt;
 &lt;p&gt;My immediate thought was why not make the left and right swipe simply the means of navigating between photos and make swiping up and down the reject and accept actions? It seems more logical to me that a swipe up is pushing the photo away - reject - and that a swipe down is pulling it towards you - accept.&lt;/p&gt;
@@ -2696,11 +2726,11 @@ I&#39;ve started using &lt;a href=&quot;https://codepen.io/&quot; target=&quot;_
 </description>
       <pubDate>Thu, 26 Nov 2015 23:16:38 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/questioning-the-ux-of-an-app-ive-never-seen/</guid>
+      <guid>https://chrissmith.xyz/blog/2015/questioning-the-ux-of-an-app-ive-never-seen/</guid>
     </item>
     <item>
       <title>Forgotten Passwords</title>
-      <link>https://chrissmith.xyz/blog/forgotten-passwords/</link>
+      <link>https://chrissmith.xyz/blog/2015/forgotten-passwords/</link>
       <description>&lt;p&gt;Forgotten Your Password? Yes. Yes, I have forgotten my password. Yes, again.&lt;/p&gt;
 &lt;p&gt;I always forget my passwords and have to click the forgotten your password link. I resent the wording of “forgotten your password?” as it implies that I’m the one at fault. Gimme a break! The truth of the matter is that as a website user I can’t win. If I pick a nice simple combination of letters and maybe numbers that I can remember easily I’m told that it’s not secure enough; if I pick something suitably complicated or random then I can’t remember it, especially when I’m not supposed to use the same password across multiple sites.&lt;/p&gt;
 &lt;p&gt;We want our accounts to be secure and, at the same time, we want the convenience of not having to jump through a multitude of hoops just to log in.&lt;/p&gt;
@@ -2728,11 +2758,11 @@ D@r+hV@der (DarthVader)
 </description>
       <pubDate>Fri, 10 Apr 2015 17:18:48 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/forgotten-passwords/</guid>
+      <guid>https://chrissmith.xyz/blog/2015/forgotten-passwords/</guid>
     </item>
     <item>
       <title>What I Learned in 2014: Part 3 - The Best of the Rest</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2014-part-3/</link>
+      <link>https://chrissmith.xyz/blog/2014/what-i-learned-in-2014-part-3/</link>
       <description>&lt;p&gt;This is the final part of a three-part article looking back on new things I’ve discovered in 2014. This part is just a round up of all the other bits and pieces not mentioned in the other parts and a bit of a look forward to 2015.&lt;/p&gt;
 &lt;h3&gt;Google Analytics&lt;/h3&gt;
 I’ve used Analytics for years but haven’t really used it in any depth for the last couple of years. It’s changed. Quite a lot. All in a good way. It can do a lot more now than before. It seems to be moving closer towards the Webmaster Tools and used well can actually help you improve not only the user experience through design but also the performance of your site through the Behaviour &amp;gt; Page Speed data and suggestions.
@@ -2752,11 +2782,11 @@ So, now I see how much I’ve learned in the last year it’s time to start thin
 </description>
       <pubDate>Wed, 31 Dec 2014 16:14:31 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2014-part-3/</guid>
+      <guid>https://chrissmith.xyz/blog/2014/what-i-learned-in-2014-part-3/</guid>
     </item>
     <item>
       <title>What I Learned in 2014: Part 2 - Javascript and Google Maps</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2014-part-2/</link>
+      <link>https://chrissmith.xyz/blog/2014/what-i-learned-in-2014-part-2/</link>
       <description>&lt;p&gt;This is the second part of a three-part article looking back at what new web things I’ve learned in 2014. This part focuses on JavaScript.&lt;/p&gt;
 &lt;h3&gt;JavaScript and jQuery&lt;/h3&gt;
 This is a big area, probably the area where I have made the most progress in the last year. The main shift for me has been from doing everything in jQuery, which I learned first, to using native JavaScript. Hopefully by learning to do more with native Javascript I can cut down on the jQuery bloat, especially in mobile friendly pages.
@@ -2776,11 +2806,11 @@ I’ve now spent a few months working with this API and have got a good understa
 </description>
       <pubDate>Tue, 30 Dec 2014 16:08:26 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2014-part-2/</guid>
+      <guid>https://chrissmith.xyz/blog/2014/what-i-learned-in-2014-part-2/</guid>
     </item>
     <item>
       <title>What I Learned in 2014: Part 1 - HTML, CSS, Fonts and Images</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2014-part-1/</link>
+      <link>https://chrissmith.xyz/blog/2014/what-i-learned-in-2014-part-1/</link>
       <description>&lt;p&gt;I thought I’d take a look back through all the new tech that I’ve learnt in 2014. Most of it is genuinely learning new things from scratch but some is polishing up on things I haven’t used for a while or taking things further than I had before. It’s a much longer list than I had expected so I’ve broken it down into 3 articles. Hopefully, it’ll be handy to come back to in the future when I’ve forgotten it all again.&lt;/p&gt;
 &lt;h3&gt;HTML&lt;/h3&gt;
 I’ve discovered a couple of new things in HTML5. As they’re APIs I uess they’re really Javascript more than HTML. I’ve learned a bit about the Speech API - speech synthesis (turning text content into audio) and speech recognition (turning microphone input into text). It’s still early days and, at the time of writing, only works in Chrome but has some exciting possibilities for both greater accessibility and the ability to use the web without having to look at a page.
@@ -2798,11 +2828,11 @@ I haven’t learned much new with images but have found a couple of handy new te
 </description>
       <pubDate>Mon, 29 Dec 2014 16:05:41 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2014-part-1/</guid>
+      <guid>https://chrissmith.xyz/blog/2014/what-i-learned-in-2014-part-1/</guid>
     </item>
     <item>
       <title>If Facebook had a Yawn Button</title>
-      <link>https://chrissmith.xyz/blog/if-facebook-had-a-yawn-button/</link>
+      <link>https://chrissmith.xyz/blog/2014/if-facebook-had-a-yawn-button/</link>
       <description>&lt;p&gt;At the moment Facebook has 3 ways you can interact with posts: Like, Comment and Share. All three of these do slightly different things but they all contribute towards a post’s popularity score, which determines how likely it is to appear in people’s news streams. It makes a lot of sense for users to be shown content that people like or interact with (comments could be negative) rather than content people are indifferent to. In short, it’s a system designed to reward and promote interesting content.&lt;/p&gt;
 &lt;p&gt;Facebook is cleverer than this. It records which other users you interact with most and gives their future posts priority in your stream so you see more from those people you have historically found interesting. Good job Facebook barons!&lt;/p&gt;
 &lt;p&gt;I think we need the opposite, a way of penalising and demoting the content that we find boring. The way I imagine it working is having a Yawn link with the other options. The main difference with this one is that it would have to be anonymous. We don’t want people to be offended, cause tension or break up friendships. It’s also not intended as a way of judging the quality of other people’s content - what one person finds interesting might be boring to someone else or maybe it’s an in-joke that they just don’t get. It’s about filtering the right content for the right people.&lt;/p&gt;
@@ -2813,11 +2843,11 @@ If I post something and it gets 1 Like but 20 Yawns it’ll make me think twice 
 </description>
       <pubDate>Sun, 28 Sep 2014 16:57:25 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/if-facebook-had-a-yawn-button/</guid>
+      <guid>https://chrissmith.xyz/blog/2014/if-facebook-had-a-yawn-button/</guid>
     </item>
     <item>
       <title>My New Website</title>
-      <link>https://chrissmith.xyz/blog/my-new-website/</link>
+      <link>https://chrissmith.xyz/blog/2014/my-new-website/</link>
       <description>&lt;p&gt;After years of working on all sorts of websites I thought I’d create my own personal site. I’ve created quite a few sites for myself before but they have always been about my web design and development work or (failed) entrepreneurial attemps to generate a bit of money. This is different. I’m not looking to gain any money, work or reputation, just giving myself a platform to publish, well, whatever the hell I feel like.&lt;/p&gt;
 &lt;p&gt;I’m not sure what will go on it yet, maybe a bit of a blog, maybe some articles, photos, video, music. Or I might just fill pages with adverts and animated GIFs. Seems to work for some people.&lt;/p&gt;
 &lt;h3&gt;The Design&lt;/h3&gt;
@@ -2828,11 +2858,11 @@ I thought I’d just share some of the thinking and technical approach behind th
 </description>
       <pubDate>Sun, 07 Sep 2014 08:34:05 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/my-new-website/</guid>
+      <guid>https://chrissmith.xyz/blog/2014/my-new-website/</guid>
     </item>
     <item>
       <title>How to choose the right web host</title>
-      <link>https://chrissmith.xyz/blog/how-to-choose-the-right-web-host/</link>
+      <link>https://chrissmith.xyz/blog/2011/how-to-choose-the-right-web-host/</link>
       <description>&lt;p&gt;If you&#39;re starting a new site, it&#39;s very hard to know how to pick the right web host. Which company should you host your site with? How much should you be spending?&lt;/p&gt;
 &lt;p&gt;There are a number of factors to consider.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Disk Space
@@ -2847,11 +2877,11 @@ Finally, it&#39;s worth weighing up what kind of support you will receive. If yo
 </description>
       <pubDate>Wed, 19 Jan 2011 17:32:31 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/how-to-choose-the-right-web-host/</guid>
+      <guid>https://chrissmith.xyz/blog/2011/how-to-choose-the-right-web-host/</guid>
     </item>
     <item>
       <title>How to pick the right domain name</title>
-      <link>https://chrissmith.xyz/blog/how-to-pick-the-right-domain-name/</link>
+      <link>https://chrissmith.xyz/blog/2010/how-to-pick-the-right-domain-name/</link>
       <description>&lt;p&gt;How should you go about selecting the right domain name for your business?&lt;/p&gt;
 &lt;p&gt;Firstly, you need to find the &lt;a href=&quot;https://www.hostingobserver.com/free-domain-names.php&quot; target=&quot;_blank&quot;&gt;free domain names&lt;/a&gt; available on the web. For this, you can take help of your web host. Some &lt;a href=&quot;https://www.hostingobserver.com/&quot; target=&quot;_blank&quot;&gt;web hosting plans&lt;/a&gt; include a free domain name with their hosting plan.&lt;/p&gt;
 &lt;p&gt;So, once you know where to actually register a name, how do you pick the right one?&lt;/p&gt;
@@ -2890,11 +2920,11 @@ pjmorris-books-ashford.co.uk&lt;/p&gt;
 </description>
       <pubDate>Tue, 22 Jun 2010 17:30:45 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/how-to-pick-the-right-domain-name/</guid>
+      <guid>https://chrissmith.xyz/blog/2010/how-to-pick-the-right-domain-name/</guid>
     </item>
     <item>
       <title>Static Website or Content Management System?</title>
-      <link>https://chrissmith.xyz/blog/static-website-or-content-management-system/</link>
+      <link>https://chrissmith.xyz/blog/2010/static-website-or-content-management-system/</link>
       <description>&lt;p&gt;If you&#39;ve decided you want a website, the next decision to be made is which kind - a simple, static website or a Content Management System (CMS)? Let&#39;s have a look at the pros and cons of each kind.&lt;/p&gt;
 &lt;h2&gt;Static website&lt;/h2&gt;
 &lt;strong&gt;Pros&lt;/strong&gt;
@@ -2927,11 +2957,11 @@ pjmorris-books-ashford.co.uk&lt;/p&gt;
 </description>
       <pubDate>Wed, 02 Jun 2010 17:52:29 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/static-website-or-content-management-system/</guid>
+      <guid>https://chrissmith.xyz/blog/2010/static-website-or-content-management-system/</guid>
     </item>
     <item>
       <title>Good web design – following conventions</title>
-      <link>https://chrissmith.xyz/blog/good-web-design-following-conventions/</link>
+      <link>https://chrissmith.xyz/blog/2009/good-web-design-following-conventions/</link>
       <description>&lt;p&gt;When designing a website an important consideration is its usability and, in particular, the site&#39;s visitors being able to understand how to use the site instantly without having to think about it. It should be obvious where to find the login link, the search box, know which text is hyperlinked without having to hover over it, etc.&lt;/p&gt;
 &lt;p&gt;The easiest way to design for people is to give them more of what they already know and understand. Let&#39;s take a look at the most popular sites in the UK and see how they do things. We&#39;ll look at where various page elements are positioned and how links are styled. This list comes from &lt;a title=&quot;alexa.com&quot; href=&quot;https://www.alexa.com/topsites/countries/GB&quot; target=&quot;_blank&quot;&gt;Alexa&#39;s Top Sites in the United Kingdom&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Google (UK/Global)&lt;/strong&gt;
@@ -3011,11 +3041,11 @@ links - usually blue or dark blue, sometimes underlined, more commonly not but u
 </description>
       <pubDate>Wed, 16 Sep 2009 15:25:03 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/good-web-design-following-conventions/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/good-web-design-following-conventions/</guid>
     </item>
     <item>
       <title>Fighting Spam</title>
-      <link>https://chrissmith.xyz/blog/fighting-spam/</link>
+      <link>https://chrissmith.xyz/blog/2009/fighting-spam/</link>
       <description>&lt;p&gt;Junk email and blog posts are a constant problem. Here are a few ways to help spoil the spammers&#39; fun.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Email Spam&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;There are a lot of anti-spam or spam filter products around these days, many included in mail software but the sad fact is that once you&#39;re getting spam you&#39;re likely to keep getting spam regardless of these filters.&lt;/p&gt;
@@ -3057,11 +3087,11 @@ This is an obvious one but when giving your email address as part of registratio
 </description>
       <pubDate>Mon, 14 Sep 2009 13:36:03 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/fighting-spam/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/fighting-spam/</guid>
     </item>
     <item>
       <title>Twitter explained simply</title>
-      <link>https://chrissmith.xyz/blog/twitter-explained-simply/</link>
+      <link>https://chrissmith.xyz/blog/2009/twitter-explained-simply/</link>
       <description>&lt;p&gt;&lt;a title=&quot;Twitter&quot; href=&quot;https://twitter.com/&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; keeps hitting the headlines at the moment but a lot of people don&#39;t seem to understand what it really is and how it differs from other Social Networks. I&#39;ll try to explain it in terms more people can understand.&lt;/p&gt;
 &lt;p&gt;&lt;a title=&quot;Twitter&quot; href=&quot;https://twitter.com/&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; is basically about posting short messages, much like SMS texting on mobiles. Each post is called a &amp;quot;tweet&amp;quot; and is limited to 140 characters. It can&#39;t include other media as such but it can include hyperlinks so anything you wish to share is only a click away.&lt;/p&gt;
 &lt;p&gt;It doesn&#39;t work like email where you choose the recipients of your messages but more like a subscription service. You put your message out there and it&#39;s read by your subscribers. In many ways it&#39;s more like broadcasting.&lt;/p&gt;
@@ -3073,11 +3103,11 @@ This is an obvious one but when giving your email address as part of registratio
 </description>
       <pubDate>Fri, 03 Jul 2009 12:37:27 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/twitter-explained-simply/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/twitter-explained-simply/</guid>
     </item>
     <item>
       <title>Web traffic through quality links</title>
-      <link>https://chrissmith.xyz/blog/web-traffic-through-quality-links/</link>
+      <link>https://chrissmith.xyz/blog/2009/web-traffic-through-quality-links/</link>
       <description>&lt;p&gt;I&#39;ve recently started a new &lt;a title=&quot;web development blog&quot; href=&quot;https://dinowebs.net/&quot; target=&quot;_self&quot;&gt;web development blog&lt;/a&gt; and have been pleasantly surprised at the high levels of traffic (relative to anything I&#39;ve done before) it&#39;s receiving after such a short space of time. I&#39;ll share with you how I&#39;ve achieved this.&lt;/p&gt;
 &lt;p&gt;My &lt;a title=&quot;traffic building strategy&quot; href=&quot;https://www.chrissmithmarketing.com/&quot; target=&quot;_self&quot;&gt;traffic building strategy&lt;/a&gt; was to target a few carefully chosen high quality links. My plan was to try to create a small number of links to my site, quality not quatity, coming from web pages highly ranked by &lt;a title=&quot;Google&quot; href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; and with a subject matching the page on my site. I also decided to use deep linking rather than just point everything at my home page.&lt;/p&gt;
 &lt;p&gt;The subject of my blog is &lt;a title=&quot;web development resources&quot; href=&quot;https://dinowebs.net/&quot; target=&quot;_self&quot;&gt;web development resources&lt;/a&gt; and, in particular, &lt;a title=&quot;ASP.NET web development&quot; href=&quot;https://dinowebs.net/&quot; target=&quot;_self&quot;&gt;ASP.NET web development&lt;/a&gt;. (Two links in that last sentence, sorry, can&#39;t help myself.)&lt;/p&gt;
@@ -3086,11 +3116,11 @@ This is an obvious one but when giving your email address as part of registratio
 </description>
       <pubDate>Sun, 21 Jun 2009 23:41:53 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/web-traffic-through-quality-links/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/web-traffic-through-quality-links/</guid>
     </item>
     <item>
       <title>Introducing... Dinowebs.net</title>
-      <link>https://chrissmith.xyz/blog/introducing-dinowebsnet/</link>
+      <link>https://chrissmith.xyz/blog/2009/introducing-dinowebsnet/</link>
       <description>&lt;p&gt;As a web developer and programmer I&#39;m always on the look out for solutions to little problems. How do I do that? How can I make that do this without X, Y and Z happening? You get the idea.&lt;/p&gt;
 &lt;p&gt;My first port of call is always &lt;a title=&quot;Google&quot; href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt;. The way I see it is that I&#39;m unikely to ever have a technical requirement that somebody else hasn&#39;t had before. In fact, it&#39;s highly likely that hundreds, even thousands of people have faced the same challenges. By using the right search terms on &lt;a title=&quot;Google&quot; href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; I can usually find the answers to my problems. This inspired me to build a &lt;a title=&quot;technical blog&quot; href=&quot;https://dinowebs.net/&quot; target=&quot;_self&quot;&gt;technical blog&lt;/a&gt;. It&#39;s my way of sharing what I&#39;ve learnt and, hopefully, helping someone else out.&lt;/p&gt;
 &lt;p&gt;As well as trying to help others it&#39;s also tremendously useful to me. Every time I overcome an obstacle I write about it and provide the solution giving &lt;a title=&quot;code examples&quot; href=&quot;https://dinowebs.net/&quot; target=&quot;_self&quot;&gt;code examples&lt;/a&gt; where I can. It&#39;s very handy to just be able to just come back to it rather than try to remember things that I&#39;ve done in the past. I also use the site for setting up links to &lt;a title=&quot;web development resources&quot; href=&quot;https://dinowebs.net/&quot; target=&quot;_self&quot;&gt;resources&lt;/a&gt; I like and use. Again, it just saves me time looking for things.&lt;/p&gt;
@@ -3098,11 +3128,11 @@ This is an obvious one but when giving your email address as part of registratio
 </description>
       <pubDate>Sun, 21 Jun 2009 23:21:47 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/introducing-dinowebsnet/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/introducing-dinowebsnet/</guid>
     </item>
     <item>
       <title>My website is 5 today!</title>
-      <link>https://chrissmith.xyz/blog/my-website-is-5-today/</link>
+      <link>https://chrissmith.xyz/blog/2009/my-website-is-5-today/</link>
       <description>&lt;p&gt;My website, www.chris-smith-web.com, is 5 years old today.&lt;/p&gt;
 &lt;p&gt;I registered the domain name and started building the site on 15th June 2004. This has made me all nostalgic so I thought I&#39;d take a quick look back over the last 5 years and how the site and business has changed in that time.&lt;/p&gt;
 &lt;p&gt;I registered the domain with a company called &lt;a title=&quot;123 Reg&quot; href=&quot;https://www.123-reg.co.uk/&quot; target=&quot;_blank&quot;&gt;123-reg&lt;/a&gt; whom I still use to this day. They provide good value domain registration with a nice simple control panel. I also hosted my first site with them though now I have moved on, mainly due to the more advanced technologies I now use.&lt;/p&gt;
@@ -3123,11 +3153,11 @@ This is an obvious one but when giving your email address as part of registratio
 </description>
       <pubDate>Mon, 15 Jun 2009 10:42:36 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/my-website-is-5-today/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/my-website-is-5-today/</guid>
     </item>
     <item>
       <title>Monitoring your Marketing with Unique URLs</title>
-      <link>https://chrissmith.xyz/blog/monitoring-your-marketing-with-unique-urls/</link>
+      <link>https://chrissmith.xyz/blog/2009/monitoring-your-marketing-with-unique-urls/</link>
       <description>&lt;p&gt;Using &lt;a title=&quot;Google Analytics&quot; href=&quot;https://www.google.com/analytics&quot; target=&quot;_blank&quot;&gt;Google Analytics&lt;/a&gt; or a similar web stats package you can see how many people are visiting a particular page or downloading a particular document on your website.&lt;/p&gt;
 &lt;p&gt;When you&#39;re creating a new online marketing campaign it&#39;s useful for you to be clear on what web traffic has been generated from a specific activity rather than just look at your overall traffic.&lt;/p&gt;
 &lt;p&gt;For example, if you were promoting a particular event you might place a link on your website&#39;s home page, run an ad on &lt;a title=&quot;Facebook&quot; href=&quot;https://www.facebook.com/&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; and do an email to your contacts. It would be very useful to know the effectiveness of each of these activities.&lt;/p&gt;
@@ -3145,11 +3175,11 @@ https://www.yourwebsite.com/event.htm?src=email&amp;amp;sex=female&lt;/span&gt;&
 </description>
       <pubDate>Tue, 09 Jun 2009 13:17:25 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/monitoring-your-marketing-with-unique-urls/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/monitoring-your-marketing-with-unique-urls/</guid>
     </item>
     <item>
       <title>Don&#39;t put all your eggs in Google&#39;s basket</title>
-      <link>https://chrissmith.xyz/blog/dont-put-all-your-eggs-in-googles-basket/</link>
+      <link>https://chrissmith.xyz/blog/2009/dont-put-all-your-eggs-in-googles-basket/</link>
       <description>&lt;p&gt;Working on your website&#39;s search engine optimisation (SEO) is all well and good but it&#39;s a dangerous strategy to use this one source of web traffic in isolation. I&#39;ve found this out the hard way.&lt;/p&gt;
 &lt;p&gt;Yes, there&#39;s no disputing that appearing at the top of the &lt;a title=&quot;Google UK&quot; href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; search results for the right phrases will bring in visitors but using this as your sole strategy could be very risky. You shouldn&#39;t be too dependent on &lt;a title=&quot;Google UK&quot; href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; as things can change very quickly.&lt;/p&gt;
 &lt;p&gt;I&#39;ve experienced it myself a number of times. I&#39;ve had my site sitting pretty in the top 5 results only for it to suddenty plummet down to the fourth page or lower or vanish from the search results altogether.&lt;/p&gt;
@@ -3160,11 +3190,11 @@ https://www.yourwebsite.com/event.htm?src=email&amp;amp;sex=female&lt;/span&gt;&
 </description>
       <pubDate>Fri, 05 Jun 2009 17:03:12 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/dont-put-all-your-eggs-in-googles-basket/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/dont-put-all-your-eggs-in-googles-basket/</guid>
     </item>
     <item>
       <title>Hits schmits! What do Web Statistics really mean?</title>
-      <link>https://chrissmith.xyz/blog/hits-schmits-what-do-web-statistics-really-mean/</link>
+      <link>https://chrissmith.xyz/blog/2009/hits-schmits-what-do-web-statistics-really-mean/</link>
       <description>&lt;p&gt;With web technologies it&#39;s very easy to quote and manipulate the statistics to make things sound better or worse than they actually are. There are some grey areas in the terminology used and it&#39;s very easy to get lost and not understand precisely what you&#39;re being told. Here is a guide to help explain some of the more commonly used terms.&lt;/p&gt;
 &lt;p&gt;Back in the nineties everyone would talk about &lt;strong&gt;hits&lt;/strong&gt;, how many hits they were getting, hit counts, they&#39;d even have a little hit counter on their home page.&lt;/p&gt;
 &lt;p&gt;So, what is a hit? A hit means a file that is retrieved from the web server. The key thing to note here is that it&#39;s a file, not a page but a file. Therefore, if someone visits a page with 3 image files that&#39;s 4 hits, the HTML file plus the 3 image files. A photo gallery page might have 60 thumbnail images in it - that&#39;s 61 hits. It&#39;s very easy to rack up huge numbers of hits and make it sound like you&#39;re getting far more traffic than you are. This is because a lot of people misunderstand hits to mean visits.&lt;/p&gt;
@@ -3178,11 +3208,11 @@ A &lt;strong&gt;visitor&lt;/strong&gt; is a real person, most of the time. As we
 </description>
       <pubDate>Thu, 04 Jun 2009 16:50:45 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/hits-schmits-what-do-web-statistics-really-mean/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/hits-schmits-what-do-web-statistics-really-mean/</guid>
     </item>
     <item>
       <title>Need a website? Confused about what you need? Read this.</title>
-      <link>https://chrissmith.xyz/blog/need-a-website-confused-about-what-you-need-read-this/</link>
+      <link>https://chrissmith.xyz/blog/2009/need-a-website-confused-about-what-you-need-read-this/</link>
       <description>&lt;p&gt;Here are the real basics of starting a website in simple, jargon-free, easy to understand English.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;How a website works&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A website is a collection of files (text, images, video, etc.) on a computer made available to the public. When someone visits a website files are copied to the visitor&#39;s computer for them to view. Each web page needs a unique address so that people can find it.&lt;/p&gt;
@@ -3206,11 +3236,11 @@ The name for a site is known as the domain name.&lt;/p&gt;
 </description>
       <pubDate>Tue, 12 May 2009 13:31:43 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/need-a-website-confused-about-what-you-need-read-this/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/need-a-website-confused-about-what-you-need-read-this/</guid>
     </item>
     <item>
       <title>My Firefox Add-ons</title>
-      <link>https://chrissmith.xyz/blog/my-firefox-add-ons/</link>
+      <link>https://chrissmith.xyz/blog/2009/my-firefox-add-ons/</link>
       <description>&lt;p&gt;I use &lt;a title=&quot;Mozilla Firefox&quot; href=&quot;https://www.mozilla-europe.org/en/firefox/&quot; target=&quot;_blank&quot;&gt;Mozilla Firefox&lt;/a&gt; as my prefered web browser. &lt;a title=&quot;Firefox&quot; href=&quot;https://www.mozilla-europe.org/en/firefox/&quot; target=&quot;_blank&quot;&gt;Firefox&lt;/a&gt; allows you to expand its functionality by adding on mini programs. These are called add-ons. I thought I&#39;d share some of my favourite add-ons.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AdBlock Plus&lt;/strong&gt;
 This add-on blocks adverts in web pages. It collapses any content being imported from ad servers. You should see how small the &lt;a title=&quot;Yahoo!&quot; href=&quot;https://uk.yahoo.com/&quot; target=&quot;_blank&quot;&gt;Yahoo! home page&lt;/a&gt; becomes without its advertising. There are no more sponsored results on search engine pages, only organic results. It allows you to manually create exceptions, pages where ads are allowed. Where it detects any Flash content it displays a tiny button so that you can manually block this content.&lt;/p&gt;
@@ -3232,11 +3262,11 @@ Quite specifically for the web designer or web developer this toolbar has button
 </description>
       <pubDate>Fri, 01 May 2009 12:28:35 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/my-firefox-add-ons/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/my-firefox-add-ons/</guid>
     </item>
     <item>
       <title>Online ways to launch a website</title>
-      <link>https://chrissmith.xyz/blog/online-ways-to-launch-a-website/</link>
+      <link>https://chrissmith.xyz/blog/2009/online-ways-to-launch-a-website/</link>
       <description>&lt;p&gt;In the offline world when you create a new publication, like a brochure or catalog, you need to plan its distribution. You need to get it in front of your potential customers. Online is no different.&lt;/p&gt;
 &lt;p&gt;Too many people out there still seem to think that having a website built is the job done. Get a website and then sit back and wait for people to visit it. Wrong. The offline equivalent is having your brochures printed and then leaving them in their boxes. Just building a website is not enough.&lt;/p&gt;
 &lt;p&gt;So, what can you do to distribute it and get it in front of your online customers? Here are some simple steps that should help.&lt;/p&gt;
@@ -3252,11 +3282,11 @@ Quite specifically for the web designer or web developer this toolbar has button
 </description>
       <pubDate>Mon, 30 Mar 2009 15:27:49 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/online-ways-to-launch-a-website/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/online-ways-to-launch-a-website/</guid>
     </item>
     <item>
       <title>Web Development - it&#39;s not like building a shed</title>
-      <link>https://chrissmith.xyz/blog/web-development-its-not-like-building-a-shed/</link>
+      <link>https://chrissmith.xyz/blog/2009/web-development-its-not-like-building-a-shed/</link>
       <description>&lt;p&gt;I recently read a great blog post on sub-standard web developers and how to avoid them. If you&#39;re looking to get a website developed I&#39;d suggest you have a quick read of this: &lt;a href=&quot;https://www.marketingtom.com/2009/02/beware-web-developers-who-know-nada.html&quot; target=&quot;_blank&quot;&gt;Beware Web Developers Who Know Nada!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;As a web developer myself I find it incredibly frustrating that I&#39;m constantly losing web development work to graphic designers who know nothing about marketing on the web. Does your business really need a piece of online art or does it actually want to see some return? As I see it there are only two things that matter - 1) are people finding the site and 2) is it giving them what they came for?&lt;/p&gt;
 &lt;p&gt;My other bugbear is that web development is as its name suggests &amp;quot;developmental&amp;quot;. It&#39;s not a one off bit of work - build it, take the money, next. To be really successful, a website needs to evolve to meet the needs of its users so requires an ongoing cycle of analysis, review and redevelopment. This doesn&#39;t have to mean lots of expense or contracts. It just means stopping every once in a while and thinking about what is working, what isn&#39;t working, how many enquiries are you getting, is the number going up or down?&lt;/p&gt;
@@ -3264,11 +3294,11 @@ Quite specifically for the web designer or web developer this toolbar has button
 </description>
       <pubDate>Mon, 23 Feb 2009 17:24:19 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/web-development-its-not-like-building-a-shed/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/web-development-its-not-like-building-a-shed/</guid>
     </item>
     <item>
       <title>The new language of Social Media</title>
-      <link>https://chrissmith.xyz/blog/the-new-language-of-social-media/</link>
+      <link>https://chrissmith.xyz/blog/2009/the-new-language-of-social-media/</link>
       <description>&lt;p&gt;As a linguist I find the evolution of language fascinating. The concept of Web 2.0 seems to have brought with it a whole new vocabulary, some new words and some new meanings for existing words. I’ve listed a few here. If you can think of any more I’ve missed please feel free to comment and add to it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Application&lt;/strong&gt;
 An application is a program which runs on a social network. Applications can easily be shared and published.&lt;/p&gt;
@@ -3345,11 +3375,11 @@ A wiki is a website where the content is created by its users. The biggest and m
 </description>
       <pubDate>Wed, 18 Feb 2009 13:59:35 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-new-language-of-social-media/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/the-new-language-of-social-media/</guid>
     </item>
     <item>
       <title>Marketing through Facebook, for free</title>
-      <link>https://chrissmith.xyz/blog/marketing-through-facebook-for-free/</link>
+      <link>https://chrissmith.xyz/blog/2009/marketing-through-facebook-for-free/</link>
       <description>&lt;p&gt;Facebook is the fastest growing, most popular networking tool in the UK today. For many users it has made personal emails a thing of the past. How can this be turned into an opportunity for businesses?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.facebook.com/&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; is about people, real individuals. If you want to promote a company&#39;s goods or services on &lt;a href=&quot;https://www.facebook.com/&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt; you can&#39;t just set up a business account - you have to do so from an individual&#39;s perspective. So, what can you do?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Create a Profile&lt;/strong&gt;&lt;/p&gt;
@@ -3366,11 +3396,11 @@ A wiki is a website where the content is created by its users. The biggest and m
 </description>
       <pubDate>Mon, 26 Jan 2009 15:08:46 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/marketing-through-facebook-for-free/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/marketing-through-facebook-for-free/</guid>
     </item>
     <item>
       <title>My Software Preferences</title>
-      <link>https://chrissmith.xyz/blog/my-software-preferences/</link>
+      <link>https://chrissmith.xyz/blog/2009/my-software-preferences/</link>
       <description>&lt;p&gt;I just bought a new laptop and have spent a couple of long evenings setting it up. After babysitting it through the initial tedium of installing, connecting, updating, registering - lots of watching progress bars and restarting the machine every few minutes, I realised that I have my own strong ideas about which software I&#39;m going to use for various tasks.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://free.avg.com/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;alignright&quot; style=&quot;float: right;border: 0;margin-left: 10px;margin-right: 10px;margin-top: 20px;margin-bottom: 20px&quot; src=&quot;https://free.avg.com/stc/tpl/crp/img/frt/avg_logo_en.gif&quot; alt=&quot;AVG Free&quot; width=&quot;240&quot; height=&quot;67&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Security&lt;/strong&gt;
 Top of the priority list is security and getting some good anti-virus, anti-spyware software in place. I uninstalled the &lt;a href=&quot;https://www.mcafee.com/&quot; target=&quot;_blank&quot;&gt;McAfee&lt;/a&gt; 30 day trial. I&#39;m sure it&#39;s excellent but why pay a subscription fee when there are free alternatives. I downloaded and installed &lt;a href=&quot;https://free.avg.com/&quot; target=&quot;_blank&quot;&gt;AVG Free&lt;/a&gt; Version, which is free for home use. It performs scans and updates itself automatically keeping your PC safe.&lt;/p&gt;
@@ -3384,11 +3414,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Tue, 13 Jan 2009 14:43:24 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/my-software-preferences/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/my-software-preferences/</guid>
     </item>
     <item>
       <title>Moving from Print to Web in Stages</title>
-      <link>https://chrissmith.xyz/blog/moving-from-print-to-web-in-stages/</link>
+      <link>https://chrissmith.xyz/blog/2009/moving-from-print-to-web-in-stages/</link>
       <description>&lt;p&gt;There are many good reasons for moving from producing printed publications such as leaflets, brochures or catalogues to putting all information onto a website - better for the environment, wider reaching, faster and cheaper. Even though we know this taking the plunge and stopping print media suddenly is scary.&lt;/p&gt;
 &lt;p&gt;It doesn&#39;t have to be so sudden and drastic. It is possible to use a more gentle phased approach.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Stage 1 - Getting the web right&lt;/strong&gt;&lt;/p&gt;
@@ -3407,11 +3437,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Fri, 09 Jan 2009 17:23:16 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/moving-from-print-to-web-in-stages/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/moving-from-print-to-web-in-stages/</guid>
     </item>
     <item>
       <title>Amazon - design a 4 year old can use</title>
-      <link>https://chrissmith.xyz/blog/amazon-design-a-4-year-old-can-use/</link>
+      <link>https://chrissmith.xyz/blog/2009/amazon-design-a-4-year-old-can-use/</link>
       <description>&lt;p&gt;I was recently using &lt;a href=&quot;https://www.amazon.co.uk/&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt; at home and my 4 year old son joined me. After I&#39;d completed my ordering he asked me if he could have a go. To put this in context he&#39;s at the stage where he can recognise brands (e.g. Tesco, M&amp;amp;S, etc.), his own name and a few letters but can&#39;t actually read other words.&lt;/p&gt;
 &lt;p&gt;I found it fascinating to observe how he managed to use the site easily despite not being able to read.&lt;/p&gt;
 &lt;p&gt;He clicked the logo taking him back to the home page. On there he saw a product image he liked (Star Wars video game), clicked it. On this page he clicked a play icon to watch a video preview of the game. When that ended he clicked the yellow button with a shopping basket icon to buy it. He then looked further down the screen where Amazon displays other related products - items other customers bought or viewed - and found some Star Wars toys. By following this process of clicking on related products and adding them to the basket he soon had over £300 of toys and video games in the basket. He even seemed to understand the product star rating system.&lt;/p&gt;
@@ -3422,11 +3452,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Thu, 08 Jan 2009 11:17:17 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/amazon-design-a-4-year-old-can-use/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/amazon-design-a-4-year-old-can-use/</guid>
     </item>
     <item>
       <title>Google&#39;s Personalised Search</title>
-      <link>https://chrissmith.xyz/blog/googles-personalised-search/</link>
+      <link>https://chrissmith.xyz/blog/2009/googles-personalised-search/</link>
       <description>&lt;p&gt;Search on the internet is changing. We all know how &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; works - you type in your search term, hit the &amp;quot;search button&amp;quot;, &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; beavers away in the background trying to match what you typed with the most likely matches and you&#39;re presented with a list of results, all within a split second.&lt;/p&gt;
 &lt;p&gt;If you are logged into &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; when you do the same search things are now slightly different. Once the results come back you are given further options. You can &amp;quot;promote&amp;quot; a site by clicking on the little up arrow next to it. This is your way of saying that this is the site you wanted and it will push it to the top of the list for next time you do that search. You also have the option of clicking &amp;quot;remove&amp;quot;, the cross. This means that the result is not relevant to you and won&#39;t be shown next time around. Finally, you can &amp;quot;comment&amp;quot; by clicking on the speech bubble. This allows you to make notes as you go.&lt;/p&gt;
 &lt;p&gt;It doesn&#39;t stop there though. &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; doesn&#39;t just remember your feedback on searches you have done but uses this information to predict your areas of interest. For example, if I do a search for &amp;quot;ajax&amp;quot; it will, in all probability, return results on Ajax the web programming technology. For someone else with no interest in web development but an interest in football it may return results on the Dutch football team.&lt;/p&gt;
@@ -3434,11 +3464,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Tue, 06 Jan 2009 11:42:21 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/googles-personalised-search/</guid>
+      <guid>https://chrissmith.xyz/blog/2009/googles-personalised-search/</guid>
     </item>
     <item>
       <title>I want an ecommerce site. Maybe you don&#39;t?</title>
-      <link>https://chrissmith.xyz/blog/i-want-an-ecommerce-site-maybe-you-dont/</link>
+      <link>https://chrissmith.xyz/blog/2008/i-want-an-ecommerce-site-maybe-you-dont/</link>
       <description>&lt;p&gt;I often get invited to quote for designing ecommerce sites or online stores and more often than not I actually decline the invitation. I don&#39;t feel it&#39;s morally right to invest my time and a customer&#39;s money in something that is doomed to failure.&lt;/p&gt;
 &lt;p&gt;It&#39;s not that people have bad ideas, it&#39;s just that they don&#39;t have a business plan. I think most of us know that most new businesses fail in their first year and online businesses are no different. All too often people see having a website as the answer when it&#39;s only part of a larger process. I get the feeling that people still believe that they can spend money on a new website and then sit back and wait for the orders to come in.&lt;/p&gt;
 &lt;p&gt;Whilst having your own ecommerce site or online business is appealing it is a big initial investment for a new business and you should consider how many sales you&#39;d need to cover the cost. If you can&#39;t be sure that you can recover this cost within a reasonable timescale you shouldn&#39;t take the risk.&lt;/p&gt;
@@ -3446,11 +3476,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Mon, 08 Dec 2008 14:07:34 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/i-want-an-ecommerce-site-maybe-you-dont/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/i-want-an-ecommerce-site-maybe-you-dont/</guid>
     </item>
     <item>
       <title>eMarketing Award Distinction :)</title>
-      <link>https://chrissmith.xyz/blog/emarketing-award-distinction/</link>
+      <link>https://chrissmith.xyz/blog/2008/emarketing-award-distinction/</link>
       <description>&lt;p&gt;This summer I studied the &lt;a title=&quot;CIM&quot; rel=&quot;nofollow&quot; href=&quot;https://www.cim.co.uk/&quot; target=&quot;_blank&quot;&gt;Chartered Institute of Marketing&lt;/a&gt; (CIM)&#39;s &lt;a title=&quot;eMarketing Award&quot; rel=&quot;nofollow&quot; href=&quot;https://www.marketingtom.com/emarketing_award.html&quot; target=&quot;_blank&quot;&gt;eMarketing Award&lt;/a&gt;. Last night I got my results in the post...&lt;/p&gt;
 &lt;p&gt;I&#39;m proud to say that I achieved &lt;strong&gt;grade A distinctions&lt;/strong&gt; in both my online examination and 4,000 word eMarketing report.&lt;/p&gt;
 &lt;p&gt;The course covers all aspects of &lt;strong&gt;electronic marketing&lt;/strong&gt;.  I studied with &lt;a title=&quot;Marketing Tom&quot; rel=&quot;nofollow&quot; href=&quot;https://www.marketingtom.com/&quot; target=&quot;_blank&quot;&gt;Marketing Tom Media&lt;/a&gt;, a CIM approved centre based near Cardiff, and would certainly recommend both course and &lt;a href=&quot;https://www.marketingtom.com/&quot; target=&quot;_blank&quot;&gt;training provider&lt;/a&gt; to anyone interested in growing their business online.&lt;/p&gt;
@@ -3459,11 +3489,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Fri, 05 Dec 2008 14:37:23 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/emarketing-award-distinction/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/emarketing-award-distinction/</guid>
     </item>
     <item>
       <title>The Cheap Web Design Market</title>
-      <link>https://chrissmith.xyz/blog/the-cheap-web-design-market/</link>
+      <link>https://chrissmith.xyz/blog/2008/the-cheap-web-design-market/</link>
       <description>&lt;p&gt;A look at what awaits &amp;quot;cheap web design&amp;quot; seekers.&lt;/p&gt;
 &lt;p&gt;I&#39;ve been running my own web development business since 2004 and in that time I have noticed a few changes to this market. There&#39;s far more competition now than there was a few years ago. If you do a Google search for &amp;quot;cheap web design&amp;quot;, &amp;quot;budget web design&amp;quot; or &amp;quot;affordable web design&amp;quot; then there are a lot of web pages out there with those page titles.&lt;/p&gt;
 &lt;p&gt;What I find curious is that the web design product or service being offered in this market and the pricing structures don&#39;t seem to have moved on since 2004.&lt;/p&gt;
@@ -3474,11 +3504,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Tue, 28 Oct 2008 15:39:38 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-cheap-web-design-market/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/the-cheap-web-design-market/</guid>
     </item>
     <item>
       <title>The Information Hungry Search Box</title>
-      <link>https://chrissmith.xyz/blog/the-information-hungry-search-box/</link>
+      <link>https://chrissmith.xyz/blog/2008/the-information-hungry-search-box/</link>
       <description>&lt;p&gt;We&#39;re all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It&#39;s a quick and easy way of finding something without having to drill down through endless options.&lt;/p&gt;
 &lt;p&gt;From the web developer&#39;s point of view it&#39;s a great tool which increases a website&#39;s usability. From the web marketer&#39;s point of view it can do more.&lt;/p&gt;
 &lt;p&gt;By capturing the text typed into the search box the website owner can see what his/her visitors are searching for. This may be for existing products or it could be that they are searching for something not offered. Capturing and analysing this information can help have several benefits.&lt;/p&gt;
@@ -3490,11 +3520,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Mon, 27 Oct 2008 13:04:32 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-information-hungry-search-box/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/the-information-hungry-search-box/</guid>
     </item>
     <item>
       <title>Website Design - the Finishing Touches</title>
-      <link>https://chrissmith.xyz/blog/website-design-the-finishing-touches/</link>
+      <link>https://chrissmith.xyz/blog/2008/website-design-the-finishing-touches/</link>
       <description>&lt;p&gt;What separates a good website design from a great website design? On the surface they may both look the same but with great design come all the finishing touches, all those little details which make your site look that little bit more professional and, more importantly, perform better.&lt;/p&gt;
 &lt;p&gt;If you&#39;ve got a website already has your designer provided all of these?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Favicon
@@ -3519,11 +3549,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Wed, 15 Oct 2008 14:37:40 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/website-design-the-finishing-touches/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/website-design-the-finishing-touches/</guid>
     </item>
     <item>
       <title>Basic Website Integration</title>
-      <link>https://chrissmith.xyz/blog/basic-website-integration/</link>
+      <link>https://chrissmith.xyz/blog/2008/basic-website-integration/</link>
       <description>&lt;p&gt;Integration is, in simple terms, making your website fit in with the rest of your business. At a basic level it&#39;s about making everything consistent and not leaving any holes.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Consistent Information&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Make sure that whatever information you have on your website is consistent with any offline information. Anything like details of a product or service should really be a word for word match as any anomalies could create confusion. Customers who are not sure what they&#39;re getting won&#39;t buy. Don&#39;t kid yourself that they&#39;ll phone and check; they&#39;ll find the next website.&lt;/p&gt;
@@ -3535,11 +3565,11 @@ From my software choices so far it may sound like I&#39;m anti-&lt;a href=&quot;
 </description>
       <pubDate>Tue, 14 Oct 2008 14:16:38 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/basic-website-integration/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/basic-website-integration/</guid>
     </item>
     <item>
       <title>Web Design for the non-designer</title>
-      <link>https://chrissmith.xyz/blog/web-design-for-the-non-designer/</link>
+      <link>https://chrissmith.xyz/blog/2008/web-design-for-the-non-designer/</link>
       <description>&lt;p&gt;The first thing to do is to have a clear distinction in your head between content and style. Content is the text and images that visitors read and look at; style is how these are arranged, laid out and presented.The style side is where the web designer comes in. This is his/her main area of expertise and he/she will have the design skills to present your content in a way which communicates your message clearly and professionally.&lt;/p&gt;
 &lt;p&gt;The content is the site owner&#39;s responsibility. In website marketing content is king. The main reason a visitor will come back to your site is because he/she found what they were looking for. The look and feel are very much secondary to this.&lt;/p&gt;
 &lt;p&gt;Creating your content can appear a little daunting if you&#39;ve never thought about it before, even for a small site, but it&#39;s really quite simple if you approach it in the right way. You may not have designed a site before but you have used plenty of sites. The trick, as with any marketing, is to put yourself in the visitor&#39;s shoes. You need to consider:&lt;/p&gt;
@@ -3558,11 +3588,11 @@ If you can give your website visitors what they want better than your competitor
 </description>
       <pubDate>Tue, 14 Oct 2008 13:53:48 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/web-design-for-the-non-designer/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/web-design-for-the-non-designer/</guid>
     </item>
     <item>
       <title>Beat the Credit Crunch - Move Online</title>
-      <link>https://chrissmith.xyz/blog/beat-the-credit-crunch-move-online/</link>
+      <link>https://chrissmith.xyz/blog/2008/beat-the-credit-crunch-move-online/</link>
       <description>&lt;p&gt;With all this financial doom and gloom in the media it&#39;s perfectly understandable that many businesses are looking to cut back on spending and play it safe until the economy is more stable.&lt;/p&gt;
 &lt;p&gt;Starting a new website or investing money in website marketing is probably something that is generally viewed as an expense to be avoided in the current climate but a move towards web based business could actually save you money.&lt;/p&gt;
 &lt;p&gt;We all know that paper publications like corporate brochures are in decline and electronic media are on the increase. Now could be the right time to make the leap.&lt;/p&gt;
@@ -3578,11 +3608,11 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Tue, 14 Oct 2008 12:27:52 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/beat-the-credit-crunch-move-online/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/beat-the-credit-crunch-move-online/</guid>
     </item>
     <item>
       <title>Content Management Systems explained</title>
-      <link>https://chrissmith.xyz/blog/content-management-systems-explained/</link>
+      <link>https://chrissmith.xyz/blog/2008/content-management-systems-explained/</link>
       <description>&lt;p&gt;You&#39;ve probably heard the phrase &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt; or Content Management System. I&#39;ll explain what it is and some of the benefits.&lt;/p&gt;
 &lt;p&gt;A &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt; is a system which sits behind a website and allows you to edit a website easily. It&#39;s called a content management system because it specifically allows changes to the content of the website - the text, images and links on pages - but not the layout or design, which stays fixed.&lt;/p&gt;
 &lt;p&gt;The usual method of changing web content is by logging in and gaining access to an admin or control panel. This gives options of creating, editing or deleting pages as well as setting up page order and hierarchy (which pages are sub-options of others).&lt;/p&gt;
@@ -3593,11 +3623,11 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Tue, 07 Oct 2008 15:02:52 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/content-management-systems-explained/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/content-management-systems-explained/</guid>
     </item>
     <item>
       <title>Web Design for Different Screen Sizes</title>
-      <link>https://chrissmith.xyz/blog/web-design-for-different-screen-sizes/</link>
+      <link>https://chrissmith.xyz/blog/2008/web-design-for-different-screen-sizes/</link>
       <description>&lt;p&gt;When you design for print media you work with graphics and text and arrange them in a way that is both pleasing to the eye and conveys your message. With the web you have to do the same but there&#39;s a whole lot more to it.&lt;/p&gt;
 &lt;p&gt;With print, the publication has a fixed size. With web design, the size of the page can vary. Imagine trying to paint a picture when your canvas keeps changing size. Users view web pages through different devices and different software with different screen resolutions. Most web pages are still viewed on a computer screen but these days can equally be viewed on mobile phones, PDAs, web books, even games consoles. In terms of software, the main web browsers are &lt;a href=&quot;https://www.microsoft.com/windows/products/winfamily/ie/default.mspx&quot; target=&quot;_blank&quot;&gt;Microsoft Internet Explorer&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.com/firefox/&quot; target=&quot;_blank&quot;&gt;Mozilla Firefox&lt;/a&gt; but there is a whole host of others. You may have heard of Chrome, &lt;a href=&quot;https://www.apple.com/safari/&quot; target=&quot;_blank&quot;&gt;Safari&lt;/a&gt;, &lt;a href=&quot;https://www.opera.com/&quot; target=&quot;_blank&quot;&gt;Opera&lt;/a&gt; and beyond that mobile devices use their own. Each web browser is a program designed to interpret and display web page code (HTML) but they all interpret it slightly differently so when writing the code you have to be sure it will display as you want it to. As well as conventional web browsers there are also specialised screen readers which read the text on a web page aloud for those with visual impairments. This is where accessible design comes into play. As if that wasn&#39;t enough to contend with, individual users also have different screen resolutions, some viewing the same content on a screen resolution 4 times larger than others.&lt;/p&gt;
 &lt;p&gt;Areas of the screen can be stretched or squashed to fit with the screen size and, rather than being given fixed heights and widths, are given maximum and minimum dimensions within which they can move.&lt;/p&gt;
@@ -3606,11 +3636,11 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Tue, 30 Sep 2008 16:01:48 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/web-design-for-different-screen-sizes/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/web-design-for-different-screen-sizes/</guid>
     </item>
     <item>
       <title>Links, link exchanges and strategies</title>
-      <link>https://chrissmith.xyz/blog/links-link-exchanges-and-strategies/</link>
+      <link>https://chrissmith.xyz/blog/2008/links-link-exchanges-and-strategies/</link>
       <description>&lt;p&gt;There&#39;s so much written about links, linking strategies, link exchanges and so much conflicting advice out there. How do you know who or what to believe?&lt;/p&gt;
 &lt;p&gt;Well, it&#39;s actually quite simple. Don&#39;t listen to anyone, not even me. When it comes to links and what you should do let&#39;s see what &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; has to say. &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; has a &lt;a href=&quot;https://www.google.com/webmasters/&quot; target=&quot;_blank&quot;&gt;Webmasters&lt;/a&gt; section of their site which gives clear guidelines of what you should and shouldn&#39;t do. Read it. Do it.&lt;/p&gt;
 &lt;p&gt;On the subject of links this page is a good place to start: &lt;a href=&quot;https://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;amp;answer=66356&quot; target=&quot;_blank&quot;&gt;Creating a Google-friendly site: Best practices &amp;gt; Link schemes&lt;/a&gt;.&lt;/p&gt;
@@ -3632,22 +3662,22 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Mon, 29 Sep 2008 14:45:46 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/links-link-exchanges-and-strategies/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/links-link-exchanges-and-strategies/</guid>
     </item>
     <item>
       <title>What is a website visitor worth?</title>
-      <link>https://chrissmith.xyz/blog/what-is-a-website-visitor-worth/</link>
+      <link>https://chrissmith.xyz/blog/2008/what-is-a-website-visitor-worth/</link>
       <description>&lt;p&gt;When looking at investing money in trying to get more visitors to your website you need to first work out what a visitor is worth to you.&lt;/p&gt;
 &lt;p&gt;So, how do you work it out? Well, to do it at a basic level is very simple. Choose a time period to analyse - the last 12 months, last 3 months, last 30 days, etc. Now, in this period see how much profit you made and how many visitors your website got. If you&#39;re using a web stats package, unique visitors is the figure to use here. Simply divide the number of unique visitors by the profit and this will give you a mean profit per visitor. You can use this as a basis for spending on gaining more visitors.&lt;/p&gt;
 &lt;p&gt;Whilst more visitors means more profit you shouldn&#39;t just look at boosting traffic but try to actively increase the value of each online visitor. If a visitor becomes more likely to buy from you they become more valuable and investing money in attracting more visitors then gives you better value for money. So, as well as your traffic you also need to try to improve your conversion rate. The conversion rate is simply the proportion of visitors who buy. There are lots of things you can do to boost your conversion rates but that&#39;s for another day...&lt;/p&gt;
 </description>
       <pubDate>Tue, 23 Sep 2008 12:29:26 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-is-a-website-visitor-worth/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/what-is-a-website-visitor-worth/</guid>
     </item>
     <item>
       <title>Google Chrome - first impressions</title>
-      <link>https://chrissmith.xyz/blog/google-chrome-first-impressions/</link>
+      <link>https://chrissmith.xyz/blog/2008/google-chrome-first-impressions/</link>
       <description>&lt;p&gt;I thought I&#39;d just give my tuppence worth on &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt;&#39;s new BETA browser, &lt;a href=&quot;https://www.google.com/chrome&quot; target=&quot;_blank&quot;&gt;Chrome&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;When I first heard about &lt;a href=&quot;https://www.google.com/chrome&quot; target=&quot;_blank&quot;&gt;Google&#39;s new browser&lt;/a&gt; it was with dread. As a web developer an important part of developing any web page or application is testing that it works in the major browsers. Having another browser on the scene, and with a big name like &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; behind it you know it&#39;s going to have a lot of users, means more testing and increases my chances of having to recode.&lt;/p&gt;
 &lt;p&gt;Before downloading it I read &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt;&#39;s page on &lt;a href=&quot;https://www.google.com/chrome/intl/en-GB/why.html?hl=en-GB&quot; target=&quot;_blank&quot;&gt;Why We Built A Browser&lt;/a&gt;. The page itself is titled &amp;quot;A fresh take on the browser&amp;quot;. On it &lt;a href=&quot;https://www.google.co.uk/&quot; target=&quot;_blank&quot;&gt;Google&lt;/a&gt; openly admits &amp;quot;We&#39;ve used components from &lt;a href=&quot;https://www.apple.com/&quot; target=&quot;_blank&quot;&gt;Apple&lt;/a&gt;&#39;s &lt;a href=&quot;https://webkit.org/&quot; target=&quot;_blank&quot;&gt;WebKit&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.org/&quot; target=&quot;_blank&quot;&gt;Mozilla&lt;/a&gt;&#39;s &lt;a href=&quot;https://www.mozilla.com/firefox/&quot; target=&quot;_blank&quot;&gt;Firefox&lt;/a&gt;&amp;quot;. So, maybe not an entirely fresh take then?&lt;/p&gt;
@@ -3661,11 +3691,11 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Mon, 15 Sep 2008 13:43:31 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/google-chrome-first-impressions/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/google-chrome-first-impressions/</guid>
     </item>
     <item>
       <title>The Web 2.0 concept - the basics</title>
-      <link>https://chrissmith.xyz/blog/the-web-20-concept-the-basics/</link>
+      <link>https://chrissmith.xyz/blog/2008/the-web-20-concept-the-basics/</link>
       <description>&lt;p&gt;The days of having your website managed by a web designer or design company are now on their way out.&lt;/p&gt;
 &lt;p&gt;In the past websites were a one-way read only process, an online brochure which people visited to get information. Now, with the whole concept of Web 2.0, it&#39;s all a two-way interactive process with customers or fans playing an active part in a website.&lt;/p&gt;
 &lt;p&gt;Now, not only can you update all of your web pages or blogs yourself but you can also allow visitors to comment and discuss your website&#39;s content all over the internet, reaching far greater numbers of people than ever before.&lt;/p&gt;
@@ -3677,11 +3707,11 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Mon, 11 Aug 2008 13:14:30 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-web-20-concept-the-basics/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/the-web-20-concept-the-basics/</guid>
     </item>
     <item>
       <title>The CIM eMarketing Award</title>
-      <link>https://chrissmith.xyz/blog/the-cim-emarketing-award/</link>
+      <link>https://chrissmith.xyz/blog/2008/the-cim-emarketing-award/</link>
       <description>&lt;p&gt;I&#39;m currently studying towards the &lt;a title=&quot;CIM&quot; href=&quot;https://www.cim.co.uk/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Chartered Institute of Marketing&lt;/a&gt; (CIM)&#39;s &lt;a title=&quot;eMarketing Award&quot; href=&quot;https://www.marketingtom.com/emarketing_award.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;eMarketing Award&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I did a 4 day intensive course through &lt;a title=&quot;Marketing Tom&quot; href=&quot;https://www.marketingtom.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Marketing Tom Media&lt;/a&gt; based near Cardiff. The Award is assessed by an online test and a 4,000 word eMarketing report.&lt;/p&gt;
 &lt;p&gt;EMarketing encompasses not only marketing through the web but all forms of electronic marketing so looks at things like email, interactive digital TV, mobile phones, CD-ROMs, etc. The web side looks at not only how to develop a successful website but all the other tools and tricks available to anyone looking to promote their business. It was a real eye opener for me. I now feel that I properly understand the meaning of Web 2.0 - blogging, RSS, social networking. Things have really moved on in the last few years and static brochure type websites are quickly being left behind by the new web 2.0 interactive sites which actively involve the customers in the whole web experience.&lt;/p&gt;
@@ -3691,7 +3721,7 @@ Moving your marketing from offline to online will not only save you money but wi
 </description>
       <pubDate>Thu, 07 Aug 2008 12:30:29 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-cim-emarketing-award/</guid>
+      <guid>https://chrissmith.xyz/blog/2008/the-cim-emarketing-award/</guid>
     </item>
   </channel>
 </rss>
