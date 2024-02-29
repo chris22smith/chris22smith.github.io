@@ -3,7 +3,7 @@ layout: "layouts/blog.njk"
 title: "Tips for Working from Home"
 date: 2020-03-15 08:31:56
 description: "I've been working from home 2 days a week for a few years so thought I'd share a few tips"
-tags: ["blog", "archive", "misc"]
+tags: ["blog", "tech"]
 eleventyNavigation:
   key: "Tips for Working from Home"
 wpid: "927"

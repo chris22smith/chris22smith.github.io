@@ -1379,7 +1379,7 @@ I&#39;m not sure what 2018 holds. I think I might actually start doing some trai
     </item>
     <item>
       <title>Native Browser Controls Rule</title>
-      <link>https://chrissmith.xyz/blog/native-browser-controls-rule/</link>
+      <link>https://chrissmith.xyz/blog/2017/native-browser-controls-rule/</link>
       <description>&lt;p&gt;It&#39;s become very common for designers to replace the standard native browser controls with their own custom controls. There are good reasons for this, consistent appearance across browsers and devices being the main one. However, there&#39;s a lot more to consider than just how it looks.&lt;/p&gt;
 &lt;h3&gt;Form Controls&lt;/h3&gt;
 Let&#39;s think about something like a slider switch in place of a good old fashioned checkbox. It looks cool but...
@@ -1400,11 +1400,11 @@ Now let&#39;s think about a simple link. It&#39;s pretty common to see icons use
 </description>
       <pubDate>Fri, 10 Nov 2017 18:00:46 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/native-browser-controls-rule/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/native-browser-controls-rule/</guid>
     </item>
     <item>
       <title>Do IT Qualifications Hold Value?</title>
-      <link>https://chrissmith.xyz/blog/do-it-qualifications-hold-value/</link>
+      <link>https://chrissmith.xyz/blog/2017/do-it-qualifications-hold-value/</link>
       <description>&lt;p&gt;I work in tech, software development. I&#39;d say that of the developers I have worked with, some have clear IT backgrounds, e.g. Computer Science degrees, others are entirely self-taught. As far as I can tell, as long as they have enough experience, it doesn&#39;t seem to make a lot of difference. Controversial?&lt;/p&gt;
 &lt;p&gt;Being self-taught myself, I&#39;m not actually sure what is taught in school and universities but, from my limited experience of working in a college and from knowing what my kids learn, it feels like it&#39;s always well being the curve, at least 2 or 3 years behind what&#39;s being used in the industry. This is both in terms of tooling and approach.&lt;/p&gt;
 &lt;p&gt;My kids have recently been learning to do various tasks in Excel. They&#39;ll spend a week on something that I feel could be picked up in a couple of hours. For me, you&#39;d get a lot more out of Excel by investing time in learning mathematical functions. And learning to use the import/export functionality. But that side of things is never taught.&lt;/p&gt;
@@ -1415,11 +1415,11 @@ Now let&#39;s think about a simple link. It&#39;s pretty common to see icons use
 </description>
       <pubDate>Wed, 25 Oct 2017 19:30:16 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/do-it-qualifications-hold-value/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/do-it-qualifications-hold-value/</guid>
     </item>
     <item>
       <title>Shared User Accounts</title>
-      <link>https://chrissmith.xyz/blog/shared-user-accounts/</link>
+      <link>https://chrissmith.xyz/blog/2017/shared-user-accounts/</link>
       <description>&lt;p&gt;I live with my wife and two boys and as you&#39;d expect we have lots of accounts for lots of different services. What&#39;s odd is that the models for the accounts vary quite considerably.&lt;/p&gt;
 &lt;p&gt;For banking, gas, electricity and water my wife and I have joint accounts - we are jointly responsible and either of us can make changes. Where they offer online services, we each have our own login but are presented with exactly the same data. It&#39;s quite a standard user setup from a system point of view.&lt;/p&gt;
 &lt;p&gt;A lot of online only services still work on a single one account one person basis. We use Amazon Prime. We&#39;ve both had Amazon accounts for years but when it comes to upgrading to Prime we&#39;re not both going to pay the premium. And if we want to read the same Kindle ebook we&#39;re not going to buy it twice. So, we end up using the one account and Amazon, who are famous for their user behaviour tracking and algorithms, lose sight of one of their users and what&#39;s really happening. That can&#39;t be good for them either.&lt;/p&gt;
@@ -1428,11 +1428,11 @@ Now let&#39;s think about a simple link. It&#39;s pretty common to see icons use
 </description>
       <pubDate>Sun, 22 Oct 2017 15:00:47 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/shared-user-accounts/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/shared-user-accounts/</guid>
     </item>
     <item>
       <title>Setting Performance Targets</title>
-      <link>https://chrissmith.xyz/blog/setting-performance-targets/</link>
+      <link>https://chrissmith.xyz/blog/2017/setting-performance-targets/</link>
       <description>&lt;p&gt;I sometimes read things like &amp;quot;A user will abandon a page if it doesn&#39;t load within 2 seconds&amp;quot;. I really don&#39;t think these kinds of generalisations are very helpful.&lt;/p&gt;
 &lt;p&gt;Users&#39; expectations vary. They take account of network connectivity and the nature of the information they&#39;re accessing. If I abandoned any requests that were not fulfilled within 2 seconds I don&#39;t think I&#39;d ever see any web pages on my phone. My expectations aren&#39;t that high. I know it&#39;s going to take longer and that&#39;s fine, up to a point.&lt;/p&gt;
 &lt;p&gt;So, are there benchmarks that we can aim for realistically? We can&#39;t just say &amp;quot;page&amp;quot; and &amp;quot;2 seconds&amp;quot;. It needs to also specify the network connection type - wired, WiFi, 3G, 4G, and the page weight in bytes.&lt;/p&gt;
@@ -1442,11 +1442,11 @@ Now let&#39;s think about a simple link. It&#39;s pretty common to see icons use
 </description>
       <pubDate>Fri, 20 Oct 2017 18:30:27 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/setting-performance-targets/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/setting-performance-targets/</guid>
     </item>
     <item>
       <title>To DOM or Not to DOM?</title>
-      <link>https://chrissmith.xyz/blog/to-dom-or-not-to-dom/</link>
+      <link>https://chrissmith.xyz/blog/2017/to-dom-or-not-to-dom/</link>
       <description>&lt;p&gt;I&#39;m trying to work out when it&#39;s best to put attributes in the DOM and when it&#39;s best to just leave them in JavaScript objects. This is going to be hard to explain so bear with me.&lt;/p&gt;
 &lt;p&gt;Let&#39;s suppose we have a list of users on a page. Each user has a number of properties, not things we&#39;d display like name, age and gender but hidden things like permissions, e.g. isAdmin, canComment, isManager, etc. These properties are going to be used in logic to determine how things are displayed on screen - maybe an extra bit of detail or an icon. Just as an example, if canComment is true then a speech bubble icon will appear.&lt;/p&gt;
 &lt;p&gt;The basic HTML might look something like this:&lt;/p&gt;
@@ -1491,11 +1491,11 @@ The first approach puts the property into the DOM, puts the icon into the DOM an
 </description>
       <pubDate>Sun, 15 Oct 2017 13:00:11 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/to-dom-or-not-to-dom/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/to-dom-or-not-to-dom/</guid>
     </item>
     <item>
       <title>Speed, Usability and Speed</title>
-      <link>https://chrissmith.xyz/blog/speed-usability-and-speed/</link>
+      <link>https://chrissmith.xyz/blog/2017/speed-usability-and-speed/</link>
       <description>&lt;p&gt;When looking at making UX improvements to web apps, I tend to obsess about speed and performance. For me a fast experience is a good experience.&lt;/p&gt;
 &lt;p&gt;I really think that speed outweighs all other factors. If you can keep all loading and waiting times very short, ideally under a second, it keeps the user engaged and efficient in what they&#39;re trying to achieve. As soon as anything takes longer than a couple of seconds it&#39;s easy to let your mind wander, switch context and then take longer to get back into what you were doing. If this is happening lots of times across a lengthy session it really adds up, not to mention the frustration it causes.&lt;/p&gt;
 &lt;p&gt;Usability is obviously important too. It needs to be obvious what screen elements you can interact with - is that an underlined heading or a link? It needs to be clear what an interaction with that element will do. Unexpected behaviour makes people feel uneasy and suspicious about other potential interactions. And it&#39;s always good if the user can see how the whole piece fits together, how you get from A to B, B to C, etc.&lt;/p&gt;
@@ -1505,20 +1505,20 @@ The first approach puts the property into the DOM, puts the icon into the DOM an
 </description>
       <pubDate>Sat, 14 Oct 2017 12:22:28 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/speed-usability-and-speed/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/speed-usability-and-speed/</guid>
     </item>
     <item>
       <title>Component World</title>
-      <link>https://chrissmith.xyz/blog/component-world/</link>
+      <link>https://chrissmith.xyz/blog/2017/component-world/</link>
       <description>&lt;p&gt;Whatever stack of framework you use, everything in web development seems to be going modular. We&#39;re no longer building pages of screens but components and component systems. This is changing the way I work with files. Where once I would have combined my script and styles into a single resource to reduce requests, I now actively look to break everything down into tiny pieces. For example, I have loads of Sass files. These get compiled into CSS before being concatenated and minified - turned back into the single big file. Working this way has several advantages. It&#39;s easier to work in smaller files - easy to find the line you need with minimal scrolling. It paves the way for using web components of a component system where styles of scripts can be embedded within the component, making it a true standalone piece of the document. Finally, it makes it easy to build dependency free components in a tool like CodePen. You can just write the HTML, Sass and JavaScript and save it as an isolated component with its own demo.&lt;/p&gt;
 </description>
       <pubDate>Sat, 09 Sep 2017 19:08:39 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/component-world/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/component-world/</guid>
     </item>
     <item>
       <title>Different Conditional Syntaxes in JavaScript</title>
-      <link>https://chrissmith.xyz/blog/different-conditional-syntaxes-in-javascript/</link>
+      <link>https://chrissmith.xyz/blog/2017/different-conditional-syntaxes-in-javascript/</link>
       <description>&lt;p&gt;There are a few ways of using conditionals in JavaScript. I&#39;ve started thinking about it again as I&#39;ve just discovered another new way.&lt;/p&gt;
 &lt;p&gt;Lets start off with some basic set up stuff for our examples - a variable, which can be true or false and functions to use in either case:&lt;/p&gt;
 &lt;pre&gt;var isAllowed = false;
@@ -1556,11 +1556,11 @@ function reject() {
 </description>
       <pubDate>Thu, 22 Jun 2017 19:00:19 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/different-conditional-syntaxes-in-javascript/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/different-conditional-syntaxes-in-javascript/</guid>
     </item>
     <item>
       <title>Hacking Borders</title>
-      <link>https://chrissmith.xyz/blog/hacking-borders/</link>
+      <link>https://chrissmith.xyz/blog/2017/hacking-borders/</link>
       <description>&lt;p&gt;Have you ever been in a situation where your borders aren&#39;t rendering as expected? Hopefully not.&lt;/p&gt;
 &lt;p&gt;I&#39;ve hit this issue recently using PhantomJS to turn HTML content into a PDF. It generally works pretty well but when you get into tables with collapsed borders and use rowspan and colspan things start getting a bit hairy and some of your borders just don&#39;t get rendered. Sad face.&lt;/p&gt;
 &lt;p&gt;No amount of messing with border-collapse, display or border properties seems to have any affect. So, what can we do? Time to get dirty and hack our way out of it. Surgical gloves on.&lt;/p&gt;
@@ -1585,11 +1585,11 @@ function reject() {
 </description>
       <pubDate>Wed, 21 Jun 2017 19:00:52 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/hacking-borders/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/hacking-borders/</guid>
     </item>
     <item>
       <title>Take a Tour</title>
-      <link>https://chrissmith.xyz/blog/take-a-tour/</link>
+      <link>https://chrissmith.xyz/blog/2017/take-a-tour/</link>
       <description>&lt;p&gt;When working with web apps or more complex sites where the user has to work through a process a product tour can be a very useful addition. In case it&#39;s not clear from the name (I&#39;m not sure I&#39;d have known) a product tour is basically a series of tooltips which appear and guide the user through using the page/app in steps.&lt;/p&gt;
 &lt;p&gt;Having the help or guidance right there in the page is much neater than providing a separate help page or subsite. It&#39;s not always easy flicking back and forth between the screen your working on and the documentation.&lt;/p&gt;
 &lt;p&gt;The other great benefit is that you don&#39;t have to just show the tooltips as hints. You can actually tell the user what to do and the tour advances as they do it. So, they&#39;re actually using your site and you&#39;re helping them through it.&lt;/p&gt;
@@ -1602,11 +1602,11 @@ function reject() {
 </description>
       <pubDate>Wed, 24 May 2017 19:00:48 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/take-a-tour/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/take-a-tour/</guid>
     </item>
     <item>
       <title>Why It&#39;s Still Worth Learning Bootstrap</title>
-      <link>https://chrissmith.xyz/blog/why-its-still-worth-learning-bootstrap/</link>
+      <link>https://chrissmith.xyz/blog/2017/why-its-still-worth-learning-bootstrap/</link>
       <description>&lt;p&gt;Until fairly recently I didn&#39;t like UI frameworks. I always felt that they would only ever handle half of what the developer actually needed and added a lot of extra unused bulk to the load. Whilst that it still true, to a degree, I now think that there are enough reasons to use a framework which outweigh this concern.&lt;/p&gt;
 &lt;h3&gt;Maintainability&lt;/h3&gt;
 Adopting a framework isn&#39;t just about the code and the styling. It&#39;s about using a well established pattern and way of doing things. The big win for me is that the documentation is all out there. I don&#39;t have to write it. So, if I come back to a page in a year&#39;s time I&#39;ll understand how I&#39;ve structured the layout. This is also a massive benefit when working with other developers. Having a common standard and style makes it easier for anyone to pick up anyone else&#39;s code.
@@ -1623,11 +1623,11 @@ Personally, out of all the available UI frameworks, I&#39;d reach for &lt;a href
 </description>
       <pubDate>Fri, 19 May 2017 19:00:29 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/why-its-still-worth-learning-bootstrap/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/why-its-still-worth-learning-bootstrap/</guid>
     </item>
     <item>
       <title>Presenting Multiple Layouts</title>
-      <link>https://chrissmith.xyz/blog/presenting-multiple-layouts/</link>
+      <link>https://chrissmith.xyz/blog/2017/presenting-multiple-layouts/</link>
       <description>&lt;p&gt;I&#39;m sure everyone has seen web apps where the user is given a choice of layouts for their data. Sometimes you can view items as a list or as cards and there&#39;s a mechanism of flipping between them. Gmail has options of Comfortable, Cosy or Compact.&lt;/p&gt;
 &lt;p&gt;From the developer&#39;s point of view, it seems like a nice little extra. It&#39;s fairly easy to do in CSS - just toggle a root class on the module and set your styles for each layout.&lt;/p&gt;
 &lt;p&gt;Having done this a few times now, my advice would be a pretty emphatic &lt;strong&gt;don&#39;t!&lt;/strong&gt; It starts off as a simple variation but it means that every time you make a small change to the content or layout in one layout you have to do this development for each, and then test in each. In short it multiplies out the work.&lt;/p&gt;
@@ -1637,11 +1637,11 @@ Personally, out of all the available UI frameworks, I&#39;d reach for &lt;a href
 </description>
       <pubDate>Fri, 05 May 2017 19:00:02 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/presenting-multiple-layouts/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/presenting-multiple-layouts/</guid>
     </item>
     <item>
       <title>Measuring Front End Performance</title>
-      <link>https://chrissmith.xyz/blog/measuring-front-end-performance/</link>
+      <link>https://chrissmith.xyz/blog/2017/measuring-front-end-performance/</link>
       <description>&lt;p&gt;My last post was about &lt;a href=&quot;https://chrissmith.xyz/front-end-performance-enhancements&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Front End Performance Enhancements&lt;/a&gt; and how I&#39;ve managed to improve page load times on a site. I&#39;ve recently done some work in this area and, whilst I&#39;m satisfied that my changes have improved performance, I can&#39;t really be sure to what extent.&lt;/p&gt;
 &lt;p&gt;With any kind of improvement work it&#39;s always nice to have a before and after and be able to show the difference. If this can be hard numbers, like in sales, then even better. With web performance can we ever really rely on any numbers?&lt;/p&gt;
 &lt;p&gt;I&#39;ve been using Google Analytics Page Timing reports, specifically the Page Speed Suggestions report, which gives the most popular pages (sorted by page views) and the load time in seconds. I&#39;ve tried comparing a week before my changes with a week after them. The page load times are different and generally better but it&#39;s hard to know if I&#39;m really comparing like with like.&lt;/p&gt;
@@ -1653,11 +1653,11 @@ Personally, out of all the available UI frameworks, I&#39;d reach for &lt;a href
 </description>
       <pubDate>Wed, 03 May 2017 19:00:53 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/measuring-front-end-performance/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/measuring-front-end-performance/</guid>
     </item>
     <item>
       <title>Front End Performance Enhancements</title>
-      <link>https://chrissmith.xyz/blog/front-end-performance-enhancements/</link>
+      <link>https://chrissmith.xyz/blog/2017/front-end-performance-enhancements/</link>
       <description>&lt;p&gt;I&#39;ve recently made a load of changes to a site to improve the page loading times. Now that I&#39;m happy it&#39;s worked I thought I&#39;d share some of the moves. Broadly, we&#39;re looking to load up fewer files and to make each file as small as possible.&lt;/p&gt;
 &lt;h3&gt;Remove Inline Content&lt;/h3&gt;
 My first step was to get rid of any inline styling or scripting, moving as much as possible into .css or .js files so they are recognised as static resources and cached. Moving &amp;lt;style&amp;gt; blocks out into new CSS files or &amp;lt;script&amp;gt; to JavaScript files is pretty straightforward.
@@ -1695,11 +1695,11 @@ Looking at the Page Timings in Google Analytics almost all pages have reduced lo
 </description>
       <pubDate>Mon, 01 May 2017 14:00:40 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/front-end-performance-enhancements/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/front-end-performance-enhancements/</guid>
     </item>
     <item>
       <title>Precision Level in CSS</title>
-      <link>https://chrissmith.xyz/blog/precision-level-in-css/</link>
+      <link>https://chrissmith.xyz/blog/2017/precision-level-in-css/</link>
       <description>&lt;p&gt;When we&#39;re using relative sizing in CSS, percentages or ems, how precise do we need to be with our fractions? Is there an optimum level?&lt;/p&gt;
 &lt;p&gt;If we have a font size of 18px (or anything, it&#39;s relative after all) and we want some smaller text at two thirds of its size (12px) then we can express this as .6666666667em or 66.6666666667%. Here I&#39;ve used 10 decimal places to give a very precise fraction but this feels like overkill to me. If I used just 2 decimal places, .67em or 66.67%, is this accurate enough to consistently calculate the desired pixel value. Or should I not worry? It&#39;ll be near enough.&lt;/p&gt;
 &lt;p&gt;Looking at other developers&#39; CSS, mainly in tutorials, the general pattern seems to be to use between 4 and 6 decimal places. Looking back through my own code, my preference seems to be to use 6 but I couldn&#39;t tell you why. I&#39;d imagine I&#39;ve just adopted someone else&#39;s coding style. I definitely feel that going beyond 6 seems unnecessary but am not sure how little I can get away with.&lt;/p&gt;
@@ -1715,11 +1715,11 @@ Looking at the Page Timings in Google Analytics almost all pages have reduced lo
 </description>
       <pubDate>Fri, 28 Apr 2017 19:00:52 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/precision-level-in-css/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/precision-level-in-css/</guid>
     </item>
     <item>
       <title>The Welsh Language Conundrum</title>
-      <link>https://chrissmith.xyz/blog/the-welsh-language-conundrum/</link>
+      <link>https://chrissmith.xyz/blog/2017/the-welsh-language-conundrum/</link>
       <description>&lt;p&gt;Presenting content in two or more languages is pretty much a solved problem. The most common way to handle it is to have a language switcher and allow users to flip from a page in one language to the same page content in another language at any point.&lt;/p&gt;
 &lt;p&gt;The print world&#39;s equivalent would be putting one language on one side of a sheet of paper and the other language on the other. And then maybe putting a small note about the other language being on the reverse. Both are equal and easy to read, free from the distraction of the other language.&lt;/p&gt;
 &lt;p&gt;But what if you want both? There are cases where it&#39;s preferable to keep both languages visible. In Wales the Welsh language is spoken by roughly 1 in 5 people. It was slowly dying out but the government has invested a considerable amount of effort and money into keeping it alive. One of the ways this is done is to keep its profile as high as possible. It should be normal to see Welsh everywhere in Wales. This carries across into digital content too.&lt;/p&gt;
@@ -1733,11 +1733,11 @@ Looking at the Page Timings in Google Analytics almost all pages have reduced lo
 </description>
       <pubDate>Fri, 07 Apr 2017 18:21:41 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-welsh-language-conundrum/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/the-welsh-language-conundrum/</guid>
     </item>
     <item>
       <title>Pet Hate: Click Here</title>
-      <link>https://chrissmith.xyz/blog/pet-hate-click-here/</link>
+      <link>https://chrissmith.xyz/blog/2017/pet-hate-click-here/</link>
       <description>&lt;p&gt;I hate seeing &amp;quot;click here&amp;quot;. Uuurgh! It&#39;s such a 1995 way of thinking about web pages. There&#39;s always a better way.&lt;/p&gt;
 &lt;p&gt;A typical example might be &amp;quot;To create your account please click here.&amp;quot; Why not simply &amp;quot;Create your account&amp;quot;? It&#39;s obvious, it&#39;s shorter and the link text actually means something which is better for accessibility and search engine optimisation.&lt;/p&gt;
 &lt;p&gt;The other part that annoys me is that a click isn&#39;t really a click any more. It could be a tap on a touch screen, you might be tabbing through the interactive page elements with a keyboard, using a screen reader or any number of other devices which don&#39;t use a click.&lt;/p&gt;
@@ -1745,11 +1745,11 @@ Looking at the Page Timings in Google Analytics almost all pages have reduced lo
 </description>
       <pubDate>Sun, 19 Mar 2017 18:38:49 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/pet-hate-click-here/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/pet-hate-click-here/</guid>
     </item>
     <item>
       <title>HTML Semantics - Header or Sidebar?</title>
-      <link>https://chrissmith.xyz/blog/html-semantics-header-or-sidebar/</link>
+      <link>https://chrissmith.xyz/blog/2017/html-semantics-header-or-sidebar/</link>
       <description>&lt;p&gt;Here&#39;s a question on HTML semantics. We now have the not-so-new HTML5 semantic sectioning elements which define areas of the page and try to bring more meaning to it. This is generally seen as a step forward from using &amp;lt;div&amp;gt; which has no particular meaning. Does it always work?&lt;/p&gt;
 &lt;p&gt;There&#39;s quite a common design pattern where a wider screen will show the logo and navigation in a sidebar on the left and then in a narrower screen will show it at the top. I&#39;ve used this myself a few times. Here&#39;s a quick illustration of what I mean:&lt;/p&gt;
 &lt;div style=&quot;clear: both;&quot;&gt;
@@ -1769,11 +1769,11 @@ We could even switch out the element using JavaScript. Add the other element, ap
 </description>
       <pubDate>Thu, 09 Mar 2017 19:10:24 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/html-semantics-header-or-sidebar/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/html-semantics-header-or-sidebar/</guid>
     </item>
     <item>
       <title>Reorganising Data Client Side</title>
-      <link>https://chrissmith.xyz/blog/reorganising-data-client-side/</link>
+      <link>https://chrissmith.xyz/blog/2017/reorganising-data-client-side/</link>
       <description>&lt;p&gt;I just discovered how easy it can be to reorganise data in JavaScript before trying to use it.&lt;/p&gt;
 &lt;p&gt;I&#39;ve been working with a third party API so there&#39;s no option to change the structure of the JSON which we receive. The data I had was organised by date, an object with object properties giving a new object for each new date. Something like:&lt;/p&gt;
 &lt;pre&gt;{
@@ -1826,7 +1826,7 @@ We could even switch out the element using JavaScript. Add the other element, ap
 </description>
       <pubDate>Wed, 08 Mar 2017 17:50:17 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/reorganising-data-client-side/</guid>
+      <guid>https://chrissmith.xyz/blog/2017/reorganising-data-client-side/</guid>
     </item>
     <item>
       <title>Measuring Readership</title>
