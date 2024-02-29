@@ -9,7 +9,7 @@
     <language>en</language>
     <item>
       <title>Why should we care about Web Accessibility?</title>
-      <link>https://chrissmith.xyz/blog/why-should-we-care-about-web-accessibility/</link>
+      <link>https://chrissmith.xyz/blog/2024/why-should-we-care-about-web-accessibility/</link>
       <description>&lt;p&gt;In a nutshell, taking care of web accessibility makes our apps...&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;available to everybody&lt;/li&gt;
@@ -40,11 +40,11 @@
 </description>
       <pubDate>Fri, 26 Jan 2024 16:45:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/why-should-we-care-about-web-accessibility/</guid>
+      <guid>https://chrissmith.xyz/blog/2024/why-should-we-care-about-web-accessibility/</guid>
     </item>
     <item>
       <title>Learning TypeScript</title>
-      <link>https://chrissmith.xyz/blog/learning-typescript/</link>
+      <link>https://chrissmith.xyz/blog/2024/learning-typescript/</link>
       <description>&lt;p&gt;I&#39;ve started learning TypeScript properly. After a few years of knowing bits and mostly just writing JavaScript in .ts files I decided to make the effort to understand it.&lt;/p&gt;
 &lt;p&gt;A bit like a linting tool, the whole point is that it warns you when you do things wrong or expose yourself to potential problems. When you don&#39;t understand why you&#39;re being told off, it can get frustrating, and I&#39;d reached a point where it felt like more of a hindrance than a help.&lt;/p&gt;
 &lt;p&gt;I think I had made some assumptions about type checking, thinking it was mostly knowing if things were a string, number or boolean, and I couldn&#39;t really see how this would be that much of an issue. In truth, that part is quite straightforward.&lt;/p&gt;
@@ -54,11 +54,11 @@
 </description>
       <pubDate>Sat, 20 Jan 2024 11:05:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/learning-typescript/</guid>
+      <guid>https://chrissmith.xyz/blog/2024/learning-typescript/</guid>
     </item>
     <item>
       <title>Rebranding Tips - Part 4 - Typography</title>
-      <link>https://chrissmith.xyz/blog/rebranding-tips-part-4-typography/</link>
+      <link>https://chrissmith.xyz/blog/2024/rebranding-tips-part-4-typography/</link>
       <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Typography&lt;/h2&gt;
@@ -83,11 +83,11 @@
 </description>
       <pubDate>Mon, 08 Jan 2024 16:33:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-4-typography/</guid>
+      <guid>https://chrissmith.xyz/blog/2024/rebranding-tips-part-4-typography/</guid>
     </item>
     <item>
       <title>Rebranding Tips - Part 3 - Colours</title>
-      <link>https://chrissmith.xyz/blog/rebranding-tips-part-3-colours/</link>
+      <link>https://chrissmith.xyz/blog/2024/rebranding-tips-part-3-colours/</link>
       <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Colours&lt;/h2&gt;
@@ -121,11 +121,11 @@
 </description>
       <pubDate>Mon, 08 Jan 2024 16:32:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-3-colours/</guid>
+      <guid>https://chrissmith.xyz/blog/2024/rebranding-tips-part-3-colours/</guid>
     </item>
     <item>
       <title>Rebranding Tips - Part 2 - Brand Names</title>
-      <link>https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names/</link>
+      <link>https://chrissmith.xyz/blog/2024/rebranding-tips-part-2-brand-names/</link>
       <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Brand names&lt;/h2&gt;
@@ -147,11 +147,11 @@
 </description>
       <pubDate>Mon, 08 Jan 2024 16:31:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-2-brand-names/</guid>
+      <guid>https://chrissmith.xyz/blog/2024/rebranding-tips-part-2-brand-names/</guid>
     </item>
     <item>
       <title>Rebranding Tips - Part 1 - Logos</title>
-      <link>https://chrissmith.xyz/blog/rebranding-tips-part-1-logos/</link>
+      <link>https://chrissmith.xyz/blog/2024/rebranding-tips-part-1-logos/</link>
       <description>&lt;p&gt;I&#39;ve been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I&#39;d share some of the oddities that cropped up for me and some tips.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;Logos&lt;/h2&gt;
@@ -181,11 +181,11 @@
 </description>
       <pubDate>Mon, 08 Jan 2024 16:30:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/rebranding-tips-part-1-logos/</guid>
+      <guid>https://chrissmith.xyz/blog/2024/rebranding-tips-part-1-logos/</guid>
     </item>
     <item>
       <title>What to Validate on a Form</title>
-      <link>https://chrissmith.xyz/blog/what-to-validate-on-a-form/</link>
+      <link>https://chrissmith.xyz/blog/2023/what-to-validate-on-a-form/</link>
       <description>&lt;p&gt;We all know that validating user input is a good idea but how do you decide on what rules to apply?&lt;/p&gt;
 &lt;h2&gt;What are the aims of validation?&lt;/h2&gt;
 &lt;ul&gt;
@@ -221,11 +221,11 @@
 </description>
       <pubDate>Fri, 27 Oct 2023 15:30:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-to-validate-on-a-form/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/what-to-validate-on-a-form/</guid>
     </item>
     <item>
       <title>Pronunciation of Terms in Web Development</title>
-      <link>https://chrissmith.xyz/blog/pronunciation-of-terms-in-web-development/</link>
+      <link>https://chrissmith.xyz/blog/2023/pronunciation-of-terms-in-web-development/</link>
       <description>&lt;p&gt;Yesterday I was on a call and mentioned that I&#39;d done some pattern matching using regex and as I said it I suddenly felt very self-conscious about how I&#39;d pronounced it.&lt;/p&gt;
 &lt;h2&gt;Regex&lt;/h2&gt;
 &lt;p&gt;Is it &amp;quot;reggex&amp;quot; with a hard G like &amp;quot;egg&amp;quot;, or &amp;quot;redgex&amp;quot; with a soft G like in &amp;quot;agenda&amp;quot;? I think we have probably all heard both at some point and so it&#39;s an unresolved question with no definitive right or wrong. What&#39;s interesting to me is where people land and why.&lt;/p&gt;
@@ -240,11 +240,11 @@
 </description>
       <pubDate>Wed, 18 Oct 2023 18:10:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/pronunciation-of-terms-in-web-development/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/pronunciation-of-terms-in-web-development/</guid>
     </item>
     <item>
       <title>How Widespread is Ad Blocking?</title>
-      <link>https://chrissmith.xyz/blog/how-widespread-is-ad-blocking/</link>
+      <link>https://chrissmith.xyz/blog/2023/how-widespread-is-ad-blocking/</link>
       <description>&lt;p&gt;Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It&#39;s too much.&lt;/p&gt;
 &lt;p&gt;After not using them for over a decade, I&#39;ve now gone back to installing an ad blocker browser extension. And it mostly makes my experience of browsing the internet better. I can focus on the content I want without all the noise.&lt;/p&gt;
 &lt;p&gt;Now, whether or not we should use ad blockers, and deny sites this revenue stream, possibly their only revenue stream, is a whole debate in itself. I won&#39;t get into all that here. I&#39;m more interested in some other side effects I&#39;ve discovered from starting to use one again.&lt;/p&gt;
@@ -262,11 +262,11 @@
 </description>
       <pubDate>Mon, 09 Oct 2023 18:10:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/how-widespread-is-ad-blocking/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/how-widespread-is-ad-blocking/</guid>
     </item>
     <item>
       <title>Practical Tips to Reduce your Carbon Footprint</title>
-      <link>https://chrissmith.xyz/blog/practical-tips-to-reduce-your-carbon-footprint/</link>
+      <link>https://chrissmith.xyz/blog/2023/practical-tips-to-reduce-your-carbon-footprint/</link>
       <description>&lt;p&gt;If you&#39;re a developer, like me, or someone who works on a computer all day, here are some ways you can reduce your carbon footprint. Essentially it&#39;s all about saving energy and reducing any wasted energy from our daily routine. If you work from home it can help reduce your energy bills too.&lt;/p&gt;
 &lt;h2&gt;Computer power&lt;/h2&gt;
 &lt;p&gt;Computers still use a lot of energy when in standby or sleep modes. If you&#39;re not going to use your computer for a couple of hours, shut it down fully, switching off at the plug.&lt;/p&gt;
@@ -284,11 +284,11 @@
 </description>
       <pubDate>Wed, 13 Sep 2023 18:40:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/practical-tips-to-reduce-your-carbon-footprint/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/practical-tips-to-reduce-your-carbon-footprint/</guid>
     </item>
     <item>
       <title>WordPress to Eleventy - Part 2, The How</title>
-      <link>https://chrissmith.xyz/blog/wordpress-to-eleventy-part-2-the-how/</link>
+      <link>https://chrissmith.xyz/blog/2023/wordpress-to-eleventy-part-2-the-how/</link>
       <description>&lt;p&gt;Having made the decision to migrate my site from &lt;a href=&quot;https://en-gb.wordpress.org/&quot;&gt;WordPress&lt;/a&gt; to &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;, actually getting into it was quite daunting. In fact, I put off doing it for a few months. I&#39;m not going to lie, it was a bit of work, but not too bad. I mean, I&#39;d do it again.&lt;/p&gt;
 &lt;h2&gt;Exporting from WordPress&lt;/h2&gt;
 &lt;p&gt;This was probably the easiest part. WordPress makes it nice and easy to get your data out. You can do it through a number of plugins or from the database direct. My hosting plan had a control panel with the MySql database with easy export options. I had a choice of exporting to JSON, XML, CSV, all sorts. Not really knowing what I was doing yet, I grabbed an export in every format, just in case. You only need JSON. It gives you a bit array of post objects.&lt;/p&gt;
@@ -315,15 +315,15 @@
 &lt;p&gt;So, now I write new posts in markdown, in VS Code (that&#39;s what I&#39;m doing right now), edit the frontmatter, push changes and the post is live.&lt;/p&gt;
 &lt;h2&gt;Why?&lt;/h2&gt;
 &lt;p&gt;So, why did I decide to move from one to the other? I&#39;ve covered that in a separate post.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/wordpress-to-eleventy-part-1-the-why&quot;&gt;WordPress to Eleventy - Part 1, The Why&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/2023/wordpress-to-eleventy-part-1-the-why&quot;&gt;WordPress to Eleventy - Part 1, The Why&lt;/a&gt;&lt;/p&gt;
 </description>
       <pubDate>Sun, 18 Jun 2023 15:00:01 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/wordpress-to-eleventy-part-2-the-how/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/wordpress-to-eleventy-part-2-the-how/</guid>
     </item>
     <item>
       <title>WordPress to Eleventy - Part 1, The Why</title>
-      <link>https://chrissmith.xyz/blog/wordpress-to-eleventy-part-1-the-why/</link>
+      <link>https://chrissmith.xyz/blog/2023/wordpress-to-eleventy-part-1-the-why/</link>
       <description>&lt;p&gt;For years my personal website used &lt;a href=&quot;https://en-gb.wordpress.org/&quot;&gt;WordPress&lt;/a&gt;. It&#39;s now using &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;. I thought it might be interesting to others to look at why I&#39;ve made the change.&lt;/p&gt;
 &lt;h2&gt;WordPress&lt;/h2&gt;
 &lt;p&gt;I started using WordPress in 2008 and never really looked back, until 2022. So, that&#39;s a solid 15 years of WordPress, and, honestly I don&#39;t have a bad word to say about it, it&#39;s great.&lt;/p&gt;
@@ -343,15 +343,15 @@
 &lt;p&gt;To be honest, I don&#39;t really see any. I don&#39;t feel there&#39;s anything I had before that I&#39;m missing or that I can&#39;t achieve.&lt;/p&gt;
 &lt;h2&gt;How?&lt;/h2&gt;
 &lt;p&gt;So, how did I go about moving from one to the other? I&#39;ve covered that in a separate post.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/wordpress-to-eleventy-part-2-the-how&quot;&gt;WordPress to Eleventy - Part 2, The How&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrissmith.xyz/blog/2023/wordpress-to-eleventy-part-2-the-how&quot;&gt;WordPress to Eleventy - Part 2, The How&lt;/a&gt;&lt;/p&gt;
 </description>
       <pubDate>Sun, 18 Jun 2023 15:00:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/wordpress-to-eleventy-part-1-the-why/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/wordpress-to-eleventy-part-1-the-why/</guid>
     </item>
     <item>
       <title>Who&#39;d be a front end developer?</title>
-      <link>https://chrissmith.xyz/blog/whod-be-a-front-end-developer/</link>
+      <link>https://chrissmith.xyz/blog/2023/whod-be-a-front-end-developer/</link>
       <description>&lt;p&gt;I&#39;m going to try to explain what a front end developer does, or, at least, should be doing, for those that don&#39;t know.&lt;/p&gt;
 &lt;p&gt;Imagine you&#39;ve been tasked with designing a poster. You&#39;re given the text and a selection images and you arrange them in a pleasing way. Job done.&lt;/p&gt;
 &lt;p&gt;That&#39;s all front end dev really is, right? Errr... no. Not by a long way.&lt;/p&gt;
@@ -368,11 +368,11 @@
 </description>
       <pubDate>Thu, 15 Jun 2023 09:00:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/whod-be-a-front-end-developer/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/whod-be-a-front-end-developer/</guid>
     </item>
     <item>
       <title>Prototyping in CodePen</title>
-      <link>https://chrissmith.xyz/blog/prototyping-in-codepen/</link>
+      <link>https://chrissmith.xyz/blog/2023/prototyping-in-codepen/</link>
       <description>&lt;p&gt;&lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt; is not only great for making demos or experimenting but can also be used for prototyping.&lt;/p&gt;
 &lt;p&gt;Personally, I&#39;ve never been a big fan of prototyping tools like Figma. I prefer to dive straight into code and play around with HTML and CSS. For me and my knowledge it&#39;s faster.&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume you have an existing app and want to add a new page. You want to be able to show something that looks like the finished page and is written in HTML, CSS and JavaScript. I&#39;ll explain how I&#39;d create a prototype like this in CodePen.&lt;/p&gt;
@@ -391,11 +391,11 @@
 </description>
       <pubDate>Fri, 09 Jun 2023 17:55:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/prototyping-in-codepen/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/prototyping-in-codepen/</guid>
     </item>
     <item>
       <title>UI Performance - Critical Rendering Path Optimisation</title>
-      <link>https://chrissmith.xyz/blog/ui-performance-critical-rendering-path-optimisation/</link>
+      <link>https://chrissmith.xyz/blog/2023/ui-performance-critical-rendering-path-optimisation/</link>
       <description>&lt;p&gt;A quick guide to how a web page renders and how we can ensure it stays fast. We tend to focus on load times and how quickly our requests receive responses. This focuses on what happens after that and how we keep the experience smooth for users.&lt;/p&gt;
 &lt;h2&gt;How a page renders&lt;/h2&gt;
 &lt;h3&gt;HTML and CSS&lt;/h3&gt;
@@ -460,11 +460,11 @@
 </description>
       <pubDate>Sun, 30 Apr 2023 17:30:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/ui-performance-critical-rendering-path-optimisation/</guid>
+      <guid>https://chrissmith.xyz/blog/2023/ui-performance-critical-rendering-path-optimisation/</guid>
     </item>
     <item>
       <title>CARPET - A Front End Checklist</title>
-      <link>https://chrissmith.xyz/blog/carpet-a-front-end-checklist/</link>
+      <link>https://chrissmith.xyz/blog/2022/carpet-a-front-end-checklist/</link>
       <description>&lt;p&gt;The 6 areas to consider spell out &lt;strong&gt;CARPET&lt;/strong&gt;, hopefully making it easier to remember.&lt;/p&gt;
 &lt;h3 id=&quot;Is-it-Clear?&quot;&gt;&lt;strong&gt;Is it Clear?&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;&lt;li&gt;Is it obvious what to do? Imagine it’s the user’s first day. Is help text needed?&lt;/li&gt;&lt;li&gt;If we include help text does it use plain English (or translated equivalent)?&lt;/li&gt;&lt;li&gt;Does any button text accurately reflect what will happen when it is pressed?&lt;/li&gt;&lt;/ul&gt;
@@ -483,11 +483,11 @@
 </description>
       <pubDate>Fri, 08 Jul 2022 09:28:07 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/carpet-a-front-end-checklist/</guid>
+      <guid>https://chrissmith.xyz/blog/2022/carpet-a-front-end-checklist/</guid>
     </item>
     <item>
       <title>How I&#39;d Learn Front End Web Development Now</title>
-      <link>https://chrissmith.xyz/blog/how-id-learn-front-end-web-development-now/</link>
+      <link>https://chrissmith.xyz/blog/2022/how-id-learn-front-end-web-development-now/</link>
       <description>&lt;p&gt;When I started out with doing web stuff in 1999, things were very different, much simpler in some ways but much harder in others. So, the way I gradually learnt was quite different from how somebody would learn now.&lt;/p&gt;
 &lt;h2&gt;Back in my day...&lt;/h2&gt;
 &lt;p&gt;Don&#39;t yawn, there is a point to this. In 1999 when I started learning this stuff, there was only HTML, CSS and JavaScript. No TypeScript, no Sass, no real frameworks to speak of, no packages, no build tools. You get the picture.&lt;/p&gt;
@@ -524,11 +524,11 @@
 </description>
       <pubDate>Fri, 27 May 2022 17:30:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/how-id-learn-front-end-web-development-now/</guid>
+      <guid>https://chrissmith.xyz/blog/2022/how-id-learn-front-end-web-development-now/</guid>
     </item>
     <item>
       <title>Emmet - Write HTML and CSS Faster</title>
-      <link>https://chrissmith.xyz/blog/emmet-write-html-and-css-faster/</link>
+      <link>https://chrissmith.xyz/blog/2021/emmet-write-html-and-css-faster/</link>
       <description>&lt;h2&gt;What is Emmet?&lt;/h2&gt;
 &lt;p&gt;Emmet is a productivity tool for HTML and CSS editors. It enables the author to type a shortcut and hit the TAB key to replace it with a predefined chunk of code called a &amp;quot;snippet&amp;quot;. It is already included in Visual Studio and VS Code by default, no extensions or packages needed. It does require knowledge of HTML tags and CSS selectors.&lt;/p&gt;
 &lt;p&gt;In HTML, typing &lt;code&gt;a&lt;/code&gt; then hitting TAB gives &lt;code&gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt; with the cursor placed ready between the href quotes.&lt;/p&gt;
@@ -549,11 +549,11 @@
 </description>
       <pubDate>Fri, 10 Dec 2021 17:15:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/emmet-write-html-and-css-faster/</guid>
+      <guid>https://chrissmith.xyz/blog/2021/emmet-write-html-and-css-faster/</guid>
     </item>
     <item>
       <title>Progress Indicators</title>
-      <link>https://chrissmith.xyz/blog/progress-indicators/</link>
+      <link>https://chrissmith.xyz/blog/2021/progress-indicators/</link>
       <description>&lt;p&gt;I&#39;ve been working on a questionnaire with a requirement to show progress through the questions. It has thrown up some interesting challenges which I felt were worth sharing.&lt;/p&gt;
 &lt;p&gt;When I first saw the requirement I thought it would be simple - progress is just number of questions divided by number of answers, easy maths, right? Well, it could be in a very simple questionnaire but ours threw up a few more curved balls. Here are some additional considerations:&lt;/p&gt;
 &lt;p&gt;Some questions are mandatory, others are optional, so are we counting all questions or only the mandatory ones?&lt;/p&gt;
@@ -590,11 +590,11 @@ const numberOfAnswers = questionsAnswered.length;&lt;/code&gt;&lt;/pre&gt;
 </description>
       <pubDate>Sun, 23 May 2021 21:05:25 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/progress-indicators/</guid>
+      <guid>https://chrissmith.xyz/blog/2021/progress-indicators/</guid>
     </item>
     <item>
       <title>New Image Formats - WebP and AVIF</title>
-      <link>https://chrissmith.xyz/blog/new-image-formats-webp-and-avif/</link>
+      <link>https://chrissmith.xyz/blog/2021/new-image-formats-webp-and-avif/</link>
       <description>&lt;p&gt;Performance tools like Lighthouse now suggest using newer formats for images in place of the traditional JPG, PNG and GIF. Smaller file sizes mean faster load times for users and less storage space on servers.&lt;/p&gt;
 &lt;h3&gt;Image Compression&lt;/h3&gt;
 &lt;p&gt;Lossy compression means that as the image is reduced in size info is thrown away giving big savings on file size. If we take a 400x400 image and save it as 100x100, then resizing back up leads to pixilation.&lt;/p&gt;
@@ -686,11 +686,11 @@ const numberOfAnswers = questionsAnswered.length;&lt;/code&gt;&lt;/pre&gt;
 </description>
       <pubDate>Wed, 27 Jan 2021 17:30:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/new-image-formats-webp-and-avif/</guid>
+      <guid>https://chrissmith.xyz/blog/2021/new-image-formats-webp-and-avif/</guid>
     </item>
     <item>
       <title>Transitioning to Modern JavaScript</title>
-      <link>https://chrissmith.xyz/blog/transitioning-to-modern-javascript/</link>
+      <link>https://chrissmith.xyz/blog/2021/transitioning-to-modern-javascript/</link>
       <description>&lt;p&gt;This is the title of a video from the December 2020 Chrome Dev Summit.
 &lt;a href=&quot;https://www.youtube.com/watch?v=cLxNdLK--yI&quot;&gt;https://www.youtube.com/watch?v=cLxNdLK--yI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Below is a summary of the main points from the video.&lt;/p&gt;
@@ -723,11 +723,11 @@ Some packages offer modern and legacy versions but less than 25% offer anything 
 </description>
       <pubDate>Tue, 05 Jan 2021 17:00:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/transitioning-to-modern-javascript/</guid>
+      <guid>https://chrissmith.xyz/blog/2021/transitioning-to-modern-javascript/</guid>
     </item>
     <item>
       <title>Learning to Write Code that is Good Enough</title>
-      <link>https://chrissmith.xyz/blog/learning-to-write-code-that-is-good-enough/</link>
+      <link>https://chrissmith.xyz/blog/2020/learning-to-write-code-that-is-good-enough/</link>
       <description>&lt;p&gt;When you go through school you&#39;re always taught to do your best, to try to make the thing you&#39;re working on the best it can possibly be. When it comes to software we naturally want the same - we dream of something that&#39;s fast, accessible, responsive and free from any bugs. It&#39;s just not realistic.&lt;/p&gt;
 &lt;h3&gt;Need for Speed&lt;/h3&gt;
 &lt;p&gt;In the real world of web or software development, speed of development is key. We have to deliver functionality by deadlines. This might be because users need it for a fixed date, or maybe you need to move quickly to make the most of a gap in the market, or you need to beat your competitors or keep pace with them - there are many reasons.&lt;/p&gt;
@@ -746,11 +746,11 @@ Some packages offer modern and legacy versions but less than 25% offer anything 
 </description>
       <pubDate>Mon, 03 Aug 2020 18:27:12 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/learning-to-write-code-that-is-good-enough/</guid>
+      <guid>https://chrissmith.xyz/blog/2020/learning-to-write-code-that-is-good-enough/</guid>
     </item>
     <item>
       <title>Reasons for Developers to Have a Blog</title>
-      <link>https://chrissmith.xyz/blog/reasons-for-developers-to-have-a-blog/</link>
+      <link>https://chrissmith.xyz/blog/2020/reasons-for-developers-to-have-a-blog/</link>
       <description>&lt;p&gt;One thing I&#39;d definitely recommend to any new developers is to have your own blog. It&#39;s also a view I&#39;ve seen shared by a lot of experienced developers. But why?&lt;/p&gt;
 &lt;h3&gt;How I Started&lt;/h3&gt;
 &lt;p&gt;I&#39;ve had this WordPress blog up and running since summer 2008. I know. A long time. I had a small static website for about 5 years before that. For me it came out of necessity. I was doing freelance web design so needed somewhere to promote my services and showcase what I could do. I started writing articles as a way of creating fresh content in order to climb the search engine results listings. This certainly did not have an instant impact but over a long time I think it did make a difference.&lt;/p&gt;
@@ -777,11 +777,11 @@ Some packages offer modern and legacy versions but less than 25% offer anything 
 </description>
       <pubDate>Sun, 26 Jul 2020 17:01:11 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/reasons-for-developers-to-have-a-blog/</guid>
+      <guid>https://chrissmith.xyz/blog/2020/reasons-for-developers-to-have-a-blog/</guid>
     </item>
     <item>
       <title>The Dangers of Logic in CSS</title>
-      <link>https://chrissmith.xyz/blog/the-dangers-of-logic-in-css/</link>
+      <link>https://chrissmith.xyz/blog/2020/the-dangers-of-logic-in-css/</link>
       <description>&lt;p&gt;We can do a lot of logic in CSS. I&#39;m thinking specifically of scenarios which take the form &amp;quot;if this, then that&amp;quot;.&lt;/p&gt;
 &lt;p&gt;There are media queries which will let us control the appearance of elements based on a variety of factors. Probably the most common is screen width, so we get things like &amp;quot;if the width is 1024px or higher, then show an extra element&amp;quot;.&lt;/p&gt;
 &lt;p&gt;There are pseudo selectors like &lt;code&gt;:empty&lt;/code&gt;, &lt;code&gt;:checked&lt;/code&gt;, &lt;code&gt;:valid&lt;/code&gt;, &lt;code&gt;:disabled&lt;/code&gt; which let us control appearance based on state, giving us, for example, &amp;quot;if the parent element has no children (:empty), then change its opacity&amp;quot;.&lt;/p&gt;
@@ -798,11 +798,11 @@ Some packages offer modern and legacy versions but less than 25% offer anything 
 </description>
       <pubDate>Thu, 26 Mar 2020 18:00:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-dangers-of-logic-in-css/</guid>
+      <guid>https://chrissmith.xyz/blog/2020/the-dangers-of-logic-in-css/</guid>
     </item>
     <item>
       <title>Clicking Off Things to Close Them</title>
-      <link>https://chrissmith.xyz/blog/clicking-off-things-to-close-them/</link>
+      <link>https://chrissmith.xyz/blog/2020/clicking-off-things-to-close-them/</link>
       <description>&lt;p&gt;There&#39;s a common design pattern these days where a bit of content is shown over the main screen. It might be a modal window or maybe a fly-in menu or sidebar. It&#39;s also common, especially in native apps, that we can just click or tap in the space not used by these elements to close them. So, how can we do this?&lt;/p&gt;
 &lt;p&gt;I think there are 2 approaches, one which is pure JavaScript and another which involves an overlay element. Let&#39;s look at both.&lt;/p&gt;
 &lt;h3&gt;JavaScript Document Click Event Method&lt;/h3&gt;
@@ -849,11 +849,11 @@ document.addEventListener(&#39;click&#39;, handleClick);&lt;/code&gt;&lt;/pre&gt
 </description>
       <pubDate>Wed, 25 Mar 2020 18:00:53 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/clicking-off-things-to-close-them/</guid>
+      <guid>https://chrissmith.xyz/blog/2020/clicking-off-things-to-close-them/</guid>
     </item>
     <item>
       <title>Print CSS Tips</title>
-      <link>https://chrissmith.xyz/blog/print-css-tips/</link>
+      <link>https://chrissmith.xyz/blog/2020/print-css-tips/</link>
       <description>&lt;p&gt;A collection of Print CSS problems and tips, learned the hard way...&lt;/p&gt;
 &lt;p&gt;A common use of print CSS is for reporting, either printing HTML directly or using a tool to generate a PDF from HTML. HTML being written to PDF will be treated as print media rather than screen.&lt;/p&gt;
 &lt;h2&gt;Page Breaks&lt;/h2&gt;
@@ -902,11 +902,11 @@ td[rowspan] + td[rowspan]:before {
 </description>
       <pubDate>Fri, 17 Jan 2020 16:00:00 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/print-css-tips/</guid>
+      <guid>https://chrissmith.xyz/blog/2020/print-css-tips/</guid>
     </item>
     <item>
       <title>Switching APIs</title>
-      <link>https://chrissmith.xyz/blog/switching-apis/</link>
+      <link>https://chrissmith.xyz/blog/2019/switching-apis/</link>
       <description>&lt;p&gt;It&#39;s completely normal now for web apps to work with external third party JavaScript APIs. The good ones give you lots of documentation making them pretty straightforward to implement and use. You load a script from a URL or local resource, use their methods and properties in your code and away you go.&lt;/p&gt;
 &lt;p&gt;But what if you then want to switch to another API provider? Maybe the one you were using isn&#39;t accessible, doesn&#39;t support the older browsers you need? Maybe they put their prices up? Whatever the reason you may need to switch at some point.&lt;/p&gt;
 &lt;p&gt;This change means rewriting your app&#39;s JavaScript to work with the new API. You&#39;ll have to find every point it touches and update it. What if it works differently? What if this one takes an object parameter rather than an array? You&#39;ll have to completely rewrite the data parts too.&lt;/p&gt;
@@ -918,11 +918,11 @@ td[rowspan] + td[rowspan]:before {
 </description>
       <pubDate>Thu, 17 Oct 2019 19:00:59 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/switching-apis/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/switching-apis/</guid>
     </item>
     <item>
       <title>Safer Passwords</title>
-      <link>https://chrissmith.xyz/blog/safer-passwords/</link>
+      <link>https://chrissmith.xyz/blog/2019/safer-passwords/</link>
       <description>&lt;p&gt;Just thought I&#39;d pass on a few tips that I&#39;ve been given for setting a password that won&#39;t get hacked.&lt;/p&gt;
 &lt;p&gt;Passwords can be hacked in two ways - being guessed by a human or being &quot;brute forced&quot; by a computer. Brute forcing just means trying lots of different passwords until it succeeds and powerful computers can do &lt;em&gt;a lot&lt;/em&gt; in a short time.&lt;/p&gt;
 &lt;h3&gt;Go Long&lt;/h3&gt;
@@ -937,11 +937,11 @@ td[rowspan] + td[rowspan]:before {
 </description>
       <pubDate>Fri, 11 Oct 2019 14:30:48 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/safer-passwords/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/safer-passwords/</guid>
     </item>
     <item>
       <title>Edging Out of IE Support</title>
-      <link>https://chrissmith.xyz/blog/edging-out-of-ie-support/</link>
+      <link>https://chrissmith.xyz/blog/2019/edging-out-of-ie-support/</link>
       <description>&lt;p&gt;Having to support a minority of users on IE11 is painful. It&#39;s a browser that is still officially supported by Microsoft, until 2025, but active development has stopped, or at least slowed right down, so the gap between it and other browsers is growing wider with every update.&lt;/p&gt;
 &lt;p&gt;The growing feature gap means either not using newer features if we&#39;re working to the lowest common denominator or else having to provide polyfills or fallbacks so IE11 can still be used.&lt;/p&gt;
 &lt;p&gt;But there could be a light at the end of the tunnel, and before 2025. Microsoft Edge is moving from using the EdgeHTML engine to open source Chromium, which will bring it in line with Chrome, Opera and Safari. That&#39;s nice for compatibility but the big deal is that it will be available on older Windows operating systems. Up until now Edge was only available on Windows 10 but it will soon be available on 7, 8 and 8.1 too so more users can drop IE and use Edge as their official Microsoft browser.&lt;/p&gt;
@@ -950,29 +950,29 @@ td[rowspan] + td[rowspan]:before {
 </description>
       <pubDate>Sun, 04 Aug 2019 11:00:51 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/edging-out-of-ie-support/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/edging-out-of-ie-support/</guid>
     </item>
     <item>
       <title>Performance Perception Trick: Processing Lists Faster</title>
-      <link>https://chrissmith.xyz/blog/performance-perception-trick-processing-lists-faster/</link>
+      <link>https://chrissmith.xyz/blog/2019/performance-perception-trick-processing-lists-faster/</link>
       <description>&lt;p&gt;I&#39;ve got a little trick to make the processing of lists appear to go faster than it actually does.&lt;/p&gt;
 &lt;p&gt;Let&#39;s suppose we have a list of 10 items and there&#39;s some kind of processing to be done on them, maybe sending them off to a service which returns a Boolean true/false response for each. In reality we post a single request with the data of the 10 items and we get a single response back after 3 seconds.&lt;/p&gt;
 &lt;p&gt;In the UI we can use animation to make it look as if each item is being sent one at a time by adding a 100 millisecond delay between each state change. This means that the user thinks the last item of the 10 is sent after 1 second but in reality it&#39;s already gone a second  ago buying us extra time.&lt;/p&gt;
 &lt;p&gt;When we get the response, rather than show all the results immediately, we can use a similar animation to make them appear one by one with a 100 millisecond delay again. Although this is slower than just showing them all it maintains the illusion of the items being processed one by one.&lt;/p&gt;
 &lt;p&gt;So, the reality, without the trickery, is like this:&lt;/p&gt;
-&lt;table class=&quot;wp-block-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width:2em&quot;&gt;0&lt;/td&gt;&lt;td&gt;Request sent,&lt;br /&gt;perceived waiting time begins&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:2em&quot;&gt;3&lt;/td&gt;&lt;td&gt;Response returned,&lt;br /&gt;UI updated,&lt;br /&gt;perceived waiting time ends&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table class=&quot;wp-block-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;inline-size:2em&quot;&gt;0&lt;/td&gt;&lt;td&gt;Request sent,&lt;br /&gt;perceived waiting time begins&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;inline-size:2em&quot;&gt;3&lt;/td&gt;&lt;td&gt;Response returned,&lt;br /&gt;UI updated,&lt;br /&gt;perceived waiting time ends&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;This would mean a perceived waiting time of 3 seconds.&lt;/p&gt;
 &lt;p&gt;And with the trickery:&lt;/p&gt;
-&lt;table class=&quot;wp-block-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width:2em&quot;&gt;0&lt;/td&gt;&lt;td&gt;Request sent,&lt;br /&gt;animation started&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:2em&quot;&gt;1&lt;/td&gt;&lt;td&gt;Animation ends,&lt;br /&gt;perceived waiting time begins&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:2em&quot;&gt;3&lt;/td&gt;&lt;td&gt;Response returned,&lt;br /&gt;animation started,&lt;br /&gt;perceived waiting time ends&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:2em&quot;&gt;4&lt;/td&gt;&lt;td&gt;Animation ends&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table class=&quot;wp-block-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;inline-size:2em&quot;&gt;0&lt;/td&gt;&lt;td&gt;Request sent,&lt;br /&gt;animation started&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;inline-size:2em&quot;&gt;1&lt;/td&gt;&lt;td&gt;Animation ends,&lt;br /&gt;perceived waiting time begins&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;inline-size:2em&quot;&gt;3&lt;/td&gt;&lt;td&gt;Response returned,&lt;br /&gt;animation started,&lt;br /&gt;perceived waiting time ends&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;inline-size:2em&quot;&gt;4&lt;/td&gt;&lt;td&gt;Animation ends&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;Even though the time to getting the final bit of data on screen is actually extended to 4 seconds, the perceived waiting time is reduced to 2 seconds.&lt;/p&gt;
 </description>
       <pubDate>Sat, 03 Aug 2019 09:00:23 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/performance-perception-trick-processing-lists-faster/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/performance-perception-trick-processing-lists-faster/</guid>
     </item>
     <item>
       <title>Should Designers Be Able to Code?</title>
-      <link>https://chrissmith.xyz/blog/should-designers-be-able-to-code/</link>
+      <link>https://chrissmith.xyz/blog/2019/should-designers-be-able-to-code/</link>
       <description>&lt;p&gt;This seems to be a bit of a hot topic on Twitter right now so here&#39;s my take.&lt;/p&gt;
 &lt;p&gt;The definitions of designer and developer and where you draw the line between the roles is a bit of a nonsense. In reality you can&#39;t box things like this. It&#39;s about the individuals and what skills they have and what fits your team. Overlaps in skills are not a problem, gaps are. So, the handover points will naturally surface out of what works for the team. That said, I do have some more specific thoughts about what might kinds of coding might empower a designer.&lt;/p&gt;
 &lt;p&gt;I&#39;m assuming we&#39;re talking about designers who already write HTML and CSS and what level of JavaScript they should know or learn. A designer who works in a graphics editor or prototyping environment clearly has a different skill set.&lt;/p&gt;
@@ -988,11 +988,11 @@ I think just these few basic steps will enable a designer to achieve a lot more 
 </description>
       <pubDate>Fri, 02 Aug 2019 19:00:05 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/should-designers-be-able-to-code/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/should-designers-be-able-to-code/</guid>
     </item>
     <item>
       <title>What Techies Tweet</title>
-      <link>https://chrissmith.xyz/blog/what-techies-tweet/</link>
+      <link>https://chrissmith.xyz/blog/2019/what-techies-tweet/</link>
       <description>&lt;p&gt;I was curious as to what value I was getting out of following people in the tech industry on Twitter. Are they sharing useful information or just sharing pictures of their pets? Is it jokes and memes, self-promotion, sharing useful resources, praise, criticism, politics? I studied &lt;strong&gt;100&lt;/strong&gt; consecutive tweets to get an idea.&lt;/p&gt;
 &lt;p&gt;This is by knows means scientific but still quite interesting. There are a few important parameters for how I use Twitter, which may explain differences from what you see. Firstly, I don&#39;t exclusively follow people in tech. I follow real world friends, football journalists, comedians, celebrities - a pretty broad spectrum of people. Here I&#39;ve limited the tweets analysed to just those from people in tech. I&#39;ve got to admit there were one or two where I wasn&#39;t sure so had to check their bios. Secondly, I try to follow real people, not faceless organisations. My rationale is that organisations&#39; tweets are 99% self-promotion. If their content is good enough I&#39;ll get to hear about it via others retweeting. I&#39;m trusting the people I follow to filter the organisational information I receive. Final point is I have a couple of words muted - &quot;Trump&quot; and &quot;Brexit&quot;. This will obviously impact on the amount of political tweets I see.&lt;/p&gt;
 &lt;p&gt;So, here&#39;s a breakdown from &lt;strong&gt;100&lt;/strong&gt; tweets on Friday 26th April, roughly 5.00 - 5.30pm UK time. &lt;/p&gt;
@@ -1007,11 +1007,11 @@ I think just these few basic steps will enable a designer to achieve a lot more 
 </description>
       <pubDate>Fri, 03 May 2019 19:00:36 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-techies-tweet/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/what-techies-tweet/</guid>
     </item>
     <item>
       <title>When to Reach for a Framework (and When Not To)</title>
-      <link>https://chrissmith.xyz/blog/when-to-reach-for-a-framework-and-when-not-to/</link>
+      <link>https://chrissmith.xyz/blog/2019/when-to-reach-for-a-framework-and-when-not-to/</link>
       <description>&lt;p&gt;First off, when I say &quot;framework&quot; in this post&#39;s title I just mean any big chunk of stuff that you load up and it does stuff for you. So, could be React, jQuery, Bootstrap, etc.&lt;/p&gt;
 &lt;p&gt;Let&#39;s say that a &quot;framework&quot; is made up of 10 bits of functionality. If we use all 10 of them then we&#39;re getting great value from it. Conversely, if we&#39;re only using one or two we&#39;re probably loading up a lot of stuff that is never used - bloat.&lt;/p&gt;
 &lt;h3&gt;DIY?&lt;/h3&gt;
@@ -1029,11 +1029,11 @@ I think just these few basic steps will enable a designer to achieve a lot more 
 </description>
       <pubDate>Sat, 13 Apr 2019 09:58:13 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/when-to-reach-for-a-framework-and-when-not-to/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/when-to-reach-for-a-framework-and-when-not-to/</guid>
     </item>
     <item>
       <title>Hiding UI Elements</title>
-      <link>https://chrissmith.xyz/blog/hiding-ui-elements/</link>
+      <link>https://chrissmith.xyz/blog/2019/hiding-ui-elements/</link>
       <description>&lt;p&gt;At the start of March 2019 I ran a poll on Twitter to see how devs hide UI elements. Here&#39;s the tweet and results.&lt;/p&gt;
 &lt;p&gt;Admittedly, not a very scientific sample size but it was enough to confirm my suspicion that very few people use the &quot;hidden&quot; attribute. I should probably call it a property rather than an attribute as it&#39;s a Boolean and acts in a similar way to &quot;disabled&quot; or &quot;required&quot; which we often use on form elements. And, by contrast, the most common method seems to be to use the CSS &quot;display:none&quot;. Probably no great surprise to anyone.&lt;/p&gt;
 &lt;p&gt;I think it&#39;s interesting to think about what we&#39;re really doing when we hide an element. Is the visibility of the element just for screen users or for all users? Do we still want the element available for non visual media? Or is the content going to be used by another part of the page in some way? Does it need to be in the DOM at all or are we just keeping it there because it&#39;s easier?&lt;/p&gt;
@@ -1059,11 +1059,11 @@ I think just these few basic steps will enable a designer to achieve a lot more 
 </description>
       <pubDate>Fri, 29 Mar 2019 18:00:17 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/hiding-ui-elements/</guid>
+      <guid>https://chrissmith.xyz/blog/2019/hiding-ui-elements/</guid>
     </item>
     <item>
       <title>What I Learned in 2018</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2018/</link>
+      <link>https://chrissmith.xyz/blog/2018/what-i-learned-in-2018/</link>
       <description>&lt;p&gt;I write a post like this every year and it feels like it gets harder each time. There was a time when I could rattle through a list of new tech, tools or libraries that I&#39;d been using. It feels like I&#39;m much more focused on soft skills these days or firming up what I already know.&lt;/p&gt;
 &lt;h3&gt;Running Workshops&lt;/h3&gt;
 &lt;p&gt;This year I&#39;ve started running workshops to share knowledge with other developers. I&#39;ve run short half hour workshops on Semantic HTML, Sass, Web Workers, Service Workers and Flexbox. I&#39;m not a natural teacher or presenter but it&#39;s been great to give other developers dedicated time to learn something new and by putting together a workshop it&#39;s made me firm up my knowledge of each subject. I&#39;d definitely recommend it as a worthwhile activity to anyone.&lt;/p&gt;
@@ -1085,11 +1085,11 @@ I think just these few basic steps will enable a designer to achieve a lot more 
 </description>
       <pubDate>Thu, 27 Dec 2018 19:00:57 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2018/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/what-i-learned-in-2018/</guid>
     </item>
     <item>
       <title>The DOM Diet and Year Pickers</title>
-      <link>https://chrissmith.xyz/blog/the-dom-diet-and-year-pickers/</link>
+      <link>https://chrissmith.xyz/blog/2018/the-dom-diet-and-year-pickers/</link>
       <description>&lt;p&gt;I think we all know that having a smaller DOM is good for performance but I was never sure what&#39;s considered big or small, or at what points performance is affected. Knowing a little more can change how you approach things.&lt;/p&gt;
 &lt;p&gt;I was recently doing a performance analysis on some pages and the tool I chose to use was the Chrome Performance Audit. If you open Dev Tools (F12) and go to the Audits tab you&#39;ll see a range of available audits which includes Performance. This uses a tool called Lighthouse and gives estimates for various performance metrics as well as Opportunities and Diagnostics.&lt;/p&gt;
 &lt;p&gt;One of the diagnostics which came up for me was &amp;quot;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/dom-size&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Uses an excessive DOM size&lt;/a&gt;&amp;quot; and the detail gives us this:&lt;/p&gt;
@@ -1109,11 +1109,11 @@ This final method is just a bit of a &quot;left field&quot; design. The advantag
 </description>
       <pubDate>Thu, 15 Nov 2018 16:43:21 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/the-dom-diet-and-year-pickers/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/the-dom-diet-and-year-pickers/</guid>
     </item>
     <item>
       <title>Why Are We Making Web Development So Hard?</title>
-      <link>https://chrissmith.xyz/blog/why-are-we-making-web-development-so-hard/</link>
+      <link>https://chrissmith.xyz/blog/2018/why-are-we-making-web-development-so-hard/</link>
       <description>&lt;p&gt;I don&#39;t think I&#39;m the first person to think this by any stretch. There are lots of infographics around showing the difference between web tooling now and 10 years ago and it&#39;s clearly ballooned at an extraordinary rate.&lt;/p&gt;
 &lt;p&gt;In the last year or so I&#39;ve started working with Angular (as opposed to Angular.js a.k.a. Angular 1) and have also dabbled in Vue and React. All of these frameworks seem to share the same basic ideas - build everything as a component and push and pull them from the &lt;abbr title=&quot;Document Object Model&quot;&gt;DOM&lt;/abbr&gt; as needed. Each component is made up of a HTML template, embedded CSS styles and a JavaScript controller.&lt;/p&gt;
 &lt;p&gt;This feels like an efficient way of working, very &lt;abbr title=&quot;Don&#39;t Repeat Yourself&quot;&gt;DRY&lt;/abbr&gt;. But is it? You create a component, let&#39;s say a time picker. One it&#39;s developed you can put it into multiple views or uses relatively quickly. However, if you later modify it to work slightly differently, using adding complexity, you have to test it in each use case and make sure it still works with no detrimental effects.&lt;/p&gt;
@@ -1126,11 +1126,11 @@ This final method is just a bit of a &quot;left field&quot; design. The advantag
 </description>
       <pubDate>Wed, 24 Oct 2018 18:47:09 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/why-are-we-making-web-development-so-hard/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/why-are-we-making-web-development-so-hard/</guid>
     </item>
     <item>
       <title>Learning Experiences as a Freelancer</title>
-      <link>https://chrissmith.xyz/blog/learning-experiences-as-a-freelancer/</link>
+      <link>https://chrissmith.xyz/blog/2018/learning-experiences-as-a-freelancer/</link>
       <description>&lt;p&gt;I thought it might be useful to share some of my not-so-great experiences as a freelance web designer so that others can learn from my mistakes.&lt;/p&gt;
 &lt;h3&gt;All Work and No Pay&lt;/h3&gt;
 What&#39;s really frustrating is that I made the same mistake several times. That costly mistake was doing work and not getting paid for it. I&#39;d get an enquiry for building a site by phone or email. I&#39;d get straight back with some ideas and a quote and more often than not my quote would be accepted. I&#39;d even have written confirmation that yes, they wanted to pay me for a website. On this basis I&#39;d do the work and then when it came to sharing my design they&#39;d say that they didn&#39;t want to go ahead any more or that they&#39;d found another designer.
@@ -1146,11 +1146,11 @@ The third mistake I made was spending my time on the wrong things. I spent a lot
 </description>
       <pubDate>Sat, 06 Oct 2018 19:01:30 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/learning-experiences-as-a-freelancer/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/learning-experiences-as-a-freelancer/</guid>
     </item>
     <item>
       <title>Super Fast Tree View in JavaScript</title>
-      <link>https://chrissmith.xyz/blog/super-fast-tree-view-in-javascript/</link>
+      <link>https://chrissmith.xyz/blog/2018/super-fast-tree-view-in-javascript/</link>
       <description>&lt;p&gt;I thought I&#39;d share a way of writing your JavaScript that will make a tree view hierarchy render and respond very quickly.&lt;/p&gt;
 &lt;p&gt;Firstly, the demo. I&#39;ve got 100,000 items, quite a hefty data set, which is randomly generated in a function. You can change the number of items easily in the JS area. Click on the + or - icons to expand or collapse nodes.&lt;/p&gt;
 &lt;p&gt;[codepen_embed height=&amp;quot;520&amp;quot; theme_id=&amp;quot;dark&amp;quot; slug_hash=&amp;quot;WawYKX&amp;quot; default_tab=&amp;quot;result&amp;quot; user=&amp;quot;chris22smith&amp;quot; editable=&amp;quot;true&amp;quot; data-editable=&amp;quot;true&amp;quot;]See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/WawYKX/&quot;&gt;Super Fast JavaScript Data Tree&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.[/codepen_embed]&lt;/p&gt;
@@ -1167,11 +1167,11 @@ If you found this useful it might be worth looking at my older post &lt;a href=
 </description>
       <pubDate>Fri, 05 Oct 2018 17:25:04 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/super-fast-tree-view-in-javascript/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/super-fast-tree-view-in-javascript/</guid>
     </item>
     <item>
       <title>Stop Linking to Nowhere</title>
-      <link>https://chrissmith.xyz/blog/stop-linking-to-nowhere/</link>
+      <link>https://chrissmith.xyz/blog/2018/stop-linking-to-nowhere/</link>
       <description>&lt;p&gt;Do you find yourself writing this kind of thing in your HTML?
 &lt;code&gt;&amp;lt;a href=&amp;quot;#&amp;quot; onclick=&amp;quot;doSomething()&amp;quot;&amp;gt;Some action&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Does that &lt;code&gt;href=&amp;quot;#&amp;quot;&lt;/code&gt; make you feel slightly uncomfortable? Like it&#39;s not really doing anything, a bit of a hack? You&#39;d be dead right to think that.&lt;/p&gt;
@@ -1187,11 +1187,11 @@ If you found this useful it might be worth looking at my older post &lt;a href=
 </description>
       <pubDate>Wed, 01 Aug 2018 18:26:36 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/stop-linking-to-nowhere/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/stop-linking-to-nowhere/</guid>
     </item>
     <item>
       <title>Google Analytics - Why You Should Replace IDs in URLs</title>
-      <link>https://chrissmith.xyz/blog/google-analytics-why-you-should-replace-ids-in-urls/</link>
+      <link>https://chrissmith.xyz/blog/2018/google-analytics-why-you-should-replace-ids-in-urls/</link>
       <description>&lt;p&gt;Google Analytics is brilliant at tracking things like Page Views for a website. It logs the URL and then keeps a count of how may times that URL is requested. Great, right? Not always.&lt;/p&gt;
 &lt;p&gt;There&#39;s a problem. Dynamic sites that use IDs in their URLs generate a lot of different URLs. A typical example might be a site being made up of list and details screens, so the URL for a list screen might end in &lt;code&gt;/List/&lt;/code&gt;. For a details page there&#39;s probably one template with the data changing dynamically and the ID for that item is probably in the URL, something like &lt;code&gt;/Details/123&lt;/code&gt; or &lt;code&gt;/Details?id=123&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This means that Google Analytics sees every visit to a different item&#39;s details as a different screen. This is ideal for some data analysis, like seeing which item is viewed most but not so great when you want to look at something like the performance of that template. Having hundreds of different URLs makes it impossible to analyse the template as a single screen.&lt;/p&gt;
@@ -1214,11 +1214,11 @@ An added bonus. When you look at your reports in Google Analytics you&#39;ll no 
 </description>
       <pubDate>Wed, 01 Aug 2018 17:53:19 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/google-analytics-why-you-should-replace-ids-in-urls/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/google-analytics-why-you-should-replace-ids-in-urls/</guid>
     </item>
     <item>
       <title>Experiment: Font Size vs Colour Contrast</title>
-      <link>https://chrissmith.xyz/blog/experiment-font-size-vs-colour-contrast/</link>
+      <link>https://chrissmith.xyz/blog/2018/experiment-font-size-vs-colour-contrast/</link>
       <description>&lt;p&gt;One of the things I&#39;ve learned early on in web accessibility is the importance of colour contrast to make things easy to read on screen. High contrast is good but the size of text is also a factor. If it&#39;s larger it&#39;s easier to read even if the contrast drops.&lt;/p&gt;
 &lt;p&gt;At the same time, having very large text with high contrast is quite &amp;quot;full on&amp;quot;. It can feel a bit like you&#39;re being shouted at. &lt;em&gt;Oppressive&lt;/em&gt; is the word I&#39;d use.&lt;/p&gt;
 &lt;p&gt;This got me thinking. I wonder if we can scale colour contrast with font size so that it always feels good. It&#39;s really an extension of responsive design.&lt;/p&gt;
@@ -1230,11 +1230,11 @@ An added bonus. When you look at your reports in Google Analytics you&#39;ll no 
 </description>
       <pubDate>Fri, 13 Jul 2018 20:13:37 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/experiment-font-size-vs-colour-contrast/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/experiment-font-size-vs-colour-contrast/</guid>
     </item>
     <item>
       <title>Making Icons Accessible</title>
-      <link>https://chrissmith.xyz/blog/making-icons-accessible/</link>
+      <link>https://chrissmith.xyz/blog/2018/making-icons-accessible/</link>
       <description>&lt;p&gt;I&#39;ve been using the excellent Font Awesome for a few years and it&#39;s become part of almost every new design that I do. For a long time I&#39;ve just slapped my icon down on the page, styled it and added a click event where needed. Job done.&lt;/p&gt;
 &lt;p&gt;Having spent some time looking a bit more deeply into accessibility, I can now see that this is not a great approach. There&#39;s more to consider. If you can&#39;t see it what is it actually doing?&lt;/p&gt;
 &lt;p&gt;Here&#39;s how I approach using icons now. It may not be the perfect solution but it&#39;s certainly a lot closer than most use cases I see. The way I use HTML depends on the use case.&lt;/p&gt;
@@ -1247,11 +1247,11 @@ An added bonus. When you look at your reports in Google Analytics you&#39;ll no 
 </description>
       <pubDate>Wed, 16 May 2018 18:42:34 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/making-icons-accessible/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/making-icons-accessible/</guid>
     </item>
     <item>
       <title>A New Found Appreciation for Images on the Web</title>
-      <link>https://chrissmith.xyz/blog/a-new-found-appreciation-for-images-on-the-web/</link>
+      <link>https://chrissmith.xyz/blog/2018/a-new-found-appreciation-for-images-on-the-web/</link>
       <description>&lt;p&gt;I&#39;ve been putting images in web pages for years. Nearly 2 decades now. For most of that time it has been quite easy. Add your source and the dimensions and BOOM, there you go. There was always some work around optimising images outside of your page but once in there, easy.&lt;/p&gt;
 &lt;p&gt;Then, with higher pixel densities it started getting a bit harder and we had to work it out with media queries and srcset. Now SVG is widely supported, all this fussing around with different versions for different resolutions has gone away, at least for simple graphics.&lt;/p&gt;
 &lt;p&gt;I&#39;ve recently been doing some design work on an Android app and it&#39;s a very different way of doing things with images. For example, I&#39;ve created a splash screen for while the app is loading. It&#39;s a full page, wide logo in the centre, coloured background.&lt;/p&gt;
@@ -1263,11 +1263,11 @@ An added bonus. When you look at your reports in Google Analytics you&#39;ll no 
 </description>
       <pubDate>Wed, 09 May 2018 18:17:46 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/a-new-found-appreciation-for-images-on-the-web/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/a-new-found-appreciation-for-images-on-the-web/</guid>
     </item>
     <item>
       <title>How to Be a Good Designer</title>
-      <link>https://chrissmith.xyz/blog/how-to-be-a-good-designer/</link>
+      <link>https://chrissmith.xyz/blog/2018/how-to-be-a-good-designer/</link>
       <description>&lt;p&gt;I&#39;ve been designing web sites and user interfaces for quite a long time now and thought I&#39;d try to pass on what I think it takes to be a good designer. This isn&#39;t about design techniques or theory, just how to interact with other people.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Rule 1. Don&#39;t be a dick.&lt;/strong&gt;
 That&#39;s really it. Don&#39;t let your ego take over. You will inevitably have to present your work to others. Don&#39;t presume that because you&#39;re the designer that your opinion is worth more than anyone else&#39;s. It&#39;s a collaborative process and if you start feeling that you know best it will stop you listening to others. This leads neatly into...&lt;/p&gt;
@@ -1280,25 +1280,22 @@ It&#39;s ok to not get your way. It&#39;s important to show that you respect oth
 </description>
       <pubDate>Fri, 13 Apr 2018 19:32:26 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/how-to-be-a-good-designer/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/how-to-be-a-good-designer/</guid>
     </item>
     <item>
       <title>Lightning Fast Filtering in JavaScript</title>
-      <link>https://chrissmith.xyz/blog/lightning-fast-filtering-in-javascript/</link>
+      <link>https://chrissmith.xyz/blog/2018/lightning-fast-filtering-in-javascript/</link>
       <description>
 &lt;article&gt;
   &lt;h1&gt;Lightning Fast Filtering in JavaScript&lt;/h1&gt;
-  &lt;div class=&quot;details&quot;&gt;
-    Published &lt;time datetime=&quot;2018-02-01 17:26:27&quot;&gt;1 Feb 2018&lt;/time&gt;
-  &lt;/div&gt;
-  &lt;p&gt;I thought I&#39;d share a technique for filtering large sets of data quickly in
-    a web page. The scenario is a biggish set of data, 100,000 records, with
-    each record having 3 properties, and we want to filter them using text
+  &lt;div class=&quot;details&quot;&gt; Published &lt;time datetime=&quot;2018-02-01 17:26:27&quot;&gt;1 Feb 2018&lt;/time&gt; &lt;/div&gt;
+  &lt;p&gt;I thought I&#39;d share a technique for filtering large sets of data quickly in a web page. The scenario is a biggish
+    set of data, 100,000 records, with each record having 3 properties, and we want to filter them using text
     matching.&lt;/p&gt;
-  &lt;p&gt;Here is the finished article with dummy generated data. Give it a try. Just
-    type any 3 or 4 characters and watch it do its thing.&lt;/p&gt;
+  &lt;p&gt;Here is the finished article with dummy generated data. Give it a try. Just type any 3 or 4 characters and watch it
+    do its thing.&lt;/p&gt;
   &lt;p class=&quot;codepen&quot; data-height=&quot;600&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;mXeMGL&quot; data-user=&quot;chris22smith&quot; style=&quot;
-      height: 300px;
+      block-size: 300px;
       box-sizing: border-box;
       display: flex;
       align-items: center;
@@ -1308,50 +1305,41 @@ It&#39;s ok to not get your way. It&#39;s important to show that you respect oth
       padding: 1em;
     &quot;&gt;
     &lt;span&gt;See the Pen
-      &lt;a href=&quot;https://codepen.io/chris22smith/pen/mXeMGL&quot;&gt;
-        Fast Filtering with JavaScript&lt;/a&gt;
-      by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+      &lt;a href=&quot;https://codepen.io/chris22smith/pen/mXeMGL&quot;&gt; Fast Filtering with JavaScript&lt;/a&gt;
+      by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;) on
+      &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
   &lt;/p&gt;
   &lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-  &lt;p&gt;Fast, isn&#39;t it? You can go into the JavaScript tab and see how it all works
-    but I&#39;ll explain some of the main parts.&lt;/p&gt;
-  &lt;p&gt;When trying to make it fast the most important thing to be aware of is that
-    changing JavaScript objects is fast, changing the DOM is slow. So, we do as
-    much as we can in JavaScript and then just update the DOM at the end. If you
-    try to create 100,000 &amp;lt;li&amp;gt; tags it will be very slow and will probably
-    die on you.&lt;/p&gt;
-  &lt;p&gt;The first step is to set up a function to convert the data array into a
-    HTML list. We keep this fast by setting a limit on how many items we will
-    show. In this demo I&#39;ve set it to 10 but even increasing it to 100 makes
-    little difference to the speed. They key thing is not to get into big
-    numbers which put a strain on the DOM. So we don&#39;t loop through all the
-    items, only the first few. A nice small loop, which runs quickly.&lt;/p&gt;
-  &lt;p&gt;The building is all done in JavaScript, with nothing touching the DOM until
-    we have a complete Document Fragment with all the list items ready to append
-    to our list. I&#39;ve separated out the building of each list item into its own
-    function to hopefully make this even faster. Whenever iterating through
-    large numbers of records the more variables and functions we can take out of
-    the loop and pre-define the better.&lt;/p&gt;
-  &lt;p&gt;The next step is to get the data array with the full data and filter it
-    down into a smaller array using the native JavaScript filter() method. This
-    method is incredibly fast, much quicker than using a for loop to iterate
-    through each item. You can read more about
-    &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;filter() on MDN&lt;/a&gt;. If you use a predefined function with it rather than an anonymous
-    function it&#39;s faster still.&lt;/p&gt;
-  &lt;p&gt;Once we have the filtered down array we can call our function to rebuild
-    the list in HTML. It all happens in the blink of an eye.&lt;/p&gt;
-  &lt;p&gt;As a final touch I&#39;ve added a count message function which gets called each
-    time we filter. This just helps to see what&#39;s going on - how many records
-    are being shown and the size of the reduced data set.&lt;/p&gt;
+  &lt;p&gt;Fast, isn&#39;t it? You can go into the JavaScript tab and see how it all works but I&#39;ll explain some of the main
+    parts.&lt;/p&gt;
+  &lt;p&gt;When trying to make it fast the most important thing to be aware of is that changing JavaScript objects is fast,
+    changing the DOM is slow. So, we do as much as we can in JavaScript and then just update the DOM at the end. If you
+    try to create 100,000 &amp;lt;li&amp;gt; tags it will be very slow and will probably die on you.&lt;/p&gt;
+  &lt;p&gt;The first step is to set up a function to convert the data array into a HTML list. We keep this fast by setting a
+    limit on how many items we will show. In this demo I&#39;ve set it to 10 but even increasing it to 100 makes little
+    difference to the speed. They key thing is not to get into big numbers which put a strain on the DOM. So we don&#39;t
+    loop through all the items, only the first few. A nice small loop, which runs quickly.&lt;/p&gt;
+  &lt;p&gt;The building is all done in JavaScript, with nothing touching the DOM until we have a complete Document Fragment
+    with all the list items ready to append to our list. I&#39;ve separated out the building of each list item into its own
+    function to hopefully make this even faster. Whenever iterating through large numbers of records the more variables
+    and functions we can take out of the loop and pre-define the better.&lt;/p&gt;
+  &lt;p&gt;The next step is to get the data array with the full data and filter it down into a smaller array using the native
+    JavaScript filter() method. This method is incredibly fast, much quicker than using a for loop to iterate through
+    each item. You can read more about
+    &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;filter() on MDN&lt;/a&gt;. If you use a predefined function with it rather than an anonymous function it&#39;s faster still.&lt;/p&gt;
+  &lt;p&gt;Once we have the filtered down array we can call our function to rebuild the list in HTML. It all happens in the
+    blink of an eye.&lt;/p&gt;
+  &lt;p&gt;As a final touch I&#39;ve added a count message function which gets called each time we filter. This just helps to see
+    what&#39;s going on - how many records are being shown and the size of the reduced data set.&lt;/p&gt;
 &lt;/article&gt;
 </description>
       <pubDate>Thu, 01 Feb 2018 17:26:27 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/lightning-fast-filtering-in-javascript/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/lightning-fast-filtering-in-javascript/</guid>
     </item>
     <item>
       <title>Accessible Colour Contrast</title>
-      <link>https://chrissmith.xyz/blog/accessible-colour-contrast/</link>
+      <link>https://chrissmith.xyz/blog/2018/accessible-colour-contrast/</link>
       <description>&lt;p&gt;When I started looking at accessibility and using the &lt;a href=&quot;https://www.deque.com/products/axe/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;aXe&lt;/a&gt; accessibility testing tool, one of the first things that it reported was insufficient colour contrast. So, I started looking into it. The page I tested had quite a few different shades of grey (not 50, before anyone else says it) so this seemed like a good place to start.&lt;/p&gt;
 &lt;p&gt;How light can grey text be against a white background, or flipped around, how dark does a grey background need to be for white text to be clear?&lt;/p&gt;
 &lt;p&gt;And the same with black. How dark can grey text go on a black background and how light does a grey background need to be for black text to be easily legible?&lt;/p&gt;
@@ -1362,11 +1350,11 @@ It&#39;s ok to not get your way. It&#39;s important to show that you respect oth
 </description>
       <pubDate>Wed, 10 Jan 2018 19:00:40 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/accessible-colour-contrast/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/accessible-colour-contrast/</guid>
     </item>
     <item>
       <title>What I Learned in 2017</title>
-      <link>https://chrissmith.xyz/blog/what-i-learned-in-2017/</link>
+      <link>https://chrissmith.xyz/blog/2018/what-i-learned-in-2017/</link>
       <description>&lt;p&gt;A bit late but I still feel it&#39;s worth keeping track...&lt;/p&gt;
 &lt;p&gt;2017 has been different to previous years. It wasn&#39;t so much about learning new tech and tools as just getting back to basics and doing things better.&lt;/p&gt;
 &lt;h3&gt;Simplifying Things&lt;/h3&gt;
@@ -1387,7 +1375,7 @@ I&#39;m not sure what 2018 holds. I think I might actually start doing some trai
 </description>
       <pubDate>Wed, 10 Jan 2018 17:17:09 +0000</pubDate>
       <dc:creator>Chris Smith</dc:creator>
-      <guid>https://chrissmith.xyz/blog/what-i-learned-in-2017/</guid>
+      <guid>https://chrissmith.xyz/blog/2018/what-i-learned-in-2017/</guid>
     </item>
     <item>
       <title>Native Browser Controls Rule</title>

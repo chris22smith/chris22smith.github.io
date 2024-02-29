@@ -19,12 +19,12 @@ wpid: "903"
 
 <p>So, the reality, without the trickery, is like this:</p>
 
-<table class="wp-block-table"><tbody><tr><td style="width:2em">0</td><td>Request sent,<br>perceived waiting time begins</td></tr><tr><td style="width:2em">3</td><td>Response returned,<br>UI updated,<br>perceived waiting time ends</td></tr></tbody></table>
+<table class="wp-block-table"><tbody><tr><td style="inline-size:2em">0</td><td>Request sent,<br>perceived waiting time begins</td></tr><tr><td style="inline-size:2em">3</td><td>Response returned,<br>UI updated,<br>perceived waiting time ends</td></tr></tbody></table>
 
 <p>This would mean a perceived waiting time of 3 seconds.</p>
 
 <p>And with the trickery:</p>
 
-<table class="wp-block-table"><tbody><tr><td style="width:2em">0</td><td>Request sent,<br>animation started</td></tr><tr><td style="width:2em">1</td><td>Animation ends,<br>perceived waiting time begins</td></tr><tr><td style="width:2em">3</td><td>Response returned,<br>animation started,<br>perceived waiting time ends</td></tr><tr><td style="width:2em">4</td><td>Animation ends</td></tr></tbody></table>
+<table class="wp-block-table"><tbody><tr><td style="inline-size:2em">0</td><td>Request sent,<br>animation started</td></tr><tr><td style="inline-size:2em">1</td><td>Animation ends,<br>perceived waiting time begins</td></tr><tr><td style="inline-size:2em">3</td><td>Response returned,<br>animation started,<br>perceived waiting time ends</td></tr><tr><td style="inline-size:2em">4</td><td>Animation ends</td></tr></tbody></table>
 
 <p>Even though the time to getting the final bit of data on screen is actually extended to 4 seconds, the perceived waiting time is reduced to 2 seconds.</p>
