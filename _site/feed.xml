@@ -8,6 +8,33 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Please stop using flags to represent languages</title>
+      <link>https://chrissmith.xyz/blog/2024/please-stop-using-flags-to-represent-languages/</link>
+      <description>&lt;p&gt;Yeah, please stop doing that. Stop it. Stop. If you want to know why you should stop it then read on.&lt;/p&gt;
+&lt;h2&gt;The problem&lt;/h2&gt;
+&lt;p&gt;It&#39;s really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not. It&#39;s not a one to one relationship. A country can use multiple languages, like English and French in Canada, and multiple countries can use one language, like German in Germany, Austria and Switzerland. So, it&#39;s a many to many relationship.&lt;/p&gt;
+&lt;p&gt;If you&#39;re a company in Canada and want to show a flag for the English and French languages, what do you show? The Canadian flag doesn&#39;t help. It doesn&#39;t really make sense to show the flag of France for French but is inappropriate to show the British or American flag for English. Canadians don&#39;t consider themselves a different nationality because they use a certain language.&lt;/p&gt;
+&lt;p&gt;If you&#39;re a website user in Austria and want to view the content in German, you don&#39;t want to select the German flag. You&#39;d probably understand what you need to do but it&#39;s not ideal.&lt;/p&gt;
+&lt;h2&gt;The solution&lt;/h2&gt;
+&lt;p&gt;The best option is to display the languages in text in their native language so that the user can always recognise their own language, like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deutsch&lt;/li&gt;
+&lt;li&gt;English&lt;/li&gt;
+&lt;li&gt;español&lt;/li&gt;
+&lt;li&gt;français&lt;/li&gt;
+&lt;li&gt;Português&lt;/li&gt;
+&lt;li&gt;普通话&lt;/li&gt;
+&lt;li&gt;Русский&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With this in mind, don&#39;t hide it behind a label that says &amp;quot;Choose language&amp;quot;, just display the selected or default language and possibly add a globe icon to convey the idea of language or culture.&lt;/p&gt;
+&lt;h2&gt;Same language, different culture&lt;/h2&gt;
+&lt;p&gt;If you use a language picker then consider broadening it out to provide more cultural options. Rather than just offering English you could offer English (UK) and English (USA), or français (France) and français (Canada). By capturing the preferred culture as well as language you can make the best use of the JavaScript &lt;code&gt;Intl&lt;/code&gt; namespace and present details like thousand separators or date format as the user would expect. You know whether they&#39;re more likely to prefer data presented in the Imperial or Metric system. It opens up many options for greater personalisation and a better experience.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 05 Mar 2024 16:05:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/please-stop-using-flags-to-represent-languages/</guid>
+    </item>
+    <item>
       <title>Why should we care about Web Accessibility?</title>
       <link>https://chrissmith.xyz/blog/2024/why-should-we-care-about-web-accessibility/</link>
       <description>&lt;p&gt;In a nutshell, taking care of web accessibility makes our apps...&lt;/p&gt;

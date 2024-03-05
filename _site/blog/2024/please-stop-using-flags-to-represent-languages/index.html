@@ -20,13 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
-    <title>Chris Smith</title>
+    <title>Please stop using flags to represent languages</title>
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="Intro page about Chris Smith, front-end web developer, and his personal website.">
+    <meta name="description" content="It&#39;s really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not.">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,57 +125,52 @@
 </header>
 
     <article>
-      <h1>Chris Smith</h1>
-    <link rel="stylesheet" href="css/home.css">
-<div class="home-intro-layout">
-  <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
-  </div>
-  <div>
-    <h2>Hello World</h2>
-    <p>Hello. I'm Chris, a front-end web developer from the UK. I blog about front end web development and the tech industry generally. I've been making web pages since 1999 and this blog dates back to 2008.</p>
-    <p>You can find me on
-        <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
+      <h1>Please stop using flags to represent languages</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2024-03-05T16:05:00.000Z">5 March 2024</time>
+      </div>      
+    <p>Yeah, please stop doing that. Stop it. Stop. If you want to know why you should stop it then read on.</p>
+<h2>The problem</h2>
+<p>It's really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not. It's not a one to one relationship. A country can use multiple languages, like English and French in Canada, and multiple countries can use one language, like German in Germany, Austria and Switzerland. So, it's a many to many relationship.</p>
+<p>If you're a company in Canada and want to show a flag for the English and French languages, what do you show? The Canadian flag doesn't help. It doesn't really make sense to show the flag of France for French but is inappropriate to show the British or American flag for English. Canadians don't consider themselves a different nationality because they use a certain language.</p>
+<p>If you're a website user in Austria and want to view the content in German, you don't want to select the German flag. You'd probably understand what you need to do but it's not ideal.</p>
+<h2>The solution</h2>
+<p>The best option is to display the languages in text in their native language so that the user can always recognise their own language, like this:</p>
+<ul>
+<li>Deutsch</li>
+<li>English</li>
+<li>español</li>
+<li>français</li>
+<li>Português</li>
+<li>普通话</li>
+<li>Русский</li>
+</ul>
+<p>With this in mind, don't hide it behind a label that says &quot;Choose language&quot;, just display the selected or default language and possibly add a globe icon to convey the idea of language or culture.</p>
+<h2>Same language, different culture</h2>
+<p>If you use a language picker then consider broadening it out to provide more cultural options. Rather than just offering English you could offer English (UK) and English (USA), or français (France) and français (Canada). By capturing the preferred culture as well as language you can make the best use of the JavaScript <code>Intl</code> namespace and present details like thousand separators or date format as the user would expect. You know whether they're more likely to prefer data presented in the Imperial or Metric system. It opens up many options for greater personalisation and a better experience.</p>
+
+    <aside class="about-the-author">
+  <div class="about-layout">
+    <div>
+      <img id="cs-portrait" src="../../../img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" />
+    </div>
+    <div>
+      <h3>About the author</h3>
+      <p>
+        Chris is a senior front-end developer and team lead from the UK, making web pages easy to use, fast and
+        accessible since 1999.
+      </p>
+      <p>
+        Reach out on <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
+        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (Twitter)</a>.
+      </p>
+    </div>
   </div>
-</div>
-<h2>Latest blog posts</h2>
-<ul class="post-list">
-  <!-- 12 most recent blog posts with tag 'tech' -->
-  <li class="featured">
-    <a href="/blog/2024/please-stop-using-flags-to-represent-languages/">Please stop using flags to represent languages</a>
-    <div class="description">It's really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not.</div>
-    <time datetime="2024-03-05">05 Mar 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/why-should-we-care-about-web-accessibility/">Why should we care about Web Accessibility?</a>
-    <div class="description">In a nutshell, taking care of web accessibility makes our apps available to everybody, easier to use, easier to test, easier to sell and safe from negative publicity and lawsuits.</div>
-    <time datetime="2024-01-26">26 Jan 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/learning-typescript/">Learning TypeScript</a>
-    <div class="description">I've started learning TypeScript properly. After a few years of knowing bits and mostly just writing JavaScript in .ts files I decided to make the effort to understand it.</div>
-    <time datetime="2024-01-20">20 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-4-typography/">Rebranding Tips - Part 4 - Typography</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-3-colours/">Rebranding Tips - Part 3 - Colours</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-2-brand-names/">Rebranding Tips - Part 2 - Brand Names</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-1-logos/">Rebranding Tips - Part 1 - Logos</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2023/what-to-validate-on-a-form/">What to Validate on a Form</a>
-    <time datetime="2023-10-27">27 Oct 2023</time>
-  </li><li>
-    <a href="/blog/2023/pronunciation-of-terms-in-web-development/">Pronunciation of Terms in Web Development</a>
-    <time datetime="2023-10-18">18 Oct 2023</time>
-  </li></ul>
-<p><a href="/blog/">Big list of all posts</a></p>
+</aside>
 
     </article>
     <footer>

@@ -153,12 +153,17 @@ header a:hover {
   background-color: #f82;
 }
 
-h1 {
+h1,
+h2 {
   background: linear-gradient(to right, #d07, #07d);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   color: #d07;
   font-family: "Russo One", sans-serif;
+  letter-spacing: 0.025em;
+}
+
+h1 {
   font-size: 3em;
   margin: 0 0 1rem 0;
   text-wrap: balance;
@@ -172,14 +177,6 @@ h1 {
 
 address {
   display: inline;
-}
-
-h2 {
-  background: linear-gradient(to right, #d07, #07d);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  color: #d07;
-  font-family: "Russo One", sans-serif;
 }
 
 p,
