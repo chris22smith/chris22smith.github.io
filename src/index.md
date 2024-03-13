@@ -12,12 +12,13 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
   </div>
   <div>
     <h2>Hello World</h2>
-    <p>Hello. I'm Chris, a front-end web developer from the UK. I blog about front end web development and the tech industry generally. I've been making web pages since 1999 and this blog dates back to 2008.</p>
+    <p>Hello. 👋 I'm Chris, a front-end web developer from the UK. I blog about front end web development, design and user experience. I've been making web pages since 1999 and blogging since 2008.</p>
     <p>You can find me on
         <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
         <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
+        {% include 'kofi-widget.html' %}
   </div>
 </div>
 

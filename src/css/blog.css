@@ -363,3 +363,13 @@ hr {
   white-space: nowrap;
   inline-size: 1px;
 }
+
+.kofi-widget-container {
+  text-align: end;
+}
+
+.btn-container a.kofi-button,
+.btn-container a.kofi-button:visited,
+.btn-container span.kofitext {
+  color: #000 !important;
+}
