@@ -8,6 +8,36 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Not enough or too much data</title>
+      <link>https://chrissmith.xyz/blog/2024/not-enough-or-too-much-data/</link>
+      <description>&lt;p&gt;One of the most common tasks in front end development is requesting data from an endpoint with JavaScript and then using that data to create items in the HTML. A designer will typically think about how the data is presented as cards or list items. A developer will think about iterating through an object array and binding its properties.&lt;/p&gt;
+&lt;p&gt;This is the happy path where we have a nice amount of data to work with but what about the other cases where we don&#39;t have any data or we have more than we can handle? We need to design for these scenarios too.&lt;/p&gt;
+&lt;h2&gt;No data&lt;/h2&gt;
+&lt;p&gt;There are 2 different types of no data. The first is where we successfully hit our endpoint and get a valid response of no data, typically getting back an empty array. This is the empty state and would typically be the starting point in a lot of apps. You start off with nothing before creating items.&lt;/p&gt;
+&lt;p&gt;The other is where the network request fails and we&#39;re not able to get any data or even know if there is any data to get. This is the error state and needs to be handled.&lt;/p&gt;
+&lt;h3&gt;Empty state&lt;/h3&gt;
+&lt;p&gt;If there are no items to display we need to explain that to users in a message and maybe prompt them to create their first item. It&#39;s much better to handle this properly than just leave a blank space where the items would be. This may leave users wondering if it&#39;s just slow to load or broken.&lt;/p&gt;
+&lt;p&gt;If you&#39;re using state, like in React, it&#39;s important to set your initial state value to something different to when no data is returned. For example, you might set the initial state to undefined but an empty array when there&#39;s no data returned. This difference allows you to handle the display logic in the UI and show the relevant content.&lt;/p&gt;
+&lt;h3&gt;Error state&lt;/h3&gt;
+&lt;p&gt;When there&#39;s an error we need to handle it and let the user know. Leaving a blank space and leaving the user in doubt is not helpful. The important thing is to be clear about what has happened and try to provide useful information and, if possible, something to try to resolve the issue. We can use the error code to try to point towards the nature of the problem - not found, permissions, server error. Is there anything they can try now, e.g. logging in again, refreshing or is it a network issue that might mean trying again in a while. Anything we can give is better than silence.&lt;/p&gt;
+&lt;p&gt;With state, it might be worth setting the value to null in this scenario, or possibly passing the error details in so they can be used in the UI.&lt;/p&gt;
+&lt;h2&gt;Too much data (excess)&lt;/h2&gt;
+&lt;p&gt;The opposite of getting no data is getting loads of data and struggling to handle it, either in terms of memory or processing or just it being too much for a user to practically work with. There needs to be a strategy for managing this and sensible limits put in place for how much is downloaded and displayed. It&#39;s often better to bring back less data and keep it fast rather than keep the user waiting.&lt;/p&gt;
+&lt;p&gt;Strategies for handling large volumes of data include paging, windowing and filtering.&lt;/p&gt;
+&lt;h2&gt;Design for all states&lt;/h2&gt;
+&lt;p&gt;So, when you think about bringing in data, think about these 4 scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;data&lt;/li&gt;
+&lt;li&gt;empty&lt;/li&gt;
+&lt;li&gt;error&lt;/li&gt;
+&lt;li&gt;excess&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Thu, 21 Mar 2024 16:30:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/not-enough-or-too-much-data/</guid>
+    </item>
+    <item>
       <title>Please stop using flags to represent languages</title>
       <link>https://chrissmith.xyz/blog/2024/please-stop-using-flags-to-represent-languages/</link>
       <description>&lt;p&gt;Yeah, please stop doing that. Stop it. Stop. If you want to know why you should stop it then read on.&lt;/p&gt;
