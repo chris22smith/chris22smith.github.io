@@ -8,6 +8,25 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>The development burden of user choice</title>
+      <link>https://chrissmith.xyz/blog/2024/the-development-burden-of-user-choice/</link>
+      <description>&lt;p&gt;When developing a site or app there&#39;s often a temptation to give the user a choice, to make something configurable to their preferences. Here are some common examples. Light and dark modes, choosing text sizing or spacing (compact vs expanded), different layouts like a stacked list vs cards.&lt;/p&gt;
+&lt;p&gt;It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it&#39;s not always a good thing.&lt;/p&gt;
+&lt;h2&gt;Maintenance multiplied&lt;/h2&gt;
+&lt;p&gt;Let&#39;s suppose we have light and dark modes. Every time we add a new feature it now needs to be tested in both modes, so that&#39;s 2x testing. If we also have a choice of list or cards, that now needs testing both modes and both layouts, 4x testing. You can see where this is going. Each choice or configurable element is introducing more risk and more development work and it multiplies.&lt;/p&gt;
+&lt;p&gt;If you give a choice of a list or cards, every change you make to an item has to be made in both layouts. That&#39;s double the design, double the coding, double the testing.&lt;/p&gt;
+&lt;p&gt;From a user&#39;s point of view, they will likely make a UI choice and then stick with that choice forever, so they&#39;re no longer appreciating the benefit of the feature even though it is still generating ongoing work for the development team.&lt;/p&gt;
+&lt;p&gt;What was a &amp;quot;nice to have&amp;quot; feature can be quietly adding more and more maintenance work in the background.&lt;/p&gt;
+&lt;p&gt;I&#39;ve fallen foul of this a few times. In my eagerness to please users and create a configurable UI, I&#39;ve given myself problems further down the line. I&#39;ve learnt the hard way that any user UI choice needs to be considered very carefully before being added.&lt;/p&gt;
+&lt;h2&gt;Users adapt&lt;/h2&gt;
+&lt;p&gt;The reality is that users don&#39;t really appreciate the choice as much as you think they might. If you don&#39;t offer light and dark modes then they will use what they&#39;re given and probably won&#39;t even question it.&lt;/p&gt;
+&lt;p&gt;If you change your site design from having a horizontal navigation along the top to a vertical navigation down the side then just be brave and make the change. Don&#39;t try to give them the choice for a while to soften the blow. Removing choice later is worse than just changing things. They will adapt quickly and any negativity about the change will be forgotten within a very short time frame.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 02 Apr 2024 12:30:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/the-development-burden-of-user-choice/</guid>
+    </item>
+    <item>
       <title>Not enough or too much data</title>
       <link>https://chrissmith.xyz/blog/2024/not-enough-or-too-much-data/</link>
       <description>&lt;p&gt;One of the most common tasks in front end development is requesting data from an endpoint with JavaScript and then using that data to create items in the HTML. A designer will typically think about how the data is presented as cards or list items. A developer will think about iterating through an object array and binding its properties.&lt;/p&gt;

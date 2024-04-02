@@ -20,13 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
-    <title>Chris Smith</title>
+    <title>The development burden of user choice</title>
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="Intro page about Chris Smith, front-end web developer, and his personal website.">
+    <meta name="description" content="It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it&#39;s not always a good thing.">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,64 +125,52 @@
 </header>
 
     <article>
-      <h1>Chris Smith</h1>
-    <link rel="stylesheet" href="css/home.css">
-<div class="home-intro-layout">
-  <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
-  </div>
-  <div>
-    <h2>Hello World</h2>
-    <p>Hello. 👋 I'm Chris, a front-end web developer from the UK. I blog about front end web development, design and user experience. I've been making web pages since 1999 and blogging since 2008.</p>
-    <p>You can find me on
-        <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
+      <h1>The development burden of user choice</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2024-04-02T11:30:00.000Z">2 April 2024</time>
+      </div>      
+    <p>When developing a site or app there's often a temptation to give the user a choice, to make something configurable to their preferences. Here are some common examples. Light and dark modes, choosing text sizing or spacing (compact vs expanded), different layouts like a stacked list vs cards.</p>
+<p>It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it's not always a good thing.</p>
+<h2>Maintenance multiplied</h2>
+<p>Let's suppose we have light and dark modes. Every time we add a new feature it now needs to be tested in both modes, so that's 2x testing. If we also have a choice of list or cards, that now needs testing both modes and both layouts, 4x testing. You can see where this is going. Each choice or configurable element is introducing more risk and more development work and it multiplies.</p>
+<p>If you give a choice of a list or cards, every change you make to an item has to be made in both layouts. That's double the design, double the coding, double the testing.</p>
+<p>From a user's point of view, they will likely make a UI choice and then stick with that choice forever, so they're no longer appreciating the benefit of the feature even though it is still generating ongoing work for the development team.</p>
+<p>What was a &quot;nice to have&quot; feature can be quietly adding more and more maintenance work in the background.</p>
+<p>I've fallen foul of this a few times. In my eagerness to please users and create a configurable UI, I've given myself problems further down the line. I've learnt the hard way that any user UI choice needs to be considered very carefully before being added.</p>
+<h2>Users adapt</h2>
+<p>The reality is that users don't really appreciate the choice as much as you think they might. If you don't offer light and dark modes then they will use what they're given and probably won't even question it.</p>
+<p>If you change your site design from having a horizontal navigation along the top to a vertical navigation down the side then just be brave and make the change. Don't try to give them the choice for a while to soften the blow. Removing choice later is worse than just changing things. They will adapt quickly and any negativity about the change will be forgotten within a very short time frame.</p>
+
+    <aside class="about-the-author">
+  <div class="about-layout">
+    <div>
+      <img id="cs-portrait" src="../../../img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" />
+    </div>
+    <div>
+      <h3>About the author</h3>
+      <p>
+        Chris is a senior front-end developer and team lead from the UK, making web pages easy to use, fast and
+        accessible since 1999.
+      </p>
+      <p>
+        Reach out on <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
-        <div class="kofi-widget-container">
+        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (Twitter)</a>.
+      </p>
+      <div class="kofi-widget-container">
   <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
   <script type="text/javascript">
     kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
     kofiwidget2.draw();
   </script>
 </div>
+
+    </div>
   </div>
-</div>
-<h2>Latest blog posts</h2>
-<ul class="post-list">
-  <!-- 12 most recent blog posts with tag 'tech' -->
-  <li class="featured">
-    <a href="/blog/2024/the-development-burden-of-user-choice/">The development burden of user choice</a>
-    <div class="description">It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it's not always a good thing.</div>
-    <time datetime="2024-04-02">02 Apr 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/not-enough-or-too-much-data/">Not enough or too much data</a>
-    <div class="description">One of the most common tasks in front end development is requesting data from an endpoint with JavaScript and then using that data to create items in the HTML</div>
-    <time datetime="2024-03-21">21 Mar 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/please-stop-using-flags-to-represent-languages/">Please stop using flags to represent languages</a>
-    <div class="description">It's really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not.</div>
-    <time datetime="2024-03-05">05 Mar 2024</time>
-  </li><li>
-    <a href="/blog/2024/why-should-we-care-about-web-accessibility/">Why should we care about Web Accessibility?</a>
-    <time datetime="2024-01-26">26 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/learning-typescript/">Learning TypeScript</a>
-    <time datetime="2024-01-20">20 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-4-typography/">Rebranding Tips - Part 4 - Typography</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-3-colours/">Rebranding Tips - Part 3 - Colours</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-2-brand-names/">Rebranding Tips - Part 2 - Brand Names</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-1-logos/">Rebranding Tips - Part 1 - Logos</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li></ul>
-<p><a href="/blog/">Big list of all posts</a></p>
+</aside>
 
     </article>
     <footer>
