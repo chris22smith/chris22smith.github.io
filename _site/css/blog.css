@@ -373,3 +373,27 @@ hr {
 .btn-container span.kofitext {
   color: #000 !important;
 }
+
+/* house plant */
+
+p + p + p:before {
+  background-image: url("/img/plant1.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  block-size: 10em;
+  content: "";
+  display: block;
+  inline-size: 10em;
+  margin: 1em auto;
+}
+
+p + p + p + p:before {
+  content: unset;
+}
+
+@media (min-width: 500px) {
+  p + p + p:before {
+    float: inline-end;
+    margin: 1em;
+  }
+}
