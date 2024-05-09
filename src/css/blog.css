@@ -193,6 +193,10 @@ h1 {
   text-wrap: balance;
 }
 
+p {
+  text-wrap: pretty;
+}
+
 .subhead {
   color: #999;
   margin-block-end: 2rem;
@@ -400,7 +404,7 @@ hr {
 
 /* house plant */
 
-p + p + p:before {
+p + p + p:not(:last-of-type):before {
   background-image: url("/img/plant1.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -411,15 +415,15 @@ p + p + p:before {
   margin: 1em auto;
 }
 
-p + p + p + p:before {
+p + p + p:not(:last-of-type) + p:before {
   content: unset;
 }
 
-p + p + p ~ p + p + p:before {
+p + p + p ~ p + p + p:not(:last-of-type):before {
   background-image: url("/img/plant2.svg");
 }
 
-p + p + p ~ p + p + p ~ p + p + p:before {
+p + p + p ~ p + p + p ~ p + p + p:not(:last-of-type):before {
   background-image: url("/img/plant3.svg");
 }
 
