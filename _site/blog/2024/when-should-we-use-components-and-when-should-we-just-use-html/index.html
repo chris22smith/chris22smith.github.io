@@ -20,13 +20,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
-    <title>Chris Smith</title>
+    <title>When should we use components and when should we just use HTML?</title>
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="Intro page about Chris Smith, front-end web developer, and his personal website.">
+    <meta name="description" content="A lot of UI frameworks or design systems include a component library, a series of components that can be dropped into a page to add functionality">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,64 +125,93 @@
 </header>
 
     <article>
-      <h1>Chris Smith</h1>
-    <link rel="stylesheet" href="css/home.css">
-<div class="home-intro-layout">
-  <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
-  </div>
-  <div>
-    <h2>Hello World</h2>
-    <p>Hello. 👋 I'm Chris, a front-end web developer from the UK. I blog about front end web development, design and user experience. I've been making web pages since 1999 and blogging since 2008.</p>
-    <p>You can find me on
-        <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
+      <h1>When should we use components and when should we just use HTML?</h1>
+      <div class="subhead">
+        <address>
+          <span>by</span>
+          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2024-05-22T16:30:00.000Z">22 May 2024</time>
+      </div>      
+    <p>A lot of UI frameworks or design systems include a component library. This is a series of components that can be dropped into a page to add functionality.</p>
+<p>Sometimes these components are like HTML tags that don't exist yet, e.g. a card, or they add functionality easily without having to write JavaScript, e.g. a number formatter.</p>
+<p>There are some components that don't really seem to add any new functionality but just control styling or the arrangement of inner tags. For example, most component libraries have their own button, which is a standard native HTML button but wrapped in another element, basically a fancy named span. What are the pros and cons of doing this and what are the alternatives? Let's assume we're adding the custom element <code>&lt;my-button&gt;</code>.</p>
+<h2>Pros of using components</h2>
+<ul>
+<li>
+<p>It can come pre-styled. Styling can be baked into the component so either we don't have to think about styling or we have a base style to build upon.</p>
+</li>
+<li>
+<p>It can provide some structure to the inner HTML. If we want our button to optionally have an icon, we can control that it is inserted in the correct position, before or after any text with the right spacing.</p>
+</li>
+<li>
+<p>We can ensure that the markup is semantically correct and accessible.</p>
+</li>
+<li>
+<p>If we want to, we can lock down the styling so that it cannot be overidden. If we use the shadow DOM we can dictate how it looks and that's how it looks.</p>
+</li>
+<li>
+<p>It's easier for a developer to pick up and use, not having to worry about precise internal markup and styling. It's just <code>&lt;my-button&gt;</code> plus a few attributes.</p>
+</li>
+<li>
+<p>If we need to change a component's markup or styling we can do it once and it will update everywhere.</p>
+</li>
+</ul>
+<h2>Cons of using components</h2>
+<ul>
+<li>
+<p>We may be introducing JavaScript and additional complexity where simply writing HTML and CSS would do.</p>
+</li>
+<li>
+<p>It needs JavaScript to work at all. So the markup can't be used in a context that does not have JavaScript, like HTML email, whereas straight HTML is much more resilient. The exception to this is if the component auther has added appropriate fallback markup between the tags.</p>
+</li>
+<li>
+<p>It's slower. Probably not by much but it's more files to transfer, more script to run. If you handle all page elements in this way it will start to add up.</p>
+</li>
+<li>
+<p>If you use a framework it will update at some point and there will be maintenance associated with it.</p>
+</li>
+<li>
+<p>Updating a component can have unexpected knock-on effects if we're not aware of everywhere that it is used. Whilst not repeating code is generally good, reuse means more testing when we make changes.</p>
+</li>
+</ul>
+<h2>Alternatives to components</h2>
+<p>For a simple component like this button example, we could simply use a documentation site or style guide, documenting what HTML and CSS to use.</p>
+<p>We could make code snippets available including the full feature set, e.g. icons before and after button text, and the developer can simply copy the full markup removing the parts that are not needed.</p>
+<p>Probably not a very popular opinion right now but AI tools like GitHub Copilot can help add the right markup. If a similar block has been used before it can be context aware and keep things consistent with other code in your codebase.</p>
+<h2>When to use components</h2>
+<p>There no right or wrong answer here. There are a few considerations.</p>
+<p>It's down to the nature of the project, how much reusability and change we expect and how much we value developer experience compared to user experience.</p>
+<p>There's nothing wrong with using components for consistency and ease of development but we need to be wary not to constantly over-engineer very simple pages that could just be HTML.</p>
+<p>Are the people writing the frontend UI frontend developers who are comfortable writing HTML and CSS, or are they more backend or full-stackers who would prefer picking elements from an existing library?</p>
+<p>Do the page elements require lots of JavaScript to function? If there is no HTML only option this may sway our decision. An encapulated component may be preferable to separate JavaScript which adds functionality.</p>
+
+    <aside class="about-the-author">
+  <div class="about-layout">
+    <div>
+      <img id="cs-portrait" src="../../../img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" />
+    </div>
+    <div>
+      <h3>About the author</h3>
+      <p>
+        Chris is a senior front-end developer and team lead from the UK, making web pages easy to use, fast and
+        accessible since 1999.
+      </p>
+      <p>
+        Reach out on <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
-        <div class="kofi-widget-container">
+        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (Twitter)</a>.
+      </p>
+      <div class="kofi-widget-container">
   <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
   <script type="text/javascript">
     kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
     kofiwidget2.draw();
   </script>
 </div>
+
+    </div>
   </div>
-</div>
-<h2>Latest blog posts</h2>
-<ul class="post-list">
-  <!-- 12 most recent blog posts with tag 'tech' -->
-  <li class="featured">
-    <a href="/blog/2024/when-should-we-use-components-and-when-should-we-just-use-html/">When should we use components and when should we just use HTML?</a>
-    <div class="description">A lot of UI frameworks or design systems include a component library, a series of components that can be dropped into a page to add functionality</div>
-    <time datetime="2024-05-22">22 May 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/the-development-burden-of-user-choice/">The development burden of user choice</a>
-    <div class="description">It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it's not always a good thing.</div>
-    <time datetime="2024-04-02">02 Apr 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/not-enough-or-too-much-data/">Not enough or too much data</a>
-    <div class="description">One of the most common tasks in front end development is requesting data from an endpoint with JavaScript and then using that data to create items in the HTML</div>
-    <time datetime="2024-03-21">21 Mar 2024</time>
-  </li><li>
-    <a href="/blog/2024/please-stop-using-flags-to-represent-languages/">Please stop using flags to represent languages</a>
-    <time datetime="2024-03-05">05 Mar 2024</time>
-  </li><li>
-    <a href="/blog/2024/why-should-we-care-about-web-accessibility/">Why should we care about Web Accessibility?</a>
-    <time datetime="2024-01-26">26 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/learning-typescript/">Learning TypeScript</a>
-    <time datetime="2024-01-20">20 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-4-typography/">Rebranding Tips - Part 4 - Typography</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-3-colours/">Rebranding Tips - Part 3 - Colours</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/rebranding-tips-part-2-brand-names/">Rebranding Tips - Part 2 - Brand Names</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
-  </li></ul>
-<p><a href="/blog/">Big list of all posts</a></p>
+</aside>
 
     </article>
     <footer>
