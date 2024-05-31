@@ -1,5 +1,5 @@
-const cacheStaticName = "static-v37";
-const cacheDynamicName = "dynamic-v27";
+const cacheStaticName = "static-v38";
+const cacheDynamicName = "dynamic-v28";
 
 self.addEventListener("install", (event) => {
   console.log("[Service Worker] Installing service worker...", event);
