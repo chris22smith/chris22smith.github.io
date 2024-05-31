@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Marketing through Facebook, for free</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-01-26T15:08:46.000Z">26 January 2009</time>
-      </div>      
-    <p>Facebook is the fastest growing, most popular networking tool in the UK today. For many users it has made personal emails a thing of the past. How can this be turned into an opportunity for businesses?</p>
+    <main>
+      <article>
+        <h1>Marketing through Facebook, for free</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-01-26T15:08:46.000Z">26 January 2009</time>
+        </div>      
+      <p>Facebook is the fastest growing, most popular networking tool in the UK today. For many users it has made personal emails a thing of the past. How can this be turned into an opportunity for businesses?</p>
 <p><a href="https://www.facebook.com" target="_blank">Facebook</a> is about people, real individuals. If you want to promote a company's goods or services on <a href="https://www.facebook.com" target="_blank">Facebook</a> you can't just set up a business account - you have to do so from an individual's perspective. So, what can you do?</p>
 <p><strong>Create a Profile</strong></p>
 <p>On your profile write about the company / products / services you want to promote. At first you may think that's it's only friends and family who will be reading it but open it up to Friends of Friends and that's a huge network of people potentially taking a look at your profile. This kind of personal endorsement of a company/product/service is very powerful and people will sit up and take much more notice of this than an ad.</p>
@@ -145,17 +156,17 @@
 <p>Don't try to stay anonymous and set up a fake account. <a href="https://www.facebook.com" target="_blank">Facebook</a> is about individuals and transparency. If you set up a fake account it's only a matter of time before it's deleted.</p>
 <p>Don't try to contact lots of individuals using Messages. <a href="https://www.facebook.com" target="_blank">Facebook</a> is very hot on spotting spam and if you send the same message to lots of individuals you will quickly get blocked from sending any.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -198,7 +209,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

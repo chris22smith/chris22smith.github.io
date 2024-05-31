@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>When to Reach for a Framework (and When Not To)</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2019-04-13T08:58:13.000Z">13 April 2019</time>
-      </div>      
-    <p>First off, when I say "framework" in this post's title I just mean any big chunk of stuff that you load up and it does stuff for you. So, could be React, jQuery, Bootstrap, etc.</p>
+    <main>
+      <article>
+        <h1>When to Reach for a Framework (and When Not To)</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2019-04-13T08:58:13.000Z">13 April 2019</time>
+        </div>      
+      <p>First off, when I say "framework" in this post's title I just mean any big chunk of stuff that you load up and it does stuff for you. So, could be React, jQuery, Bootstrap, etc.</p>
 <p>Let's say that a "framework" is made up of 10 bits of functionality. If we use all 10 of them then we're getting great value from it. Conversely, if we're only using one or two we're probably loading up a lot of stuff that is never used - bloat.</p>
 <h3>DIY?</h3>
 <p>If you're only using one or two bits then you'd probably be better off writing these parts yourself, if you can, or finding smaller libraries which do just the parts you need.</p>
@@ -146,17 +157,17 @@
 <h3>Modules FTW</h3>
 <p>The real answer is for frameworks to become modular with a very small core and lots of optional modules. Not NPM which is going back to the "Franken-framework" but a properly connected set of features which can be included or dropped as needed. A bit of an old-school example now but <a href="https://jqueryui.com/download/" target="_blank" rel="noreferrer noopener" aria-label="jQuery UI (opens in a new tab)">jQuery UI</a> does this very well - you can build a custom version of the library to suit your needs.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -199,7 +210,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

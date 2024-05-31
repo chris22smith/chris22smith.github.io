@@ -6,9 +6,9 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
 
 <link rel="stylesheet" href="css/home.css">
 
-<div class="home-intro-layout">
+<div class="home-intro-layout" role="region" aria-label="Introduction">
   <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Chris Smith in summer 2023" height="240" width="240">
+    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Photo of Chris Smith, head shot with field and trees in the background" height="240" width="240">
   </div>
   <div>
     <h2>Hello World</h2>

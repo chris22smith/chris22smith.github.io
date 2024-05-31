@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Beautifying Native Form Elements</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-05-27T17:20:20.000Z">27 May 2016</time>
-      </div>      
-    <p>The various types of form inputs can look very different in different browsers. When it comes to styling them there's only so much we can control. Here are all the form elements (at the time of writing) in one pen. Try viewing it in different browsers to see how they appear.</p>
+    <main>
+      <article>
+        <h1>Beautifying Native Form Elements</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-05-27T17:20:20.000Z">27 May 2016</time>
+        </div>      
+      <p>The various types of form inputs can look very different in different browsers. When it comes to styling them there's only so much we can control. Here are all the form elements (at the time of writing) in one pen. Try viewing it in different browsers to see how they appear.</p>
 <p>[codepen_embed height=500 theme_id=1 slug_hash='pymBWL' user='chris22smith' default_tab='result' animations='run']
 See the Pen &lt;a href='https://codepen.io/chris22smith/pen/pymBWL'&gt;All Form Elements&lt;/a&gt;.
 [/codepen_embed]</p>
@@ -145,17 +156,17 @@ See the Pen &lt;a href='https://codepen.io/chris22smith/pen/PNvvXd'&gt;All Form 
 <p>I don't think there's any hope for keygen but, to be honest, I'd never even heard of it before starting this so I'm not going to lose any sleep.</p>
 <p>Please fork either of these pens and try out your own form styling.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -198,7 +209,8 @@ See the Pen &lt;a href='https://codepen.io/chris22smith/pen/PNvvXd'&gt;All Form 
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

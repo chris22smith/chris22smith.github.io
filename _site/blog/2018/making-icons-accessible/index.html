@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Making Icons Accessible</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-05-16T17:42:34.000Z">16 May 2018</time>
-      </div>      
-    <p>I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do. For a long time I've just slapped my icon down on the page, styled it and added a click event where needed. Job done.</p>
+    <main>
+      <article>
+        <h1>Making Icons Accessible</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-05-16T17:42:34.000Z">16 May 2018</time>
+        </div>      
+      <p>I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do. For a long time I've just slapped my icon down on the page, styled it and added a click event where needed. Job done.</p>
 <p>Having spent some time looking a bit more deeply into accessibility, I can now see that this is not a great approach. There's more to consider. If you can't see it what is it actually doing?</p>
 <p>Here's how I approach using icons now. It may not be the perfect solution but it's certainly a lot closer than most use cases I see. The way I use HTML depends on the use case.</p>
 <p>If the icon is purely decorative - there in addition to text, e.g. a floppy disk icon next to the word &quot;Save&quot; on a button, then I think we can reasonably just forget about it and hide it for non screen users. A simple aria-hidden=&quot;true&quot; attribute should do.</p>
@@ -141,17 +152,17 @@
 <p>Alternatively, if you didn't want to add a span with text inside your button or link, you could use the aria-label attribute to provide a text alternative.</p>
 <p>One little tip. If you use an icon inside a link or button, do not leave whitespace between the outer wrapper element and the inner icon as you may get unwanted effects in the styling, such as underlined spaces either side of your icon. Keep it tight.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -194,7 +205,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Links, link exchanges and strategies</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-09-29T13:45:46.000Z">29 September 2008</time>
-      </div>      
-    <p>There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there. How do you know who or what to believe?</p>
+    <main>
+      <article>
+        <h1>Links, link exchanges and strategies</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-09-29T13:45:46.000Z">29 September 2008</time>
+        </div>      
+      <p>There's so much written about links, linking strategies, link exchanges and so much conflicting advice out there. How do you know who or what to believe?</p>
 <p>Well, it's actually quite simple. Don't listen to anyone, not even me. When it comes to links and what you should do let's see what <a href="https://www.google.co.uk" target="_blank">Google</a> has to say. <a href="https://www.google.co.uk" target="_blank">Google</a> has a <a href="https://www.google.com/webmasters/" target="_blank">Webmasters</a> section of their site which gives clear guidelines of what you should and shouldn't do. Read it. Do it.</p>
 <p>On the subject of links this page is a good place to start: <a href="https://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=66356" target="_blank">Creating a Google-friendly site: Best practices &gt; Link schemes</a>.</p>
 <p>Google's advice: &quot;some webmasters engage in link exchange schemes and build partner pages exclusively for the sake of cross-linking, disregarding the quality of the links, the sources, and the long-term impact it will have on their sites. This is in violation of Google's webmaster guidelines and can negatively impact your site's ranking in search results.&quot;</p>
@@ -150,17 +161,17 @@
 </li>
 </ol>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -203,7 +214,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

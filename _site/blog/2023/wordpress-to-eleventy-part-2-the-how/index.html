@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>WordPress to Eleventy - Part 2, The How</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2023-06-18T14:00:01.000Z">18 June 2023</time>
-      </div>      
-    <p>Having made the decision to migrate my site from <a href="https://en-gb.wordpress.org/">WordPress</a> to <a href="https://www.11ty.dev/">Eleventy</a>, actually getting into it was quite daunting. In fact, I put off doing it for a few months. I'm not going to lie, it was a bit of work, but not too bad. I mean, I'd do it again.</p>
+    <main>
+      <article>
+        <h1>WordPress to Eleventy - Part 2, The How</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2023-06-18T14:00:01.000Z">18 June 2023</time>
+        </div>      
+      <p>Having made the decision to migrate my site from <a href="https://en-gb.wordpress.org/">WordPress</a> to <a href="https://www.11ty.dev/">Eleventy</a>, actually getting into it was quite daunting. In fact, I put off doing it for a few months. I'm not going to lie, it was a bit of work, but not too bad. I mean, I'd do it again.</p>
 <h2>Exporting from WordPress</h2>
 <p>This was probably the easiest part. WordPress makes it nice and easy to get your data out. You can do it through a number of plugins or from the database direct. My hosting plan had a control panel with the MySql database with easy export options. I had a choice of exporting to JSON, XML, CSV, all sorts. Not really knowing what I was doing yet, I grabbed an export in every format, just in case. You only need JSON. It gives you a bit array of post objects.</p>
 <h2>New Eleventy site</h2>
@@ -159,17 +170,17 @@
 <p>So, why did I decide to move from one to the other? I've covered that in a separate post.</p>
 <p><a href="../wordpress-to-eleventy-part-1-the-why">WordPress to Eleventy - Part 1, The Why</a></p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -212,7 +223,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

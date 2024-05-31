@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>What I Learned in 2014: Part 1 - HTML, CSS, Fonts and Images</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2014-12-29T16:05:41.000Z">29 December 2014</time>
-      </div>      
-    <p>I thought I’d take a look back through all the new tech that I’ve learnt in 2014. Most of it is genuinely learning new things from scratch but some is polishing up on things I haven’t used for a while or taking things further than I had before. It’s a much longer list than I had expected so I’ve broken it down into 3 articles. Hopefully, it’ll be handy to come back to in the future when I’ve forgotten it all again.</p>
+    <main>
+      <article>
+        <h1>What I Learned in 2014: Part 1 - HTML, CSS, Fonts and Images</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2014-12-29T16:05:41.000Z">29 December 2014</time>
+        </div>      
+      <p>I thought I’d take a look back through all the new tech that I’ve learnt in 2014. Most of it is genuinely learning new things from scratch but some is polishing up on things I haven’t used for a while or taking things further than I had before. It’s a much longer list than I had expected so I’ve broken it down into 3 articles. Hopefully, it’ll be handy to come back to in the future when I’ve forgotten it all again.</p>
 <h3>HTML</h3>
 I’ve discovered a couple of new things in HTML5. As they’re APIs I uess they’re really Javascript more than HTML. I’ve learned a bit about the Speech API - speech synthesis (turning text content into audio) and speech recognition (turning microphone input into text). It’s still early days and, at the time of writing, only works in Chrome but has some exciting possibilities for both greater accessibility and the ability to use the web without having to look at a page.
 <p>My other discovery this year has been the progress element for adding a progress bar to a page. All browsers make these look very different by default but it’s not too hard to style them for consistency if that’s what you want. Like many other HTML5 elements it has nice fallback syntax for non HTML5 browsers.</p>
@@ -146,17 +157,17 @@ I’ve started making full use of web fonts, particularly Google Fonts. The basi
 I haven’t learned much new with images but have found a couple of handy new techniques. I’ve started using base64 format for smaller images instead of referencing external files. This means putting the file data into a continuous stream of characters in the CSS file instead of using a path another file. This still gets cached as part of the CSS but prevents an additional HTTP request. As base64 format is actually a little bigger in file size than refreencing the image directly it only makes sense for smaller files. For larger files it makes more sense to benefit from the smaller file size at the expense of the extra request. Good CSS editors will also show you a preview of the image as you hover over the base654 code, which is handy as it’s completely unintelligible.
 <p>I’ve started using some very basic SVG. It seems fairly straightforward but I’m still not sure about the sizing and scaling. One for next year.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -199,7 +210,8 @@ I haven’t learned much new with images but have found a couple of handy new te
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

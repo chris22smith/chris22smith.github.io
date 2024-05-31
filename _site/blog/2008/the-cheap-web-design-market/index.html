@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>The Cheap Web Design Market</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-10-28T15:39:38.000Z">28 October 2008</time>
-      </div>      
-    <p>A look at what awaits &quot;cheap web design&quot; seekers.</p>
+    <main>
+      <article>
+        <h1>The Cheap Web Design Market</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-10-28T15:39:38.000Z">28 October 2008</time>
+        </div>      
+      <p>A look at what awaits &quot;cheap web design&quot; seekers.</p>
 <p>I've been running my own web development business since 2004 and in that time I have noticed a few changes to this market. There's far more competition now than there was a few years ago. If you do a Google search for &quot;cheap web design&quot;, &quot;budget web design&quot; or &quot;affordable web design&quot; then there are a lot of web pages out there with those page titles.</p>
 <p>What I find curious is that the web design product or service being offered in this market and the pricing structures don't seem to have moved on since 2004.</p>
 <p>The vast majority of companies competing in this market still seem to be offering very basic static brochure sites. The process here is 1) the client sends text and images to the web designer, 2) the designer puts them in HTML pages, 3) repeat stages 1 and 2. This means that if the client needs to make a change to the website's information - new products, price changes, news updates, etc. - he or she needs to go through the designer who probably charges a modest (if you're lucky) fee for the work.</p>
@@ -139,17 +150,17 @@
 <p>Chris Smith Web Development offers something different. I offer not static web pages but an installation of a content management system. This means that rather than having to come back to me to make changes to your pages you can simply log in and do it yourself, whenever and wherever you want to. No delays and no additional fees. The pricing is based on the template design so there's no limit on how many pages you can have. All you have to do is log in, select the Write Page option, write your content, click on Publish and it's there for the world to see, as many times as you like. You can go back and edit or delete pages, reorder them, change their titles whenever you want to.</p>
 <p>Since 2004 I <em>have</em> moved on and have developed a better product. Static sites, charged for by the page, are no match for the flexibility and freedom offered by a content management system.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -192,7 +203,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

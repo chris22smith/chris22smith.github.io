@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>How to Be a Good Designer</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-04-13T18:32:26.000Z">13 April 2018</time>
-      </div>      
-    <p>I've been designing web sites and user interfaces for quite a long time now and thought I'd try to pass on what I think it takes to be a good designer. This isn't about design techniques or theory, just how to interact with other people.</p>
+    <main>
+      <article>
+        <h1>How to Be a Good Designer</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2018-04-13T18:32:26.000Z">13 April 2018</time>
+        </div>      
+      <p>I've been designing web sites and user interfaces for quite a long time now and thought I'd try to pass on what I think it takes to be a good designer. This isn't about design techniques or theory, just how to interact with other people.</p>
 <p><strong>Rule 1. Don't be a dick.</strong>
 That's really it. Don't let your ego take over. You will inevitably have to present your work to others. Don't presume that because you're the designer that your opinion is worth more than anyone else's. It's a collaborative process and if you start feeling that you know best it will stop you listening to others. This leads neatly into...</p>
 <p><strong>Rule 2. Listen to others.</strong>
@@ -141,17 +152,17 @@ Don't just present a design and let others judge it. Explain clearly all of the 
 <p><strong>Rule 4. You don't have to win.</strong>
 It's ok to not get your way. It's important to show that you respect others' opinions and concede to try their ideas. If their idea really was wrong it will come out over time and the next time they will be more inclined to trust your view.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -194,7 +205,8 @@ It's ok to not get your way. It's important to show that you respect others' opi
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>The Information Hungry Search Box</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-10-27T13:04:32.000Z">27 October 2008</time>
-      </div>      
-    <p>We're all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It's a quick and easy way of finding something without having to drill down through endless options.</p>
+    <main>
+      <article>
+        <h1>The Information Hungry Search Box</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-10-27T13:04:32.000Z">27 October 2008</time>
+        </div>      
+      <p>We're all used to the idea of search boxes on websites. The visitor types in a word or series of words which are then used to filter database results or web pages and return a list of matching results. It's a quick and easy way of finding something without having to drill down through endless options.</p>
 <p>From the web developer's point of view it's a great tool which increases a website's usability. From the web marketer's point of view it can do more.</p>
 <p>By capturing the text typed into the search box the website owner can see what his/her visitors are searching for. This may be for existing products or it could be that they are searching for something not offered. Capturing and analysing this information can help have several benefits.</p>
 <p>It can show where perhaps the wrong keywords are being used. It's unwise to advertise the services of a &quot;Heating Engineer&quot; when everybody is searching for a &quot;plumber&quot;. Finding the right keywords allows you to change your text and tags and bring you closer to your potential customers.</p>
@@ -140,17 +151,17 @@
 <p>To effectively capture this kind of data you need to not only log the text eneterd into the search box but also the time, date and the user's IP address. This additional information allows you to spot any duplicate results - there's a big difference between one person searching for something ten times and ten people searching for something once. The date and time data allows you to see any seasonal trends or possible responses to any other marketing campaigns.</p>
 <p>Even on a small website, which wouldn't normally merit a search box, using this tool can provide you quickly and easily with details of what your website visitors want.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -193,7 +204,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

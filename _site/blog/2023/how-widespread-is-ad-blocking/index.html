@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>How Widespread is Ad Blocking?</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2023-10-09T17:10:00.000Z">9 October 2023</time>
-      </div>      
-    <p>Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It's too much.</p>
+    <main>
+      <article>
+        <h1>How Widespread is Ad Blocking?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2023-10-09T17:10:00.000Z">9 October 2023</time>
+        </div>      
+      <p>Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It's too much.</p>
 <p>After not using them for over a decade, I've now gone back to installing an ad blocker browser extension. And it mostly makes my experience of browsing the internet better. I can focus on the content I want without all the noise.</p>
 <p>Now, whether or not we should use ad blockers, and deny sites this revenue stream, possibly their only revenue stream, is a whole debate in itself. I won't get into all that here. I'm more interested in some other side effects I've discovered from starting to use one again.</p>
 <h2>Different Services</h2>
@@ -146,17 +157,17 @@
 <p>If we know that a high proportion of visitors are blocking our ads, how does our page handle this content being blocked? Do we test this scenario, viewing the page with an ad blocker on? Can we serve alternate content (probably not more ads) if this fails to load? Maybe a message asking users for their support and requesting that they disable the ad blocker for this site?</p>
 <p>Or we could even play hard ball and make loading content conditional on ads loading. I probably wouldn't recommend this route as you're putting your whole site at the mercy of another service's availability.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -199,7 +210,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

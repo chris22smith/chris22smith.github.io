@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Learning to Write Code that is Good Enough</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2020-08-03T17:27:12.000Z">3 August 2020</time>
-      </div>      
-    <p>When you go through school you're always taught to do your best, to try to make the thing you're working on the best it can possibly be. When it comes to software we naturally want the same - we dream of something that's fast, accessible, responsive and free from any bugs. It's just not realistic.</p>
+    <main>
+      <article>
+        <h1>Learning to Write Code that is Good Enough</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2020-08-03T17:27:12.000Z">3 August 2020</time>
+        </div>      
+      <p>When you go through school you're always taught to do your best, to try to make the thing you're working on the best it can possibly be. When it comes to software we naturally want the same - we dream of something that's fast, accessible, responsive and free from any bugs. It's just not realistic.</p>
 <h3>Need for Speed</h3>
 <p>In the real world of web or software development, speed of development is key. We have to deliver functionality by deadlines. This might be because users need it for a fixed date, or maybe you need to move quickly to make the most of a gap in the market, or you need to beat your competitors or keep pace with them - there are many reasons.</p>
 <p>Let's say we're adding a new feature to search and filter product data. We've estimated that the full feature will take 4 weeks. However, we can deliver a very basic search box that just matches all product text within a week. We can actually deliver about three quarters of the value to the end user in one quarter of the time.</p>
@@ -147,17 +158,17 @@
 <p>We don't need polished design or animations until we know the solution is right.</p>
 <p>I'm sure you get the idea. Not perfect, just good enough. Go fast, hit the deadline, listen to feedback and improve it when the pressure's off. If you're releasing something that you feel is risky do it under a 'BETA' or 'Experimental' flag so users know what to expect and it doesn't damage your reputation.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -200,7 +211,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

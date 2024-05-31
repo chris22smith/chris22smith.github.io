@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Setting Default Styling for Custom UI Components</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-01-10T22:24:32.000Z">10 January 2016</time>
-      </div>      
-    <p>I thought I'd share a challenge I'm facing at the moment. A lot of modern JavaScript frameworks like React and Angular encourage building reusable UI components. Using JavaScript and HTML templates seems like an excellent approach to development on larger sites but styling these components can bring a few issues.</p>
+    <main>
+      <article>
+        <h1>Setting Default Styling for Custom UI Components</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-01-10T22:24:32.000Z">10 January 2016</time>
+        </div>      
+      <p>I thought I'd share a challenge I'm facing at the moment. A lot of modern JavaScript frameworks like React and Angular encourage building reusable UI components. Using JavaScript and HTML templates seems like an excellent approach to development on larger sites but styling these components can bring a few issues.</p>
 <p>Browsers can handle styling standard HTML web components, like &lt;select&gt; or &lt;button&gt;. They may vary in how they display these but they all have a default way which can then be overwritten with CSS. This is stored as a kind of internal CSS class in the browser and is easy to overwrite as it has almost zero specificity. Adding an element selector 'select', a class '.picker' or an id '#picker' will easily take control over the styling.</p>
 <p>The problem arises when we create custom components that don't have any default, zero specificity styling. Any styling that we do add when we design components has specificity so we immediately have a fight on our hands for which styling declaration gets control. We need some level of default styling, usually for layout as much as anything, to ensure that the browser cannot just show a mess of HTML elements.</p>
 <p>Here are a few examples of how default component styling could be set and the problems associated with each approach.</p>
@@ -156,17 +167,17 @@ The final option is to set styling using JavaScript, which effectively just inse
 </ol>
 I'm wondering if there may be a solution where we have a default styles object which defines style properties in our existing component JavaScript file. We then check to see what styling is applied using the browser's getComputedStyle() function. For each of the properties we check if a rule is already set, presumably by CSS that is in the &lt;head&gt;, and if not we apply the style from the object. It's almost like required validation for styling. I don't imagine it's going to be very efficient but it may be a way of ensuring a minimum level of styling without restricting additional styling via CSS. Assuming that our script file is at the end of the &lt;body&gt;, by using only the existing resources we could save an additional HTTP request.
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -209,7 +220,8 @@ I'm wondering if there may be a solution where we have a default styles object w
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

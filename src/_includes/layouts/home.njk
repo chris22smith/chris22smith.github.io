@@ -25,10 +25,12 @@ title: Chris Smith
   <body>
     <div class="page">
     {% include 'header.html' %}
-    <article>
-      <h1>{{ title }}</h1>
-    {{ content | safe }}
-    </article>
+    <main>
+      <article>
+        <h1>{{ title }}</h1>
+      {{ content | safe }}
+      </article>
+    </main>
     {% include 'footer.html' %}
     </div>
     <script src="/js/app.js"></script>

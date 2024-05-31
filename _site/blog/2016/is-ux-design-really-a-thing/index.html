@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,36 +129,37 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Is UX Design Really a Thing?</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-11-30T18:30:58.000Z">30 November 2016</time>
-      </div>      
-    <p>This might seem an odd question as user experience (UX for short) obviously has become a thing in the last few years. I think the question I'm really asking is this - isn't UX design just design? The whole UX thing is kind of meaningless. I know, can of worms...</p>
+    <main>
+      <article>
+        <h1>Is UX Design Really a Thing?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-11-30T18:30:58.000Z">30 November 2016</time>
+        </div>      
+      <p>This might seem an odd question as user experience (UX for short) obviously has become a thing in the last few years. I think the question I'm really asking is this - isn't UX design just design? The whole UX thing is kind of meaningless. I know, can of worms...</p>
 <p>In any other industry things get designed but they don't have special titles for designing for the people using the product - that's obvious. I can't imagine that a car designer would be called a driver experience designer. The driver having a positive experience is an inherent part of the design process.</p>
 <p>I guess that the area of UX exists to give some separation from purely aesthetic design. It's about making things easier to use rather than just pretty. I've always seen design as being both. You can't really have one without the other.</p>
 <p>My other UX gripe is that it's not really a hard skill, not like development work. It's something that anyone can do. It's a blend of common sense, empathy, pretending to forget everything you know and a willingness to fight for what's best for the user not the developer. When trying to come up with the best user experience for, say, a form, I feel the easiest approach is simply to build something, use it a few times, see where the pain points are, develop alternatives, repeat.</p>
 <p>It's true that with experience you get it right first time more often but you also get that by imitating the big guns - Amazon, Google, Facebook, BBC. These guys know what they're doing and have usually done the thinking for us.</p>
 <p> </p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -191,7 +202,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

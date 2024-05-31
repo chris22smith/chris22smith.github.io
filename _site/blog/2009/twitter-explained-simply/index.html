@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Twitter explained simply</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-07-03T11:37:27.000Z">3 July 2009</time>
-      </div>      
-    <p><a title="Twitter" href="https://twitter.com" target="_blank">Twitter</a> keeps hitting the headlines at the moment but a lot of people don't seem to understand what it really is and how it differs from other Social Networks. I'll try to explain it in terms more people can understand.</p>
+    <main>
+      <article>
+        <h1>Twitter explained simply</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-07-03T11:37:27.000Z">3 July 2009</time>
+        </div>      
+      <p><a title="Twitter" href="https://twitter.com" target="_blank">Twitter</a> keeps hitting the headlines at the moment but a lot of people don't seem to understand what it really is and how it differs from other Social Networks. I'll try to explain it in terms more people can understand.</p>
 <p><a title="Twitter" href="https://twitter.com" target="_blank">Twitter</a> is basically about posting short messages, much like SMS texting on mobiles. Each post is called a &quot;tweet&quot; and is limited to 140 characters. It can't include other media as such but it can include hyperlinks so anything you wish to share is only a click away.</p>
 <p>It doesn't work like email where you choose the recipients of your messages but more like a subscription service. You put your message out there and it's read by your subscribers. In many ways it's more like broadcasting.</p>
 <p>As a <a title="Twitter" href="https://twitter.com" target="_blank">Twitter</a> user, or &quot;Twitterer&quot;, you have the option to &quot;follow&quot; other users meaning you subscribe to their broadcasts. Each user has lists of &quot;following&quot; - who he/she has chosen to follow and &quot;followers&quot; - who is following him/her.</p>
@@ -140,17 +151,17 @@
 <p>Secondly, when you read someone else's &quot;tweet&quot; there's a facility to &quot;retweet&quot; it, which means instantly broadcasting it to all of your followers. This means that something written by one person can reach millions within a very short time frame. This is what tends to happen with big breaking news stories and this is why it is becoming such a powerful tool for <a title="Internet Marketing" href="https://www.chrissmithmarketing.com" target="_self">marketing</a> and PR.</p>
 <p>If anyone wants to follow me and be alerted to new articles I'm <a href="https://twitter.com/chris22smith" target="_self">@chris22smith</a>.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -193,7 +204,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>When should we use components and when should we just use HTML?</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2024-05-22T16:30:00.000Z">22 May 2024</time>
-      </div>      
-    <p>A lot of UI frameworks or design systems include a component library. This is a series of components that can be dropped into a page to add functionality.</p>
+    <main>
+      <article>
+        <h1>When should we use components and when should we just use HTML?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2024-05-22T16:30:00.000Z">22 May 2024</time>
+        </div>      
+      <p>A lot of UI frameworks or design systems include a component library. This is a series of components that can be dropped into a page to add functionality.</p>
 <p>Sometimes these components are like HTML tags that don't exist yet, e.g. a card, or they add functionality easily without having to write JavaScript, e.g. a number formatter.</p>
 <p>There are some components that don't really seem to add any new functionality but just control styling or the arrangement of inner tags. For example, most component libraries have their own button, which is a standard native HTML button but wrapped in another element, basically a fancy named span. What are the pros and cons of doing this and what are the alternatives? Let's assume we're adding the custom element <code>&lt;my-button&gt;</code>.</p>
 <h2>Pros of using components</h2>
@@ -184,17 +195,17 @@
 <p>Are the people writing the frontend UI frontend developers who are comfortable writing HTML and CSS, or are they more backend or full-stackers who would prefer picking elements from an existing library?</p>
 <p>Do the page elements require lots of JavaScript to function? If there is no HTML only option this may sway our decision. An encapulated component may be preferable to separate JavaScript which adds functionality.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -237,7 +248,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

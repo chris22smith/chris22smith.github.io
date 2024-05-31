@@ -25,16 +25,18 @@ title: Chris Smith
   <body>
     <div class="page">
     {% include 'header.html' %}
-    <article>
-      <h1>{{ title }}</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' }) }}</time>
-      </div>      
-    {{ content | safe }}
-    {% include 'about.html' %}
-    </article>
+    <main>
+      <article>
+        <h1>{{ title }}</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' }) }}</time>
+        </div>      
+      {{ content | safe }}
+      {% include 'about.html' %}
+      </article>
+    </main>
     {% include 'footer.html' %}
     </div>
     <script src="/js/app.js"></script>

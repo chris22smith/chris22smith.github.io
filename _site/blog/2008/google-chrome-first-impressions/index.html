@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Google Chrome - first impressions</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-09-15T12:43:31.000Z">15 September 2008</time>
-      </div>      
-    <p>I thought I'd just give my tuppence worth on <a href="https://www.google.co.uk" target="_blank">Google</a>'s new BETA browser, <a href="https://www.google.com/chrome" target="_blank">Chrome</a>.</p>
+    <main>
+      <article>
+        <h1>Google Chrome - first impressions</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2008-09-15T12:43:31.000Z">15 September 2008</time>
+        </div>      
+      <p>I thought I'd just give my tuppence worth on <a href="https://www.google.co.uk" target="_blank">Google</a>'s new BETA browser, <a href="https://www.google.com/chrome" target="_blank">Chrome</a>.</p>
 <p>When I first heard about <a href="https://www.google.com/chrome" target="_blank">Google's new browser</a> it was with dread. As a web developer an important part of developing any web page or application is testing that it works in the major browsers. Having another browser on the scene, and with a big name like <a href="https://www.google.co.uk" target="_blank">Google</a> behind it you know it's going to have a lot of users, means more testing and increases my chances of having to recode.</p>
 <p>Before downloading it I read <a href="https://www.google.co.uk" target="_blank">Google</a>'s page on <a href="https://www.google.com/chrome/intl/en-GB/why.html?hl=en-GB" target="_blank">Why We Built A Browser</a>. The page itself is titled &quot;A fresh take on the browser&quot;. On it <a href="https://www.google.co.uk" target="_blank">Google</a> openly admits &quot;We've used components from <a href="https://www.apple.com" target="_blank">Apple</a>'s <a href="https://webkit.org/" target="_blank">WebKit</a> and <a href="https://www.mozilla.org" target="_blank">Mozilla</a>'s <a href="https://www.mozilla.com/firefox/" target="_blank">Firefox</a>&quot;. So, maybe not an entirely fresh take then?</p>
 <p>So, on going in, what are my first impressions? Well, first thought, it looks pretty much the same as <a href="https://www.microsoft.com/windows/products/winfamily/ie/default.mspx" target="_blank"><abbr title="Internet Explorer">IE</abbr></a> and <a href="https://www.mozilla.com/firefox/" target="_blank">Firefox</a>. The browsing tabs have been shifted above the address bar, which, as far as I can see, is just a change for change's sake rather than serving any useful purpose - why make people have to get used to something new when the browers they are used to work just fine? Other than that, without delving too deep, I'm struggling to find anything radically different.</p>
@@ -142,17 +153,17 @@
 <p>I don't think that <a href="https://www.google.co.uk" target="_blank">Google</a> will better <a href="https://www.mozilla.com/firefox/" target="_blank">Firefox</a> but they will be able to match it and with their finances and history of buying up big web companies (<a href="https://www.youtube.com" target="_blank">YouTube</a>, <a href="https://www.feedburner.com" target="_blank">FeedBurner</a>) I wouldn't be a bit surprised if we saw Google Firefox before too long.</p>
 <p>See what you think - <a href="https://www.google.com/chrome" target="_blank">Google Chrome</a></p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -195,7 +206,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

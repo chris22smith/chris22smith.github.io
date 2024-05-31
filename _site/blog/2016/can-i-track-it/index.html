@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,35 +129,36 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Can I Track It?</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-03-11T20:19:26.000Z">11 March 2016</time>
-      </div>      
-    <p>I'm not sure what proportion of websites include Google Analytics tracking scripts. I'd be guessing. What I do know is that every site I've worked on in the last decade or so has made use of it.</p>
+    <main>
+      <article>
+        <h1>Can I Track It?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2016-03-11T20:19:26.000Z">11 March 2016</time>
+        </div>      
+      <p>I'm not sure what proportion of websites include Google Analytics tracking scripts. I'd be guessing. What I do know is that every site I've worked on in the last decade or so has made use of it.</p>
 <p>The part I feel more confident about guessing is that only a very small minority use anything beyond the most basic out of the box usage. This was true of me until only a few months ago when I was asked if we could track something other than a simple page load.</p>
 <h3>Tracking Events</h3>
 It seems like a big thing initially but is actually quite straightforward. You just use any JavaScript event, like a click or change, and send some details to identify it off to Google, all asynchronously. Then it shows up in your reporting. <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/events" target="_blank">Analytics for Web Event Tracking</a>
 <p>This almost becomes a consideration in everything you do in JavaScript. Every time a user takes any kind of action in the UI ask if it's worth tracking. It can be incredibly useful for a new site or new feature to understand exactly how things are being used in the wild. I'd say if in doubt, track it, analyse it, then once you know how it works and you're happy with the result stop tracking.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -190,7 +201,8 @@ It seems like a big thing initially but is actually quite straightforward. You j
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

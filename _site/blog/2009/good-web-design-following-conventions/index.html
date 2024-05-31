@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Good web design – following conventions</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-09-16T14:25:03.000Z">16 September 2009</time>
-      </div>      
-    <p>When designing a website an important consideration is its usability and, in particular, the site's visitors being able to understand how to use the site instantly without having to think about it. It should be obvious where to find the login link, the search box, know which text is hyperlinked without having to hover over it, etc.</p>
+    <main>
+      <article>
+        <h1>Good web design – following conventions</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-09-16T14:25:03.000Z">16 September 2009</time>
+        </div>      
+      <p>When designing a website an important consideration is its usability and, in particular, the site's visitors being able to understand how to use the site instantly without having to think about it. It should be obvious where to find the login link, the search box, know which text is hyperlinked without having to hover over it, etc.</p>
 <p>The easiest way to design for people is to give them more of what they already know and understand. Let's take a look at the most popular sites in the UK and see how they do things. We'll look at where various page elements are positioned and how links are styled. This list comes from <a title="alexa.com" href="https://www.alexa.com/topsites/countries/GB" target="_blank">Alexa's Top Sites in the United Kingdom</a>.</p>
 <p><strong>Google (UK/Global)</strong>
 <a title="google.co.uk" href="https://google.co.uk" target="_blank"> google.co.uk</a>/<a title="google.com" href="https://google.com" target="_blank">google.com</a></p>
@@ -208,17 +219,17 @@ ads position - in the right column, after the main content
 links - usually blue or dark blue, sometimes underlined, more commonly not but underlined on hover</p>
 <p>Consciously or not, this is what people are used to seeing on the web so this is what you should follow. Web users will instinctively look for these page elements in these locations and understand links in these colour schemes. Any deviation from &quot;the norm&quot; will increase the chances of uncertainty or confusion.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -261,7 +272,8 @@ links - usually blue or dark blue, sometimes underlined, more commonly not but u
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

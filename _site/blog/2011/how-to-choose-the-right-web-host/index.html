@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>How to choose the right web host</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2011-01-19T17:32:31.000Z">19 January 2011</time>
-      </div>      
-    <p>If you're starting a new site, it's very hard to know how to pick the right web host. Which company should you host your site with? How much should you be spending?</p>
+    <main>
+      <article>
+        <h1>How to choose the right web host</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2011-01-19T17:32:31.000Z">19 January 2011</time>
+        </div>      
+      <p>If you're starting a new site, it's very hard to know how to pick the right web host. Which company should you host your site with? How much should you be spending?</p>
 <p>There are a number of factors to consider.</p>
 <p><strong>Disk Space
 </strong>This is the actual physical space on the server for your files. If you're just using text, screen resolution photos and a few icons and graphics then you really won't need much space at all. A few megabytes will do. If you're going to be working with high resolution photos, audio or video files then you might need more.</p>
@@ -143,17 +154,17 @@ Many web hosts talk about their &quot;uptime&quot; - the proportion of time that
 Finally, it's worth weighing up what kind of support you will receive. If you're new to working with web hosting, managing email accounts or have specialist requirements, e.g. working with ASP.NET, then knowing that there's someone there to help you can be valuable.</p>
 <p>With a new website my advice would be to start small and let the hosting grow with the site. As the numbers of visitors increases you can naturally afford to invest more in your hosting. Only pay for what you need. Start with a small hosting package on a shared server and upgrade as you need to.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -196,7 +207,8 @@ Finally, it's worth weighing up what kind of support you will receive. If you're
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

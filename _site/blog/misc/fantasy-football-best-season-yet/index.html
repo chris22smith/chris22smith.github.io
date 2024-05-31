@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Fantasy Football - Best Season Yet :)</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-05-22T18:00:06.000Z">22 May 2017</time>
-      </div>      
-    <p>The 2016/2017 Premier League season has just finished and so has my season of <a href="https://fantasy.premierleague.com" target="_blank" rel="noopener noreferrer">Fantasy Premier League</a>. After last year being my all time low, with a finishing position of 785,943, this year I've finished 16,876 out of over 4.5 million players. That's in the top 0.4%, which really isn't bad going. I've also won the various mini leagues in which I compete and even won a bit of money. Ker-ching!</p>
+    <main>
+      <article>
+        <h1>Fantasy Football - Best Season Yet :)</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2017-05-22T18:00:06.000Z">22 May 2017</time>
+        </div>      
+      <p>The 2016/2017 Premier League season has just finished and so has my season of <a href="https://fantasy.premierleague.com" target="_blank" rel="noopener noreferrer">Fantasy Premier League</a>. After last year being my all time low, with a finishing position of 785,943, this year I've finished 16,876 out of over 4.5 million players. That's in the top 0.4%, which really isn't bad going. I've also won the various mini leagues in which I compete and even won a bit of money. Ker-ching!</p>
 <p>So, what's been different this year? What have a I learned to propel me up the rankings?</p>
 <p>I think the main difference in the second half of my season was taking notice of the ownership of fantasy assets. In the past I'd always picked the players I'd wanted and not worried about what others were doing. I've come to realise that you can't afford to ignore the market. Getting the right players at the right times affects their value in terms of price rises and drops and your overall team value. It also mitigates risk. If a player is scoring well and well owned then not having him can hurt you and lead to a serious drop in rank. Whereas owning him is less risky. If he does perform you creep up ahead of those who didn't; if he flops it affects a lot of other players too so there's less of a drop.</p>
 <p>This idea of going with the popular pick is also true of the captaincy. It can hurt if a lot of your opponents pick a captain and he delivers a hi score. Go with flow and you'll be ok. It makes sense to keep your big players in line with the game's leaders and take the risks with the fringe players.</p>
@@ -140,17 +151,17 @@
 <p>Here's the story of my season, and of seasons gone by, in stats:
 <a href="https://fantasy.premierleague.com/a/entry/408653/history" target="_blank" rel="noopener noreferrer">https://fantasy.premierleague.com/a/entry/408653/history</a></p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -193,7 +204,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>

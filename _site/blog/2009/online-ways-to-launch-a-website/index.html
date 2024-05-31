@@ -41,7 +41,7 @@
       <span class="visually-hidden">Chris Smith</span>
     </a>
   </div>
-  <div>
+  <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
       target="_blank"
@@ -95,7 +95,11 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
         <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
           fill="currentColor"
@@ -104,7 +108,13 @@
       </svg>
       <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
-    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" title="RSS Feed" class="feed">
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed"
+      class="feed"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -119,19 +129,20 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">Feed</span>
+      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <article>
-      <h1>Online ways to launch a website</h1>
-      <div class="subhead">
-        <address>
-          <span>by</span>
-          <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-03-30T14:27:49.000Z">30 March 2009</time>
-      </div>      
-    <p>In the offline world when you create a new publication, like a brochure or catalog, you need to plan its distribution. You need to get it in front of your potential customers. Online is no different.</p>
+    <main>
+      <article>
+        <h1>Online ways to launch a website</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="2009-03-30T14:27:49.000Z">30 March 2009</time>
+        </div>      
+      <p>In the offline world when you create a new publication, like a brochure or catalog, you need to plan its distribution. You need to get it in front of your potential customers. Online is no different.</p>
 <p>Too many people out there still seem to think that having a website built is the job done. Get a website and then sit back and wait for people to visit it. Wrong. The offline equivalent is having your brochures printed and then leaving them in their boxes. Just building a website is not enough.</p>
 <p>So, what can you do to distribute it and get it in front of your online customers? Here are some simple steps that should help.</p>
 <p>Firstly, you need to change the way you view the website compared with a more traditional printed brochure. The website is not equalivalent to a brochure. Your website in isolation is not worth anything. No, really. It's completely worthless. Without any way to reach it it may as well not be there.</p>
@@ -144,17 +155,17 @@
 <p>Use <strong>social networks</strong>. By posting a link on <a href="https://www.facebook.com" target="_blank">facebook</a> or <a href="https://www.twitter.com" target="_blank">twitter</a> you can reach huge numbers of people in minutes and if they like what they see it can really snowball.</p>
 <p>In short, when you're budgeting for a new website you should add in some budget to launch it or it may not provide you with any value.</p>
 
-    <aside class="about-the-author">
+      <aside class="about-the-author" aria-labelledby="about-heading">
   <div class="about-layout">
     <div>
       <img
         id="cs-portrait"
         src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Chris Smith in summer 2023"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
       />
     </div>
     <div>
-      <h3>About me</h3>
+      <h3 id="about-heading">About me</h3>
       <p>
         I'm Chris Smith, a senior front-end developer and team lead from the UK.
         I've been making web pages easy to use, fast and accessible since 1999.
@@ -197,7 +208,8 @@
   </div>
 </aside>
 
-    </article>
+      </article>
+    </main>
     <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
