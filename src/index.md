@@ -24,20 +24,20 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
 
 ## Latest blog posts
 
-<ul class="post-list">
+<ul class="post-list" itemscope itemtype="https://schema.org/Article">
   <!-- 12 most recent blog posts with tag 'tech' -->
   {% assign techs = collections.tech | sort: 'date' | reverse %}
   {%- for blog in techs limit:3 -%}
   <li class="featured">
-    <a href="{{ blog.url }}">{{ blog.data.title }}</a>
-    <div class="description">{{ blog.data.description }}</div>
-    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}">{{ blog.date | date: "%d %b %Y" }}</time>
+    <a href="{{ blog.url }}" itemprop="name">{{ blog.data.title }}</a>
+    <div class="description" itemprop="description">{{ blog.data.description }}</div>
+    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ blog.date | date: "%d %b %Y" }}</time>
   </li>
   {%- endfor -%}
   {%- for blog in techs offset:3 limit:6 -%}
   <li>
-    <a href="{{ blog.url }}">{{ blog.data.title }}</a>
-    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}">{{ blog.date | date: "%d %b %Y" }}</time>
+    <a href="{{ blog.url }}" itemprop="name">{{ blog.data.title }}</a>
+    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ blog.date | date: "%d %b %Y" }}</time>
   </li>
   {%- endfor -%}
 </ul>

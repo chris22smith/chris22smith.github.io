@@ -34,11 +34,11 @@
   </head>
   <body>
     <div class="page">
-    <header>
+    <a href="#content" class="skip-link">Skip to content</a>
+<header>
   <div>
-    <a href="/" title="Home" class="home">
-      <span>CS</span>
-      <span class="visually-hidden">Chris Smith</span>
+    <a href="/" title="Home" class="home" aria-label="Home">
+      <span aria-hidden="true">CS</span>
     </a>
   </div>
   <div aria-label="Links to social media and RSS feed">
@@ -48,7 +48,9 @@
       rel="noopener noreferrer"
       title="CodePen"
       class="codepen"
+      aria-label="CodePen"
     >
+      <span class="visually-hidden">CodePen (opens in new tab)</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -63,7 +65,6 @@
           d="M502.285 159.704l-234-156c-7.987-4.915-16.511-4.96-24.571 0l-234 156C3.714 163.703 0 170.847 0 177.989v155.999c0 7.143 3.714 14.286 9.715 18.286l234 156.022c7.987 4.915 16.511 4.96 24.571 0l234-156.022c6-3.999 9.715-11.143 9.715-18.286V177.989c-.001-7.142-3.715-14.286-9.716-18.285zM278 63.131l172.286 114.858-76.857 51.429L278 165.703V63.131zm-44 0v102.572l-95.429 63.715-76.857-51.429L234 63.131zM44 219.132l55.143 36.857L44 292.846v-73.714zm190 229.715L61.714 333.989l76.857-51.429L234 346.275v102.572zm22-140.858l-77.715-52 77.715-52 77.715 52-77.715 52zm22 140.858V346.275l95.429-63.715 76.857 51.429L278 448.847zm190-156.001l-55.143-36.857L468 219.132v73.714z"
         />
       </svg>
-      <span class="visually-hidden">CodePen</span>
     </a>
     <a
       href="https://mastodon.social/@chris22smith"
@@ -72,6 +73,7 @@
       title="Mastodon"
       class="mastodon"
     >
+      <span class="visually-hidden">Mastodon (opens in new tab)</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -86,7 +88,6 @@
           d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"
         />
       </svg>
-      <span class="visually-hidden">Mastodon</span>
     </a>
     <a
       href="https://twitter.com/chris22smith/"
@@ -95,6 +96,9 @@
       title="X (formerly Twitter)"
       class="x-twitter"
     >
+      <span class="visually-hidden"
+        >X, formerly Twitter (opens in new tab)</span
+      >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -106,7 +110,6 @@
           d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
         />
       </svg>
-      <span class="visually-hidden">X (formerly Twitter)</span>
     </a>
     <a
       href="/feed.xml"
@@ -115,6 +118,7 @@
       title="RSS Feed"
       class="feed"
     >
+      <span class="visually-hidden">RSS Feed (opens in new tab)</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -129,490 +133,489 @@
           d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
         />
       </svg>
-      <span class="visually-hidden">RSS Feed</span>
     </a>
   </div>
 </header>
 
-    <main>
+    <main id="content">
       <article>
         <h1>Blog posts</h1>
       <p>All 158 of my blog posts, most recent first...</p>
-<ul class="post-list" id="paginated-list">
+<ul class="post-list" id="paginated-list" itemscope itemtype="https://schema.org/Article">
   <!-- blog posts with tag 'tech' sorted by date, most recent first --><li>
-    <a href="/blog/2024/when-should-we-use-components-and-when-should-we-just-use-html/">When should we use components and when should we just use HTML?</a>
-    <time datetime="2024-05-22">22 May 2024</time>
+    <a href="/blog/2024/when-should-we-use-components-and-when-should-we-just-use-html/" itemprop="name">When should we use components and when should we just use HTML?</a>
+    <time datetime="2024-05-22" itemprop="datePublished">22 May 2024</time>
   </li><li>
-    <a href="/blog/2024/the-development-burden-of-user-choice/">The development burden of user choice</a>
-    <time datetime="2024-04-02">02 Apr 2024</time>
+    <a href="/blog/2024/the-development-burden-of-user-choice/" itemprop="name">The development burden of user choice</a>
+    <time datetime="2024-04-02" itemprop="datePublished">02 Apr 2024</time>
   </li><li>
-    <a href="/blog/2024/not-enough-or-too-much-data/">Not enough or too much data</a>
-    <time datetime="2024-03-21">21 Mar 2024</time>
+    <a href="/blog/2024/not-enough-or-too-much-data/" itemprop="name">Not enough or too much data</a>
+    <time datetime="2024-03-21" itemprop="datePublished">21 Mar 2024</time>
   </li><li>
-    <a href="/blog/2024/please-stop-using-flags-to-represent-languages/">Please stop using flags to represent languages</a>
-    <time datetime="2024-03-05">05 Mar 2024</time>
+    <a href="/blog/2024/please-stop-using-flags-to-represent-languages/" itemprop="name">Please stop using flags to represent languages</a>
+    <time datetime="2024-03-05" itemprop="datePublished">05 Mar 2024</time>
   </li><li>
-    <a href="/blog/2024/why-should-we-care-about-web-accessibility/">Why should we care about Web Accessibility?</a>
-    <time datetime="2024-01-26">26 Jan 2024</time>
+    <a href="/blog/2024/why-should-we-care-about-web-accessibility/" itemprop="name">Why should we care about Web Accessibility?</a>
+    <time datetime="2024-01-26" itemprop="datePublished">26 Jan 2024</time>
   </li><li>
-    <a href="/blog/2024/learning-typescript/">Learning TypeScript</a>
-    <time datetime="2024-01-20">20 Jan 2024</time>
+    <a href="/blog/2024/learning-typescript/" itemprop="name">Learning TypeScript</a>
+    <time datetime="2024-01-20" itemprop="datePublished">20 Jan 2024</time>
   </li><li>
-    <a href="/blog/2024/rebranding-tips-part-4-typography/">Rebranding Tips - Part 4 - Typography</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
+    <a href="/blog/2024/rebranding-tips-part-4-typography/" itemprop="name">Rebranding Tips - Part 4 - Typography</a>
+    <time datetime="2024-01-08" itemprop="datePublished">08 Jan 2024</time>
   </li><li>
-    <a href="/blog/2024/rebranding-tips-part-3-colours/">Rebranding Tips - Part 3 - Colours</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
+    <a href="/blog/2024/rebranding-tips-part-3-colours/" itemprop="name">Rebranding Tips - Part 3 - Colours</a>
+    <time datetime="2024-01-08" itemprop="datePublished">08 Jan 2024</time>
   </li><li>
-    <a href="/blog/2024/rebranding-tips-part-2-brand-names/">Rebranding Tips - Part 2 - Brand Names</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
+    <a href="/blog/2024/rebranding-tips-part-2-brand-names/" itemprop="name">Rebranding Tips - Part 2 - Brand Names</a>
+    <time datetime="2024-01-08" itemprop="datePublished">08 Jan 2024</time>
   </li><li>
-    <a href="/blog/2024/rebranding-tips-part-1-logos/">Rebranding Tips - Part 1 - Logos</a>
-    <time datetime="2024-01-08">08 Jan 2024</time>
+    <a href="/blog/2024/rebranding-tips-part-1-logos/" itemprop="name">Rebranding Tips - Part 1 - Logos</a>
+    <time datetime="2024-01-08" itemprop="datePublished">08 Jan 2024</time>
   </li><li>
-    <a href="/blog/2023/what-to-validate-on-a-form/">What to Validate on a Form</a>
-    <time datetime="2023-10-27">27 Oct 2023</time>
+    <a href="/blog/2023/what-to-validate-on-a-form/" itemprop="name">What to Validate on a Form</a>
+    <time datetime="2023-10-27" itemprop="datePublished">27 Oct 2023</time>
   </li><li>
-    <a href="/blog/2023/pronunciation-of-terms-in-web-development/">Pronunciation of Terms in Web Development</a>
-    <time datetime="2023-10-18">18 Oct 2023</time>
+    <a href="/blog/2023/pronunciation-of-terms-in-web-development/" itemprop="name">Pronunciation of Terms in Web Development</a>
+    <time datetime="2023-10-18" itemprop="datePublished">18 Oct 2023</time>
   </li><li>
-    <a href="/blog/2023/how-widespread-is-ad-blocking/">How Widespread is Ad Blocking?</a>
-    <time datetime="2023-10-09">09 Oct 2023</time>
+    <a href="/blog/2023/how-widespread-is-ad-blocking/" itemprop="name">How Widespread is Ad Blocking?</a>
+    <time datetime="2023-10-09" itemprop="datePublished">09 Oct 2023</time>
   </li><li>
-    <a href="/blog/2023/practical-tips-to-reduce-your-carbon-footprint/">Practical Tips to Reduce your Carbon Footprint</a>
-    <time datetime="2023-09-13">13 Sep 2023</time>
+    <a href="/blog/2023/practical-tips-to-reduce-your-carbon-footprint/" itemprop="name">Practical Tips to Reduce your Carbon Footprint</a>
+    <time datetime="2023-09-13" itemprop="datePublished">13 Sep 2023</time>
   </li><li>
-    <a href="/blog/2023/wordpress-to-eleventy-part-2-the-how/">WordPress to Eleventy - Part 2, The How</a>
-    <time datetime="2023-06-18">18 Jun 2023</time>
+    <a href="/blog/2023/wordpress-to-eleventy-part-2-the-how/" itemprop="name">WordPress to Eleventy - Part 2, The How</a>
+    <time datetime="2023-06-18" itemprop="datePublished">18 Jun 2023</time>
   </li><li>
-    <a href="/blog/2023/wordpress-to-eleventy-part-1-the-why/">WordPress to Eleventy - Part 1, The Why</a>
-    <time datetime="2023-06-18">18 Jun 2023</time>
+    <a href="/blog/2023/wordpress-to-eleventy-part-1-the-why/" itemprop="name">WordPress to Eleventy - Part 1, The Why</a>
+    <time datetime="2023-06-18" itemprop="datePublished">18 Jun 2023</time>
   </li><li>
-    <a href="/blog/2023/whod-be-a-front-end-developer/">Who'd be a front end developer?</a>
-    <time datetime="2023-06-15">15 Jun 2023</time>
+    <a href="/blog/2023/whod-be-a-front-end-developer/" itemprop="name">Who'd be a front end developer?</a>
+    <time datetime="2023-06-15" itemprop="datePublished">15 Jun 2023</time>
   </li><li>
-    <a href="/blog/2023/prototyping-in-codepen/">Prototyping in CodePen</a>
-    <time datetime="2023-06-09">09 Jun 2023</time>
+    <a href="/blog/2023/prototyping-in-codepen/" itemprop="name">Prototyping in CodePen</a>
+    <time datetime="2023-06-09" itemprop="datePublished">09 Jun 2023</time>
   </li><li>
-    <a href="/blog/2023/ui-performance-critical-rendering-path-optimisation/">UI Performance - Critical Rendering Path Optimisation</a>
-    <time datetime="2023-04-30">30 Apr 2023</time>
+    <a href="/blog/2023/ui-performance-critical-rendering-path-optimisation/" itemprop="name">UI Performance - Critical Rendering Path Optimisation</a>
+    <time datetime="2023-04-30" itemprop="datePublished">30 Apr 2023</time>
   </li><li>
-    <a href="/blog/2022/carpet-a-front-end-checklist/">CARPET - A Front End Checklist</a>
-    <time datetime="2022-07-08">08 Jul 2022</time>
+    <a href="/blog/2022/carpet-a-front-end-checklist/" itemprop="name">CARPET - A Front End Checklist</a>
+    <time datetime="2022-07-08" itemprop="datePublished">08 Jul 2022</time>
   </li><li>
-    <a href="/blog/2022/how-id-learn-front-end-web-development-now/">How I'd Learn Front End Web Development Now</a>
-    <time datetime="2022-05-27">27 May 2022</time>
+    <a href="/blog/2022/how-id-learn-front-end-web-development-now/" itemprop="name">How I'd Learn Front End Web Development Now</a>
+    <time datetime="2022-05-27" itemprop="datePublished">27 May 2022</time>
   </li><li>
-    <a href="/blog/2021/emmet-write-html-and-css-faster/">Emmet - Write HTML and CSS Faster</a>
-    <time datetime="2021-12-10">10 Dec 2021</time>
+    <a href="/blog/2021/emmet-write-html-and-css-faster/" itemprop="name">Emmet - Write HTML and CSS Faster</a>
+    <time datetime="2021-12-10" itemprop="datePublished">10 Dec 2021</time>
   </li><li>
-    <a href="/blog/2021/progress-indicators/">Progress Indicators</a>
-    <time datetime="2021-05-23">23 May 2021</time>
+    <a href="/blog/2021/progress-indicators/" itemprop="name">Progress Indicators</a>
+    <time datetime="2021-05-23" itemprop="datePublished">23 May 2021</time>
   </li><li>
-    <a href="/blog/2021/new-image-formats-webp-and-avif/">New Image Formats - WebP and AVIF</a>
-    <time datetime="2021-01-27">27 Jan 2021</time>
+    <a href="/blog/2021/new-image-formats-webp-and-avif/" itemprop="name">New Image Formats - WebP and AVIF</a>
+    <time datetime="2021-01-27" itemprop="datePublished">27 Jan 2021</time>
   </li><li>
-    <a href="/blog/2021/transitioning-to-modern-javascript/">Transitioning to Modern JavaScript</a>
-    <time datetime="2021-01-05">05 Jan 2021</time>
+    <a href="/blog/2021/transitioning-to-modern-javascript/" itemprop="name">Transitioning to Modern JavaScript</a>
+    <time datetime="2021-01-05" itemprop="datePublished">05 Jan 2021</time>
   </li><li>
-    <a href="/blog/2020/learning-to-write-code-that-is-good-enough/">Learning to Write Code that is Good Enough</a>
-    <time datetime="2020-08-03">03 Aug 2020</time>
+    <a href="/blog/2020/learning-to-write-code-that-is-good-enough/" itemprop="name">Learning to Write Code that is Good Enough</a>
+    <time datetime="2020-08-03" itemprop="datePublished">03 Aug 2020</time>
   </li><li>
-    <a href="/blog/2020/reasons-for-developers-to-have-a-blog/">Reasons for Developers to Have a Blog</a>
-    <time datetime="2020-07-26">26 Jul 2020</time>
+    <a href="/blog/2020/reasons-for-developers-to-have-a-blog/" itemprop="name">Reasons for Developers to Have a Blog</a>
+    <time datetime="2020-07-26" itemprop="datePublished">26 Jul 2020</time>
   </li><li>
-    <a href="/blog/2020/the-dangers-of-logic-in-css/">The Dangers of Logic in CSS</a>
-    <time datetime="2020-03-26">26 Mar 2020</time>
+    <a href="/blog/2020/the-dangers-of-logic-in-css/" itemprop="name">The Dangers of Logic in CSS</a>
+    <time datetime="2020-03-26" itemprop="datePublished">26 Mar 2020</time>
   </li><li>
-    <a href="/blog/2020/clicking-off-things-to-close-them/">Clicking Off Things to Close Them</a>
-    <time datetime="2020-03-25">25 Mar 2020</time>
+    <a href="/blog/2020/clicking-off-things-to-close-them/" itemprop="name">Clicking Off Things to Close Them</a>
+    <time datetime="2020-03-25" itemprop="datePublished">25 Mar 2020</time>
   </li><li>
-    <a href="/blog/2020/tips-for-working-from-home/">Tips for Working from Home</a>
-    <time datetime="2020-03-15">15 Mar 2020</time>
+    <a href="/blog/2020/tips-for-working-from-home/" itemprop="name">Tips for Working from Home</a>
+    <time datetime="2020-03-15" itemprop="datePublished">15 Mar 2020</time>
   </li><li>
-    <a href="/blog/2020/print-css-tips/">Print CSS Tips</a>
-    <time datetime="2020-01-17">17 Jan 2020</time>
+    <a href="/blog/2020/print-css-tips/" itemprop="name">Print CSS Tips</a>
+    <time datetime="2020-01-17" itemprop="datePublished">17 Jan 2020</time>
   </li><li>
-    <a href="/blog/2019/switching-apis/">Switching APIs</a>
-    <time datetime="2019-10-17">17 Oct 2019</time>
+    <a href="/blog/2019/switching-apis/" itemprop="name">Switching APIs</a>
+    <time datetime="2019-10-17" itemprop="datePublished">17 Oct 2019</time>
   </li><li>
-    <a href="/blog/2019/safer-passwords/">Safer Passwords</a>
-    <time datetime="2019-10-11">11 Oct 2019</time>
+    <a href="/blog/2019/safer-passwords/" itemprop="name">Safer Passwords</a>
+    <time datetime="2019-10-11" itemprop="datePublished">11 Oct 2019</time>
   </li><li>
-    <a href="/blog/2019/edging-out-of-ie-support/">Edging Out of IE Support</a>
-    <time datetime="2019-08-04">04 Aug 2019</time>
+    <a href="/blog/2019/edging-out-of-ie-support/" itemprop="name">Edging Out of IE Support</a>
+    <time datetime="2019-08-04" itemprop="datePublished">04 Aug 2019</time>
   </li><li>
-    <a href="/blog/2019/performance-perception-trick-processing-lists-faster/">Performance Perception Trick: Processing Lists Faster</a>
-    <time datetime="2019-08-03">03 Aug 2019</time>
+    <a href="/blog/2019/performance-perception-trick-processing-lists-faster/" itemprop="name">Performance Perception Trick: Processing Lists Faster</a>
+    <time datetime="2019-08-03" itemprop="datePublished">03 Aug 2019</time>
   </li><li>
-    <a href="/blog/2019/should-designers-be-able-to-code/">Should Designers Be Able to Code?</a>
-    <time datetime="2019-08-02">02 Aug 2019</time>
+    <a href="/blog/2019/should-designers-be-able-to-code/" itemprop="name">Should Designers Be Able to Code?</a>
+    <time datetime="2019-08-02" itemprop="datePublished">02 Aug 2019</time>
   </li><li>
-    <a href="/blog/2019/what-techies-tweet/">What Techies Tweet</a>
-    <time datetime="2019-05-03">03 May 2019</time>
+    <a href="/blog/2019/what-techies-tweet/" itemprop="name">What Techies Tweet</a>
+    <time datetime="2019-05-03" itemprop="datePublished">03 May 2019</time>
   </li><li>
-    <a href="/blog/2019/when-to-reach-for-a-framework-and-when-not-to/">When to Reach for a Framework (and When Not To)</a>
-    <time datetime="2019-04-13">13 Apr 2019</time>
+    <a href="/blog/2019/when-to-reach-for-a-framework-and-when-not-to/" itemprop="name">When to Reach for a Framework (and When Not To)</a>
+    <time datetime="2019-04-13" itemprop="datePublished">13 Apr 2019</time>
   </li><li>
-    <a href="/blog/2019/hiding-ui-elements/">Hiding UI Elements</a>
-    <time datetime="2019-03-29">29 Mar 2019</time>
+    <a href="/blog/2019/hiding-ui-elements/" itemprop="name">Hiding UI Elements</a>
+    <time datetime="2019-03-29" itemprop="datePublished">29 Mar 2019</time>
   </li><li>
-    <a href="/blog/2018/what-i-learned-in-2018/">What I Learned in 2018</a>
-    <time datetime="2018-12-27">27 Dec 2018</time>
+    <a href="/blog/2018/what-i-learned-in-2018/" itemprop="name">What I Learned in 2018</a>
+    <time datetime="2018-12-27" itemprop="datePublished">27 Dec 2018</time>
   </li><li>
-    <a href="/blog/2018/the-dom-diet-and-year-pickers/">The DOM Diet and Year Pickers</a>
-    <time datetime="2018-11-15">15 Nov 2018</time>
+    <a href="/blog/2018/the-dom-diet-and-year-pickers/" itemprop="name">The DOM Diet and Year Pickers</a>
+    <time datetime="2018-11-15" itemprop="datePublished">15 Nov 2018</time>
   </li><li>
-    <a href="/blog/2018/why-are-we-making-web-development-so-hard/">Why Are We Making Web Development So Hard?</a>
-    <time datetime="2018-10-24">24 Oct 2018</time>
+    <a href="/blog/2018/why-are-we-making-web-development-so-hard/" itemprop="name">Why Are We Making Web Development So Hard?</a>
+    <time datetime="2018-10-24" itemprop="datePublished">24 Oct 2018</time>
   </li><li>
-    <a href="/blog/2018/learning-experiences-as-a-freelancer/">Learning Experiences as a Freelancer</a>
-    <time datetime="2018-10-06">06 Oct 2018</time>
+    <a href="/blog/2018/learning-experiences-as-a-freelancer/" itemprop="name">Learning Experiences as a Freelancer</a>
+    <time datetime="2018-10-06" itemprop="datePublished">06 Oct 2018</time>
   </li><li>
-    <a href="/blog/2018/super-fast-tree-view-in-javascript/">Super Fast Tree View in JavaScript</a>
-    <time datetime="2018-10-05">05 Oct 2018</time>
+    <a href="/blog/2018/super-fast-tree-view-in-javascript/" itemprop="name">Super Fast Tree View in JavaScript</a>
+    <time datetime="2018-10-05" itemprop="datePublished">05 Oct 2018</time>
   </li><li>
-    <a href="/blog/2018/stop-linking-to-nowhere/">Stop Linking to Nowhere</a>
-    <time datetime="2018-08-01">01 Aug 2018</time>
+    <a href="/blog/2018/stop-linking-to-nowhere/" itemprop="name">Stop Linking to Nowhere</a>
+    <time datetime="2018-08-01" itemprop="datePublished">01 Aug 2018</time>
   </li><li>
-    <a href="/blog/2018/google-analytics-why-you-should-replace-ids-in-urls/">Google Analytics - Why You Should Replace IDs in URLs</a>
-    <time datetime="2018-08-01">01 Aug 2018</time>
+    <a href="/blog/2018/google-analytics-why-you-should-replace-ids-in-urls/" itemprop="name">Google Analytics - Why You Should Replace IDs in URLs</a>
+    <time datetime="2018-08-01" itemprop="datePublished">01 Aug 2018</time>
   </li><li>
-    <a href="/blog/2018/experiment-font-size-vs-colour-contrast/">Experiment: Font Size vs Colour Contrast</a>
-    <time datetime="2018-07-13">13 Jul 2018</time>
+    <a href="/blog/2018/experiment-font-size-vs-colour-contrast/" itemprop="name">Experiment: Font Size vs Colour Contrast</a>
+    <time datetime="2018-07-13" itemprop="datePublished">13 Jul 2018</time>
   </li><li>
-    <a href="/blog/2018/making-icons-accessible/">Making Icons Accessible</a>
-    <time datetime="2018-05-16">16 May 2018</time>
+    <a href="/blog/2018/making-icons-accessible/" itemprop="name">Making Icons Accessible</a>
+    <time datetime="2018-05-16" itemprop="datePublished">16 May 2018</time>
   </li><li>
-    <a href="/blog/2018/a-new-found-appreciation-for-images-on-the-web/">A New Found Appreciation for Images on the Web</a>
-    <time datetime="2018-05-09">09 May 2018</time>
+    <a href="/blog/2018/a-new-found-appreciation-for-images-on-the-web/" itemprop="name">A New Found Appreciation for Images on the Web</a>
+    <time datetime="2018-05-09" itemprop="datePublished">09 May 2018</time>
   </li><li>
-    <a href="/blog/2018/how-to-be-a-good-designer/">How to Be a Good Designer</a>
-    <time datetime="2018-04-13">13 Apr 2018</time>
+    <a href="/blog/2018/how-to-be-a-good-designer/" itemprop="name">How to Be a Good Designer</a>
+    <time datetime="2018-04-13" itemprop="datePublished">13 Apr 2018</time>
   </li><li>
-    <a href="/blog/2018/lightning-fast-filtering-in-javascript/">Lightning Fast Filtering in JavaScript</a>
-    <time datetime="2018-02-01">01 Feb 2018</time>
+    <a href="/blog/2018/lightning-fast-filtering-in-javascript/" itemprop="name">Lightning Fast Filtering in JavaScript</a>
+    <time datetime="2018-02-01" itemprop="datePublished">01 Feb 2018</time>
   </li><li>
-    <a href="/blog/2018/accessible-colour-contrast/">Accessible Colour Contrast</a>
-    <time datetime="2018-01-10">10 Jan 2018</time>
+    <a href="/blog/2018/accessible-colour-contrast/" itemprop="name">Accessible Colour Contrast</a>
+    <time datetime="2018-01-10" itemprop="datePublished">10 Jan 2018</time>
   </li><li>
-    <a href="/blog/2018/what-i-learned-in-2017/">What I Learned in 2017</a>
-    <time datetime="2018-01-10">10 Jan 2018</time>
+    <a href="/blog/2018/what-i-learned-in-2017/" itemprop="name">What I Learned in 2017</a>
+    <time datetime="2018-01-10" itemprop="datePublished">10 Jan 2018</time>
   </li><li>
-    <a href="/blog/2017/native-browser-controls-rule/">Native Browser Controls Rule</a>
-    <time datetime="2017-11-10">10 Nov 2017</time>
+    <a href="/blog/2017/native-browser-controls-rule/" itemprop="name">Native Browser Controls Rule</a>
+    <time datetime="2017-11-10" itemprop="datePublished">10 Nov 2017</time>
   </li><li>
-    <a href="/blog/2017/do-it-qualifications-hold-value/">Do IT Qualifications Hold Value?</a>
-    <time datetime="2017-10-25">25 Oct 2017</time>
+    <a href="/blog/2017/do-it-qualifications-hold-value/" itemprop="name">Do IT Qualifications Hold Value?</a>
+    <time datetime="2017-10-25" itemprop="datePublished">25 Oct 2017</time>
   </li><li>
-    <a href="/blog/2017/shared-user-accounts/">Shared User Accounts</a>
-    <time datetime="2017-10-22">22 Oct 2017</time>
+    <a href="/blog/2017/shared-user-accounts/" itemprop="name">Shared User Accounts</a>
+    <time datetime="2017-10-22" itemprop="datePublished">22 Oct 2017</time>
   </li><li>
-    <a href="/blog/2017/setting-performance-targets/">Setting Performance Targets</a>
-    <time datetime="2017-10-20">20 Oct 2017</time>
+    <a href="/blog/2017/setting-performance-targets/" itemprop="name">Setting Performance Targets</a>
+    <time datetime="2017-10-20" itemprop="datePublished">20 Oct 2017</time>
   </li><li>
-    <a href="/blog/2017/to-dom-or-not-to-dom/">To DOM or Not to DOM?</a>
-    <time datetime="2017-10-15">15 Oct 2017</time>
+    <a href="/blog/2017/to-dom-or-not-to-dom/" itemprop="name">To DOM or Not to DOM?</a>
+    <time datetime="2017-10-15" itemprop="datePublished">15 Oct 2017</time>
   </li><li>
-    <a href="/blog/2017/speed-usability-and-speed/">Speed, Usability and Speed</a>
-    <time datetime="2017-10-14">14 Oct 2017</time>
+    <a href="/blog/2017/speed-usability-and-speed/" itemprop="name">Speed, Usability and Speed</a>
+    <time datetime="2017-10-14" itemprop="datePublished">14 Oct 2017</time>
   </li><li>
-    <a href="/blog/2017/component-world/">Component World</a>
-    <time datetime="2017-09-09">09 Sep 2017</time>
+    <a href="/blog/2017/component-world/" itemprop="name">Component World</a>
+    <time datetime="2017-09-09" itemprop="datePublished">09 Sep 2017</time>
   </li><li>
-    <a href="/blog/2017/different-conditional-syntaxes-in-javascript/">Different Conditional Syntaxes in JavaScript</a>
-    <time datetime="2017-06-22">22 Jun 2017</time>
+    <a href="/blog/2017/different-conditional-syntaxes-in-javascript/" itemprop="name">Different Conditional Syntaxes in JavaScript</a>
+    <time datetime="2017-06-22" itemprop="datePublished">22 Jun 2017</time>
   </li><li>
-    <a href="/blog/2017/hacking-borders/">Hacking Borders</a>
-    <time datetime="2017-06-21">21 Jun 2017</time>
+    <a href="/blog/2017/hacking-borders/" itemprop="name">Hacking Borders</a>
+    <time datetime="2017-06-21" itemprop="datePublished">21 Jun 2017</time>
   </li><li>
-    <a href="/blog/2017/take-a-tour/">Take a Tour</a>
-    <time datetime="2017-05-24">24 May 2017</time>
+    <a href="/blog/2017/take-a-tour/" itemprop="name">Take a Tour</a>
+    <time datetime="2017-05-24" itemprop="datePublished">24 May 2017</time>
   </li><li>
-    <a href="/blog/2017/why-its-still-worth-learning-bootstrap/">Why It's Still Worth Learning Bootstrap</a>
-    <time datetime="2017-05-19">19 May 2017</time>
+    <a href="/blog/2017/why-its-still-worth-learning-bootstrap/" itemprop="name">Why It's Still Worth Learning Bootstrap</a>
+    <time datetime="2017-05-19" itemprop="datePublished">19 May 2017</time>
   </li><li>
-    <a href="/blog/2017/presenting-multiple-layouts/">Presenting Multiple Layouts</a>
-    <time datetime="2017-05-05">05 May 2017</time>
+    <a href="/blog/2017/presenting-multiple-layouts/" itemprop="name">Presenting Multiple Layouts</a>
+    <time datetime="2017-05-05" itemprop="datePublished">05 May 2017</time>
   </li><li>
-    <a href="/blog/2017/measuring-front-end-performance/">Measuring Front End Performance</a>
-    <time datetime="2017-05-03">03 May 2017</time>
+    <a href="/blog/2017/measuring-front-end-performance/" itemprop="name">Measuring Front End Performance</a>
+    <time datetime="2017-05-03" itemprop="datePublished">03 May 2017</time>
   </li><li>
-    <a href="/blog/2017/front-end-performance-enhancements/">Front End Performance Enhancements</a>
-    <time datetime="2017-05-01">01 May 2017</time>
+    <a href="/blog/2017/front-end-performance-enhancements/" itemprop="name">Front End Performance Enhancements</a>
+    <time datetime="2017-05-01" itemprop="datePublished">01 May 2017</time>
   </li><li>
-    <a href="/blog/2017/precision-level-in-css/">Precision Level in CSS</a>
-    <time datetime="2017-04-28">28 Apr 2017</time>
+    <a href="/blog/2017/precision-level-in-css/" itemprop="name">Precision Level in CSS</a>
+    <time datetime="2017-04-28" itemprop="datePublished">28 Apr 2017</time>
   </li><li>
-    <a href="/blog/2017/the-welsh-language-conundrum/">The Welsh Language Conundrum</a>
-    <time datetime="2017-04-07">07 Apr 2017</time>
+    <a href="/blog/2017/the-welsh-language-conundrum/" itemprop="name">The Welsh Language Conundrum</a>
+    <time datetime="2017-04-07" itemprop="datePublished">07 Apr 2017</time>
   </li><li>
-    <a href="/blog/2017/pet-hate-click-here/">Pet Hate: Click Here</a>
-    <time datetime="2017-03-19">19 Mar 2017</time>
+    <a href="/blog/2017/pet-hate-click-here/" itemprop="name">Pet Hate: Click Here</a>
+    <time datetime="2017-03-19" itemprop="datePublished">19 Mar 2017</time>
   </li><li>
-    <a href="/blog/2017/html-semantics-header-or-sidebar/">HTML Semantics - Header or Sidebar?</a>
-    <time datetime="2017-03-09">09 Mar 2017</time>
+    <a href="/blog/2017/html-semantics-header-or-sidebar/" itemprop="name">HTML Semantics - Header or Sidebar?</a>
+    <time datetime="2017-03-09" itemprop="datePublished">09 Mar 2017</time>
   </li><li>
-    <a href="/blog/2017/reorganising-data-client-side/">Reorganising Data Client Side</a>
-    <time datetime="2017-03-08">08 Mar 2017</time>
+    <a href="/blog/2017/reorganising-data-client-side/" itemprop="name">Reorganising Data Client Side</a>
+    <time datetime="2017-03-08" itemprop="datePublished">08 Mar 2017</time>
   </li><li>
-    <a href="/blog/2017/measuring-readership/">Measuring Readership</a>
-    <time datetime="2017-03-05">05 Mar 2017</time>
+    <a href="/blog/2017/measuring-readership/" itemprop="name">Measuring Readership</a>
+    <time datetime="2017-03-05" itemprop="datePublished">05 Mar 2017</time>
   </li><li>
-    <a href="/blog/2017/talking-to-machines/">Talking to Machines</a>
-    <time datetime="2017-02-10">10 Feb 2017</time>
+    <a href="/blog/2017/talking-to-machines/" itemprop="name">Talking to Machines</a>
+    <time datetime="2017-02-10" itemprop="datePublished">10 Feb 2017</time>
   </li><li>
-    <a href="/blog/2017/learning-the-right-things/">Learning the Right Things</a>
-    <time datetime="2017-02-09">09 Feb 2017</time>
+    <a href="/blog/2017/learning-the-right-things/" itemprop="name">Learning the Right Things</a>
+    <time datetime="2017-02-09" itemprop="datePublished">09 Feb 2017</time>
   </li><li>
-    <a href="/blog/2017/international-box-sizing-awareness-day/">International box-sizing Awareness Day</a>
-    <time datetime="2017-02-01">01 Feb 2017</time>
+    <a href="/blog/2017/international-box-sizing-awareness-day/" itemprop="name">International box-sizing Awareness Day</a>
+    <time datetime="2017-02-01" itemprop="datePublished">01 Feb 2017</time>
   </li><li>
-    <a href="/blog/2017/ios-vs-android-vs-windows-in-2017/">iOS vs Android vs Windows in 2017</a>
-    <time datetime="2017-01-29">29 Jan 2017</time>
+    <a href="/blog/2017/ios-vs-android-vs-windows-in-2017/" itemprop="name">iOS vs Android vs Windows in 2017</a>
+    <time datetime="2017-01-29" itemprop="datePublished">29 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/opera-neon-first-impressions/">Opera Neon - First Impressions</a>
-    <time datetime="2017-01-28">28 Jan 2017</time>
+    <a href="/blog/2017/opera-neon-first-impressions/" itemprop="name">Opera Neon - First Impressions</a>
+    <time datetime="2017-01-28" itemprop="datePublished">28 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/snark-overflow/">Snark Overflow</a>
-    <time datetime="2017-01-27">27 Jan 2017</time>
+    <a href="/blog/2017/snark-overflow/" itemprop="name">Snark Overflow</a>
+    <time datetime="2017-01-27" itemprop="datePublished">27 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/blogging-nostalgia/">Blogging Nostalgia</a>
-    <time datetime="2017-01-18">18 Jan 2017</time>
+    <a href="/blog/2017/blogging-nostalgia/" itemprop="name">Blogging Nostalgia</a>
+    <time datetime="2017-01-18" itemprop="datePublished">18 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/the-end-of-the-eu-cookie-law/">The End of the EU Cookie Law</a>
-    <time datetime="2017-01-15">15 Jan 2017</time>
+    <a href="/blog/2017/the-end-of-the-eu-cookie-law/" itemprop="name">The End of the EU Cookie Law</a>
+    <time datetime="2017-01-15" itemprop="datePublished">15 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/cut-the-crap/">Cut the Crap!</a>
-    <time datetime="2017-01-13">13 Jan 2017</time>
+    <a href="/blog/2017/cut-the-crap/" itemprop="name">Cut the Crap!</a>
+    <time datetime="2017-01-13" itemprop="datePublished">13 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/what-i-learned-in-2016-part-3/">What I Learned in 2016 (Part 3)</a>
-    <time datetime="2017-01-08">08 Jan 2017</time>
+    <a href="/blog/2017/what-i-learned-in-2016-part-3/" itemprop="name">What I Learned in 2016 (Part 3)</a>
+    <time datetime="2017-01-08" itemprop="datePublished">08 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/what-i-learned-in-2016-part-2/">What I Learned in 2016 (Part 2)</a>
-    <time datetime="2017-01-07">07 Jan 2017</time>
+    <a href="/blog/2017/what-i-learned-in-2016-part-2/" itemprop="name">What I Learned in 2016 (Part 2)</a>
+    <time datetime="2017-01-07" itemprop="datePublished">07 Jan 2017</time>
   </li><li>
-    <a href="/blog/2017/what-i-learned-in-2016-part-1/">What I Learned in 2016 (Part 1)</a>
-    <time datetime="2017-01-06">06 Jan 2017</time>
+    <a href="/blog/2017/what-i-learned-in-2016-part-1/" itemprop="name">What I Learned in 2016 (Part 1)</a>
+    <time datetime="2017-01-06" itemprop="datePublished">06 Jan 2017</time>
   </li><li>
-    <a href="/blog/2016/code-neat-freak/">Code Neat Freak</a>
-    <time datetime="2016-12-16">16 Dec 2016</time>
+    <a href="/blog/2016/code-neat-freak/" itemprop="name">Code Neat Freak</a>
+    <time datetime="2016-12-16" itemprop="datePublished">16 Dec 2016</time>
   </li><li>
-    <a href="/blog/2016/is-ux-design-really-a-thing/">Is UX Design Really a Thing?</a>
-    <time datetime="2016-11-30">30 Nov 2016</time>
+    <a href="/blog/2016/is-ux-design-really-a-thing/" itemprop="name">Is UX Design Really a Thing?</a>
+    <time datetime="2016-11-30" itemprop="datePublished">30 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/displaying-options-in-a-ui/">Displaying Options in a UI</a>
-    <time datetime="2016-11-23">23 Nov 2016</time>
+    <a href="/blog/2016/displaying-options-in-a-ui/" itemprop="name">Displaying Options in a UI</a>
+    <time datetime="2016-11-23" itemprop="datePublished">23 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/emotional-response/">Emotional Response</a>
-    <time datetime="2016-11-22">22 Nov 2016</time>
+    <a href="/blog/2016/emotional-response/" itemprop="name">Emotional Response</a>
+    <time datetime="2016-11-22" itemprop="datePublished">22 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/let-off-the-ie9-leash/">Let Off the IE9 Leash</a>
-    <time datetime="2016-11-18">18 Nov 2016</time>
+    <a href="/blog/2016/let-off-the-ie9-leash/" itemprop="name">Let Off the IE9 Leash</a>
+    <time datetime="2016-11-18" itemprop="datePublished">18 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/aa-testing/">A/A Testing</a>
-    <time datetime="2016-11-17">17 Nov 2016</time>
+    <a href="/blog/2016/aa-testing/" itemprop="name">A/A Testing</a>
+    <time datetime="2016-11-17" itemprop="datePublished">17 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/click-fear/">Click Fear</a>
-    <time datetime="2016-11-16">16 Nov 2016</time>
+    <a href="/blog/2016/click-fear/" itemprop="name">Click Fear</a>
+    <time datetime="2016-11-16" itemprop="datePublished">16 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/bad-web-dev/">Bad Web Dev</a>
-    <time datetime="2016-11-04">04 Nov 2016</time>
+    <a href="/blog/2016/bad-web-dev/" itemprop="name">Bad Web Dev</a>
+    <time datetime="2016-11-04" itemprop="datePublished">04 Nov 2016</time>
   </li><li>
-    <a href="/blog/2016/when-to-hide-and-when-to-disable/">When to Hide and When to Disable</a>
-    <time datetime="2016-09-30">30 Sep 2016</time>
+    <a href="/blog/2016/when-to-hide-and-when-to-disable/" itemprop="name">When to Hide and When to Disable</a>
+    <time datetime="2016-09-30" itemprop="datePublished">30 Sep 2016</time>
   </li><li>
-    <a href="/blog/2016/getting-feedback-on-codepen-demos/">Getting Feedback on Codepen Demos</a>
-    <time datetime="2016-05-28">28 May 2016</time>
+    <a href="/blog/2016/getting-feedback-on-codepen-demos/" itemprop="name">Getting Feedback on Codepen Demos</a>
+    <time datetime="2016-05-28" itemprop="datePublished">28 May 2016</time>
   </li><li>
-    <a href="/blog/2016/beautifying-native-form-elements/">Beautifying Native Form Elements</a>
-    <time datetime="2016-05-27">27 May 2016</time>
+    <a href="/blog/2016/beautifying-native-form-elements/" itemprop="name">Beautifying Native Form Elements</a>
+    <time datetime="2016-05-27" itemprop="datePublished">27 May 2016</time>
   </li><li>
-    <a href="/blog/2016/star-wars-mini-projects-in-codepen/">Star Wars Mini Projects in Codepen</a>
-    <time datetime="2016-05-18">18 May 2016</time>
+    <a href="/blog/2016/star-wars-mini-projects-in-codepen/" itemprop="name">Star Wars Mini Projects in Codepen</a>
+    <time datetime="2016-05-18" itemprop="datePublished">18 May 2016</time>
   </li><li>
-    <a href="/blog/2016/web-animations-tips/">Web Animation Tips</a>
-    <time datetime="2016-04-25">25 Apr 2016</time>
+    <a href="/blog/2016/web-animations-tips/" itemprop="name">Web Animation Tips</a>
+    <time datetime="2016-04-25" itemprop="datePublished">25 Apr 2016</time>
   </li><li>
-    <a href="/blog/2016/mother-nature-in-web-design/">Mother Nature in Web Design</a>
-    <time datetime="2016-04-23">23 Apr 2016</time>
+    <a href="/blog/2016/mother-nature-in-web-design/" itemprop="name">Mother Nature in Web Design</a>
+    <time datetime="2016-04-23" itemprop="datePublished">23 Apr 2016</time>
   </li><li>
-    <a href="/blog/2016/lazy-html/">Lazy HTML :(</a>
-    <time datetime="2016-04-21">21 Apr 2016</time>
+    <a href="/blog/2016/lazy-html/" itemprop="name">Lazy HTML :(</a>
+    <time datetime="2016-04-21" itemprop="datePublished">21 Apr 2016</time>
   </li><li>
-    <a href="/blog/2016/ordering-css-properties-a-z/">Ordering CSS Properties A-Z</a>
-    <time datetime="2016-04-20">20 Apr 2016</time>
+    <a href="/blog/2016/ordering-css-properties-a-z/" itemprop="name">Ordering CSS Properties A-Z</a>
+    <time datetime="2016-04-20" itemprop="datePublished">20 Apr 2016</time>
   </li><li>
-    <a href="/blog/2016/what-to-look-for-in-a-web-designer-or-design-agency/">What to Look For in a Web Designer or Design Agency</a>
-    <time datetime="2016-04-06">06 Apr 2016</time>
+    <a href="/blog/2016/what-to-look-for-in-a-web-designer-or-design-agency/" itemprop="name">What to Look For in a Web Designer or Design Agency</a>
+    <time datetime="2016-04-06" itemprop="datePublished">06 Apr 2016</time>
   </li><li>
-    <a href="/blog/2016/can-i-track-it/">Can I Track It?</a>
-    <time datetime="2016-03-11">11 Mar 2016</time>
+    <a href="/blog/2016/can-i-track-it/" itemprop="name">Can I Track It?</a>
+    <time datetime="2016-03-11" itemprop="datePublished">11 Mar 2016</time>
   </li><li>
-    <a href="/blog/2016/google-maps-the-bits-they-dont-tell-you/">Google Maps - The Bits They Don't Tell You</a>
-    <time datetime="2016-03-09">09 Mar 2016</time>
+    <a href="/blog/2016/google-maps-the-bits-they-dont-tell-you/" itemprop="name">Google Maps - The Bits They Don't Tell You</a>
+    <time datetime="2016-03-09" itemprop="datePublished">09 Mar 2016</time>
   </li><li>
-    <a href="/blog/2016/tools-of-the-trade/">Tools of the Trade</a>
-    <time datetime="2016-03-06">06 Mar 2016</time>
+    <a href="/blog/2016/tools-of-the-trade/" itemprop="name">Tools of the Trade</a>
+    <time datetime="2016-03-06" itemprop="datePublished">06 Mar 2016</time>
   </li><li>
-    <a href="/blog/2016/learning-flexbox/">Learning Flexbox</a>
-    <time datetime="2016-03-04">04 Mar 2016</time>
+    <a href="/blog/2016/learning-flexbox/" itemprop="name">Learning Flexbox</a>
+    <time datetime="2016-03-04" itemprop="datePublished">04 Mar 2016</time>
   </li><li>
-    <a href="/blog/2016/loading-more-items/">Loading More Items</a>
-    <time datetime="2016-03-03">03 Mar 2016</time>
+    <a href="/blog/2016/loading-more-items/" itemprop="name">Loading More Items</a>
+    <time datetime="2016-03-03" itemprop="datePublished">03 Mar 2016</time>
   </li><li>
-    <a href="/blog/2016/boosting-web-performance/">Boosting Web Performance</a>
-    <time datetime="2016-02-10">10 Feb 2016</time>
+    <a href="/blog/2016/boosting-web-performance/" itemprop="name">Boosting Web Performance</a>
+    <time datetime="2016-02-10" itemprop="datePublished">10 Feb 2016</time>
   </li><li>
-    <a href="/blog/2016/bilingual-equality-with-a-splash-page/">Bilingual Equality with a Splash Page</a>
-    <time datetime="2016-01-18">18 Jan 2016</time>
+    <a href="/blog/2016/bilingual-equality-with-a-splash-page/" itemprop="name">Bilingual Equality with a Splash Page</a>
+    <time datetime="2016-01-18" itemprop="datePublished">18 Jan 2016</time>
   </li><li>
-    <a href="/blog/2016/website-redesign-chrissmith-xyz/">Website Redesign - chrissmith.xyz</a>
-    <time datetime="2016-01-13">13 Jan 2016</time>
+    <a href="/blog/2016/website-redesign-chrissmith-xyz/" itemprop="name">Website Redesign - chrissmith.xyz</a>
+    <time datetime="2016-01-13" itemprop="datePublished">13 Jan 2016</time>
   </li><li>
-    <a href="/blog/2016/setting-default-styling-for-custom-ui-components/">Setting Default Styling for Custom UI Components</a>
-    <time datetime="2016-01-10">10 Jan 2016</time>
+    <a href="/blog/2016/setting-default-styling-for-custom-ui-components/" itemprop="name">Setting Default Styling for Custom UI Components</a>
+    <time datetime="2016-01-10" itemprop="datePublished">10 Jan 2016</time>
   </li><li>
-    <a href="/blog/2016/what-i-learned-in-2015/">What I Learned in 2015</a>
-    <time datetime="2016-01-02">02 Jan 2016</time>
+    <a href="/blog/2016/what-i-learned-in-2015/" itemprop="name">What I Learned in 2015</a>
+    <time datetime="2016-01-02" itemprop="datePublished">02 Jan 2016</time>
   </li><li>
-    <a href="/blog/2015/easier-colours-in-web-design/">Easier Colours in Web Design</a>
-    <time datetime="2015-12-24">24 Dec 2015</time>
+    <a href="/blog/2015/easier-colours-in-web-design/" itemprop="name">Easier Colours in Web Design</a>
+    <time datetime="2015-12-24" itemprop="datePublished">24 Dec 2015</time>
   </li><li>
-    <a href="/blog/2015/developing-in-codepen/">Developing in Codepen</a>
-    <time datetime="2015-12-13">13 Dec 2015</time>
+    <a href="/blog/2015/developing-in-codepen/" itemprop="name">Developing in Codepen</a>
+    <time datetime="2015-12-13" itemprop="datePublished">13 Dec 2015</time>
   </li><li>
-    <a href="/blog/2015/questioning-the-ux-of-an-app-ive-never-seen/">Questioning the UX of an App I've Never Seen</a>
-    <time datetime="2015-11-26">26 Nov 2015</time>
+    <a href="/blog/2015/questioning-the-ux-of-an-app-ive-never-seen/" itemprop="name">Questioning the UX of an App I've Never Seen</a>
+    <time datetime="2015-11-26" itemprop="datePublished">26 Nov 2015</time>
   </li><li>
-    <a href="/blog/2015/forgotten-passwords/">Forgotten Passwords</a>
-    <time datetime="2015-04-10">10 Apr 2015</time>
+    <a href="/blog/2015/forgotten-passwords/" itemprop="name">Forgotten Passwords</a>
+    <time datetime="2015-04-10" itemprop="datePublished">10 Apr 2015</time>
   </li><li>
-    <a href="/blog/2014/what-i-learned-in-2014-part-3/">What I Learned in 2014: Part 3 - The Best of the Rest</a>
-    <time datetime="2014-12-31">31 Dec 2014</time>
+    <a href="/blog/2014/what-i-learned-in-2014-part-3/" itemprop="name">What I Learned in 2014: Part 3 - The Best of the Rest</a>
+    <time datetime="2014-12-31" itemprop="datePublished">31 Dec 2014</time>
   </li><li>
-    <a href="/blog/2014/what-i-learned-in-2014-part-2/">What I Learned in 2014: Part 2 - Javascript and Google Maps</a>
-    <time datetime="2014-12-30">30 Dec 2014</time>
+    <a href="/blog/2014/what-i-learned-in-2014-part-2/" itemprop="name">What I Learned in 2014: Part 2 - Javascript and Google Maps</a>
+    <time datetime="2014-12-30" itemprop="datePublished">30 Dec 2014</time>
   </li><li>
-    <a href="/blog/2014/what-i-learned-in-2014-part-1/">What I Learned in 2014: Part 1 - HTML, CSS, Fonts and Images</a>
-    <time datetime="2014-12-29">29 Dec 2014</time>
+    <a href="/blog/2014/what-i-learned-in-2014-part-1/" itemprop="name">What I Learned in 2014: Part 1 - HTML, CSS, Fonts and Images</a>
+    <time datetime="2014-12-29" itemprop="datePublished">29 Dec 2014</time>
   </li><li>
-    <a href="/blog/2014/if-facebook-had-a-yawn-button/">If Facebook had a Yawn Button</a>
-    <time datetime="2014-09-28">28 Sep 2014</time>
+    <a href="/blog/2014/if-facebook-had-a-yawn-button/" itemprop="name">If Facebook had a Yawn Button</a>
+    <time datetime="2014-09-28" itemprop="datePublished">28 Sep 2014</time>
   </li><li>
-    <a href="/blog/2014/my-new-website/">My New Website</a>
-    <time datetime="2014-09-07">07 Sep 2014</time>
+    <a href="/blog/2014/my-new-website/" itemprop="name">My New Website</a>
+    <time datetime="2014-09-07" itemprop="datePublished">07 Sep 2014</time>
   </li><li>
-    <a href="/blog/2011/how-to-choose-the-right-web-host/">How to choose the right web host</a>
-    <time datetime="2011-01-19">19 Jan 2011</time>
+    <a href="/blog/2011/how-to-choose-the-right-web-host/" itemprop="name">How to choose the right web host</a>
+    <time datetime="2011-01-19" itemprop="datePublished">19 Jan 2011</time>
   </li><li>
-    <a href="/blog/2010/how-to-pick-the-right-domain-name/">How to pick the right domain name</a>
-    <time datetime="2010-06-22">22 Jun 2010</time>
+    <a href="/blog/2010/how-to-pick-the-right-domain-name/" itemprop="name">How to pick the right domain name</a>
+    <time datetime="2010-06-22" itemprop="datePublished">22 Jun 2010</time>
   </li><li>
-    <a href="/blog/2010/static-website-or-content-management-system/">Static Website or Content Management System?</a>
-    <time datetime="2010-06-02">02 Jun 2010</time>
+    <a href="/blog/2010/static-website-or-content-management-system/" itemprop="name">Static Website or Content Management System?</a>
+    <time datetime="2010-06-02" itemprop="datePublished">02 Jun 2010</time>
   </li><li>
-    <a href="/blog/2009/good-web-design-following-conventions/">Good web design – following conventions</a>
-    <time datetime="2009-09-16">16 Sep 2009</time>
+    <a href="/blog/2009/good-web-design-following-conventions/" itemprop="name">Good web design – following conventions</a>
+    <time datetime="2009-09-16" itemprop="datePublished">16 Sep 2009</time>
   </li><li>
-    <a href="/blog/2009/fighting-spam/">Fighting Spam</a>
-    <time datetime="2009-09-14">14 Sep 2009</time>
+    <a href="/blog/2009/fighting-spam/" itemprop="name">Fighting Spam</a>
+    <time datetime="2009-09-14" itemprop="datePublished">14 Sep 2009</time>
   </li><li>
-    <a href="/blog/2009/twitter-explained-simply/">Twitter explained simply</a>
-    <time datetime="2009-07-03">03 Jul 2009</time>
+    <a href="/blog/2009/twitter-explained-simply/" itemprop="name">Twitter explained simply</a>
+    <time datetime="2009-07-03" itemprop="datePublished">03 Jul 2009</time>
   </li><li>
-    <a href="/blog/2009/web-traffic-through-quality-links/">Web traffic through quality links</a>
-    <time datetime="2009-06-21">21 Jun 2009</time>
+    <a href="/blog/2009/web-traffic-through-quality-links/" itemprop="name">Web traffic through quality links</a>
+    <time datetime="2009-06-21" itemprop="datePublished">21 Jun 2009</time>
   </li><li>
-    <a href="/blog/2009/introducing-dinowebsnet/">Introducing... Dinowebs.net</a>
-    <time datetime="2009-06-21">21 Jun 2009</time>
+    <a href="/blog/2009/introducing-dinowebsnet/" itemprop="name">Introducing... Dinowebs.net</a>
+    <time datetime="2009-06-21" itemprop="datePublished">21 Jun 2009</time>
   </li><li>
-    <a href="/blog/2009/my-website-is-5-today/">My website is 5 today!</a>
-    <time datetime="2009-06-15">15 Jun 2009</time>
+    <a href="/blog/2009/my-website-is-5-today/" itemprop="name">My website is 5 today!</a>
+    <time datetime="2009-06-15" itemprop="datePublished">15 Jun 2009</time>
   </li><li>
-    <a href="/blog/2009/monitoring-your-marketing-with-unique-urls/">Monitoring your Marketing with Unique URLs</a>
-    <time datetime="2009-06-09">09 Jun 2009</time>
+    <a href="/blog/2009/monitoring-your-marketing-with-unique-urls/" itemprop="name">Monitoring your Marketing with Unique URLs</a>
+    <time datetime="2009-06-09" itemprop="datePublished">09 Jun 2009</time>
   </li><li>
-    <a href="/blog/2009/dont-put-all-your-eggs-in-googles-basket/">Don't put all your eggs in Google's basket</a>
-    <time datetime="2009-06-05">05 Jun 2009</time>
+    <a href="/blog/2009/dont-put-all-your-eggs-in-googles-basket/" itemprop="name">Don't put all your eggs in Google's basket</a>
+    <time datetime="2009-06-05" itemprop="datePublished">05 Jun 2009</time>
   </li><li>
-    <a href="/blog/2009/hits-schmits-what-do-web-statistics-really-mean/">Hits schmits! What do Web Statistics really mean?</a>
-    <time datetime="2009-06-04">04 Jun 2009</time>
+    <a href="/blog/2009/hits-schmits-what-do-web-statistics-really-mean/" itemprop="name">Hits schmits! What do Web Statistics really mean?</a>
+    <time datetime="2009-06-04" itemprop="datePublished">04 Jun 2009</time>
   </li><li>
-    <a href="/blog/2009/need-a-website-confused-about-what-you-need-read-this/">Need a website? Confused about what you need? Read this.</a>
-    <time datetime="2009-05-12">12 May 2009</time>
+    <a href="/blog/2009/need-a-website-confused-about-what-you-need-read-this/" itemprop="name">Need a website? Confused about what you need? Read this.</a>
+    <time datetime="2009-05-12" itemprop="datePublished">12 May 2009</time>
   </li><li>
-    <a href="/blog/2009/my-firefox-add-ons/">My Firefox Add-ons</a>
-    <time datetime="2009-05-01">01 May 2009</time>
+    <a href="/blog/2009/my-firefox-add-ons/" itemprop="name">My Firefox Add-ons</a>
+    <time datetime="2009-05-01" itemprop="datePublished">01 May 2009</time>
   </li><li>
-    <a href="/blog/2009/online-ways-to-launch-a-website/">Online ways to launch a website</a>
-    <time datetime="2009-03-30">30 Mar 2009</time>
+    <a href="/blog/2009/online-ways-to-launch-a-website/" itemprop="name">Online ways to launch a website</a>
+    <time datetime="2009-03-30" itemprop="datePublished">30 Mar 2009</time>
   </li><li>
-    <a href="/blog/2009/web-development-its-not-like-building-a-shed/">Web Development - it's not like building a shed</a>
-    <time datetime="2009-02-23">23 Feb 2009</time>
+    <a href="/blog/2009/web-development-its-not-like-building-a-shed/" itemprop="name">Web Development - it's not like building a shed</a>
+    <time datetime="2009-02-23" itemprop="datePublished">23 Feb 2009</time>
   </li><li>
-    <a href="/blog/2009/the-new-language-of-social-media/">The new language of Social Media</a>
-    <time datetime="2009-02-18">18 Feb 2009</time>
+    <a href="/blog/2009/the-new-language-of-social-media/" itemprop="name">The new language of Social Media</a>
+    <time datetime="2009-02-18" itemprop="datePublished">18 Feb 2009</time>
   </li><li>
-    <a href="/blog/2009/marketing-through-facebook-for-free/">Marketing through Facebook, for free</a>
-    <time datetime="2009-01-26">26 Jan 2009</time>
+    <a href="/blog/2009/marketing-through-facebook-for-free/" itemprop="name">Marketing through Facebook, for free</a>
+    <time datetime="2009-01-26" itemprop="datePublished">26 Jan 2009</time>
   </li><li>
-    <a href="/blog/2009/my-software-preferences/">My Software Preferences</a>
-    <time datetime="2009-01-13">13 Jan 2009</time>
+    <a href="/blog/2009/my-software-preferences/" itemprop="name">My Software Preferences</a>
+    <time datetime="2009-01-13" itemprop="datePublished">13 Jan 2009</time>
   </li><li>
-    <a href="/blog/2009/moving-from-print-to-web-in-stages/">Moving from Print to Web in Stages</a>
-    <time datetime="2009-01-09">09 Jan 2009</time>
+    <a href="/blog/2009/moving-from-print-to-web-in-stages/" itemprop="name">Moving from Print to Web in Stages</a>
+    <time datetime="2009-01-09" itemprop="datePublished">09 Jan 2009</time>
   </li><li>
-    <a href="/blog/2009/amazon-design-a-4-year-old-can-use/">Amazon - design a 4 year old can use</a>
-    <time datetime="2009-01-08">08 Jan 2009</time>
+    <a href="/blog/2009/amazon-design-a-4-year-old-can-use/" itemprop="name">Amazon - design a 4 year old can use</a>
+    <time datetime="2009-01-08" itemprop="datePublished">08 Jan 2009</time>
   </li><li>
-    <a href="/blog/2009/googles-personalised-search/">Google's Personalised Search</a>
-    <time datetime="2009-01-06">06 Jan 2009</time>
+    <a href="/blog/2009/googles-personalised-search/" itemprop="name">Google's Personalised Search</a>
+    <time datetime="2009-01-06" itemprop="datePublished">06 Jan 2009</time>
   </li><li>
-    <a href="/blog/2008/i-want-an-ecommerce-site-maybe-you-dont/">I want an ecommerce site. Maybe you don't?</a>
-    <time datetime="2008-12-08">08 Dec 2008</time>
+    <a href="/blog/2008/i-want-an-ecommerce-site-maybe-you-dont/" itemprop="name">I want an ecommerce site. Maybe you don't?</a>
+    <time datetime="2008-12-08" itemprop="datePublished">08 Dec 2008</time>
   </li><li>
-    <a href="/blog/2008/emarketing-award-distinction/">eMarketing Award Distinction :)</a>
-    <time datetime="2008-12-05">05 Dec 2008</time>
+    <a href="/blog/2008/emarketing-award-distinction/" itemprop="name">eMarketing Award Distinction :)</a>
+    <time datetime="2008-12-05" itemprop="datePublished">05 Dec 2008</time>
   </li><li>
-    <a href="/blog/2008/the-cheap-web-design-market/">The Cheap Web Design Market</a>
-    <time datetime="2008-10-28">28 Oct 2008</time>
+    <a href="/blog/2008/the-cheap-web-design-market/" itemprop="name">The Cheap Web Design Market</a>
+    <time datetime="2008-10-28" itemprop="datePublished">28 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/the-information-hungry-search-box/">The Information Hungry Search Box</a>
-    <time datetime="2008-10-27">27 Oct 2008</time>
+    <a href="/blog/2008/the-information-hungry-search-box/" itemprop="name">The Information Hungry Search Box</a>
+    <time datetime="2008-10-27" itemprop="datePublished">27 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/website-design-the-finishing-touches/">Website Design - the Finishing Touches</a>
-    <time datetime="2008-10-15">15 Oct 2008</time>
+    <a href="/blog/2008/website-design-the-finishing-touches/" itemprop="name">Website Design - the Finishing Touches</a>
+    <time datetime="2008-10-15" itemprop="datePublished">15 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/basic-website-integration/">Basic Website Integration</a>
-    <time datetime="2008-10-14">14 Oct 2008</time>
+    <a href="/blog/2008/basic-website-integration/" itemprop="name">Basic Website Integration</a>
+    <time datetime="2008-10-14" itemprop="datePublished">14 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/web-design-for-the-non-designer/">Web Design for the non-designer</a>
-    <time datetime="2008-10-14">14 Oct 2008</time>
+    <a href="/blog/2008/web-design-for-the-non-designer/" itemprop="name">Web Design for the non-designer</a>
+    <time datetime="2008-10-14" itemprop="datePublished">14 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/beat-the-credit-crunch-move-online/">Beat the Credit Crunch - Move Online</a>
-    <time datetime="2008-10-14">14 Oct 2008</time>
+    <a href="/blog/2008/beat-the-credit-crunch-move-online/" itemprop="name">Beat the Credit Crunch - Move Online</a>
+    <time datetime="2008-10-14" itemprop="datePublished">14 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/content-management-systems-explained/">Content Management Systems explained</a>
-    <time datetime="2008-10-07">07 Oct 2008</time>
+    <a href="/blog/2008/content-management-systems-explained/" itemprop="name">Content Management Systems explained</a>
+    <time datetime="2008-10-07" itemprop="datePublished">07 Oct 2008</time>
   </li><li>
-    <a href="/blog/2008/web-design-for-different-screen-sizes/">Web Design for Different Screen Sizes</a>
-    <time datetime="2008-09-30">30 Sep 2008</time>
+    <a href="/blog/2008/web-design-for-different-screen-sizes/" itemprop="name">Web Design for Different Screen Sizes</a>
+    <time datetime="2008-09-30" itemprop="datePublished">30 Sep 2008</time>
   </li><li>
-    <a href="/blog/2008/links-link-exchanges-and-strategies/">Links, link exchanges and strategies</a>
-    <time datetime="2008-09-29">29 Sep 2008</time>
+    <a href="/blog/2008/links-link-exchanges-and-strategies/" itemprop="name">Links, link exchanges and strategies</a>
+    <time datetime="2008-09-29" itemprop="datePublished">29 Sep 2008</time>
   </li><li>
-    <a href="/blog/2008/what-is-a-website-visitor-worth/">What is a website visitor worth?</a>
-    <time datetime="2008-09-23">23 Sep 2008</time>
+    <a href="/blog/2008/what-is-a-website-visitor-worth/" itemprop="name">What is a website visitor worth?</a>
+    <time datetime="2008-09-23" itemprop="datePublished">23 Sep 2008</time>
   </li><li>
-    <a href="/blog/2008/google-chrome-first-impressions/">Google Chrome - first impressions</a>
-    <time datetime="2008-09-15">15 Sep 2008</time>
+    <a href="/blog/2008/google-chrome-first-impressions/" itemprop="name">Google Chrome - first impressions</a>
+    <time datetime="2008-09-15" itemprop="datePublished">15 Sep 2008</time>
   </li><li>
-    <a href="/blog/2008/the-web-20-concept-the-basics/">The Web 2.0 concept - the basics</a>
-    <time datetime="2008-08-11">11 Aug 2008</time>
+    <a href="/blog/2008/the-web-20-concept-the-basics/" itemprop="name">The Web 2.0 concept - the basics</a>
+    <time datetime="2008-08-11" itemprop="datePublished">11 Aug 2008</time>
   </li><li>
-    <a href="/blog/2008/the-cim-emarketing-award/">The CIM eMarketing Award</a>
-    <time datetime="2008-08-07">07 Aug 2008</time>
+    <a href="/blog/2008/the-cim-emarketing-award/" itemprop="name">The CIM eMarketing Award</a>
+    <time datetime="2008-08-07" itemprop="datePublished">07 Aug 2008</time>
   </li></ul>
 <link rel="stylesheet" href="/css/pagination.css">
 <nav class="pagination-container">

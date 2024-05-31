@@ -52,10 +52,21 @@ body {
   position: relative;
 }
 
-@keyframes move {
-  100% {
-    rotate: 360deg;
-  }
+.skip-link {
+  background-color: #fff;
+  display: block;
+  inset: 0 0 auto 0;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.skip-link:not(:focus):not(:active) {
+  block-size: 1px;
+  clip-path: inset(50%);
+  inline-size: 1px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .icon {
@@ -338,7 +349,7 @@ hr {
   rotate: 3deg;
 }
 
-.about-the-author h3 {
+.about-the-author h2 {
   font-family: "Russo One", sans-serif;
   margin-block-start: 0;
 }

@@ -25,13 +25,13 @@ title: Chris Smith
   <body>
     <div class="page">
     {% include 'header.html' %}
-    <main>
-      <article>
-        <h1>{{ title }}</h1>
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">{{ title }}</h1>
         <div class="subhead">
           <address>
             <span>by</span>
-            <a href="https://chrissmith.xyz">Chris Smith</a></address>, <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' }) }}</time>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="{{ page.date.toISOString() }}" itemprop="datePublished">{{ page.date.toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' }) }}</time>
         </div>      
       {{ content | safe }}
       {% include 'about.html' %}
