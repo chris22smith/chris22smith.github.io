@@ -8,6 +8,8 @@ eleventyNavigation:
 
 All {{ collections.tech.length }} of my blog posts, most recent first...
 
+<p id="current-page-label" tabindex="-1"></p>
+
 <ul class="post-list" id="paginated-list" itemscope itemtype="https://schema.org/Article">
   <!-- blog posts with tag 'tech' sorted by date, most recent first -->
   {%- for blog in collections.tech reversed -%}

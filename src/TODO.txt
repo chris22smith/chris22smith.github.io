@@ -3,3 +3,5 @@ full screen layout
 create json list of posts to use with search feature
 
 break CSS down into smaller modules, then compile and minify
+
+media query css - prefers-reduced-motion, prefers-contrast, prefers-reduced-transparency, inverted-colors, etc.

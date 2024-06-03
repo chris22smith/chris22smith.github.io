@@ -10,6 +10,7 @@ const prevButton = document.getElementById("prev-button");
 const paginationLimit = 12;
 const pageCount = Math.ceil(listItems.length / paginationLimit);
 let currentPage = 1;
+const currentPageLabel = document.getElementById("current-page-label");
 
 const disableButton = (button) => {
   button.classList.add("disabled");
@@ -27,7 +28,6 @@ const handlePageButtonsStatus = () => {
   } else {
     enableButton(prevButton);
   }
-
   if (pageCount === currentPage) {
     disableButton(nextButton);
   } else {
@@ -37,9 +37,11 @@ const handlePageButtonsStatus = () => {
 
 const handleActivePageNumber = () => {
   document.querySelectorAll(".pagination-number").forEach((button) => {
+    button.removeAttribute("aria-current");
     button.classList.remove("active");
     const pageIndex = Number(button.getAttribute("page-index"));
     if (pageIndex == currentPage) {
+      button.setAttribute("aria-current", "page");
       button.classList.add("active");
     }
   });
@@ -75,6 +77,8 @@ const setCurrentPage = (pageNum) => {
       item.classList.remove("hidden");
     }
   });
+  currentPageLabel.textContent = `(Page ${currentPage} of ${pageCount})`;
+  currentPageLabel.focus();
 };
 
 window.addEventListener("load", () => {
