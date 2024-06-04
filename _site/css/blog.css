@@ -229,6 +229,10 @@ ul {
   text-align: end;
 }
 
+#current-page-label:focus-visible {
+  outline: none;
+}
+
 .post-list {
   display: flex;
   flex-wrap: wrap;
@@ -244,7 +248,7 @@ ul {
   display: flex;
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   flex-direction: column;
-  flex: 1 1 16rem;
+  flex: 1 1 20rem;
   gap: 1rem;
   justify-content: space-between;
   overflow: hidden;

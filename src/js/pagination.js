@@ -7,10 +7,11 @@ const listItems = paginatedList.querySelectorAll("li");
 const nextButton = document.getElementById("next-button");
 const prevButton = document.getElementById("prev-button");
 
-const paginationLimit = 12;
+const paginationLimit = 10;
 const pageCount = Math.ceil(listItems.length / paginationLimit);
 let currentPage = 1;
 const currentPageLabel = document.getElementById("current-page-label");
+let initialLoad = true;
 
 const disableButton = (button) => {
   button.classList.add("disabled");
@@ -78,7 +79,8 @@ const setCurrentPage = (pageNum) => {
     }
   });
   currentPageLabel.textContent = `(Page ${currentPage} of ${pageCount})`;
-  currentPageLabel.focus();
+  if (!initialLoad) currentPageLabel.focus();
+  initialLoad = false;
 };
 
 window.addEventListener("load", () => {

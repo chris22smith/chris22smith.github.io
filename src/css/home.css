@@ -15,7 +15,7 @@
 }
 
 .post-list > li.featured {
-  flex: 0 0 100%;
+  flex: 1 1 20rem;
 }
 
 .post-list > li.featured .description {
