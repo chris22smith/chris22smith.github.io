@@ -8,6 +8,114 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Making a selected value readable when the text is long</title>
+      <link>https://chrissmith.xyz/blog/2024/making-a-selected-value-readable-when-the-text-is-long/</link>
+      <description>&lt;p&gt;If a select list has options with long text, we can see the text when the options are all shown but not after the selection has been made. Let&#39;s dig into it and look at possible solutions. It&#39;s not too hard but there&#39;s no simple one-size-fits-all answer.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;html,result&quot; data-slug-hash=&quot;oNRwyEZ&quot; data-pen-title=&quot;Make selected value readable #3 Show full text on hover&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/oNRwyEZ&quot;&gt;
+  Make selected value readable #3 Show full text on hover&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2&gt;The problem&lt;/h2&gt;
+&lt;p&gt;The native HTML Select element has two states, &amp;quot;open&amp;quot; showing the options and &amp;quot;closed&amp;quot; showing just its value, the selected option.&lt;/p&gt;
+&lt;h3&gt;Open&lt;/h3&gt;
+&lt;p&gt;In its open or expanded state the user is able to read the option text in full, even if very long. On some devices (typically desktop) the containing box showing the options expands to the width of its contents. If the text width is greater than the device width then it will get cut off but it&#39;s improbable that anyone would be writing this much in an option. On other devices (typically mobile) the text is allowed to wrap so is always readable in full.&lt;/p&gt;
+&lt;h3&gt;Closed&lt;/h3&gt;
+&lt;p&gt;In its closed or collapsed state the text is contained within the Select element and only the portion of the text that fits the element&#39;s width is displayed, the rest is cut off.&lt;/p&gt;
+&lt;p&gt;This is not a problem for screen reader users as the text is read in full. It&#39;s a screen display issue.&lt;/p&gt;
+&lt;p&gt;If the user needs to read the full text they are able to open the Select and view the selected option with full text again but this is not possible when the element is read-only or disabled.&lt;/p&gt;
+&lt;h2&gt;Solutions&lt;/h2&gt;
+&lt;p&gt;There are a few possible solutions. Which one works better will depend on your feature support and design.&lt;/p&gt;
+&lt;h3&gt;#1 Allow wrapping&lt;/h3&gt;
+&lt;p&gt;We can change the appearance of the select so that its text is allowed to wrap. This solution is CSS only and doesn&#39;t require any JavaScript.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;css,result&quot; data-slug-hash=&quot;rNgwJVE&quot; data-pen-title=&quot;Make selected value readable #1 Allow wrapping&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/rNgwJVE&quot;&gt;
+  Make selected value readable #1 Allow wrapping&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;select {
+  appearance: none;
+  display: block;
+  max-width: 100%;
+  white-space: wrap;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;First we add &lt;code&gt;appearance: none&lt;/code&gt; to remove the default browser agent styling. Unfortunately this also loses the down arrow or caret so we would need to put that back in with CSS. Changing the appearance of the select element does not affect the appearance of the child options.&lt;/p&gt;
+&lt;p&gt;Adding &lt;code&gt;display: block&lt;/code&gt; and &lt;code&gt;max-width: 100%&lt;/code&gt; ensures that the height can vary but the width is constrained so it scales vertically. Finally, adding &lt;code&gt;white-space: wrap&lt;/code&gt; allows the text to wrap onto a new line as needed.&lt;/p&gt;
+&lt;p&gt;This ensures that we can always read the selected text. The possible down side is that the select can now have variable height depending on how many lines of text there are, which may cause alignment issues and layout shift. It&#39;s generally good practice with forms to stack the controls so this may not be a problem but if you were to use this select in a header with fixed height then it would not work.&lt;/p&gt;
+&lt;h3&gt;#2 Show the selected option in a separate element&lt;/h3&gt;
+&lt;p&gt;We can stop trying to show the selected value text in the select element and show it in another element instead. We use CSS to make the select so small it doesn&#39;t show the text and then use JavaScript to copy its value to another element.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;js,result&quot; data-slug-hash=&quot;wvbempv&quot; data-pen-title=&quot;Make selected value readable #2 Show in a separate element&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/wvbempv&quot;&gt;
+  Make selected value readable #2 Show in a separate element&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;We can make the select tiny, appearing more like a button, like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;select {
+  max-width: 1rem;
+  padding: 0 .5rem;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This select button can then sit on its own or along side the label.&lt;/p&gt;
+&lt;p&gt;It may be preferable to use &lt;code&gt;appearance: none&lt;/code&gt; and set everything expicitly for greater cross-browser consistency and to prevent any unexpected results as the default agent&#39;s appearance may change slightly over time.&lt;/p&gt;
+&lt;p&gt;We add an output element immediately after the select and use JavaScript to set its value.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const selects = [...document.querySelectorAll(&amp;quot;select&amp;quot;)];
+
+const setOutputValue = (event) =&amp;gt; {
+  const output = event.target.nextElementSibling;
+  if (output &amp;amp;&amp;amp; output.tagName === &amp;quot;OUTPUT&amp;quot;) {
+    output.value = event.target.value;
+  }
+};
+
+selects.forEach(s =&amp;gt; {
+  s.addEventListener(&amp;quot;change&amp;quot;, setOutputValue);
+  const output = s.nextElementSibling;
+  if (output &amp;amp;&amp;amp; output.tagName === &amp;quot;OUTPUT&amp;quot;) {
+    output.value = s.value;
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The possible down side with this solution is that the pattern is unfamiliar. It may not be immediately obvious how it works. The output is also of variable height so may cause alignment issues or layout shifts.&lt;/p&gt;
+&lt;h3&gt;#3 Show the full text on hover&lt;/h3&gt;
+&lt;p&gt;This is very similar to the previous solution in that we create a separate output element to show the full text but this time we only show it when the select element is hovered.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;css,result&quot; data-slug-hash=&quot;gOJRzeL&quot; data-pen-title=&quot;Make selected value readable #3 Show full text on hover&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/gOJRzeL&quot;&gt;
+  Make selected value readable #3 Show full text on hover&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;form {
+  ...
+  position: relative;
+}
+
+output {
+  background-color: #fff;
+  border: solid thin currentcolor;
+  box-sizing: border-box;
+  display: none;
+  font-size: smaller;
+  inset: auto 1rem;
+  padding: .5rem;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(.5rem, -3rem);
+  z-index: 1;
+}
+
+select:hover + output {
+  display: block;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The form or a container needs to have positioning set. The output is positioned using &lt;code&gt;position: absolute&lt;/code&gt;, &lt;code&gt;inset&lt;/code&gt;, &lt;code&gt;transform&lt;/code&gt; and &lt;code&gt;z-index&lt;/code&gt; and hidden by default. It is then displayed when the select is hovered. Adding &lt;code&gt;pointer-events: none&lt;/code&gt; ensures that hovering the output does not interfere with the hovering of the select.&lt;/p&gt;
+&lt;p&gt;The down side here is that not all devices support hover. So, it can&#39;t be relied upon but can be a nice enhancement for devices that do.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+</description>
+      <pubDate>Thu, 06 Jun 2024 17:15:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/making-a-selected-value-readable-when-the-text-is-long/</guid>
+    </item>
+    <item>
       <title>When should we use components and when should we just use HTML?</title>
       <link>https://chrissmith.xyz/blog/2024/when-should-we-use-components-and-when-should-we-just-use-html/</link>
       <description>&lt;p&gt;A lot of UI frameworks or design systems include a component library. This is a series of components that can be dropped into a page to add functionality.&lt;/p&gt;
