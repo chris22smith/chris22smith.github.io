@@ -8,10 +8,32 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>The connection between communication languages and programming languages</title>
+      <link>https://chrissmith.xyz/blog/2024/the-connection-between-communication-languages-and-programming-languages/</link>
+      <description>&lt;p&gt;I&#39;ve been working as a web developer since late 1999. A fair while. I&#39;m completely self-taught from books, courses, videos, working with great people and just doing the job.&lt;/p&gt;
+&lt;p&gt;My background is not in Computer Science or anything that stands out as being technical at all. I&#39;ve got an Arts degree in French and Italian. However, I think that there is a strong connection between communication languages and programming languages that is not widely recognised.&lt;/p&gt;
+&lt;h2&gt;Are &amp;quot;the arts&amp;quot; really that artsy?&lt;/h2&gt;
+&lt;p&gt;When I was at school and university studying modern languages, there were defintiely different types of students. There were those who were confident speaking, unafraid to make mistakes, strong communicators, typically not so concerned with accuracy and so maybe weaker at translation or written work. Then there were those, like me, who were less confident speaking, always worrying about getting things wrong, wanting everything to be perfect but good at translation and writing which is less pressurised and more considered. Of course, there were also a few who could do it all. Pah!&lt;/p&gt;
+&lt;p&gt;I think the type of linguists who like learning grammar, syntax, rules and quirks of languages would make good programmers. They&#39;re what I would term &amp;quot;technical linguists&amp;quot;. It&#39;s very much the same skill set. It&#39;s all about logical problem solving, operating within a set of rules, learning the exceptions, research, ongoing self-teaching.&lt;/p&gt;
+&lt;p&gt;Once you know one communication language then learning another becomes much easier - you know the grammatical terminology and the concepts - it&#39;s just learning the new parts. It&#39;s exactly the same with programming. Once you know what a loop is, or a class, then you can use that knowledge again.&lt;/p&gt;
+&lt;p&gt;I think there&#39;s also a comparison to be made with musicians. While regarded as an &amp;quot;arts&amp;quot; or &amp;quot;humanities&amp;quot; subject, there are two sides to it - the creative and performance side and the technical side.&lt;/p&gt;
+&lt;h2&gt;Recognising the hidden technicians&lt;/h2&gt;
+&lt;p&gt;I think employers in tech can be too quick to discount those with an &amp;quot;arts&amp;quot; background. They may actually be very technically minded and you may even get a bit of the creative side thrown into the bargain for free.&lt;/p&gt;
+&lt;h2&gt;Broad and shallow or narrow and deep&lt;/h2&gt;
+&lt;p&gt;When I was younger I was very into learning languages. At school I studied French, German, Russian, Latin and ancient Greek. At uni I did Italian. Later in life I&#39;ve learnt some Spanish and Welsh. So, if you include English and the dead ones, that&#39;s 9 in all. Maybe &amp;quot;obsessed&amp;quot; wouldn&#39;t be overstating it.&lt;/p&gt;
+&lt;p&gt;Conversely, when it has come to programming languages, I&#39;ve done bits of other languages like Visual Basic, C# and SQL but am pretty much a core platform, front end, HTML, CSS and JavaScript guy. Do frameworks count? It&#39;s certainly more syntax to learn but I&#39;d say that&#39;s more like an off-shoot, like learning business French. It&#39;s a specialism rather than a core skill.&lt;/p&gt;
+&lt;p&gt;My experience in both arenas has been that going deep in one language is more beneficial than skimming the surface of lots. Once you have a deeper knowledge of one then applying that knowledge to another is much easier. It&#39;s also much more satisfying as you can do more. I wish someone had told me that at school.&lt;/p&gt;
+&lt;p&gt;I would definitely advise anyone new to tech to stop trying to learn every new shiny thing that comes along and to focus on getting a deeper understanding of the main core technologies. They have more longevity and will ultimately be more satisfying.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 19 Jun 2024 12:45:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/the-connection-between-communication-languages-and-programming-languages/</guid>
+    </item>
+    <item>
       <title>Making a selected value readable when the text is long</title>
       <link>https://chrissmith.xyz/blog/2024/making-a-selected-value-readable-when-the-text-is-long/</link>
       <description>&lt;p&gt;If a select list has options with long text, we can see the text when the options are all shown but not after the selection has been made. Let&#39;s dig into it and look at possible solutions. It&#39;s not too hard but there&#39;s no simple one-size-fits-all answer.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;html,result&quot; data-slug-hash=&quot;oNRwyEZ&quot; data-pen-title=&quot;Make selected value readable #3 Show full text on hover&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;oNRwyEZ&quot; data-pen-title=&quot;Make selected value readable #3 Show full text on hover&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
   &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/oNRwyEZ&quot;&gt;
   Make selected value readable #3 Show full text on hover&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
   on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
@@ -28,7 +50,7 @@
 &lt;p&gt;There are a few possible solutions. Which one works better will depend on your feature support and design.&lt;/p&gt;
 &lt;h3&gt;#1 Allow wrapping&lt;/h3&gt;
 &lt;p&gt;We can change the appearance of the select so that its text is allowed to wrap. This solution is CSS only and doesn&#39;t require any JavaScript.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;css,result&quot; data-slug-hash=&quot;rNgwJVE&quot; data-pen-title=&quot;Make selected value readable #1 Allow wrapping&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;rNgwJVE&quot; data-pen-title=&quot;Make selected value readable #1 Allow wrapping&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
   &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/rNgwJVE&quot;&gt;
   Make selected value readable #1 Allow wrapping&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
   on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
@@ -45,7 +67,7 @@
 &lt;p&gt;This ensures that we can always read the selected text. The possible down side is that the select can now have variable height depending on how many lines of text there are, which may cause alignment issues and layout shift. It&#39;s generally good practice with forms to stack the controls so this may not be a problem but if you were to use this select in a header with fixed height then it would not work.&lt;/p&gt;
 &lt;h3&gt;#2 Show the selected option in a separate element&lt;/h3&gt;
 &lt;p&gt;We can stop trying to show the selected value text in the select element and show it in another element instead. We use CSS to make the select so small it doesn&#39;t show the text and then use JavaScript to copy its value to another element.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;js,result&quot; data-slug-hash=&quot;wvbempv&quot; data-pen-title=&quot;Make selected value readable #2 Show in a separate element&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;wvbempv&quot; data-pen-title=&quot;Make selected value readable #2 Show in a separate element&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
   &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/wvbempv&quot;&gt;
   Make selected value readable #2 Show in a separate element&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
   on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
@@ -79,7 +101,7 @@ selects.forEach(s =&amp;gt; {
 &lt;p&gt;The possible down side with this solution is that the pattern is unfamiliar. It may not be immediately obvious how it works. The output is also of variable height so may cause alignment issues or layout shifts.&lt;/p&gt;
 &lt;h3&gt;#3 Show the full text on hover&lt;/h3&gt;
 &lt;p&gt;This is very similar to the previous solution in that we create a separate output element to show the full text but this time we only show it when the select element is hovered.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;css,result&quot; data-slug-hash=&quot;gOJRzeL&quot; data-pen-title=&quot;Make selected value readable #3 Show full text on hover&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;500&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;gOJRzeL&quot; data-pen-title=&quot;Make selected value readable #3 Show full text on hover&quot; data-user=&quot;chris22smith&quot; style=&quot;height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
   &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/gOJRzeL&quot;&gt;
   Make selected value readable #3 Show full text on hover&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
   on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;

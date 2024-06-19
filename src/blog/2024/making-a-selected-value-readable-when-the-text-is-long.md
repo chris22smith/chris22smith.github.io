@@ -10,7 +10,7 @@ eleventyNavigation:
 
 If a select list has options with long text, we can see the text when the options are all shown but not after the selection has been made. Let's dig into it and look at possible solutions. It's not too hard but there's no simple one-size-fits-all answer.
 
-<p class="codepen" data-height="500" data-default-tab="html,result" data-slug-hash="oNRwyEZ" data-pen-title="Make selected value readable #3 Show full text on hover" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="oNRwyEZ" data-pen-title="Make selected value readable #3 Show full text on hover" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/chris22smith/pen/oNRwyEZ">
   Make selected value readable #3 Show full text on hover</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -40,7 +40,7 @@ There are a few possible solutions. Which one works better will depend on your f
 
 We can change the appearance of the select so that its text is allowed to wrap. This solution is CSS only and doesn't require any JavaScript.
 
-<p class="codepen" data-height="500" data-default-tab="css,result" data-slug-hash="rNgwJVE" data-pen-title="Make selected value readable #1 Allow wrapping" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="rNgwJVE" data-pen-title="Make selected value readable #1 Allow wrapping" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/chris22smith/pen/rNgwJVE">
   Make selected value readable #1 Allow wrapping</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -65,7 +65,7 @@ This ensures that we can always read the selected text. The possible down side i
 
 We can stop trying to show the selected value text in the select element and show it in another element instead. We use CSS to make the select so small it doesn't show the text and then use JavaScript to copy its value to another element.
 
-<p class="codepen" data-height="500" data-default-tab="js,result" data-slug-hash="wvbempv" data-pen-title="Make selected value readable #2 Show in a separate element" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="wvbempv" data-pen-title="Make selected value readable #2 Show in a separate element" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/chris22smith/pen/wvbempv">
   Make selected value readable #2 Show in a separate element</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -111,7 +111,7 @@ The possible down side with this solution is that the pattern is unfamiliar. It 
 
 This is very similar to the previous solution in that we create a separate output element to show the full text but this time we only show it when the select element is hovered.
 
-<p class="codepen" data-height="500" data-default-tab="css,result" data-slug-hash="gOJRzeL" data-pen-title="Make selected value readable #3 Show full text on hover" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="gOJRzeL" data-pen-title="Make selected value readable #3 Show full text on hover" data-user="chris22smith" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/chris22smith/pen/gOJRzeL">
   Make selected value readable #3 Show full text on hover</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
