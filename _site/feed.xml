@@ -8,6 +8,44 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Positioning popover elements (pseudo-anchoring)</title>
+      <link>https://chrissmith.xyz/blog/2024/positioning-popover-elements-pseudo-anchoring/</link>
+      <description>&lt;p&gt;I&#39;ve made a number of help components over the years, typically an icon button triggering a div to appear. My approach has always been the same. Give the button &lt;code&gt;position: relative&lt;/code&gt; and then position the revealed content div using &lt;code&gt;position: absolute&lt;/code&gt;, effectively anchoring it off the button.&lt;/p&gt;
+&lt;p&gt;Taking it further, I&#39;d also add a &lt;code&gt;position: fixed&lt;/code&gt; overlay layer with partial opacity above the base page with &lt;code&gt;z-index: 1&lt;/code&gt; and then put the content above that with &lt;code&gt;z-index: 2&lt;/code&gt;. It would also need a way of closing it, so adding a click event to the overlay element and also a cross icon button and close event to the content div. This would use JavaScript to return focus to the original icon button.&lt;/p&gt;
+&lt;p&gt;There are loads of examples of this if you search &amp;quot;tooltip&amp;quot;, many claiming to be CSS only solutions, but I would suspect a lot of them don&#39;t manage the focus properly for screen reader use or keyboard navigation.&lt;/p&gt;
+&lt;h2&gt;Welcome popover&lt;/h2&gt;
+&lt;p&gt;The new popover attribute takes away a lot of this extra work. It takes care of the layers, interactivity and focus management. But not the positioning.&lt;/p&gt;
+&lt;p&gt;Read more about &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Popover_API&quot;&gt;popover&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The new popover element is placed in the DOM&#39;s &lt;code&gt;top-layer&lt;/code&gt; on top of all other page content so it has no awareness of the original triggering button and its positioning. This has to be set with JavaScript.&lt;/p&gt;
+&lt;p&gt;The relationship between the popover and trigger elements means that the content div will be shown and hidden automatically without us having to add any event handling.&lt;/p&gt;
+&lt;h2&gt;Handling positioning&lt;/h2&gt;
+&lt;p&gt;When the icon button is clicked we can fire a function to handle positioning like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// define the content div, create or reference a template
+const helpContent = document.createElement(&amp;quot;div&amp;quot;);
+
+const handlePopoverPositioning = (event) =&amp;gt; {
+
+  const scrollY = Math.round(window.scrollY);
+
+  const helpButtonRect = event.target.getBoundingClientRect();
+
+  helpContent.style.insetBlockStart =
+    `${helpButtonRect.top + scrollY - 16}px`;
+
+  helpContent.style.insetInlineStart =
+    `${helpButtonRect.left + 32}px`;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We get the &lt;code&gt;scrollY&lt;/code&gt; value to see how far the user has scrolled the page vertically as this will affect the placement of the popover. This can be a decimal in modern browsers so I&#39;ve chosen to round it to keep things simpler but there&#39;s probably no need. We get the bounding client rectangle of the help button so that we&#39;ve got access to its dimensions and positioning. We can then set the positioning of the help content using the &lt;code&gt;insetBlockStart&lt;/code&gt; (top) and &lt;code&gt;insetInlineStart&lt;/code&gt; (left) properties. The vertical positioning has to factor in the &lt;code&gt;scrollY&lt;/code&gt; value. Finally numbers can be added or subtracted to offset the top left position of the content div.&lt;/p&gt;
+&lt;h2&gt;Anchoring&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.chrome.com/blog/anchor-positioning-api&quot;&gt;CSS anchor positioning&lt;/a&gt; will make this easier and take away the need for JavaScript here by defining an anchor element, the icon button, in CSS. At the time of writing this is only available in Chromium browsers, so I can&#39;t use it yet.&lt;/p&gt;
+&lt;p&gt;Hopefully the function above or something similar will help tide you over until anchoring fully arrives.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 19 Jun 2024 17:55:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/positioning-popover-elements-pseudo-anchoring/</guid>
+    </item>
+    <item>
       <title>The connection between communication languages and programming languages</title>
       <link>https://chrissmith.xyz/blog/2024/the-connection-between-communication-languages-and-programming-languages/</link>
       <description>&lt;p&gt;I&#39;ve been working as a web developer since late 1999. A fair while. I&#39;m completely self-taught from books, courses, videos, working with great people and just doing the job.&lt;/p&gt;

@@ -281,6 +281,7 @@ code {
   border-radius: 0.25em;
   display: inline-block;
   padding: 0 0.25em;
+  white-space: break-spaces;
 }
 
 pre > code {

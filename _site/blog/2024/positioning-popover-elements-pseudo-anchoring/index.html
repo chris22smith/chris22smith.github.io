@@ -18,15 +18,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chris Smith</title>
+    <title>Positioning popover elements (pseudo-anchoring)</title>
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="Intro page about Chris Smith, front-end web developer, and his personal website.">
+    <meta name="description" content="The new popover attribute takes care of layers, interactivity and focus management but not positioning.">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="/manifest.webmanifest">    
+    <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -138,65 +138,96 @@
 </header>
 
     <main id="content">
-      <article>
-        <h1>Chris Smith</h1>
-      <link rel="stylesheet" href="css/home.css">
-<div class="home-intro-layout" role="region" aria-label="Introduction">
-  <div>
-    <img id="cs-portrait" src="./img/chris-smith-cartoon-2023.webp" alt="Photo of Chris Smith, head shot with field and trees in the background" height="240" width="240">
-  </div>
-  <div>
-    <h2>Hello World</h2>
-    <p>Hello. 👋 I'm Chris, a front-end web developer from the UK. I blog about front end web development, design and user experience. I've been making web pages since 1999 and blogging since 2008.</p>
-    <p>You can find me on
-        <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
-        <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Positioning popover elements (pseudo-anchoring)</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-06-19T16:55:00.000Z" itemprop="datePublished">19 June 2024</time>
+        </div>      
+      <p>I've made a number of help components over the years, typically an icon button triggering a div to appear. My approach has always been the same. Give the button <code>position: relative</code> and then position the revealed content div using <code>position: absolute</code>, effectively anchoring it off the button.</p>
+<p>Taking it further, I'd also add a <code>position: fixed</code> overlay layer with partial opacity above the base page with <code>z-index: 1</code> and then put the content above that with <code>z-index: 2</code>. It would also need a way of closing it, so adding a click event to the overlay element and also a cross icon button and close event to the content div. This would use JavaScript to return focus to the original icon button.</p>
+<p>There are loads of examples of this if you search &quot;tooltip&quot;, many claiming to be CSS only solutions, but I would suspect a lot of them don't manage the focus properly for screen reader use or keyboard navigation.</p>
+<h2>Welcome popover</h2>
+<p>The new popover attribute takes away a lot of this extra work. It takes care of the layers, interactivity and focus management. But not the positioning.</p>
+<p>Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/API/Popover_API">popover</a>.</p>
+<p>The new popover element is placed in the DOM's <code>top-layer</code> on top of all other page content so it has no awareness of the original triggering button and its positioning. This has to be set with JavaScript.</p>
+<p>The relationship between the popover and trigger elements means that the content div will be shown and hidden automatically without us having to add any event handling.</p>
+<h2>Handling positioning</h2>
+<p>When the icon button is clicked we can fire a function to handle positioning like this:</p>
+<pre><code>// define the content div, create or reference a template
+const helpContent = document.createElement(&quot;div&quot;);
+
+const handlePopoverPositioning = (event) =&gt; {
+
+  const scrollY = Math.round(window.scrollY);
+
+  const helpButtonRect = event.target.getBoundingClientRect();
+
+  helpContent.style.insetBlockStart =
+    `${helpButtonRect.top + scrollY - 16}px`;
+
+  helpContent.style.insetInlineStart =
+    `${helpButtonRect.left + 32}px`;
+}
+</code></pre>
+<p>We get the <code>scrollY</code> value to see how far the user has scrolled the page vertically as this will affect the placement of the popover. This can be a decimal in modern browsers so I've chosen to round it to keep things simpler but there's probably no need. We get the bounding client rectangle of the help button so that we've got access to its dimensions and positioning. We can then set the positioning of the help content using the <code>insetBlockStart</code> (top) and <code>insetInlineStart</code> (left) properties. The vertical positioning has to factor in the <code>scrollY</code> value. Finally numbers can be added or subtracted to offset the top left position of the content div.</p>
+<h2>Anchoring</h2>
+<p><a href="https://developer.chrome.com/blog/anchor-positioning-api">CSS anchor positioning</a> will make this easier and take away the need for JavaScript here by defining an anchor element, the icon button, in CSS. At the time of writing this is only available in Chromium browsers, so I can't use it yet.</p>
+<p>Hopefully the function above or something similar will help tide you over until anchoring fully arrives.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
         and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
-        <div class="kofi-widget-container">
+        <a
+          href="https://twitter.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X (Twitter)</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
   <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
   <script type="text/javascript">
     kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
     kofiwidget2.draw();
   </script>
 </div>
+
+    </div>
   </div>
-</div>
-<h2>Latest blog posts</h2>
-<ul class="post-list" itemscope itemtype="https://schema.org/Article">
-  <!-- 12 most recent blog posts with tag 'tech' -->
-  <li class="featured">
-    <a href="/blog/2024/positioning-popover-elements-pseudo-anchoring/" itemprop="name">Positioning popover elements (pseudo-anchoring)</a>
-    <div class="description" itemprop="description">The new popover attribute takes care of layers, interactivity and focus management but not positioning.</div>
-    <time datetime="2024-06-19" itemprop="datePublished">19 Jun 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/the-connection-between-communication-languages-and-programming-languages/" itemprop="name">The connection between communication languages and programming languages</a>
-    <div class="description" itemprop="description">My background is not in Computer Science or anything that stands out as being technical at all.</div>
-    <time datetime="2024-06-19" itemprop="datePublished">19 Jun 2024</time>
-  </li><li class="featured">
-    <a href="/blog/2024/making-a-selected-value-readable-when-the-text-is-long/" itemprop="name">Making a selected value readable when the text is long</a>
-    <div class="description" itemprop="description">If a select list has options with long text, we can see the text when the options are all shown but not after the selection has been made.</div>
-    <time datetime="2024-06-06" itemprop="datePublished">06 Jun 2024</time>
-  </li><li>
-    <a href="/blog/2024/when-should-we-use-components-and-when-should-we-just-use-html/" itemprop="name">When should we use components and when should we just use HTML?</a>
-    <time datetime="2024-05-22" itemprop="datePublished">22 May 2024</time>
-  </li><li>
-    <a href="/blog/2024/the-development-burden-of-user-choice/" itemprop="name">The development burden of user choice</a>
-    <time datetime="2024-04-02" itemprop="datePublished">02 Apr 2024</time>
-  </li><li>
-    <a href="/blog/2024/not-enough-or-too-much-data/" itemprop="name">Not enough or too much data</a>
-    <time datetime="2024-03-21" itemprop="datePublished">21 Mar 2024</time>
-  </li><li>
-    <a href="/blog/2024/please-stop-using-flags-to-represent-languages/" itemprop="name">Please stop using flags to represent languages</a>
-    <time datetime="2024-03-05" itemprop="datePublished">05 Mar 2024</time>
-  </li><li>
-    <a href="/blog/2024/why-should-we-care-about-web-accessibility/" itemprop="name">Why should we care about Web Accessibility?</a>
-    <time datetime="2024-01-26" itemprop="datePublished">26 Jan 2024</time>
-  </li><li>
-    <a href="/blog/2024/learning-typescript/" itemprop="name">Learning TypeScript</a>
-    <time datetime="2024-01-20" itemprop="datePublished">20 Jan 2024</time>
-  </li></ul>
-<p><a href="/blog/">Big list of all posts</a></p>
+</aside>
 
       </article>
     </main>
