@@ -3,45 +3,25 @@
 }
 
 body {
-  /* background-color: #07d;
-  background-image: linear-gradient(45deg, #d07, #dd0, #07d); */
+  /* background pattern */
+  --s: 1.5em;
+  --c1: #222;
+  --c2: #171717;
 
-  background: radial-gradient(
-        hsl(330, 100%, 27%) 4%,
-        hsl(330, 100%, 18%) 9%,
-        hsla(0, 100%, 20%, 0) 9%
-      )
-      0 0,
-    radial-gradient(
-        hsl(330, 100%, 27%) 4%,
-        hsl(330, 100%, 18%) 8%,
-        hsla(0, 100%, 20%, 0) 10%
-      )
-      50px 50px,
-    radial-gradient(hsla(330, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
-    radial-gradient(hsla(330, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
-    radial-gradient(hsla(330, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px
-      0,
-    radial-gradient(hsla(330, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%)
-      100px 50px,
-    radial-gradient(hsla(330, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
-    radial-gradient(hsla(330, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
-    linear-gradient(
-        45deg,
-        hsla(0, 100%, 20%, 0) 49%,
-        hsla(0, 100%, 0%, 1) 50%,
-        hsla(0, 100%, 20%, 0) 70%
-      )
-      0 0,
-    linear-gradient(
-        -45deg,
-        hsla(0, 100%, 20%, 0) 49%,
-        hsla(0, 100%, 0%, 1) 50%,
-        hsla(0, 100%, 20%, 0) 70%
-      )
-      0 0;
-  background-color: #300;
-  background-size: 100px 100px;
+  --_s: 37.5% 12.5% at 62.5%;
+  --_g: 34% 99%, #0000 101%;
+  --g1: radial-gradient(var(--_s) 100%, #0000 32%, var(--c1) var(--_g));
+  --g2: radial-gradient(var(--_s) 0, #0000 32%, var(--c1) var(--_g));
+  --g3: radial-gradient(var(--_s) 100%, #0000 32%, var(--c2) var(--_g));
+  --g4: radial-gradient(var(--_s) 0, #0000 32%, var(--c2) var(--_g));
+  background: var(--g1), var(--g2) 0 calc(3 * var(--s)),
+    var(--g3) var(--s) calc(3 * var(--s)), var(--g4) var(--s) calc(6 * var(--s)),
+    var(--g1) calc(2 * var(--s)) calc(6 * var(--s)),
+    var(--g2) calc(2 * var(--s)) calc(9 * var(--s)),
+    var(--g3) calc(3 * var(--s)) calc(9 * var(--s)),
+    var(--g4) calc(3 * var(--s)) 0,
+    repeating-linear-gradient(var(--c1) 0 25%, var(--c2) 0 50%);
+  background-size: calc(4 * var(--s)) calc(12 * var(--s));
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -50,6 +30,7 @@ body {
   min-block-size: 100vh;
   padding: 10vmin 5vw;
   position: relative;
+  transition: padding 0.2s ease-in-out;
 }
 
 .skip-link {
@@ -114,18 +95,14 @@ header div {
   align-items: center;
   border-radius: 1vmin 1vmin 0 0;
   display: flex;
-  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   gap: 1rem;
   margin: 0;
   padding: 0.25rem 0.75rem;
 }
 
 footer div {
-  background-color: #333;
-  border-radius: 0 0 1vmin 1vmin;
-  color: #fff;
+  color: #ddd;
   display: flex;
-  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   gap: 1rem;
   justify-content: flex-end;
   margin: 0;
@@ -134,9 +111,9 @@ footer div {
 
 article {
   background-color: #222;
+  border: solid 1px #444;
   border-radius: 1vmin;
   color: #ddd;
-  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   overflow: hidden;
   padding: 5vmin;
   position: relative;
@@ -243,10 +220,9 @@ ul {
 }
 
 .post-list > li {
-  background-color: #444;
+  border: solid 1px #444;
   border-radius: 0.25rem;
   display: flex;
-  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5));
   flex-direction: column;
   flex: 1 1 20rem;
   gap: 1rem;
@@ -254,16 +230,11 @@ ul {
   overflow: hidden;
   padding: 1rem;
   position: relative;
-  transition: background-color 0.6s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .post-list > li:hover {
-  background-color: #d07;
-  color: #fff;
-}
-
-.post-list > li:hover > a {
-  color: #fff;
+  background-color: #333;
 }
 
 .post-list > li > a::after {
@@ -363,14 +334,24 @@ hr {
   margin-block-end: 0;
 }
 
+@media (width < 600px) {
+  body {
+    padding: 2vh 0;
+  }
+}
+
 @media (prefers-color-scheme: light) {
-  article,
-  footer div {
+  body {
+    --c1: #ffffff;
+    --c2: #f7f7f7;
+  }
+  article {
     background-color: #fff;
+    border-color: #bbb;
     color: #222;
   }
   footer div {
-    background-color: #eee;
+    color: #444;
   }
   header a {
     border-color: #fff;
@@ -391,6 +372,9 @@ hr {
     color: #06c;
   }
   .post-list > li {
+    border-color: #bbb;
+  }
+  .post-list > li:hover {
     background-color: #eee;
   }
   section:nth-child(odd) {
