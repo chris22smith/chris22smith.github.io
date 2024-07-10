@@ -8,31 +8,17 @@ eleventyNavigation:
 
 All {{ collections.tech.length }} of my blog posts, most recent first...
 
-<p id="current-page-label" tabindex="-1"></p>
+{% assign currentYear = '' %}
+{% for post in collections.tech reversed %}
+{% assign postYear = post.date | date: "%Y" %}
+{% if currentYear != postYear %}
 
-<ul class="post-list" id="paginated-list" itemscope itemtype="https://schema.org/Article">
-  <!-- blog posts with tag 'tech' sorted by date, most recent first -->
-  {%- for blog in collections.tech reversed -%}
-  <li>
-    <a href="{{ blog.url }}" itemprop="name">{{ blog.data.title }}</a>
-    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ blog.date | date: "%d %b %Y" }}</time>
-  </li>
-  {%- endfor -%}
-</ul>
-
-<link rel="stylesheet" href="/css/pagination.css">
-
-<nav class="pagination-container">
-  <button type="button" class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
-    &lt;
-  </button>
-  
-  <div id="pagination-numbers">
-  </div>
-  
-  <button type="button" class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
-    &gt;
-  </button>
-</nav>
-
-<script src="/js/pagination.js"></script>
+<hr>
+<h2>{{ postYear }}</h2>
+{% endif %}
+  <p class="post-item" itemscope itemtype="https://schema.org/Article">
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ post.date | date: "%d %b" }}</time>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </p>
+  {% assign currentYear = postYear %}
+{% endfor %}

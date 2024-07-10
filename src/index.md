@@ -18,28 +18,24 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
         <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
-        {% include 'kofi-widget.html' %}
   </div>
 </div>
 
+<hr>
+
 ## Latest blog posts
 
-<ul class="post-list" itemscope itemtype="https://schema.org/Article">
-  <!-- 12 most recent blog posts with tag 'tech' -->
-  {% assign techs = collections.tech | sort: 'date' | reverse %}
-  {%- for blog in techs limit:3 -%}
-  <li class="featured">
+<!-- 12 most recent blog posts with tag 'tech' -->
+
+{% assign techs = collections.tech | sort: 'date' | reverse %}
+{%- for blog in techs limit:5 -%}
+
+  <p class="post-item" itemscope itemtype="https://schema.org/Article">
+    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ blog.date | date: "%d %b" }}</time>
     <a href="{{ blog.url }}" itemprop="name">{{ blog.data.title }}</a>
-    <div class="description" itemprop="description">{{ blog.data.description }}</div>
-    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ blog.date | date: "%d %b %Y" }}</time>
-  </li>
-  {%- endfor -%}
-  {%- for blog in techs offset:3 limit:6 -%}
-  <li>
-    <a href="{{ blog.url }}" itemprop="name">{{ blog.data.title }}</a>
-    <time datetime="{{ blog.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ blog.date | date: "%d %b %Y" }}</time>
-  </li>
-  {%- endfor -%}
-</ul>
+  </p>
+{%- endfor -%}
+
+<hr>
 
 [Big list of all posts](/blog/)

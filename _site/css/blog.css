@@ -210,41 +210,18 @@ ul {
   outline: none;
 }
 
-.post-list {
+.post-item {
+  align-items: center;
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  justify-content: flex-start;
 }
 
-.post-list > li {
-  border: solid 1px #444;
-  border-radius: 0.25rem;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 20rem;
-  gap: 1rem;
-  justify-content: space-between;
-  overflow: hidden;
-  padding: 1rem;
-  position: relative;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.post-list > li:hover {
-  background-color: #333;
-}
-
-.post-list > li > a::after {
-  content: "";
-  inset: 0;
-  position: absolute;
-}
-
-.post-list > li > time {
-  text-align: end;
+.post-item > time {
+  border: solid 1px currentColor;
+  flex: 0 0 5em;
+  padding: 0.25em 0.5em;
+  text-align: center;
 }
 
 code {
@@ -301,7 +278,7 @@ section:nth-child(odd) {
 }
 
 hr {
-  border-block-start: solid 1px #d07;
+  border-block-start: solid 1px #444;
 }
 
 .about-the-author {
@@ -371,14 +348,11 @@ hr {
   a:visited {
     color: #06c;
   }
-  .post-list > li {
-    border-color: #bbb;
-  }
-  .post-list > li:hover {
-    background-color: #eee;
-  }
   section:nth-child(odd) {
     background-color: #eee;
+  }
+  hr {
+    border-block-start: solid 1px #bbb;
   }
 }
 
@@ -404,7 +378,7 @@ hr {
 
 /* house plant */
 
-p + p + p:not(:last-of-type):before {
+/* p + p + p:not(:last-of-type):before {
   background-image: url("/img/plant1.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -432,4 +406,4 @@ p + p + p ~ p + p + p ~ p + p + p:not(:last-of-type):before {
     float: inline-end;
     margin: 1em;
   }
-}
+} */
