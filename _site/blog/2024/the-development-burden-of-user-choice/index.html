@@ -41,6 +41,84 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">The development burden of user choice</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-04-02T11:30:00.000Z" itemprop="datePublished">2 April 2024</time>
+        </div>      
+      <p>When developing a site or app there's often a temptation to give the user a choice, to make something configurable to their preferences. Here are some common examples. Light and dark modes, choosing text sizing or spacing (compact vs expanded), different layouts like a stacked list vs cards.</p>
+<p>It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it's not always a good thing.</p>
+<h2>Maintenance multiplied</h2>
+<p>Let's suppose we have light and dark modes. Every time we add a new feature it now needs to be tested in both modes, so that's 2x testing. If we also have a choice of list or cards, that now needs testing both modes and both layouts, 4x testing. You can see where this is going. Each choice or configurable element is introducing more risk and more development work and it multiplies.</p>
+<p>If you give a choice of a list or cards, every change you make to an item has to be made in both layouts. That's double the design, double the coding, double the testing.</p>
+<p>From a user's point of view, they will likely make a UI choice and then stick with that choice forever, so they're no longer appreciating the benefit of the feature even though it is still generating ongoing work for the development team.</p>
+<p>What was a &quot;nice to have&quot; feature can be quietly adding more and more maintenance work in the background.</p>
+<p>I've fallen foul of this a few times. In my eagerness to please users and create a configurable UI, I've given myself problems further down the line. I've learnt the hard way that any user UI choice needs to be considered very carefully before being added.</p>
+<h2>Users adapt</h2>
+<p>The reality is that users don't really appreciate the choice as much as you think they might. If you don't offer light and dark modes then they will use what they're given and probably won't even question it.</p>
+<p>If you change your site design from having a horizontal navigation along the top to a vertical navigation down the side then just be brave and make the change. Don't try to give them the choice for a while to soften the blow. Removing choice later is worse than just changing things. They will adapt quickly and any negativity about the change will be forgotten within a very short time frame.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,84 +213,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">The development burden of user choice</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-04-02T11:30:00.000Z" itemprop="datePublished">2 April 2024</time>
-        </div>      
-      <p>When developing a site or app there's often a temptation to give the user a choice, to make something configurable to their preferences. Here are some common examples. Light and dark modes, choosing text sizing or spacing (compact vs expanded), different layouts like a stacked list vs cards.</p>
-<p>It seems like a nice idea to give the user more choice, let them use it how they prefer, but, in reality, it's not always a good thing.</p>
-<h2>Maintenance multiplied</h2>
-<p>Let's suppose we have light and dark modes. Every time we add a new feature it now needs to be tested in both modes, so that's 2x testing. If we also have a choice of list or cards, that now needs testing both modes and both layouts, 4x testing. You can see where this is going. Each choice or configurable element is introducing more risk and more development work and it multiplies.</p>
-<p>If you give a choice of a list or cards, every change you make to an item has to be made in both layouts. That's double the design, double the coding, double the testing.</p>
-<p>From a user's point of view, they will likely make a UI choice and then stick with that choice forever, so they're no longer appreciating the benefit of the feature even though it is still generating ongoing work for the development team.</p>
-<p>What was a &quot;nice to have&quot; feature can be quietly adding more and more maintenance work in the background.</p>
-<p>I've fallen foul of this a few times. In my eagerness to please users and create a configurable UI, I've given myself problems further down the line. I've learnt the hard way that any user UI choice needs to be considered very carefully before being added.</p>
-<h2>Users adapt</h2>
-<p>The reality is that users don't really appreciate the choice as much as you think they might. If you don't offer light and dark modes then they will use what they're given and probably won't even question it.</p>
-<p>If you change your site design from having a horizontal navigation along the top to a vertical navigation down the side then just be brave and make the change. Don't try to give them the choice for a while to soften the blow. Removing choice later is worse than just changing things. They will adapt quickly and any negativity about the change will be forgotten within a very short time frame.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

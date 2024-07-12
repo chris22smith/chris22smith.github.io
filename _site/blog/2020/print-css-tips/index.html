@@ -41,6 +41,118 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Print CSS Tips</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2020-01-17T16:00:00.000Z" itemprop="datePublished">17 January 2020</time>
+        </div>      
+      <p>A collection of Print CSS problems and tips, learned the hard way...</p>
+<p>A common use of print CSS is for reporting, either printing HTML directly or using a tool to generate a PDF from HTML. HTML being written to PDF will be treated as print media rather than screen.</p>
+<h2>Page Breaks</h2>
+<p>We can control page breaks by setting rules on page elements, setting whether they should break before, after or avoid breaking - keep the content together. These are useful for starting a new section on a new page, keeping headings with their content or keeping related data together on a single page.</p>
+<p>Nice simple explanation:
+<a href="https://css-tricks.com/almanac/properties/p/page-break/">https://css-tricks.com/almanac/properties/p/page-break/</a></p>
+<p>The way this works is fairly straightforward but browser support is not consistent and different elements with different display types (e.g. block, inline, table, flex) are treated differently.</p>
+<p>Avoid complex layouts like display: grid, display: flex or display: table and use display: block wherever possible. It's worth considering an alternate, simplified, single stack layout for print.</p>
+<h2>Tables</h2>
+<p>Tables generally work as expected but some more advanced formatting can cause problems. If your table has <code>border-collapse: collapse</code> set, which means cells are touching and sharing a border rather than spaced out with a gap between, then using rowspan or colspan to merge cells can lead to some of these shared borders going missing when printed.</p>
+<p>If you have to use spanning of rows or columns you can manually put borders back in by using CSS pseudo elements. You can create thin inner elements to act as borders, like this example (below) which adds a left border to all but the first cell.</p>
+<pre><code>th[rowspan] + th[rowspan],
+td[rowspan] + td[rowspan] {
+    position: relative;
+}
+
+th[rowspan] + th[rowspan]:before,
+td[rowspan] + td[rowspan]:before {
+    border-left: solid 1px #000;
+    bottom: 0;
+    content: &quot;&quot;;
+    left: -1px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+</code></pre>
+<h2>Page Breaks and Tables</h2>
+<p>It's common for a table to exceed the length of a print page and need to break. If not handled right it can split rows or cells, which looks untidy and makes content difficult to read.</p>
+<p>To prevent this we would expect to use <code>page-break-inside: avoid</code> on the <code>tr</code> or <code>td</code> elements but (at the time of writing, Jan 2020) this is not supported in most browsers. It is also not supported on the <code>thead</code> or <code>tbody</code> elements.</p>
+<p>We can also get an almost empty first page. The table content is so long that after the title it moves onto the second page leaving the first page with just the title. The solutions to both these issues are the same.</p>
+<p>Page break rules are supported on the table element or by wrapping the table element in a parent div element. So, rather than having lots of rows repeating within a single table we can use multiple tables, grouping rows in smaller tables or even using a new table for each row if absolutely necessary.</p>
+<p>Tables which are potentially very long need to dynamically split their content into smaller tables, e.g. table 1: rows 1-10; table 2: rows 11-20, etc.</p>
+<p>If you don’t have borders, just using spacing, then you can prevent your content from splitting over the page by wrapping the cell content in a div element, example below.</p>
+<pre><code>&lt;tr&gt;
+  &lt;td&gt;
+    &lt;div&gt;your cell content&lt;/div&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+</code></pre>
+<h2>Further Reading</h2>
+<p>This article gives a great explanation of print stylesheets:
+<a href="https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/">https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/</a></p>
+<p>This article explains fragmentation - handling breaks in pages and columns:
+<a href="https://www.smashingmagazine.com/2019/02/css-fragmentation/">https://www.smashingmagazine.com/2019/02/css-fragmentation/</a></p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,118 +247,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Print CSS Tips</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2020-01-17T16:00:00.000Z" itemprop="datePublished">17 January 2020</time>
-        </div>      
-      <p>A collection of Print CSS problems and tips, learned the hard way...</p>
-<p>A common use of print CSS is for reporting, either printing HTML directly or using a tool to generate a PDF from HTML. HTML being written to PDF will be treated as print media rather than screen.</p>
-<h2>Page Breaks</h2>
-<p>We can control page breaks by setting rules on page elements, setting whether they should break before, after or avoid breaking - keep the content together. These are useful for starting a new section on a new page, keeping headings with their content or keeping related data together on a single page.</p>
-<p>Nice simple explanation:
-<a href="https://css-tricks.com/almanac/properties/p/page-break/">https://css-tricks.com/almanac/properties/p/page-break/</a></p>
-<p>The way this works is fairly straightforward but browser support is not consistent and different elements with different display types (e.g. block, inline, table, flex) are treated differently.</p>
-<p>Avoid complex layouts like display: grid, display: flex or display: table and use display: block wherever possible. It's worth considering an alternate, simplified, single stack layout for print.</p>
-<h2>Tables</h2>
-<p>Tables generally work as expected but some more advanced formatting can cause problems. If your table has <code>border-collapse: collapse</code> set, which means cells are touching and sharing a border rather than spaced out with a gap between, then using rowspan or colspan to merge cells can lead to some of these shared borders going missing when printed.</p>
-<p>If you have to use spanning of rows or columns you can manually put borders back in by using CSS pseudo elements. You can create thin inner elements to act as borders, like this example (below) which adds a left border to all but the first cell.</p>
-<pre><code>th[rowspan] + th[rowspan],
-td[rowspan] + td[rowspan] {
-    position: relative;
-}
-
-th[rowspan] + th[rowspan]:before,
-td[rowspan] + td[rowspan]:before {
-    border-left: solid 1px #000;
-    bottom: 0;
-    content: &quot;&quot;;
-    left: -1px;
-    position: absolute;
-    top: 0;
-    width: 1px;
-}
-</code></pre>
-<h2>Page Breaks and Tables</h2>
-<p>It's common for a table to exceed the length of a print page and need to break. If not handled right it can split rows or cells, which looks untidy and makes content difficult to read.</p>
-<p>To prevent this we would expect to use <code>page-break-inside: avoid</code> on the <code>tr</code> or <code>td</code> elements but (at the time of writing, Jan 2020) this is not supported in most browsers. It is also not supported on the <code>thead</code> or <code>tbody</code> elements.</p>
-<p>We can also get an almost empty first page. The table content is so long that after the title it moves onto the second page leaving the first page with just the title. The solutions to both these issues are the same.</p>
-<p>Page break rules are supported on the table element or by wrapping the table element in a parent div element. So, rather than having lots of rows repeating within a single table we can use multiple tables, grouping rows in smaller tables or even using a new table for each row if absolutely necessary.</p>
-<p>Tables which are potentially very long need to dynamically split their content into smaller tables, e.g. table 1: rows 1-10; table 2: rows 11-20, etc.</p>
-<p>If you don’t have borders, just using spacing, then you can prevent your content from splitting over the page by wrapping the cell content in a div element, example below.</p>
-<pre><code>&lt;tr&gt;
-  &lt;td&gt;
-    &lt;div&gt;your cell content&lt;/div&gt;
-  &lt;/td&gt;
-&lt;/tr&gt;
-</code></pre>
-<h2>Further Reading</h2>
-<p>This article gives a great explanation of print stylesheets:
-<a href="https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/">https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/</a></p>
-<p>This article explains fragmentation - handling breaks in pages and columns:
-<a href="https://www.smashingmagazine.com/2019/02/css-fragmentation/">https://www.smashingmagazine.com/2019/02/css-fragmentation/</a></p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

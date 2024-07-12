@@ -41,6 +41,92 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Loading More Items</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-03-03T18:03:38.000Z" itemprop="datePublished">3 March 2016</time>
+        </div>      
+      <p>What's the best way of loading more items on screen in terms of user experience and performance - &quot;infinite&quot; scroll, pagination or a simple &quot;load more&quot; option? Here's a quick look and pros and cons of each.</p>
+<h3>Infinite Scroll</h3>
+Infinite scroll is the name given to a web design pattern where scrolling to the bottom of the screen loads more records. It's most common in streams like on Facebook and Twitter.
+<p><strong>Pros</strong>
+Done well it's a nice seemless flow, moving very smoothly from one set of items to the next.</p>
+<p><strong>Cons</strong>
+It can be hard to navigate back up the list. Having so many items on screen at once can be confusing and slow everything down. The list has to be loaded in order - it's not possible to skip to the end. It's not infinite - there is always a finite number of records - just a pet hate of mine.</p>
+<h3>Pagination</h3>
+Pagination is the practice of breaking a large list down into pages and only showing a fixed number of records at a time. It typically has links at the bottom to navigate between pages and previous and next links. It often features text to help explain what is being shown, e.g. "Showing records 21-40 of 165".
+<p><strong>Pros</strong>
+It's very clear. The user is not presented with too much information at once. This keeps the DOM light and the screen fast. The user knows where he/she is in the list and can make an educated guess on jumping to other pages. If the list is in alphabetical order and has 10 pages, you can assume that something beginning with M will be roughly in the middle, page 5 or 6.</p>
+<p><strong>Cons</strong>
+Seeing that there are lots of pages can be off-putting.</p>
+<h3>Load More</h3>
+The Load More option is like Infinite Scroll but instead of automatically loading more as the user scrolls down you offer a button or link to load the next set of items. This is commonly seen at the end of image search lists.
+<p><strong>Pros</strong>
+It puts the user in control - they don't accidentally load content they don't really want using up bandwidth on mobile. It doesn't give a sense of how much data there is in the pipeline so doesn't scare the user away from loading more.</p>
+<p><strong>Cons</strong>
+Sometimes not having a sense of the number of records can be a bad thing. As with Infinite Scroll, the list has to be loaded in order - it's not possible to skip to the end.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,92 +221,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Loading More Items</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-03-03T18:03:38.000Z" itemprop="datePublished">3 March 2016</time>
-        </div>      
-      <p>What's the best way of loading more items on screen in terms of user experience and performance - &quot;infinite&quot; scroll, pagination or a simple &quot;load more&quot; option? Here's a quick look and pros and cons of each.</p>
-<h3>Infinite Scroll</h3>
-Infinite scroll is the name given to a web design pattern where scrolling to the bottom of the screen loads more records. It's most common in streams like on Facebook and Twitter.
-<p><strong>Pros</strong>
-Done well it's a nice seemless flow, moving very smoothly from one set of items to the next.</p>
-<p><strong>Cons</strong>
-It can be hard to navigate back up the list. Having so many items on screen at once can be confusing and slow everything down. The list has to be loaded in order - it's not possible to skip to the end. It's not infinite - there is always a finite number of records - just a pet hate of mine.</p>
-<h3>Pagination</h3>
-Pagination is the practice of breaking a large list down into pages and only showing a fixed number of records at a time. It typically has links at the bottom to navigate between pages and previous and next links. It often features text to help explain what is being shown, e.g. "Showing records 21-40 of 165".
-<p><strong>Pros</strong>
-It's very clear. The user is not presented with too much information at once. This keeps the DOM light and the screen fast. The user knows where he/she is in the list and can make an educated guess on jumping to other pages. If the list is in alphabetical order and has 10 pages, you can assume that something beginning with M will be roughly in the middle, page 5 or 6.</p>
-<p><strong>Cons</strong>
-Seeing that there are lots of pages can be off-putting.</p>
-<h3>Load More</h3>
-The Load More option is like Infinite Scroll but instead of automatically loading more as the user scrolls down you offer a button or link to load the next set of items. This is commonly seen at the end of image search lists.
-<p><strong>Pros</strong>
-It puts the user in control - they don't accidentally load content they don't really want using up bandwidth on mobile. It doesn't give a sense of how much data there is in the pipeline so doesn't scare the user away from loading more.</p>
-<p><strong>Cons</strong>
-Sometimes not having a sense of the number of records can be a bad thing. As with Infinite Scroll, the list has to be loaded in order - it's not possible to skip to the end.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

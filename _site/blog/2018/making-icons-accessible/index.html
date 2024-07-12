@@ -41,6 +41,82 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Making Icons Accessible</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-05-16T17:42:34.000Z" itemprop="datePublished">16 May 2018</time>
+        </div>      
+      <p>I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do. For a long time I've just slapped my icon down on the page, styled it and added a click event where needed. Job done.</p>
+<p>Having spent some time looking a bit more deeply into accessibility, I can now see that this is not a great approach. There's more to consider. If you can't see it what is it actually doing?</p>
+<p>Here's how I approach using icons now. It may not be the perfect solution but it's certainly a lot closer than most use cases I see. The way I use HTML depends on the use case.</p>
+<p>If the icon is purely decorative - there in addition to text, e.g. a floppy disk icon next to the word &quot;Save&quot; on a button, then I think we can reasonably just forget about it and hide it for non screen users. A simple aria-hidden=&quot;true&quot; attribute should do.</p>
+<p><code>&lt;button&gt;&lt;i class=&quot;fa fa-save&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Save&lt;/button&gt;</code></p>
+<p>If it is there as an indicator, in place of a label, like where a hotel might have icons for TV, bath, etc. then we can use an &lt;span&gt; to wrap it. Inside the span we add our icon and another span with a text alternative. We show the icon and hide the inner span for screens, show the text only for other media.</p>
+<p>Finally, if the icon is interactive and acts like a link or button, let's make it a link or button. Like the previous example, use the &lt;button&gt; or &lt;a&gt; tag to wrap the icon and a span text alternative and show/hide for the appropriate media. This has the added bonus of making it possible to tab to the icon and so use just the keyboard to navigate the page. It also handles the icon's active state and visited in the case of a link.</p>
+<p>Alternatively, if you didn't want to add a span with text inside your button or link, you could use the aria-label attribute to provide a text alternative.</p>
+<p>One little tip. If you use an icon inside a link or button, do not leave whitespace between the outer wrapper element and the inner icon as you may get unwanted effects in the styling, such as underlined spaces either side of your icon. Keep it tight.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,82 +211,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Making Icons Accessible</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-05-16T17:42:34.000Z" itemprop="datePublished">16 May 2018</time>
-        </div>      
-      <p>I've been using the excellent Font Awesome for a few years and it's become part of almost every new design that I do. For a long time I've just slapped my icon down on the page, styled it and added a click event where needed. Job done.</p>
-<p>Having spent some time looking a bit more deeply into accessibility, I can now see that this is not a great approach. There's more to consider. If you can't see it what is it actually doing?</p>
-<p>Here's how I approach using icons now. It may not be the perfect solution but it's certainly a lot closer than most use cases I see. The way I use HTML depends on the use case.</p>
-<p>If the icon is purely decorative - there in addition to text, e.g. a floppy disk icon next to the word &quot;Save&quot; on a button, then I think we can reasonably just forget about it and hide it for non screen users. A simple aria-hidden=&quot;true&quot; attribute should do.</p>
-<p><code>&lt;button&gt;&lt;i class=&quot;fa fa-save&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Save&lt;/button&gt;</code></p>
-<p>If it is there as an indicator, in place of a label, like where a hotel might have icons for TV, bath, etc. then we can use an &lt;span&gt; to wrap it. Inside the span we add our icon and another span with a text alternative. We show the icon and hide the inner span for screens, show the text only for other media.</p>
-<p>Finally, if the icon is interactive and acts like a link or button, let's make it a link or button. Like the previous example, use the &lt;button&gt; or &lt;a&gt; tag to wrap the icon and a span text alternative and show/hide for the appropriate media. This has the added bonus of making it possible to tab to the icon and so use just the keyboard to navigate the page. It also handles the icon's active state and visited in the case of a link.</p>
-<p>Alternatively, if you didn't want to add a span with text inside your button or link, you could use the aria-label attribute to provide a text alternative.</p>
-<p>One little tip. If you use an icon inside a link or button, do not leave whitespace between the outer wrapper element and the inner icon as you may get unwanted effects in the styling, such as underlined spaces either side of your icon. Keep it tight.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

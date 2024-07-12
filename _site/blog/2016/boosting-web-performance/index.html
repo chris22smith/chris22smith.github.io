@@ -41,6 +41,85 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Boosting Web Performance</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-02-10T17:40:42.000Z" itemprop="datePublished">10 February 2016</time>
+        </div>      
+      <p>One of the areas of front end development I've really got into in the last year or so is performance. It's always been there in the background (along with SEO and accessibility) but it seems to have a lot more focus in the web community lately.</p>
+<p>For a while I've been looking at different ways to speed up various sites I work on. This site has given me a perfect guinea pig for trying out some different techniques. Let's give it a boost! Oooosh!</p>
+<h3>Static</h3>
+My first idea for making this site super fast to load was to make all of the pages static. I started off by just making a few pages but soon realised that as things grew and I wanted to make design changes it just wasn't scalable. It was fast though. If I was building a simple site with only a handful of pages this is the way to go.
+<h3>Jekyll</h3>
+To try to get the best of both worlds, static for speed and CMS for convenience, I moved on to using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, a static site generator. After jumping through a lot of hoops I got it set up. It works really well and if you're planning to update a site from a single machine I'd say this is the perfect solution.
+<h3>WordPress</h3>
+For various reasons I moved back to good old uncle <a href="https://wordpress.org/" target="_blank">WordPress</a>. It's so easy to update from anywhere, which means I actually do it, plus I feel that it's become so big in the web industry (almost its own industry) that I can't really afford not to know my way around it.
+<p>So, my new challenge is to make my WordPress site fast. There are various well renowned caching plugins, e.g. <a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank">W3 Total Cache</a>, which would effectively turn my PHP into static pages. Unfortunately, these don't seem to work with my <a href="https://codex.wordpress.org/Create_A_Network" target="_blank">multisite</a> setup so I've tried something different.</p>
+<h3>Cloudflare</h3>
+I've routed my site through <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>. It's a website fronting service which aims to improve performance and security. They host your site on various servers around the world so you get the benefits of a CDN - fast delivery to far flung parts of the world. They concatenate and minify static files for you - one less job. They also handle security threats and high spikes in traffic so your site doesn't go down. As if that wasn't enough, they also serve your files over https - cheaper than SSL hosting and great for SEO.
+<p>So far so great. Definitely worth a look on top of whatever other optimisations you're doing. :)</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,85 +214,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Boosting Web Performance</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-02-10T17:40:42.000Z" itemprop="datePublished">10 February 2016</time>
-        </div>      
-      <p>One of the areas of front end development I've really got into in the last year or so is performance. It's always been there in the background (along with SEO and accessibility) but it seems to have a lot more focus in the web community lately.</p>
-<p>For a while I've been looking at different ways to speed up various sites I work on. This site has given me a perfect guinea pig for trying out some different techniques. Let's give it a boost! Oooosh!</p>
-<h3>Static</h3>
-My first idea for making this site super fast to load was to make all of the pages static. I started off by just making a few pages but soon realised that as things grew and I wanted to make design changes it just wasn't scalable. It was fast though. If I was building a simple site with only a handful of pages this is the way to go.
-<h3>Jekyll</h3>
-To try to get the best of both worlds, static for speed and CMS for convenience, I moved on to using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, a static site generator. After jumping through a lot of hoops I got it set up. It works really well and if you're planning to update a site from a single machine I'd say this is the perfect solution.
-<h3>WordPress</h3>
-For various reasons I moved back to good old uncle <a href="https://wordpress.org/" target="_blank">WordPress</a>. It's so easy to update from anywhere, which means I actually do it, plus I feel that it's become so big in the web industry (almost its own industry) that I can't really afford not to know my way around it.
-<p>So, my new challenge is to make my WordPress site fast. There are various well renowned caching plugins, e.g. <a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank">W3 Total Cache</a>, which would effectively turn my PHP into static pages. Unfortunately, these don't seem to work with my <a href="https://codex.wordpress.org/Create_A_Network" target="_blank">multisite</a> setup so I've tried something different.</p>
-<h3>Cloudflare</h3>
-I've routed my site through <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>. It's a website fronting service which aims to improve performance and security. They host your site on various servers around the world so you get the benefits of a CDN - fast delivery to far flung parts of the world. They concatenate and minify static files for you - one less job. They also handle security threats and high spikes in traffic so your site doesn't go down. As if that wasn't enough, they also serve your files over https - cheaper than SSL hosting and great for SEO.
-<p>So far so great. Definitely worth a look on top of whatever other optimisations you're doing. :)</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

@@ -41,6 +41,85 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Stop Linking to Nowhere</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-08-01T17:26:36.000Z" itemprop="datePublished">1 August 2018</time>
+        </div>      
+      <p>Do you find yourself writing this kind of thing in your HTML?
+<code>&lt;a href=&quot;#&quot; onclick=&quot;doSomething()&quot;&gt;Some action&lt;/a&gt;</code></p>
+<p>Does that <code>href=&quot;#&quot;</code> make you feel slightly uncomfortable? Like it's not really doing anything, a bit of a hack? You'd be dead right to think that.</p>
+<p>Links are used like this all the time and there's really no need. The intended purpose of links is to point to another location and provide navigation. That's why the href is there. It's pointing to another place but it's often left pointing nowhere.</p>
+<p>It's probably worth pointing out that using <code>href=&quot;#&quot;</code> doesn't actually do nothing. It adds a # onto your current location, changing the URL, so when you then click the back button it appears to do nothing but is actually going back to the last location, the URL without the #. If you do use <code>href=&quot;#&quot;</code> and an onclick event be sure to use <code>event.preventDefault()</code> with it to prevent this location change.</p>
+<p>Links get used in this way mainly because we want the styling and the interactivity. Hovering a link gives visual cues - underline changes, cursor changes so it's easy for a user to see it's something they can interact with.</p>
+<p>So, what's the alternative? If you're just performing an action, use a button. It has the visual cues. It doesn't have any hacky <code>href=&quot;#&quot;</code> nonsense. It can be styled however you wish if the default styling is too full-on. It can even be styled to look exactly like a link, though personally I think there's value in differentiating between navigation and actions.</p>
+<p>And there's more... You get some more benefits for free with a button.</p>
+<p>You have a disabled property. You can easily make your action unavailable. Not so easy with a link.</p>
+<p>It's more touch friendly. This depends on styling but out-of-the-box it's a larger touch target.</p>
+<p>It has an autofocus property so it can be in focus on page load without needing any JavaScript. Ready to go at the tap of the Enter key.</p>
+<p>If you use links for navigation and buttons for actions you get every tool doing what it's best at. You could cut your food with the side of your fork and raise it to your mouth on the side of your knife but why would you? This isn't really so different.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,85 +214,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Stop Linking to Nowhere</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-08-01T17:26:36.000Z" itemprop="datePublished">1 August 2018</time>
-        </div>      
-      <p>Do you find yourself writing this kind of thing in your HTML?
-<code>&lt;a href=&quot;#&quot; onclick=&quot;doSomething()&quot;&gt;Some action&lt;/a&gt;</code></p>
-<p>Does that <code>href=&quot;#&quot;</code> make you feel slightly uncomfortable? Like it's not really doing anything, a bit of a hack? You'd be dead right to think that.</p>
-<p>Links are used like this all the time and there's really no need. The intended purpose of links is to point to another location and provide navigation. That's why the href is there. It's pointing to another place but it's often left pointing nowhere.</p>
-<p>It's probably worth pointing out that using <code>href=&quot;#&quot;</code> doesn't actually do nothing. It adds a # onto your current location, changing the URL, so when you then click the back button it appears to do nothing but is actually going back to the last location, the URL without the #. If you do use <code>href=&quot;#&quot;</code> and an onclick event be sure to use <code>event.preventDefault()</code> with it to prevent this location change.</p>
-<p>Links get used in this way mainly because we want the styling and the interactivity. Hovering a link gives visual cues - underline changes, cursor changes so it's easy for a user to see it's something they can interact with.</p>
-<p>So, what's the alternative? If you're just performing an action, use a button. It has the visual cues. It doesn't have any hacky <code>href=&quot;#&quot;</code> nonsense. It can be styled however you wish if the default styling is too full-on. It can even be styled to look exactly like a link, though personally I think there's value in differentiating between navigation and actions.</p>
-<p>And there's more... You get some more benefits for free with a button.</p>
-<p>You have a disabled property. You can easily make your action unavailable. Not so easy with a link.</p>
-<p>It's more touch friendly. This depends on styling but out-of-the-box it's a larger touch target.</p>
-<p>It has an autofocus property so it can be in focus on page load without needing any JavaScript. Ready to go at the tap of the Enter key.</p>
-<p>If you use links for navigation and buttons for actions you get every tool doing what it's best at. You could cut your food with the side of your fork and raise it to your mouth on the side of your knife but why would you? This isn't really so different.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

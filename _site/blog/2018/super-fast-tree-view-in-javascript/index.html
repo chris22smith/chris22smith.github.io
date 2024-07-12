@@ -41,6 +41,86 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Super Fast Tree View in JavaScript</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-10-05T16:25:04.000Z" itemprop="datePublished">5 October 2018</time>
+        </div>      
+      <p>I thought I'd share a way of writing your JavaScript that will make a tree view hierarchy render and respond very quickly.</p>
+<p>Firstly, the demo. I've got 100,000 items, quite a hefty data set, which is randomly generated in a function. You can change the number of items easily in the JS area. Click on the + or - icons to expand or collapse nodes.</p>
+<p>[codepen_embed height=&quot;520&quot; theme_id=&quot;dark&quot; slug_hash=&quot;WawYKX&quot; default_tab=&quot;result&quot; user=&quot;chris22smith&quot; editable=&quot;true&quot; data-editable=&quot;true&quot;]See the Pen <a href="https://codepen.io/chris22smith/pen/WawYKX/">Super Fast JavaScript Data Tree</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>) on <a href="https://codepen.io">CodePen</a>.[/codepen_embed]</p>
+<p>It's still quick, like instant, with 100,000 items. It can start to slow a little at a million but I'd say it's still acceptable given that kind of data.</p>
+<h3>One Long List</h3>
+The trick is in how the data is structured. It's one big array, not hierarchical data with objects inside other objects. The reason for this is pretty simple, it's all about iterations or looping. If you have a single array you can run through the whole list of items once. If it's nested you have to get into loops inside other loops and it gets more complicated and takes longer. In fact, you'd be lucky for it to work at all without getting stack overflow errors.
+<h3>JavaScript Magic</h3>
+With a single array you can use the built in JavaScript Array methods, which are very fast - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" rel="noopener">map()</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="noopener">filter()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a>. I'd definitely recommend reading up on these. All three work in IE9+ so hopefully you shouldn't have to worry too much about browser support.
+<p>I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" rel="noopener">map()</a> to convert each data item into a HTML list item which I can insert into the DOM. I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="noopener">filter()</a> to quickly find the children items of any item by returning a subset, and I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a> to see if an item has children. The beauty of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a> is that once its found it child it stops iterating, saving time.</p>
+<h3>Easy on the DOM</h3>
+The other part of this is keeping DOM manipulation to a minimum. Playing around with data in memory trivial for a browser but making changes to the DOM and rendering things on screen takes time. So, only the nodes that are needed right now exist in the DOM - there are not hidden items waiting on the sidelines. So, a new &lt;ul&gt; is added when you expand a node and the &lt;ul&gt; is removed when you collapse. A + icon is shown if the item has children of its own but we don't know anything about how many it has or what they contain until it's expanded.
+<h3>More...</h3>
+If you found this useful it might be worth looking at my older post <a href="/blog/lightning-fast-filtering-in-javascript/" target="_blank" rel="noopener">Lightning Fast Filtering in JavaScript</a>, which uses a lot of the same principles.
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,86 +215,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Super Fast Tree View in JavaScript</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-10-05T16:25:04.000Z" itemprop="datePublished">5 October 2018</time>
-        </div>      
-      <p>I thought I'd share a way of writing your JavaScript that will make a tree view hierarchy render and respond very quickly.</p>
-<p>Firstly, the demo. I've got 100,000 items, quite a hefty data set, which is randomly generated in a function. You can change the number of items easily in the JS area. Click on the + or - icons to expand or collapse nodes.</p>
-<p>[codepen_embed height=&quot;520&quot; theme_id=&quot;dark&quot; slug_hash=&quot;WawYKX&quot; default_tab=&quot;result&quot; user=&quot;chris22smith&quot; editable=&quot;true&quot; data-editable=&quot;true&quot;]See the Pen <a href="https://codepen.io/chris22smith/pen/WawYKX/">Super Fast JavaScript Data Tree</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>) on <a href="https://codepen.io">CodePen</a>.[/codepen_embed]</p>
-<p>It's still quick, like instant, with 100,000 items. It can start to slow a little at a million but I'd say it's still acceptable given that kind of data.</p>
-<h3>One Long List</h3>
-The trick is in how the data is structured. It's one big array, not hierarchical data with objects inside other objects. The reason for this is pretty simple, it's all about iterations or looping. If you have a single array you can run through the whole list of items once. If it's nested you have to get into loops inside other loops and it gets more complicated and takes longer. In fact, you'd be lucky for it to work at all without getting stack overflow errors.
-<h3>JavaScript Magic</h3>
-With a single array you can use the built in JavaScript Array methods, which are very fast - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" rel="noopener">map()</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="noopener">filter()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a>. I'd definitely recommend reading up on these. All three work in IE9+ so hopefully you shouldn't have to worry too much about browser support.
-<p>I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank" rel="noopener">map()</a> to convert each data item into a HTML list item which I can insert into the DOM. I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank" rel="noopener">filter()</a> to quickly find the children items of any item by returning a subset, and I use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a> to see if an item has children. The beauty of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some" target="_blank" rel="noopener">some()</a> is that once its found it child it stops iterating, saving time.</p>
-<h3>Easy on the DOM</h3>
-The other part of this is keeping DOM manipulation to a minimum. Playing around with data in memory trivial for a browser but making changes to the DOM and rendering things on screen takes time. So, only the nodes that are needed right now exist in the DOM - there are not hidden items waiting on the sidelines. So, a new &lt;ul&gt; is added when you expand a node and the &lt;ul&gt; is removed when you collapse. A + icon is shown if the item has children of its own but we don't know anything about how many it has or what they contain until it's expanded.
-<h3>More...</h3>
-If you found this useful it might be worth looking at my older post <a href="/blog/lightning-fast-filtering-in-javascript/" target="_blank" rel="noopener">Lightning Fast Filtering in JavaScript</a>, which uses a lot of the same principles.
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

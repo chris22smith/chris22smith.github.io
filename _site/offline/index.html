@@ -41,6 +41,48 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article>
+        <h1>Offline :(</h1>
+      <p>You're offline right now but don't worry, any pages you've visted before will be cached so you can still access them.</p>
+<p><a href="/">Home</a></p>
+<div class="dino-container">
+    <img src="../img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
+</div>
+<style>
+    .dino-container {
+
+    }
+    .dino {
+        animation: run 2s infinite ease-out;
+        block-size: 10vw;
+        inline-size: 10vw;
+    }
+
+    @keyframes run {
+        0% {
+            transform: translateX(0) rotateY(0);
+        }
+        40% {
+            transform: translateX(100%) rotateY(0);
+        }
+        50% {
+            transform: translateX(100%) rotateY(180deg);
+        }
+        90% {
+            transform: translateX(0) rotateY(180deg);
+        }
+        100% {
+            transform: translateX(0) rotateY(0);
+        }
+    }
+</style>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,48 +177,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article>
-        <h1>Offline :(</h1>
-      <p>You're offline right now but don't worry, any pages you've visted before will be cached so you can still access them.</p>
-<p><a href="/">Home</a></p>
-<div class="dino-container">
-    <img src="../img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
-</div>
-<style>
-    .dino-container {
-
-    }
-    .dino {
-        animation: run 2s infinite ease-out;
-        block-size: 10vw;
-        inline-size: 10vw;
-    }
-
-    @keyframes run {
-        0% {
-            transform: translateX(0) rotateY(0);
-        }
-        40% {
-            transform: translateX(100%) rotateY(0);
-        }
-        50% {
-            transform: translateX(100%) rotateY(180deg);
-        }
-        90% {
-            transform: translateX(0) rotateY(180deg);
-        }
-        100% {
-            transform: translateX(0) rotateY(0);
-        }
-    }
-</style>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

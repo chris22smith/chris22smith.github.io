@@ -41,6 +41,92 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Please stop using flags to represent languages</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-03-05T16:05:00.000Z" itemprop="datePublished">5 March 2024</time>
+        </div>      
+      <p>Yeah, please stop doing that. Stop it. Stop. If you want to know why you should stop it then read on.</p>
+<h2>The problem</h2>
+<p>It's really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not. It's not a one to one relationship. A country can use multiple languages, like English and French in Canada, and multiple countries can use one language, like German in Germany, Austria and Switzerland. So, it's a many to many relationship.</p>
+<p>If you're a company in Canada and want to show a flag for the English and French languages, what do you show? The Canadian flag doesn't help. It doesn't really make sense to show the flag of France for French but is inappropriate to show the British or American flag for English. Canadians don't consider themselves a different nationality because they use a certain language.</p>
+<p>If you're a website user in Austria and want to view the content in German, you don't want to select the German flag. You'd probably understand what you need to do but it's not ideal.</p>
+<h2>The solution</h2>
+<p>The best option is to display the languages in text in their native language so that the user can always recognise their own language, like this:</p>
+<ul>
+<li>Deutsch</li>
+<li>English</li>
+<li>español</li>
+<li>français</li>
+<li>Português</li>
+<li>普通话</li>
+<li>Русский</li>
+</ul>
+<p>With this in mind, don't hide it behind a label that says &quot;Choose language&quot;, just display the selected or default language and possibly add a globe icon to convey the idea of language or culture.</p>
+<h2>Same language, different culture</h2>
+<p>If you use a language picker then consider broadening it out to provide more cultural options. Rather than just offering English you could offer English (UK) and English (USA), or français (France) and français (Canada). By capturing the preferred culture as well as language you can make the best use of the JavaScript <code>Intl</code> namespace and present details like thousand separators or date format as the user would expect. You know whether they're more likely to prefer data presented in the Imperial or Metric system. It opens up many options for greater personalisation and a better experience.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,92 +221,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Please stop using flags to represent languages</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-03-05T16:05:00.000Z" itemprop="datePublished">5 March 2024</time>
-        </div>      
-      <p>Yeah, please stop doing that. Stop it. Stop. If you want to know why you should stop it then read on.</p>
-<h2>The problem</h2>
-<p>It's really quite simple. What do flags represent? Yes, countries. Are countries and languages the same? Sometimes but often not. It's not a one to one relationship. A country can use multiple languages, like English and French in Canada, and multiple countries can use one language, like German in Germany, Austria and Switzerland. So, it's a many to many relationship.</p>
-<p>If you're a company in Canada and want to show a flag for the English and French languages, what do you show? The Canadian flag doesn't help. It doesn't really make sense to show the flag of France for French but is inappropriate to show the British or American flag for English. Canadians don't consider themselves a different nationality because they use a certain language.</p>
-<p>If you're a website user in Austria and want to view the content in German, you don't want to select the German flag. You'd probably understand what you need to do but it's not ideal.</p>
-<h2>The solution</h2>
-<p>The best option is to display the languages in text in their native language so that the user can always recognise their own language, like this:</p>
-<ul>
-<li>Deutsch</li>
-<li>English</li>
-<li>español</li>
-<li>français</li>
-<li>Português</li>
-<li>普通话</li>
-<li>Русский</li>
-</ul>
-<p>With this in mind, don't hide it behind a label that says &quot;Choose language&quot;, just display the selected or default language and possibly add a globe icon to convey the idea of language or culture.</p>
-<h2>Same language, different culture</h2>
-<p>If you use a language picker then consider broadening it out to provide more cultural options. Rather than just offering English you could offer English (UK) and English (USA), or français (France) and français (Canada). By capturing the preferred culture as well as language you can make the best use of the JavaScript <code>Intl</code> namespace and present details like thousand separators or date format as the user would expect. You know whether they're more likely to prefer data presented in the Imperial or Metric system. It opens up many options for greater personalisation and a better experience.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

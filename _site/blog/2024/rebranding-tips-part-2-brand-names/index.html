@@ -41,6 +41,91 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Rebranding Tips - Part 2 - Brand Names</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-01-08T16:31:00.000Z" itemprop="datePublished">8 January 2024</time>
+        </div>      
+      <p>I've been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I'd share some of the oddities that cropped up for me and some tips.</p>
+<hr>
+<h2>Brand names</h2>
+<p>You might think that updating brand names is as simple as a text find and replace but there can be more to it. Text can be hidden away in templates, config files and databases.</p>
+<h2>Casing</h2>
+<p>How a brand name appears in text can be important. Some names are always used in lowercase, some always uppercase, some title case and some sentence case. You have to be careful that this casing is how the text naturally appears is not set by CSS or JavaScript or somehow manipulated in the backend. It's probably a good idea to remove anything that sets this and make the natural text appear as expected.</p>
+<h2>Context</h2>
+<p>Another oddity I've come across is that some names can contain a certain word or meaning that no longer fits the context. For example, if the old company name was &quot;Oldco&quot; and we had something that said &quot;OldCo services&quot; but the new company name is &quot;NewCo Services&quot; then &quot;NewCo Services services&quot; feels weird. You may need to manually check for how the name is used if it contains real words and rewrite some text.</p>
+<h2>Email addresses</h2>
+<p>If a domain is changing or we at least want to stop using the old name in any display text then there's a way of doing this. Suppose our page says &quot;For help please email support@oldco.com&quot;. It's mentioning OldCo, which we want to avoid. Instead of just substituting the new name email address (if there is one) it's better to change the link so that we get something like &quot;For help please &lt;email our support team&gt;&quot; with the text in angled brackets linked to the email address. This not only conceals the old domain name but now uses meaningful hyperlink text, which is better for user experience and accessibility.</p>
+<hr>
+<p>In this Rebranding Tips series:</p>
+<ul>
+<li><a href="/blog/rebranding-tips-part-1-logos">Rebranding Tips - Part 1 - Logos</a></li>
+<li>Rebranding Tips - Part 2 - Brand Names</li>
+<li><a href="/blog/rebranding-tips-part-3-colours">Rebranding Tips - Part 3 - Colours</a></li>
+<li><a href="/blog/rebranding-tips-part-4-typography">Rebranding Tips - Part 4 - Typography</a></li>
+</ul>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,91 +220,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Rebranding Tips - Part 2 - Brand Names</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-01-08T16:31:00.000Z" itemprop="datePublished">8 January 2024</time>
-        </div>      
-      <p>I've been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I'd share some of the oddities that cropped up for me and some tips.</p>
-<hr>
-<h2>Brand names</h2>
-<p>You might think that updating brand names is as simple as a text find and replace but there can be more to it. Text can be hidden away in templates, config files and databases.</p>
-<h2>Casing</h2>
-<p>How a brand name appears in text can be important. Some names are always used in lowercase, some always uppercase, some title case and some sentence case. You have to be careful that this casing is how the text naturally appears is not set by CSS or JavaScript or somehow manipulated in the backend. It's probably a good idea to remove anything that sets this and make the natural text appear as expected.</p>
-<h2>Context</h2>
-<p>Another oddity I've come across is that some names can contain a certain word or meaning that no longer fits the context. For example, if the old company name was &quot;Oldco&quot; and we had something that said &quot;OldCo services&quot; but the new company name is &quot;NewCo Services&quot; then &quot;NewCo Services services&quot; feels weird. You may need to manually check for how the name is used if it contains real words and rewrite some text.</p>
-<h2>Email addresses</h2>
-<p>If a domain is changing or we at least want to stop using the old name in any display text then there's a way of doing this. Suppose our page says &quot;For help please email support@oldco.com&quot;. It's mentioning OldCo, which we want to avoid. Instead of just substituting the new name email address (if there is one) it's better to change the link so that we get something like &quot;For help please &lt;email our support team&gt;&quot; with the text in angled brackets linked to the email address. This not only conceals the old domain name but now uses meaningful hyperlink text, which is better for user experience and accessibility.</p>
-<hr>
-<p>In this Rebranding Tips series:</p>
-<ul>
-<li><a href="/blog/rebranding-tips-part-1-logos">Rebranding Tips - Part 1 - Logos</a></li>
-<li>Rebranding Tips - Part 2 - Brand Names</li>
-<li><a href="/blog/rebranding-tips-part-3-colours">Rebranding Tips - Part 3 - Colours</a></li>
-<li><a href="/blog/rebranding-tips-part-4-typography">Rebranding Tips - Part 4 - Typography</a></li>
-</ul>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

@@ -41,6 +41,107 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Front End Performance Enhancements</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-05-01T13:00:40.000Z" itemprop="datePublished">1 May 2017</time>
+        </div>      
+      <p>I've recently made a load of changes to a site to improve the page loading times. Now that I'm happy it's worked I thought I'd share some of the moves. Broadly, we're looking to load up fewer files and to make each file as small as possible.</p>
+<h3>Remove Inline Content</h3>
+My first step was to get rid of any inline styling or scripting, moving as much as possible into .css or .js files so they are recognised as static resources and cached. Moving &lt;style&gt; blocks out into new CSS files or &lt;script&gt; to JavaScript files is pretty straightforward.
+<p>I came across a few instances where these are using some server side binding, something like this:</p>
+<p><code></code></p>
+<pre>&lt;script&gt;
+  // lots of code
+  user.companyName = '@CompanyName';
+  // lots of code
+&lt;/script&gt;
+</pre>
+<p>Here, @CompanyName is coming from the server. This doesn't mean that the whole script block has to stay in the HTML. It's easy to just pull out any server data and stick it in a variable and then move everything else to an external file. Like this:</p>
+<p><code></code></p>
+<pre>&lt;script&gt;
+  var companyName = '@CompanyName';
+&lt;/script&gt;
+&lt;script src="lots-of-code.js"&gt;&lt;/script&gt;
+</pre>
+<p>Now the bulk of the code can be cached.</p>
+<h3>Concatenation</h3>
+The next step was to reduce http requests by combining files. You can manually copy all of the CSS or JavaScript into a single file but it's much more practical to do this with a task runner, like Gulp or Grunt. In ASP.NET there's a handy RegisterBundles method which combines files into a single resource for you.
+<h3>Minification</h3>
+As well as reducing the number of files we can also reduce the size of files. Minification removes whitespace and comments and often optimises repeated code like variable names to make the file as small as possible. This can be done in a task runner too. In ASP.NET it's an option within bundling - BundlesTable.EnableOptimizations = true.
+<h3>Prefetching</h3>
+Prefetching is basically going and getting resources and putting them in the cache ready for future use. You just tell your page which resources to get and when it's idle it gets them asynchronously. This means you're shifting the load from your second page onto your first page but without ever affecting the user's experience. The trick is knowing what page he/she will go to next and loading the appropriate resources and trying to avoid loading things which will not be needed. It's particularly effective on stepped processes or wizards.
+<p>The sites I've been working on had a very light login screen, which upon success takes you to a dashboard. As I knew where the user would be going next it meant that I could prefetch the resources. Obviously I couldn't prefetch anything sensitive that required the user to be logged, like API calls, in but it did mean I could have all of the site wide JavaScript libraries and CSS ready to go. Here's how it looks in the HTML:</p>
+<p><code></code></p>
+<pre>&lt;link rel="prefetch" href="~/bundles/GlobalJS"&gt;
+</pre>
+<p>Easy, right? As you can see, here I'm prefetching my global JavaScript bundle or concatenated and minified JavaScript resource.</p>
+<p>The site structure was a series of list pages which each have their own details page to view a record in more detail. I made the assumption that if a user navigated to a list page he/she had the intention of viewing a record. So, from the list page I prefetched the resources needed for the details page.</p>
+<p>There's a great article on <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a> which goes into far more detail - <a href="https://css-tricks.com/prefetching-preloading-prebrowsing/" target="_blank" rel="noopener noreferrer">Prefetching, preloading, prebrowsing</a>.</p>
+<h3>Instant</h3>
+Looking at the Page Timings in Google Analytics almost all pages have reduced loading times, some are now even instant. They have no resources to load as everything is already cached. There's still some client side processing to be done after load but I'm happy I've managed to take away most of the user's waiting time.
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,107 +236,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Front End Performance Enhancements</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-05-01T13:00:40.000Z" itemprop="datePublished">1 May 2017</time>
-        </div>      
-      <p>I've recently made a load of changes to a site to improve the page loading times. Now that I'm happy it's worked I thought I'd share some of the moves. Broadly, we're looking to load up fewer files and to make each file as small as possible.</p>
-<h3>Remove Inline Content</h3>
-My first step was to get rid of any inline styling or scripting, moving as much as possible into .css or .js files so they are recognised as static resources and cached. Moving &lt;style&gt; blocks out into new CSS files or &lt;script&gt; to JavaScript files is pretty straightforward.
-<p>I came across a few instances where these are using some server side binding, something like this:</p>
-<p><code></code></p>
-<pre>&lt;script&gt;
-  // lots of code
-  user.companyName = '@CompanyName';
-  // lots of code
-&lt;/script&gt;
-</pre>
-<p>Here, @CompanyName is coming from the server. This doesn't mean that the whole script block has to stay in the HTML. It's easy to just pull out any server data and stick it in a variable and then move everything else to an external file. Like this:</p>
-<p><code></code></p>
-<pre>&lt;script&gt;
-  var companyName = '@CompanyName';
-&lt;/script&gt;
-&lt;script src="lots-of-code.js"&gt;&lt;/script&gt;
-</pre>
-<p>Now the bulk of the code can be cached.</p>
-<h3>Concatenation</h3>
-The next step was to reduce http requests by combining files. You can manually copy all of the CSS or JavaScript into a single file but it's much more practical to do this with a task runner, like Gulp or Grunt. In ASP.NET there's a handy RegisterBundles method which combines files into a single resource for you.
-<h3>Minification</h3>
-As well as reducing the number of files we can also reduce the size of files. Minification removes whitespace and comments and often optimises repeated code like variable names to make the file as small as possible. This can be done in a task runner too. In ASP.NET it's an option within bundling - BundlesTable.EnableOptimizations = true.
-<h3>Prefetching</h3>
-Prefetching is basically going and getting resources and putting them in the cache ready for future use. You just tell your page which resources to get and when it's idle it gets them asynchronously. This means you're shifting the load from your second page onto your first page but without ever affecting the user's experience. The trick is knowing what page he/she will go to next and loading the appropriate resources and trying to avoid loading things which will not be needed. It's particularly effective on stepped processes or wizards.
-<p>The sites I've been working on had a very light login screen, which upon success takes you to a dashboard. As I knew where the user would be going next it meant that I could prefetch the resources. Obviously I couldn't prefetch anything sensitive that required the user to be logged, like API calls, in but it did mean I could have all of the site wide JavaScript libraries and CSS ready to go. Here's how it looks in the HTML:</p>
-<p><code></code></p>
-<pre>&lt;link rel="prefetch" href="~/bundles/GlobalJS"&gt;
-</pre>
-<p>Easy, right? As you can see, here I'm prefetching my global JavaScript bundle or concatenated and minified JavaScript resource.</p>
-<p>The site structure was a series of list pages which each have their own details page to view a record in more detail. I made the assumption that if a user navigated to a list page he/she had the intention of viewing a record. So, from the list page I prefetched the resources needed for the details page.</p>
-<p>There's a great article on <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a> which goes into far more detail - <a href="https://css-tricks.com/prefetching-preloading-prebrowsing/" target="_blank" rel="noopener noreferrer">Prefetching, preloading, prebrowsing</a>.</p>
-<h3>Instant</h3>
-Looking at the Page Timings in Google Analytics almost all pages have reduced loading times, some are now even instant. They have no resources to load as everything is already cached. There's still some client side processing to be done after load but I'm happy I've managed to take away most of the user's waiting time.
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

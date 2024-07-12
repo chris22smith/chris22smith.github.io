@@ -41,6 +41,89 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">HTML Semantics - Header or Sidebar?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-03-09T19:10:24.000Z" itemprop="datePublished">9 March 2017</time>
+        </div>      
+      <p>Here's a question on HTML semantics. We now have the not-so-new HTML5 semantic sectioning elements which define areas of the page and try to bring more meaning to it. This is generally seen as a step forward from using &lt;div&gt; which has no particular meaning. Does it always work?</p>
+<p>There's quite a common design pattern where a wider screen will show the logo and navigation in a sidebar on the left and then in a narrower screen will show it at the top. I've used this myself a few times. Here's a quick illustration of what I mean:</p>
+<div style="clear: both;">
+<p>[caption id=&quot;attachment_567&quot; align=&quot;aligncenter&quot; width=&quot;200&quot;]<img class="wp-image-567 size-full" style="border: solid 1px #000;" src="/img/2017/03/screen-with-sidebar.png" alt="screen with sidebar" width="200" height="150" /> Wider screen with sidebar[/caption]</p>
+<p>[caption id=&quot;attachment_566&quot; align=&quot;aligncenter&quot; width=&quot;150&quot;]<img class="wp-image-566 size-full" style="border: solid 1px #000;" src="/img/2017/03/screen-with-header.png" alt="screen with header" width="150" height="200" /> Narrower screen with header[/caption]</p>
+</div>
+My own website, chrissmith.xyz, currently uses this pattern. I'm using the WordPress theme twentyfifteen with my own child theme over it. The twentyfifteen theme uses an &lt;aside&gt; element for logo and navigation. When I've built my own sites I used the &lt;header&gt; element for this. My feeling was that the content was semantically header information, and that the fact that it appeared on the side on larger screens was not really important. To me &lt;aside&gt; means that the content is supplementary or in addition to the main content whereas &lt;header&gt;, used at the top level, is almost like a fixed part of the page layout template.
+<p>Ultimately, it comes down to the content. I've used the &lt;aside&gt; on this site in a fairly static, global way, so really it is a header. The theme creators can't know how the area is going to be used - if it's global or changes with the context of each page, so I guess it makes sense to keep the door open and use &lt;aside&gt;.</p>
+<h3>Changing Content</h3>
+We don't necessarily show the same content at different screen sizes. We might show contextual content in the sidebar but on a smaller screen we might choose not to use it. If we change the displayed content with media queries than how can we use semantic sectioning elements correctly? We could have an &lt;aside&gt; and a &lt;header&gt; in our markup but that's a lot of unused bloat.
+<h3>Aria Roles?</h3>
+Maybe we keep the one element but change the aria-role with JavaScript, e.g. &lt;aside aria-role="banner"&gt;? Or do we go back to a &lt;div&gt; and use aria-roles?
+<h3>Replace HTML?</h3>
+We could even switch out the element using JavaScript. Add the other element, append the content to it and then remove the original element. Or just get something different from the server, either by using a cookie or just a parameter in an Ajax request.
+<p>The example I've given is quite subtle but I can imagine wanting to combine header, sidebar or footer content on smaller screens. How do we handle this and keep it all semantic?</p>
+<p> </p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,89 +218,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">HTML Semantics - Header or Sidebar?</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-03-09T19:10:24.000Z" itemprop="datePublished">9 March 2017</time>
-        </div>      
-      <p>Here's a question on HTML semantics. We now have the not-so-new HTML5 semantic sectioning elements which define areas of the page and try to bring more meaning to it. This is generally seen as a step forward from using &lt;div&gt; which has no particular meaning. Does it always work?</p>
-<p>There's quite a common design pattern where a wider screen will show the logo and navigation in a sidebar on the left and then in a narrower screen will show it at the top. I've used this myself a few times. Here's a quick illustration of what I mean:</p>
-<div style="clear: both;">
-<p>[caption id=&quot;attachment_567&quot; align=&quot;aligncenter&quot; width=&quot;200&quot;]<img class="wp-image-567 size-full" style="border: solid 1px #000;" src="/img/2017/03/screen-with-sidebar.png" alt="screen with sidebar" width="200" height="150" /> Wider screen with sidebar[/caption]</p>
-<p>[caption id=&quot;attachment_566&quot; align=&quot;aligncenter&quot; width=&quot;150&quot;]<img class="wp-image-566 size-full" style="border: solid 1px #000;" src="/img/2017/03/screen-with-header.png" alt="screen with header" width="150" height="200" /> Narrower screen with header[/caption]</p>
-</div>
-My own website, chrissmith.xyz, currently uses this pattern. I'm using the WordPress theme twentyfifteen with my own child theme over it. The twentyfifteen theme uses an &lt;aside&gt; element for logo and navigation. When I've built my own sites I used the &lt;header&gt; element for this. My feeling was that the content was semantically header information, and that the fact that it appeared on the side on larger screens was not really important. To me &lt;aside&gt; means that the content is supplementary or in addition to the main content whereas &lt;header&gt;, used at the top level, is almost like a fixed part of the page layout template.
-<p>Ultimately, it comes down to the content. I've used the &lt;aside&gt; on this site in a fairly static, global way, so really it is a header. The theme creators can't know how the area is going to be used - if it's global or changes with the context of each page, so I guess it makes sense to keep the door open and use &lt;aside&gt;.</p>
-<h3>Changing Content</h3>
-We don't necessarily show the same content at different screen sizes. We might show contextual content in the sidebar but on a smaller screen we might choose not to use it. If we change the displayed content with media queries than how can we use semantic sectioning elements correctly? We could have an &lt;aside&gt; and a &lt;header&gt; in our markup but that's a lot of unused bloat.
-<h3>Aria Roles?</h3>
-Maybe we keep the one element but change the aria-role with JavaScript, e.g. &lt;aside aria-role="banner"&gt;? Or do we go back to a &lt;div&gt; and use aria-roles?
-<h3>Replace HTML?</h3>
-We could even switch out the element using JavaScript. Add the other element, append the content to it and then remove the original element. Or just get something different from the server, either by using a cookie or just a parameter in an Ajax request.
-<p>The example I've given is quite subtle but I can imagine wanting to combine header, sidebar or footer content on smaller screens. How do we handle this and keep it all semantic?</p>
-<p> </p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

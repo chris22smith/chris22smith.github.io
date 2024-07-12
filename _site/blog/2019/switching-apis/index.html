@@ -41,6 +41,81 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Switching APIs</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2019-10-17T18:00:59.000Z" itemprop="datePublished">17 October 2019</time>
+        </div>      
+      <p>It's completely normal now for web apps to work with external third party JavaScript APIs. The good ones give you lots of documentation making them pretty straightforward to implement and use. You load a script from a URL or local resource, use their methods and properties in your code and away you go.</p>
+<p>But what if you then want to switch to another API provider? Maybe the one you were using isn't accessible, doesn't support the older browsers you need? Maybe they put their prices up? Whatever the reason you may need to switch at some point.</p>
+<p>This change means rewriting your app's JavaScript to work with the new API. You'll have to find every point it touches and update it. What if it works differently? What if this one takes an object parameter rather than an array? You'll have to completely rewrite the data parts too.</p>
+<p>There is a better way.</p>
+<p>Rather than working directly with an API and using the properties and methods in your code, you create an intermediary, your own internal service, which handles this functionality. The internal service maps the properties and methods you need to those of the third party API. It handles any data transformation needed. Your app works with this service, your own API, so that when a change of service provider is needed the app itself does not need to be rewritten, just the internal service.</p>
+<p>An internal service can also be set up to work with multiple APIs at once so it maps everything it needs for each. This allows you to push choice to your users. So, for example, if it's a news, sport or weather feed built into a site, you can let your user choice their preferred information source. You could use different services for different regions, e.g. local news.</p>
+<p>To use a slightly inappropriate analogy, it's better to be dating these APIs than to move in with them. &#x1f609;</p>
+<p></p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,81 +210,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Switching APIs</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2019-10-17T18:00:59.000Z" itemprop="datePublished">17 October 2019</time>
-        </div>      
-      <p>It's completely normal now for web apps to work with external third party JavaScript APIs. The good ones give you lots of documentation making them pretty straightforward to implement and use. You load a script from a URL or local resource, use their methods and properties in your code and away you go.</p>
-<p>But what if you then want to switch to another API provider? Maybe the one you were using isn't accessible, doesn't support the older browsers you need? Maybe they put their prices up? Whatever the reason you may need to switch at some point.</p>
-<p>This change means rewriting your app's JavaScript to work with the new API. You'll have to find every point it touches and update it. What if it works differently? What if this one takes an object parameter rather than an array? You'll have to completely rewrite the data parts too.</p>
-<p>There is a better way.</p>
-<p>Rather than working directly with an API and using the properties and methods in your code, you create an intermediary, your own internal service, which handles this functionality. The internal service maps the properties and methods you need to those of the third party API. It handles any data transformation needed. Your app works with this service, your own API, so that when a change of service provider is needed the app itself does not need to be rewritten, just the internal service.</p>
-<p>An internal service can also be set up to work with multiple APIs at once so it maps everything it needs for each. This allows you to push choice to your users. So, for example, if it's a news, sport or weather feed built into a site, you can let your user choice their preferred information source. You could use different services for different regions, e.g. local news.</p>
-<p>To use a slightly inappropriate analogy, it's better to be dating these APIs than to move in with them. &#x1f609;</p>
-<p></p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

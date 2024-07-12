@@ -41,6 +41,83 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Lazy HTML :(</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-04-21T19:15:08.000Z" itemprop="datePublished">21 April 2016</time>
+        </div>      
+      <p>Poking through other developers' HTML pages I sometimes come across markup like this:</p>
+<p>&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;</p>
+<p>It's generally used to just add some space between block elements. My instinctive reaction is a mixture of horror and disbelief. I can't remove it quick enough and get some CSS to control it instead.</p>
+<p>Thinking about it a little deeper, this tag gets misused a lot. There's a big difference between a semantic break between 2 bits of content and just shifting something down a line because it looks better at the time. The example above using several line breaks consecutively is, to my mind, just plain wrong. A break is used to separate content and its semantic meaning here is trying to separate other breaks.</p>
+<p>To be fair to the other developers there's a good chance it's some visual editor doing a bad job rather than it being hand coded this way but the result is the same.</p>
+<p>HTML should be about conveying the meaning of the content, not just a way of putting text on screen. Adding gaps or breaks between bits of content needs to be considered too.</p>
+<h3>Margin vs Padding</h3>
+We get a similar situation with margin and padding. Some developers just use these interchangeably to put a gap between elements but this feels wrong to me. Even though this is purely styling rather than content and doesn't need to worry about semantics in the same way, it's still a matter of how you view a particular element. If it appeared in another context, would it always have this margin or padding? I think we should be designing chunks of content as independent elements, which can be dropped into a page ready to go without the need for excessive styling for their context.
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,83 +212,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Lazy HTML :(</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-04-21T19:15:08.000Z" itemprop="datePublished">21 April 2016</time>
-        </div>      
-      <p>Poking through other developers' HTML pages I sometimes come across markup like this:</p>
-<p>&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;</p>
-<p>It's generally used to just add some space between block elements. My instinctive reaction is a mixture of horror and disbelief. I can't remove it quick enough and get some CSS to control it instead.</p>
-<p>Thinking about it a little deeper, this tag gets misused a lot. There's a big difference between a semantic break between 2 bits of content and just shifting something down a line because it looks better at the time. The example above using several line breaks consecutively is, to my mind, just plain wrong. A break is used to separate content and its semantic meaning here is trying to separate other breaks.</p>
-<p>To be fair to the other developers there's a good chance it's some visual editor doing a bad job rather than it being hand coded this way but the result is the same.</p>
-<p>HTML should be about conveying the meaning of the content, not just a way of putting text on screen. Adding gaps or breaks between bits of content needs to be considered too.</p>
-<h3>Margin vs Padding</h3>
-We get a similar situation with margin and padding. Some developers just use these interchangeably to put a gap between elements but this feels wrong to me. Even though this is purely styling rather than content and doesn't need to worry about semantics in the same way, it's still a matter of how you view a particular element. If it appeared in another context, would it always have this margin or padding? I think we should be designing chunks of content as independent elements, which can be dropped into a page ready to go without the need for excessive styling for their context.
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

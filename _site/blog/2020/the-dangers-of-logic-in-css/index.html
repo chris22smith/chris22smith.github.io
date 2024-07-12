@@ -41,6 +41,86 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">The Dangers of Logic in CSS</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2020-03-26T18:00:00.000Z" itemprop="datePublished">26 March 2020</time>
+        </div>      
+      <p>We can do a lot of logic in CSS. I'm thinking specifically of scenarios which take the form &quot;if this, then that&quot;.</p>
+<p>There are media queries which will let us control the appearance of elements based on a variety of factors. Probably the most common is screen width, so we get things like &quot;if the width is 1024px or higher, then show an extra element&quot;.</p>
+<p>There are pseudo selectors like <code>:empty</code>, <code>:checked</code>, <code>:valid</code>, <code>:disabled</code> which let us control appearance based on state, giving us, for example, &quot;if the parent element has no children (:empty), then change its opacity&quot;.</p>
+<p>We can also do logic based on combinations of elements or selectors, like li + li, for example, &quot;if the list item follows another list item, then give it a top border.&quot;</p>
+<p>I'm sure there are plenty more ways of applying logic but you get the idea. Each of these is equivalent to writing a conditional statement in a programming language - if this, then that.</p>
+<p>The big question is, should we be doing this in CSS, and is there a point at which it becomes too difficult to manage in CSS and we need to defer to another technology, like JavaScript?</p>
+<h2>My Experience</h2>
+<p>I started thinking about this when I was designing a UI with a lot of logic going on. We had a busy table where we show some additional columns at wider screen resolutions. At smaller widths the user would be able to toggle between different groups of columns and save a preference. But then these additional columns are only offered if they contain data. So, we had logic around the screen width, user preference and presence of data, which, multiplied out, meant 8 permutations.</p>
+<p>I initially tried to do it all with CSS. I set up media queries for the narrower and wider screen widths. Within each of these I then read a class for the user preference and then I used <code>:empty</code> to see if table cells contained any data. I managed it and it worked. Just.</p>
+<p>However, I realised that it was really not scalable. Every time I added a new condition it doubled the amount of CSS I was having to write. If we wanted to add more logic in future it would create more and more work and be harder and harder to maintain.</p>
+<p>By moving all the logic into JavaScript we can set simpler classes, one for each type of display we need rather than every permutation of logic. So now we just have 3 classes: 1) show the first set of columns, 2) show the second set or 3) show all columns.</p>
+<p>We still have lots of branches in our JavaScript but the big difference is that it's easy to read and follow. It's also easy to edit or extend if we ever need to.</p>
+<p>I think doing some logic with CSS is fine but as soon as you're starting to layer it on and find yourself multiplying out the selectors you're writing it's probably time to move it over to JavaScript.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,86 +215,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">The Dangers of Logic in CSS</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2020-03-26T18:00:00.000Z" itemprop="datePublished">26 March 2020</time>
-        </div>      
-      <p>We can do a lot of logic in CSS. I'm thinking specifically of scenarios which take the form &quot;if this, then that&quot;.</p>
-<p>There are media queries which will let us control the appearance of elements based on a variety of factors. Probably the most common is screen width, so we get things like &quot;if the width is 1024px or higher, then show an extra element&quot;.</p>
-<p>There are pseudo selectors like <code>:empty</code>, <code>:checked</code>, <code>:valid</code>, <code>:disabled</code> which let us control appearance based on state, giving us, for example, &quot;if the parent element has no children (:empty), then change its opacity&quot;.</p>
-<p>We can also do logic based on combinations of elements or selectors, like li + li, for example, &quot;if the list item follows another list item, then give it a top border.&quot;</p>
-<p>I'm sure there are plenty more ways of applying logic but you get the idea. Each of these is equivalent to writing a conditional statement in a programming language - if this, then that.</p>
-<p>The big question is, should we be doing this in CSS, and is there a point at which it becomes too difficult to manage in CSS and we need to defer to another technology, like JavaScript?</p>
-<h2>My Experience</h2>
-<p>I started thinking about this when I was designing a UI with a lot of logic going on. We had a busy table where we show some additional columns at wider screen resolutions. At smaller widths the user would be able to toggle between different groups of columns and save a preference. But then these additional columns are only offered if they contain data. So, we had logic around the screen width, user preference and presence of data, which, multiplied out, meant 8 permutations.</p>
-<p>I initially tried to do it all with CSS. I set up media queries for the narrower and wider screen widths. Within each of these I then read a class for the user preference and then I used <code>:empty</code> to see if table cells contained any data. I managed it and it worked. Just.</p>
-<p>However, I realised that it was really not scalable. Every time I added a new condition it doubled the amount of CSS I was having to write. If we wanted to add more logic in future it would create more and more work and be harder and harder to maintain.</p>
-<p>By moving all the logic into JavaScript we can set simpler classes, one for each type of display we need rather than every permutation of logic. So now we just have 3 classes: 1) show the first set of columns, 2) show the second set or 3) show all columns.</p>
-<p>We still have lots of branches in our JavaScript but the big difference is that it's easy to read and follow. It's also easy to edit or extend if we ever need to.</p>
-<p>I think doing some logic with CSS is fine but as soon as you're starting to layer it on and find yourself multiplying out the selectors you're writing it's probably time to move it over to JavaScript.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

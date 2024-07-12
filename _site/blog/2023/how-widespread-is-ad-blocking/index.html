@@ -41,6 +41,87 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">How Widespread is Ad Blocking?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2023-10-09T17:10:00.000Z" itemprop="datePublished">9 October 2023</time>
+        </div>      
+      <p>Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It's too much.</p>
+<p>After not using them for over a decade, I've now gone back to installing an ad blocker browser extension. And it mostly makes my experience of browsing the internet better. I can focus on the content I want without all the noise.</p>
+<p>Now, whether or not we should use ad blockers, and deny sites this revenue stream, possibly their only revenue stream, is a whole debate in itself. I won't get into all that here. I'm more interested in some other side effects I've discovered from starting to use one again.</p>
+<h2>Different Services</h2>
+<p>As well as ad blocking browser extensions there are also VPN services that offer to block ads, internet or broadband providers who offer this as an extra, mobile network providers. When you start adding all of those up it could be quite a proportion of users.</p>
+<h2>Tracking and Analytics</h2>
+<p>From using my browser's console and network tabs I noticed that some content on my own sites is now being blocked. Tracking software, like Google Analytics, gets blocked. So, in theory, when I visit a page now, the owner will not know. This got me thinking. How many people are using ad blockers and how does this affect the numbers we see in tools like Google Analytics?</p>
+<h2>Numbers</h2>
+<p>After some research, reading a few posts from the last couple of years, I got some percentages. The numbers being from different sources varied but they all seemed to agree on certain factors. The likelihood of using ad blocking varies by geography, age and device type. Younger people block more, mobile devices block more and the UK and US don't block as much as other nations. Maybe that's a capitalist, pro advertising thing? Who knows? Of all the big numbers quoted, the percentage estimated to be blocked ranged from about 30 to 40 percent. Not that much variation. It seems that most sources agree it's broadly in that range.</p>
+<p>So, if we take a conservative estimate from this and work on the assumption it's roughly a third of users, what does that mean for our analytics data? Well it means that we might only be seeing two thirds of our actual traffic. So, maybe we should be estimating actual traffic at 1.5 times what is recorded.</p>
+<p>If our site serves ads, maybe the numbers recorded in analytics tracking are an accurate reflection of how many visitors will see our ads.</p>
+<h2>Handling Blockers</h2>
+<p>If we know that a high proportion of visitors are blocking our ads, how does our page handle this content being blocked? Do we test this scenario, viewing the page with an ad blocker on? Can we serve alternate content (probably not more ads) if this fails to load? Maybe a message asking users for their support and requesting that they disable the ad blocker for this site?</p>
+<p>Or we could even play hard ball and make loading content conditional on ads loading. I probably wouldn't recommend this route as you're putting your whole site at the mercy of another service's availability.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,87 +216,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">How Widespread is Ad Blocking?</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2023-10-09T17:10:00.000Z" itemprop="datePublished">9 October 2023</time>
-        </div>      
-      <p>Have you ever tried to read a blog post or article and found it really hard work because of all the ads? Banner ads appearing between paragraphs, videos hugging the bottom of the screen, the odd modal appearing. It's too much.</p>
-<p>After not using them for over a decade, I've now gone back to installing an ad blocker browser extension. And it mostly makes my experience of browsing the internet better. I can focus on the content I want without all the noise.</p>
-<p>Now, whether or not we should use ad blockers, and deny sites this revenue stream, possibly their only revenue stream, is a whole debate in itself. I won't get into all that here. I'm more interested in some other side effects I've discovered from starting to use one again.</p>
-<h2>Different Services</h2>
-<p>As well as ad blocking browser extensions there are also VPN services that offer to block ads, internet or broadband providers who offer this as an extra, mobile network providers. When you start adding all of those up it could be quite a proportion of users.</p>
-<h2>Tracking and Analytics</h2>
-<p>From using my browser's console and network tabs I noticed that some content on my own sites is now being blocked. Tracking software, like Google Analytics, gets blocked. So, in theory, when I visit a page now, the owner will not know. This got me thinking. How many people are using ad blockers and how does this affect the numbers we see in tools like Google Analytics?</p>
-<h2>Numbers</h2>
-<p>After some research, reading a few posts from the last couple of years, I got some percentages. The numbers being from different sources varied but they all seemed to agree on certain factors. The likelihood of using ad blocking varies by geography, age and device type. Younger people block more, mobile devices block more and the UK and US don't block as much as other nations. Maybe that's a capitalist, pro advertising thing? Who knows? Of all the big numbers quoted, the percentage estimated to be blocked ranged from about 30 to 40 percent. Not that much variation. It seems that most sources agree it's broadly in that range.</p>
-<p>So, if we take a conservative estimate from this and work on the assumption it's roughly a third of users, what does that mean for our analytics data? Well it means that we might only be seeing two thirds of our actual traffic. So, maybe we should be estimating actual traffic at 1.5 times what is recorded.</p>
-<p>If our site serves ads, maybe the numbers recorded in analytics tracking are an accurate reflection of how many visitors will see our ads.</p>
-<h2>Handling Blockers</h2>
-<p>If we know that a high proportion of visitors are blocking our ads, how does our page handle this content being blocked? Do we test this scenario, viewing the page with an ad blocker on? Can we serve alternate content (probably not more ads) if this fails to load? Maybe a message asking users for their support and requesting that they disable the ad blocker for this site?</p>
-<p>Or we could even play hard ball and make loading content conditional on ads loading. I probably wouldn't recommend this route as you're putting your whole site at the mercy of another service's availability.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

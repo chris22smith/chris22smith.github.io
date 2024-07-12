@@ -41,6 +41,81 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">A New Found Appreciation for Images on the Web</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-05-09T17:17:46.000Z" itemprop="datePublished">9 May 2018</time>
+        </div>      
+      <p>I've been putting images in web pages for years. Nearly 2 decades now. For most of that time it has been quite easy. Add your source and the dimensions and BOOM, there you go. There was always some work around optimising images outside of your page but once in there, easy.</p>
+<p>Then, with higher pixel densities it started getting a bit harder and we had to work it out with media queries and srcset. Now SVG is widely supported, all this fussing around with different versions for different resolutions has gone away, at least for simple graphics.</p>
+<p>I've recently been doing some design work on an Android app and it's a very different way of doing things with images. For example, I've created a splash screen for while the app is loading. It's a full page, wide logo in the centre, coloured background.</p>
+<p>On the web, I'd just set the background colour and then centre the SVG logo, probably with flexbox, and use a flex-basis of 80% or some margin to give it a flexible width.</p>
+<p>On Android, I've had to provide the splash screen image as a series of PNG files. 5 different resolutions, varying from 480x320 up to 1920x1280, and then in both orientations, 10 files in all. The clever part is that at the point of installing the app the Android device will only get the files appropriate for its size and pixel density but it means a lot of messing around with assets.</p>
+<p>It's been a similar story for icons too. Multiple resolutions. You want a different colour? That's a separate PNG.</p>
+<p>I'm making it sound worse than it actually is. Luckily there are great tools that let you import a single image and export all the variations you could need.</p>
+<p>But it does make you think about the differences between platforms. To me, the web browser, with it's ability to resize on the fly, use SVG, recolour, apply filters, transform and animate in CSS makes Android image support feel very primitive.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,81 +210,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">A New Found Appreciation for Images on the Web</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-05-09T17:17:46.000Z" itemprop="datePublished">9 May 2018</time>
-        </div>      
-      <p>I've been putting images in web pages for years. Nearly 2 decades now. For most of that time it has been quite easy. Add your source and the dimensions and BOOM, there you go. There was always some work around optimising images outside of your page but once in there, easy.</p>
-<p>Then, with higher pixel densities it started getting a bit harder and we had to work it out with media queries and srcset. Now SVG is widely supported, all this fussing around with different versions for different resolutions has gone away, at least for simple graphics.</p>
-<p>I've recently been doing some design work on an Android app and it's a very different way of doing things with images. For example, I've created a splash screen for while the app is loading. It's a full page, wide logo in the centre, coloured background.</p>
-<p>On the web, I'd just set the background colour and then centre the SVG logo, probably with flexbox, and use a flex-basis of 80% or some margin to give it a flexible width.</p>
-<p>On Android, I've had to provide the splash screen image as a series of PNG files. 5 different resolutions, varying from 480x320 up to 1920x1280, and then in both orientations, 10 files in all. The clever part is that at the point of installing the app the Android device will only get the files appropriate for its size and pixel density but it means a lot of messing around with assets.</p>
-<p>It's been a similar story for icons too. Multiple resolutions. You want a different colour? That's a separate PNG.</p>
-<p>I'm making it sound worse than it actually is. Luckily there are great tools that let you import a single image and export all the variations you could need.</p>
-<p>But it does make you think about the differences between platforms. To me, the web browser, with it's ability to resize on the fly, use SVG, recolour, apply filters, transform and animate in CSS makes Android image support feel very primitive.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

@@ -41,6 +41,82 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Take a Tour</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-05-24T18:00:48.000Z" itemprop="datePublished">24 May 2017</time>
+        </div>      
+      <p>When working with web apps or more complex sites where the user has to work through a process a product tour can be a very useful addition. In case it's not clear from the name (I'm not sure I'd have known) a product tour is basically a series of tooltips which appear and guide the user through using the page/app in steps.</p>
+<p>Having the help or guidance right there in the page is much neater than providing a separate help page or subsite. It's not always easy flicking back and forth between the screen your working on and the documentation.</p>
+<p>The other great benefit is that you don't have to just show the tooltips as hints. You can actually tell the user what to do and the tour advances as they do it. So, they're actually using your site and you're helping them through it.</p>
+<p>If implemented well this could mean the end of lengthy, hard to maintain documentation, training materials, videos, etc.</p>
+<p>There are a few libraries out there for this but, of the ones I've looked at, the best for my needs was <a href="https://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">Hopscotch</a> by LinkedIn. It's vanilla JavaScript, very simple to implement and has some nice added features like support for other languages.</p>
+<p>You define a tour object with an array of steps. Each step then has an element selector, the bubble content and the position where you want it to appear - top, bottom, left, right. That's it.</p>
+<p>You can also do some pretty clever stuff where your tour goes across multiple pages. This just needs you to pass the tour ID and step index so it knows where to pick up from.</p>
+<p>The Hopscotch demo page explains it all very nicely:
+<a href="https://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">https://linkedin.github.io/hopscotch/</a></p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,82 +211,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Take a Tour</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-05-24T18:00:48.000Z" itemprop="datePublished">24 May 2017</time>
-        </div>      
-      <p>When working with web apps or more complex sites where the user has to work through a process a product tour can be a very useful addition. In case it's not clear from the name (I'm not sure I'd have known) a product tour is basically a series of tooltips which appear and guide the user through using the page/app in steps.</p>
-<p>Having the help or guidance right there in the page is much neater than providing a separate help page or subsite. It's not always easy flicking back and forth between the screen your working on and the documentation.</p>
-<p>The other great benefit is that you don't have to just show the tooltips as hints. You can actually tell the user what to do and the tour advances as they do it. So, they're actually using your site and you're helping them through it.</p>
-<p>If implemented well this could mean the end of lengthy, hard to maintain documentation, training materials, videos, etc.</p>
-<p>There are a few libraries out there for this but, of the ones I've looked at, the best for my needs was <a href="https://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">Hopscotch</a> by LinkedIn. It's vanilla JavaScript, very simple to implement and has some nice added features like support for other languages.</p>
-<p>You define a tour object with an array of steps. Each step then has an element selector, the bubble content and the position where you want it to appear - top, bottom, left, right. That's it.</p>
-<p>You can also do some pretty clever stuff where your tour goes across multiple pages. This just needs you to pass the tour ID and step index so it knows where to pick up from.</p>
-<p>The Hopscotch demo page explains it all very nicely:
-<a href="https://linkedin.github.io/hopscotch/" target="_blank" rel="noopener noreferrer">https://linkedin.github.io/hopscotch/</a></p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

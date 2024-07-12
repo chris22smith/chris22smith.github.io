@@ -41,6 +41,83 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Performance Perception Trick: Processing Lists Faster</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2019-08-03T08:00:23.000Z" itemprop="datePublished">3 August 2019</time>
+        </div>      
+      <p>I've got a little trick to make the processing of lists appear to go faster than it actually does.</p>
+<p>Let's suppose we have a list of 10 items and there's some kind of processing to be done on them, maybe sending them off to a service which returns a Boolean true/false response for each. In reality we post a single request with the data of the 10 items and we get a single response back after 3 seconds.</p>
+<p>In the UI we can use animation to make it look as if each item is being sent one at a time by adding a 100 millisecond delay between each state change. This means that the user thinks the last item of the 10 is sent after 1 second but in reality it's already gone a second  ago buying us extra time.</p>
+<p>When we get the response, rather than show all the results immediately, we can use a similar animation to make them appear one by one with a 100 millisecond delay again. Although this is slower than just showing them all it maintains the illusion of the items being processed one by one.</p>
+<p>So, the reality, without the trickery, is like this:</p>
+<table class="wp-block-table"><tbody><tr><td style="inline-size:2em">0</td><td>Request sent,<br>perceived waiting time begins</td></tr><tr><td style="inline-size:2em">3</td><td>Response returned,<br>UI updated,<br>perceived waiting time ends</td></tr></tbody></table>
+<p>This would mean a perceived waiting time of 3 seconds.</p>
+<p>And with the trickery:</p>
+<table class="wp-block-table"><tbody><tr><td style="inline-size:2em">0</td><td>Request sent,<br>animation started</td></tr><tr><td style="inline-size:2em">1</td><td>Animation ends,<br>perceived waiting time begins</td></tr><tr><td style="inline-size:2em">3</td><td>Response returned,<br>animation started,<br>perceived waiting time ends</td></tr><tr><td style="inline-size:2em">4</td><td>Animation ends</td></tr></tbody></table>
+<p>Even though the time to getting the final bit of data on screen is actually extended to 4 seconds, the perceived waiting time is reduced to 2 seconds.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,83 +212,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Performance Perception Trick: Processing Lists Faster</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2019-08-03T08:00:23.000Z" itemprop="datePublished">3 August 2019</time>
-        </div>      
-      <p>I've got a little trick to make the processing of lists appear to go faster than it actually does.</p>
-<p>Let's suppose we have a list of 10 items and there's some kind of processing to be done on them, maybe sending them off to a service which returns a Boolean true/false response for each. In reality we post a single request with the data of the 10 items and we get a single response back after 3 seconds.</p>
-<p>In the UI we can use animation to make it look as if each item is being sent one at a time by adding a 100 millisecond delay between each state change. This means that the user thinks the last item of the 10 is sent after 1 second but in reality it's already gone a second  ago buying us extra time.</p>
-<p>When we get the response, rather than show all the results immediately, we can use a similar animation to make them appear one by one with a 100 millisecond delay again. Although this is slower than just showing them all it maintains the illusion of the items being processed one by one.</p>
-<p>So, the reality, without the trickery, is like this:</p>
-<table class="wp-block-table"><tbody><tr><td style="inline-size:2em">0</td><td>Request sent,<br>perceived waiting time begins</td></tr><tr><td style="inline-size:2em">3</td><td>Response returned,<br>UI updated,<br>perceived waiting time ends</td></tr></tbody></table>
-<p>This would mean a perceived waiting time of 3 seconds.</p>
-<p>And with the trickery:</p>
-<table class="wp-block-table"><tbody><tr><td style="inline-size:2em">0</td><td>Request sent,<br>animation started</td></tr><tr><td style="inline-size:2em">1</td><td>Animation ends,<br>perceived waiting time begins</td></tr><tr><td style="inline-size:2em">3</td><td>Response returned,<br>animation started,<br>perceived waiting time ends</td></tr><tr><td style="inline-size:2em">4</td><td>Animation ends</td></tr></tbody></table>
-<p>Even though the time to getting the final bit of data on screen is actually extended to 4 seconds, the perceived waiting time is reduced to 2 seconds.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

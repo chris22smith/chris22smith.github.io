@@ -41,6 +41,82 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Why Are We Making Web Development So Hard?</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-10-24T17:47:09.000Z" itemprop="datePublished">24 October 2018</time>
+        </div>      
+      <p>I don't think I'm the first person to think this by any stretch. There are lots of infographics around showing the difference between web tooling now and 10 years ago and it's clearly ballooned at an extraordinary rate.</p>
+<p>In the last year or so I've started working with Angular (as opposed to Angular.js a.k.a. Angular 1) and have also dabbled in Vue and React. All of these frameworks seem to share the same basic ideas - build everything as a component and push and pull them from the <abbr title="Document Object Model">DOM</abbr> as needed. Each component is made up of a HTML template, embedded CSS styles and a JavaScript controller.</p>
+<p>This feels like an efficient way of working, very <abbr title="Don't Repeat Yourself">DRY</abbr>. But is it? You create a component, let's say a time picker. One it's developed you can put it into multiple views or uses relatively quickly. However, if you later modify it to work slightly differently, using adding complexity, you have to test it in each use case and make sure it still works with no detrimental effects.</p>
+<p>All <abbr title="User Interface">UI</abbr>s are basically built up of HTML, CSS and JavaScript. Traditionally HTML is for content, CSS for styling and JavaScript for reacting to user behaviour. With components we're adding a whole load of JavaScript just to make the basic elements appear before we even get into any behavioural usage. This adds to page weight (size of files being transferred to the browser) and render times. There's the library itself, often split into many smaller modules, plus a controller for the UI to assemble it and then the components. It could just be one HTML file, one CSS file and one JavaScript file.</p>
+<p>Increasingly, what the developer writes in their editor is becoming further and further from what actually appears in the <abbr title="Document Object Model">DOM</abbr>. The frameworks insert a whole host of IDs and classes to elements, bloating the HTML and making it harder to read. Styles are inserted as inline &lt;style&gt; blocks rather than being cached in an external stylesheet. Opening the browser's Dev Tools to track down and fix a problem is becoming harder, not easier.</p>
+<p>Also, the more tools you use, the more you've got to maintain, keep up to date, upgrade and replace. It's creating work just to keep up and inviting technical debt.</p>
+<p>I think that what we're gaining in terms of being able to develop new UI more quickly is all rooted in developer efficiency and production cost saving. It's not thinking about the user. We're making things slower for users. The mobile experience on most sites is still awful and the overhead of these frameworks is partly to blame.</p>
+<p>The latest frameworks also rely on good browsers with all the JavaScript features. They do not use progressive enhancement but just grind to a halt on an older browser. This goes against the universal nature of the web - it should be easy to read and easy to write. The bells and whistles on the top is just that and should be optional, not prevent the basics from working.</p>
+<p>I think we need to get back to making things simple. Write HTML, CSS and as little JavaScript as we can get away with. Go static wherever possible. Make it fast and simple for users. User experience should trump developer experience.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,82 +211,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Why Are We Making Web Development So Hard?</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2018-10-24T17:47:09.000Z" itemprop="datePublished">24 October 2018</time>
-        </div>      
-      <p>I don't think I'm the first person to think this by any stretch. There are lots of infographics around showing the difference between web tooling now and 10 years ago and it's clearly ballooned at an extraordinary rate.</p>
-<p>In the last year or so I've started working with Angular (as opposed to Angular.js a.k.a. Angular 1) and have also dabbled in Vue and React. All of these frameworks seem to share the same basic ideas - build everything as a component and push and pull them from the <abbr title="Document Object Model">DOM</abbr> as needed. Each component is made up of a HTML template, embedded CSS styles and a JavaScript controller.</p>
-<p>This feels like an efficient way of working, very <abbr title="Don't Repeat Yourself">DRY</abbr>. But is it? You create a component, let's say a time picker. One it's developed you can put it into multiple views or uses relatively quickly. However, if you later modify it to work slightly differently, using adding complexity, you have to test it in each use case and make sure it still works with no detrimental effects.</p>
-<p>All <abbr title="User Interface">UI</abbr>s are basically built up of HTML, CSS and JavaScript. Traditionally HTML is for content, CSS for styling and JavaScript for reacting to user behaviour. With components we're adding a whole load of JavaScript just to make the basic elements appear before we even get into any behavioural usage. This adds to page weight (size of files being transferred to the browser) and render times. There's the library itself, often split into many smaller modules, plus a controller for the UI to assemble it and then the components. It could just be one HTML file, one CSS file and one JavaScript file.</p>
-<p>Increasingly, what the developer writes in their editor is becoming further and further from what actually appears in the <abbr title="Document Object Model">DOM</abbr>. The frameworks insert a whole host of IDs and classes to elements, bloating the HTML and making it harder to read. Styles are inserted as inline &lt;style&gt; blocks rather than being cached in an external stylesheet. Opening the browser's Dev Tools to track down and fix a problem is becoming harder, not easier.</p>
-<p>Also, the more tools you use, the more you've got to maintain, keep up to date, upgrade and replace. It's creating work just to keep up and inviting technical debt.</p>
-<p>I think that what we're gaining in terms of being able to develop new UI more quickly is all rooted in developer efficiency and production cost saving. It's not thinking about the user. We're making things slower for users. The mobile experience on most sites is still awful and the overhead of these frameworks is partly to blame.</p>
-<p>The latest frameworks also rely on good browsers with all the JavaScript features. They do not use progressive enhancement but just grind to a halt on an older browser. This goes against the universal nature of the web - it should be easy to read and easy to write. The bells and whistles on the top is just that and should be optional, not prevent the basics from working.</p>
-<p>I think we need to get back to making things simple. Write HTML, CSS and as little JavaScript as we can get away with. Go static wherever possible. Make it fast and simple for users. User experience should trump developer experience.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

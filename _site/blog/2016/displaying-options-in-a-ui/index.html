@@ -41,6 +41,77 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Displaying Options in a UI</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-11-23T18:30:26.000Z" itemprop="datePublished">23 November 2016</time>
+        </div>      
+      <p>One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it. As a user you have to click it to see the other available options only to find that there are none. This is a clear example of developer convenience being put before user experience.</p>
+<p>I'm sure it seems obvious now I've highlighted it but if there's only one option then there isn't a choice to be made at all and we don't need a form input. The code should conditionally show the drop down list only when there is a selection to be made, more than one item.</p>
+<p>Depending on the UI design, we could even take this a step further. Maybe a drop down list isn't the best choice for selecting between 2 items? A radio button list is probably better as it enables the user to see all of the available options at a glance and make a selection with a single click/touch. We can test the number of options and if it's below 5 show the options in a radio button list. &lt;ol&gt; might be a better choice than &lt;ul&gt; for the list if the items are in a specific order, e.g. years.</p>
+<p>Another example I see is displaying disabled form controls where the control is never enabled, e.g. a checkbox which is disabled because the user doesn't have permissions to change it. If it's not an option, don't show it. Disabling it is the lazy option, easy for the developer. Hiding it is much better but may involve a change to layout. The UX should always be put first. It's usually no more difficult, it's just not considered.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,77 +206,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Displaying Options in a UI</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2016-11-23T18:30:26.000Z" itemprop="datePublished">23 November 2016</time>
-        </div>      
-      <p>One of my pet hates in UIs is seeing a drop down list (select tag) in a form with only a single option in it. As a user you have to click it to see the other available options only to find that there are none. This is a clear example of developer convenience being put before user experience.</p>
-<p>I'm sure it seems obvious now I've highlighted it but if there's only one option then there isn't a choice to be made at all and we don't need a form input. The code should conditionally show the drop down list only when there is a selection to be made, more than one item.</p>
-<p>Depending on the UI design, we could even take this a step further. Maybe a drop down list isn't the best choice for selecting between 2 items? A radio button list is probably better as it enables the user to see all of the available options at a glance and make a selection with a single click/touch. We can test the number of options and if it's below 5 show the options in a radio button list. &lt;ol&gt; might be a better choice than &lt;ul&gt; for the list if the items are in a specific order, e.g. years.</p>
-<p>Another example I see is displaying disabled form controls where the control is never enabled, e.g. a checkbox which is disabled because the user doesn't have permissions to change it. If it's not an option, don't show it. Disabling it is the lazy option, easy for the developer. Hiding it is much better but may involve a change to layout. The UX should always be put first. It's usually no more difficult, it's just not considered.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

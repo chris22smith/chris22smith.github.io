@@ -41,6 +41,105 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">What to Validate on a Form</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2023-10-27T14:30:00.000Z" itemprop="datePublished">27 October 2023</time>
+        </div>      
+      <p>We all know that validating user input is a good idea but how do you decide on what rules to apply?</p>
+<h2>What are the aims of validation?</h2>
+<ul>
+<li>Protecting us against any malicious input.</li>
+<li>Protecting the system's data integrity.</li>
+<li>Protecting the user against data entry mistakes.</li>
+<li>Protecting our UI against things we're not able to output.</li>
+</ul>
+<h2>What can we do?</h2>
+<p>We can limit the data type by applying the appropriate input type attribute - number, date, email, url, etc. That will constrain the data to only the type expected. It may also help with input by bringing up the appropriate on screen keyboard.</p>
+<p><code>&lt;input type=&quot;email&quot;&gt;</code></p>
+<p>We can constrain length or range with attributes like min, max, maxlength, minlength.</p>
+<p><code>&lt;input type=&quot;number&quot; min=&quot;0&quot; max=&quot;100&quot;&gt;</code></p>
+<p>We can do pattern matching, using regex to only accept certain string formats.</p>
+<p><code>&lt;input type=&quot;text&quot; pattern=&quot;^[a-zA-Z0-9]$&quot;&gt;</code></p>
+<h2>What should we do?</h2>
+<p>This is the harder question.</p>
+<h3>Security</h3>
+<p>Firstly, let's think about security and protecting against malicious intentions. We can use pattern matching to restrict the characters entered to only those that are needed. For example, a phone number field can be restricted to numbers and, if you're feeling generous, spaces, brackets and dashes. We should work out what characters are needed and use regex to only allow those.</p>
+<p>The main thing to remember from a security point of view is to do this validation on the server as the front end can be bypassed. It's here for convenience, not security. It's the smiley person opening the door for guests, not the mean looking security guard.</p>
+<h3>Constraints</h3>
+<p>Thinking about the other considerations, let's set sensible minimum and maximum sizes on things.</p>
+<p>How long or short can a phone number really be? If they're putting in something that's 30 digits long then chances are they've accidentally pasted it twice, or are copying the wrong number from something else.</p>
+<p>What's a reasonable length for a first name? Surely there comes a point, when it gets really long, when they have a shorter form they can use?</p>
+<p>How far into the future can a date be set? Is there ever any point in setting something more than 30 years ahead? What are the chances of this system being around then and this data still being relevant?</p>
+<p>There's a skill to making sure things aren't too open but not so closed as to cause a problem with genuine data.</p>
+<h3>Ask for the right things</h3>
+<p>Also, think about the tone and how the data will be used. If you put &quot;First name&quot; as your label you might get a different, more formal value than if you use &quot;What shall we call you?&quot;.</p>
+<p>Another option is to use warning prompts rather than an absolute pass or fail. If a name is long, you can prompt &quot;That's a long name. Is there a shorter version you prefer to use?&quot;. Or you could reveal a second input for a nickname or short name. That way you can accept the long form if they prefer but you're reducing the risk of handling something you might have to output ungracefully with ellipsis later.</p>
+<p>We can use JavaScript to listen for the invalid event and reveal an alternative input.</p>
+<h3>Tell them what you expect</h3>
+<p>Asking someone to input some data without any instructions and then telling them off for doing it wrong is just rude. Give them hints with placeholders or some help text. As well as not annoying users it makes data entry much quicker.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,105 +234,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">What to Validate on a Form</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2023-10-27T14:30:00.000Z" itemprop="datePublished">27 October 2023</time>
-        </div>      
-      <p>We all know that validating user input is a good idea but how do you decide on what rules to apply?</p>
-<h2>What are the aims of validation?</h2>
-<ul>
-<li>Protecting us against any malicious input.</li>
-<li>Protecting the system's data integrity.</li>
-<li>Protecting the user against data entry mistakes.</li>
-<li>Protecting our UI against things we're not able to output.</li>
-</ul>
-<h2>What can we do?</h2>
-<p>We can limit the data type by applying the appropriate input type attribute - number, date, email, url, etc. That will constrain the data to only the type expected. It may also help with input by bringing up the appropriate on screen keyboard.</p>
-<p><code>&lt;input type=&quot;email&quot;&gt;</code></p>
-<p>We can constrain length or range with attributes like min, max, maxlength, minlength.</p>
-<p><code>&lt;input type=&quot;number&quot; min=&quot;0&quot; max=&quot;100&quot;&gt;</code></p>
-<p>We can do pattern matching, using regex to only accept certain string formats.</p>
-<p><code>&lt;input type=&quot;text&quot; pattern=&quot;^[a-zA-Z0-9]$&quot;&gt;</code></p>
-<h2>What should we do?</h2>
-<p>This is the harder question.</p>
-<h3>Security</h3>
-<p>Firstly, let's think about security and protecting against malicious intentions. We can use pattern matching to restrict the characters entered to only those that are needed. For example, a phone number field can be restricted to numbers and, if you're feeling generous, spaces, brackets and dashes. We should work out what characters are needed and use regex to only allow those.</p>
-<p>The main thing to remember from a security point of view is to do this validation on the server as the front end can be bypassed. It's here for convenience, not security. It's the smiley person opening the door for guests, not the mean looking security guard.</p>
-<h3>Constraints</h3>
-<p>Thinking about the other considerations, let's set sensible minimum and maximum sizes on things.</p>
-<p>How long or short can a phone number really be? If they're putting in something that's 30 digits long then chances are they've accidentally pasted it twice, or are copying the wrong number from something else.</p>
-<p>What's a reasonable length for a first name? Surely there comes a point, when it gets really long, when they have a shorter form they can use?</p>
-<p>How far into the future can a date be set? Is there ever any point in setting something more than 30 years ahead? What are the chances of this system being around then and this data still being relevant?</p>
-<p>There's a skill to making sure things aren't too open but not so closed as to cause a problem with genuine data.</p>
-<h3>Ask for the right things</h3>
-<p>Also, think about the tone and how the data will be used. If you put &quot;First name&quot; as your label you might get a different, more formal value than if you use &quot;What shall we call you?&quot;.</p>
-<p>Another option is to use warning prompts rather than an absolute pass or fail. If a name is long, you can prompt &quot;That's a long name. Is there a shorter version you prefer to use?&quot;. Or you could reveal a second input for a nickname or short name. That way you can accept the long form if they prefer but you're reducing the risk of handling something you might have to output ungracefully with ellipsis later.</p>
-<p>We can use JavaScript to listen for the invalid event and reveal an alternative input.</p>
-<h3>Tell them what you expect</h3>
-<p>Asking someone to input some data without any instructions and then telling them off for doing it wrong is just rude. Give them hints with placeholders or some help text. As well as not annoying users it makes data entry much quicker.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

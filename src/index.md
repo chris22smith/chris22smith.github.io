@@ -17,7 +17,7 @@ description: "Intro page about Chris Smith, front-end web developer, and his per
         <a href="https://codepen.io/chris22smith/" target="_blank" rel="noopener noreferrer">CodePen</a>,
         <a href="https://mastodon.social/@chris22smith" target="_blank" rel="noopener noreferrer">Mastodon</a>
         and
-        <a href="https://twitter.com/chris22smith/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>. Come and say hello.</p>
+        <a href="https://x.com/chris22smith/" target="_blank" rel="noopener noreferrer">X</a>. Come and say hello.</p>
   </div>
 </div>
 

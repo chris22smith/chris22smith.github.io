@@ -41,6 +41,93 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">WordPress to Eleventy - Part 1, The Why</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2023-06-18T14:00:00.000Z" itemprop="datePublished">18 June 2023</time>
+        </div>      
+      <p>For years my personal website used <a href="https://en-gb.wordpress.org/">WordPress</a>. It's now using <a href="https://www.11ty.dev/">Eleventy</a>. I thought it might be interesting to others to look at why I've made the change.</p>
+<h2>WordPress</h2>
+<p>I started using WordPress in 2008 and never really looked back, until 2022. So, that's a solid 15 years of WordPress, and, honestly I don't have a bad word to say about it, it's great.</p>
+<h3>The pros</h3>
+<p>WordPress makes blogging or content management very easy. It's hosted online so as long as you can login you can edit it from anywhere. It also has great apps so you can have an idea for a blog post while out and about and start drafting something and then later sync it up and carry on. That's quite powerful.</p>
+<p>There's a huge community, loads of free plugins for adding additional functionality usually with zero code, just a bit of config, loads of free configurable themes so you can find the right look.</p>
+<h3>The cons</h3>
+<p>The platform is constantly evolving, as are the plugins and themes. On the one hand this is a good thing; on the other it adds a maintenance overhead. There's always something that needs to be updated, and occasionally causes a big problem. I had issues when my (admittedly cheap) hosting didn't offer a high enough version of PHP to support some features.</p>
+<p>As WordPress uses a MySql database, a lot of the set up involved doing back end work, which is not what I want to be spending my time on. The use of a database also means having to pay for database hosting, which can get expensive. Not a lot of money but a blog starts becoming an expensive hobby if no money is coming in from it.</p>
+<h2>Eleventy</h2>
+<p>My website is now built with Eleventy. It's quite a different set up.</p>
+<h3>The pros</h3>
+<p>It's all static HTML files, which means it's really fast, like stupidly fast. I now feel I have full control as every bit of content is created by me from scratch, no plugins with black box magic in them. There's no imported theme - every bit of HTML and CSS is my own so I don't ever have to wrestle against any constraints of an existing system or template.</p>
+<p>I don't have the fancy editor of WordPress but I now write markdown files, which is easy, and I even have markdown editor apps on my phone shoudl I get the urge to start something when away from my desk.</p>
+<p>As it's all static pages, I can host it for free.</p>
+<h3>The cons</h3>
+<p>To be honest, I don't really see any. I don't feel there's anything I had before that I'm missing or that I can't achieve.</p>
+<h2>How?</h2>
+<p>So, how did I go about moving from one to the other? I've covered that in a separate post.</p>
+<p><a href="../wordpress-to-eleventy-part-2-the-how">WordPress to Eleventy - Part 2, The How</a></p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,93 +222,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">WordPress to Eleventy - Part 1, The Why</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2023-06-18T14:00:00.000Z" itemprop="datePublished">18 June 2023</time>
-        </div>      
-      <p>For years my personal website used <a href="https://en-gb.wordpress.org/">WordPress</a>. It's now using <a href="https://www.11ty.dev/">Eleventy</a>. I thought it might be interesting to others to look at why I've made the change.</p>
-<h2>WordPress</h2>
-<p>I started using WordPress in 2008 and never really looked back, until 2022. So, that's a solid 15 years of WordPress, and, honestly I don't have a bad word to say about it, it's great.</p>
-<h3>The pros</h3>
-<p>WordPress makes blogging or content management very easy. It's hosted online so as long as you can login you can edit it from anywhere. It also has great apps so you can have an idea for a blog post while out and about and start drafting something and then later sync it up and carry on. That's quite powerful.</p>
-<p>There's a huge community, loads of free plugins for adding additional functionality usually with zero code, just a bit of config, loads of free configurable themes so you can find the right look.</p>
-<h3>The cons</h3>
-<p>The platform is constantly evolving, as are the plugins and themes. On the one hand this is a good thing; on the other it adds a maintenance overhead. There's always something that needs to be updated, and occasionally causes a big problem. I had issues when my (admittedly cheap) hosting didn't offer a high enough version of PHP to support some features.</p>
-<p>As WordPress uses a MySql database, a lot of the set up involved doing back end work, which is not what I want to be spending my time on. The use of a database also means having to pay for database hosting, which can get expensive. Not a lot of money but a blog starts becoming an expensive hobby if no money is coming in from it.</p>
-<h2>Eleventy</h2>
-<p>My website is now built with Eleventy. It's quite a different set up.</p>
-<h3>The pros</h3>
-<p>It's all static HTML files, which means it's really fast, like stupidly fast. I now feel I have full control as every bit of content is created by me from scratch, no plugins with black box magic in them. There's no imported theme - every bit of HTML and CSS is my own so I don't ever have to wrestle against any constraints of an existing system or template.</p>
-<p>I don't have the fancy editor of WordPress but I now write markdown files, which is easy, and I even have markdown editor apps on my phone shoudl I get the urge to start something when away from my desk.</p>
-<p>As it's all static pages, I can host it for free.</p>
-<h3>The cons</h3>
-<p>To be honest, I don't really see any. I don't feel there's anything I had before that I'm missing or that I can't achieve.</p>
-<h2>How?</h2>
-<p>So, how did I go about moving from one to the other? I've covered that in a separate post.</p>
-<p><a href="../wordpress-to-eleventy-part-2-the-how">WordPress to Eleventy - Part 2, The How</a></p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

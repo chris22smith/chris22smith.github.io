@@ -41,6 +41,85 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Precision Level in CSS</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-04-28T18:00:52.000Z" itemprop="datePublished">28 April 2017</time>
+        </div>      
+      <p>When we're using relative sizing in CSS, percentages or ems, how precise do we need to be with our fractions? Is there an optimum level?</p>
+<p>If we have a font size of 18px (or anything, it's relative after all) and we want some smaller text at two thirds of its size (12px) then we can express this as .6666666667em or 66.6666666667%. Here I've used 10 decimal places to give a very precise fraction but this feels like overkill to me. If I used just 2 decimal places, .67em or 66.67%, is this accurate enough to consistently calculate the desired pixel value. Or should I not worry? It'll be near enough.</p>
+<p>Looking at other developers' CSS, mainly in tutorials, the general pattern seems to be to use between 4 and 6 decimal places. Looking back through my own code, my preference seems to be to use 6 but I couldn't tell you why. I'd imagine I've just adopted someone else's coding style. I definitely feel that going beyond 6 seems unnecessary but am not sure how little I can get away with.</p>
+<p>Sass is able to perform calculations using fractions. Here's an example:</p>
+<p><code></code></p>
+<pre>$two_thirds: 2/3 * 1em;
+
+.smaller {
+  font-size: $two_thirds;
+}
+</pre>
+<p>This resolves to .66667em, 5 decimal places. Is this a set precision or did Sass actually calculate it from the root size and decide what precision was needed for it to resolve to an integer? Hmm (rubs chin). I guess that most people let Sass handle this for them and don't even look at the compiled CSS.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,85 +214,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Precision Level in CSS</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-04-28T18:00:52.000Z" itemprop="datePublished">28 April 2017</time>
-        </div>      
-      <p>When we're using relative sizing in CSS, percentages or ems, how precise do we need to be with our fractions? Is there an optimum level?</p>
-<p>If we have a font size of 18px (or anything, it's relative after all) and we want some smaller text at two thirds of its size (12px) then we can express this as .6666666667em or 66.6666666667%. Here I've used 10 decimal places to give a very precise fraction but this feels like overkill to me. If I used just 2 decimal places, .67em or 66.67%, is this accurate enough to consistently calculate the desired pixel value. Or should I not worry? It'll be near enough.</p>
-<p>Looking at other developers' CSS, mainly in tutorials, the general pattern seems to be to use between 4 and 6 decimal places. Looking back through my own code, my preference seems to be to use 6 but I couldn't tell you why. I'd imagine I've just adopted someone else's coding style. I definitely feel that going beyond 6 seems unnecessary but am not sure how little I can get away with.</p>
-<p>Sass is able to perform calculations using fractions. Here's an example:</p>
-<p><code></code></p>
-<pre>$two_thirds: 2/3 * 1em;
-
-.smaller {
-  font-size: $two_thirds;
-}
-</pre>
-<p>This resolves to .66667em, 5 decimal places. Is this a set precision or did Sass actually calculate it from the root size and decide what precision was needed for it to resolve to an integer? Hmm (rubs chin). I guess that most people let Sass handle this for them and don't even look at the compiled CSS.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

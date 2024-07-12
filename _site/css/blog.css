@@ -82,13 +82,12 @@ footer {
 }
 
 header {
-  inset-block-start: 1rem;
   justify-content: space-between;
   z-index: 2;
 }
 
 footer {
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 header div {
@@ -104,7 +103,6 @@ footer div {
   color: #ddd;
   display: flex;
   gap: 1rem;
-  justify-content: flex-end;
   margin: 0;
   padding: 0.25rem 0.75rem;
 }
@@ -120,7 +118,8 @@ article {
   z-index: 1;
 }
 
-header a {
+header a,
+footer a {
   align-items: center;
   block-size: 2.5rem;
   border: solid 0.25rem #222;
@@ -134,7 +133,8 @@ header a {
   transition: transform 0.2s ease-in-out;
 }
 
-header a:hover {
+header a:hover,
+footer a:hover {
   transform: scale(1.5);
 }
 
@@ -279,6 +279,7 @@ section:nth-child(odd) {
 
 hr {
   border-block-start: solid 1px #444;
+  margin: 2em 0;
 }
 
 .about-the-author {
@@ -330,7 +331,8 @@ hr {
   footer div {
     color: #444;
   }
-  header a {
+  header a,
+  footer a {
     border-color: #fff;
   }
   .subhead {

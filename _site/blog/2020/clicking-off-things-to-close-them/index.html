@@ -41,6 +41,116 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Clicking Off Things to Close Them</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2020-03-25T18:00:53.000Z" itemprop="datePublished">25 March 2020</time>
+        </div>      
+      <p>There's a common design pattern these days where a bit of content is shown over the main screen. It might be a modal window or maybe a fly-in menu or sidebar. It's also common, especially in native apps, that we can just click or tap in the space not used by these elements to close them. So, how can we do this?</p>
+<p>I think there are 2 approaches, one which is pure JavaScript and another which involves an overlay element. Let's look at both.</p>
+<h3>JavaScript Document Click Event Method</h3>
+<p>We can detect that a click is not on the content element using JavaScript. As all click events bubble up or propagate through the DOM tree they eventually reach the top document level. We can listen for a click on the document and then use the event target to check what was clicked. For this example let's assume our content element has a class of 'modal', like &lt;div class="modal">&lt;/div>.</p>
+<pre class="wp-block-code"><code>// JavaScript
+
+function handleClick(event) {
+  if (!event.target.closest('.modal')) {
+    console.log('close');
+  }
+}
+
+document.addEventListener('click', handleClick);</code></pre>
+<!-- /wp:code -->
+<p>event.target gets the element that was clicked. This could be the modal element itself, another element inside it or another element outside of it. event.target.closest('.modal') checks if the element clicked is the modal or is an antecedent of the modal element, an element within it. If the element clicked is not (!) in the modal we can close it.</p>
+<p>It's maybe worth noting that .closest() doesn't work in IE11 if you need to support this but there is a polyfill available.</p>
+<h3>Using an Overlay Element</h3>
+<p>The other approach, and the one I tend to use, is to use an overlay element. This means adding an element that covers the whole screen area, slipped in between the modal and the main screen content. The idea is that this overlay will appear and disappear along with the modal and will pick up any click events which are not on the modal. It's a bit like a safety net that will catch any stray clicks.</p>
+<p>The CSS for the overlay would typically look something like this:</p>
+<pre class="wp-block-code"><code>/* CSS */
+
+.overlay {
+  background-color:#000;
+  bottom:0;
+  left:0;
+  opacity:.5;
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:1;
+}
+
+.modal {
+  /* styling */
+  z-index:2;
+}</code></pre>
+<!-- /wp:code -->
+<p>The overlay has fixed display and goes to each edge so it fills the screen.</p>
+<p>The overlay has z-index set to 1 so it's over the main screen content, and the modal has it set to 2 so it's over the overlay. These can increase as needed but the modal always needs to be higher.</p>
+<p>I've given the overlay a background colour and 50% (.5) opacity so that it veils the main screen content underneath giving the modal a "lightbox" effect but these are not needed and our overlay can be effectively invisible.</p>
+<p>You then just add a click event to the overlay which will close the modal and hide the overlay.</p>
+<p>The reason I like this approach is that by covering the main screen we prevent any interactions with it. If the user tries to click on a button under the overlay their first click will just close the modal. We don't need to worry about any other interactions - while the modal is showing it becomes the sole focus.</p>
+<p>Extra tip. If you use a visible overlay it's nicer not to show and hide it immediately but fade it in and out with a transition on the opacity, taking it between 0 and .5. This feels much smoother and less jerky.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,116 +245,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Clicking Off Things to Close Them</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2020-03-25T18:00:53.000Z" itemprop="datePublished">25 March 2020</time>
-        </div>      
-      <p>There's a common design pattern these days where a bit of content is shown over the main screen. It might be a modal window or maybe a fly-in menu or sidebar. It's also common, especially in native apps, that we can just click or tap in the space not used by these elements to close them. So, how can we do this?</p>
-<p>I think there are 2 approaches, one which is pure JavaScript and another which involves an overlay element. Let's look at both.</p>
-<h3>JavaScript Document Click Event Method</h3>
-<p>We can detect that a click is not on the content element using JavaScript. As all click events bubble up or propagate through the DOM tree they eventually reach the top document level. We can listen for a click on the document and then use the event target to check what was clicked. For this example let's assume our content element has a class of 'modal', like &lt;div class="modal">&lt;/div>.</p>
-<pre class="wp-block-code"><code>// JavaScript
-
-function handleClick(event) {
-  if (!event.target.closest('.modal')) {
-    console.log('close');
-  }
-}
-
-document.addEventListener('click', handleClick);</code></pre>
-<!-- /wp:code -->
-<p>event.target gets the element that was clicked. This could be the modal element itself, another element inside it or another element outside of it. event.target.closest('.modal') checks if the element clicked is the modal or is an antecedent of the modal element, an element within it. If the element clicked is not (!) in the modal we can close it.</p>
-<p>It's maybe worth noting that .closest() doesn't work in IE11 if you need to support this but there is a polyfill available.</p>
-<h3>Using an Overlay Element</h3>
-<p>The other approach, and the one I tend to use, is to use an overlay element. This means adding an element that covers the whole screen area, slipped in between the modal and the main screen content. The idea is that this overlay will appear and disappear along with the modal and will pick up any click events which are not on the modal. It's a bit like a safety net that will catch any stray clicks.</p>
-<p>The CSS for the overlay would typically look something like this:</p>
-<pre class="wp-block-code"><code>/* CSS */
-
-.overlay {
-  background-color:#000;
-  bottom:0;
-  left:0;
-  opacity:.5;
-  position:fixed;
-  right:0;
-  top:0;
-  z-index:1;
-}
-
-.modal {
-  /* styling */
-  z-index:2;
-}</code></pre>
-<!-- /wp:code -->
-<p>The overlay has fixed display and goes to each edge so it fills the screen.</p>
-<p>The overlay has z-index set to 1 so it's over the main screen content, and the modal has it set to 2 so it's over the overlay. These can increase as needed but the modal always needs to be higher.</p>
-<p>I've given the overlay a background colour and 50% (.5) opacity so that it veils the main screen content underneath giving the modal a "lightbox" effect but these are not needed and our overlay can be effectively invisible.</p>
-<p>You then just add a click event to the overlay which will close the modal and hide the overlay.</p>
-<p>The reason I like this approach is that by covering the main screen we prevent any interactions with it. If the user tries to click on a button under the overlay their first click will just close the modal. We don't need to worry about any other interactions - while the modal is showing it becomes the sole focus.</p>
-<p>Extra tip. If you use a visible overlay it's nicer not to show and hide it immediately but fade it in and out with a transition on the opacity, taking it between 0 and .5. This feels much smoother and less jerky.</p>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

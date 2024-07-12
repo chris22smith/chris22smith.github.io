@@ -41,6 +41,94 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Hacking Borders</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-06-21T18:00:52.000Z" itemprop="datePublished">21 June 2017</time>
+        </div>      
+      <p>Have you ever been in a situation where your borders aren't rendering as expected? Hopefully not.</p>
+<p>I've hit this issue recently using PhantomJS to turn HTML content into a PDF. It generally works pretty well but when you get into tables with collapsed borders and use rowspan and colspan things start getting a bit hairy and some of your borders just don't get rendered. Sad face.</p>
+<p>No amount of messing with border-collapse, display or border properties seems to have any affect. So, what can we do? Time to get dirty and hack our way out of it. Surgical gloves on.</p>
+<p>We can't change the borders so we create pseudo borders. We use CSS pseudo elements to create lines within the cells. Here's the CSS for a top-border:</p>
+<pre>.hacked-border-top {
+  position:relative;
+}
+
+.hacked-border-top:before {
+  background-color:currentColor; /* or whatever */
+  height:1px;
+  left:0;
+  position:absolute;
+  top:-1px;
+  width:100%;
+}
+</pre>
+<p>The pseudo border is absolutely positioned within the cell, thickness (height) 1px, full width. The top:-1px moves it outside the box model to where the border would be.</p>
+<p>Change the height, width and bottom, left, right and top values as need be for the different sides.</p>
+<p>Please only use this as a last resort when all else fails.</p>
+<div style="border: solid .5em #c00; border-radius: 1em; color: #c00; display: inline-block; font-family: sans-serif; font-weight: bold; margin: 1em; padding: 1em; text-transform: uppercase;">In case of emergency break glass</div>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,94 +223,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Hacking Borders</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2017-06-21T18:00:52.000Z" itemprop="datePublished">21 June 2017</time>
-        </div>      
-      <p>Have you ever been in a situation where your borders aren't rendering as expected? Hopefully not.</p>
-<p>I've hit this issue recently using PhantomJS to turn HTML content into a PDF. It generally works pretty well but when you get into tables with collapsed borders and use rowspan and colspan things start getting a bit hairy and some of your borders just don't get rendered. Sad face.</p>
-<p>No amount of messing with border-collapse, display or border properties seems to have any affect. So, what can we do? Time to get dirty and hack our way out of it. Surgical gloves on.</p>
-<p>We can't change the borders so we create pseudo borders. We use CSS pseudo elements to create lines within the cells. Here's the CSS for a top-border:</p>
-<pre>.hacked-border-top {
-  position:relative;
-}
-
-.hacked-border-top:before {
-  background-color:currentColor; /* or whatever */
-  height:1px;
-  left:0;
-  position:absolute;
-  top:-1px;
-  width:100%;
-}
-</pre>
-<p>The pseudo border is absolutely positioned within the cell, thickness (height) 1px, full width. The top:-1px moves it outside the box model to where the border would be.</p>
-<p>Change the height, width and bottom, left, right and top values as need be for the different sides.</p>
-<p>Please only use this as a last resort when all else fails.</p>
-<div style="border: solid .5em #c00; border-radius: 1em; color: #c00; display: inline-block; font-family: sans-serif; font-weight: bold; margin: 1em; padding: 1em; text-transform: uppercase;">In case of emergency break glass</div>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 

@@ -41,6 +41,103 @@
       <span aria-hidden="true">CS</span>
     </a>
   </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Rebranding Tips - Part 3 - Colours</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-01-08T16:32:00.000Z" itemprop="datePublished">8 January 2024</time>
+        </div>      
+      <p>I've been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I'd share some of the oddities that cropped up for me and some tips.</p>
+<hr>
+<h2>Colours</h2>
+<p>I'll start with an oddity. In a big codebase that had evolved over a long time with lots of different parts, I once counted 15 different versions of what was supposedly the same green. Some were a HTML colour name, some hex, some RGB.</p>
+<h2>Consistency first</h2>
+<p>This widespread variation of colours taught me something valuable. You can't just get into a replace operation. You need to get your old colours lined up first. If you can reach a point where each colour is defined once, with a single source of truth then it makes changing it much easier.</p>
+<p>It's important to document your colour scheme somewhere where all designers and developers can get it easily so they use the right values. This is fairly standard practice these days but wasn't in the past and still might not be for smaller projects.</p>
+<p>Once you have your well defined colours it's now relatively easy to switch out the old for the new but there can still be some hiccups.</p>
+<h2>Colour frameworks</h2>
+<p>Some colour schemes will have a primary colour and then neutrals - black white and various shades of grey. Others will have a primary and a secondary as well as neutrals. Moving from one colour list to another can be hard if they don't naturally align.</p>
+<h2>Neutrals</h2>
+<p>It's probably easiest to tackle the neutrals first. How many shades does each scheme contain? Your focus should not be on finding the nearest match for each but on how the new branding would want the various shades to be used. Is a light grey only intended to be used as an alternative background colour to white? Maybe it's not suitable for text as it doesn't have sufficient contrast against white. It's important to know what combinations of shades can be used together to provide enough contrast to be accessible.</p>
+<p>If you're moving from a scheme which has 3 greys to one which has 10, rather than match 3 look at the branding guidelines or existing uses to see whcih is best for each use case. This is a lengthy process to do right but you do have the option of a phased approach, matching the closest shade initially and then taking a more refined approach later. In my experience people don't generally get offended by a shade of grey being suboptimal like they might with primary brand colours.</p>
+<h2>Status colours</h2>
+<p>Colours that are used exclusively to communicate statuses, such as success, errors, warnings, or information are usually quite straightforward to adapt. A well designed colour scheme should have these clearly defined.</p>
+<p>I've come across a situation where the old colour scheme had additional statuses that the new scheme did not consider. For example, we had &quot;expired&quot; (red/error), &quot;expiring&quot; (amber/warning), &quot;valid&quot; (green/success), &quot;new&quot; (blue/info) but also &quot;pending&quot;. In this case I chose to use a neutral grey so as not to introduce anything new from outside the overall colour scheme.</p>
+<h2>Brand colours</h2>
+<p>The use of the primary brand colour is usually the most contentious issue. Hopefully it's a like for like swap but it can be harder. I've encounterted the situation where the old scheme had a single primary brand colour but the new scheme has 2 main colours. You need to work out what to use where and think about the balance.</p>
+<p>Imagine a website for a coffee shop with an Italian theme, where the design is to use lots of green and red on white, like the Italian flag. I don't know if anything this corny really exists anywhere but it illustrates the point. It would need to use both colours for the idea to work so it can't just swap the old colour, say brown, to just red. This becomes quite a manual, design driven process so takes longer than a simple code change.</p>
+<p>Of course, you may get the opposite where more colours become fewer, but that's much easier.</p>
+<h2>Semantics</h2>
+<p>To throw in a general bit of design theory, it's important for any interactive elements such as buttons or links to be obvious. Ideally you'd use unique colours for links, not the same colour as headings, so that it's immediately obvious to a user what can be clicked and what can't.</p>
+<hr>
+<p>In this Rebranding Tips series:</p>
+<ul>
+<li><a href="/blog/rebranding-tips-part-1-logos">Rebranding Tips - Part 1 - Logos</a></li>
+<li><a href="/blog/rebranding-tips-part-2-brand-names">Rebranding Tips - Part 2 - Brand Names</a></li>
+<li>Rebranding Tips - Part 3 - Colours</li>
+<li><a href="/blog/rebranding-tips-part-4-typography">Rebranding Tips - Part 4 - Typography</a></li>
+</ul>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
   <div aria-label="Links to social media and RSS feed">
     <a
       href="https://codepen.io/chris22smith/"
@@ -135,103 +232,6 @@
       </svg>
     </a>
   </div>
-</header>
-
-    <main id="content">
-      <article itemscope itemtype="https://schema.org/Article">
-        <h1 itemprop="name">Rebranding Tips - Part 3 - Colours</h1>
-        <div class="subhead">
-          <address>
-            <span>by</span>
-            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-01-08T16:32:00.000Z" itemprop="datePublished">8 January 2024</time>
-        </div>      
-      <p>I've been through a number of website or apps rebranding exercises, ranging from just a logo update to full blown name, domain and colour scheme and typographical changes. I thought I'd share some of the oddities that cropped up for me and some tips.</p>
-<hr>
-<h2>Colours</h2>
-<p>I'll start with an oddity. In a big codebase that had evolved over a long time with lots of different parts, I once counted 15 different versions of what was supposedly the same green. Some were a HTML colour name, some hex, some RGB.</p>
-<h2>Consistency first</h2>
-<p>This widespread variation of colours taught me something valuable. You can't just get into a replace operation. You need to get your old colours lined up first. If you can reach a point where each colour is defined once, with a single source of truth then it makes changing it much easier.</p>
-<p>It's important to document your colour scheme somewhere where all designers and developers can get it easily so they use the right values. This is fairly standard practice these days but wasn't in the past and still might not be for smaller projects.</p>
-<p>Once you have your well defined colours it's now relatively easy to switch out the old for the new but there can still be some hiccups.</p>
-<h2>Colour frameworks</h2>
-<p>Some colour schemes will have a primary colour and then neutrals - black white and various shades of grey. Others will have a primary and a secondary as well as neutrals. Moving from one colour list to another can be hard if they don't naturally align.</p>
-<h2>Neutrals</h2>
-<p>It's probably easiest to tackle the neutrals first. How many shades does each scheme contain? Your focus should not be on finding the nearest match for each but on how the new branding would want the various shades to be used. Is a light grey only intended to be used as an alternative background colour to white? Maybe it's not suitable for text as it doesn't have sufficient contrast against white. It's important to know what combinations of shades can be used together to provide enough contrast to be accessible.</p>
-<p>If you're moving from a scheme which has 3 greys to one which has 10, rather than match 3 look at the branding guidelines or existing uses to see whcih is best for each use case. This is a lengthy process to do right but you do have the option of a phased approach, matching the closest shade initially and then taking a more refined approach later. In my experience people don't generally get offended by a shade of grey being suboptimal like they might with primary brand colours.</p>
-<h2>Status colours</h2>
-<p>Colours that are used exclusively to communicate statuses, such as success, errors, warnings, or information are usually quite straightforward to adapt. A well designed colour scheme should have these clearly defined.</p>
-<p>I've come across a situation where the old colour scheme had additional statuses that the new scheme did not consider. For example, we had &quot;expired&quot; (red/error), &quot;expiring&quot; (amber/warning), &quot;valid&quot; (green/success), &quot;new&quot; (blue/info) but also &quot;pending&quot;. In this case I chose to use a neutral grey so as not to introduce anything new from outside the overall colour scheme.</p>
-<h2>Brand colours</h2>
-<p>The use of the primary brand colour is usually the most contentious issue. Hopefully it's a like for like swap but it can be harder. I've encounterted the situation where the old scheme had a single primary brand colour but the new scheme has 2 main colours. You need to work out what to use where and think about the balance.</p>
-<p>Imagine a website for a coffee shop with an Italian theme, where the design is to use lots of green and red on white, like the Italian flag. I don't know if anything this corny really exists anywhere but it illustrates the point. It would need to use both colours for the idea to work so it can't just swap the old colour, say brown, to just red. This becomes quite a manual, design driven process so takes longer than a simple code change.</p>
-<p>Of course, you may get the opposite where more colours become fewer, but that's much easier.</p>
-<h2>Semantics</h2>
-<p>To throw in a general bit of design theory, it's important for any interactive elements such as buttons or links to be obvious. Ideally you'd use unique colours for links, not the same colour as headings, so that it's immediately obvious to a user what can be clicked and what can't.</p>
-<hr>
-<p>In this Rebranding Tips series:</p>
-<ul>
-<li><a href="/blog/rebranding-tips-part-1-logos">Rebranding Tips - Part 1 - Logos</a></li>
-<li><a href="/blog/rebranding-tips-part-2-brand-names">Rebranding Tips - Part 2 - Brand Names</a></li>
-<li>Rebranding Tips - Part 3 - Colours</li>
-<li><a href="/blog/rebranding-tips-part-4-typography">Rebranding Tips - Part 4 - Typography</a></li>
-</ul>
-
-      <aside class="about-the-author" aria-labelledby="about-heading">
-  <div class="about-layout">
-    <div>
-      <img
-        id="cs-portrait"
-        src="../../../img/chris-smith-cartoon-2023.webp"
-        alt="Photo of Chris Smith, head shot with field and trees in the background"
-      />
-    </div>
-    <div>
-      <h2 id="about-heading">About me</h2>
-      <p>
-        I'm Chris Smith, a senior front-end developer and team lead from the UK.
-        I've been making web pages easy to use, fast and accessible since 1999.
-      </p>
-      <p
-        >I don't use any AI tools in my content, it's all me, for better or
-        worse.</p
-      >
-      <p>
-        You can reach me on
-        <a
-          href="https://codepen.io/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >CodePen</a
-        >,
-        <a
-          href="https://mastodon.social/@chris22smith"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Mastodon</a
-        >
-        and
-        <a
-          href="https://twitter.com/chris22smith/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X (Twitter)</a
-        >.
-      </p>
-      <div class="kofi-widget-container">
-  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-  <script type="text/javascript">
-    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
-    kofiwidget2.draw();
-  </script>
-</div>
-
-    </div>
-  </div>
-</aside>
-
-      </article>
-    </main>
-    <footer>
   <div>&copy; Chris Smith 2008-2024.</div>
 </footer>
 
