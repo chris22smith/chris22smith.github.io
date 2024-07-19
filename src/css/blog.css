@@ -282,6 +282,32 @@ hr {
   margin: 2em 0;
 }
 
+blockquote {
+  border: solid 1px #d07;
+  border-radius: 0.25em;
+  margin: 1em 2em;
+  padding: 0 2em;
+  position: relative;
+}
+
+blockquote:before,
+blockquote:after {
+  color: #d07;
+  font-family: serif;
+  font-size: 3em;
+  position: absolute;
+}
+
+blockquote:before {
+  content: "“";
+  inset: -0.125em auto auto -0.6em;
+}
+
+blockquote:after {
+  content: "”";
+  inset: auto -0.6em -0.5em auto;
+}
+
 .about-the-author {
   background-color: #333;
   color: #eee;
