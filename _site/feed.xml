@@ -8,6 +8,38 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Code formatting and style guides</title>
+      <link>https://chrissmith.xyz/blog/2024/code-formatting-and-style-guides/</link>
+      <description>&lt;p&gt;When you have a team of developers, each with their own coding styles and preferences, how do you keep everyone aligned and your code consistent?&lt;/p&gt;
+&lt;p&gt;I&#39;m talking about the little things here, like whether you use single quotes or double quotes in your JavaScript. Do you end lines in JavaScript with a semi-colon or not bother? In HTML, do you use closing tags for &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; elements or not bother? In CSS, do you order your properties alphabetically, by some other logical rule, or have no rules? Let&#39;s not get into tabs vs spaces.&lt;/p&gt;
+&lt;p&gt;Without any rules in place, developers can keeping changing the coding style with each commit, so, one file could keep flipping back and forth between single and double quotes. Whilst the code still runs this does create a lot of noise in pull requests, making it much harder to see what has actually changed functionally, rather than just formatting.&lt;/p&gt;
+&lt;p&gt;Some companies have a coding style guide, where they actually specify how things should be done. This is the law, this is how we do things here.&lt;/p&gt;
+&lt;p&gt;This means developers actively consulting it, getting to know it and using it. This is fine with longer term employees but if there&#39;s a high turnover of developers it&#39;s not very practical.&lt;/p&gt;
+&lt;h2&gt;Prettier&lt;/h2&gt;
+&lt;p&gt;Our approach has been to use &lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;, a VS Code extension which manages all of the preferences for you. Not only does it log all the rules but it enforces them and can be set to actively change the code to reflect them on file save. So, every time you open a file and save changes it implements the coding style. This does mean a lot of pull request noise the first time but then you never have to worry about it again.&lt;/p&gt;
+&lt;p&gt;In terms of the actual rules, our thinking has been to just adopt Prettier&#39;s out-of-the-box default settings. We trust that the publishers will have set sensible defaults, probably the most commonly used and it also means zero maintenance of the settings. If a new dev joins we can simply get them to install the Prettier extension and it&#39;s job done. Our coding style guide is effectively now a one-liner.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 25 Jul 2024 15:15:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/code-formatting-and-style-guides/</guid>
+    </item>
+    <item>
+      <title>A dedicated pull request channel</title>
+      <link>https://chrissmith.xyz/blog/2024/a-dedicated-pull-request-channel/</link>
+      <description>&lt;p&gt;As often happens in tech, our company was acquired by a bigger company. Previously we were very much all Microsoft but we&#39;ve transitioned to Google. This included moving from Teams to Slack and then to Google Chat.&lt;/p&gt;
+&lt;p&gt;I don&#39;t really have any strong opinion on these tools. I think they&#39;re all much the same and all do a good job. What I find more interesting is that the act of migrating from one to another means an opportunity to rethink and reorganise teams/channels/spaces. I&#39;ll just use the Slack term &amp;quot;channels&amp;quot; going forward.&lt;/p&gt;
+&lt;h2&gt;Reset&lt;/h2&gt;
+&lt;p&gt;In my experience, channel membership grows over time. Gradually, more and more colleagues peripheral to the core channel membership get added as the need arises but then never leave again. I&#39;ve found myself joining more and more channels where I have little to no day to day involvement. A reset is healthy.&lt;/p&gt;
+&lt;p&gt;During our latest restructure I was keen to trial the idea of a dedicated channel for pull requests. This was to keep them separate from the day to day chat. My original thinking was just to reduce the noise in our chat so that if anyone asked a question it would get the attention is deserved and not get lost in the fog. It turns out it was far more useful than that.&lt;/p&gt;
+&lt;h2&gt;Automated posts&lt;/h2&gt;
+&lt;p&gt;We use webhooks from Azure DevOps (not Google yet) to automatically post updates to the channel. So, every time a new pull request is generated in Azure DevOps a new thread is created in the channel. Furthermore, when it is completed a reply to the same thread appears in the channel.&lt;/p&gt;
+&lt;p&gt;This automation has saved us a lot of time in manually copying and pasting links to pull requests and asking our colleagues to look at them. As something is ready it posts to the channel, triggering a notification. Now, most of our pull requests are jumped on quickly, which further reduces delays.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 25 Jul 2024 15:10:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/a-dedicated-pull-request-channel/</guid>
+    </item>
+    <item>
       <title>Converting jQuery to vanilla JavaScript with an AI assistant</title>
       <link>https://chrissmith.xyz/blog/2024/converting-jquery-to-vanilla-javascript-with-an-ai-assistant/</link>
       <description>&lt;p&gt;I&#39;m using an AI assistant to help me with some laborious code changes. As AI seems to have a bad name in developer circles, I thought I&#39;d try to give an honest appraisal of my experience and see what we can learn about using these tools.&lt;/p&gt;

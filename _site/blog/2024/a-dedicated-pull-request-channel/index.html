@@ -18,15 +18,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offline :(</title>
+    <title>A dedicated pull request channel</title>
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="You&#39;re offline but don&#39;t worry, you can still use this site.">
+    <meta name="description" content="During our latest restructure I was keen to trial the idea of a dedicated channel for pull requests.">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="/manifest.webmanifest">    
+    <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,41 +44,74 @@
 </header>
 
     <main id="content">
-      <article>
-        <h1>Offline :(</h1>
-      <p>You're offline right now but don't worry, any pages you've visted before will be cached so you can still access them.</p>
-<p><a href="/">Home</a></p>
-<div class="dino-container">
-    <img src="/img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">A dedicated pull request channel</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-07-25T14:10:00.000Z" itemprop="datePublished">25 July 2024</time>
+        </div>      
+      <p>As often happens in tech, our company was acquired by a bigger company. Previously we were very much all Microsoft but we've transitioned to Google. This included moving from Teams to Slack and then to Google Chat.</p>
+<p>I don't really have any strong opinion on these tools. I think they're all much the same and all do a good job. What I find more interesting is that the act of migrating from one to another means an opportunity to rethink and reorganise teams/channels/spaces. I'll just use the Slack term &quot;channels&quot; going forward.</p>
+<h2>Reset</h2>
+<p>In my experience, channel membership grows over time. Gradually, more and more colleagues peripheral to the core channel membership get added as the need arises but then never leave again. I've found myself joining more and more channels where I have little to no day to day involvement. A reset is healthy.</p>
+<p>During our latest restructure I was keen to trial the idea of a dedicated channel for pull requests. This was to keep them separate from the day to day chat. My original thinking was just to reduce the noise in our chat so that if anyone asked a question it would get the attention is deserved and not get lost in the fog. It turns out it was far more useful than that.</p>
+<h2>Automated posts</h2>
+<p>We use webhooks from Azure DevOps (not Google yet) to automatically post updates to the channel. So, every time a new pull request is generated in Azure DevOps a new thread is created in the channel. Furthermore, when it is completed a reply to the same thread appears in the channel.</p>
+<p>This automation has saved us a lot of time in manually copying and pasting links to pull requests and asking our colleagues to look at them. As something is ready it posts to the channel, triggering a notification. Now, most of our pull requests are jumped on quickly, which further reduces delays.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
 </div>
-<style>
-    .dino-container {
 
-    }
-    .dino {
-        animation: run 2s infinite ease-out;
-        block-size: 10vw;
-        inline-size: 10vw;
-    }
-
-    @keyframes run {
-        0% {
-            transform: translateX(0) rotateY(0);
-        }
-        40% {
-            transform: translateX(100%) rotateY(0);
-        }
-        50% {
-            transform: translateX(100%) rotateY(180deg);
-        }
-        90% {
-            transform: translateX(0) rotateY(180deg);
-        }
-        100% {
-            transform: translateX(0) rotateY(0);
-        }
-    }
-</style>
+    </div>
+  </div>
+</aside>
 
       </article>
     </main>

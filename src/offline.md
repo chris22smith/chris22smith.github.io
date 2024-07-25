@@ -9,7 +9,7 @@ You're offline right now but don't worry, any pages you've visted before will be
 <a href="/">Home</a>
 
 <div class="dino-container">
-    <img src="../img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
+    <img src="/img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
 </div>
 
 <style>

@@ -18,15 +18,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offline :(</title>
+    <title>Code formatting and style guides</title>
     <meta name="color-scheme" content="dark light">
     <meta name="theme-color" content="#d07">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="You&#39;re offline but don&#39;t worry, you can still use this site.">
+    <meta name="description" content="When you have a team of developers, each with their own coding styles and preferences, how do you keep everyone aligned and your code consistent?">
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="/manifest.webmanifest">    
+    <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,41 +44,74 @@
 </header>
 
     <main id="content">
-      <article>
-        <h1>Offline :(</h1>
-      <p>You're offline right now but don't worry, any pages you've visted before will be cached so you can still access them.</p>
-<p><a href="/">Home</a></p>
-<div class="dino-container">
-    <img src="/img/offline-dino.webp" class="dino" alt="A pixelated dinosaur animation" height="180" width="180">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Code formatting and style guides</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-07-25T14:15:00.000Z" itemprop="datePublished">25 July 2024</time>
+        </div>      
+      <p>When you have a team of developers, each with their own coding styles and preferences, how do you keep everyone aligned and your code consistent?</p>
+<p>I'm talking about the little things here, like whether you use single quotes or double quotes in your JavaScript. Do you end lines in JavaScript with a semi-colon or not bother? In HTML, do you use closing tags for <code>&lt;li&gt;</code> elements or not bother? In CSS, do you order your properties alphabetically, by some other logical rule, or have no rules? Let's not get into tabs vs spaces.</p>
+<p>Without any rules in place, developers can keeping changing the coding style with each commit, so, one file could keep flipping back and forth between single and double quotes. Whilst the code still runs this does create a lot of noise in pull requests, making it much harder to see what has actually changed functionally, rather than just formatting.</p>
+<p>Some companies have a coding style guide, where they actually specify how things should be done. This is the law, this is how we do things here.</p>
+<p>This means developers actively consulting it, getting to know it and using it. This is fine with longer term employees but if there's a high turnover of developers it's not very practical.</p>
+<h2>Prettier</h2>
+<p>Our approach has been to use <a href="https://prettier.io/">Prettier</a>, a VS Code extension which manages all of the preferences for you. Not only does it log all the rules but it enforces them and can be set to actively change the code to reflect them on file save. So, every time you open a file and save changes it implements the coding style. This does mean a lot of pull request noise the first time but then you never have to worry about it again.</p>
+<p>In terms of the actual rules, our thinking has been to just adopt Prettier's out-of-the-box default settings. We trust that the publishers will have set sensible defaults, probably the most commonly used and it also means zero maintenance of the settings. If a new dev joins we can simply get them to install the Prettier extension and it's job done. Our coding style guide is effectively now a one-liner.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
 </div>
-<style>
-    .dino-container {
 
-    }
-    .dino {
-        animation: run 2s infinite ease-out;
-        block-size: 10vw;
-        inline-size: 10vw;
-    }
-
-    @keyframes run {
-        0% {
-            transform: translateX(0) rotateY(0);
-        }
-        40% {
-            transform: translateX(100%) rotateY(0);
-        }
-        50% {
-            transform: translateX(100%) rotateY(180deg);
-        }
-        90% {
-            transform: translateX(0) rotateY(180deg);
-        }
-        100% {
-            transform: translateX(0) rotateY(0);
-        }
-    }
-</style>
+    </div>
+  </div>
+</aside>
 
       </article>
     </main>
