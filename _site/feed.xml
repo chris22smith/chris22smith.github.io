@@ -8,6 +8,34 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Replacing jQuery UI datepicker with HTML date input</title>
+      <link>https://chrissmith.xyz/blog/2024/replacing-jquery-ui-datepicker-with-html-date-input/</link>
+      <description>&lt;p&gt;We have an ageing web app, 10+ years, which uses jQuery UI datepicker throughout. I&#39;m currently in the process of engineering this out so that we can use native HTML input elements with type of date instead.&lt;/p&gt;
+&lt;h2&gt;Why bother?&lt;/h2&gt;
+&lt;p&gt;jQuery UI&#39;s datepicker dates back to a time before a native date input being a thing. At the time it was a great solution, making a nice picker UI for users. It generates a calendar view with days of the month laid out in weeks, a typical month-to-view.&lt;/p&gt;
+&lt;p&gt;One of the issues with this now is that the calendar uses links for dates rather than buttons. Not only is this not very semantic and probably not very accessible but it creates the problem of links pointing to # (&lt;code&gt;href=&amp;quot;#&amp;quot;&lt;/code&gt;) and us having to use &lt;code&gt;event.preventDefault()&lt;/code&gt;. That was common practice at one time but now I think we all recognise that those links should be buttons.&lt;/p&gt;
+&lt;p&gt;The other issue is just that it&#39;s an additional dependency that is not needed and is not being actively updated so it&#39;s redundant and at risk of becoming a problem in the future. If we can get rid of jQuery UI then it paves the way for getting rid of jQuery too. There could be a nice performance gain by removing the additional resource loading.&lt;/p&gt;
+&lt;h2&gt;How they both work&lt;/h2&gt;
+&lt;p&gt;jQuery UI datepicker works by adding the picker functionality on top of an existing text input. This raises the issue of date format. You want to read and write the format in your locale, like dd/mm/yyyy (in the UK) but want to submit the input&#39;s data as yyyy-mm-dd (ISO format). They get around this by cleverly bolting on an additional hidden input. So, you edit the visible input with the display format and it gets converted to the submission format in the hidden input.&lt;/p&gt;
+&lt;p&gt;In our code there&#39;s quite a lot of format conversion going on, switching between date formats and we always have to check that data is received and sent as expected.&lt;/p&gt;
+&lt;p&gt;With the native HTML date input, it&#39;s much simpler. The value is set in ISO format (yyyy-mm-dd) and the browser uses the locale to display it as appropriate. So, it comes in and goes out in the universal date format but each user only ever sees their expected format.&lt;/p&gt;
+&lt;h2&gt;What&#39;s involved in switching?&lt;/h2&gt;
+&lt;p&gt;Firstly, remove the datepicker function, which is where the additional functionality gets added. You should be able to find &lt;code&gt;.datepicker(&lt;/code&gt; in your code. It should now be back to a simple text input. You should still be able to use it as before but you have to type the date in the correct format, and it&#39;s not obvious what this will be, probably yyyy-mm-dd, which is odd and not really guessable for users.&lt;/p&gt;
+&lt;p&gt;Change the input type from &lt;code&gt;&amp;quot;text&amp;quot;&lt;/code&gt; to &lt;code&gt;&amp;quot;date&amp;quot;&lt;/code&gt;, or add &lt;code&gt;type=&amp;quot;date&amp;quot;&lt;/code&gt; if there was no type attribute. Text is the default type so it&#39;s possible it&#39;s been omitted.&lt;/p&gt;
+&lt;p&gt;If you&#39;re very lucky, that&#39;s it. It&#39;ll now automatically adapt to the user&#39;s browser locale and display dates in the correct format. It&#39;ll read in the data in the yyyy-mm-dd format and send that out.&lt;/p&gt;
+&lt;h2&gt;Troubleshooting&lt;/h2&gt;
+&lt;p&gt;If things are not quite as expected you&#39;ll need to look at how data is formatted coming in and how it is processed on its way out. Depending on your stack, you may need to set the format in a model or interface and check that there is no conversion when it is received after submission.&lt;/p&gt;
+&lt;p&gt;You may also need to add CSS for the &lt;code&gt;input[type=date]&lt;/code&gt; if you only has &lt;code&gt;input[type=text]&lt;/code&gt; or &lt;code&gt;.datepicker&lt;/code&gt; previously.&lt;/p&gt;
+&lt;h3&gt;Very specific ASP.NET MVC use case&lt;/h3&gt;
+&lt;p&gt;This is beyond niche, so I won&#39;t be offended if you stop reading, but my particular code used &lt;code&gt;Html.TextBoxFor()&lt;/code&gt; syntax to add the textbox to the UI. In order to get it to read the value in the correct format I had to swap this out for &lt;code&gt;Html.EditorFor&lt;/code&gt; which allows more options on the model and then update the model to include this line:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[DataType(DataType.Date), DisplayFormat(DataFormatString = &amp;quot;{0:yyyy-MM-dd}&amp;quot;, ApplyFormatInEditMode = true)]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This, confusingly, doesn&#39;t actually set the display format at all but the format of the input&#39;s value string.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 31 Jul 2024 16:45:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/replacing-jquery-ui-datepicker-with-html-date-input/</guid>
+    </item>
+    <item>
       <title>Code formatting and style guides</title>
       <link>https://chrissmith.xyz/blog/2024/code-formatting-and-style-guides/</link>
       <description>&lt;p&gt;When you have a team of developers, each with their own coding styles and preferences, how do you keep everyone aligned and your code consistent?&lt;/p&gt;
