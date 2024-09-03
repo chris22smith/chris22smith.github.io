@@ -8,6 +8,52 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Simplifying dates in JavaScript</title>
+      <link>https://chrissmith.xyz/blog/2024/simplifying-dates-in-javascript/</link>
+      <description>&lt;p&gt;I&#39;ve always found working with dates in JavaScript to be a horrible experience but it really doesn&#39;t have to be. There&#39;s an easy way for most use cases.&lt;/p&gt;
+&lt;p&gt;JavaScript has a built-in &lt;code&gt;Date&lt;/code&gt; object with its own constructor function and various methods for getting or setting different parts of the date object or formatting it in different ways. If you need to do more advanced things with manipulating dates then you&#39;ll probably have to use this but a lot of the time it&#39;s just not needed. Let&#39;s look at some of the most common use cases of working with dates and keep it as simple as possible.&lt;/p&gt;
+&lt;h2&gt;Use case 1: Input a date and submit it&lt;/h2&gt;
+&lt;p&gt;Let&#39;s say we&#39;ve got a form capturing personal details which includes a date of birth input. We can use a native input tag with type set to &lt;code&gt;&amp;quot;date&amp;quot;&lt;/code&gt;. This will allow typing in the user&#39;s browser locale, e.g. &lt;code&gt;dd/MM/yyyy&lt;/code&gt; format in the UK, &lt;code&gt;MM/dd/yyyy&lt;/code&gt; in the US, and probably offer a nice UI for picking a date. From the user&#39;s point of view it&#39;s all as they would expect. Under the hood, the date is captured as a string in &lt;code&gt;yyyy-MM-dd&lt;/code&gt; format. Sending this string to the server should be recognised as a date and handled appropriately. It can be stored as a string or will get cast to a &lt;code&gt;DateTime&lt;/code&gt; type.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot; name=&amp;quot;dob&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Use case 2: Loading a date&lt;/h2&gt;
+&lt;p&gt;If we stick with the example above but now want to edit the details then first we&#39;ll need to load them. If the date was stored as a string then it will load straight in with no additional steps needed.&lt;/p&gt;
+&lt;p&gt;If it was stored as a &lt;code&gt;DateTime&lt;/code&gt; type then it will also include some blank time information not needed by the input so we&#39;ll need to get rid of that. There are a few ways of doing that but my preference is to slice the string to only the characters needed. Firstly we use the &lt;code&gt;toISOString()&lt;/code&gt; date method to convert the datetime to ISO format, which starts with &lt;code&gt;yyyy-MM-dd&lt;/code&gt; then we slice the string to keep only the first 10 characters - the 4 digit year, 2 digit month and 2 digit day plus the 2 delimiting dashes.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;document.querySelector(&amp;quot;input[name=dob]&amp;quot;).value = dob.toISOString().slice(0, 10);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Use case 3: Date comparison&lt;/h2&gt;
+&lt;p&gt;If you have dates in a &lt;code&gt;yyyy-MM-dd&lt;/code&gt; string format then it&#39;s easy to compare them as they are already in alphanumeric order. So we can do things like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const startDate = document.querySelector(&amp;quot;input[name=start]&amp;quot;);
+const endDate = document.querySelector(&amp;quot;input[name=end]&amp;quot;);
+if (startDate.value &amp;gt; endDate.value) {
+  // tell the user that the start date can&#39;t be after the end date
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or, as another idea, we could sort a list of people by their date of birth. If we have an array called &lt;code&gt;people&lt;/code&gt; with objects containing a &lt;code&gt;dob&lt;/code&gt; property we can do this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const peopleSortedbyDateOfBirth = people.sort((a, b) =&amp;gt; a.dob - b.dob);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Conversions&lt;/h2&gt;
+&lt;p&gt;If you need to do something that requires the Date object then it&#39;s easy to convert from &lt;code&gt;yyyy-MM-dd&lt;/code&gt; string to &lt;code&gt;Date&lt;/code&gt;. The &lt;code&gt;Date&lt;/code&gt; constructor can take the date string and convert it.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const dateOfBirthString = document.querySelector(&amp;quot;input[name=dob]&amp;quot;).value;
+const dateOfBirthAsDate = new Date(dateOfBirthString);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And, as we&#39;ve seen previously, if we have a &lt;code&gt;Date&lt;/code&gt; object we can get it back into a &lt;code&gt;yyyy-MM-dd&lt;/code&gt; string by doing this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const dateOfBirthAsDate = new Date(1993, 9, 4); // 4th Oct 1993 - the month is zero indexed
+const dateOfBirthString = dateOfBirthAsDate.toISOString().slice(0, 10);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you need to output a date on screen the easiest way is to use the &lt;code&gt;Intl.DateTimeFormat&lt;/code&gt; object. This allows you to set a preferred language or locale to use. Or, if you leave the locale blank it will use the browser locale, which will probably be right most of the time.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const eventDateString = &amp;quot;2024-09-15&amp;quot;; // yyyy-MM-dd
+const eventDateAsDate = new Date(eventDate); // converted
+const displayDate = new Intl.DateTimeFormat(&amp;quot;en-US&amp;quot;).format(eventDateAsDate); // 09/15/2024
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Tips&lt;/h2&gt;
+&lt;p&gt;My advice would be to work with strings wherever possible. If not strings then the Date object. Keep human formatted dates like &#39;09/15/2024&#39; out of your code and convert between working and display date formats. Strings in the &lt;code&gt;yyyy-MM-dd&lt;/code&gt; format are easiest for comparison and sorting.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Sep 2024 17:15:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/simplifying-dates-in-javascript/</guid>
+    </item>
+    <item>
       <title>Replacing jQuery UI datepicker with HTML date input</title>
       <link>https://chrissmith.xyz/blog/2024/replacing-jquery-ui-datepicker-with-html-date-input/</link>
       <description>&lt;p&gt;We have an ageing web app, 10+ years, which uses jQuery UI datepicker throughout. I&#39;m currently in the process of engineering this out so that we can use native HTML input elements with type of date instead.&lt;/p&gt;
