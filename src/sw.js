@@ -1,4 +1,4 @@
-const cacheStaticName = "static-v51";
+const cacheStaticName = "static-v52";
 const cacheDynamicName = "dynamic-v41";
 
 self.addEventListener("install", (event) => {

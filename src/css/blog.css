@@ -345,10 +345,10 @@ blockquote:after {
 }
 
 @media (prefers-color-scheme: light) {
-  body {
+  /* body {
     --c1: #ffffff;
     --c2: #f7f7f7;
-  }
+  } */
   article {
     background-color: #fff;
     border-color: #bbb;
