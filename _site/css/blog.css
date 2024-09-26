@@ -218,6 +218,7 @@ ul {
 }
 
 .post-item > time {
+  background-color: #333;
   border: solid 1px currentColor;
   flex: 0 0 5em;
   padding: 0.25em 0.5em;
@@ -350,7 +351,7 @@ blockquote:after {
     --c2: #f7f7f7;
   } */
   article {
-    background-color: #fff;
+    background-color: #fffff7;
     border-color: #bbb;
     color: #222;
   }
@@ -381,6 +382,9 @@ blockquote:after {
   }
   hr {
     border-block-start: solid 1px #bbb;
+  }
+  .post-item > time {
+    background-color: #fff;
   }
 }
 
