@@ -8,7 +8,7 @@ eleventyNavigation:
   key: "Bulk deleting tweets"
 ---
 
-I joined twitter in 2009. Over the years I wrote over 4,000 tweets and at my peak had over 3,000 followers. I gained a lot of useful knowledge from following others, had some great interactions with people in the web and front end community and just had a lot of fun. But things change.
+I joined twitter in 2009. Over the years I wrote over 4,000 tweets and at my peak had over 3,000 followers. I gained a lot of useful knowledge from following others, had some great interactions with people in the web and front end community and just had a lot of fun. But things change. X is not the same.
 
 I won't bore you with my reasons for now wanting out, as, if you're reading this, I'm sure you're probably in a similar position or not too far away. The good news is that Mastodon has a thriving community, effectively back to the glory years of twitter.
 
