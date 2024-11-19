@@ -1,0 +1,251 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-1979393-16"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-1979393-16");
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk deleting tweets</title>
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#d07">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page">
+    <a href="#content" class="skip-link">Skip to content</a>
+<header>
+  <div>
+    <a href="/" title="Home" class="home" aria-label="Home">
+      <span aria-hidden="true">CS</span>
+    </a>
+  </div>
+</header>
+
+    <main id="content">
+      <article itemscope itemtype="https://schema.org/Article">
+        <h1 itemprop="name">Bulk deleting tweets</h1>
+        <div class="subhead">
+          <address>
+            <span>by</span>
+            <a href="https://chrissmith.xyz" itemprop="author">Chris Smith</a></address>, <time datetime="2024-11-19T17:00:00.000Z" itemprop="datePublished">19 November 2024</time>
+        </div>      
+      <p>I joined twitter in 2009. Over the years I wrote over 4,000 tweets and at my peak had over 3,000 followers. I gained a lot of useful knowledge from following others, had some great interactions with people in the web and front end community and just had a lot of fun. But things change.</p>
+<p>I won't bore you with my reasons for now wanting out, as, if you're reading this, I'm sure you're probably in a similar position or not too far away. The good news is that Mastodon has a thriving community, effectively back to the glory years of twitter.</p>
+<h2>The right way to go</h2>
+<p>I was initially just going to remove my account but having taken advice from others on Mastodon (thank you) there are risks associated with this. If I delete my account the username becomes available again and it opens the door for someone to be able to impersonate me. Whilst this seems unlikely, as I'm not famous or anything, I have had a similar experience in the past with allowing a domain name to expire and somebody taking it over and benefitting from my work in building a website's reputation.</p>
+<p>So, I'm going to do as others have suggested, leave my account intact but delete all the tweets. This removes my history and hopefully prevents my data from being used to train AI models, not that I can ever know or do anything about that.</p>
+<h2>Deleting the tweets</h2>
+<p>Obviously, you can just go to your Profile page and start manually deleting away. I started doing this but it didn't take me long to realise how long this was going to take. So, an automated solution was needed. There are paid services out there but it struck me as being too trivial to be worth paying for. I'm quite used to using Playwright to run automated scripts on a UI in my job but even this seemed like overkill. I decided to just write a script and run it in the browser's JavaScript console.</p>
+<h2>Instructions</h2>
+<ol>
+<li>Open X in Chrome</li>
+<li>Navigate to your Profile page</li>
+<li>Open the DevTools (F12)</li>
+<li>Open the Console tab</li>
+<li>Paste the script below into the console and hit Enter</li>
+<li>Leave it running...</li>
+</ol>
+<p>You should see the count of posts gradually come down at the top of the screen, though this does not refresh every time.</p>
+<h2>The script</h2>
+<p class="codepen" data-height="1100" data-default-tab="js" data-slug-hash="VwoOrOV" data-pen-title="Bulk Delete Tweets" data-user="chris22smith" style="block-size: 1100px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/chris22smith/pen/VwoOrOV">
+  Delete Tweets</a> by Chris Smith (<a href="https://codepen.io/chris22smith">@chris22smith</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<h2>The breakdown</h2>
+<p>For anyone interested, I'll explain how it works, not because you need to know but because you amy be able to write similar things to run against other web applications.</p>
+<p>The basics are to find a tweet, find the interactive elements needed and click them but there's a bit more to it.</p>
+<h3>Recursive</h3>
+<p>You can't simply use <code>document.querySelectorAll()</code> to select all the tweets as only a small number are loaded, with more loading on scroll. So, I decided to use a recursive approach and just tackle the first tweet, then, once that has been deleted tackle the first tweet again, and so on. You'll see the <code>deleteFirstPost()</code> function called again towards the end of itself. Handily, <code>document.querySelector()</code> returns the first matching item.</p>
+<h3>Timeouts</h3>
+<p>There are a lot of timeouts used. From my experience working with Playwright for automated testing I've learnt that it's important to give a web app some breathing space. Humans can only click things so fast but machines can do things instantly. Sometimes this is too fast and it can try to do something before it has rendered or is in a ready state. So, many of the interactions are wrapped in a <code>setTimeout()</code> function with a 500 millisecond delay.</p>
+<p>The final recursive calling of the <code>deleteFirstPost()</code> function is wrapped with a 5000 millisecond or 5 second delay. Whilst this obviously makes things quite a bit slower, waiting 5 seconds between each deletion, it's important to leave a gap. Actions like deleting posts are usually rate limited, meaning that if you try to do things at too high a frequency it is seen as suspicious and blocked. Leaving a longer gap and just leaving it running is more effective.</p>
+<h3>Selectors</h3>
+<p>The final piece to this function is using the right selectors. The HTML is div soup, layers and layers of div elements and it uses dynamic classes so they will never be guaranteed to be the same twice, so we can't really use any of that. However, it does use the <code>data-testid</code> attribute on eahc button so we can use this.</p>
+<p>The other main selector used is the dropdown option for &quot;Delete&quot; or &quot;Undo post&quot;. The dropdown and it's children are just more divs but they ave been given accessible roles, <code>menu</code> and <code>menuitem</code>. The text itself is in a span inside the menu item. Luckily for us, it's always the first item we need so we can just use <code>document.querySelector()</code>.</p>
+<p>Whenever I use a selector I then check if it exists, if it has found a match, before trying to use it. This makes it more robust and less likely to fail. In the case of the dropdown items I also do a quick check against the menu item text to make sure we're picking the right option. If the site was to reorder the options it would break otherwise and who know what bulk action we might be taking.</p>
+<h3>Scroll</h3>
+<p>I added a small scroll with <code>window.scrollBy(0, 150);</code> so that it keeps slowly moving down the page with each deletion. This is just to ensure that the screen does not fill with other non tweet content like ads or recommendations on who to follow and prevent more tweets from loading up and being availbale to select.</p>
+<h2>Please share</h2>
+<p>If you found this useful please feel free to use it yourself and share with others. Thanks.</p>
+
+      <aside class="about-the-author" aria-labelledby="about-heading">
+  <div class="about-layout">
+    <div>
+      <img
+        id="cs-portrait"
+        src="../../../img/chris-smith-cartoon-2023.webp"
+        alt="Photo of Chris Smith, head shot with field and trees in the background"
+      />
+    </div>
+    <div>
+      <h2 id="about-heading">About me</h2>
+      <p>
+        I'm Chris Smith, a senior front-end developer and team lead from the UK.
+        I've been making web pages easy to use, fast and accessible since 1999.
+      </p>
+      <p
+        >I don't use any AI tools in my content, it's all me, for better or
+        worse.</p
+      >
+      <p>
+        You can reach me on
+        <a
+          href="https://codepen.io/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CodePen</a
+        >,
+        <a
+          href="https://mastodon.social/@chris22smith"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mastodon</a
+        >
+        and
+        <a
+          href="https://x.com/chris22smith/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >X</a
+        >.
+      </p>
+      <div class="kofi-widget-container">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">
+    kofiwidget2.init("Buy a coffee on Ko-fi", "#fb4", "K3K2VL0NA");
+    kofiwidget2.draw();
+  </script>
+</div>
+
+    </div>
+  </div>
+</aside>
+
+      </article>
+    </main>
+    <footer>
+  <div aria-label="Links to social media and RSS feed">
+    <a
+      href="https://codepen.io/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="CodePen (opens in new tab)"
+      class="codepen"
+      aria-label="CodePen"
+    >
+      <span class="visually-hidden">CodePen (opens in new tab)</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        class="icon"
+        viewBox="0 0 512 512"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          fill="currentColor"
+          d="M502.285 159.704l-234-156c-7.987-4.915-16.511-4.96-24.571 0l-234 156C3.714 163.703 0 170.847 0 177.989v155.999c0 7.143 3.714 14.286 9.715 18.286l234 156.022c7.987 4.915 16.511 4.96 24.571 0l234-156.022c6-3.999 9.715-11.143 9.715-18.286V177.989c-.001-7.142-3.715-14.286-9.716-18.285zM278 63.131l172.286 114.858-76.857 51.429L278 165.703V63.131zm-44 0v102.572l-95.429 63.715-76.857-51.429L234 63.131zM44 219.132l55.143 36.857L44 292.846v-73.714zm190 229.715L61.714 333.989l76.857-51.429L234 346.275v102.572zm22-140.858l-77.715-52 77.715-52 77.715 52-77.715 52zm22 140.858V346.275l95.429-63.715 76.857 51.429L278 448.847zm190-156.001l-55.143-36.857L468 219.132v73.714z"
+        />
+      </svg>
+    </a>
+    <a
+      href="https://mastodon.social/@chris22smith"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Mastodon (opens in new tab)"
+      class="mastodon"
+    >
+      <span class="visually-hidden">Mastodon (opens in new tab)</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        class="icon"
+        viewBox="0 0 448 512"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          fill="currentColor"
+          d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"
+        />
+      </svg>
+    </a>
+    <a
+      href="https://twitter.com/chris22smith/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="X, formerly Twitter (opens in new tab)"
+      class="x-twitter"
+    >
+      <span class="visually-hidden"
+        >X, formerly Twitter (opens in new tab)</span
+      >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
+        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          fill="currentColor"
+          d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+        />
+      </svg>
+    </a>
+    <a
+      href="/feed.xml"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="RSS Feed (opens in new tab)"
+      class="feed"
+    >
+      <span class="visually-hidden">RSS Feed (opens in new tab)</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        class="icon"
+        viewBox="0 0 448 512"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          fill="currentColor"
+          d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div>&copy; Chris Smith 2008-2024.</div>
+</footer>
+
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

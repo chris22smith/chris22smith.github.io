@@ -8,6 +8,54 @@
     <description>The personal blog of Chris Smith, front end web developer from the UK</description>
     <language>en</language>
     <item>
+      <title>Bulk deleting tweets</title>
+      <link>https://chrissmith.xyz/blog/2024/bulk-deleting-tweets/</link>
+      <description>&lt;p&gt;I joined twitter in 2009. Over the years I wrote over 4,000 tweets and at my peak had over 3,000 followers. I gained a lot of useful knowledge from following others, had some great interactions with people in the web and front end community and just had a lot of fun. But things change.&lt;/p&gt;
+&lt;p&gt;I won&#39;t bore you with my reasons for now wanting out, as, if you&#39;re reading this, I&#39;m sure you&#39;re probably in a similar position or not too far away. The good news is that Mastodon has a thriving community, effectively back to the glory years of twitter.&lt;/p&gt;
+&lt;h2&gt;The right way to go&lt;/h2&gt;
+&lt;p&gt;I was initially just going to remove my account but having taken advice from others on Mastodon (thank you) there are risks associated with this. If I delete my account the username becomes available again and it opens the door for someone to be able to impersonate me. Whilst this seems unlikely, as I&#39;m not famous or anything, I have had a similar experience in the past with allowing a domain name to expire and somebody taking it over and benefitting from my work in building a website&#39;s reputation.&lt;/p&gt;
+&lt;p&gt;So, I&#39;m going to do as others have suggested, leave my account intact but delete all the tweets. This removes my history and hopefully prevents my data from being used to train AI models, not that I can ever know or do anything about that.&lt;/p&gt;
+&lt;h2&gt;Deleting the tweets&lt;/h2&gt;
+&lt;p&gt;Obviously, you can just go to your Profile page and start manually deleting away. I started doing this but it didn&#39;t take me long to realise how long this was going to take. So, an automated solution was needed. There are paid services out there but it struck me as being too trivial to be worth paying for. I&#39;m quite used to using Playwright to run automated scripts on a UI in my job but even this seemed like overkill. I decided to just write a script and run it in the browser&#39;s JavaScript console.&lt;/p&gt;
+&lt;h2&gt;Instructions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open X in Chrome&lt;/li&gt;
+&lt;li&gt;Navigate to your Profile page&lt;/li&gt;
+&lt;li&gt;Open the DevTools (F12)&lt;/li&gt;
+&lt;li&gt;Open the Console tab&lt;/li&gt;
+&lt;li&gt;Paste the script below into the console and hit Enter&lt;/li&gt;
+&lt;li&gt;Leave it running...&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You should see the count of posts gradually come down at the top of the screen, though this does not refresh every time.&lt;/p&gt;
+&lt;h2&gt;The script&lt;/h2&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;1100&quot; data-default-tab=&quot;js&quot; data-slug-hash=&quot;VwoOrOV&quot; data-pen-title=&quot;Bulk Delete Tweets&quot; data-user=&quot;chris22smith&quot; style=&quot;block-size: 1100px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/chris22smith/pen/VwoOrOV&quot;&gt;
+  Delete Tweets&lt;/a&gt; by Chris Smith (&lt;a href=&quot;https://codepen.io/chris22smith&quot;&gt;@chris22smith&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;h2&gt;The breakdown&lt;/h2&gt;
+&lt;p&gt;For anyone interested, I&#39;ll explain how it works, not because you need to know but because you amy be able to write similar things to run against other web applications.&lt;/p&gt;
+&lt;p&gt;The basics are to find a tweet, find the interactive elements needed and click them but there&#39;s a bit more to it.&lt;/p&gt;
+&lt;h3&gt;Recursive&lt;/h3&gt;
+&lt;p&gt;You can&#39;t simply use &lt;code&gt;document.querySelectorAll()&lt;/code&gt; to select all the tweets as only a small number are loaded, with more loading on scroll. So, I decided to use a recursive approach and just tackle the first tweet, then, once that has been deleted tackle the first tweet again, and so on. You&#39;ll see the &lt;code&gt;deleteFirstPost()&lt;/code&gt; function called again towards the end of itself. Handily, &lt;code&gt;document.querySelector()&lt;/code&gt; returns the first matching item.&lt;/p&gt;
+&lt;h3&gt;Timeouts&lt;/h3&gt;
+&lt;p&gt;There are a lot of timeouts used. From my experience working with Playwright for automated testing I&#39;ve learnt that it&#39;s important to give a web app some breathing space. Humans can only click things so fast but machines can do things instantly. Sometimes this is too fast and it can try to do something before it has rendered or is in a ready state. So, many of the interactions are wrapped in a &lt;code&gt;setTimeout()&lt;/code&gt; function with a 500 millisecond delay.&lt;/p&gt;
+&lt;p&gt;The final recursive calling of the &lt;code&gt;deleteFirstPost()&lt;/code&gt; function is wrapped with a 5000 millisecond or 5 second delay. Whilst this obviously makes things quite a bit slower, waiting 5 seconds between each deletion, it&#39;s important to leave a gap. Actions like deleting posts are usually rate limited, meaning that if you try to do things at too high a frequency it is seen as suspicious and blocked. Leaving a longer gap and just leaving it running is more effective.&lt;/p&gt;
+&lt;h3&gt;Selectors&lt;/h3&gt;
+&lt;p&gt;The final piece to this function is using the right selectors. The HTML is div soup, layers and layers of div elements and it uses dynamic classes so they will never be guaranteed to be the same twice, so we can&#39;t really use any of that. However, it does use the &lt;code&gt;data-testid&lt;/code&gt; attribute on eahc button so we can use this.&lt;/p&gt;
+&lt;p&gt;The other main selector used is the dropdown option for &amp;quot;Delete&amp;quot; or &amp;quot;Undo post&amp;quot;. The dropdown and it&#39;s children are just more divs but they ave been given accessible roles, &lt;code&gt;menu&lt;/code&gt; and &lt;code&gt;menuitem&lt;/code&gt;. The text itself is in a span inside the menu item. Luckily for us, it&#39;s always the first item we need so we can just use &lt;code&gt;document.querySelector()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Whenever I use a selector I then check if it exists, if it has found a match, before trying to use it. This makes it more robust and less likely to fail. In the case of the dropdown items I also do a quick check against the menu item text to make sure we&#39;re picking the right option. If the site was to reorder the options it would break otherwise and who know what bulk action we might be taking.&lt;/p&gt;
+&lt;h3&gt;Scroll&lt;/h3&gt;
+&lt;p&gt;I added a small scroll with &lt;code&gt;window.scrollBy(0, 150);&lt;/code&gt; so that it keeps slowly moving down the page with each deletion. This is just to ensure that the screen does not fill with other non tweet content like ads or recommendations on who to follow and prevent more tweets from loading up and being availbale to select.&lt;/p&gt;
+&lt;h2&gt;Please share&lt;/h2&gt;
+&lt;p&gt;If you found this useful please feel free to use it yourself and share with others. Thanks.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 19 Nov 2024 17:00:00 +0000</pubDate>
+      <dc:creator>Chris Smith</dc:creator>
+      <guid>https://chrissmith.xyz/blog/2024/bulk-deleting-tweets/</guid>
+    </item>
+    <item>
       <title>Simplifying dates in JavaScript</title>
       <link>https://chrissmith.xyz/blog/2024/simplifying-dates-in-javascript/</link>
       <description>&lt;p&gt;I&#39;ve always found working with dates in JavaScript to be a horrible experience but it really doesn&#39;t have to be. There&#39;s an easy way for most use cases.&lt;/p&gt;
